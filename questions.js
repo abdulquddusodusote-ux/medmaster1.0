@@ -12718,6 +12718,4974 @@ const questions = [
     question: "A substance that is freely filtered at the glomerulus and is highly secreted by the renal tubules will have a measured clearance value that is strictly lower than the true Glomerular Filtration Rate.",
     answer: false,
     explanation: "If a substance is filtered and secreted, more of it ends up in the urine than was filtered, making its clearance *higher* than the GFR (like PAH)."
+  },
+    // ===== PHYSIOLOGY – CARDIOVASCULAR PHYSIOLOGY (CONTINUED) =====
+
+  // SECTION 12: Cardiac Reserve, Stroke Volume & Cardiac Output Determinants
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac reserve is the maximum increase in cardiac output above the normal value that can be achieved, expressed as a percentage.",
+    answer: true,
+    explanation: "Cardiac reserve reflects the heart's functional capacity to increase output beyond resting levels during demand."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Normal cardiac reserve in adults is 300‑400%, while in athletes it can reach 500‑600%.",
+    answer: true,
+    explanation: "Athletes have greater cardiac reserve due to enhanced stroke volume and myocardial efficiency."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac reserve decreases with old age, falling to 200‑250%.",
+    answer: true,
+    explanation: "Age-related changes reduce the heart's ability to increase output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Stroke volume is the volume of blood pumped out of each ventricle per beat.",
+    answer: true,
+    explanation: "SV is the amount ejected with each ventricular contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Stroke volume depends on end-diastolic volume (EDV), contractility, and end-systolic volume (ESV).",
+    answer: true,
+    explanation: "SV = EDV − ESV, and both EDV and contractility determine the ejected volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "End-diastolic volume is also called preload.",
+    answer: true,
+    explanation: "Preload is the volume in the ventricle at the end of diastole, determining initial fibre stretch."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Contractility is the intrinsic ability of the myocardium to generate force independent of preload.",
+    answer: true,
+    explanation: "Increased contractility increases SV even at the same EDV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Stroke volume increases when end-systolic volume (ESV) increases.",
+    answer: false,
+    explanation: "SV increases when ESV decreases, as more blood is ejected from the ventricle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The stroke volumes of the left and right ventricles are generally equal in a healthy heart.",
+    answer: true,
+    explanation: "The outputs of both ventricles match to maintain balanced pulmonary and systemic circulations."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Men generally have higher stroke volumes than women due to larger heart size.",
+    answer: true,
+    explanation: "A larger heart has greater chamber volume and can eject more blood per beat."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "During maximal exercise, stroke volume can increase to 110‑130 mL in untrained individuals.",
+    answer: true,
+    explanation: "Exercise enhances venous return and contractility, increasing SV above resting values."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Stroke volume is regulated by EDV/preload, total peripheral resistance/afterload, and contractility.",
+    answer: true,
+    explanation: "These three factors—preload, afterload, and contractility—are the primary determinants of SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Total peripheral resistance is the frictional resistance in the arteries against which the heart must eject blood.",
+    answer: true,
+    explanation: "TPR represents the afterload that the ventricle must overcome to open the aortic valve."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Higher total peripheral resistance increases stroke volume.",
+    answer: false,
+    explanation: "Higher TPR increases afterload, making ejection more difficult and reducing SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Ejection fraction is the percentage of EDV ejected with each stroke.",
+    answer: true,
+    explanation: "EF = (SV / EDV) × 100, and normal EF is approximately 50‑65%."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "An ejection fraction below 40% indicates reduced ventricular function (systolic heart failure).",
+    answer: true,
+    explanation: "Low EF indicates the ventricle is failing to eject adequate blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "End‑diastolic volume (preload) is controlled by factors that affect venous return.",
+    answer: true,
+    explanation: "Venous return determines how much blood fills the ventricle before contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Total blood volume affects venous return because greater blood volume increases venous pressure.",
+    answer: true,
+    explanation: "Increased volume raises the mean systemic filling pressure, driving more blood back to the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Veins are called capacitance vessels because they can hold more blood at a given pressure than arteries.",
+    answer: true,
+    explanation: "Veins have high compliance and store approximately 60% of total blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "At any time, about 30% of total blood volume is in the veins.",
+    answer: false,
+    explanation: "About two‑thirds (approximately 60‑65%) of total blood volume is in the veins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "A pressure difference of approximately 10 mmHg exists between venules and the right atrium.",
+    answer: true,
+    explanation: "This pressure gradient drives venous return to the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Mean systemic filling pressure is highest in the vena cava and lowest in the venules.",
+    answer: false,
+    explanation: "MSFP is highest in venules (~15 mmHg) and lowest in the vena cava (~0‑5 mmHg)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic venoconstriction reduces venous compliance and enhances venous return.",
+    answer: true,
+    explanation: "Venoconstriction mobilises blood from the venous reservoir toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "During inspiration, intrathoracic pressure decreases, expanding the great veins and enhancing venous return.",
+    answer: true,
+    explanation: "The respiratory pump uses negative intrathoracic pressure to draw blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "During exercise, cardiac output can increase up to 25 L/min in trained athletes.",
+    answer: true,
+    explanation: "Maximal exercise demands high CO, which athletes achieve through enhanced HR and SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac output decreases at high altitude due to reduced oxygen availability.",
+    answer: false,
+    explanation: "CO increases at high altitude in response to hypoxia due to sympathetic activation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac output increases by 30‑50% during pregnancy due to increased blood volume and metabolic demand.",
+    answer: true,
+    explanation: "Pregnancy demands increased perfusion to the uterus, placenta, and maternal tissues."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Strong emotions decrease cardiac output through parasympathetic activation.",
+    answer: false,
+    explanation: "Strong emotions increase CO through sympathetic activation and adrenaline release."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Hyperthyroidism causes a pathological increase in cardiac output due to increased metabolic rate.",
+    answer: true,
+    explanation: "Excess thyroid hormone increases O₂ demand, raising HR and contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "For every 1°C rise in temperature, metabolic rate increases approximately 10%, increasing cardiac output.",
+    answer: true,
+    explanation: "Fever raises metabolic demand, requiring increased CO to meet O₂ needs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Hypothyroidism causes a pathological increase in cardiac output.",
+    answer: false,
+    explanation: "Hypothyroidism reduces metabolic rate, decreasing HR and CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Haemorrhage causes a pathological decrease in cardiac output due to reduced blood volume.",
+    answer: true,
+    explanation: "Acute blood loss reduces venous return, EDV, SV, and thus CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Fick principle states that the amount of a substance taken up by an organ equals the arteriovenous difference multiplied by blood flow.",
+    answer: true,
+    explanation: "Q = (A − V) × F, so F = Q / (A − V) for cardiac output measurement."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The direct Fick method uses oxygen as the indicator substance to measure cardiac output.",
+    answer: true,
+    explanation: "CO = O₂ consumption / (PVO₂ − PAO₂), measuring pulmonary blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The direct Fick method requires oxygen content from pulmonary artery and peripheral artery samples.",
+    answer: true,
+    explanation: "Mixed venous blood is sampled from the pulmonary artery; arterial blood from a peripheral artery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The direct Fick method is non‑invasive and carries no risk of complications.",
+    answer: false,
+    explanation: "It is invasive, requiring pulmonary artery catheterisation with risks of infection and arrhythmias."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The dye dilution method uses a known amount of indicator injected into the right atrium.",
+    answer: true,
+    explanation: "A bolus of dye is injected, and its concentration over time in peripheral blood is measured."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "An ideal indicator for dye dilution must be non‑toxic, mix evenly, and be easy to measure.",
+    answer: true,
+    explanation: "Safe, uniform mixing, and detectability are essential properties for accurate measurement."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Evan's blue dye is commonly used in the indicator dilution method.",
+    answer: true,
+    explanation: "Evan's blue dye is a standard indicator for cardiac output measurement."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The thermodilution method uses cold saline as the indicator instead of a chemical dye.",
+    answer: true,
+    explanation: "Temperature change caused by cold saline is measured instead of dye concentration."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The thermodilution method requires a Swan‑Ganz (pulmonary artery) catheter with a thermistor.",
+    answer: true,
+    explanation: "The thermistor at the catheter tip measures temperature changes in the pulmonary artery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Doppler echocardiography uses ultrasound to measure cardiac output non‑invasively.",
+    answer: true,
+    explanation: "Doppler ultrasound measures blood flow velocity through cardiac chambers."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Doppler echocardiography can measure EDV, ESV, CO, and detect valvular defects.",
+    answer: true,
+    explanation: "Echocardiography provides comprehensive cardiac structural and functional assessment."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Doppler effect causes sound waves reflected from moving structures to shift in frequency proportional to velocity.",
+    answer: true,
+    explanation: "Frequency shift allows measurement of blood flow velocity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Ballistocardiography records body movements caused by the ballistic recoil of the pumping heart.",
+    answer: true,
+    explanation: "The heart's ejection creates recoil forces that move the body with each beat."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The J peak on a ballistocardiogram correlates with aortic blood flow velocity.",
+    answer: true,
+    explanation: "The largest deflection (J wave) corresponds to peak aortic flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The five main factors controlling cardiac output are venous return, myocardial contractility, peripheral resistance, blood volume, and heart rate.",
+    answer: true,
+    explanation: "These factors collectively determine CO = HR × SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Venous return is the most important long‑term determinant of cardiac output.",
+    answer: true,
+    explanation: "The heart can only pump what it receives; venous return sets the upper limit of CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Frank‑Starling law states that the force of contraction is directly proportional to the initial length of muscle fibre.",
+    answer: true,
+    explanation: "Greater EDV stretches fibres, increasing contraction force via optimal actin‑myosin overlap."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Frank‑Starling mechanism is an extrinsic mechanism requiring neural input.",
+    answer: false,
+    explanation: "The Frank‑Starling mechanism is intrinsic and operates without neural or hormonal control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "As EDV increases, stroke volume increases up to an optimal sarcomere length, then may decrease with overstretching.",
+    answer: true,
+    explanation: "Optimal overlap maximises cross‑bridge formation; excessive stretch reduces force."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac function curves plot cardiac output against central venous pressure (or right atrial pressure).",
+    answer: true,
+    explanation: "These curves demonstrate the relationship between preload and cardiac output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation shifts cardiac function curves upward and to the left.",
+    answer: true,
+    explanation: "Positive inotropy increases SV and CO at any given filling pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Heart failure shifts cardiac function curves downward and to the right.",
+    answer: true,
+    explanation: "Reduced contractility requires higher filling pressure to achieve lower output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "During inspiration, the diaphragm descends, decreasing intrathoracic pressure and enhancing venous return.",
+    answer: true,
+    explanation: "Lower intrathoracic pressure expands the IVC and right atrium, drawing blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The respiratory pump is most effective during exercise when breathing is deep and rapid.",
+    answer: true,
+    explanation: "Deeper, faster breaths create greater pressure changes and enhance venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Vis‑a‑tergo is the suction force from the front that pulls blood from veins into the right atrium.",
+    answer: false,
+    explanation: "Vis‑a‑tergo is the forward push from behind generated by previous systolic contraction; vis‑a‑fronte is the suction force."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Vis‑a‑fronte is the suction force generated during ventricular systole when AV valves descend.",
+    answer: true,
+    explanation: "AV valve descent expands atrial volume, creating negative pressure that draws blood in."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The skeletal muscle pump compresses deep veins during contraction, forcing blood toward the heart.",
+    answer: true,
+    explanation: "Muscle contraction squeezes veins; valves ensure unidirectional flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Varicose veins result from competent venous valves that work effectively.",
+    answer: false,
+    explanation: "Varicose veins result from incompetent valves that allow backward flow and venous pooling."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Mean systemic filling pressure (MSFP) is the pressure driving blood from the periphery to the right atrium.",
+    answer: true,
+    explanation: "MSFP reflects the fullness of the venous reservoir and drives venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Increased blood volume raises MSFP, which increases venous return and cardiac output.",
+    answer: true,
+    explanation: "Greater volume distends veins, raising pressure and driving more blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation raises MSFP from approximately 7 mmHg to 17 mmHg.",
+    answer: true,
+    explanation: "Venoconstriction increases venous pressure and mobilises the blood reservoir."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Prolonged standing causes venous pooling in the lower extremities and decreases venous return.",
+    answer: true,
+    explanation: "Gravity causes blood to pool in leg veins, reducing return to the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The baroreceptor reflex rapidly compensates for orthostatic hypotension in healthy individuals.",
+    answer: true,
+    explanation: "Baroreceptors detect pressure drop and trigger sympathetic activation to restore BP."
+  },
+
+  // SECTION 13: Arterial Blood Pressure
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arterial blood pressure is defined as the lateral pressure exerted by the moving column of blood on the walls of the arteries.",
+    answer: true,
+    explanation: "BP acts perpendicularly against the arterial wall, distending it in all directions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arteries have thicker tunica media than veins, allowing them to withstand and regulate pressure.",
+    answer: true,
+    explanation: "The thick smooth muscle layer in arteries enables pressure handling and active regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arterial blood pressure ensures blood flow to organs, exchange of nutrients, urine formation, and lymph formation.",
+    answer: true,
+    explanation: "These are the four primary functions of arterial blood pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The normal adult systolic blood pressure range is 90‑140 mmHg.",
+    answer: true,
+    explanation: "SBP normally ranges from 90 to 140 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The normal adult diastolic blood pressure range is 60‑90 mmHg.",
+    answer: true,
+    explanation: "DBP normally ranges from 60 to 90 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Systolic blood pressure is the maximum pressure attained during ventricular systole.",
+    answer: true,
+    explanation: "SBP corresponds to the peak pressure during ventricular contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Systolic blood pressure is determined by the force of heart beat, blood volume, and cardiac output.",
+    answer: true,
+    explanation: "Greater contractility, increased volume, and higher CO all raise SBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Diastolic blood pressure is the minimum pressure at the end of ventricular diastole.",
+    answer: true,
+    explanation: "DBP is the lowest arterial pressure just before the next systole."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Diastolic blood pressure is maintained above zero due to elastic recoil of arteries and peripheral vascular resistance.",
+    answer: true,
+    explanation: "The Windkessel effect sustains pressure during diastole; PVR maintains back‑pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Coronary perfusion occurs predominantly during systole.",
+    answer: false,
+    explanation: "Coronary perfusion occurs predominantly during diastole when coronary vessels are not compressed."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Pulse pressure is the difference between systolic and diastolic blood pressure.",
+    answer: true,
+    explanation: "PP = SBP − DBP, normally about 40 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "A widened pulse pressure may indicate aortic regurgitation or atherosclerosis.",
+    answer: true,
+    explanation: "Aortic regurgitation increases SBP; atherosclerosis reduces arterial compliance, both widening PP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "A narrowed pulse pressure may suggest cardiac tamponade or severe heart failure.",
+    answer: true,
+    explanation: "Reduced stroke volume or impaired ejection narrows the difference between SBP and DBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Mean arterial pressure is the arithmetic mean of systolic and diastolic blood pressure.",
+    answer: false,
+    explanation: "MAP is time‑weighted, not arithmetic; MAP = DBP + ⅓ × PP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "MAP = DBP + ⅓ pulse pressure, with normal MAP being approximately 95 mmHg.",
+    answer: true,
+    explanation: "This formula reflects that diastole occupies about two‑thirds of the cardiac cycle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "MAP represents the average perfusion pressure driving blood to organs.",
+    answer: true,
+    explanation: "MAP is the most clinically relevant indicator of organ perfusion adequacy."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Pulse pressure widens progressively as blood travels from the aorta to the capillaries.",
+    answer: false,
+    explanation: "Pulse pressure narrows as arteriolar resistance dampens pulsatile energy."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Systolic, diastolic, and mean pressures all converge and flatten in the capillaries.",
+    answer: true,
+    explanation: "Pulsatility is lost in capillaries where pressure is steady at ~25 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure decreases with age as arteries become more elastic.",
+    answer: false,
+    explanation: "BP increases with age as arteries stiffen, losing elasticity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Obese individuals generally have higher blood pressure.",
+    answer: true,
+    explanation: "Obesity increases blood volume and peripheral resistance, raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Heat causes vasodilation and lowers blood pressure; cold causes vasoconstriction and raises BP.",
+    answer: true,
+    explanation: "Temperature changes alter vessel diameter, affecting peripheral resistance and BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure is lowest during sleep and rises sharply on waking.",
+    answer: true,
+    explanation: "The morning surge is a normal diurnal variation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Acute exercise raises systolic blood pressure significantly.",
+    answer: true,
+    explanation: "Exercise increases CO and SBP; regular exercise lowers resting BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure may fall in mid‑pregnancy due to hormonal vasodilation.",
+    answer: true,
+    explanation: "Vasodilatory hormones reduce TPR, lowering BP during mid‑pregnancy."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure can be recorded by direct and indirect methods.",
+    answer: true,
+    explanation: "Direct (invasive) and indirect (non‑invasive) methods are both used."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The direct method of recording blood pressure uses a catheter inserted into an artery.",
+    answer: true,
+    explanation: "Direct BP measurement requires arterial cannulation with a pressure transducer."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The auscultatory method was introduced by Korotkoff in 1905.",
+    answer: true,
+    explanation: "Korotkoff described the sounds used to measure SBP and DBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The first Korotkoff sound (Phase 1) marks the diastolic blood pressure.",
+    answer: false,
+    explanation: "Phase 1 marks systolic blood pressure; diastolic is marked by sound disappearance (Phase 5)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Phase 4 (muffling) is used as diastolic BP in pregnancy and exercise states.",
+    answer: true,
+    explanation: "In some patients, sounds do not disappear, so muffling (Phase 4) is used."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The sphygmomanometer works on the principle of external compression of an artery.",
+    answer: true,
+    explanation: "The cuff occludes the artery, then pressure is released to determine SBP and DBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure should be measured with the cuff at heart level to avoid hydrostatic artefacts.",
+    answer: true,
+    explanation: "Height differences create hydrostatic pressure errors in measurement."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The patient should be seated comfortably for at least 5 minutes before BP measurement.",
+    answer: true,
+    explanation: "Resting allows stabilisation of cardiovascular variables."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The cuff should be deflated at approximately 2 mmHg per second during BP measurement.",
+    answer: true,
+    explanation: "Slow deflation allows accurate detection of Korotkoff sounds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The four primary factors maintaining arterial blood pressure are cardiac output, circulating blood volume, elasticity of vessel walls, and blood viscosity.",
+    answer: true,
+    explanation: "These factors collectively determine and maintain BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Increased blood viscosity increases resistance to flow and raises arterial pressure.",
+    answer: true,
+    explanation: "Higher viscosity requires greater pressure to maintain flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Viscosity is increased by higher haematocrit, plasma proteins, and lower temperature.",
+    answer: true,
+    explanation: "More RBCs, proteins, and cold temperature all increase blood viscosity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "General anaesthetics typically increase blood viscosity and raise BP.",
+    answer: false,
+    explanation: "Anaesthetics can reduce viscosity and peripheral resistance, lowering BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Peripheral vascular resistance is primarily contributed by arteriolar smooth muscle.",
+    answer: true,
+    explanation: "Arterioles are the main resistance vessels of the circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arterioles can alter lumen diameter through vasoconstriction or vasodilation.",
+    answer: true,
+    explanation: "Vasomotor changes in arterioles provide fine control of blood flow and BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "BP = CO × PVR, analogous to Ohm's law (V = I × R).",
+    answer: true,
+    explanation: "This relationship shows that BP depends on both cardiac output and vascular resistance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "MAP = CO × TPR is the fundamental equation for mean arterial pressure.",
+    answer: true,
+    explanation: "MAP is the product of cardiac output and total peripheral resistance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure is regulated by immediate, short‑term, and long‑term mechanisms.",
+    answer: true,
+    explanation: "Different time scales ensure rapid and sustained BP control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Immediate BP mechanisms involve neural reflexes such as baroreceptor and chemoreceptor reflexes.",
+    answer: true,
+    explanation: "Neural reflexes respond within seconds to BP changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Short‑term BP mechanisms include capillary fluid shifts and the renin‑angiotensin system.",
+    answer: true,
+    explanation: "These mechanisms act over minutes to hours."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Long‑term BP regulation is achieved by renal control of blood volume via pressure natriuresis.",
+    answer: true,
+    explanation: "The kidneys adjust salt and water excretion to maintain BP over hours to days."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Baroreceptors are located in the carotid sinus and aortic arch.",
+    answer: true,
+    explanation: "These are the major arterial baroreceptor sites."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Carotid sinus baroreceptor afferents travel in the vagus nerve (CN X).",
+    answer: false,
+    explanation: "Carotid sinus afferents travel in the glossopharyngeal nerve (CN IX); aortic arch afferents travel in the vagus."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Aortic arch baroreceptor afferents travel in the glossopharyngeal nerve.",
+    answer: false,
+    explanation: "Aortic arch afferents travel in the vagus nerve (CN X)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Baroreceptor afferents synapse in the nucleus tractus solitarius (NTS) in the medulla.",
+    answer: true,
+    explanation: "The NTS is the primary medullary relay for baroreceptor input."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, baroreceptor firing increases, leading to inhibition of the vasomotor centre.",
+    answer: true,
+    explanation: "Increased firing inhibits VMC, reducing sympathetic output and causing vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, stimulation of the cardioinhibitory centre increases vagal tone, slowing heart rate.",
+    answer: true,
+    explanation: "CIC activation increases parasympathetic output, producing bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The baroreceptor reflex is a positive feedback loop that amplifies changes in BP.",
+    answer: false,
+    explanation: "The baroreceptor reflex is a negative feedback loop that opposes changes in BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Marey's reflex is another name for the baroreceptor reflex.",
+    answer: true,
+    explanation: "The baroreceptor reflex is also known as Marey's reflex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The net effect of increased baroreceptor firing is decreased peripheral resistance and decreased heart rate.",
+    answer: true,
+    explanation: "Both reduced TPR and bradycardia lower BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Peripheral chemoreceptors are located in the carotid and aortic bodies.",
+    answer: true,
+    explanation: "These are the major peripheral chemoreceptor sites."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Peripheral chemoreceptors are stimulated by hypoxia, hypercapnia, and acidosis.",
+    answer: true,
+    explanation: "Low O₂, high CO₂, and low pH trigger chemoreceptor activation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Central chemoreceptors are located in the medulla and are sensitive to CO₂ and pH in cerebrospinal fluid.",
+    answer: true,
+    explanation: "Central chemoreceptors respond primarily to CO₂/H⁺ changes in CSF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chemoreceptor activation leads to vasoconstriction, increased BP, and increased heart rate.",
+    answer: true,
+    explanation: "Stimulation increases sympathetic outflow to the vasculature and heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The cerebral ischaemic response is activated when BP falls below approximately 40 mmHg.",
+    answer: true,
+    explanation: "This emergency mechanism activates when brain perfusion is critically compromised."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cushing's reflex consists of hypertension, bradycardia, and irregular breathing.",
+    answer: true,
+    explanation: "This triad indicates increased intracranial pressure and cerebral ischaemia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cushing's reflex causes hypotension and tachycardia.",
+    answer: false,
+    explanation: "Cushing's reflex produces marked hypertension and bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The capillary fluid shift mechanism buffers BP changes by shifting fluid between blood and interstitium.",
+    answer: true,
+    explanation: "Fluid shifts adjust blood volume in response to pressure changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, increased capillary hydrostatic pressure causes more fluid to filter into the interstitium, reducing blood volume.",
+    answer: true,
+    explanation: "Filtration reduces circulating volume, helping to lower BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP falls, decreased capillary hydrostatic pressure causes reabsorption of fluid from the interstitium.",
+    answer: true,
+    explanation: "Reabsorption increases blood volume, helping to raise BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The renin‑angiotensin system is activated when blood pressure falls.",
+    answer: true,
+    explanation: "Reduced renal perfusion triggers renin release."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renin is released from juxtaglomerular (JG) cells of the afferent arteriole in the kidney.",
+    answer: true,
+    explanation: "JG cells sense reduced pressure and release renin."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renin is a proteolytic enzyme that acts on angiotensinogen to produce angiotensin I.",
+    answer: true,
+    explanation: "Renin cleaves angiotensinogen to form the inactive angiotensin I."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin I is converted to angiotensin II by ACE (Angiotensin Converting Enzyme).",
+    answer: true,
+    explanation: "ACE, primarily in the lungs, converts angiotensin I to the active angiotensin II."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II is a decapeptide.",
+    answer: false,
+    explanation: "Angiotensin II is an octapeptide (eight amino acids)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II causes vasoconstriction, increasing total peripheral resistance and blood pressure.",
+    answer: true,
+    explanation: "Angiotensin II is a potent vasoconstrictor acting directly on arterioles."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II stimulates aldosterone secretion from the adrenal cortex.",
+    answer: true,
+    explanation: "Aldosterone promotes Na⁺ retention and water reabsorption, increasing blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Aldosterone promotes sodium reabsorption and water retention, increasing blood volume.",
+    answer: true,
+    explanation: "Aldosterone acts on distal tubules to retain Na⁺ and water."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II stimulates the thirst centre in the hypothalamus, increasing water intake.",
+    answer: true,
+    explanation: "Thirst stimulation increases fluid intake, raising blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II decreases sodium absorption from the proximal convoluted tubule.",
+    answer: false,
+    explanation: "Angiotensin II increases Na⁺ absorption from the PCT, enhancing volume retention."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "ACE inhibitors block the conversion of angiotensin I to angiotensin II.",
+    answer: true,
+    explanation: "ACE inhibitors are used to treat hypertension by reducing angiotensin II production."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Atrial natriuretic factor (ANF) promotes sodium excretion and decreases blood volume.",
+    answer: true,
+    explanation: "ANF opposes aldosterone, promoting Na⁺ loss and reducing BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Nitric oxide is a potent vasoconstrictor released from vascular endothelium.",
+    answer: false,
+    explanation: "Nitric oxide is a potent vasodilator."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Histamine causes vasodilation and lowers blood pressure.",
+    answer: true,
+    explanation: "Histamine release causes vasodilation; important in anaphylactic reactions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension is defined as persistent elevation of systolic BP above 140 mmHg or diastolic above 90 mmHg.",
+    answer: true,
+    explanation: "Hypertension is diagnosed when BP is persistently ≥ 140/90 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Approximately 30% of people over age 50 are hypertensive.",
+    answer: true,
+    explanation: "Hypertension prevalence increases significantly with age."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Essential (primary) hypertension has a single identifiable cause.",
+    answer: false,
+    explanation: "Essential hypertension has no single cause and is multifactorial."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Secondary hypertension accounts for approximately 10% of hypertension cases.",
+    answer: true,
+    explanation: "Secondary hypertension has an identifiable underlying cause."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renal causes such as glomerulonephritis are common causes of secondary hypertension.",
+    answer: true,
+    explanation: "Renal disease is a major cause of secondary hypertension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Phaeochromocytoma causes secondary hypertension through excess cortisol production.",
+    answer: false,
+    explanation: "Phaeochromocytoma causes excess catecholamines, not cortisol; it's an adrenal medullary tumour."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypotension is defined in adults as systolic blood pressure below 100 mmHg.",
+    answer: true,
+    explanation: "SBP below 100 mmHg is considered hypotension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension is never diagnosed on a single reading; multiple readings over time are required.",
+    answer: true,
+    explanation: "A single elevated reading may be transient; persistent elevation confirms diagnosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Essential hypertension has no identifiable cause and accounts for approximately 90% of hypertension cases.",
+    answer: true,
+    explanation: "Most hypertensive patients have primary hypertension without a single underlying disease."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Secondary hypertension is more common than essential hypertension.",
+    answer: false,
+    explanation: "Essential (primary) hypertension accounts for 90% of cases; secondary hypertension is only 10%."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cushing's syndrome causes secondary hypertension through excess cortisol.",
+    answer: true,
+    explanation: "Cortisol excess promotes fluid retention and vascular sensitivity to catecholamines."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Conn's syndrome (primary hyperaldosteronism) causes hypertension through sodium and water retention.",
+    answer: true,
+    explanation: "Excess aldosterone increases Na⁺ reabsorption, expanding blood volume and raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Thyrotoxicosis causes secondary hypertension through increased cardiac output.",
+    answer: true,
+    explanation: "Excess thyroid hormone raises HR and contractility, elevating systolic BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Phaeochromocytoma causes hypertension through excess catecholamine secretion from the adrenal cortex.",
+    answer: false,
+    explanation: "Phaeochromocytoma is an adrenal medullary tumour that secretes catecholamines, not cortisol."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Atherosclerosis is a vascular cause of secondary hypertension.",
+    answer: true,
+    explanation: "Atherosclerosis reduces arterial compliance, widening pulse pressure and raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Complications of hypertension include coronary heart disease, stroke, myocardial infarction, left ventricular hypertrophy, and chronic kidney failure.",
+    answer: true,
+    explanation: "Hypertension is a major risk factor for these cardiovascular and renal complications."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension is a leading risk factor for stroke.",
+    answer: true,
+    explanation: "High BP damages cerebral vessels, increasing risk of both ischaemic and haemorrhagic strokes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertensive retinopathy is a complication of hypertension.",
+    answer: true,
+    explanation: "Chronic hypertension causes retinal vessel changes detectable on fundoscopy."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Aortic aneurysm is not associated with hypertension.",
+    answer: false,
+    explanation: "Chronic high pressure weakens and dilates the aortic wall, predisposing to aneurysm."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Obesity is a predisposing factor for hypertension.",
+    answer: true,
+    explanation: "Obesity increases blood volume and cardiac output, and adipose tissue secretes renin-like substances."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hereditary factors strongly predispose individuals to hypertension.",
+    answer: true,
+    explanation: "Family history of hypertension significantly increases risk."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chronic alcoholism lowers blood pressure.",
+    answer: false,
+    explanation: "Chronic alcohol consumption raises BP through multiple mechanisms including sympathetic activation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chronic psychological stress maintains elevated sympathetic tone, increasing blood pressure.",
+    answer: true,
+    explanation: "Stress activates the sympathetic nervous system, raising HR and vasoconstriction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Smoking acutely lowers blood pressure through vasodilation.",
+    answer: false,
+    explanation: "Nicotine acutely raises BP; chronic smoking damages endothelium and promotes atherosclerosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Physical inactivity is associated with higher resting blood pressure.",
+    answer: true,
+    explanation: "Sedentary lifestyle impairs cardiovascular regulation and is linked to higher BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Causes of hypotension include haemorrhage, dehydration, vomiting, and diarrhoea.",
+    answer: true,
+    explanation: "These conditions reduce circulating volume, lowering venous return and BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Addison's disease causes hypertension through excessive aldosterone secretion.",
+    answer: false,
+    explanation: "Addison's disease causes adrenocortical insufficiency, leading to Na⁺ wasting and hypotension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypothyroidism causes decreased heart rate and cardiac output, leading to hypotension.",
+    answer: true,
+    explanation: "Reduced thyroid hormone lowers metabolic rate, HR, and CO."
+  },
+
+  // SECTION 14: Lymphatic System & Oedema (Continued)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Approximately 85% of fluid lost at the arterial end of the capillary bed is reclaimed at the venous end.",
+    answer: true,
+    explanation: "The remaining 15% is drained by the lymphatic system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The remaining 15% of filtered fluid not reabsorbed into capillaries becomes lymph.",
+    answer: true,
+    explanation: "This fluid enters lymphatic vessels and is returned to the circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Without adequate lymphatic drainage, excess interstitial fluid can accumulate, causing oedema.",
+    answer: true,
+    explanation: "Lymphatic obstruction prevents fluid removal, leading to oedema and potential tissue damage."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph flows from tissue spaces into the blood and carries away proteins and large particles.",
+    answer: true,
+    explanation: "Proteins and large particles cannot be reabsorbed directly into blood and must be removed via lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the lower body flows down the thoracic duct and empties into the right internal jugular vein.",
+    answer: false,
+    explanation: "Lymph from the lower body flows up the thoracic duct and empties into the left internal jugular and subclavian veins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels collect tissue fluid from loose connective tissue and carry it to the great veins in the neck.",
+    answer: true,
+    explanation: "This is the normal pathway of lymphatic return to the venous system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph flows only toward the heart.",
+    answer: true,
+    explanation: "Lymphatic vessels have valves that ensure unidirectional flow toward the central veins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the right side of the neck, right arm, and parts of the thorax drains into the right lymphatic duct.",
+    answer: true,
+    explanation: "The right lymphatic duct drains the right upper quadrant of the body."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The right lymphatic duct empties into the left subclavian vein.",
+    answer: false,
+    explanation: "The right lymphatic duct empties into the RIGHT subclavian and internal jugular veins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Plasma is the cell‑free part of blood and contains fibrinogen and prothrombin, allowing it to coagulate.",
+    answer: true,
+    explanation: "Plasma contains clotting factors; lymph contains these in smaller quantities and coagulates slowly."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains cells such as lymphocytes and monocytes, salts, and a small amount of proteins.",
+    answer: true,
+    explanation: "This is the cellular and chemical composition of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains sugar (glucose) at approximately 132 mg per 100 ml.",
+    answer: true,
+    explanation: "Glucose is present in lymph, similar to plasma concentrations."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains urea, amino acids, and creatinine as non‑protein nitrogenous substances.",
+    answer: true,
+    explanation: "These metabolic waste products are present in lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains electrolytes including sodium, calcium, potassium, chloride, and bicarbonate.",
+    answer: true,
+    explanation: "These ions are present in lymph, similar to interstitial fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The cellular content of lymph is mainly erythrocytes.",
+    answer: false,
+    explanation: "Lymph contains mainly lymphocytes, with 1000‑2000 per cubic mm."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels are structurally similar to arteries, with thick walls and high pressure.",
+    answer: false,
+    explanation: "Lymphatic vessels are structurally similar to veins, with thin walls and low pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Initial lymphatics lack valves and smooth muscle in their walls.",
+    answer: true,
+    explanation: "Initial lymphatics are passive vessels depending on tissue movement for flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Collecting lymphatics have valves and smooth muscle and contract in a peristaltic manner.",
+    answer: true,
+    explanation: "These features allow active propulsion of lymph along the vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Skeletal muscle movement aids lymph flow in collecting lymphatics.",
+    answer: true,
+    explanation: "Muscle contraction compresses lymphatic vessels, helping propel lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Negative intrathoracic pressure during inspiration aids lymph flow.",
+    answer: true,
+    explanation: "The respiratory pump also assists lymphatic return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels are highly permeable and allow bacteria to pass directly into the lymph.",
+    answer: true,
+    explanation: "High permeability lets foreign material enter lymph for immune processing."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes trap and filter debris and bacteria, which are phagocytosed by macrophages.",
+    answer: true,
+    explanation: "This is the primary filtration function of lymph nodes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Primary lymphoid organs include the spleen and lymph nodes.",
+    answer: false,
+    explanation: "Primary lymphoid organs are bone marrow and thymus; spleen and lymph nodes are secondary."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The red bone marrow produces all formed elements of blood, including erythrocytes, leukocytes, and platelets.",
+    answer: true,
+    explanation: "Bone marrow is the major haemopoietic tissue in adults."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland is a site for B‑lymphocyte maturation.",
+    answer: false,
+    explanation: "The thymus is the site for T‑lymphocyte maturation; B‑cells mature in bone marrow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland is located on the superior surface of the heart and atrophies with age.",
+    answer: true,
+    explanation: "The thymus involutes after childhood, becoming smaller with age."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen is the largest lymphoid organ.",
+    answer: true,
+    explanation: "The spleen is the largest lymphoid organ in the body."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen is located in the upper right hypochondriac region.",
+    answer: false,
+    explanation: "The spleen is located in the upper LEFT hypochondriac region."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The red pulp of the spleen mounts adaptive T‑ and B‑cell responses.",
+    answer: false,
+    explanation: "Red pulp functions as a blood filtration system; white pulp mounts immune responses."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The white pulp of the spleen is where adaptive T‑ and B‑cell responses are mounted.",
+    answer: true,
+    explanation: "White pulp contains lymphoid tissue for immune activation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen stores platelets.",
+    answer: true,
+    explanation: "Platelet storage is one of the spleen's major functions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes are bean‑shaped structures found only in the cervical region.",
+    answer: false,
+    explanation: "Lymph nodes are found in clusters including cervical, axillary, and inguinal regions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The outer cortex of a lymph node is rich in B‑cells, and the inner cortex is rich in T‑cells.",
+    answer: true,
+    explanation: "This is the normal cortical organisation of lymph nodes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The medulla of a lymph node contains large numbers of fixed phagocytic macrophages.",
+    answer: true,
+    explanation: "Medullary macrophages monitor lymph for pathogens."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oedema is the accumulation of interstitial fluid in abnormal quantities.",
+    answer: true,
+    explanation: "This is the definition of oedema."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oedema can result from increased capillary pressure.",
+    answer: true,
+    explanation: "Increased hydrostatic pressure drives more fluid out of capillaries into the interstitium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oedema can result from decreased capillary oncotic pressure.",
+    answer: true,
+    explanation: "Low plasma protein levels reduce reabsorption, allowing fluid accumulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphedema is caused by increased lymph flow.",
+    answer: false,
+    explanation: "Lymphedema is caused by lymphatic obstruction, which reduces lymph drainage."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Abnormal retention of salt and water may cause oedema.",
+    answer: true,
+    explanation: "Salt and water retention increases extracellular fluid volume, leading to oedema."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The outer layer of blood vessels, the tunica externa, is composed primarily of smooth muscle.",
+    answer: false,
+    explanation: "The tunica externa is composed of connective tissue; the tunica media is smooth muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The tunica interna consists of endothelium, basement membrane, and internal elastic lamina.",
+    answer: true,
+    explanation: "These are the three components of the innermost vessel layer."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The endothelium lines the lumina of all blood vessels.",
+    answer: true,
+    explanation: "Endothelium is a continuous lining throughout the vascular system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular endothelium is involved in regulation of vessel integrity, vascular growth, and immune responses.",
+    answer: true,
+    explanation: "Endothelium has multiple functions beyond passive lining."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The endothelium plays a role in angiogenesis and haemostasis.",
+    answer: true,
+    explanation: "Endothelial cells regulate new vessel growth and blood clotting."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "NO (nitric oxide) produced by endothelium causes vasoconstriction.",
+    answer: false,
+    explanation: "NO is a potent vasodilator, not a constrictor."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Endothelin‑1 produced by endothelium causes vasodilation.",
+    answer: false,
+    explanation: "Endothelin‑1 is a potent vasoconstrictor."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Prostaglandin I₂ inhibits clotting and promotes vasodilation.",
+    answer: true,
+    explanation: "PGI₂ has both anti‑platelet and vasodilatory effects."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular smooth muscle undergoes slow, sustained tonic contractions.",
+    answer: true,
+    explanation: "VSM is adapted for sustained contraction, unlike rapid cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular smooth muscle contains troponin as its regulatory protein.",
+    answer: false,
+    explanation: "VSM lacks troponin; regulation involves calmodulin and myosin light chain phosphorylation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Actin and myosin in vascular smooth muscle are arranged in distinct bands.",
+    answer: false,
+    explanation: "VSM has a different arrangement; it lacks the organised sarcomeres of cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Contraction in vascular smooth muscle can be initiated by mechanical stimuli.",
+    answer: true,
+    explanation: "Stretch can directly activate VSM contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Increased intracellular calcium in VSM results from entry through calcium channels or release from internal stores.",
+    answer: true,
+    explanation: "These are the two sources for calcium in VSM."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Calcium in VSM binds to troponin to initiate contraction.",
+    answer: false,
+    explanation: "Calcium binds to calmodulin, not troponin, in VSM."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Calcium‑calmodulin activates myosin light chain kinase (MLCK).",
+    answer: true,
+    explanation: "This activation is the key step in VSM contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "MLCK phosphorylates myosin light chains, leading to cross‑bridge formation.",
+    answer: true,
+    explanation: "Phosphorylation of MLC is required for actin‑myosin interaction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Myosin light chain phosphatase (MLCP) phosphorylates myosin light chains.",
+    answer: false,
+    explanation: "MLCP dephosphorylates myosin light chains, promoting relaxation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular tone is determined by the relative activity of MLCK and MLCP.",
+    answer: true,
+    explanation: "The balance between kinase and phosphatase sets the degree of contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oxidative stress reduces nitric oxide bioavailability, causing endothelial dysfunction.",
+    answer: true,
+    explanation: "Oxidative stress promotes inflammation and impairs vascular tone."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Atherosclerosis is a condition of arterial obstruction due to plaque formation.",
+    answer: true,
+    explanation: "Plaque buildup narrows arteries and restricts blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Arteriosclerosis is the stiffening or hardening of artery walls.",
+    answer: true,
+    explanation: "Arteriosclerosis reduces arterial compliance and increases BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Arteriolosclerosis is the progressive replacement of smooth muscle cells with collagen in small arteries.",
+    answer: true,
+    explanation: "This is the specific definition of arteriolosclerosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "An aneurysm is a temporary, reversible dilation of an artery.",
+    answer: false,
+    explanation: "An aneurysm is a permanent, pathological dilation caused by structural vessel wall failure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Aneurysms commonly occur in the brain, thoracic aorta, and abdominal aorta.",
+    answer: true,
+    explanation: "These are the most common sites for aneurysm formation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Aneurysms result from medial layer weakness due to elastin degradation and smooth muscle cell apoptosis.",
+    answer: true,
+    explanation: "Structural weakness in the vessel wall leads to aneurysmal dilation."
+  },
+
+  // SECTION 15: Exercise, Shock & Clinical Correlations
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The essential functions of the heart include covering metabolic needs by adequate blood supply.",
+    answer: true,
+    explanation: "Delivering oxygen and nutrients is the heart's primary function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The heart must receive all blood returning from tissues to function properly.",
+    answer: true,
+    explanation: "Venous return is essential for maintaining cardiac output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Normal structure of tissues surrounding the heart is not essential for heart function.",
+    answer: false,
+    explanation: "The pericardium and surrounding structures support and protect the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac output = heart rate × stroke volume.",
+    answer: true,
+    explanation: "This is the fundamental equation for cardiac output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Control of heart rate is achieved only by the autonomic nervous system.",
+    answer: false,
+    explanation: "HR is controlled by both autonomic nervous system and hormonal (humoral) factors."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Stroke volume is controlled by preload, contractility, and afterload.",
+    answer: true,
+    explanation: "These three factors are the primary determinants of SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The Frank‑Starling mechanism is an adaptive mechanism for increased cardiac load.",
+    answer: true,
+    explanation: "The heart automatically adjusts output to match venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Ventricular hypertrophy increases the mass of contractile elements and strengthens contraction.",
+    answer: true,
+    explanation: "Hypertrophy is an adaptive response to increased workload."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased sympathetic adrenergic activity decreases heart rate.",
+    answer: false,
+    explanation: "Sympathetic activity increases HR and contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The renin‑angiotensin‑aldosterone system is activated in response to increased cardiac load.",
+    answer: true,
+    explanation: "RAA system activation helps maintain BP and volume during stress."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Resting skeletal muscle blood flow is 3‑4 ml/min/100g of muscle.",
+    answer: true,
+    explanation: "This is the normal resting flow to skeletal muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During active muscle contraction, muscle blood flow drops due to mechanical compression.",
+    answer: true,
+    explanation: "Contraction compresses intramuscular vessels, reducing flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Blood flow rises rapidly between muscle contractions due to vasodilation.",
+    answer: true,
+    explanation: "Metabolic vasodilators accumulate and increase flow during relaxation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased muscle contraction results in accumulation of vasodilator metabolites.",
+    answer: true,
+    explanation: "Metabolites such as CO₂, H⁺, and adenosine cause local vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During exercise, parasympathetic discharge increases.",
+    answer: false,
+    explanation: "Parasympathetic discharge decreases during exercise; sympathetic discharge increases."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During exercise, arteriolar constriction occurs in muscle, brain, and coronary beds.",
+    answer: false,
+    explanation: "These beds dilate; constriction occurs in inactive tissues."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During exercise, venoconstriction increases mean systemic filling pressure.",
+    answer: true,
+    explanation: "Venoconstriction mobilises blood and raises venous pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased mean systemic filling pressure increases venous return and cardiac output during exercise.",
+    answer: true,
+    explanation: "Higher MSFP drives more blood back to the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Shock is defined as inadequate tissue perfusion that can cause widespread tissue damage.",
+    answer: true,
+    explanation: "This is the clinical definition of shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Hypovolemic shock is caused by reduced blood volume.",
+    answer: true,
+    explanation: "Haemorrhage, dehydration, and fluid loss reduce circulating volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiogenic shock is caused by primary pump failure of the heart.",
+    answer: true,
+    explanation: "Myocardial infarction or severe heart failure causes cardiogenic shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Distributive shock involves reduced vascular resistance and vasodilation.",
+    answer: true,
+    explanation: "Sepsis and anaphylaxis cause distributive shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Obstructive shock is caused by obstruction of blood flow.",
+    answer: true,
+    explanation: "Pulmonary embolism or cardiac tamponade causes obstructive shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Haemorrhagic shock is a type of distributive shock.",
+    answer: false,
+    explanation: "Haemorrhagic shock is a type of hypovolemic shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Compensatory mechanisms in hypovolemic shock include increased angiotensin II formation.",
+    answer: true,
+    explanation: "Angiotensin II raises BP and promotes fluid retention."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "ADH (vasopressin) release increases during hypovolemic shock.",
+    answer: true,
+    explanation: "ADH promotes water retention to restore blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased thirst is a compensatory response in hypovolemic shock.",
+    answer: true,
+    explanation: "Thirst increases fluid intake to restore volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased sodium retention occurs during hypovolemic shock.",
+    answer: true,
+    explanation: "Aldosterone and angiotensin II promote Na⁺ retention."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased movement of interstitial fluid into capillaries occurs during shock.",
+    answer: true,
+    explanation: "Starling forces favour reabsorption to restore circulating volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased erythropoietin production occurs during shock.",
+    answer: true,
+    explanation: "Erythropoietin stimulates RBC production to improve oxygen delivery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased glucocorticoid release occurs during shock.",
+    answer: true,
+    explanation: "Cortisol helps maintain vascular tone and BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased plasma protein synthesis occurs during shock.",
+    answer: true,
+    explanation: "This maintains oncotic pressure and blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac output is the volume ejected per minute, expressed in mL/min or L/min.",
+    answer: true,
+    explanation: "CO = HR × SV, measured in volume per minute."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Average resting cardiac output is 5 L/min.",
+    answer: true,
+    explanation: "Normal CO for a 70 kg adult at rest is approximately 5 L/min."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac output can increase to 25 L/min during maximal exercise.",
+    answer: true,
+    explanation: "Trained athletes can achieve very high CO during peak exertion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Heart rate increases during exercise due to decreased sympathetic activity.",
+    answer: false,
+    explanation: "HR increases due to increased sympathetic and decreased parasympathetic activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Stroke volume increases during exercise due to increased venous return and contractility.",
+    answer: true,
+    explanation: "Exercise enhances both preload and contractility, increasing SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased blood volume increases venous return and cardiac output.",
+    answer: true,
+    explanation: "Greater volume raises MSFP and drives more blood to the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Decreased blood volume decreases venous return and cardiac output.",
+    answer: true,
+    explanation: "Hypovolaemia reduces preload and therefore CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Venous return equals cardiac output in steady state.",
+    answer: true,
+    explanation: "The heart pumps what it receives (Frank‑Starling law)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Heart size affects stroke volume; larger hearts have greater SV.",
+    answer: true,
+    explanation: "Larger ventricular chambers can hold and eject more blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac index is cardiac output divided by body surface area.",
+    answer: true,
+    explanation: "CI = CO / BSA, normalising CO for body size."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Normal cardiac index is approximately 3.2 L/min/m².",
+    answer: true,
+    explanation: "CI = 5 L/min / 1.7 m² ≈ 3.2 L/min/m²."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac reserve is the difference between resting and maximal cardiac output.",
+    answer: true,
+    explanation: "Cardiac reserve represents the heart's functional buffer capacity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Normal cardiac reserve is 100‑200%.",
+    answer: false,
+    explanation: "Normal cardiac reserve is 300‑400%; athletes can reach 500‑600%."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Athletes have higher cardiac reserve than sedentary individuals.",
+    answer: true,
+    explanation: "Training increases cardiac efficiency and reserve capacity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac reserve decreases with old age.",
+    answer: true,
+    explanation: "Age‑related changes reduce the heart's ability to increase output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Stroke volume is the volume pumped per minute.",
+    answer: false,
+    explanation: "SV is volume pumped per beat, not per minute."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Stroke volume = EDV − ESV.",
+    answer: true,
+    explanation: "This is the mathematical definition of stroke volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "End‑diastolic volume is also known as preload.",
+    answer: true,
+    explanation: "Preload is the volume filling the ventricle before contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "End‑systolic volume is the volume remaining in the ventricle after contraction.",
+    answer: true,
+    explanation: "ESV represents residual blood after ejection."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased contractility increases stroke volume.",
+    answer: true,
+    explanation: "Stronger contraction increases ejection fraction and SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased afterload increases stroke volume.",
+    answer: false,
+    explanation: "Afterload opposes ejection; increased afterload reduces SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Ejection fraction = (SV / EDV) × 100.",
+    answer: true,
+    explanation: "EF is the percentage of EDV ejected per beat."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Normal ejection fraction is approximately 70‑80%.",
+    answer: false,
+    explanation: "Normal EF is approximately 50‑65%."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Ejection fraction below 40% indicates systolic heart failure.",
+    answer: true,
+    explanation: "Reduced EF indicates impaired ventricular contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Ejection fraction is a key clinical measure obtained by echocardiography.",
+    answer: true,
+    explanation: "EF is routinely measured with cardiac ultrasound."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Veins are called capacitance vessels because they store blood.",
+    answer: true,
+    explanation: "Veins are highly compliant and hold approximately 60% of blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "At any time, approximately 60% of total blood volume is in the veins.",
+    answer: true,
+    explanation: "Veins function as the major blood reservoir."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic venoconstriction reduces venous capacitance and increases venous return.",
+    answer: true,
+    explanation: "Venoconstriction mobilises blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During inspiration, intrathoracic pressure increases, compressing the great veins.",
+    answer: false,
+    explanation: "Intrathoracic pressure decreases during inspiration, expanding veins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The respiratory pump enhances venous return during inspiration.",
+    answer: true,
+    explanation: "Negative intrathoracic pressure draws blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The skeletal muscle pump compresses veins during contraction, aiding venous return.",
+    answer: true,
+    explanation: "Muscle contraction squeezes veins, propelling blood forward."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Varicose veins result from competent venous valves.",
+    answer: false,
+    explanation: "Incompetent valves allow backward flow, causing venous pooling and dilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Prolonged standing decreases venous return due to venous pooling.",
+    answer: true,
+    explanation: "Gravity causes blood to pool in lower extremity veins."
+  },
+    // ===== PHYSIOLOGY – CARDIOVASCULAR PHYSIOLOGY (CONTINUED) =====
+
+  // SECTION 16: Cardiac Output & Its Regulation (Continued)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac output increases at high altitude due to hypoxia-induced sympathetic activation.",
+    answer: true,
+    explanation: "Hypoxia stimulates peripheral chemoreceptors, increasing sympathetic outflow and raising CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Pregnancy decreases cardiac output due to reduced blood volume.",
+    answer: false,
+    explanation: "Pregnancy increases CO by 30-50% due to increased blood volume and metabolic demand."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Strong emotions decrease cardiac output through parasympathetic activation.",
+    answer: false,
+    explanation: "Strong emotions increase sympathetic activity, raising HR and CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Hyperthyroidism causes pathological increase in cardiac output due to elevated metabolic rate.",
+    answer: true,
+    explanation: "Increased thyroid hormone raises O₂ demand, increasing HR and contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Fever decreases cardiac output due to reduced metabolic demand.",
+    answer: false,
+    explanation: "Fever increases metabolic rate and CO to meet elevated O₂ requirements."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Haemorrhage causes pathological decrease in cardiac output due to reduced venous return.",
+    answer: true,
+    explanation: "Blood loss reduces venous return, EDV, and consequently SV and CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Myocardial infarction decreases cardiac output due to reduced contractility.",
+    answer: true,
+    explanation: "Loss of viable myocardium impairs the heart's pumping ability."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Fick principle is used to measure cardiac output using oxygen as the indicator substance.",
+    answer: true,
+    explanation: "CO = O₂ consumption / (arterial O₂ - venous O₂) content."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The direct Fick method requires pulmonary artery catheterisation.",
+    answer: true,
+    explanation: "Mixed venous blood must be sampled from the pulmonary artery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The direct Fick method is non-invasive and carries no risks.",
+    answer: false,
+    explanation: "It is invasive and carries risks including infection, haemorrhage, and arrhythmias."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The dye dilution method uses a known quantity of indicator injected into the right atrium.",
+    answer: true,
+    explanation: "The indicator is injected and its concentration in peripheral blood is measured over time."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Evan's blue dye is commonly used in the indicator dilution method.",
+    answer: true,
+    explanation: "Evan's blue is a standard indicator that is non-toxic and easily measured."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "An ideal indicator for dye dilution should alter cardiac output during measurement.",
+    answer: false,
+    explanation: "The indicator must not alter haemodynamics to ensure accurate measurement."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The thermodilution method uses cold saline as the indicator.",
+    answer: true,
+    explanation: "Temperature change from cold saline is measured instead of dye concentration."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The thermodilution method requires a Swan-Ganz catheter with a thermistor.",
+    answer: true,
+    explanation: "The thermistor at the catheter tip measures temperature changes in the pulmonary artery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Doppler echocardiography measures cardiac output using the Doppler effect.",
+    answer: true,
+    explanation: "Frequency shift of reflected ultrasound measures blood flow velocity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Ballistocardiography records the electrical activity of the heart.",
+    answer: false,
+    explanation: "Ballistocardiography records body movements from the heart's ballistic recoil, not electrical activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The five main factors controlling cardiac output are venous return, contractility, peripheral resistance, blood volume, and heart rate.",
+    answer: true,
+    explanation: "These factors collectively determine CO = HR × SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Venous return is the least important determinant of cardiac output.",
+    answer: false,
+    explanation: "Venous return is the most important long-term determinant of CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Frank-Starling law states that contraction force is proportional to initial muscle fibre length.",
+    answer: true,
+    explanation: "Greater EDV stretches fibres, increasing contraction force."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The Frank-Starling mechanism requires neural input to function.",
+    answer: false,
+    explanation: "It is an intrinsic mechanism that operates without neural or hormonal control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "As EDV increases, stroke volume increases linearly without limit.",
+    answer: false,
+    explanation: "SV increases up to optimal sarcomere length, then decreases with overstretching."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac function curves plot cardiac output against central venous pressure.",
+    answer: true,
+    explanation: "These curves show the relationship between preload and cardiac output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation shifts cardiac function curves downward and to the right.",
+    answer: false,
+    explanation: "Sympathetic stimulation shifts curves upward and to the left, indicating improved contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Heart failure shifts cardiac function curves downward and to the right.",
+    answer: true,
+    explanation: "Reduced contractility requires higher filling pressure for lower output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The respiratory pump enhances venous return during inspiration.",
+    answer: true,
+    explanation: "Negative intrathoracic pressure draws blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The respiratory pump is most effective during shallow breathing.",
+    answer: false,
+    explanation: "Deep, rapid breathing during exercise maximises the respiratory pump effect."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Vis-a-tergo is the forward push from behind generated by previous systolic contraction.",
+    answer: true,
+    explanation: "The Windkessel effect from arterial recoil helps push blood forward."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Vis-a-fronte is the suction force generated during ventricular systole when AV valves descend.",
+    answer: true,
+    explanation: "AV valve descent expands atrial volume, creating negative pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The skeletal muscle pump aids venous return by compressing veins during contraction.",
+    answer: true,
+    explanation: "Muscle contraction squeezes veins, forcing blood toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Varicose veins result from competent venous valves.",
+    answer: false,
+    explanation: "Incompetent valves allow backward flow, causing venous pooling and dilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Mean systemic filling pressure drives blood from the periphery to the right atrium.",
+    answer: true,
+    explanation: "MSFP reflects venous reservoir pressure driving venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Increased blood volume decreases mean systemic filling pressure.",
+    answer: false,
+    explanation: "Increased blood volume raises MSFP and venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation raises MSFP by increasing venous tone.",
+    answer: true,
+    explanation: "Venoconstriction raises venous pressure and mobilises blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "Prolonged standing increases venous return due to gravity.",
+    answer: false,
+    explanation: "Prolonged standing causes venous pooling, decreasing venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Its Regulation",
+    type: "truefalse",
+    question: "The baroreceptor reflex compensates for orthostatic hypotension in healthy individuals.",
+    answer: true,
+    explanation: "Baroreceptors detect pressure drop and trigger sympathetic activation."
+  },
+
+  // SECTION 17: Arterial Blood Pressure & Its Regulation (Continued)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arterial blood pressure is the lateral pressure exerted by blood on arterial walls.",
+    answer: true,
+    explanation: "BP acts perpendicularly against the vessel wall, distending it."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Veins have thicker tunica media than arteries.",
+    answer: false,
+    explanation: "Arteries have thicker tunica media to withstand and regulate pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Arterial blood pressure ensures blood flow, nutrient exchange, urine formation, and lymph formation.",
+    answer: true,
+    explanation: "These are the four primary functions of arterial BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Normal systolic blood pressure range is 90-140 mmHg.",
+    answer: true,
+    explanation: "SBP normally falls between 90 and 140 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Normal diastolic blood pressure range is 60-90 mmHg.",
+    answer: true,
+    explanation: "DBP normally falls between 60 and 90 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Systolic blood pressure is the minimum pressure during ventricular diastole.",
+    answer: false,
+    explanation: "SBP is the maximum pressure during ventricular systole."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Systolic pressure is determined by the force of heartbeat, blood volume, and cardiac output.",
+    answer: true,
+    explanation: "Greater contractility, volume, and CO all increase SBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Diastolic blood pressure is the maximum pressure in the arteries.",
+    answer: false,
+    explanation: "DBP is the minimum pressure at the end of ventricular diastole."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Diastolic pressure is maintained by elastic recoil of arteries and peripheral resistance.",
+    answer: true,
+    explanation: "Windkessel effect and PVR sustain pressure during diastole."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Coronary perfusion occurs predominantly during systole.",
+    answer: false,
+    explanation: "Coronary perfusion is mainly diastolic when vessels are not compressed."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Pulse pressure is the difference between systolic and diastolic blood pressure.",
+    answer: true,
+    explanation: "PP = SBP − DBP, normally about 40 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Widened pulse pressure may indicate aortic regurgitation.",
+    answer: true,
+    explanation: "Aortic regurgitation increases SBP and widens PP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Narrowed pulse pressure may indicate cardiac tamponade.",
+    answer: true,
+    explanation: "Reduced stroke volume narrows the difference between SBP and DBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Mean arterial pressure is the arithmetic mean of SBP and DBP.",
+    answer: false,
+    explanation: "MAP is time-weighted; MAP = DBP + ⅓ × PP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Normal MAP is approximately 95 mmHg.",
+    answer: true,
+    explanation: "MAP = DBP + ⅓ PP = 80 + ⅓(40) ≈ 93-95 mmHg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "MAP represents the average perfusion pressure driving blood to organs.",
+    answer: true,
+    explanation: "MAP is the most clinically relevant indicator of organ perfusion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Pulse pressure widens progressively from the aorta to the capillaries.",
+    answer: false,
+    explanation: "Pulse pressure narrows as arteriolar resistance dampens pulsatility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure increases with age due to arterial stiffening.",
+    answer: true,
+    explanation: "Arteries lose elasticity with age, raising both SBP and PP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Obese individuals generally have higher blood pressure.",
+    answer: true,
+    explanation: "Obesity increases blood volume and peripheral resistance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Heat causes vasoconstriction and raises blood pressure.",
+    answer: false,
+    explanation: "Heat causes vasodilation and lowers BP; cold causes vasoconstriction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure is lowest during sleep and rises on waking.",
+    answer: true,
+    explanation: "The morning surge is a normal diurnal variation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Acute exercise lowers systolic blood pressure significantly.",
+    answer: false,
+    explanation: "Acute exercise raises SBP; regular exercise lowers resting BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure may fall in mid-pregnancy due to hormonal vasodilation.",
+    answer: true,
+    explanation: "Vasodilatory hormones reduce TPR, lowering BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Direct blood pressure measurement uses a catheter inserted into an artery.",
+    answer: true,
+    explanation: "Direct (invasive) measurement requires arterial cannulation with a transducer."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The auscultatory method was introduced by William Einthoven.",
+    answer: false,
+    explanation: "The auscultatory method was introduced by Korotkoff in 1905."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The first Korotkoff sound marks the diastolic blood pressure.",
+    answer: false,
+    explanation: "The first sound (Phase 1) marks SBP; sound disappearance (Phase 5) marks DBP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Phase 4 (muffling) is used as DBP in pregnancy when sounds do not disappear.",
+    answer: true,
+    explanation: "In some patients, especially pregnant women, sounds may persist to zero."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The sphygmomanometer works by external compression of an artery.",
+    answer: true,
+    explanation: "The cuff occludes then gradually releases flow to determine BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The cuff should be level with the heart to avoid hydrostatic artefacts.",
+    answer: true,
+    explanation: "Height differences create hydrostatic pressure errors."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The patient should be seated for 5 minutes before BP measurement.",
+    answer: true,
+    explanation: "Resting stabilises cardiovascular variables."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The cuff should be deflated at approximately 5 mmHg per second.",
+    answer: false,
+    explanation: "Deflation should be at 2 mmHg per second for accurate detection."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cardiac output, blood volume, vessel elasticity, and viscosity maintain arterial BP.",
+    answer: true,
+    explanation: "These four factors collectively determine and maintain BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Increased blood viscosity decreases resistance to flow.",
+    answer: false,
+    explanation: "Higher viscosity increases resistance and requires higher BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Viscosity is decreased by higher haematocrit and lower temperature.",
+    answer: false,
+    explanation: "Higher haematocrit and lower temperature both increase viscosity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Peripheral vascular resistance is primarily determined by arteriolar smooth muscle.",
+    answer: true,
+    explanation: "Arterioles are the main resistance vessels of the circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "BP = CO × PVR is analogous to Ohm's law.",
+    answer: true,
+    explanation: "This relationship shows BP depends on both cardiac output and resistance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Blood pressure is regulated by immediate, short-term, and long-term mechanisms.",
+    answer: true,
+    explanation: "Different time scales ensure rapid and sustained BP control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Baroreceptor reflexes act within seconds to regulate BP.",
+    answer: true,
+    explanation: "Baroreceptors respond immediately to pressure changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renin-angiotensin system acts within seconds to regulate BP.",
+    answer: false,
+    explanation: "RAS acts over minutes to hours, not seconds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Baroreceptors are located in the carotid sinus and aortic arch.",
+    answer: true,
+    explanation: "These are the major arterial baroreceptor sites."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Carotid sinus baroreceptor afferents travel in the vagus nerve (CN X).",
+    answer: false,
+    explanation: "Carotid sinus afferents travel in the glossopharyngeal nerve (CN IX)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Aortic arch baroreceptor afferents travel in the vagus nerve (CN X).",
+    answer: true,
+    explanation: "Aortic arch afferents travel in the vagus nerve to the NTS."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Baroreceptor afferents synapse in the nucleus tractus solitarius.",
+    answer: true,
+    explanation: "The NTS is the primary medullary relay for baroreceptor input."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, vasomotor centre stimulation increases sympathetic outflow.",
+    answer: false,
+    explanation: "BP rise inhibits the VMC, reducing sympathetic outflow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, cardioinhibitory centre stimulation increases vagal tone.",
+    answer: true,
+    explanation: "CIC activation increases parasympathetic output, causing bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The baroreceptor reflex is a positive feedback loop.",
+    answer: false,
+    explanation: "It is a negative feedback loop that opposes BP changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Marey's reflex is another name for the baroreceptor reflex.",
+    answer: true,
+    explanation: "The baroreceptor reflex is also known as Marey's reflex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The net effect of increased baroreceptor firing is increased peripheral resistance.",
+    answer: false,
+    explanation: "Increased baroreceptor firing reduces sympathetic tone, causing vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Peripheral chemoreceptors are stimulated by hypoxia, hypercapnia, and acidosis.",
+    answer: true,
+    explanation: "Low O₂, high CO₂, and low pH trigger chemoreceptor activation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Central chemoreceptors are located in the carotid and aortic bodies.",
+    answer: false,
+    explanation: "Central chemoreceptors are in the medulla, sensitive to CSF CO₂/pH."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chemoreceptor activation leads to vasodilation and decreased BP.",
+    answer: false,
+    explanation: "Chemoreceptor activation increases sympathetic outflow, raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The cerebral ischaemic response activates when BP falls below 40 mmHg.",
+    answer: true,
+    explanation: "This emergency mechanism activates when brain perfusion is critically compromised."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cushing's reflex consists of hypertension, bradycardia, and irregular breathing.",
+    answer: true,
+    explanation: "This triad indicates increased intracranial pressure and cerebral ischaemia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Cushing's reflex causes hypotension and tachycardia.",
+    answer: false,
+    explanation: "Cushing's reflex produces marked hypertension and bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "The capillary fluid shift buffers BP changes through fluid movement.",
+    answer: true,
+    explanation: "Fluid shifts adjust blood volume in response to pressure changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "When BP rises, fluid moves from the interstitium into the capillaries.",
+    answer: false,
+    explanation: "High BP increases capillary hydrostatic pressure, causing filtration into the interstitium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renin is released from juxtaglomerular cells when BP falls.",
+    answer: true,
+    explanation: "Reduced renal perfusion triggers renin release from JG cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renin converts angiotensinogen directly to angiotensin II.",
+    answer: false,
+    explanation: "Renin converts angiotensinogen to angiotensin I, which is then converted to II by ACE."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "ACE is primarily located in the liver.",
+    answer: false,
+    explanation: "ACE is primarily located in the lungs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II is an octapeptide.",
+    answer: true,
+    explanation: "Angiotensin II consists of eight amino acids."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II causes vasodilation and decreases BP.",
+    answer: false,
+    explanation: "Angiotensin II is a potent vasoconstrictor that raises BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II stimulates aldosterone secretion from the adrenal medulla.",
+    answer: false,
+    explanation: "Angiotensin II stimulates aldosterone from the adrenal cortex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Aldosterone promotes sodium and water retention.",
+    answer: true,
+    explanation: "Aldosterone increases Na⁺ reabsorption in the distal tubule."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin II stimulates the thirst centre in the hypothalamus.",
+    answer: true,
+    explanation: "Thirst stimulation increases fluid intake, raising blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "ACE inhibitors block the conversion of angiotensin I to angiotensin II.",
+    answer: true,
+    explanation: "ACE inhibitors are used to treat hypertension by reducing angiotensin II production."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Angiotensin receptor blockers (ARBs) block angiotensin II receptors.",
+    answer: true,
+    explanation: "ARBs are another class of antihypertensive drugs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Atrial natriuretic factor promotes sodium and water retention.",
+    answer: false,
+    explanation: "ANF promotes sodium excretion, reducing blood volume and BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Nitric oxide is a potent vasodilator released from endothelium.",
+    answer: true,
+    explanation: "NO relaxes vascular smooth muscle and lowers BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Histamine causes vasoconstriction and raises BP.",
+    answer: false,
+    explanation: "Histamine causes vasodilation and lowers BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension is defined as persistent BP above 140/90 mmHg.",
+    answer: true,
+    explanation: "Hypertension is diagnosed when BP is persistently elevated."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension affects approximately 30% of people over age 50.",
+    answer: true,
+    explanation: "Hypertension prevalence increases significantly with age."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Essential hypertension has a single identifiable cause.",
+    answer: false,
+    explanation: "Essential hypertension is multifactorial with no single cause."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Secondary hypertension accounts for about 10% of hypertension cases.",
+    answer: true,
+    explanation: "Secondary hypertension has an identifiable underlying cause."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Renal disease is a common cause of secondary hypertension.",
+    answer: true,
+    explanation: "Glomerulonephritis and other renal diseases cause secondary hypertension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Phaeochromocytoma causes secondary hypertension through excess cortisol.",
+    answer: false,
+    explanation: "Phaeochromocytoma causes excess catecholamines, not cortisol."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypertension is a risk factor for stroke and myocardial infarction.",
+    answer: true,
+    explanation: "Hypertension accelerates atherosclerosis and damages target organs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Left ventricular hypertrophy is a complication of hypertension.",
+    answer: true,
+    explanation: "The heart hypertrophies to overcome increased afterload."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chronic kidney failure is not associated with hypertension.",
+    answer: false,
+    explanation: "Hypertension causes nephrosclerosis, leading to kidney failure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Obesity is a predisposing factor for hypertension.",
+    answer: true,
+    explanation: "Obesity increases blood volume and sympathetic activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hereditary factors do not influence hypertension risk.",
+    answer: false,
+    explanation: "Family history is a strong risk factor for hypertension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Chronic stress lowers blood pressure through parasympathetic activation.",
+    answer: false,
+    explanation: "Stress increases sympathetic tone, raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Smoking acutely lowers blood pressure through vasodilation.",
+    answer: false,
+    explanation: "Nicotine acutely raises BP; chronic smoking damages vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Physical inactivity is associated with lower resting BP.",
+    answer: false,
+    explanation: "Sedentary lifestyle is associated with higher resting BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Causes of hypotension include haemorrhage, dehydration, and diarrhoea.",
+    answer: true,
+    explanation: "These reduce circulating volume and venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Addison's disease causes hypotension through aldosterone deficiency.",
+    answer: true,
+    explanation: "Aldosterone deficiency causes Na⁺ wasting and volume depletion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Arterial Blood Pressure & Its Regulation",
+    type: "truefalse",
+    question: "Hypothyroidism causes increased cardiac output and hypertension.",
+    answer: false,
+    explanation: "Hypothyroidism reduces metabolic rate and CO, causing hypotension."
+  },
+
+  // SECTION 18: Vascular & Lymphatic System (Continued)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Approximately 85% of capillary filtered fluid is reabsorbed at the venous end.",
+    answer: true,
+    explanation: "The remaining 15% becomes lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The remaining 15% of filtered fluid is returned via lymphatic drainage.",
+    answer: true,
+    explanation: "Lymphatic vessels remove excess fluid and proteins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic obstruction leads to oedema.",
+    answer: true,
+    explanation: "Lymphedema results from impaired lymphatic drainage."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph flows from tissue spaces into the blood.",
+    answer: true,
+    explanation: "Lymphatic vessels return fluid to the venous system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the lower body drains into the right lymphatic duct.",
+    answer: false,
+    explanation: "Lower body lymph drains into the thoracic duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels have valves ensuring flow only toward the heart.",
+    answer: true,
+    explanation: "Valves prevent backflow in lymphatic vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the left head and arm drains into the right lymphatic duct.",
+    answer: false,
+    explanation: "The left head and arm drain into the thoracic duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Plasma contains fibrinogen and prothrombin; lymph contains these in small amounts.",
+    answer: true,
+    explanation: "Lymph has low clotting factor content and coagulates slowly."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains mainly lymphocytes and monocytes.",
+    answer: true,
+    explanation: "The cellular content of lymph is predominantly lymphocytes (1000-2000 per mm³)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains glucose at approximately 132 mg per 100 ml.",
+    answer: true,
+    explanation: "Glucose is present in lymph similar to plasma."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains urea, amino acids, and creatinine.",
+    answer: true,
+    explanation: "These non-protein nitrogenous substances are present in lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Initial lymphatics have valves and smooth muscle in their walls.",
+    answer: false,
+    explanation: "Initial lymphatics lack valves and smooth muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Collecting lymphatics contract in a peristaltic manner.",
+    answer: true,
+    explanation: "Valves and smooth muscle allow active propulsion of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Skeletal muscle contraction aids lymph flow.",
+    answer: true,
+    explanation: "Muscle compression helps move lymph along vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Inspiration aids lymph flow through negative intrathoracic pressure.",
+    answer: true,
+    explanation: "The respiratory pump assists lymphatic return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes filter bacteria and particulate matter from lymph.",
+    answer: true,
+    explanation: "Macrophages in lymph nodes phagocytose foreign material."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Primary lymphoid organs include the spleen and lymph nodes.",
+    answer: false,
+    explanation: "Primary lymphoid organs are bone marrow and thymus."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thymus is a site for T-lymphocyte maturation.",
+    answer: true,
+    explanation: "The thymus is essential for T-cell development."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The red bone marrow produces erythrocytes, leukocytes, and platelets.",
+    answer: true,
+    explanation: "Bone marrow is the major haemopoietic tissue."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland enlarges with age.",
+    answer: false,
+    explanation: "The thymus atrophies and involutes with age."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen is located in the left hypochondriac region.",
+    answer: true,
+    explanation: "The spleen is in the upper left abdomen."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The red pulp of the spleen is where immune responses are mounted.",
+    answer: false,
+    explanation: "Red pulp filters blood; white pulp mounts immune responses."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The white pulp of the spleen contains lymphoid tissue for immune responses.",
+    answer: true,
+    explanation: "White pulp is the immune-active region of the spleen."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen stores platelets.",
+    answer: true,
+    explanation: "Platelet storage is one of the spleen's functions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes are found only in the neck region.",
+    answer: false,
+    explanation: "Lymph nodes are found in cervical, axillary, inguinal, and other regions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The outer cortex of a lymph node is rich in B-cells.",
+    answer: true,
+    explanation: "B-cells predominate in the outer cortex of lymph nodes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The inner cortex of a lymph node is rich in T-cells.",
+    answer: true,
+    explanation: "T-cells predominate in the inner cortex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The medulla of a lymph node contains phagocytic macrophages.",
+    answer: true,
+    explanation: "Medullary macrophages monitor lymph for pathogens."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Renal causes such as glomerulonephritis are common causes of secondary hypertension.",
+    answer: true,
+    explanation: "Renal disease is the most common identifiable cause of secondary hypertension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Phaeochromocytoma causes secondary hypertension through excess cortisol secretion.",
+    answer: false,
+    explanation: "Phaeochromocytoma is an adrenal medullary tumour secreting excess catecholamines, not cortisol."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Cushing's syndrome causes secondary hypertension through excess aldosterone secretion.",
+    answer: false,
+    explanation: "Cushing's syndrome causes excess cortisol, not aldosterone; cortisol promotes fluid retention and vascular sensitivity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Conn's syndrome (primary hyperaldosteronism) causes hypertension through sodium and water retention.",
+    answer: true,
+    explanation: "Excess aldosterone increases Na⁺ reabsorption, expanding blood volume and raising BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Thyrotoxicosis causes secondary hypertension through decreased cardiac output.",
+    answer: false,
+    explanation: "Thyrotoxicosis increases cardiac output, raising systolic BP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Atherosclerosis reduces arterial compliance and widens pulse pressure.",
+    answer: true,
+    explanation: "Stiffened arteries cannot buffer the pulse wave, increasing pulse pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Hypertension is a major risk factor for both ischaemic and haemorrhagic strokes.",
+    answer: true,
+    explanation: "High BP damages cerebral vessels, increasing stroke risk of both types."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Hypertensive retinopathy is detected on fundoscopic examination.",
+    answer: true,
+    explanation: "Retinal vessel changes are visible with ophthalmoscopy in hypertensive patients."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Aortic aneurysm is not associated with chronic hypertension.",
+    answer: false,
+    explanation: "Chronic high pressure weakens the aortic wall, predisposing to aneurysm formation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Alcoholism is a predisposing factor for hypertension.",
+    answer: true,
+    explanation: "Chronic alcohol consumption raises BP through sympathetic activation and other mechanisms."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Physical inactivity is associated with lower resting blood pressure.",
+    answer: false,
+    explanation: "Sedentary lifestyle is associated with higher resting BP and impaired cardiovascular regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Addison's disease causes hypertension through excessive aldosterone secretion.",
+    answer: false,
+    explanation: "Addison's disease causes adrenocortical insufficiency leading to Na⁺ wasting and hypotension."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Hypothyroidism causes decreased heart rate and cardiac output.",
+    answer: true,
+    explanation: "Reduced thyroid hormone lowers metabolic rate, HR, and CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Approximately 15% of capillary filtered fluid becomes lymph.",
+    answer: true,
+    explanation: "About 85% is reabsorbed; the remaining 15% is returned via lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the right arm drains into the thoracic duct.",
+    answer: false,
+    explanation: "The right arm drains into the right lymphatic duct, not the thoracic duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thoracic duct empties into the left internal jugular and subclavian veins.",
+    answer: true,
+    explanation: "The thoracic duct drains into the left venous angle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels have valves to ensure unidirectional flow.",
+    answer: true,
+    explanation: "Valves prevent backflow, ensuring lymph flows only toward the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Initial lymphatics contain smooth muscle and contract peristaltically.",
+    answer: false,
+    explanation: "Initial lymphatics lack smooth muscle and valves; collecting lymphatics have these features."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Collecting lymphatics contract in a peristaltic manner to propel lymph.",
+    answer: true,
+    explanation: "Smooth muscle and valves allow active peristaltic propulsion of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland is responsible for B-lymphocyte maturation.",
+    answer: false,
+    explanation: "The thymus is responsible for T-lymphocyte maturation; B-cells mature in bone marrow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The spleen is located in the upper left hypochondriac region.",
+    answer: true,
+    explanation: "The spleen lies in the left upper quadrant of the abdomen."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The white pulp of the spleen is responsible for blood filtration.",
+    answer: false,
+    explanation: "Red pulp filters blood; white pulp mounts immune responses."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes contain fixed macrophages that phagocytose foreign material.",
+    answer: true,
+    explanation: "Medullary macrophages trap and destroy pathogens in lymph nodes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oedema can result from decreased capillary oncotic pressure.",
+    answer: true,
+    explanation: "Low plasma protein reduces reabsorption, allowing fluid accumulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Lymphedema is caused by increased lymphatic flow.",
+    answer: false,
+    explanation: "Lymphedema results from lymphatic obstruction, not increased flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The tunica media of blood vessels is composed primarily of endothelial cells.",
+    answer: false,
+    explanation: "The tunica media is composed primarily of smooth muscle; endothelium lines the tunica interna."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "The endothelium plays a role in angiogenesis and haemostasis.",
+    answer: true,
+    explanation: "Endothelial cells regulate new vessel formation and blood clotting."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Nitric oxide (NO) causes vasoconstriction of vascular smooth muscle.",
+    answer: false,
+    explanation: "NO is a potent vasodilator, not a constrictor."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Endothelin-1 causes vasodilation and lowers blood pressure.",
+    answer: false,
+    explanation: "Endothelin-1 is a potent vasoconstrictor."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular smooth muscle contractions are rapid and short in duration.",
+    answer: false,
+    explanation: "VSM undergoes slow, sustained tonic contractions, unlike cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Vascular smooth muscle contains the regulatory protein troponin.",
+    answer: false,
+    explanation: "VSM lacks troponin; regulation involves calmodulin and MLC phosphorylation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Calcium-calmodulin activates myosin light chain kinase in vascular smooth muscle.",
+    answer: true,
+    explanation: "This activation is the key step initiating VSM contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Myosin light chain phosphatase (MLCP) promotes vascular smooth muscle relaxation.",
+    answer: true,
+    explanation: "MLCP dephosphorylates myosin light chains, leading to relaxation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Oxidative stress increases nitric oxide bioavailability.",
+    answer: false,
+    explanation: "Oxidative stress reduces NO bioavailability, causing endothelial dysfunction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "Arteriolosclerosis is the stiffening of large arteries.",
+    answer: false,
+    explanation: "Arteriolosclerosis affects small arteries and arterioles; arteriosclerosis affects larger arteries."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular & Lymphatic System",
+    type: "truefalse",
+    question: "An aneurysm is a permanent, localized dilation of an artery.",
+    answer: true,
+    explanation: "Aneurysms result from structural failure of the vessel wall."
+  },
+
+  // SECTION 19: Exercise, Shock & Clinical Correlations (Continued)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cardiac output equals heart rate multiplied by stroke volume.",
+    answer: true,
+    explanation: "This is the fundamental equation: CO = HR × SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Control of heart rate is achieved exclusively by the autonomic nervous system.",
+    answer: false,
+    explanation: "HR is controlled by both autonomic nerves and hormonal factors."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Ventricular hypertrophy increases the force of contraction by increasing contractile mass.",
+    answer: true,
+    explanation: "More muscle mass allows greater force generation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased sympathetic activity decreases heart rate and contractility.",
+    answer: false,
+    explanation: "Sympathetic activity increases both HR and contractility."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The renin-angiotensin-aldosterone system is activated in response to increased cardiac load.",
+    answer: true,
+    explanation: "RAA system activation helps maintain BP and volume during stress."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "During active muscle contraction, blood flow increases due to vasodilation.",
+    answer: false,
+    explanation: "Mechanical compression reduces flow during contraction; flow increases between contractions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Intermittent capillary flow is caused by contraction of precapillary sphincters.",
+    answer: true,
+    explanation: "Precapillary sphincters and metarterioles regulate capillary flow intermittently."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Autoregulation requires neural and hormonal influences to function.",
+    answer: false,
+    explanation: "Autoregulation is intrinsic and occurs independently of neural and hormonal control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The myogenic theory explains local control of blood flow through metabolic byproducts.",
+    answer: false,
+    explanation: "The myogenic theory involves vascular smooth muscle response to stretch; the metabolic theory involves byproducts."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The metabolic theory of autoregulation involves vasodilator metabolites.",
+    answer: true,
+    explanation: "Metabolites such as adenosine, CO₂, and H⁺ cause vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic stimulation of alpha-adrenergic receptors causes vasodilation.",
+    answer: false,
+    explanation: "Alpha-adrenergic stimulation causes vasoconstriction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic stimulation of beta-adrenergic receptors causes vasodilation.",
+    answer: true,
+    explanation: "Beta-adrenergic activation leads to vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In the heart, oxygen extraction is low at rest, so flow does not need to increase with demand.",
+    answer: false,
+    explanation: "The heart has high basal O₂ extraction, so increased demand requires increased flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In skeletal muscle, sympathetic nerves cause vasoconstriction via beta-adrenergic receptors.",
+    answer: false,
+    explanation: "Skeletal muscle vasoconstriction is mediated by alpha-adrenergic receptors."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Epinephrine causes vasodilation via beta-2 receptors at low concentrations.",
+    answer: true,
+    explanation: "Low concentration epinephrine activates β₂ receptors, causing vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In the brain, vasodilation occurs in response to increased CO₂ concentration.",
+    answer: true,
+    explanation: "CO₂ is a potent cerebral vasodilator acting via pH changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The skin is primarily controlled by parasympathetic nerves for thermoregulation.",
+    answer: false,
+    explanation: "Skin blood flow is primarily controlled by sympathetic nerves."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In the lungs, hypoxia causes vasodilation, similar to the systemic circulation.",
+    answer: false,
+    explanation: "Hypoxic pulmonary vasoconstriction is opposite to the systemic response."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Oncotic pressure from plasma proteins draws fluid from the interstitium into capillaries.",
+    answer: true,
+    explanation: "Plasma proteins create osmotic pressure that promotes reabsorption."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Fluid moves out of capillaries at the venous end where oncotic pressure dominates.",
+    answer: false,
+    explanation: "At the venous end, oncotic pressure exceeds hydrostatic pressure, causing reabsorption (fluid moves in)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "At rest, approximately 60% of total blood volume is in the veins.",
+    answer: true,
+    explanation: "Veins function as the major blood reservoir."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Venoconstriction decreases venous return to the heart.",
+    answer: false,
+    explanation: "Venoconstriction mobilises blood from the reservoir, increasing venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The left coronary artery supplies the anterior and left lateral portions of the left ventricle.",
+    answer: true,
+    explanation: "The left coronary artery perfuses these regions of the left ventricle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The right coronary artery supplies the anterior and left lateral portions of the left ventricle.",
+    answer: false,
+    explanation: "The right coronary supplies the right ventricle and posterior left ventricle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "There are functional intercoronary channels in normal human hearts.",
+    answer: false,
+    explanation: "Normal hearts lack functional anastomoses, making occlusion dangerous."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Collateral vessels may develop if a coronary vessel narrows slowly over time.",
+    answer: true,
+    explanation: "Slow narrowing allows time for collateral circulation to develop."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Coronary blood flow occurs mainly during ventricular systole.",
+    answer: false,
+    explanation: "Coronary flow is mainly diastolic when vessels are not compressed."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The coronary circulation represents about 5% of cardiac output.",
+    answer: true,
+    explanation: "Resting coronary flow is 4-5% of CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Regulation of coronary blood flow is mainly by neural factors.",
+    answer: false,
+    explanation: "Metabolic factors dominate coronary flow regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The subendocardial layer of the left ventricle receives more blood than the subepicardial layer.",
+    answer: false,
+    explanation: "The subendocardial layer receives less blood due to greater compression."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Resting coronary blood flow averages 225 ml/min.",
+    answer: true,
+    explanation: "Normal resting coronary flow is approximately 225 ml/min."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Tachycardia always increases coronary blood flow due to increased metabolic demand.",
+    answer: false,
+    explanation: "Tachycardia reduces diastolic filling time, potentially decreasing flow despite metabolic demand."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Oxygen lack (hypoxia) is the most effective coronary vasodilator.",
+    answer: true,
+    explanation: "Hypoxia directly dilates coronary vessels and releases adenosine."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Adenosine is a potent coronary vasodilator released during hypoxia.",
+    answer: true,
+    explanation: "Adenosine from ATP breakdown mediates metabolic vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Nitrites and aminophylline are coronary vasoconstrictors.",
+    answer: false,
+    explanation: "These are coronary vasodilators that increase CBF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Thyroxine increases coronary blood flow by increasing cardiac metabolism.",
+    answer: true,
+    explanation: "Increased metabolic rate from thyroxine raises coronary flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Cerebral blood flow averages 55 ml/min/100g of brain tissue.",
+    answer: true,
+    explanation: "Normal CBF is approximately 55 ml/min/100g."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The brain receives approximately 15% of resting cardiac output.",
+    answer: true,
+    explanation: "The brain is highly perfused relative to its weight."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The brain is highly tolerant to ischemia and can survive without blood for many minutes.",
+    answer: false,
+    explanation: "The brain is the least tolerant organ; 5 seconds of ischemia causes unconsciousness."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased PCO₂ causes marked cerebral vasodilation.",
+    answer: true,
+    explanation: "CO₂ is a potent cerebral vasodilator acting via pH changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Adenosine is a potent dilator of pial arterioles in the brain.",
+    answer: true,
+    explanation: "Adenosine causes vasodilation in the cerebral circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "All blood from the gut, spleen, and pancreas flows directly into the liver via the portal vein.",
+    answer: true,
+    explanation: "The portal system directs splanchnic blood to the liver."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Reticuloendothelial cells in the liver sinusoids remove bacteria from the blood.",
+    answer: true,
+    explanation: "The liver acts as a filter through its reticuloendothelial cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Parasympathetic stimulation directly decreases gastrointestinal blood flow.",
+    answer: false,
+    explanation: "Parasympathetic stimulation increases glandular secretion, which secondarily increases blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic stimulation causes vasoconstriction of splanchnic arterioles via alpha receptors.",
+    answer: true,
+    explanation: "Alpha-adrenergic activation constricts splanchnic vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic vasoconstriction in the splanchnic circulation is permanent.",
+    answer: false,
+    explanation: "Local metabolic vasodilator mechanisms override sympathetic constriction to restore flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Vasodilator substances such as gastrin and secretin are released during digestion.",
+    answer: true,
+    explanation: "These gut hormones cause vasodilation during digestion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Kallidin and bradykinin are powerful vasodilators released during gastrointestinal secretion.",
+    answer: true,
+    explanation: "These kinins contribute to mucosal vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The primary function of cutaneous circulation is nutrient delivery.",
+    answer: false,
+    explanation: "Thermoregulation, not nutrient delivery, is the primary regulator of skin blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Arteriovenous anastomoses in the skin shunt blood from arterioles to venules.",
+    answer: true,
+    explanation: "AV anastomoses provide a bypass route for blood flow in the skin."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "AV anastomoses in the skin are under parasympathetic neural control.",
+    answer: false,
+    explanation: "AV anastomoses are almost exclusively under sympathetic neural control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Sympathetic stimulation causes dilation of AV anastomoses in the skin.",
+    answer: false,
+    explanation: "Sympathetic stimulation constricts AV anastomoses, reducing blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "AV anastomoses exhibit reactive hyperaemia and autoregulation.",
+    answer: false,
+    explanation: "AV anastomoses are not under metabolic control and do not exhibit these phenomena."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The rate of lymph flow is determined by interstitial fluid hydrostatic pressure.",
+    answer: true,
+    explanation: "Interstitial pressure is a key determinant of lymph formation and flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Lymphatic vessels carry fluid from tissue spaces into the blood.",
+    answer: true,
+    explanation: "This is the primary function of the lymphatic system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Lymph from the right side of the neck drains into the thoracic duct.",
+    answer: false,
+    explanation: "The right side of the neck drains into the right lymphatic duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Lymph contains fibrinogen and prothrombin in quantities similar to plasma.",
+    answer: false,
+    explanation: "Lymph contains these clotting factors in small quantities, coagulating slowly."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Lymph contains electrolytes including sodium, calcium, and potassium.",
+    answer: true,
+    explanation: "These ions are present in lymph similar to interstitial fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The thymus gland programs the immune system to recognise 'self'.",
+    answer: true,
+    explanation: "Thymic selection prevents T-cells from attacking self-tissues."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The spleen's red pulp functions as a site for adaptive immune responses.",
+    answer: false,
+    explanation: "Red pulp filters blood; white pulp mounts adaptive immune responses."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Lymph nodes contain B-cells and T-cells for mounting immune responses.",
+    answer: true,
+    explanation: "Lymph nodes are sites where adaptive immune responses are initiated."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Abnormal salt and water retention can cause oedema.",
+    answer: true,
+    explanation: "Salt and water retention expands extracellular fluid volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Gravity and skeletal muscle contraction do not affect interstitial fluid volume.",
+    answer: false,
+    explanation: "These factors significantly affect fluid distribution and interstitial volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The vascular endothelium regulates vascular tone and blood fluidity.",
+    answer: true,
+    explanation: "Endothelium controls vessel diameter and maintains blood flow properties."
   }
 ];
 
