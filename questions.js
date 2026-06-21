@@ -19967,6 +19967,1539 @@ const questions = [
     question: "PTH stimulates 1α-hydroxylase in the kidney, promoting formation of calcitriol, which increases intestinal calcium absorption.",
     answer: true,
     explanation: "PTH activates 1α-hydroxylase to produce calcitriol, increasing intestinal calcium absorption."
+  },
+    // ===== BIOCHEMISTRY – HORMONES (MCQ) =====
+
+  // SECTION 1: General Endocrinology & Hormone Classification
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "Which of the following is classified as an amino acid derivative hormone?",
+    options: [
+      "A. Insulin",
+      "B. Glucagon",
+      "C. Epinephrine",
+      "D. Progesterone"
+    ],
+    correctAnswer: "C. Epinephrine",
+    explanation: "Epinephrine and norepinephrine are amino acid derivatives, along with thyroxine (T4) and triiodothyronine (T3). Insulin and glucagon are peptide/protein hormones, while progesterone is a steroid hormone."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "Hormones that bind to intracellular receptors and form receptor-hormone complexes are classified as:",
+    options: [
+      "A. Group II hormones",
+      "B. Group I hormones",
+      "C. Peptide hormones",
+      "D. Water-soluble hormones"
+    ],
+    correctAnswer: "B. Group I hormones",
+    explanation: "Group I hormones (lipophilic) bind to intracellular receptors, forming complexes that mediate biochemical functions. Examples include estrogens, androgens, glucocorticoids, and calcitriol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "Which second messenger is used by ACTH, FSH, LH, PTH, glucagon and calcitonin?",
+    options: [
+      "A. Phosphatidylinositol/calcium",
+      "B. cGMP",
+      "C. cAMP",
+      "D. Nitric oxide"
+    ],
+    correctAnswer: "C. cAMP",
+    explanation: "These hormones all utilize cAMP as their second messenger. TRH, GnRH, gastrin and CCK use phosphatidylinositol/calcium as their second messenger."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "G protein-coupled receptors (GPCRs) are also known as:",
+    options: [
+      "A. Nuclear receptors",
+      "B. Seven-transmembrane domain receptors",
+      "C. Intracellular receptors",
+      "D. Tyrosine kinase receptors"
+    ],
+    correctAnswer: "B. Seven-transmembrane domain receptors",
+    explanation: "GPCRs are also called seven-(pass)-transmembrane domain receptors, 7TM receptors, heptahelical receptors, or serpentine receptors. They are found on the cell surface, not intracellularly."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "Adenylyl cyclase catalyzes the conversion of:",
+    options: [
+      "A. ATP to 3',5'-cyclic AMP and pyrophosphate",
+      "B. GTP to cyclic GMP",
+      "C. AMP to cyclic AMP",
+      "D. ADP to cyclic AMP"
+    ],
+    correctAnswer: "A. ATP to 3',5'-cyclic AMP and pyrophosphate",
+    explanation: "Adenylyl cyclase catalyzes the conversion of adenosine triphosphate (ATP) to 3',5'-cyclic AMP (cAMP) and pyrophosphate. Magnesium ions are generally required for this reaction."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "General Endocrinology",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a purely endocrine organ?",
+    options: [
+      "A. Pituitary gland",
+      "B. Pineal gland",
+      "C. Thyroid gland",
+      "D. Pancreas"
+    ],
+    correctAnswer: "D. Pancreas",
+    explanation: "The pancreas is both an endocrine and exocrine gland. The pituitary, pineal, thyroid, and parathyroid glands are listed as purely endocrine organs."
+  },
+
+  // SECTION 2: Adrenal Gland Structure
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Gland Structure",
+    type: "multiplechoice",
+    question: "The adrenal cortex comprises approximately what percentage of the adrenal gland mass?",
+    options: [
+      "A. 40%",
+      "B. 60%",
+      "C. 80%",
+      "D. 95%"
+    ],
+    correctAnswer: "C. 80%",
+    explanation: "The adrenal cortex comprises 80% of the glandular mass. The medulla makes up the remaining portion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Gland Structure",
+    type: "multiplechoice",
+    question: "Which layer of the adrenal cortex is responsible for mineralocorticoid production?",
+    options: [
+      "A. Zona fasciculata",
+      "B. Zona reticularis",
+      "C. Zona glomerulosa",
+      "D. Zona medullaris"
+    ],
+    correctAnswer: "C. Zona glomerulosa",
+    explanation: "The zona glomerulosa is the outer layer and functions as the 'mineralocorticoid factory,' producing aldosterone. It lacks 17α-hydroxylase, which prevents glucocorticoid synthesis in this layer."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Gland Structure",
+    type: "multiplechoice",
+    question: "The zona fasciculata is characterized by:",
+    options: [
+      "A. Ovoid clusters of cells",
+      "B. Lipid-rich 'clear cells' arranged in parallel cords",
+      "C. Cells arranged in a network",
+      "D. Absence of lipid droplets"
+    ],
+    correctAnswer: "B. Lipid-rich 'clear cells' arranged in parallel cords",
+    explanation: "The zona fasciculata is the largest portion of the cortex (75-80%), composed of lipid-rich 'clear cells' arranged in parallel cords (fascicles). Storage of cholesterol esters within lipid droplets allows for rapid cortisol synthesis in response to ACTH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Gland Structure",
+    type: "multiplechoice",
+    question: "Which enzyme is expressed in the zona glomerulosa but NOT in the zona fasciculata?",
+    options: [
+      "A. CYP17A1 (17α-hydroxylase)",
+      "B. CYP11B2 (Aldosterone synthase)",
+      "C. CYP21A2 (21-hydroxylase)",
+      "D. CYP11A1 (P450scc)"
+    ],
+    correctAnswer: "B. CYP11B2 (Aldosterone synthase)",
+    explanation: "Aldosterone synthase (CYP11B2) is expressed only in the zona glomerulosa, allowing aldosterone production. The zona glomerulosa lacks 17α-hydroxylase, while the zona fasciculata expresses CYP17A1 but lacks aldosterone synthase (CYP11B2)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Gland Structure",
+    type: "multiplechoice",
+    question: "The adrenal medulla secretes:",
+    options: [
+      "A. Cortisol and aldosterone",
+      "B. Epinephrine and norepinephrine",
+      "C. Testosterone and estrogen",
+      "D. Mineralocorticoids and glucocorticoids"
+    ],
+    correctAnswer: "B. Epinephrine and norepinephrine",
+    explanation: "The adrenal medulla secretes epinephrine and norepinephrine. The adrenal cortex secretes corticosteroids (mineralocorticoids, glucocorticoids, and androgens)."
+  },
+
+  // SECTION 3: Glucocorticoids
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "Which of the following is the most abundant glucocorticoid?",
+    options: [
+      "A. Aldosterone",
+      "B. Testosterone",
+      "C. Cortisol",
+      "D. Corticosterone"
+    ],
+    correctAnswer: "C. Cortisol",
+    explanation: "The most abundant glucocorticoid is cortisol (also called hydrocortisone). It is the most potent natural glucocorticoid hormone in humans."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "Glucocorticoids stimulate gluconeogenesis in the liver by:",
+    options: [
+      "A. Decreasing hepatic glucose output",
+      "B. Converting fats and proteins to glucose",
+      "C. Increasing glucose uptake in peripheral tissues",
+      "D. Inhibiting glycogen synthesis"
+    ],
+    correctAnswer: "B. Converting fats and proteins to glucose",
+    explanation: "Glucocorticoids stimulate gluconeogenesis, especially the conversion of fats and proteins to glucose. They increase hepatic glucose output and decrease glucose uptake in peripheral tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an effect of glucocorticoids?",
+    options: [
+      "A. Anti-inflammatory effect",
+      "B. Depression of cell-mediated immune response",
+      "C. Increased lymphocyte proliferation",
+      "D. Control of asthma"
+    ],
+    correctAnswer: "C. Increased lymphocyte proliferation",
+    explanation: "Glucocorticoids depress cell-mediated immune responses and decrease lymphocyte proliferation, not increase it. They have anti-inflammatory effects, are used to control asthma, and prevent organ transplant rejection."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "Glucocorticoids affect carbohydrate metabolism by all of the following EXCEPT:",
+    options: [
+      "A. Inducing PEPCK and G6Pase",
+      "B. Increasing hepatic glucose output",
+      "C. Increasing glucose uptake in peripheral tissues",
+      "D. Causing insulin resistance"
+    ],
+    correctAnswer: "C. Increasing glucose uptake in peripheral tissues",
+    explanation: "Glucocorticoids decrease glucose uptake in peripheral tissues, causing insulin resistance. They induce gluconeogenic enzymes and increase hepatic glucose output, resulting in hyperglycaemia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "The anti-inflammatory effect of glucocorticoids is mediated by:",
+    options: [
+      "A. Increased phospholipase A2 activity",
+      "B. Decreased NF-κB activity and cytokine production",
+      "C. Increased prostaglandin synthesis",
+      "D. Increased leukotriene production"
+    ],
+    correctAnswer: "B. Decreased NF-κB activity and cytokine production",
+    explanation: "Glucocorticoids decrease phospholipase A2 activity (reducing arachidonic acid and prostaglandins/leukotrienes) and decrease NF-κB activity, reducing cytokine production (TNF-α, IL-1, IL-6, IL-12). They also decrease lymphocyte proliferation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Glucocorticoids",
+    type: "multiplechoice",
+    question: "Chronic excess of glucocorticoids causes all of the following EXCEPT:",
+    options: [
+      "A. Osteoporosis",
+      "B. Hyperglycaemia",
+      "C. Impaired growth in children",
+      "D. Increased bone formation"
+    ],
+    correctAnswer: "D. Increased bone formation",
+    explanation: "Glucocorticoids decrease osteoblast activity and increase osteoclast activity, leading to osteoporosis (decreased bone formation). They cause hyperglycaemia, impair growth in children, and affect mood and cognition."
+  },
+
+  // SECTION 4: Mineralocorticoids
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Mineralocorticoids",
+    type: "multiplechoice",
+    question: "The most important mineralocorticoid is:",
+    options: [
+      "A. Cortisol",
+      "B. Aldosterone",
+      "C. Testosterone",
+      "D. Corticosterone"
+    ],
+    correctAnswer: "B. Aldosterone",
+    explanation: "Aldosterone is the most important mineralocorticoid. It acts on the kidney to promote sodium reabsorption, helps maintain blood pressure, and regulates potassium homeostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Mineralocorticoids",
+    type: "multiplechoice",
+    question: "Aldosterone secretion is stimulated by all of the following EXCEPT:",
+    options: [
+      "A. A drop in blood sodium levels",
+      "B. A rise in blood potassium levels",
+      "C. Angiotensin II",
+      "D. Atrial Natriuretic Peptide (ANP)"
+    ],
+    correctAnswer: "D. Atrial Natriuretic Peptide (ANP)",
+    explanation: "ANP inhibits aldosterone release. Aldosterone is stimulated by low sodium, high potassium, angiotensin II, and ACTH (minor role). ANP is a counter-regulatory hormone."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Mineralocorticoids",
+    type: "multiplechoice",
+    question: "Aldosterone acts on the renal collecting duct principal cells by:",
+    options: [
+      "A. Decreasing ENaC expression",
+      "B. Increasing ENaC and Na⁺/K⁺-ATPase expression",
+      "C. Inhibiting sodium reabsorption",
+      "D. Decreasing potassium secretion"
+    ],
+    correctAnswer: "B. Increasing ENaC and Na⁺/K⁺-ATPase expression",
+    explanation: "Aldosterone increases ENaC (epithelial Na⁺ channels) expression for apical Na⁺ entry and increases Na⁺/K⁺-ATPase expression for basolateral Na⁺ exit. Net effect: increased Na⁺ reabsorption and K⁺ secretion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Mineralocorticoids",
+    type: "multiplechoice",
+    question: "11β-HSD2 in the kidney converts cortisol to cortisone in order to:",
+    options: [
+      "A. Increase glucocorticoid activity",
+      "B. Protect the mineralocorticoid receptor",
+      "C. Increase aldosterone synthesis",
+      "D. Activate the RAAS system"
+    ],
+    correctAnswer: "B. Protect the mineralocorticoid receptor",
+    explanation: "11β-HSD2 converts cortisol to inactive cortisone to protect the mineralocorticoid receptor (MR) from cortisol binding. This maintains specificity for aldosterone at the MR under normal conditions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Mineralocorticoids",
+    type: "multiplechoice",
+    question: "Aldosterone causes H⁺ secretion in type A intercalated cells, leading to:",
+    options: [
+      "A. Metabolic acidosis",
+      "B. Metabolic alkalosis",
+      "C. Respiratory acidosis",
+      "D. Respiratory alkalosis"
+    ],
+    correctAnswer: "B. Metabolic alkalosis",
+    explanation: "Aldosterone increases H⁺-ATPase in type A intercalated cells, promoting H⁺ secretion and causing metabolic alkalosis. This is seen in hyperaldosteronism (Conn's syndrome)."
+  },
+
+  // SECTION 5: Adrenal Androgens
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Androgens",
+    type: "multiplechoice",
+    question: "The major adrenal androgen precursor is:",
+    options: [
+      "A. Testosterone",
+      "B. DHEA (Dehydroepiandrosterone)",
+      "C. Androstenedione",
+      "D. DHT"
+    ],
+    correctAnswer: "B. DHEA (Dehydroepiandrosterone)",
+    explanation: "DHEA (Dehydroepiandrosterone) is the major adrenal androgen precursor. It is converted to androstenedione and then to testosterone in peripheral tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Androgens",
+    type: "multiplechoice",
+    question: "In females, the adrenal cortex is:",
+    options: [
+      "A. Not a source of androgens",
+      "B. A minor source of androgens",
+      "C. A major source of androgens",
+      "D. The only source of androgens"
+    ],
+    correctAnswer: "C. A major source of androgens",
+    explanation: "In females, the adrenal cortex is a major source of androgens. Hypersecretion in females may produce masculine pattern of body hair and cessation of menstruation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Adrenal Androgens",
+    type: "multiplechoice",
+    question: "Excessive production of testosterone by the adrenal cortex in young boys can cause:",
+    options: [
+      "A. Delayed puberty",
+      "B. Premature puberty",
+      "C. Hypogonadism",
+      "D. Gynecomastia"
+    ],
+    correctAnswer: "B. Premature puberty",
+    explanation: "Excessive production of testosterone by the adrenal cortex can cause premature puberty in young boys. This is seen in conditions like congenital adrenal hyperplasia or adrenal tumors."
+  },
+
+  // SECTION 6: Steroid Biosynthesis
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "The starting material for all adrenal cortex hormones is:",
+    options: [
+      "A. Pregnenolone",
+      "B. Progesterone",
+      "C. Cholesterol",
+      "D. Acetate"
+    ],
+    correctAnswer: "C. Cholesterol",
+    explanation: "Cells of the adrenal cortex secrete steroid hormones derived from cholesterol. Cholesterol is the starting material for all adrenal cortex hormones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "The rate-limiting step in acute steroidogenesis is:",
+    options: [
+      "A. Conversion of cholesterol to pregnenolone",
+      "B. The StAR protein",
+      "C. 21-Hydroxylase activity",
+      "D. 11β-Hydroxylase activity"
+    ],
+    correctAnswer: "B. The StAR protein",
+    explanation: "StAR (Steroidogenic Acute Regulatory) protein facilitates the movement of cholesterol from the outer to the inner mitochondrial membrane, serving as the rate-limiting step and overarching control point for acute steroidogenesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "What percentage of cholesterol for steroidogenesis comes from exogenous uptake via LDL?",
+    options: [
+      "A. 20%",
+      "B. 50%",
+      "C. 80%",
+      "D. 100%"
+    ],
+    correctAnswer: "C. 80%",
+    explanation: "Approximately 80% of cholesterol is derived from circulating Low-Density Lipoproteins (LDL) via receptor-mediated endocytosis. The remaining 20% comes from de novo synthesis via the mevalonate pathway."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "Which enzyme converts cholesterol to pregnenolone?",
+    options: [
+      "A. CYP11B2 (Aldosterone synthase)",
+      "B. CYP17A1 (17α-hydroxylase)",
+      "C. CYP11A1 (P450scc/Desmolase)",
+      "D. CYP21A2 (21-hydroxylase)"
+    ],
+    correctAnswer: "C. CYP11A1 (P450scc/Desmolase)",
+    explanation: "CYP11A1 (P450scc / Desmolase), located on the inner mitochondrial membrane, catalyzes the conversion of 27-C cholesterol into 21-C pregnenolone. This is the shared first step for all steroids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "Synthesis of mineralocorticoids occurs in the:",
+    options: [
+      "A. Zona fasciculata",
+      "B. Zona glomerulosa",
+      "C. Zona reticularis",
+      "D. Adrenal medulla"
+    ],
+    correctAnswer: "B. Zona glomerulosa",
+    explanation: "Synthesis of mineralocorticoids occurs in the zona glomerulosa. This layer expresses CYP11B2 (aldosterone synthase) and lacks 17α-hydroxylase, which prevents glucocorticoid synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "The three hydroxylases involved in glucocorticoid synthesis are:",
+    options: [
+      "A. 18-hydroxylase, 21-hydroxylase, and 11β-hydroxylase",
+      "B. 17α-hydroxylase, 21-hydroxylase, and 11β-hydroxylase",
+      "C. 17α-hydroxylase, 18-hydroxylase, and 11β-hydroxylase",
+      "D. 17α-hydroxylase, 21-hydroxylase, and 18-hydroxylase"
+    ],
+    correctAnswer: "B. 17α-hydroxylase, 21-hydroxylase, and 11β-hydroxylase",
+    explanation: "The three hydroxylases involved are 17α-hydroxylase, 21-hydroxylase, and 11β-hydroxylase. They act on C17, C21, and C11 of pregnenolone. In the final step, 11-deoxycortisol is converted to cortisol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "Which enzyme deficiency is the most common cause of congenital adrenal hyperplasia?",
+    options: [
+      "A. 11β-hydroxylase deficiency",
+      "B. 17α-hydroxylase deficiency",
+      "C. 21-hydroxylase deficiency",
+      "D. 18-hydroxylase deficiency"
+    ],
+    correctAnswer: "C. 21-hydroxylase deficiency",
+    explanation: "21-Hydroxylase deficiency is the most common cause of CAH, accounting for over 95% of cases. It results in inability to synthesize cortisol and aldosterone, leading to salt-wasting and virilization."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "Testosterone is metabolized to a more potent metabolite called:",
+    options: [
+      "A. Androstenedione",
+      "B. DHEA",
+      "C. DHT (Dihydrotestosterone)",
+      "D. 17-ketosteroids"
+    ],
+    correctAnswer: "C. DHT (Dihydrotestosterone)",
+    explanation: "Testosterone is metabolized via reduction of the A ring double bond to form DHT (Dihydrotestosterone), which is a potent metabolite. The other pathway (oxidation at C17) forms less active 17-ketosteroids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Steroid Biosynthesis",
+    type: "multiplechoice",
+    question: "Steroid-secreting cells have abundant:",
+    options: [
+      "A. Rough endoplasmic reticulum",
+      "B. Smooth endoplasmic reticulum",
+      "C. Secretory vesicles",
+      "D. Golgi apparatus"
+    ],
+    correctAnswer: "B. Smooth endoplasmic reticulum",
+    explanation: "Steroid-secreting cells have abundant smooth ER, as opposed to rough ER in protein-secreting cells. Steroids directly diffuse across the plasma membrane, not by exocytosis."
+  },
+
+  // SECTION 7: HPA Axis Regulation
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "The HPA axis is the master regulatory system for:",
+    options: [
+      "A. Aldosterone",
+      "B. Cortisol",
+      "C. Testosterone",
+      "D. Insulin"
+    ],
+    correctAnswer: "B. Cortisol",
+    explanation: "The HPA (Hypothalamic-Pituitary-Adrenal) axis is the master regulatory system for cortisol. It involves the hypothalamus (CRH), anterior pituitary (ACTH), and adrenal cortex (cortisol)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "In the HPA axis, CRH is secreted by the:",
+    options: [
+      "A. Anterior pituitary",
+      "B. Posterior pituitary",
+      "C. Hypothalamus",
+      "D. Adrenal cortex"
+    ],
+    correctAnswer: "C. Hypothalamus",
+    explanation: "The hypothalamus secretes CRH (Corticotropin-Releasing Hormone) in response to stress, circadian rhythm, and low cortisol levels. CRH then stimulates ACTH release from the anterior pituitary."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "ACTH binds to which receptor on adrenal cells?",
+    options: [
+      "A. AT1R",
+      "B. MC2R",
+      "C. GR",
+      "D. MR"
+    ],
+    correctAnswer: "B. MC2R",
+    explanation: "ACTH binds to the MC2R (Melanocortin-2 Receptor) on adrenal cells, activating Gs → ↑cAMP → PKA activation. PKA then phosphorylates StAR protein (acute effect) and transcription factors (chronic effect)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "The circadian rhythm of cortisol secretion shows:",
+    options: [
+      "A. Peak at midnight, nadir at 8 AM",
+      "B. Peak at 8 AM, nadir at midnight",
+      "C. Constant levels throughout the day",
+      "D. Peak at 6 PM, nadir at 6 AM"
+    ],
+    correctAnswer: "B. Peak at 8 AM, nadir at midnight",
+    explanation: "CRH/ACTH/cortisol levels peak at approximately 8 AM and reach their nadir at midnight. This circadian rhythm is an important feature of the HPA axis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "The Dexamethasone Suppression Test is used to diagnose:",
+    options: [
+      "A. Addison's disease",
+      "B. Primary hyperaldosteronism",
+      "C. Cushing's syndrome",
+      "D. Hypoparathyroidism"
+    ],
+    correctAnswer: "C. Cushing's syndrome",
+    explanation: "The Dexamethasone Suppression Test exploits the negative feedback of cortisol. Failure of suppression suggests hypercortisolism (Cushing's syndrome). The test uses synthetic dexamethasone to suppress CRH and ACTH release."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "HPA Axis Regulation",
+    type: "multiplechoice",
+    question: "Which of the following overrides the negative feedback of cortisol?",
+    options: [
+      "A. Circadian rhythm",
+      "B. Stress response",
+      "C. Sleep",
+      "D. Exercise"
+    ],
+    correctAnswer: "B. Stress response",
+    explanation: "The stress response overrides the negative feedback of cortisol, which is essential for survival. This allows continued cortisol secretion during stressful situations despite elevated cortisol levels."
+  },
+
+  // SECTION 8: RAAS Regulation
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "RAAS Regulation",
+    type: "multiplechoice",
+    question: "The primary regulator of aldosterone biosynthesis is:",
+    options: [
+      "A. ACTH",
+      "B. HPA axis",
+      "C. RAAS",
+      "D. ANP"
+    ],
+    correctAnswer: "C. RAAS",
+    explanation: "The RAAS (Renin-Angiotensin-Aldosterone System) is the primary regulator of aldosterone biosynthesis. ACTH has only a minor, permissive role, while ANP inhibits aldosterone release."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "RAAS Regulation",
+    type: "multiplechoice",
+    question: "Renin is released by juxtaglomerular cells in response to:",
+    options: [
+      "A. Increased blood pressure",
+      "B. Low sodium and low blood pressure",
+      "C. High sodium and high blood pressure",
+      "D. High potassium and high blood pressure"
+    ],
+    correctAnswer: "B. Low sodium and low blood pressure",
+    explanation: "↓Blood pressure/↓Na⁺/↑K⁺ stimulate juxtaglomerular cells to release renin. Renin then cleaves angiotensinogen to form angiotensin I."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "RAAS Regulation",
+    type: "multiplechoice",
+    question: "ACE (Angiotensin-Converting Enzyme) converts:",
+    options: [
+      "A. Angiotensinogen to angiotensin I",
+      "B. Angiotensin I to angiotensin II",
+      "C. Angiotensin II to angiotensin III",
+      "D. Renin to angiotensin I"
+    ],
+    correctAnswer: "B. Angiotensin I to angiotensin II",
+    explanation: "ACE (found primarily in the lung) cleaves angiotensin I (inactive, 10 aa) to angiotensin II (8 aa, active). Renin cleaves angiotensinogen to angiotensin I."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "RAAS Regulation",
+    type: "multiplechoice",
+    question: "Angiotensin II binds to AT1R on the zona glomerulosa, leading to:",
+    options: [
+      "A. Decreased calcium influx",
+      "B. Increased IP3/DAG/Ca²⁺ and aldosterone synthase",
+      "C. Decreased aldosterone synthase",
+      "D. Inhibition of CYP11B2"
+    ],
+    correctAnswer: "B. Increased IP3/DAG/Ca²⁺ and aldosterone synthase",
+    explanation: "Angiotensin II binds AT1R on zona glomerulosa → ↑IP3/DAG/Ca²⁺ → ↑CYP11B2 (aldosterone synthase) → ↑Aldosterone. This is the primary mechanism of RAAS regulation of aldosterone."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "RAAS Regulation",
+    type: "multiplechoice",
+    question: "Plasma potassium regulates aldosterone secretion by:",
+    options: [
+      "A. Indirectly through renin release",
+      "B. Directly depolarising zona glomerulosa cells",
+      "C. Inhibiting CYP11B2 expression",
+      "D. Decreasing calcium influx"
+    ],
+    correctAnswer: "B. Directly depolarising zona glomerulosa cells",
+    explanation: "Hyperkalaemia directly depolarises zona glomerulosa cells → ↑Ca²⁺ influx → ↑aldosterone synthesis. This makes plasma K⁺ the second major regulator of aldosterone."
+  },
+
+  // SECTION 9: Clinical Correlations
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "The most common cause of primary hyperaldosteronism (Conn's syndrome) is:",
+    options: [
+      "A. Bilateral adrenal hyperplasia",
+      "B. Unilateral adrenal adenoma",
+      "C. Adrenocortical carcinoma",
+      "D. Familial hyperaldosteronism"
+    ],
+    correctAnswer: "B. Unilateral adrenal adenoma",
+    explanation: "Unilateral adrenal gland adenoma accounts for 2/3 of cases of primary hyperaldosteronism. Bilateral hyperplasia accounts for 1/3, and other causes account for <1%."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Conn's syndrome is characterized by:",
+    options: [
+      "A. Hypertension, hypokalemia, metabolic alkalosis, low renin",
+      "B. Hypertension, hyperkalemia, metabolic acidosis, high renin",
+      "C. Hypotension, hypokalemia, metabolic alkalosis, low renin",
+      "D. Hypertension, hypokalemia, metabolic acidosis, high renin"
+    ],
+    correctAnswer: "A. Hypertension, hypokalemia, metabolic alkalosis, low renin",
+    explanation: "Conn's syndrome (primary hyperaldosteronism) features hypertension + hypokalemia + metabolic alkalosis + low-renin. Aldosterone excess causes Na⁺ retention (HTN), K⁺ loss (hypokalemia), and H⁺ loss (metabolic alkalosis)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Cushing's disease specifically refers to:",
+    options: [
+      "A. Exogenous steroid use causing Cushing's syndrome",
+      "B. Pituitary adenoma causing ACTH-dependent Cushing's",
+      "C. Adrenal tumor causing Cushing's syndrome",
+      "D. Ectopic ACTH production"
+    ],
+    correctAnswer: "B. Pituitary adenoma causing ACTH-dependent Cushing's",
+    explanation: "Cushing's DISEASE specifically refers to a pituitary adenoma (ACTH-dependent cause of Cushing's). Cushing's SYNDROME is the broader term for excess cortisol from any cause."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "All of the following are features of Cushing's syndrome EXCEPT:",
+    options: [
+      "A. Central obesity and moon face",
+      "B. Buffalo hump and striae",
+      "C. Hypoglycemia and hypotension",
+      "D. Hyperglycemia and hypertension"
+    ],
+    correctAnswer: "C. Hypoglycemia and hypotension",
+    explanation: "Cushing's syndrome features hyperglycaemia and hypertension, not hypoglycemia and hypotension. Other features include central obesity, moon face, buffalo hump, striae, myopathy, osteoporosis, and immunosuppression."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Addison's disease is characterized by:",
+    options: [
+      "A. Hypersecretion of adrenal cortex hormones",
+      "B. Hyposecretion of adrenal cortex hormones",
+      "C. Excess cortisol with normal aldosterone",
+      "D. Excess aldosterone with normal cortisol"
+    ],
+    correctAnswer: "B. Hyposecretion of adrenal cortex hormones",
+    explanation: "Addison's disease is hyposecretion (under secretion) of the adrenal cortex, usually involving both cortisol and aldosterone. Features include low blood glucose, low sodium, severe dehydration, fatigue, loss of appetite, and abdominal pain."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "The 'bronze sign' (hyperpigmentation) in Addison's disease is caused by:",
+    options: [
+      "A. Decreased ACTH and MSH",
+      "B. Excess ACTH and α-MSH",
+      "C. Increased cortisol",
+      "D. Decreased melanocyte-stimulating hormone"
+    ],
+    correctAnswer: "B. Excess ACTH and α-MSH",
+    explanation: "Destruction of the adrenal cortex results in loss of negative feedback, causing excess ACTH. Since ACTH and α-MSH are both derived from POMC, increased ACTH is accompanied by increased α-MSH activity, stimulating melanocytes and causing hyperpigmentation of skin and oral mucosa."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "In 21-hydroxylase deficiency causing congenital adrenal hyperplasia, which of the following occurs?",
+    options: [
+      "A. Increased cortisol and aldosterone synthesis",
+      "B. Decreased ACTH and androgen production",
+      "C. Salt-wasting and virilization",
+      "D. Decreased androgen production"
+    ],
+    correctAnswer: "C. Salt-wasting and virilization",
+    explanation: "21-Hydroxylase deficiency prevents cortisol and aldosterone synthesis. Loss of feedback causes massive ACTH, shunting precursors to the androgen pathway. Result: salt-wasting (aldosterone deficiency) and virilization (androgen excess)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Parathyroid hormone (PTH) is secreted by:",
+    options: [
+      "A. Oxyphil cells of the parathyroid",
+      "B. Chief cells of the parathyroid",
+      "C. C cells of the thyroid",
+      "D. Follicular cells of the thyroid"
+    ],
+    correctAnswer: "B. Chief cells of the parathyroid",
+    explanation: "PTH is secreted by the chief cells of the parathyroid glands as a polypeptide containing 84 amino acids. Effective hormone-receptor interaction requires the 34 N-terminal amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Hypoparathyroidism is characterized by:",
+    options: [
+      "A. Hypercalcemia and hypophosphatemia",
+      "B. Hypocalcemia and tetany",
+      "C. Hypercalcemia and kidney stones",
+      "D. Hypocalcemia and bone resorption"
+    ],
+    correctAnswer: "B. Hypocalcemia and tetany",
+    explanation: "Hypoparathyroidism causes hypocalcemia, leading to tetany, muscle cramps, and positive Chvostek's and Trousseau's signs. Causes include thyroid/parathyroid surgery and autoimmune destruction."
+  },
+
+  // SECTION 10: Gastrointestinal Hormones
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "Which GI hormone has 17 amino acid residues and is produced by the gastric mucosa?",
+    options: [
+      "A. Secretin",
+      "B. Gastrin",
+      "C. CCK",
+      "D. GIP"
+    ],
+    correctAnswer: "B. Gastrin",
+    explanation: "Gastrin has 17 amino acid residues and is produced by the gastric mucosa. It stimulates gastric secretion of HCl and pepsinogen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "Gastrin release is stimulated by:",
+    options: [
+      "A. HCl",
+      "B. Amino acids and partially digested protein",
+      "C. Secretin",
+      "D. GIP"
+    ],
+    correctAnswer: "B. Amino acids and partially digested protein",
+    explanation: "Gastrin release is stimulated by the presence of amino acids and partially digested protein in the stomach. It is also stimulated by the vagus nerve in response to stomach distension. Gastrin release is inhibited by HCl and other GI hormones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "Which GI hormone is produced by the duodenal mucosa in response to acidification by gastric HCl?",
+    options: [
+      "A. Gastrin",
+      "B. CCK",
+      "C. Secretin",
+      "D. GIP"
+    ],
+    correctAnswer: "C. Secretin",
+    explanation: "Secretin is produced by the mucosa of the duodenum in response to acidification by gastric HCl. It has 27 amino acid residues and stimulates pancreatic secretion of HCO₃⁻ to neutralize HCl."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "Cholecystokinin (CCK) has how many amino acid residues?",
+    options: [
+      "A. 8",
+      "B. 17",
+      "C. 27",
+      "D. 42"
+    ],
+    correctAnswer: "A. 8",
+    explanation: "CCK has 8 amino acid residues. It is produced by the duodenum, stimulates gallbladder emptying and pancreatic secretion, and inhibits gastric emptying."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "CCK is released in response to products of:",
+    options: [
+      "A. Carbohydrate digestion",
+      "B. Lipid and protein digestion",
+      "C. Nucleic acid digestion",
+      "D. Vitamin digestion"
+    ],
+    correctAnswer: "B. Lipid and protein digestion",
+    explanation: "CCK is released in response to the products of lipid and protein digestion. It then stimulates gallbladder emptying, pancreatic enzyme secretion, and HCO₃⁻ secretion, enhancing the effect of secretin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Gastrointestinal Hormones",
+    type: "multiplechoice",
+    question: "The major physiological role of GIP (Gastric Inhibitory Peptide) is to:",
+    options: [
+      "A. Stimulate gastric acid secretion",
+      "B. Stimulate pancreatic insulin release",
+      "C. Inhibit pancreatic enzyme secretion",
+      "D. Stimulate gallbladder contraction"
+    ],
+    correctAnswer: "B. Stimulate pancreatic insulin release",
+    explanation: "The major physiological role of GIP (also known as Glucose-dependent insulinotropic polypeptide) is to stimulate pancreatic insulin release. GIP release is stimulated by the presence of glucose in the GIT."
+  },
+
+  // SECTION 11: Pancreatic Hormones
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Pancreatic Hormones",
+    type: "multiplechoice",
+    question: "Which pancreatic islet cell type produces insulin and comprises 60-85% of islet cells?",
+    options: [
+      "A. Alpha cells",
+      "B. Beta cells",
+      "C. Delta cells",
+      "D. PP cells"
+    ],
+    correctAnswer: "B. Beta cells",
+    explanation: "Beta cells produce insulin and comprise 60-85% of pancreatic islet cells. Alpha cells produce glucagon (15-20%), delta cells produce somatostatin (3-10%), and PP cells produce pancreatic polypeptide (3-5%)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Pancreatic Hormones",
+    type: "multiplechoice",
+    question: "Glucagon is produced by which cell type in the pancreatic islets?",
+    options: [
+      "A. Beta cells",
+      "B. Delta cells",
+      "C. Alpha cells",
+      "D. Epsilon cells"
+    ],
+    correctAnswer: "C. Alpha cells",
+    explanation: "Alpha cells (α cells) produce glucagon and comprise 15-20% of islet cells. Beta cells produce insulin, delta cells produce somatostatin, F/PP cells produce pancreatic polypeptide, and epsilon cells produce ghrelin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Pancreatic Hormones",
+    type: "multiplechoice",
+    question: "Absolute insulin deficiency results in all of the following EXCEPT:",
+    options: [
+      "A. Unrestrained glucose production",
+      "B. Increased lipolysis",
+      "C. Increased ketogenesis",
+      "D. Hypoglycemia"
+    ],
+    correctAnswer: "D. Hypoglycemia",
+    explanation: "Absolute insulin deficiency results in unrestrained glucose production, lipolysis, ketogenesis, proteolysis, and death. Insulin deficiency causes hyperglycemia, not hypoglycemia. Insulin excess causes hypoglycemia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Pancreatic Hormones",
+    type: "multiplechoice",
+    question: "In Type 2 diabetes mellitus, patients typically have:",
+    options: [
+      "A. Decreased number of beta cells",
+      "B. Above normal levels of insulin with insulin resistance",
+      "C. Absolute insulin deficiency",
+      "D. Decreased glucagon secretion"
+    ],
+    correctAnswer: "B. Above normal levels of insulin with insulin resistance",
+    explanation: "Type 2 diabetics have above normal levels of insulin but their tissues do not respond to the hormone (insulin resistance). Type 1 diabetes involves decreased beta cells (possibly viral cause)."
+  },
+
+  // SECTION 12: Reproductive Hormones - Male
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "The main androgen secreted by the testes is:",
+    options: [
+      "A. DHEA",
+      "B. Androstenedione",
+      "C. Testosterone",
+      "D. Estrogen"
+    ],
+    correctAnswer: "C. Testosterone",
+    explanation: "Testosterone is the main androgen secreted by the testes. It is a C19 steroid. In many target tissues, testosterone is converted into dihydrotestosterone (DHT)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "Testosterone is responsible for all of the following in fetal life EXCEPT:",
+    options: [
+      "A. Sex differentiation",
+      "B. Development of accessory sex organs",
+      "C. Descent of testes",
+      "D. Development of the Müllerian duct"
+    ],
+    correctAnswer: "D. Development of the Müllerian duct",
+    explanation: "Testosterone causes the Müllerian duct system to disappear and male organs to develop from the Wolffian duct. Testosterone is responsible for sex differentiation, accessory sex organ development, and testicular descent. Müllerian duct development occurs in females."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "Cryptorchidism is a congenital disorder characterized by:",
+    options: [
+      "A. Absence of testes",
+      "B. Failure of testes to descend into the scrotum",
+      "C. Excess testicular hormone production",
+      "D. Degeneration of Leydig cells"
+    ],
+    correctAnswer: "B. Failure of testes to descend into the scrotum",
+    explanation: "Cryptorchidism is characterized by the failure of one or both testes to descend from the abdomen into the scrotum. Testosterone is necessary for this descent. Undescended testes are associated with hypogonadism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "In adult males, testosterone is responsible for all of the following EXCEPT:",
+    options: [
+      "A. Increased muscle mass",
+      "B. Broadening of shoulders",
+      "C. High-pitched voice",
+      "D. Male pattern hair distribution"
+    ],
+    correctAnswer: "C. High-pitched voice",
+    explanation: "Testosterone causes a cracking voice at adolescence and lowers the voice pitch. High-pitched voice is a female secondary sexual characteristic (due to lack of testosterone effect on the larynx). Testosterone increases muscle mass, broadens shoulders, and causes male pattern hair distribution."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "Hypergonadism in males is mainly due to:",
+    options: [
+      "A. Sertoli cell tumor",
+      "B. Leydig cell tumor",
+      "C. Pituitary insufficiency",
+      "D. Androgen receptor absence"
+    ],
+    correctAnswer: "B. Leydig cell tumor",
+    explanation: "Hypergonadism in males is mainly due to tumor of Leydig cells. It is common in prepubertal boys who develop precocious pseudopuberty with rapid growth of musculature and bones, and excess development of sex organs and secondary sexual characters."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Male",
+    type: "multiplechoice",
+    question: "Gynecomastia in males with hypergonadism is caused by:",
+    options: [
+      "A. Excess testosterone production",
+      "B. Tumors secreting estrogenic hormones",
+      "C. Decreased androgen production",
+      "D. Increased FSH secretion"
+    ],
+    correctAnswer: "B. Tumors secreting estrogenic hormones",
+    explanation: "Leydig cell tumors may also secrete estrogenic hormones, which cause gynecomastia (enlargement of breasts). This occurs alongside the masculinizing effects of androgen excess."
+  },
+
+  // SECTION 13: Reproductive Hormones - Female
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Which form of estrogen is NOT found in plasma?",
+    options: [
+      "A. β-estradiol",
+      "B. Estrone",
+      "C. Estriol",
+      "D. Estradiol-17α"
+    ],
+    correctAnswer: "D. Estradiol-17α",
+    explanation: "The three forms of estrogen in plasma are β-estradiol, estrone, and estriol. Estradiol-17α is not listed as a plasma form of estrogen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Which of the following is a function of estrogen?",
+    options: [
+      "A. Decrease blood supply to endometrium",
+      "B. Decrease sensitivity of uterine muscles to oxytocin",
+      "C. Promote proliferation of vaginal epithelium",
+      "D. Increase pH of the vagina"
+    ],
+    correctAnswer: "C. Promote proliferation of vaginal epithelium",
+    explanation: "Estrogen increases the layers of vaginal epithelium by proliferation and reduces vaginal pH, making it more acidic. Estrogen increases blood supply to the endometrium, increases uterine muscle sensitivity to oxytocin, and decreases (acidifies) vaginal pH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Estrogen affects bones by:",
+    options: [
+      "A. Decreasing osteoblastic activity",
+      "B. Increasing osteoblastic activity and causing early epiphyseal fusion",
+      "C. Delaying epiphyseal fusion",
+      "D. Decreasing bone growth"
+    ],
+    correctAnswer: "B. Increasing osteoblastic activity and causing early epiphyseal fusion",
+    explanation: "Estrogen increases osteoblastic activity, so growth rate increases at puberty. However, estrogen also causes early fusion of the epiphysis with the shaft, so females usually cease growth a few years earlier than males."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Which C21 steroid is secreted in large quantity by the corpus luteum during the secretory phase?",
+    options: [
+      "A. Estrogen",
+      "B. Progesterone",
+      "C. Testosterone",
+      "D. Relaxin"
+    ],
+    correctAnswer: "B. Progesterone",
+    explanation: "Progesterone is a C21 steroid. A large quantity is secreted during the latter half of each menstrual cycle (secretory/luteal phase) by the corpus luteum. Estrogen is also secreted but in smaller quantity during this phase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Progesterone promotes all of the following EXCEPT:",
+    options: [
+      "A. Secretory activities of the uterine endometrium",
+      "B. Development of lobules and alveoli of mammary glands",
+      "C. Increased frequency of uterine contractions during pregnancy",
+      "D. Inhibition of LH release"
+    ],
+    correctAnswer: "C. Increased frequency of uterine contractions during pregnancy",
+    explanation: "Progesterone decreases the frequency of uterine contractions during pregnancy, preventing expulsion of the implanted ovum. All other options are functions of progesterone."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "The thermogenic effect of progesterone refers to:",
+    options: [
+      "A. Decreased body temperature after ovulation",
+      "B. Increased body temperature after ovulation",
+      "C. Decreased metabolism",
+      "D. Increased heat loss"
+    ],
+    correctAnswer: "B. Increased body temperature after ovulation",
+    explanation: "Progesterone has a thermogenic effect, increasing body temperature after ovulation. This is a clinically useful sign used to confirm ovulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Reproductive Hormones - Female",
+    type: "multiplechoice",
+    question: "Progesterone's contraceptive action is mediated by:",
+    options: [
+      "A. Inhibition of estrogen production",
+      "B. Inhibition of LH release from hypothalamus through feedback",
+      "C. Inhibition of FSH release",
+      "D. Direct inhibition of ovulation"
+    ],
+    correctAnswer: "B. Inhibition of LH release from hypothalamus through feedback",
+    explanation: "Progesterone inhibits the release of LH from the hypothalamus through feedback effect. This effect is utilized for its contraceptive action by preventing ovulation."
+  },
+
+  // SECTION 14: Menstrual Cycle
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "Ovulation occurs on which day of a 28-day menstrual cycle?",
+    options: [
+      "A. Day 5",
+      "B. Day 14",
+      "C. Day 21",
+      "D. Day 28"
+    ],
+    correctAnswer: "B. Day 14",
+    explanation: "Ovulation occurs on the 14th day of a 28-day menstrual cycle. It is influenced by LH and involves rupture of the graafian follicle with discharge of the ovum into the abdominal cavity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "During the follicular phase of the ovarian cycle, the follicle develops through which stages?",
+    options: [
+      "A. Primary → primordial → graafian → vesicular",
+      "B. Primordial → primary → vesicular → graafian",
+      "C. Vesicular → primordial → primary → graafian",
+      "D. Graafian → vesicular → primary → primordial"
+    ],
+    correctAnswer: "B. Primordial → primary → vesicular → graafian",
+    explanation: "During the follicular phase, primordial follicles develop through primary, vesicular, and graafian follicle stages under the influence of FSH and LH. The graafian follicle is the matured ovarian follicle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "The corpus luteum develops from:",
+    options: [
+      "A. The unruptured ovarian follicle",
+      "B. The ruptured graafian follicle after ovum release",
+      "C. Primary follicles",
+      "D. Vesicular follicles"
+    ],
+    correctAnswer: "B. The ruptured graafian follicle after ovum release",
+    explanation: "The corpus luteum is a glandular yellow body developed from the ruptured graafian follicle after the release of the ovum. It is initially filled with blood (corpus hemorrhagicum)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "If pregnancy does not occur, the corpus luteum:",
+    options: [
+      "A. Persists indefinitely",
+      "B. Degenerates into corpus luteum menstrualis (luteolysis)",
+      "C. Transforms into corpus luteum of pregnancy",
+      "D. Secretes hormones for the entire cycle"
+    ],
+    correctAnswer: "B. Degenerates into corpus luteum menstrualis (luteolysis)",
+    explanation: "If the ovum is not fertilized, the corpus luteum reaches maximum size about one week after ovulation, then degenerates into corpus luteum menstrualis. The process of regression is called luteolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "The uterine phase characterized by shedding of the endometrium with blood and fluid is called:",
+    options: [
+      "A. Proliferative phase",
+      "B. Secretory phase",
+      "C. Menstrual phase",
+      "D. Luteal phase"
+    ],
+    correctAnswer: "C. Menstrual phase",
+    explanation: "The menstrual phase involves shedding of the thickened endometrium, expelled through the vagina along with blood and tissue fluid. It lasts for about 4 to 5 days with approximately 35 mL of blood and 35 mL of serous fluid expelled."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "The proliferative phase of the uterine cycle corresponds to which phase of the ovarian cycle?",
+    options: [
+      "A. Luteal phase",
+      "B. Follicular phase",
+      "C. Menstrual phase",
+      "D. Secretory phase"
+    ],
+    correctAnswer: "B. Follicular phase",
+    explanation: "The proliferative phase corresponds to the follicular phase of the ovarian cycle. It extends from the 5th to the 14th day. Endometrial cells proliferate under the influence of estrogen from the ovary."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "During the secretory phase of the menstrual cycle:",
+    options: [
+      "A. Endometrial cells proliferate",
+      "B. The corpus luteum secretes progesterone and estrogen",
+      "C. Menstrual bleeding occurs",
+      "D. Estrogen alone drives endometrial changes"
+    ],
+    correctAnswer: "B. The corpus luteum secretes progesterone and estrogen",
+    explanation: "During the secretory phase (luteal phase), the corpus luteum secretes large amounts of progesterone and small amounts of estrogen under the influence of FSH and LH. Progesterone stimulates growth of endometrial glands, blood vessels, and secretory activities."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "Menstruation is initiated by:",
+    options: [
+      "A. Increased FSH and LH secretion",
+      "B. Sudden withdrawal of progesterone and estrogen",
+      "C. Increased estrogen secretion",
+      "D. Decreased GnRH secretion"
+    ],
+    correctAnswer: "B. Sudden withdrawal of progesterone and estrogen",
+    explanation: "During the last two days of the secretory phase, large quantities of progesterone and estrogen from the corpus luteum inhibit FSH and LH secretion. In the absence of LH and FSH, the corpus luteum regresses. Sudden withdrawal of ovarian hormones (progesterone and estrogen) leads to menstrual bleeding."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Menstrual Cycle",
+    type: "multiplechoice",
+    question: "Dysmenorrhea refers to:",
+    options: [
+      "A. Absence of menstruation",
+      "B. Decreased menstrual bleeding",
+      "C. Menstruation with pain",
+      "D. Increased frequency of menstruation"
+    ],
+    correctAnswer: "C. Menstruation with pain",
+    explanation: "Dysmenorrhea refers to menstruation with pain. Amenorrhea is absence of menstruation, hypomenorrhea is decreased bleeding, and polymenorrhea is increased frequency."
+  },
+
+  // SECTION 15: Other Hormones & General Concepts
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "The pineal gland is located:",
+    options: [
+      "A. Behind the sternum",
+      "B. Attached to the roof of the third ventricle",
+      "C. In the curve of the duodenum",
+      "D. On top of the kidneys"
+    ],
+    correctAnswer: "B. Attached to the roof of the third ventricle",
+    explanation: "The pineal gland is attached to the roof of the third ventricle and secretes melatonin, which helps regulate the body's biological clock."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a hormone produced by the thymus?",
+    options: [
+      "A. Thymosin",
+      "B. Thymic humoral factor (THF)",
+      "C. Thymopoietin",
+      "D. Melatonin"
+    ],
+    correctAnswer: "D. Melatonin",
+    explanation: "Melatonin is produced by the pineal gland, not the thymus. Thymic hormones include thymosin, thymic humoral factor (THF), thymic factor (TF), and thymopoietin, all of which promote maturation of T cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "Eicosanoids are locally-acting hormones derived from:",
+    options: [
+      "A. Cholesterol",
+      "B. Arachidonic acid",
+      "C. Amino acids",
+      "D. Glucose"
+    ],
+    correctAnswer: "B. Arachidonic acid",
+    explanation: "Eicosanoids are locally-acting hormones derived from arachidonic acid (a fatty acid). They act locally rather than being transported through the bloodstream."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "Eustress is defined as:",
+    options: [
+      "A. Harmful stress that may be damaging",
+      "B. Helpful, everyday stress that prepares us to meet challenges",
+      "C. The 1st stage of the stress response",
+      "D. The 2nd stage of the stress response"
+    ],
+    correctAnswer: "B. Helpful, everyday stress that prepares us to meet challenges",
+    explanation: "Eustress is helpful, everyday stress that prepares us to meet challenges. Distress is harmful stress that may be damaging. The fight-or-flight response is the 1st stage of the stress response."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "The resistance reaction is the:",
+    options: [
+      "A. 1st stage of the stress response",
+      "B. 2nd stage of the stress response",
+      "C. 3rd stage of the stress response",
+      "D. Final stage of the stress response"
+    ],
+    correctAnswer: "B. 2nd stage of the stress response",
+    explanation: "The resistance reaction is the 2nd stage in the stress response and lasts longer than the fight-or-flight response. The fight-or-flight response is the 1st stage."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "Pituitary gigantism and acromegaly are caused by:",
+    options: [
+      "A. Excess glucocorticoid secretion",
+      "B. Excess growth hormone secretion",
+      "C. Deficiency of growth hormone",
+      "D. Excess thyroid hormone"
+    ],
+    correctAnswer: "B. Excess growth hormone secretion",
+    explanation: "Pituitary gigantism and acromegaly are caused by excess secretion of growth hormone. Gigantism occurs when excess GH occurs before epiphyseal closure, while acromegaly occurs in adults."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Other Hormones & Concepts",
+    type: "multiplechoice",
+    question: "Graves disease is associated with:",
+    options: [
+      "A. Hypothyroidism",
+      "B. Excess thyroid hormone and exophthalmos",
+      "C. Decreased thyroid hormone",
+      "D. Thyroid gland atrophy"
+    ],
+    correctAnswer: "B. Excess thyroid hormone and exophthalmos",
+    explanation: "Graves disease develops due to excess thyroid hormone and is associated with exophthalmos (protruding eyes). Goiter is caused by a reduction in thyroid hormone production."
+  },
+
+  // SECTION 16: Integrative & Comparative Questions
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following hormones is correctly paired with its source?",
+    options: [
+      "A. Aldosterone - Zona fasciculata",
+      "B. Cortisol - Zona glomerulosa",
+      "C. Epinephrine - Adrenal cortex",
+      "D. Testosterone - Leydig cells (testes)"
+    ],
+    correctAnswer: "D. Testosterone - Leydig cells (testes)",
+    explanation: "Testosterone is produced by Leydig cells in the testes. Aldosterone is produced in the zona glomerulosa (not fasciculata). Cortisol is produced in the zona fasciculata (not glomerulosa). Epinephrine is produced in the adrenal medulla (not cortex)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a function of aldosterone?",
+    options: [
+      "A. Increased Na⁺ reabsorption in the kidney",
+      "B. Increased K⁺ secretion",
+      "C. Increased H⁺ secretion",
+      "D. Increased blood glucose"
+    ],
+    correctAnswer: "D. Increased blood glucose",
+    explanation: "Aldosterone's functions include Na⁺ reabsorption, K⁺ secretion, and H⁺ secretion (leading to metabolic alkalosis). Regulation of blood glucose is a function of glucocorticoids (cortisol), not mineralocorticoids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following comparisons is correct?",
+    options: [
+      "A. Cortisol is a mineralocorticoid; aldosterone is a glucocorticoid",
+      "B. Cortisol is produced in the zona glomerulosa; aldosterone in the zona fasciculata",
+      "C. Cortisol affects glucose metabolism; aldosterone affects electrolyte balance",
+      "D. Cortisol is an anabolic steroid; aldosterone is a catabolic steroid"
+    ],
+    correctAnswer: "C. Cortisol affects glucose metabolism; aldosterone affects electrolyte balance",
+    explanation: "Cortisol (glucocorticoid) affects glucose metabolism; aldosterone (mineralocorticoid) affects electrolyte balance. The other options have reversed pairings or incorrect classifications."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which GI hormone is correctly paired with its function?",
+    options: [
+      "A. Gastrin - Inhibits HCl secretion",
+      "B. Secretin - Stimulates pancreatic HCO₃⁻ secretion",
+      "C. CCK - Inhibits gallbladder emptying",
+      "D. GIP - Inhibits insulin release"
+    ],
+    correctAnswer: "B. Secretin - Stimulates pancreatic HCO₃⁻ secretion",
+    explanation: "Secretin stimulates pancreatic HCO₃⁻ secretion. Gastrin stimulates HCl secretion. CCK stimulates gallbladder emptying. GIP stimulates insulin release (its name comes from its other function: gastric inhibitory peptide)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following correctly matches a pancreatic cell type with its hormone?",
+    options: [
+      "A. Alpha cells - Insulin",
+      "B. Beta cells - Glucagon",
+      "C. Delta cells - Somatostatin",
+      "D. PP cells - Ghrelin"
+    ],
+    correctAnswer: "C. Delta cells - Somatostatin",
+    explanation: "Delta cells produce somatostatin. Alpha cells produce glucagon. Beta cells produce insulin. PP cells produce pancreatic polypeptide. Epsilon cells produce ghrelin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following correctly pairs a hormone with its second messenger system?",
+    options: [
+      "A. ACTH - Phosphatidylinositol/calcium",
+      "B. GnRH - cAMP",
+      "C. Gastrin - Phosphatidylinositol/calcium",
+      "D. PTH - Phosphatidylinositol/calcium"
+    ],
+    correctAnswer: "C. Gastrin - Phosphatidylinositol/calcium",
+    explanation: "Gastrin uses phosphatidylinositol/calcium as its second messenger, along with TRH, GnRH, and CCK. ACTH and PTH use cAMP. GnRH uses phosphatidylinositol/calcium, not cAMP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Hormones",
+    subTopic: "Integrative & Comparative",
+    type: "multiplechoice",
+    question: "Which of the following clinical conditions is correctly paired with its hormone abnormality?",
+    options: [
+      "A. Addison's disease - Excess glucocorticoids",
+      "B. Cushing's syndrome - Deficient glucocorticoids",
+      "C. Conn's syndrome - Excess aldosterone",
+      "D. Primary hyperaldosteronism - Deficient aldosterone"
+    ],
+    correctAnswer: "C. Conn's syndrome - Excess aldosterone",
+    explanation: "Conn's syndrome (primary hyperaldosteronism) involves excess aldosterone. Addison's disease involves deficient adrenal cortex hormones (including glucocorticoids and aldosterone). Cushing's syndrome involves excess glucocorticoids."
   }
 ];
 
