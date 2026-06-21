@@ -5477,5 +5477,2129 @@ const questions = [
     question: "The kidneys are the only organ system that can compensate for an acid-base imbalance of respiratory origin.",
     answer: false,
     explanation: "The text describes respiratory compensation for metabolic imbalances and renal compensation for respiratory imbalances. The respiratory system can also attempt to correct metabolic acid-base imbalances."
+  },
+    // ===== BIOCHEMISTRY – PROTEIN METABOLISM =====
+
+  // SECTION 1: Amino Acids – Essential vs Non-Essential
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Phenylalanine is a non-essential amino acid because it can be synthesized from tyrosine in the body.",
+    answer: false,
+    explanation: "Phenylalanine is an essential amino acid that must be obtained from the diet. Tyrosine is non-essential because it can be synthesized from phenylalanine, not the reverse."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Transamination reactions in amino acid metabolism occur primarily in the kidney.",
+    answer: false,
+    explanation: "The major organ responsible for transamination reactions is the liver, not the kidney. The liver possesses the complete enzymatic machinery for amino acid catabolism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Pyridoxal phosphate (PLP) is the coenzyme required for decarboxylase enzymes.",
+    answer: true,
+    explanation: "Decarboxylase enzymes require pyridoxal phosphate (PLP/B6-PO4) as their coenzyme. PLP forms a Schiff base intermediate with the substrate amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The side chain of proline is bonded to both the backbone nitrogen and the α-carbon.",
+    answer: true,
+    explanation: "Proline's side chain forms a cyclic pyrrolidine ring by bonding to both the backbone nitrogen and the α-carbon, making it an imino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Proline is commonly found in α-helices.",
+    answer: false,
+    explanation: "Proline acts as a helix-breaker because its cyclic structure restricts backbone geometry and prevents normal hydrogen bond formation in α-helices."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Hydroxyproline is found abundantly in collagen.",
+    answer: true,
+    explanation: "4-Hydroxyproline is a modified form of proline found abundantly in collagen, where it stabilizes the triple helix structure."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Vitamin C is required for the hydroxylation of proline in collagen synthesis.",
+    answer: true,
+    explanation: "Vitamin C (ascorbate) is required for the hydroxylation of proline to hydroxyproline. Deficiency causes scurvy with weakened collagen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Glycine is the only achiral amino acid.",
+    answer: true,
+    explanation: "Glycine has two hydrogen atoms attached to its α-carbon, making it achiral. All other standard amino acids are chiral and exist as L-isomers."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "D-amino acids are used in the synthesis of mammalian proteins.",
+    answer: false,
+    explanation: "Mammalian proteins are formed only of L-amino acids. D-amino acids are found in plants and bacterial cell walls but not in mammalian proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The peptide bond has partial double-bond character and is rigid and planar.",
+    answer: true,
+    explanation: "Resonance between the C=O and N-H groups gives the peptide bond partial double-bond character, making it rigid and planar."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The isoelectric point is the pH at which an amino acid has maximum net positive charge.",
+    answer: false,
+    explanation: "The isoelectric point (pI) is the pH at which an amino acid has zero net charge. It does not migrate in an electric field at this pH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "At physiological pH, amino acids exist as zwitterions with both positive and negative charges.",
+    answer: true,
+    explanation: "At physiological pH (~7.4), the amino group is protonated (-NH₃⁺) and the carboxyl group is deprotonated (-COO⁻), forming a zwitterion with net zero charge."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Amino acids can act as biological buffers at pH values near their pKa values.",
+    answer: true,
+    explanation: "The buffering capacity of amino acids is exploited in protein chromatography and gel electrophoresis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Phenylalanine, tyrosine, and tryptophan absorb UV light at 280 nm.",
+    answer: true,
+    explanation: "Aromatic amino acids (phenylalanine, tyrosine, tryptophan) absorb UV light at approximately 280 nm, which is used to quantify proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Kwashiorkor is caused by excess protein intake.",
+    answer: false,
+    explanation: "Kwashiorkor is a severe protein malnutrition caused by inadequate protein intake, especially essential amino acids, typically in weaned children on carbohydrate-rich diets."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Positive nitrogen balance occurs during growth, pregnancy, and recovery from illness.",
+    answer: true,
+    explanation: "Positive nitrogen balance occurs when nitrogen intake exceeds output, as in growth, pregnancy, and recovery from illness where protein synthesis exceeds catabolism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The primary structure of a protein is maintained by hydrogen bonds.",
+    answer: false,
+    explanation: "The primary structure is maintained by covalent peptide bonds. Hydrogen bonds stabilize secondary structures (α-helices and β-sheets)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Disulfide bridges are covalent bonds that stabilize tertiary structure.",
+    answer: true,
+    explanation: "Disulfide bridges (-S-S-) between cysteine residues are covalent bonds that stabilize tertiary structure. They are the only covalent bonds (besides peptide bonds) in protein structure."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Denaturation of a protein disrupts its primary structure.",
+    answer: false,
+    explanation: "Denaturation disrupts secondary, tertiary, and quaternary structure but NOT primary structure (the amino acid sequence). The peptide bonds remain intact."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Haemoglobin is an example of quaternary protein structure.",
+    answer: true,
+    explanation: "Haemoglobin has quaternary structure as a tetramer of two α and two β subunits held together by non-covalent interactions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Collagen is a fibrous protein with a triple helix structure.",
+    answer: true,
+    explanation: "Collagen is a fibrous protein composed of three polypeptide chains wound around each other in a triple helix, stabilized by hydroxyproline and hydroxylysine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Selenocysteine is sometimes called the 21st amino acid.",
+    answer: true,
+    explanation: "Selenocysteine, found in selenoproteins like glutathione peroxidase, has selenium instead of sulphur and is sometimes called the 21st amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Citrulline is found in proteins.",
+    answer: false,
+    explanation: "Citrulline is an intermediate in the urea cycle but is NOT found in proteins. It is formed from ornithine and carbamoyl phosphate in the urea cycle."
+  },
+
+  // SECTION 2: Biogenic Amines – Decarboxylation Products
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Tyramine is formed by the decarboxylation of tryptophan.",
+    answer: false,
+    explanation: "Tyramine is formed by the decarboxylation of tyrosine, not tryptophan. Tryptophan decarboxylation produces tryptamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Tyramine elevates blood pressure by acting as a direct agonist of alpha-1 adrenergic receptors.",
+    answer: false,
+    explanation: "Tyramine is an indirect sympathomimetic. It enters sympathetic nerve terminals and triggers the release of stored norepinephrine, which then activates adrenergic receptors."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "In patients taking MAO inhibitors, dietary tyramine is rapidly degraded in the intestinal wall and liver.",
+    answer: false,
+    explanation: "MAO inhibitors block the first-pass degradation of tyramine by monoamine oxidase. This allows tyramine to reach the systemic circulation, causing a hypertensive crisis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Serotonin is synthesized from tryptophan via a two-step pathway involving 5-hydroxylation followed by decarboxylation.",
+    answer: true,
+    explanation: "Serotonin synthesis requires: tryptophan → (tryptophan-5-hydroxylase) → 5-hydroxytryptophan → (aromatic L-amino acid decarboxylase) → serotonin (5-HT)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Histamine is stored in the secretory granules of mast cells and basophils.",
+    answer: true,
+    explanation: "Histamine is synthesized from histidine and stored preformed in the secretory granules of mast cells and basophils, where it is released upon stimulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Histidine decarboxylase requires NADPH as coenzyme.",
+    answer: false,
+    explanation: "Histidine decarboxylase requires pyridoxal phosphate (PLP/B6-PO4) as coenzyme, not NADPH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Serotonin is inactivated by MAO to 5-hydroxyindoleacetic acid (5-HIAA).",
+    answer: true,
+    explanation: "Serotonin is catabolized by monoamine oxidase (MAO) to 5-hydroxyindoleacetic acid (5-HIAA), which is excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Carcinoid syndrome is characterized by elevated urinary 5-HIAA.",
+    answer: true,
+    explanation: "Carcinoid syndrome from enterochromaffin cell tumours produces excess serotonin, and elevated urinary 5-HIAA is the diagnostic marker."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "H2 receptor antagonists like ranitidine block histamine's effect on gastric acid secretion.",
+    answer: true,
+    explanation: "H2 receptors mediate gastric acid secretion by parietal cells, and H2 blockers (ranitidine, cimetidine) are used in peptic ulcer disease."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Tyramine is produced in the gut as a result of bacterial action on dietary tyrosine.",
+    answer: true,
+    explanation: "Tyramine is produced by decarboxylation of tyrosine by intestinal microorganisms possessing tyrosine decarboxylase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "The 'cheese reaction' refers to hypertensive crisis from tyramine in patients on MAOIs.",
+    answer: true,
+    explanation: "The 'cheese reaction' occurs when patients on MAOIs consume tyramine-rich foods, causing hypertensive crisis due to inability to degrade tyramine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "5-Hydroxytryptophan (5-HTP) is the immediate precursor of serotonin.",
+    answer: true,
+    explanation: "5-HTP is produced by hydroxylation of tryptophan and is then decarboxylated to serotonin (5-HT) by aromatic L-amino acid decarboxylase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "truefalse",
+    question: "Tryptophan is an essential amino acid.",
+    answer: true,
+    explanation: "Tryptophan is an essential amino acid. It serves as the precursor for serotonin and niacin (vitamin B3) synthesis."
+  },
+
+  // SECTION 3: Phenylalanine & Tyrosine Metabolism
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine hydroxylase requires tetrahydrobiopterin (BH4) as a cofactor for its activity.",
+    answer: true,
+    explanation: "Phenylalanine hydroxylase requires molecular oxygen, NADPH, Fe²⁺, and tetrahydrobiopterin (BH4/FH4) as cofactors for the hydroxylation of phenylalanine to tyrosine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Tyrosine is an essential amino acid that cannot be synthesized in the body.",
+    answer: false,
+    explanation: "Tyrosine is non-essential in healthy individuals because it can be synthesized from phenylalanine via phenylalanine hydroxylase. It becomes conditionally essential only in PKU."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Both phenylalanine and tyrosine are classified as both glucogenic and ketogenic amino acids.",
+    answer: true,
+    explanation: "Phenylalanine and tyrosine are degraded to fumarate (glucogenic) and acetoacetate (ketogenic), making them both glucogenic and ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Leucine and lysine are the only purely ketogenic amino acids.",
+    answer: true,
+    explanation: "Leucine and lysine are the only amino acids that are purely ketogenic. Their carbon skeletons yield only acetyl-CoA or acetoacetate and cannot contribute to glucose synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine hydroxylase is found primarily in the kidney.",
+    answer: false,
+    explanation: "Phenylalanine hydroxylase is a liver-specific enzyme present in the cytosol of hepatocytes, not in the kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "In classic PKU, tyrosine becomes a conditionally essential amino acid.",
+    answer: true,
+    explanation: "In PKU, phenylalanine cannot be converted to tyrosine due to phenylalanine hydroxylase deficiency, so tyrosine must be obtained from the diet and supplemented."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Tetrahydrobiopterin (BH4) is regenerated from dihydrobiopterin (BH2) by dihydropteridine reductase using NADPH.",
+    answer: true,
+    explanation: "Dihydropteridine reductase (DHPR) regenerates BH4 from BH2 using NADPH as the electron donor. This recycling is essential for sustained phenylalanine hydroxylase activity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Atypical PKU is caused by deficiency of phenylalanine hydroxylase enzyme protein.",
+    answer: false,
+    explanation: "Atypical PKU is caused by defects in BH4 metabolism (synthesis or regeneration), not by phenylalanine hydroxylase deficiency. The PAH enzyme itself is normal but cannot function without its cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine and tyrosine can participate in transamination reactions.",
+    answer: true,
+    explanation: "Both phenylalanine and tyrosine can undergo transamination, producing phenylpyruvate and 4-hydroxyphenylpyruvate respectively."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "In PKU, phenylalanine accumulates and undergoes transamination to form phenylpyruvate.",
+    answer: true,
+    explanation: "When phenylalanine cannot be hydroxylated to tyrosine, it undergoes transamination to phenylpyruvate, which is then reduced to phenyllactate and phenylacetate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylacetate is conjugated with glutamine and excreted as phenylacetylglutamine in PKU urine.",
+    answer: true,
+    explanation: "Phenylacetate is conjugated with glutamine to form phenylacetylglutamine, which is excreted in urine and contributes to the characteristic 'mousy odour.'"
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Ferric chloride test gives a green colour in PKU urine due to phenylpyruvate.",
+    answer: true,
+    explanation: "The ferric chloride test is positive (green colour) for phenylpyruvate in PKU urine, used historically for screening."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Newborn screening for PKU uses the Guthrie test (blood spot on filter paper).",
+    answer: true,
+    explanation: "The Guthrie bacterial inhibition assay detects elevated phenylalanine in blood spots and is used for universal newborn screening for PKU."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "In PKU, intellectual disability is caused by direct toxicity of phenylalanine to neurons.",
+    answer: false,
+    explanation: "Intellectual disability in PKU is primarily due to competitive inhibition of the LNAA transporter at the blood-brain barrier, causing reduced brain uptake of tryptophan and tyrosine and resulting in neurotransmitter depletion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "In PKU, phenylalanine competes with other large neutral amino acids for transport across the blood-brain barrier.",
+    answer: true,
+    explanation: "Elevated phenylalanine competes with tryptophan, tyrosine, and other large neutral amino acids for the shared L-type LNAA transporter at the blood-brain barrier."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "BH4 deficiency impairs phenylalanine hydroxylase, tyrosine hydroxylase, and tryptophan hydroxylase simultaneously.",
+    answer: true,
+    explanation: "BH4 is required by all three hydroxylases: phenylalanine hydroxylase (Phe→Tyr), tyrosine hydroxylase (Tyr→DOPA), and tryptophan-5-hydroxylase (Trp→5-HTP)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Melanin synthesis requires the enzyme tyrosinase, which contains copper in its active site.",
+    answer: true,
+    explanation: "Tyrosinase is a copper-containing monooxygenase that oxidizes tyrosine to dopaquinone in melanin synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Albinos have increased risk of skin cancer due to lack of melanin protection from UV radiation.",
+    answer: true,
+    explanation: "Melanin protects underlying cells from harmful sunlight effects. Without melanin, albinos have photosensitivity, skin hypersensitivity, and increased skin cancer risk."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "In tyrosinaemia Type I, plasma tyrosine levels are elevated along with methionine levels.",
+    answer: true,
+    explanation: "In tyrosinaemia Type I, plasma tyrosine is elevated (6-12 mg/dL) and plasma methionine is also increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Tyrosinaemia Type I can present with acute liver failure in infants.",
+    answer: true,
+    explanation: "Tyrosinaemia Type I (acute form) in infants presents with diarrhoea, vomiting, 'cabbage-like' odour, and liver failure, with death within 6-8 months if untreated."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Neonatal tyrosinaemia is caused by an inherited deficiency of 4-hydroxyphenylpyruvate dioxygenase that is permanent.",
+    answer: false,
+    explanation: "Neonatal tyrosinaemia is due to transient/relative deficiency of 4-hydroxyphenylpyruvate dioxygenase in neonates (especially premature infants) and usually resolves spontaneously within weeks."
+  },
+
+  // SECTION 4: Catecholamine Synthesis
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "truefalse",
+    question: "Tyrosine hydroxylase is the rate-limiting step in catecholamine biosynthesis.",
+    answer: true,
+    explanation: "Tyrosine hydroxylase catalyzes the conversion of tyrosine to L-DOPA and is the rate-limiting, regulated step in catecholamine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "truefalse",
+    question: "Dopamine β-hydroxylase requires vitamin C (ascorbate) as a cofactor.",
+    answer: true,
+    explanation: "Dopamine β-hydroxylase requires vitamin C (ascorbate) as an electron donor and copper (Cu²⁺) in its active site for the hydroxylation of dopamine to norepinephrine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "truefalse",
+    question: "Phenylethanolamine-N-methyltransferase (PNMT) is expressed in all sympathetic nerve terminals.",
+    answer: false,
+    explanation: "PNMT is expressed almost exclusively in the adrenal medulla. Peripheral sympathetic nerve terminals lack PNMT and therefore release norepinephrine, not epinephrine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "truefalse",
+    question: "PNMT expression is induced by cortisol from the adrenal cortex.",
+    answer: true,
+    explanation: "Cortisol from the adrenal cortex induces PNMT expression in the adrenal medulla. This explains why the adrenal medulla produces primarily epinephrine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "truefalse",
+    question: "L-DOPA crosses the blood-brain barrier while dopamine cannot.",
+    answer: true,
+    explanation: "L-DOPA (levodopa) can cross the blood-brain barrier, whereas dopamine cannot. This is why L-DOPA is used in Parkinson's disease treatment."
+  },
+
+  // SECTION 5: Melanin & Pigmentation Disorders
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Melanin is synthesized from tyrosine by the enzyme tyrosinase.",
+    answer: true,
+    explanation: "Tyrosinase, a copper-containing enzyme, oxidizes tyrosine to dopaquinone, which then undergoes polymerization to form melanin pigments."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Pheomelanins contain sulphur while eumelanins do not.",
+    answer: true,
+    explanation: "Pheomelanins contain sulphur (from cysteine reacting with dopaquinone) and produce red-yellow pigments, while eumelanins lack sulphur and produce brown-black pigments."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Albinism is caused by deficiency of homogentisate oxidase.",
+    answer: false,
+    explanation: "Albinism is caused by deficiency of tyrosinase, which is required for melanin synthesis. Homogentisate oxidase deficiency causes alkaptonuria."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "In alkaptonuria, freshly voided urine is dark in colour.",
+    answer: false,
+    explanation: "In alkaptonuria, freshly voided urine is normal in colour. It becomes dark on exposure to air due to oxidation of homogentisic acid to alkapton."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Ochronosis refers to the deposition of dark pigment in connective tissues in alkaptonuria.",
+    answer: true,
+    explanation: "Homogentisic acid and its oxidation products polymerize and bind to collagen, causing generalized pigmentation of connective tissues called ochronosis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Tyrosinaemia Type I is caused by deficiency of tyrosine aminotransferase.",
+    answer: false,
+    explanation: "Tyrosinaemia Type I is caused by deficiency of fumarylacetoacetate hydrolase (FAH). Tyrosine aminotransferase deficiency causes Tyrosinaemia Type II."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "truefalse",
+    question: "Tyrosinaemia Type II is characterized by eye and skin lesions.",
+    answer: true,
+    explanation: "Tyrosinaemia Type II (Richner-Hanhart syndrome) is characterized by painful palmoplantar keratoderma, corneal erosions, and intellectual disability in some cases."
+  },
+
+  // SECTION 6: Sulphur Amino Acids – Methionine, Homocysteine, Cysteine
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Methionine is a non-essential amino acid.",
+    answer: false,
+    explanation: "Methionine is an essential amino acid that must be obtained from the diet. It serves as the primary dietary sulphur source for cysteine biosynthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "SAM (S-adenosyl methionine) is formed by the reaction of methionine with ATP.",
+    answer: true,
+    explanation: "Methionine adenosyl transferase (MAT) catalyzes the activation of methionine by ATP to form S-adenosyl methionine (SAM), releasing PPi and Pi."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "In SAM, the methyl group is labile and can be easily transferred to methyl acceptors.",
+    answer: true,
+    explanation: "In SAM, the high-energy sulfonium bond makes the methyl group labile and easily transferable to acceptors via methyltransferase enzymes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Creatine synthesis is a major consumer of SAM-derived methyl groups.",
+    answer: true,
+    explanation: "Creatine synthesis from guanidinoacetate requires SAM as the methyl donor and is one of the major consumers of SAM-derived methyl groups."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homocysteine can be remethylated to methionine using 5-methyltetrahydrofolate as the methyl donor.",
+    answer: true,
+    explanation: "Homocysteine can be remethylated to methionine by methionine synthase, which uses 5-methyl-THF as the methyl donor and requires vitamin B12 as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Vitamin B12 is required as a cofactor for cystathionine beta-synthase.",
+    answer: false,
+    explanation: "Cystathionine beta-synthase requires pyridoxal phosphate (PLP/Vitamin B6) as its cofactor, not vitamin B12. Vitamin B12 is required for methionine synthase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cystathionine beta-synthase deficiency causes homocystinuria.",
+    answer: true,
+    explanation: "Deficiency of cystathionine beta-synthase (CBS) causes classic homocystinuria, characterized by accumulation of homocysteine and its urinary excretion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "In homocystinuria, lens dislocation is typically upward and outward.",
+    answer: false,
+    explanation: "In homocystinuria, lens dislocation is typically downward and inward (inferonasal). Upward and outward dislocation is characteristic of Marfan's syndrome."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homocysteine is an independent cardiovascular risk factor.",
+    answer: true,
+    explanation: "Elevated plasma homocysteine is an independent risk factor for coronary artery disease, stroke, and peripheral vascular disease due to endothelial injury and prothrombotic effects."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Vitamin B12 deficiency can cause hyperhomocysteinaemia.",
+    answer: true,
+    explanation: "Vitamin B12 deficiency impairs the remethylation of homocysteine to methionine, leading to accumulation of homocysteine and hyperhomocysteinaemia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Glutathione is a tripeptide composed of glutamate, cysteine, and alanine.",
+    answer: false,
+    explanation: "Glutathione (GSH) is a tripeptide composed of glutamate, cysteine, and glycine (γ-Glu-Cys-Gly). The active -SH group is provided by cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "The active reducing moiety of glutathione is the thiol (-SH) group from cysteine.",
+    answer: true,
+    explanation: "The thiol (-SH) group of cysteine in glutathione is the active reducing moiety that participates in antioxidant reactions, reducing peroxides to water."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Glutathione peroxidase requires selenium as a cofactor.",
+    answer: true,
+    explanation: "Glutathione peroxidase is a selenoprotein that requires selenium as a cofactor to catalyze the reduction of hydrogen peroxide and lipid hydroperoxides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "G6PD deficiency leads to increased NADPH production and protection against oxidative stress.",
+    answer: false,
+    explanation: "G6PD deficiency leads to decreased NADPH production, which impairs glutathione reductase's ability to regenerate GSH from GSSG, causing susceptibility to oxidative haemolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Primaquine is a trigger for haemolysis in G6PD-deficient patients.",
+    answer: true,
+    explanation: "Primaquine (an antimalarial) generates reactive oxygen species that overwhelm the depleted glutathione system in G6PD-deficient RBCs, causing oxidative haemolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is abundant in keratin of hair, nails, and skin.",
+    answer: true,
+    explanation: "Cysteine is particularly prominent in keratin, the structural protein of hair, nails, hoofs, and skin epidermis, where disulfide bonds provide mechanical strength."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Insulin contains disulfide bonds that are essential for its structure and function.",
+    answer: true,
+    explanation: "Insulin contains three disulfide bonds (two inter-chain and one intra-chain) that are essential for its native three-dimensional structure and receptor-binding activity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is a non-essential amino acid that is glucogenic.",
+    answer: true,
+    explanation: "Cysteine is non-essential (synthesized from methionine and serine) and glucogenic because it is catabolized to pyruvate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Trans-sulfuration is the transfer of sulphur from methionine to serine to form cysteine.",
+    answer: true,
+    explanation: "Trans-sulfuration involves the transfer of the sulphur atom from methionine (via homocysteine) to the carbon skeleton of serine to form cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cystathionine is formed by the condensation of homocysteine with serine.",
+    answer: true,
+    explanation: "Cystathionine beta-synthase (CBS) catalyzes the condensation of homocysteine with serine to form cystathionine, requiring PLP as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cystathionase catalyzes the conversion of cystathionine to cysteine and homoserine.",
+    answer: true,
+    explanation: "Cystathionase hydrolyzes cystathionine to cysteine and homoserine, also requiring PLP as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homoserine is deaminated and decarboxylated to acetyl-CoA.",
+    answer: false,
+    explanation: "Homoserine is deaminated and then decarboxylated to propionyl-CoA, which enters the TCA cycle as succinyl-CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Both cystathionine beta-synthase and cystathionase require vitamin B6 (PLP) as cofactor.",
+    answer: true,
+    explanation: "Both enzymes in the trans-sulfuration pathway require pyridoxal phosphate (PLP/Vitamin B6) as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "SAM is required for the synthesis of melatonin.",
+    answer: true,
+    explanation: "Melatonin synthesis from N-acetylserotonin requires SAM as the methyl donor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is catabolized to form pyruvic acid, which can be converted to glucose.",
+    answer: true,
+    explanation: "Cysteine is glucogenic; its catabolism yields pyruvate, which can be converted to glucose via gluconeogenesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Mercaptoethanolamine from cysteine is an important constituent of coenzyme A.",
+    answer: true,
+    explanation: "Cysteine is the precursor of mercaptoethanolamine (cysteamine), which is an important structural constituent of Coenzyme A (CoA)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Vasopressin contains cysteine residues that form disulfide bonds.",
+    answer: true,
+    explanation: "Vasopressin (ADH) is a peptide hormone with a disulfide bond formed between cysteine residues, necessary for its biological activity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Paracetamol overdose depletes hepatic glutathione stores.",
+    answer: true,
+    explanation: "Paracetamol's toxic metabolite NAPQI conjugates with glutathione, depleting hepatic GSH stores and leading to hepatocyte necrosis if untreated."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "N-acetylcysteine is used in paracetamol overdose to replenish glutathione.",
+    answer: true,
+    explanation: "N-acetylcysteine (NAC) provides cysteine after deacetylation, which is the rate-limiting substrate for glutathione synthesis, bypassing the slower trans-sulfuration pathway."
+  },
+
+  // SECTION 7: Transamination & Deamination
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Decarboxylation of amino acids produces 2-oxoacids.",
+    answer: false,
+    explanation: "Decarboxylation removes the carboxyl group as CO₂ and produces biogenic amines. Transamination produces 2-oxoacids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Transamination is a reversible reaction.",
+    answer: true,
+    explanation: "Transamination is a reversible reaction catalyzed by aminotransferases, allowing both degradation of amino acids and synthesis of non-essential amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Oxidative deamination of glutamate produces α-ketoglutarate and ammonia.",
+    answer: true,
+    explanation: "Glutamate dehydrogenase catalyzes the oxidative deamination of glutamate to α-ketoglutarate, releasing NH₄⁺ and producing NADH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "L-amino acid oxidase is the major enzyme for oxidative deamination in mammalian tissues.",
+    answer: false,
+    explanation: "Glutamate dehydrogenase is the major enzyme for oxidative deamination in mammalian tissues. L-amino acid oxidase has minimal activity in mammalian tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "ALT (alanine aminotransferase) is predominantly found in cardiac muscle.",
+    answer: false,
+    explanation: "ALT is predominantly found in the liver. AST is found in both liver and heart muscle and is elevated in both liver disease and myocardial infarction."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "AST:ALT ratio greater than 2:1 suggests alcoholic liver disease.",
+    answer: true,
+    explanation: "An AST:ALT ratio >2:1 is characteristic of alcoholic liver disease, while a ratio <1 suggests viral hepatitis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "All amino acids except threonine, lysine, proline, and hydroxyproline can undergo transamination.",
+    answer: true,
+    explanation: "Threonine, lysine, proline, and hydroxyproline cannot undergo transamination. The other amino acids can participate in transamination reactions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Transamination produces free ammonia directly.",
+    answer: false,
+    explanation: "Transamination transfers amino groups but does not produce free ammonia. Free ammonia is produced by oxidative deamination of glutamate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "The coenzyme for transamination is pyridoxal phosphate (PLP).",
+    answer: true,
+    explanation: "PLP (Vitamin B6) is the coenzyme for all transaminases (aminotransferases), forming a Schiff base intermediate with the amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "L-α-amino acid oxidase deaminates most naturally occurring L-amino acids.",
+    answer: true,
+    explanation: "L-amino acid oxidase deaminates most naturally occurring L-amino acids, but it has minimal activity in mammalian tissues compared to glutamate dehydrogenase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "D-amino acid oxidase deaminates D-amino acids from the diet.",
+    answer: true,
+    explanation: "D-amino acid oxidase deaminates D-amino acids present in the diet, producing α-keto acids that can be transaminated to L-amino acids or catabolized."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Deamination of cysteine by cysteine desulfhydrase is an example of transamination.",
+    answer: false,
+    explanation: "Deamination of cysteine by cysteine desulfhydrase is a specific method of deamination (desulfhydration), not transamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Histidase catalyzes non-oxidative deamination of histidine.",
+    answer: true,
+    explanation: "Histidase catalyzes non-oxidative deamination of histidine to urocanic acid. Deficiency causes histidinaemia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Dehydratases catalyze non-oxidative deamination of hydroxy-containing amino acids.",
+    answer: true,
+    explanation: "Dehydratases catalyze non-oxidative deamination of serine and threonine (hydroxy-containing amino acids)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Glutaminase catalyzes the hydrolytic deamination of glutamine.",
+    answer: true,
+    explanation: "Glutaminase catalyzes the hydrolytic deamination of glutamine to glutamate and ammonia in the kidney, accounting for 60% of urinary ammonia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Glutamate is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissues.",
+    answer: true,
+    explanation: "Glutamate dehydrogenase is the only enzyme that catalyzes oxidative deamination of an amino acid at an appreciable rate in mammalian tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "truefalse",
+    question: "Branched-chain amino acids competitively inhibit glutamate dehydrogenase.",
+    answer: true,
+    explanation: "Branched-chain amino acids competitively inhibit glutamate dehydrogenase, contributing to the metabolic effects seen in MSUD."
+  },
+
+  // SECTION 8: Urea Cycle
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "The urea cycle occurs entirely in the cytoplasm of hepatocytes.",
+    answer: false,
+    explanation: "The urea cycle occurs in both mitochondria (steps 1-2: carbamoyl phosphate synthesis and citrulline formation) and cytoplasm (steps 3-5)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Carbamoyl phosphate synthetase I requires N-acetylglutamate as an allosteric activator.",
+    answer: true,
+    explanation: "CPS-I requires N-acetylglutamate as an absolute allosteric activator. The synthesis of N-acetylglutamate is stimulated by high protein diet and arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Ornithine transcarbamylase deficiency is the most common urea cycle disorder and is X-linked.",
+    answer: true,
+    explanation: "OTC deficiency is the most common urea cycle disorder. It is X-linked, so males are more severely affected, and females are carriers with variable expression."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Arginase catalyzes the conversion of arginine to ornithine and urea.",
+    answer: true,
+    explanation: "Arginase is the final enzyme of the urea cycle, catalyzing the hydrolysis of arginine to ornithine and urea. Ornithine is regenerated for another cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "One molecule of urea contains two nitrogen atoms, one from ammonia and one from aspartate.",
+    answer: true,
+    explanation: "The first nitrogen of urea comes from ammonia (via carbamoyl phosphate), and the second nitrogen comes from aspartate via argininosuccinate synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "The urea cycle consumes four high-energy phosphate bonds (3 ATP equivalents).",
+    answer: true,
+    explanation: "The urea cycle consumes 4 high-energy phosphate bonds: 2 ATP are hydrolyzed to 2 ADP + Pi for carbamoyl phosphate synthesis, and 1 ATP is hydrolyzed to AMP + PPi for argininosuccinate synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Fumarate produced in the urea cycle links the cycle to glycolysis.",
+    answer: false,
+    explanation: "Fumarate links the urea cycle to the TCA cycle (Krebs cycle), not glycolysis. Fumarate is converted to malate and then oxaloacetate in the TCA cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Ornithine is regenerated in the urea cycle and acts as a carrier molecule.",
+    answer: true,
+    explanation: "Ornithine is regenerated with each turn of the urea cycle, acting as a carrier molecule (similar to oxaloacetate in the TCA cycle)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "The principal site for urea formation is the kidney.",
+    answer: false,
+    explanation: "The principal site for urea formation is the liver. Urea is then excreted through the kidneys."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Glutamine is produced in many extra-renal tissues including muscle, liver, and brain.",
+    answer: true,
+    explanation: "Glutamine synthetase produces glutamine in muscle (for ammonia transport), liver (scavenging ammonia), and brain (detoxifying ammonia)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "In the kidney, glutamine is hydrolyzed to glutamate and ammonia for urinary excretion.",
+    answer: true,
+    explanation: "Renal glutaminase hydrolyzes glutamine to glutamate and ammonia, which is directly excreted in urine, accounting for 60% of urinary ammonia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Ammonia produced from amino acid deamination in the kidney regulates acid-base balance.",
+    answer: true,
+    explanation: "Ammonia produced from amino acid deamination in the kidney, especially from glutamine, helps regulate acid-base balance and preserve cations."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "Carbamoyl phosphate synthetase II is involved in the urea cycle.",
+    answer: false,
+    explanation: "Carbamoyl phosphate synthetase I is involved in the urea cycle (mitochondria). Carbamoyl phosphate synthetase II is involved in pyrimidine synthesis (cytoplasm)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "CPS-I requires ammonia as the nitrogen source while CPS-II uses glutamine.",
+    answer: true,
+    explanation: "CPS-I uses ammonia as its nitrogen source for urea synthesis, while CPS-II uses glutamine for pyrimidine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "N-acetylglutamate is an inhibitor of carbamoyl phosphate synthetase I.",
+    answer: false,
+    explanation: "N-acetylglutamate is an allosteric activator of CPS-I, not an inhibitor. Its synthesis is increased by high protein diet and arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "truefalse",
+    question: "The energy expenditure of the urea cycle is net zero because NADH produced in the cycle generates ATP.",
+    answer: false,
+    explanation: "While NADH produced from glutamate oxidation and fumarate metabolism can generate ATP, the net energy expenditure is still one high-energy phosphate bond. The cycle consumes 4 ATP equivalents."
+  },
+
+  // SECTION 9: Branched-Chain Amino Acids & Inborn Errors
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Branched-chain amino acids are catabolized primarily in the liver.",
+    answer: false,
+    explanation: "Branched-chain amino acids (leucine, isoleucine, valine) are catabolized primarily in muscle, not the liver. This is a unique feature of BCAA metabolism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Valine is purely ketogenic.",
+    answer: false,
+    explanation: "Valine is purely glucogenic. It is converted to propionyl-CoA, which enters the TCA cycle as succinyl-CoA and can be used for gluconeogenesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Leucine is purely ketogenic.",
+    answer: true,
+    explanation: "Leucine is purely ketogenic. Its catabolism yields acetyl-CoA and acetoacetate only, neither of which can contribute to net glucose synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Isoleucine is both glucogenic and ketogenic.",
+    answer: true,
+    explanation: "Isoleucine is both glucogenic and ketogenic because it yields propionyl-CoA (glucogenic) and acetyl-CoA (ketogenic)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Maple syrup urine disease is caused by deficiency of BCAA aminotransferase.",
+    answer: false,
+    explanation: "MSUD is caused by deficiency of branched-chain α-ketoacid dehydrogenase (BCKAD) complex, not BCAA aminotransferase. The defect is in oxidative decarboxylation of BCAA ketoacids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "In MSUD, urine has a characteristic odour similar to maple syrup or burnt sugar.",
+    answer: true,
+    explanation: "Accumulation of branched-chain ketoacids (leucine, isoleucine, valine) imparts a typical odour to urine similar to maple syrup or burnt sugar."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "MSUD clinical signs appear within one week of birth.",
+    answer: true,
+    explanation: "Clinical signs of classic MSUD appear within one week of birth, with lethargy, vomiting, and aversion to food followed by severe brain damage."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Treatment of MSUD includes exclusion of branched-chain amino acids from the diet.",
+    answer: true,
+    explanation: "Treatment consists of a diet low in branched-chain amino acids (valine, leucine, isoleucine) to reduce their accumulation and prevent neurological damage."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Intermittent branched-chain ketonuria is a more severe form of MSUD.",
+    answer: false,
+    explanation: "Intermittent branched-chain ketonuria is a milder variant of MSUD with only moderate decrease in enzyme activity and later onset of milder symptoms."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Histidinaemia is caused by deficiency of histidase.",
+    answer: true,
+    explanation: "Histidinaemia is an inborn error of histidine metabolism caused by deficiency of histidase, which normally converts histidine to urocanic acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Histidinaemia always causes severe intellectual disability.",
+    answer: false,
+    explanation: "Most subjects with histidinaemia have no symptoms. Only about 1% develop behavioural problems, learning disorders, or intellectual disability, usually with perinatal hypoxia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Primary hyperoxaluria is a disorder of glyoxylate metabolism.",
+    answer: true,
+    explanation: "Primary hyperoxaluria is a disorder of glyoxylate metabolism, where glyoxylate is converted to oxalate rather than transaminated to glycine or oxidized to formate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "In cystinuria, there is a defect in tubular reabsorption of cystine only.",
+    answer: false,
+    explanation: "In cystinuria, there is a defect in tubular reabsorption of cystine, lysine, arginine, and ornithine (all dibasic amino acids) due to a shared transporter defect."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "truefalse",
+    question: "Cystine stones form in the kidneys because cystine is highly soluble in urine.",
+    answer: false,
+    explanation: "Cystine stones form because cystine is sparingly soluble in urine and precipitates at normal urine pH, forming characteristic hexagonal crystals."
+  },
+
+  // SECTION 10: Ammonia Metabolism & Toxicity
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "truefalse",
+    question: "Glutamine formation is a mechanism for scavenging ammonia that has not been incorporated into urea.",
+    answer: true,
+    explanation: "Glutamine synthetase converts glutamate and ammonia to glutamine, serving as a scavenging mechanism for ammonia in tissues, especially in the brain."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "truefalse",
+    question: "Brain glutamine formation and transport contributes to increased tryptophan uptake into the brain.",
+    answer: true,
+    explanation: "Increased brain glutamine enhances the outflow of glutamine via a transporter that also allows tryptophan entry, leading to increased serotonin synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "truefalse",
+    question: "Ammonia toxicity is partly due to depletion of α-ketoglutarate from the TCA cycle.",
+    answer: true,
+    explanation: "Increased NH₃ enhances amination of α-ketoglutarate to form glutamate, reducing the mitochondrial pool of α-ketoglutarate and depressing the TCA cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "truefalse",
+    question: "GABA (gamma-aminobutyric acid) is an inhibitory neurotransmitter synthesized from glutamate.",
+    answer: true,
+    explanation: "GABA is synthesized by decarboxylation of glutamate. Increased ammonia reduces brain glutamate, decreasing GABA formation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "truefalse",
+    question: "Ammonia is normally present in blood at levels >1 mg/dL.",
+    answer: false,
+    explanation: "Normal blood ammonia level is <0.1 mg/dL. Even minute quantities of ammonia can produce toxicity in the central nervous system."
+  },
+    // ===== PROTEIN METABOLISM – MCQ =====
+
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines & Catecholamines",
+    type: "multiplechoice",
+    question: "A 45-year-old man on phenelzine (an MAOI) develops a severe headache and blood pressure of 210/130 mmHg after consuming aged cheddar cheese. Which biochemical event most directly explains this presentation?",
+    options: [
+      "A. Increased synthesis of norepinephrine from phenylalanine in adrenal chromaffin cells",
+      "B. Failure of first-pass MAO-mediated degradation of gut-derived tyramine, causing systemic indirect sympathomimesis",
+      "C. Inhibition of tyrosine hydroxylase by the cheese protein, reducing feedback inhibition of catecholamine synthesis",
+      "D. Direct agonism of α1-adrenergic receptors by tyramine acting on postsynaptic membranes"
+    ],
+    correctAnswer: "B. Failure of first-pass MAO-mediated degradation of gut-derived tyramine, causing systemic indirect sympathomimesis",
+    explanation: "Tyramine from aged cheese is normally degraded by MAO in the gut wall and liver. MAO inhibitors block this first-pass metabolism, allowing tyramine to reach systemic circulation and trigger norepinephrine release. Tyramine is an indirect sympathomimetic, not a direct receptor agonist."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which of the following best explains how pyridoxal phosphate (PLP) can function as a coenzyme for both decarboxylation and transamination reactions?",
+    options: [
+      "A. Different isoforms of PLP exist for each reaction type",
+      "B. PLP forms a Schiff base with the amino acid, and the reaction outcome depends on which bond of the substrate is broken",
+      "C. PLP acts as an electron donor in decarboxylation but as a methyl donor in transamination",
+      "D. The direction is determined by the redox state of PLP"
+    ],
+    correctAnswer: "B. PLP forms a Schiff base with the amino acid, and the reaction outcome depends on which bond of the substrate is broken",
+    explanation: "PLP forms a Schiff base (aldimine) with the amino acid. The PLP ring acts as an electron sink. The enzyme's active site geometry determines which bond breaks: C-COOH for decarboxylation or C-NH for transamination. There is only one form of PLP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines & Catecholamines",
+    type: "multiplechoice",
+    question: "A patient presents with chronic flushing, diarrhoea, and bronchospasm. A 24-hour urine collection shows markedly elevated 5-hydroxyindoleacetic acid (5-HIAA). Which amino acid is the precursor of the compound causing these symptoms?",
+    options: [
+      "A. Tyrosine",
+      "B. Histidine",
+      "C. Tryptophan",
+      "D. Phenylalanine"
+    ],
+    correctAnswer: "C. Tryptophan",
+    explanation: "This is carcinoid syndrome from excess serotonin produced by enterochromaffin cell tumours. Serotonin is synthesized from tryptophan via 5-hydroxylation to 5-HTP followed by decarboxylation. Serotonin is catabolized to 5-HIAA, which is excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "multiplechoice",
+    question: "A patient with PKU has elevated phenylalanine levels. Which of the following explains why intellectual disability occurs if PKU is untreated?",
+    options: [
+      "A. Phenylpyruvate directly alkylates hepatocyte DNA, causing progressive liver failure",
+      "B. Elevated phenylalanine competitively inhibits LNAA transport at the blood-brain barrier, reducing brain tryptophan and tyrosine",
+      "C. Accumulated phenylalanine is directly toxic to oligodendrocytes as potent oxidants",
+      "D. Phenylalanine is converted to epinephrine via an alternative pathway, causing cardiac arrhythmias"
+    ],
+    correctAnswer: "B. Elevated phenylalanine competitively inhibits LNAA transport at the blood-brain barrier, reducing brain tryptophan and tyrosine",
+    explanation: "Elevated phenylalanine competes with other large neutral amino acids (tryptophan, tyrosine) for transport across the blood-brain barrier. Reduced brain tryptophan decreases serotonin synthesis, and reduced tyrosine decreases dopamine/norepinephrine synthesis. This neurotransmitter depletion impairs myelination and neurodevelopment."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "multiplechoice",
+    question: "A patient has hyperphenylalaninaemia with a normal phenylalanine hydroxylase gene but low CSF serotonin and dopamine. The defect is most likely in which enzyme?",
+    options: [
+      "A. Aromatic L-amino acid decarboxylase",
+      "B. Dihydropteridine reductase (DHPR)",
+      "C. Phenylalanine hydroxylase",
+      "D. Methionine adenosyl transferase"
+    ],
+    correctAnswer: "B. Dihydropteridine reductase (DHPR)",
+    explanation: "BH4 is required by phenylalanine hydroxylase, tyrosine hydroxylase (catecholamine synthesis), and tryptophan-5-hydroxylase (serotonin synthesis). DHPR deficiency prevents BH4 regeneration, impairing all three hydroxylases simultaneously. This is atypical/malignant PKU."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "multiplechoice",
+    question: "In catecholamine synthesis, which step is rate-limiting and which cofactor is required?",
+    options: [
+      "A. DOPA → Dopamine; requires PLP",
+      "B. Tyrosine → L-DOPA; requires tetrahydrobiopterin (BH4)",
+      "C. Dopamine → Norepinephrine; requires vitamin C",
+      "D. Norepinephrine → Epinephrine; requires SAM"
+    ],
+    correctAnswer: "B. Tyrosine → L-DOPA; requires tetrahydrobiopterin (BH4)",
+    explanation: "Tyrosine hydroxylase catalyzes the conversion of tyrosine to L-DOPA and is the rate-limiting step. It requires tetrahydrobiopterin (BH4), molecular oxygen, and Fe²⁺. This is the main regulatory point of catecholamine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "multiplechoice",
+    question: "A patient with chronic cortisol excess (Cushing's syndrome) would most likely show which change in catecholamine metabolism?",
+    options: [
+      "A. Decreased epinephrine synthesis because cortisol downregulates PNMT",
+      "B. Increased conversion of norepinephrine to epinephrine because cortisol upregulates PNMT",
+      "C. Increased dopamine production due to enhanced DOPA decarboxylase",
+      "D. No change because PNMT is constitutively expressed"
+    ],
+    correctAnswer: "B. Increased conversion of norepinephrine to epinephrine because cortisol upregulates PNMT",
+    explanation: "PNMT (phenylethanolamine-N-methyltransferase) is induced by cortisol in the adrenal medulla. Cortisol from the adrenal cortex bathes the medulla, maintaining PNMT activity. In Cushing's syndrome, cortisol excess would upregulate PNMT, increasing epinephrine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "multiplechoice",
+    question: "A 35-year-old man has dark discolouration of ear cartilage and sclera, and his urine turns dark brown-black on standing. Which enzyme is deficient?",
+    options: [
+      "A. Tyrosinase",
+      "B. Phenylalanine hydroxylase",
+      "C. Homogentisate 1,2-dioxygenase",
+      "D. 4-Hydroxyphenylpyruvate dioxygenase"
+    ],
+    correctAnswer: "C. Homogentisate 1,2-dioxygenase",
+    explanation: "This is alkaptonuria, caused by deficiency of homogentisate 1,2-dioxygenase. Homogentisic acid accumulates and oxidizes to alkapton in urine (dark on standing) and deposits in connective tissues (ochronosis), causing dark pigmentation and late arthropathy."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "multiplechoice",
+    question: "A child with albinism has normal tyrosinase gene sequence but reduced enzyme activity. Which finding best distinguishes this from tyrosinase-negative albinism?",
+    options: [
+      "A. Presence of detectable melanin in hair follicles",
+      "B. Normal urine homogentisate levels",
+      "C. Elevated plasma phenylalanine",
+      "D. Normal thyroid hormone levels"
+    ],
+    correctAnswer: "A. Presence of detectable melanin in hair follicles",
+    explanation: "Tyrosinase-positive albinism (OCA2) has reduced but detectable tyrosinase activity, allowing trace melanin production detectable in hair bulbs. Tyrosinase-negative albinism (OCA1A) produces no melanin. Both have normal homogentisate levels and normal thyroid hormones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "A 12-year-old girl is tall with long fingers, downward lens dislocation, and mild intellectual disability. Plasma methionine and homocysteine are elevated. Vitamin B6 reduces her homocysteine levels. Which explains B6's mechanism?",
+    options: [
+      "A. Pyridoxine is a cofactor for methionine synthase, stimulating remethylation",
+      "B. Pyridoxine (as PLP) is the cofactor for cystathionine beta-synthase; high doses increase residual CBS activity",
+      "C. Pyridoxine inhibits methionine adenosyl transferase, reducing SAM production",
+      "D. Pyridoxine activates betaine-homocysteine methyltransferase"
+    ],
+    correctAnswer: "B. Pyridoxine (as PLP) is the cofactor for cystathionine beta-synthase; high doses increase residual CBS activity",
+    explanation: "This is pyridoxine-responsive homocystinuria due to CBS deficiency. CBS requires PLP (Vitamin B6) as cofactor. Supraphysiological B6 doses can stabilize mutant CBS, partially restore activity, and promote homocysteine condensation with serine to form cystathionine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "A patient with G6PD deficiency develops haemolytic anaemia after taking primaquine. Which sequence of events explains this?",
+    options: [
+      "A. Primaquine inhibits glutathione peroxidase → reduced peroxide reduction → haemolysis",
+      "B. G6PD deficiency → ↓ NADPH → ↓ GSSG reduction to GSH → oxidative damage → haemolysis",
+      "C. G6PD deficiency → glucose-6-phosphate accumulation → osmotic lysis",
+      "D. Primaquine inhibits cystathionine beta-synthase → ↓ cysteine → ↓ glutathione → haemolysis"
+    ],
+    correctAnswer: "B. G6PD deficiency → ↓ NADPH → ↓ GSSG reduction to GSH → oxidative damage → haemolysis",
+    explanation: "G6PD deficiency reduces NADPH production, impairing glutathione reductase's ability to regenerate GSH from GSSG. Oxidative stress from primaquine metabolites overwhelms depleted GSH, causing oxidation of haemoglobin (Heinz bodies) and membrane lipid peroxidation, leading to haemolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "Which of the following is the most direct approach to replenish hepatic glutathione in paracetamol overdose?",
+    options: [
+      "A. Administer methionine to supply sulphur via trans-sulfuration",
+      "B. Administer N-acetylcysteine (NAC) which provides cysteine directly",
+      "C. Administer folate and vitamin B12 to enhance remethylation",
+      "D. Administer pyridoxine to activate cystathionine beta-synthase"
+    ],
+    correctAnswer: "B. Administer N-acetylcysteine (NAC) which provides cysteine directly",
+    explanation: "N-acetylcysteine (NAC) provides cysteine directly after deacetylation. Cysteine is the rate-limiting substrate for glutathione synthesis. This bypasses the slower trans-sulfuration pathway from methionine and rapidly replenishes GSH to neutralize the toxic NAPQI metabolite."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "multiplechoice",
+    question: "A patient with recurrent kidney stones has hexagonal crystals in urine and elevated urinary lysine, arginine, and ornithine. What is the biochemical basis?",
+    options: [
+      "A. Excessive cystine synthesis from methionine due to upregulation of cystathionase",
+      "B. Defective renal tubular reabsorption of cystine and dibasic amino acids due to transporter mutation",
+      "C. CBS deficiency causing homocystinuria with cystine stone formation",
+      "D. G6PD deficiency reducing renal GSH levels"
+    ],
+    correctAnswer: "B. Defective renal tubular reabsorption of cystine and dibasic amino acids due to transporter mutation",
+    explanation: "This is cystinuria, caused by defective renal tubular reabsorption of cystine, lysine, arginine, and ornithine (dibasic amino acids) due to SLC3A1/SLC7A9 mutations. Cystine is sparingly soluble and precipitates as hexagonal crystals and kidney stones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "A vegetarian woman has hyperhomocysteinaemia (22 μmol/L). Which nutritional deficiency most likely explains this?",
+    options: [
+      "A. Iron deficiency impairing CBS",
+      "B. Vitamin B12 and/or folate deficiency impairing methionine synthase",
+      "C. Vitamin B6 deficiency impairing methionine synthase",
+      "D. Selenium deficiency impairing glutathione peroxidase"
+    ],
+    correctAnswer: "B. Vitamin B12 and/or folate deficiency impairing methionine synthase",
+    explanation: "Vitamin B12 and folate are required for methionine synthase to remethylate homocysteine to methionine. B12 is found mainly in animal products, so vegetarians are at risk. Deficiency impairs this reaction, causing homocysteine accumulation. B6 deficiency would affect trans-sulfuration, not remethylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "multiplechoice",
+    question: "Which statement correctly describes the metabolic fate of branched-chain amino acids?",
+    options: [
+      "A. Valine is purely ketogenic",
+      "B. Leucine is purely ketogenic",
+      "C. Isoleucine is purely glucogenic",
+      "D. All three are catabolized in the liver"
+    ],
+    correctAnswer: "B. Leucine is purely ketogenic",
+    explanation: "Leucine is purely ketogenic (yields acetyl-CoA and acetoacetate). Valine is purely glucogenic (yields propionyl-CoA → succinyl-CoA). Isoleucine is both glucogenic and ketogenic. BCAAs are catabolized primarily in muscle, not liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "multiplechoice",
+    question: "Maple syrup urine disease is caused by deficiency of which enzyme complex?",
+    options: [
+      "A. BCAA aminotransferase",
+      "B. Branched-chain α-ketoacid dehydrogenase (BCKAD)",
+      "C. Phenylalanine hydroxylase",
+      "D. Propionyl-CoA carboxylase"
+    ],
+    correctAnswer: "B. Branched-chain α-ketoacid dehydrogenase (BCKAD)",
+    explanation: "MSUD is caused by deficiency of the BCKAD complex, which catalyzes oxidative decarboxylation of branched-chain ketoacids. This leads to accumulation of leucine, isoleucine, valine, and their ketoacids, causing the characteristic maple syrup urine odour and encephalopathy."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which coenzyme is required for both transamination and decarboxylation reactions?",
+    options: [
+      "A. NAD⁺ (Vitamin B3)",
+      "B. Thiamine pyrophosphate (Vitamin B1)",
+      "C. Pyridoxal phosphate (Vitamin B6)",
+      "D. Cobalamin (Vitamin B12)"
+    ],
+    correctAnswer: "C. Pyridoxal phosphate (Vitamin B6)",
+    explanation: "Pyridoxal phosphate (PLP) is the coenzyme for both transaminases (transamination) and decarboxylases (decarboxylation). PLP forms a Schiff base intermediate with the amino acid; the reaction outcome depends on which bond is broken."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "multiplechoice",
+    question: "A patient with chest pain and ST-elevation has markedly elevated AST but only mildly elevated ALT. The most likely source of elevated AST is:",
+    options: [
+      "A. Liver disease",
+      "B. Pancreatic damage",
+      "C. Myocardial infarction",
+      "D. Hemolysis"
+    ],
+    correctAnswer: "C. Myocardial infarction",
+    explanation: "AST is found in liver AND heart muscle. In myocardial infarction, AST rises due to cardiac necrosis. ALT is predominantly hepatic. The clinical context (chest pain + ECG changes) points to MI as the source of elevated AST."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "multiplechoice",
+    question: "Which of the following correctly pairs an enzyme with its location in the urea cycle?",
+    options: [
+      "A. Carbamoyl phosphate synthetase I — cytoplasm",
+      "B. Ornithine transcarbamylase — mitochondria",
+      "C. Argininosuccinate synthetase — mitochondria",
+      "D. Arginase — mitochondria"
+    ],
+    correctAnswer: "B. Ornithine transcarbamylase — mitochondria",
+    explanation: "Ornithine transcarbamylase (OTC) is located in the mitochondria (Step 2). CPS-I is in mitochondria (Step 1). Argininosuccinate synthetase and arginase are in the cytoplasm (Steps 3 and 5)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "multiplechoice",
+    question: "Which of the following is the most common urea cycle disorder and has X-linked inheritance?",
+    options: [
+      "A. Arginase deficiency",
+      "B. CPS-I deficiency",
+      "C. Ornithine transcarbamylase (OTC) deficiency",
+      "D. Argininosuccinate synthetase deficiency"
+    ],
+    correctAnswer: "C. Ornithine transcarbamylase (OTC) deficiency",
+    explanation: "OTC deficiency is the most common urea cycle disorder. It is X-linked, so males are severely affected with neonatal hyperammonaemia. Females are carriers with variable expression due to X-inactivation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "At physiological pH (7.4), which form of an amino acid predominates?",
+    options: [
+      "A. Fully protonated form (-NH₃⁺, -COOH)",
+      "B. Zwitterion (-NH₃⁺, -COO⁻)",
+      "C. Fully deprotonated form (-NH₂, -COO⁻)",
+      "D. Uncharged form (-NH₂, -COOH)"
+    ],
+    correctAnswer: "B. Zwitterion (-NH₃⁺, -COO⁻)",
+    explanation: "At physiological pH (~7.4), the α-amino group is protonated (-NH₃⁺) and the α-carboxyl group is deprotonated (-COO⁻), forming a zwitterion with net zero charge. This is the predominant form at neutral pH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which amino acid is classified as an imino acid and acts as a helix-breaker in protein structure?",
+    options: [
+      "A. Glycine",
+      "B. Alanine",
+      "C. Proline",
+      "D. Cysteine"
+    ],
+    correctAnswer: "C. Proline",
+    explanation: "Proline is the only imino acid. Its side chain bonds to both the backbone nitrogen and α-carbon, forming a cyclic pyrrolidine ring. This restricts backbone geometry, preventing normal α-helix hydrogen bonding, making it a helix-breaker."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Using the mnemonic PVT TIM HALL, which of the following is NOT an essential amino acid?",
+    options: [
+      "A. Tryptophan",
+      "B. Tyrosine",
+      "C. Threonine",
+      "D. Histidine"
+    ],
+    correctAnswer: "B. Tyrosine",
+    explanation: "Tyrosine is non-essential because it can be synthesized from phenylalanine. PVT TIM HALL stands for Phenylalanine, Valine, Threonine, Tryptophan, Isoleucine, Methionine, Histidine, Arginine, Leucine, Lysine. Tyrosine is not in this list."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "multiplechoice",
+    question: "Transamination of alanine with α-ketoglutarate produces which products?",
+    options: [
+      "A. Glutamine and pyruvate",
+      "B. Pyruvate and glutamate",
+      "C. Aspartate and oxaloacetate",
+      "D. Glutamate and oxaloacetate"
+    ],
+    correctAnswer: "B. Pyruvate and glutamate",
+    explanation: "Alanine + α-ketoglutarate → Pyruvate + Glutamate, catalyzed by ALT (alanine aminotransferase). The amino group transfers from alanine to α-ketoglutarate, producing the corresponding α-keto acid (pyruvate) and new amino acid (glutamate)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transamination & Deamination",
+    type: "multiplechoice",
+    question: "Glutamate dehydrogenase (GDH) catalyzes which reaction?",
+    options: [
+      "A. Glutamate → α-ketoglutarate + NH₄⁺",
+      "B. Glutamine → glutamate + NH₄⁺",
+      "C. α-ketoglutarate + NH₄⁺ → glutamine",
+      "D. Glutamate → GABA + CO₂"
+    ],
+    correctAnswer: "A. Glutamate → α-ketoglutarate + NH₄⁺",
+    explanation: "GDH catalyzes oxidative deamination of glutamate to α-ketoglutarate, releasing NH₄⁺ and producing NADH. This is the main reaction for releasing ammonia from amino groups. GDH is located in liver mitochondria."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which amino acids are purely ketogenic?",
+    options: [
+      "A. Leucine and lysine",
+      "B. Isoleucine and leucine",
+      "C. Valine and leucine",
+      "D. Phenylalanine and tyrosine"
+    ],
+    correctAnswer: "A. Leucine and lysine",
+    explanation: "Leucine and lysine are the only purely ketogenic amino acids. Their carbon skeletons yield only acetyl-CoA or acetoacetate and cannot contribute to net glucose synthesis. Leucine is also purely ketogenic among the branched-chain amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "In homocystinuria, lens dislocation is characteristically:",
+    options: [
+      "A. Upward and outward (superotemporal)",
+      "B. Downward and inward (inferonasal)",
+      "C. Lateral and inward",
+      "D. Medial and outward"
+    ],
+    correctAnswer: "B. Downward and inward (inferonasal)",
+    explanation: "In homocystinuria, lens dislocation is typically downward and inward (inferonasal). This contrasts with Marfan's syndrome, where lens dislocation is upward and outward (superotemporal). This distinction is clinically important for diagnosis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "Which of the following is the universal methyl donor in biological methylation reactions?",
+    options: [
+      "A. Tetrahydrofolate (THF)",
+      "B. S-adenosyl methionine (SAM)",
+      "C. Pyridoxal phosphate (PLP)",
+      "D. Methylcobalamin (Vitamin B12)"
+    ],
+    correctAnswer: "B. S-adenosyl methionine (SAM)",
+    explanation: "SAM (S-adenosyl methionine) is the universal methyl donor. It donates methyl groups for creatine synthesis, phosphatidylcholine synthesis, catecholamine methylation, DNA methylation, and many other reactions. The high-energy sulfonium bond makes the methyl group labile."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "multiplechoice",
+    question: "Histamine is synthesized from which amino acid by which enzyme?",
+    options: [
+      "A. Tyrosine; tyrosine decarboxylase",
+      "B. Tryptophan; tryptophan decarboxylase",
+      "C. Histidine; histidine decarboxylase",
+      "D. Histidine; histamine methyltransferase"
+    ],
+    correctAnswer: "C. Histidine; histidine decarboxylase",
+    explanation: "Histamine is formed by decarboxylation of histidine by histidine decarboxylase (aromatic L-amino acid decarboxylase), requiring PLP as coenzyme. Histamine is stored in mast cells and basophils and mediates allergic reactions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "multiplechoice",
+    question: "Serotonin is synthesized from tryptophan via which sequence?",
+    options: [
+      "A. Tryptophan → decarboxylation → tryptamine → hydroxylation → serotonin",
+      "B. Tryptophan → hydroxylation → 5-HTP → decarboxylation → serotonin",
+      "C. Tryptophan → transamination → 5-HTP → decarboxylation → serotonin",
+      "D. Tryptophan → decarboxylation → serotonin"
+    ],
+    correctAnswer: "B. Tryptophan → hydroxylation → 5-HTP → decarboxylation → serotonin",
+    explanation: "Serotonin synthesis: Tryptophan → (tryptophan-5-hydroxylase, BH4, O₂) → 5-hydroxytryptophan (5-HTP) → (aromatic L-amino acid decarboxylase, PLP) → 5-hydroxytryptamine (serotonin/5-HT). The hydroxylation step is rate-limiting."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "multiplechoice",
+    question: "Which of the following correctly describes the role of tetrahydrobiopterin (BH4) in phenylalanine metabolism?",
+    options: [
+      "A. BH4 is the enzyme that catalyzes phenylalanine hydroxylation",
+      "B. BH4 is a cofactor that donates electrons for phenylalanine hydroxylation and must be regenerated",
+      "C. BH4 is the product of phenylalanine hydroxylase activity",
+      "D. BH4 inhibits phenylalanine hydroxylase by feedback regulation"
+    ],
+    correctAnswer: "B. BH4 is a cofactor that donates electrons for phenylalanine hydroxylation and must be regenerated",
+    explanation: "BH4 is the immediate electron donor for phenylalanine hydroxylase. It is oxidized to BH2 during the reaction and must be regenerated by dihydropteridine reductase (DHPR) using NADPH. BH4 is a cofactor, not the enzyme itself."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "Which of the following vitamins is required for the remethylation of homocysteine to methionine?",
+    options: [
+      "A. Vitamin B1 (Thiamine)",
+      "B. Vitamin B6 (Pyridoxine)",
+      "C. Vitamin B12 (Cobalamin)",
+      "D. Vitamin C (Ascorbate)"
+    ],
+    correctAnswer: "C. Vitamin B12 (Cobalamin)",
+    explanation: "Methionine synthase catalyzes the remethylation of homocysteine to methionine using 5-methyl-THF as the methyl donor. Vitamin B12 (methylcobalamin) is the obligatory cofactor that directly transfers the methyl group to homocysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "multiplechoice",
+    question: "In PKU, phenylalanine accumulates and is converted to which metabolites that are excreted in urine?",
+    options: [
+      "A. Phenylpyruvate, phenyllactate, and phenylacetate",
+      "B. Phenylalanine, tyrosine, and DOPA",
+      "C. Homogentisate and fumarate",
+      "D. Phenylalanine and phenylacetylglutamine only"
+    ],
+    correctAnswer: "A. Phenylpyruvate, phenyllactate, and phenylacetate",
+    explanation: "In PKU, phenylalanine cannot be converted to tyrosine and undergoes transamination to phenylpyruvate, which is reduced to phenyllactate and decarboxylated to phenylacetate. These metabolites (phenylketones) are excreted in urine and contribute to the 'mousy' odour."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "multiplechoice",
+    question: "Which enzyme deficiency causes tyrosinaemia Type I (hepatorenal tyrosinaemia)?",
+    options: [
+      "A. Tyrosine aminotransferase",
+      "B. 4-Hydroxyphenylpyruvate dioxygenase",
+      "C. Fumarylacetoacetate hydrolase (FAH)",
+      "D. Homogentisate 1,2-dioxygenase"
+    ],
+    correctAnswer: "C. Fumarylacetoacetate hydrolase (FAH)",
+    explanation: "Tyrosinaemia Type I is caused by deficiency of fumarylacetoacetate hydrolase (FAH), the final enzyme in tyrosine catabolism. Toxic metabolites (fumarylacetoacetate, maleylacetoacetate) accumulate, causing severe liver damage and renal tubular dysfunction."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a function of cysteine in the body?",
+    options: [
+      "A. Formation of glutathione",
+      "B. Formation of disulfide bonds in proteins",
+      "C. Formation of mercaptoethanolamine for CoA",
+      "D. Formation of creatine"
+    ],
+    correctAnswer: "D. Formation of creatine",
+    explanation: "Creatine synthesis requires glycine, arginine, and methionine (as SAM for methylation). Cysteine is not involved in creatine synthesis. Cysteine is involved in glutathione synthesis, disulfide bond formation, and mercaptoethanolamine for CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "Trans-sulfuration refers to:",
+    options: [
+      "A. Transfer of sulphate groups from methionine to other molecules",
+      "B. Transfer of sulphur from methionine to serine to form cysteine",
+      "C. Transfer of methyl groups from methionine to acceptors",
+      "D. Oxidation of cysteine to cystine"
+    ],
+    correctAnswer: "B. Transfer of sulphur from methionine to serine to form cysteine",
+    explanation: "Trans-sulfuration is the transfer of sulphur from methionine (via homocysteine) to the carbon skeleton of serine to form cysteine. This involves the sequential reactions: methionine → SAM → SAH → homocysteine → cystathionine → cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "multiplechoice",
+    question: "N-acetylcysteine (NAC) is used in paracetamol overdose because:",
+    options: [
+      "A. It directly neutralizes paracetamol in the bloodstream",
+      "B. It provides cysteine for glutathione synthesis to detoxify the toxic metabolite NAPQI",
+      "C. It inhibits CYP450 enzymes that produce toxic metabolites",
+      "D. It enhances renal excretion of paracetamol"
+    ],
+    correctAnswer: "B. It provides cysteine for glutathione synthesis to detoxify the toxic metabolite NAPQI",
+    explanation: "NAC provides cysteine (after deacetylation), which is rate-limiting for glutathione synthesis. This rapidly replenishes hepatic GSH, which conjugates and detoxifies the toxic NAPQI metabolite of paracetamol, preventing hepatocyte necrosis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "multiplechoice",
+    question: "Which of the following correctly describes the metabolic relationship between phenylalanine and tyrosine?",
+    options: [
+      "A. Tyrosine is converted to phenylalanine by phenylalanine hydroxylase",
+      "B. Phenylalanine is converted to tyrosine by phenylalanine hydroxylase, and tyrosine becomes essential in PKU",
+      "C. Both amino acids are synthesized from chorismate in humans",
+      "D. Phenylalanine and tyrosine are both purely ketogenic"
+    ],
+    correctAnswer: "B. Phenylalanine is converted to tyrosine by phenylalanine hydroxylase, and tyrosine becomes essential in PKU",
+    explanation: "Phenylalanine is hydroxylated to tyrosine by phenylalanine hydroxylase. In PKU, this enzyme is deficient, so phenylalanine cannot be converted to tyrosine. Tyrosine, normally non-essential, becomes conditionally essential in PKU patients."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "multiplechoice",
+    question: "Which of the following is the correct order of catecholamine synthesis from tyrosine?",
+    options: [
+      "A. Tyrosine → dopamine → DOPA → norepinephrine → epinephrine",
+      "B. Tyrosine → DOPA → dopamine → norepinephrine → epinephrine",
+      "C. Tyrosine → norepinephrine → dopamine → epinephrine",
+      "D. Tyrosine → dopamine → norepinephrine → DOPA → epinephrine"
+    ],
+    correctAnswer: "B. Tyrosine → DOPA → dopamine → norepinephrine → epinephrine",
+    explanation: "Catecholamine synthesis: Tyrosine → (tyrosine hydroxylase) → L-DOPA → (aromatic L-amino acid decarboxylase) → dopamine → (dopamine β-hydroxylase) → norepinephrine → (PNMT) → epinephrine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Melanin & Pigmentation",
+    type: "multiplechoice",
+    question: "A deficiency of which enzyme causes alkaptonuria, leading to dark urine on standing?",
+    options: [
+      "A. Phenylalanine hydroxylase",
+      "B. Tyrosinase",
+      "C. Homogentisate 1,2-dioxygenase",
+      "D. 4-Hydroxyphenylpyruvate dioxygenase"
+    ],
+    correctAnswer: "C. Homogentisate 1,2-dioxygenase",
+    explanation: "Alkaptonuria is caused by deficiency of homogentisate 1,2-dioxygenase. Homogentisic acid accumulates and oxidizes to alkapton on exposure to air, causing dark urine. Homogentisic acid also deposits in connective tissues causing ochronosis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which of the following statements about proline is INCORRECT?",
+    options: [
+      "A. Proline is an imino acid",
+      "B. Proline is commonly found in α-helices",
+      "C. Proline has a cyclic structure",
+      "D. Hydroxyproline is found in collagen"
+    ],
+    correctAnswer: "B. Proline is commonly found in α-helices",
+    explanation: "Proline is NOT commonly found in α-helices. Its cyclic structure restricts backbone rotation and prevents normal hydrogen bonding, making it a helix-breaker. Proline is commonly found in turns and loops, and hydroxyproline is abundant in collagen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Catecholamines",
+    type: "multiplechoice",
+    question: "The enzyme that converts norepinephrine to epinephrine is:",
+    options: [
+      "A. Tyrosine hydroxylase",
+      "B. Dopamine β-hydroxylase",
+      "C. Phenylethanolamine-N-methyltransferase (PNMT)",
+      "D. Aromatic L-amino acid decarboxylase"
+    ],
+    correctAnswer: "C. Phenylethanolamine-N-methyltransferase (PNMT)",
+    explanation: "PNMT catalyzes the conversion of norepinephrine to epinephrine by transferring a methyl group from SAM. PNMT is expressed almost exclusively in the adrenal medulla and is induced by cortisol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which vitamin deficiency is associated with scurvy due to impaired collagen hydroxylation?",
+    options: [
+      "A. Vitamin A",
+      "B. Vitamin B6",
+      "C. Vitamin C",
+      "D. Vitamin D"
+    ],
+    correctAnswer: "C. Vitamin C",
+    explanation: "Vitamin C (ascorbate) is required for the hydroxylation of proline and lysine in collagen synthesis. Deficiency of vitamin C causes scurvy, characterized by weakened connective tissue, bleeding gums, and poor wound healing."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which of the following amino acids has a side chain pKa of approximately 6.5, making it an important buffer at physiological pH?",
+    options: [
+      "A. Lysine",
+      "B. Arginine",
+      "C. Histidine",
+      "D. Aspartate"
+    ],
+    correctAnswer: "C. Histidine",
+    explanation: "Histidine has a side chain pKa of ~6.5, close to physiological pH (7.4). This allows it to exist in both protonated and unprotonated forms at physiological pH, making it an important buffer and enzyme active site residue."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "multiplechoice",
+    question: "Which of the following amino acids is NOT essential and can be synthesized from phenylalanine?",
+    options: [
+      "A. Tryptophan",
+      "B. Tyrosine",
+      "C. Methionine",
+      "D. Threonine"
+    ],
+    correctAnswer: "B. Tyrosine",
+    explanation: "Tyrosine is non-essential in healthy individuals because it can be synthesized from phenylalanine via phenylalanine hydroxylase. Tryptophan, methionine, and threonine are essential amino acids that must be obtained from the diet."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "BCAA & Inborn Errors",
+    type: "multiplechoice",
+    question: "Which of the following correctly pairs an inborn error with its deficient enzyme?",
+    options: [
+      "A. PKU — Phenylalanine hydroxylase",
+      "B. Alkaptonuria — Tyrosinase",
+      "C. Albinism — Homogentisate oxidase",
+      "D. MSUD — Phenylalanine hydroxylase"
+    ],
+    correctAnswer: "A. PKU — Phenylalanine hydroxylase",
+    explanation: "PKU is caused by phenylalanine hydroxylase deficiency. Alkaptonuria is caused by homogentisate 1,2-dioxygenase deficiency. Albinism is caused by tyrosinase deficiency. MSUD is caused by branched-chain α-ketoacid dehydrogenase deficiency."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "multiplechoice",
+    question: "In the urea cycle, which step occurs in the mitochondria?",
+    options: [
+      "A. Argininosuccinate → Arginine + Fumarate",
+      "B. Citrulline + Aspartate → Argininosuccinate",
+      "C. Carbamoyl phosphate + Ornithine → Citrulline",
+      "D. Arginine → Ornithine + Urea"
+    ],
+    correctAnswer: "C. Carbamoyl phosphate + Ornithine → Citrulline",
+    explanation: "Carbamoyl phosphate + ornithine → citrulline (catalyzed by OTC) occurs in the mitochondria (Step 2). CPS-I is also in mitochondria (Step 1). Steps 3-5 occur in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Biogenic Amines",
+    type: "multiplechoice",
+    question: "Which of the following amino acid derivatives is a neurotransmitter synthesized by decarboxylation?",
+    options: [
+      "A. Tyramine",
+      "B. Histamine",
+      "C. GABA (gamma-aminobutyric acid)",
+      "D. All of the above"
+    ],
+    correctAnswer: "D. All of the above",
+    explanation: "Tyramine (from tyrosine), histamine (from histidine), and GABA (from glutamate) are all synthesized by decarboxylation of their respective amino acids. GABA is a major inhibitory neurotransmitter in the CNS."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following is a consequence of ammonia toxicity in the brain?",
+    options: [
+      "A. Increased α-ketoglutarate levels stimulating the TCA cycle",
+      "B. Enhanced GABA synthesis improving inhibition",
+      "C. Depletion of α-ketoglutarate depressing the TCA cycle",
+      "D. Increased dopamine synthesis"
+    ],
+    correctAnswer: "C. Depletion of α-ketoglutarate depressing the TCA cycle",
+    explanation: "Ammonia toxicity depletes α-ketoglutarate by aminating it to glutamate. This depresses the TCA cycle, affecting cellular respiration. Increased ammonia also enhances glutamine formation, reducing brain glutamate and GABA synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Urea Cycle",
+    type: "multiplechoice",
+    question: "A patient with a urea cycle disorder has elevated ammonia levels. Which treatment helps remove ammonia by providing alternative nitrogen excretion pathways?",
+    options: [
+      "A. Sodium benzoate and sodium phenylacetate",
+      "B. Arginine supplementation only",
+      "C. Dietary protein increase",
+      "D. Vitamin B12 supplementation"
+    ],
+    correctAnswer: "A. Sodium benzoate and sodium phenylacetate",
+    explanation: "Sodium benzoate conjugates with glycine to form hippurate, and sodium phenylacetate conjugates with glutamine to form phenylacetylglutamine, both of which are excreted in urine. These provide alternative pathways for nitrogen excretion, bypassing the defective urea cycle."
   }
 ];
+
