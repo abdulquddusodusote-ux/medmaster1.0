@@ -4560,9 +4560,6 @@ const questions = [
   answer: true,
   explanation: "PDGF is released from platelet alpha granules during the release reaction and promotes fibroblast proliferation, smooth muscle cell growth, and tissue repair after injury."
 },
-    // ===== PHYSIOLOGY – CELL PHYSIOLOGY & HOMEOSTASIS =====
-
-  // SECTION 1: Cell Structure & Function
   {
     course: "Physiology",
     topic: "Cell Physiology & Homeostasis",
