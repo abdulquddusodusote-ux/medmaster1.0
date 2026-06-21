@@ -4559,5 +4559,926 @@ const questions = [
   question: "Platelet-derived growth factor (PDGF) released from alpha granules promotes fibroblast proliferation and tissue repair.",
   answer: true,
   explanation: "PDGF is released from platelet alpha granules during the release reaction and promotes fibroblast proliferation, smooth muscle cell growth, and tissue repair after injury."
-}
+},
+    // ===== PHYSIOLOGY – CELL PHYSIOLOGY & HOMEOSTASIS =====
+
+  // SECTION 1: Cell Structure & Function
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "The cell is the smallest unit capable of carrying out the processes associated with life.",
+    answer: true,
+    explanation: "The text explicitly states that 'The cell is the smallest unit capable of carrying out the processes associated with life,' which is the fundamental premise for studying cellular physiology."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "Nutrition, as a classical property of living organisms, is fulfilled by cells through a process of cell replication.",
+    answer: false,
+    explanation: "Cells fulfill the property of nutrition through the process of nutrition itself, not cell replication. Cell replication is how cells fulfill the property of reproduction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "Fibroblasts are examples of cells that connect body parts.",
+    answer: true,
+    explanation: "Fibroblasts are specifically listed as cells that connect body parts. They are categorized with other cells that have this function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "Epithelial cells are the primary cells responsible for storing nutrients in the body.",
+    answer: false,
+    explanation: "Epithelial cells are cells that cover and line body organs. Fat cells, which contain lipid droplets, are the cells that store nutrients."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "Cells that gather information and control body functions are a type of cell that fights disease.",
+    answer: false,
+    explanation: "The text categorizes cells that gather information and control body functions as a distinct type of cell, separate from cells that fight disease."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "The plasma membrane is responsible for segregating most other individual components of the cell, such as the nucleus and organelles.",
+    answer: false,
+    explanation: "The text states that 'Membranes segregate most other individual components of the cell,' not the plasma membrane specifically. The plasma membrane encompasses the functional cell unit."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "The process of reproduction in cells is fulfilled by an increase in the number and size of cells.",
+    answer: true,
+    explanation: "The text maps the classical property of reproduction to how cells fulfill it, which includes cell replication and growth in number and size."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "The property of irritability in living organisms corresponds to a cell's ability to move within and externally.",
+    answer: false,
+    explanation: "The property of irritability or responding to stimuli corresponds to a cell's ability to 'Respond to environment.' The property of movement corresponds to 'Movement within and externally.'"
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "Erythrocytes (red blood cells) contain numerous organelles, including a nucleus, to support their function of transporting oxygen.",
+    answer: false,
+    explanation: "The text shows erythrocytes as a type of cell and lists them under 'No organelles' and 'Nucleus,' indicating they lack these structures."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Cell Structure & Function",
+    type: "truefalse",
+    question: "The cytoplasm is a suspension of fluid with various cellular elements, including the nucleus and organelles.",
+    answer: true,
+    explanation: "The text defines the cytoplasm as a suspension of fluid with various cellular elements, which would include the organelles and the nucleus, which are suspended within it."
+  },
+
+  // SECTION 2: Membrane Transport & Diffusion
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Passive transport requires the cell to provide metabolic energy in the form of ATP.",
+    answer: false,
+    explanation: "Passive transport is defined as a method of transport that does not require energy. Active transport is the method that requires the cell to provide metabolic energy (ATP)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "In a solution, the solvent is the component in smaller quantities, while solutes are the dissolving medium.",
+    answer: false,
+    explanation: "The text defines a solvent as the dissolving medium (typically water in the body), and solutes are the components in smaller quantities within a solution."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Interstitial fluid is a component of the intracellular fluid compartment.",
+    answer: false,
+    explanation: "Interstitial fluid is part of the extracellular fluid compartment. The intracellular fluid is the fluid found within the cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Diffusion is the movement of particles from an area of high concentration to an area of low concentration.",
+    answer: true,
+    explanation: "The text describes diffusion as a process where particles tend to distribute themselves evenly and move from high concentration to low concentration, which is down a concentration gradient."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Simple diffusion is a carrier-mediated process that requires metabolic energy.",
+    answer: false,
+    explanation: "Simple diffusion is described as an unassisted process that is not carrier-mediated. It is the only form of transport across the cell membrane that is not carrier-mediated, and it does not require metabolic energy, making it a passive process."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Facilitated diffusion is a passive process that requires a protein carrier to transport lipid-insoluble and large substances.",
+    answer: true,
+    explanation: "Facilitated diffusion is a form of passive transport where substances require a protein carrier, and it is used to transport lipid-insoluble and large substances."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "In diabetes mellitus, glucose uptake by muscle and adipose cells is enhanced because the carriers for facilitated diffusion are stimulated by insulin.",
+    answer: false,
+    explanation: "The text states that in diabetes mellitus, glucose uptake and utilization is impaired because the carriers for facilitated diffusion require insulin."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Filtration is the process where water and solutes are forced through a membrane by hydrostatic pressure, moving from a low-pressure area to a high-pressure area.",
+    answer: false,
+    explanation: "Filtration requires a pressure gradient and involves solute-containing fluid being pushed from a high-pressure area to a lower pressure area."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Channel-mediated facilitated diffusion transports substances through a protein channel, selecting ions based on their size and charge.",
+    answer: true,
+    explanation: "The text describes channel-mediated facilitated diffusion as occurring through a channel protein where ions are mostly selected on the basis of size and charge."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "In the equation for diffusion, P represents the surface area of the membrane and A represents the permeability.",
+    answer: false,
+    explanation: "In the diffusion equation J = -P A (C_1 - C_2), P represents permeability, and A represents the area. The question incorrectly swaps their definitions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Membrane Transport & Diffusion",
+    type: "truefalse",
+    question: "Permeability of a membrane increases with a decreased oil/water partition coefficient of the solute.",
+    answer: false,
+    explanation: "The text lists that an increased oil/water partition coefficient of the solute increases solubility in the lipid of the membrane, which increases permeability. A decreased coefficient would decrease permeability."
+  },
+
+  // SECTION 3: Osmosis & Tonicity
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Osmosis & Tonicity",
+    type: "truefalse",
+    question: "Osmosis is the simple diffusion of water, which can occur through aquaporins or the lipid bilayer.",
+    answer: true,
+    explanation: "The text identifies osmosis as simple diffusion of water. It also notes that water molecules can cross the plasma membrane through aquaporins, which are specific channel proteins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Osmosis & Tonicity",
+    type: "truefalse",
+    question: "A hypotonic solution has a higher concentration of solutes and a lower concentration of water than inside the cell.",
+    answer: false,
+    explanation: "A hypotonic solution is defined as having a lower concentration of solutes and a higher concentration of water than inside the cell."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Osmosis & Tonicity",
+    type: "truefalse",
+    question: "Placing a cell in a hypertonic solution will cause it to swell and burst.",
+    answer: false,
+    explanation: "A hypertonic solution has a higher solute concentration and lower water concentration. Water moves from inside the cell to the solution, causing the cell to shrink (plasmolysis), not swell and burst (cytolysis)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Osmosis & Tonicity",
+    type: "truefalse",
+    question: "In an isotonic solution, water moves equally in both directions, resulting in no net change in cell size.",
+    answer: true,
+    explanation: "The text explains that in an isotonic solution, the solute concentration is equal inside and outside the cell, so water moves equally in both directions, maintaining the cell's size in a state of dynamic equilibrium."
+  },
+
+  // SECTION 4: Active Transport & Vesicular Transport
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "Active transport is used to move substances that are unable to pass by diffusion, such as those that are too large or cannot dissolve in the fat core of the membrane.",
+    answer: true,
+    explanation: "The text lists that active transport is for substances unable to pass by diffusion, which includes substances that may be too large or may not be able to dissolve in the fat core of the membrane."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "Vesicular transport includes exocytosis and endocytosis, but it is not considered a form of active transport.",
+    answer: false,
+    explanation: "The text lists vesicular transport as one of the two common forms of active transport, along with active transport (solute pumping)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "The Na⁺-K⁺ ATPase pump transports Na⁺ from the intracellular fluid to the extracellular fluid and K⁺ in the opposite direction, maintaining a high intracellular Na⁺ concentration.",
+    answer: false,
+    explanation: "The Na⁺-K⁺ ATPase maintains a low intracellular Na⁺ concentration and a high intracellular K⁺ concentration by transporting Na⁺ out of the cell and K⁺ into the cell."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "The Na⁺-K⁺ ATPase pump is specifically inhibited by the drug omeprazole.",
+    answer: false,
+    explanation: "The text states that specific inhibitors of the Na⁺-K⁺ ATPase are ouabain and digitalis. Omeprazole is an inhibitor of the K⁺-H⁺-ATPase (proton pump)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "Exocytosis is the process of moving materials into the cell by engulfing them in a membranous vesicle.",
+    answer: false,
+    explanation: "Exocytosis is the process of moving materials out of the cell. The process of engulfing materials into the cell is endocytosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "Phagocytosis and pinocytosis are both types of endocytosis.",
+    answer: true,
+    explanation: "The text lists both phagocytosis ('cell eating') and pinocytosis ('cell drinking') as types of endocytosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Active Transport & Vesicular Transport",
+    type: "truefalse",
+    question: "The Ca²⁺-ATPase pump is an example of a primary active transport mechanism that transports calcium ions against their electrochemical gradient.",
+    answer: true,
+    explanation: "The text lists the Ca²⁺-ATPase pump as a specific example of an active transport process that transports Ca²⁺ against an electrochemical gradient and is powered by ATP."
+  },
+
+  // SECTION 5: Homeostasis & Feedback Loops
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "The maintenance of a stable internal environment is the definition of homeostasis.",
+    answer: true,
+    explanation: "The text explicitly defines homeostasis as 'The maintenance of a stable Internal environment.'"
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "A set point is the normal range of values within which a physiological condition, such as body temperature, fluctuates.",
+    answer: false,
+    explanation: "A set point is the physiological value around which the normal range fluctuates. The normal range is the restricted set of values that is optimally healthful and stable."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "In a negative feedback loop, a deviation from the set point gets progressively greater.",
+    answer: false,
+    explanation: "In a negative feedback loop, a deviation from the set point progressively lessens. Positive feedback is the mechanism where a deviation gets progressively greater."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "A sensor, or receptor, in a negative feedback system monitors a physiological value and reports it to the control center.",
+    answer: true,
+    explanation: "The text states that a sensor is a component that monitors a physiological value and this value is reported to the control center."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "The effector is the component in a feedback system that compares the value to the normal range.",
+    answer: false,
+    explanation: "The control center is the component that compares the value to the normal range. The effector is the component that causes a change to reverse the situation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "In response to cold, the brain's heat-gain center reduces blood flow to the skin and traps heat closer to the body core.",
+    answer: true,
+    explanation: "The text describes that in response to cold, the brain's heat-gain center reduces blood flow to the skin, and blood from the limbs is diverted to deep veins to trap heat and restrict its loss."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "In the blood glucose regulation feedback system, the hormone insulin is released by pancreatic alpha cells to take up excess glucose.",
+    answer: false,
+    explanation: "Insulin is released by pancreatic beta cells. The text states that alpha cells detect the decrease in glucose concentration and stop insulin release."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "Positive feedback intensifies a change in a body's physiological condition and moves the system farther away from the normal range.",
+    answer: true,
+    explanation: "The text defines positive feedback as a mechanism that intensifies a change and moves the system farther away from the normal range."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "In childbirth, the hormone oxytocin is released by the cervix to cause stronger uterine contractions.",
+    answer: false,
+    explanation: "The cervix contains stretch-sensitive nerve cells that send messages to the brain, which causes the pituitary gland to release oxytocin into the bloodstream. Oxytocin is not released by the cervix itself."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "The body's response to blood loss involves a positive feedback loop where the process of blood clotting accelerates.",
+    answer: true,
+    explanation: "The text describes the response to hemorrhage as a positive feedback loop where the release of clotting substances accelerates the clotting process."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "The normal range for a physiological parameter is a fixed value that the body aims to maintain exactly.",
+    answer: false,
+    explanation: "The normal range is the restricted set of values that is optimally healthful and stable, and it fluctuates around the set point. It is not a single fixed value."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "In the control of blood glucose, the stimulus for insulin release is a decrease in blood glucose levels detected by the pancreas.",
+    answer: false,
+    explanation: "The stimulus for insulin release is an excess of glucose (hyperglycemia) in the bloodstream, which is detected by pancreatic beta cells. A decrease in glucose stops insulin release."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "The body's response to hemorrhage involves a negative feedback mechanism to quickly restore blood pressure.",
+    answer: false,
+    explanation: "The body's response to hemorrhage involves a positive feedback loop where blood clotting is accelerated. It is an adaptive, life-saving cascade of events."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Homeostasis & Feedback Loops",
+    type: "truefalse",
+    question: "A normal range for human body temperature is approximately 37°C, and this value is known as the set point.",
+    answer: false,
+    explanation: "37°C (98.6°F) is the set point for human body temperature. The normal range is the values a few degrees above and below that point."
+  },
+
+  // SECTION 6: Fluid Compartments & Electrolytes
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "Adult males typically have a higher percentage of body water than adult females.",
+    answer: true,
+    explanation: "The text states adult males have ~60% water, while adult females have ~50% water, which is attributed to higher fat content and less skeletal muscle mass in females."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "The largest fluid compartment in the body is the extracellular fluid, which makes up about 2/3 of total body water.",
+    answer: false,
+    explanation: "The intracellular fluid (ICF) is the largest compartment, making up 2/3 (or 25 L) of total body water. The extracellular fluid (ECF) makes up the remaining 1/3 (or 15 L)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "Electrolytes dissociate into ions in water and have greater osmotic power than nonelectrolytes.",
+    answer: true,
+    explanation: "The text states that electrolytes dissociate into ions and have greater osmotic power than nonelectrolytes, which is why they can contribute to fluid shifts."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "The major cation in the extracellular fluid is K⁺, while the major cation in the intracellular fluid is Na⁺.",
+    answer: false,
+    explanation: "The major cation in the extracellular fluid is Na⁺. The major cation in the intracellular fluid is K⁺."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "The concentration of electrolytes is expressed in milliequivalents per liter (mEq/L), which is a measure of the number of electrical charges per liter of solution.",
+    answer: true,
+    explanation: "The text defines mEq/L as a measure of the number of electrical charges per liter of solution."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "Water moves freely between compartments by osmosis, ensuring that the osmolalities of all body fluids are almost always equal.",
+    answer: true,
+    explanation: "The text states that water moves freely by osmosis and that the osmolalities of all body fluids are almost always equal."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "Lymph, cerebrospinal fluid, and synovial fluid are all considered part of the extracellular fluid compartment.",
+    answer: true,
+    explanation: "The text includes lymph, CSF, synovial fluid, and others in a list of 'Other ECF' fluids, confirming they are part of the extracellular fluid compartment."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Fluid Compartments & Electrolytes",
+    type: "truefalse",
+    question: "Nonelectrolytes, such as glucose and lipids, dissociate in water, which gives them a high osmotic power.",
+    answer: false,
+    explanation: "Nonelectrolytes, which include glucose, lipids, creatinine, and urea, do not dissociate in water. They also have less osmotic power compared to electrolytes."
+  },
+
+  // SECTION 7: Water Balance & Regulation
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "Water intake and water output in the body are typically balanced, with an average intake and output of about 2500 ml per day.",
+    answer: true,
+    explanation: "The text states that water balance is maintained when intake equals output, with a value of 2500 ml/day."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "The thirst mechanism is the driving force for water intake, and its center is located in the kidneys.",
+    answer: false,
+    explanation: "The thirst center is located in the hypothalamus. The text specifies that the hypothalamic thirst center osmoreceptors are stimulated by changes in plasma osmolality."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "Antidiuretic hormone (ADH) promotes water reabsorption in the collecting ducts of the kidneys, leading to concentrated urine.",
+    answer: true,
+    explanation: "The text explains that water reabsorption in the collecting ducts is proportional to ADH release, and increased ADH leads to concentrated urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "Dehydration is a disorder of water balance characterized by a positive fluid balance where the ECF gains excess water.",
+    answer: false,
+    explanation: "Dehydration is a disorder characterized by negative fluid balance and ECF water loss due to causes like hemorrhage, severe burns, or prolonged vomiting."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "Hypotonic hydration, or water intoxication, can lead to cellular overhydration and swelling, potentially causing severe metabolic disturbances.",
+    answer: true,
+    explanation: "The text describes hypotonic hydration as cellular overhydration from diluted ECF, leading to hyponatremia and net osmosis into cells, causing swelling and severe metabolic disturbances."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Water Balance & Regulation",
+    type: "truefalse",
+    question: "Edema is an atypical accumulation of intracellular fluid that leads to tissue swelling.",
+    answer: false,
+    explanation: "Edema is defined as an atypical accumulation of interstitial fluid (IF), not intracellular fluid, which leads to tissue swelling."
+  },
+
+  // SECTION 8: Electrolyte Balance & Regulation
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "An imbalance in colloid osmotic pressures, such as hypoproteinemia, can hinder fluid return and cause edema.",
+    answer: true,
+    explanation: "The text explains that hindered fluid return can occur with an imbalance in colloid osmotic pressures (e.g., hypoproteinemia), causing fluids to fail to return at the venous ends of capillary beds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Electrolyte balance primarily refers to the balance of water, acids, and bases in the body.",
+    answer: false,
+    explanation: "The text states that electrolyte balance usually refers only to salt balance, not water, acids, or bases."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Sodium is the most abundant cation in the extracellular fluid and plays a central role in maintaining ECF solute concentration.",
+    answer: true,
+    explanation: "The text identifies sodium as the most abundant cation in the ECF, with its salts contributing 280 mOsm of the total 300 mOsm ECF solute concentration."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Aldosterone promotes the active reabsorption of sodium ions in the kidney tubules.",
+    answer: true,
+    explanation: "The text states that aldosterone leads to the active reabsorption of the remaining Na⁺ that hasn't been reabsorbed in the proximal tubules and loops of Henle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "The renin-angiotensin mechanism is the main trigger for aldosterone release, which is activated when blood pressure and stretch in the granular cells are high.",
+    answer: false,
+    explanation: "The granular cells of the JGA secrete renin in response to decreased stretch (due to decreased blood pressure), not increased stretch."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Atrial natriuretic peptide (ANP) increases blood pressure and blood volume by promoting the reabsorption of Na⁺ and water.",
+    answer: false,
+    explanation: "ANP decreases blood pressure and blood volume. Its effects include decreasing ADH, renin, and aldosterone production, increasing excretion of Na⁺ and water, and promoting vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Baroreceptors are sensors that alert the brain to decreases in blood volume and pressure, leading to an increase in sympathetic impulses to the kidneys.",
+    answer: false,
+    explanation: "Baroreceptors alert the brain of increases in blood volume and pressure. In response, sympathetic nervous system impulses to the kidneys decline, leading to increased Na⁺ and water output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "A high extracellular concentration of K⁺ causes hyperpolarization of the resting membrane potential, leading to nonresponsiveness in neurons.",
+    answer: false,
+    explanation: "An increased ECF [K⁺] leads to depolarization (reduced RMP), not hyperpolarization. Hyperpolarization and nonresponsiveness are caused by decreased ECF [K⁺]."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Hypocalcemia, or low blood calcium, results in decreased neuromuscular excitability.",
+    answer: false,
+    explanation: "The text states that hypocalcemia leads to increased excitability and muscle tetany. Hypercalcemia inhibits neurons and muscle cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Parathyroid hormone (PTH) promotes an increase in blood calcium levels by targeting bones, kidneys, and the small intestine.",
+    answer: true,
+    explanation: "PTH promotes an increase in calcium levels by targeting bones, kidneys, and the small intestine (indirectly through vitamin D)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Aldosterone release is triggered by elevated K⁺ levels in the ECF and by the renin-angiotensin mechanism.",
+    answer: true,
+    explanation: "The text states that the renin-angiotensin mechanism is the main trigger for aldosterone release, and it also mentions that aldosterone release is triggered by elevated K⁺ levels in the ECF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Estrogens promote water retention by decreasing NaCl reabsorption, while progesterone promotes water loss by increasing Na⁺ reabsorption.",
+    answer: false,
+    explanation: "The text states estrogens ↑ NaCl reabsorption (leading to H₂O retention), and progesterone ↓ Na⁺ reabsorption (promoting Na⁺ and H₂O loss). The question reverses these effects."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "Salts entering the body are lost via perspiration, feces, and urine, and this is the only way electrolyte balance is maintained.",
+    answer: false,
+    explanation: "While the text mentions salts enter by ingestion and are lost via perspiration, feces, and urine, it doesn't state this is the only way balance is maintained. The body has complex regulatory mechanisms like aldosterone and ADH."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Electrolyte Balance & Regulation",
+    type: "truefalse",
+    question: "The primary function of the renin-angiotensin-aldosterone system is to regulate potassium levels by promoting K⁺ secretion.",
+    answer: false,
+    explanation: "The primary trigger for this system is to regulate blood pressure and sodium balance. While aldosterone does promote K⁺ secretion, the system's main function is linked to Na⁺ and blood pressure regulation."
+  },
+
+  // SECTION 9: Acid-Base Balance
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The normal pH of arterial blood is 7.35, while the pH of venous blood and interstitial fluid is slightly higher at 7.4.",
+    answer: false,
+    explanation: "The text states that arterial blood has a pH of 7.4, while venous blood and interstitial fluid have a pH of 7.35. The values are reversed in the question."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Chemical buffer systems are the most potent regulators of hydrogen ion concentration, but they are the slowest to act.",
+    answer: false,
+    explanation: "Chemical buffer systems are the first line of defense and act rapidly. Renal mechanisms are the most potent but require hours to days to effect pH changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The bicarbonate buffer system is the only important buffer system in the extracellular fluid.",
+    answer: true,
+    explanation: "The text explicitly states that the bicarbonate buffer system is the only important ECF buffer. It is a mixture of H₂CO₃ and salts of HCO₃⁻."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The phosphate buffer system is most effective in the extracellular fluid where phosphate concentrations are high.",
+    answer: false,
+    explanation: "The text states that the phosphate buffer system is an effective buffer in urine and the intracellular fluid (ICF), where phosphate concentrations are high. It is not the primary ECF buffer."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Protein buffer systems are the most plentiful and powerful buffers in the body because protein molecules can function as both weak acids and weak bases.",
+    answer: true,
+    explanation: "The text notes that intracellular proteins are the most plentiful and powerful buffers because they are amphoteric, meaning they can function as both a weak acid and a weak base."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The respiratory system regulates H⁺ concentration by controlling the excretion of H⁺ directly through the kidneys.",
+    answer: false,
+    explanation: "The respiratory system regulates H⁺ by eliminating CO₂. The kidneys regulate H⁺ by excreting it or reabsorbing HCO₃⁻."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Hypercapnia, or high CO₂ levels, activates peripheral chemoreceptors which leads to a decreased respiratory rate.",
+    answer: false,
+    explanation: "Hypercapnia activates medullary chemoreceptors and rising plasma H⁺ activates peripheral chemoreceptors. The response is to remove more CO₂ from the blood, which involves increasing respiration."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The kidneys are the only organs that can eliminate volatile carbonic acid from the body.",
+    answer: false,
+    explanation: "The text states that the lungs eliminate volatile carbonic acid by eliminating CO₂. The kidneys eliminate other fixed metabolic acids."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The renal mechanism of acid-base balance involves the secretion of H⁺ into the filtrate, which is coupled with the reabsorption or generation of new HCO₃⁻.",
+    answer: true,
+    explanation: "The text explains that renal regulation depends on H⁺ secretion. For each H⁺ secreted, a bicarbonate ion is generated and enters the peritubular capillary blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "In the renal tubule cells, the enzyme carbonic anhydrase catalyzes the formation of carbonic acid from CO₂ and water, which then dissociates into H⁺ and HCO₃⁻.",
+    answer: true,
+    explanation: "The text describes that within the tubule cell, CO₂ combines with water to form H₂CO₃, a reaction catalyzed by carbonic anhydrase, and this H₂CO₃ splits into H⁺ and HCO₃⁻."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Tubule cell luminal membranes are freely permeable to bicarbonate (HCO₃⁻), allowing it to be reabsorbed directly into the blood.",
+    answer: false,
+    explanation: "The text states that tubule cell luminal membranes are impermeable to HCO₃⁻. The bicarbonate is reabsorbed by being generated within the cell and transported into the capillary blood, while the secreted H⁺ combines with the filtered HCO₃⁻."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "New bicarbonate ions can be generated in the kidney tubules through the metabolism of the amino acid glutamine, which also produces ammonium ions for excretion.",
+    answer: true,
+    explanation: "The text describes that metabolizing glutamine in PCT cells produces NH₄⁺ (ammonium) and 'new' HCO₃⁻. The HCO₃⁻ moves to the blood, and the NH₄⁺ is excreted in urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "During alkalosis, type B intercalated cells in the kidney secrete H⁺ and reclaim HCO₃⁻ to acidify the blood.",
+    answer: false,
+    explanation: "During alkalosis, type B intercalated cells secrete HCO₃⁻ and reclaim H⁺ to acidify the blood. The opposite occurs in acidosis with type A intercalated cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Respiratory acidosis is characterized by a PCO₂ level above 45 mm Hg, a falling blood pH, and is a common result of hyperventilation.",
+    answer: false,
+    explanation: "Respiratory acidosis is due to decreased ventilation or gas exchange, leading to high PCO₂ and falling pH. Hyperventilation leads to respiratory alkalosis, characterized by a PCO₂ below 35 mm Hg."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Metabolic acidosis is indicated by abnormal blood CO₂ levels and is caused by the ingestion of too much alcohol.",
+    answer: false,
+    explanation: "Metabolic acidosis is not caused by abnormal CO₂ levels but is indicated by abnormal HCO₃⁻ levels. Ingestion of too much alcohol (leading to acetic acid) is a cause of metabolic acidosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "A blood pH below 7 can lead to depression of the central nervous system, coma, and potentially death.",
+    answer: true,
+    explanation: "The text lists the effects of acidosis (blood pH below 7) as depression of the CNS, leading to coma and death."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "In respiratory compensation for metabolic acidosis, the respiratory center is stimulated, leading to slow, shallow breathing to retain CO₂.",
+    answer: false,
+    explanation: "In metabolic acidosis, high H⁺ levels stimulate the respiratory centers, leading to elevated rate and depth of breathing to eliminate CO₂, which compensates for the acidosis. Slow, shallow breathing is a compensation for metabolic alkalosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "A strong acid, like HCl, dissociates completely in water and can dramatically affect pH, whereas a weak acid, like H₂CO₃, does not dissociate completely.",
+    answer: true,
+    explanation: "The text describes that strong acids dissociate completely in water and can dramatically affect pH, while weak acids dissociate only partially."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The phosphate buffer system acts identically to the bicarbonate buffer system but is more effective in the ECF.",
+    answer: false,
+    explanation: "The text states the phosphate buffer system's action is nearly identical but effective in urine and ICF, not ECF. The bicarbonate buffer system is the only important ECF buffer."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Acidosis is a state where arterial blood pH falls below 7.35, and alkalosis is a state where it rises above 7.45.",
+    answer: true,
+    explanation: "The text defines acidosis or acidemia as arterial pH < 7.35 and alkalosis or alkalemia as arterial pH > 7.45."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Metabolic alkalosis is a common condition caused by the excessive loss of HCO₃⁻, such as from persistent diarrhea.",
+    answer: false,
+    explanation: "Metabolic alkalosis is caused by vomiting of stomach acid or intake of excess base. Persistent diarrhea leads to excessive loss of HCO₃⁻, which causes metabolic acidosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The respiratory system's compensation for metabolic alkalosis involves rapid, deep breathing to blow off CO₂ and lower the pH.",
+    answer: false,
+    explanation: "Respiratory compensation for metabolic alkalosis is revealed by slow, shallow breathing, allowing CO₂ accumulation in the blood, which lowers the pH. Rapid, deep breathing is a compensation for metabolic acidosis."
+  },
+
+  // SECTION 10: Age-Related Changes
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Age-Related Changes",
+    type: "truefalse",
+    question: "Infants have proportionately more extracellular fluid than adults, which contributes to their increased susceptibility to fluid and electrolyte problems.",
+    answer: true,
+    explanation: "The text states that infants have proportionately more ECF than adults until about 2 years of age and that problems with fluid, electrolyte, and acid-base balance are most common in infancy."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Age-Related Changes",
+    type: "truefalse",
+    question: "In old age, total body water often decreases, and homeostatic mechanisms slow down, making elders less susceptible to dehydration.",
+    answer: false,
+    explanation: "While the text confirms that total body water decreases and homeostatic mechanisms slow down in old age, it states elders may be unresponsive to thirst clues and are at risk of dehydration, making them more susceptible."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Age-Related Changes",
+    type: "truefalse",
+    question: "At puberty, sexual differences in body water content arise as females develop greater muscle mass.",
+    answer: false,
+    explanation: "The text states that sexual differences arise as males develop greater muscle mass. Females have a higher fat content."
+  },
+  {
+    course: "Physiology",
+    topic: "Cell Physiology & Homeostasis",
+    subTopic: "Age-Related Changes",
+    type: "truefalse",
+    question: "The kidneys are the only organ system that can compensate for an acid-base imbalance of respiratory origin.",
+    answer: false,
+    explanation: "The text describes respiratory compensation for metabolic imbalances and renal compensation for respiratory imbalances. The respiratory system can also attempt to correct metabolic acid-base imbalances."
+  }
 ];
