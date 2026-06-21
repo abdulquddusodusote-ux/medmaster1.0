@@ -7600,6 +7600,5124 @@ const questions = [
     ],
     correctAnswer: "A. Sodium benzoate and sodium phenylacetate",
     explanation: "Sodium benzoate conjugates with glycine to form hippurate, and sodium phenylacetate conjugates with glutamine to form phenylacetylglutamine, both of which are excreted in urine. These provide alternative pathways for nitrogen excretion, bypassing the defective urea cycle."
+  },
+    // ===== PHYSIOLOGY – CARDIOVASCULAR PHYSIOLOGY =====
+
+  // SECTION 1: Cardiac Muscle & Electrical Properties
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The cardiac muscle is formed by a network of branching muscle fibers, and each fiber has a separate cell membrane.",
+    answer: true,
+    explanation: "Cardiac muscle consists of branching fibers, each surrounded by its own cell membrane, with intercellular connections at intercalated discs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Intercalated discs are sites of end-to-end contact between cardiac muscle fibers where the membranes fuse to form gap junctions.",
+    answer: true,
+    explanation: "Intercalated discs contain gap junctions that allow rapid spread of excitation between adjacent fibers."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Gap junctions between cardiac muscle fibers provide high electrical resistance, slowing the spread of excitation waves.",
+    answer: false,
+    explanation: "Gap junctions provide low electrical resistance, which facilitates rapid spread of the action potential."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The cardiac muscle acts as a functional syncytium, meaning it contracts as one unit.",
+    answer: true,
+    explanation: "Because gap junctions allow rapid intercellular conduction, the entire syncytium contracts in a coordinated manner."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The human heart contains three separate syncytia: atrial, ventricular, and nodal.",
+    answer: false,
+    explanation: "The human heart has two separate syncytia: atrial and ventricular; there is no separate nodal syncytium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The atrial and ventricular syncytia are completely separated by the AV ring, which prevents passage of excitation waves.",
+    answer: true,
+    explanation: "The fibrous AV ring electrically isolates the atria from the ventricles except through the specialised conducting system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The AV bundles provide a special conducting system for transmission of excitation waves from the ventricular syncytium to the atrial syncytium.",
+    answer: false,
+    explanation: "The AV bundles transmit excitation from the atrial syncytium to the ventricular syncytium, not the reverse."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The Sino‑Atrial node (SA node) is myogenic and initiates action potentials at a rate of 70‑80 per minute.",
+    answer: true,
+    explanation: "The SA node is the primary pacemaker with an intrinsic firing rate of 70‑80 action potentials per minute."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Depolarization from the SA node spreads through the atria via gap junctions and internodal pathways to the AV node.",
+    answer: true,
+    explanation: "This is the normal sequence of atrial conduction toward the AV node."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The fibrous connective tissue matrix of the heart helps spread action potentials rapidly to the ventricles.",
+    answer: false,
+    explanation: "The fibrous matrix prevents direct spread to the ventricles, so conduction must pass through the AV node and bundle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "There is a slight delay at the AV node due to slower formation of action potentials, allowing further emptying of the atria.",
+    answer: true,
+    explanation: "The AV nodal delay ensures atrial contraction is complete before ventricular excitation begins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The AV bundle (Bundle of His) splits into left and right atrioventricular bundles (bundle branches) and then into Purkinje cells.",
+    answer: true,
+    explanation: "This describes the specialised conduction pathway from the AV node to the ventricular myocardium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Purkinje cells are smaller in diameter than typical cardiac muscle cells and conduct impulses slowly.",
+    answer: false,
+    explanation: "Purkinje cells are larger in diameter and conduct impulses very rapidly."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Purkinje cells cause the cells at the apex to contract nearly simultaneously, which is good for ventricular ejection.",
+    answer: true,
+    explanation: "Rapid conduction through Purkinje fibres allows coordinated contraction of the ventricular apex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The resting membrane potential (RMP) of cardiac muscle is determined by conductance to sodium (Na⁺), approaching the Na⁺ equilibrium potential.",
+    answer: false,
+    explanation: "RMP is determined by conductance to K⁺, approaching the K⁺ equilibrium potential."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Inward current brings positive charge into the cell and depolarizes the membrane potential.",
+    answer: true,
+    explanation: "Inward currents (e.g., Na⁺, Ca²⁺) reduce the negative membrane potential, causing depolarisation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Outward current takes positive charge out of the cell and repolarizes the membrane potential.",
+    answer: true,
+    explanation: "Outward K⁺ currents restore the negative resting potential by removing positive charge."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Na⁺‑K⁺ ATPase helps maintain ion gradients across the cell membrane by pumping Na⁺ out and K⁺ in.",
+    answer: true,
+    explanation: "The ATPase actively maintains the concentration gradients essential for excitability."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Ventricles, atria, and Purkinje fibres have a stable RMP of about ‑90 mV.",
+    answer: true,
+    explanation: "These non‑pacemaker cells maintain a stable resting potential near the K⁺ equilibrium potential."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The RMP of pacemaker cells is stable at ‑90 mV, similar to ventricular muscle.",
+    answer: false,
+    explanation: "Pacemaker cells have an unstable RMP that gradually drifts from ‑60 to ‑40 mV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Action potentials in cardiac muscle, especially in Purkinje fibres, are of long duration, lasting up to 300 msec.",
+    answer: true,
+    explanation: "Cardiac action potentials are prolonged, particularly in Purkinje fibres where they may last 300 msec."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The action potential is the change in RMP associated with activity and consists of an all‑or‑none reversal of polarization.",
+    answer: true,
+    explanation: "This is the standard definition of an action potential in excitable tissues."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Phase 0 of the cardiac action potential is the upstroke caused by a transient increase in Na⁺ conductance.",
+    answer: true,
+    explanation: "Rapid Na⁺ influx through voltage‑gated channels produces the rapid depolarisation of Phase 0."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "At the peak of the action potential, the membrane potential approaches the Na⁺ equilibrium potential.",
+    answer: true,
+    explanation: "During maximal Na⁺ conductance, the membrane potential moves close to ENa."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Phase 1 is a brief period of initial repolarisation caused by an inward Na⁺ current.",
+    answer: false,
+    explanation: "Phase 1 repolarisation is caused by an outward K⁺ current and a decrease in Na⁺ conductance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Phase 2 (plateau) of the cardiac action potential is caused by a transient increase in Ca²⁺ conductance leading to inward Ca²⁺ current and an increase in K⁺ conductance.",
+    answer: true,
+    explanation: "The plateau results from a balance between inward Ca²⁺ and outward K⁺ currents."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "During the plateau (Phase 2), inward and outward currents are approximately equal, so the membrane potential is stable.",
+    answer: true,
+    explanation: "The near‑equality of currents maintains the flat plateau."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Phase 3 (repolarisation) is characterized by decreased Ca²⁺ conductance and increased K⁺ conductance.",
+    answer: true,
+    explanation: "Reduced Ca²⁺ influx combined with enhanced K⁺ efflux drives repolarisation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "Phase 4 of the cardiac action potential is the resting membrane potential where inward and outward currents are equal.",
+    answer: true,
+    explanation: "In non‑pacemaker cells, Phase 4 is the stable resting state with balanced currents."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The SA node exhibits phase 4 depolarization or automaticity, meaning it does not have a constant RMP.",
+    answer: true,
+    explanation: "The SA node spontaneously depolarises during Phase 4, giving it pacemaker activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The AV node and His‑Purkinje systems are latent pacemakers and may override the SA node when it is suppressed.",
+    answer: true,
+    explanation: "These tissues can take over pacing if the SA node fails, though at slower rates."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Muscle & Electrical Properties",
+    type: "truefalse",
+    question: "The rate of depolarisation in phase 4 is fastest in the His‑Purkinje system and slowest in the SA node.",
+    answer: false,
+    explanation: "The fastest Phase 4 depolarisation occurs in the SA node, followed by the AV node, then His‑Purkinje (SA > AVN > His‑Purkinje)."
+  },
+
+  // SECTION 2: Electrocardiography (ECG)
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The normal ECG is a graphic recording of electrical potential changes between different sites of the heart on the skin surface.",
+    answer: true,
+    explanation: "This is the fundamental definition of an electrocardiogram."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "ECG stands for both Electrocardiograph and Electrocardiogram.",
+    answer: true,
+    explanation: "The abbreviation applies to both the instrument and the recording."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The first ECG recording was made by William Einthoven in 1903.",
+    answer: true,
+    explanation: "Einthoven pioneered the clinical ECG in 1903."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Einthoven combined the left arm, right arm, and pubis to form the Einthoven triangle.",
+    answer: true,
+    explanation: "The original Einthoven triangle used the left arm, right arm, and pubis as recording points."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The ECG measures the absolute electrical potential at a single point in the body.",
+    answer: false,
+    explanation: "The ECG measures the potential difference between two points."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The P‑wave represents atrial depolarisation and has a duration of 0.08‑0.12 seconds.",
+    answer: true,
+    explanation: "The P‑wave reflects atrial depolarisation with normal duration of 0.08–0.12 sec."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The P‑wave includes atrial repolarisation, which is also visible as a separate wave.",
+    answer: false,
+    explanation: "Atrial repolarisation is hidden within the QRS complex and not seen separately."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The PR interval is measured from the beginning of the P wave to the beginning of the Q wave.",
+    answer: true,
+    explanation: "The PR interval spans from the start of atrial depolarisation to the start of ventricular depolarisation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "A prolonged PR interval (heart block) would decrease the PR interval below 0.10 seconds.",
+    answer: false,
+    explanation: "Heart block increases the PR interval beyond 0.20 seconds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The QRS complex represents depolarisation of the ventricles and lasts 0.08‑0.12 seconds.",
+    answer: true,
+    explanation: "The QRS reflects ventricular depolarisation with a normal duration of 0.08–0.12 sec."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The QT interval represents the entire period of depolarisation and repolarisation of the ventricles.",
+    answer: true,
+    explanation: "The QT interval extends from the Q wave to the end of the T wave."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The QT interval is normally 0.35‑0.43 seconds.",
+    answer: true,
+    explanation: "Normal QT duration ranges from 0.35 to 0.43 seconds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The ST segment represents the period between ventricular depolarisation and repolarisation and is isoelectric.",
+    answer: true,
+    explanation: "The ST segment is at baseline (isoelectric) during the plateau phase."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The ST segment has a normal duration of 0.25‑0.32 seconds.",
+    answer: true,
+    explanation: "Normal ST segment duration is 0.25–0.32 seconds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The T wave represents ventricular repolarisation and relaxation.",
+    answer: false,
+    explanation: "The T wave represents ventricular repolarisation, not relaxation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The T wave has a normal duration of 0.12‑0.16 seconds.",
+    answer: true,
+    explanation: "Normal T‑wave duration is 0.12–0.16 seconds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The U wave may originate from the papillary muscle or appear as a result of hyperkalemia.",
+    answer: true,
+    explanation: "The U wave is sometimes seen and may originate from papillary muscle or occur in hyperkalemia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "In a standard ECG test, the calibration is set such that 1 mV = 10 mm and paper speed = 25 mm/sec.",
+    answer: true,
+    explanation: "Standard calibration is 1 mV = 10 mm vertical and 25 mm/s horizontal."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "A standard ECG tracing has 12 leads, which can be more for special recordings.",
+    answer: true,
+    explanation: "Standard ECG uses 12 leads, with additional leads possible for specific situations."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "There are three major types of ECG leads: Bipolar Limb, Unipolar Limb, and Precordial.",
+    answer: true,
+    explanation: "These are the three categories: bipolar limb (I, II, III), augmented unipolar (aVR, aVL, aVF), and chest (V1–V6)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Bipolar Limb Leads are designated as aVR, aVL, and aVF.",
+    answer: false,
+    explanation: "aVR, aVL, and aVF are unipolar (augmented) limb leads; bipolar limb leads are LI, LII, LIII."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Unipolar Limb (Augmented) Leads are designated as LI, LII, and LIII.",
+    answer: false,
+    explanation: "LI, LII, LIII are bipolar leads; unipolar augmented leads are aVR, aVL, aVF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Precordial (Chest) Leads are designated as V1‑V6.",
+    answer: true,
+    explanation: "V1 through V6 are the standard chest leads."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Bipolar limb leads consist of two electrodes of opposite polarity, with the third as the earth electrode.",
+    answer: true,
+    explanation: "This is the configuration for standard bipolar leads."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Einthoven's law states that Lead I + Lead III = Lead II.",
+    answer: true,
+    explanation: "Einthoven's law: I + III = II."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Lead I is RA(‑) to LA(+).",
+    answer: true,
+    explanation: "Lead I records from right arm (negative) to left arm (positive)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Lead II is RA(‑) to LL(+).",
+    answer: true,
+    explanation: "Lead II records from right arm (negative) to left leg (positive)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Lead III is LA(‑) to LL(+).",
+    answer: true,
+    explanation: "Lead III records from left arm (negative) to left leg (positive)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Unipolar limb leads consist of a single positive electrode and a reference point at the centre of the heart's electrical field.",
+    answer: true,
+    explanation: "This is the principle of unipolar recording."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "aVR is the augmented lead with the positive electrode on the left arm.",
+    answer: false,
+    explanation: "aVR has the positive electrode on the right arm (RA)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "aVL has the positive electrode on the left arm.",
+    answer: true,
+    explanation: "aVL = left arm positive."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "aVF has the positive electrode on the left leg.",
+    answer: true,
+    explanation: "aVF = left leg positive."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Precordial leads are unipolar leads with a single positive electrode and a negative point at the centre of the heart's electrical field.",
+    answer: true,
+    explanation: "Chest leads are also unipolar, using a central terminal as the reference."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V1 is placed on the left 4th intercostal space at the sternal edge.",
+    answer: false,
+    explanation: "V1 is placed on the RIGHT 4th intercostal space at the sternal edge."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V2 is placed on the left 4th intercostal space at the sternal edge.",
+    answer: false,
+    explanation: "V2 is placed on the LEFT 4th intercostal space; V1 is on the right."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V4 is placed at the 5th left intercostal space at the midclavicular line.",
+    answer: true,
+    explanation: "V4 is at the 5th LICS, midclavicular line."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V3 is placed midway between V4 and V2.",
+    answer: true,
+    explanation: "V3 lies halfway between V2 and V4."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V5 is placed at the 5th LICS at the anterior axillary line.",
+    answer: true,
+    explanation: "V5 is at the 5th LICS, anterior axillary line."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V6 is placed at the 5th LICS at the mid‑axillary line.",
+    answer: true,
+    explanation: "V6 is at the 5th LICS, mid‑axillary line."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V1 and V2 reveal information about the left ventricle (LV).",
+    answer: false,
+    explanation: "V1–V2 primarily reflect right ventricular (RV) activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V3 and V4 reveal information about the interventricular septum (IVS).",
+    answer: true,
+    explanation: "V3–V4 are septal leads."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "V5 and V6 reveal information about the left ventricle (LV).",
+    answer: true,
+    explanation: "V5–V6 are lateral leads reflecting LV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Bipolar limb leads record in the sagittal plane.",
+    answer: false,
+    explanation: "Bipolar limb leads record in the frontal plane."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Augmented limb leads record in the frontal plane.",
+    answer: false,
+    explanation: "Augmented leads record in the sagittal plane."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "Precordial leads record in the horizontal plane.",
+    answer: true,
+    explanation: "Chest leads provide a horizontal plane view."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Electrocardiography",
+    type: "truefalse",
+    question: "The 12 leads are necessary to record heart potentials in three planes.",
+    answer: true,
+    explanation: "The leads cover frontal (bipolar), sagittal (augmented), and horizontal (precordial) planes."
+  },
+
+  // SECTION 3: Heart Rate & Its Regulation
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Heart rate is the number of times the heart beats in 1 minute and is directly proportional to cardiac output.",
+    answer: true,
+    explanation: "HR is a direct multiplier of cardiac output (CO = HR × SV)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "The normal adult heart rate is 60‑100 beats per minute.",
+    answer: true,
+    explanation: "Normal resting HR for adults is 60–100 bpm."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "A heart rate lower than 60 is called tachycardia, and higher than 100 is bradycardia.",
+    answer: false,
+    explanation: "Below 60 is bradycardia; above 100 is tachycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "A human heart beats approximately 45 million times per year.",
+    answer: true,
+    explanation: "Approximately 45 million beats per year is a reasonable average."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Heart rate is modified by autonomic, immune, and local factors.",
+    answer: true,
+    explanation: "Multiple systems influence HR."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "An increase in parasympathetic activity via M₂ cholinergic receptors in the heart will increase the heart rate.",
+    answer: false,
+    explanation: "M₂ activation decreases HR by slowing the SA node."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "An increase in sympathetic activity via B₁ and B₂ adrenergic receptors will increase the heart rate.",
+    answer: true,
+    explanation: "Sympathetic stimulation via β‑receptors raises HR."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "The medullary cardiovascular centre receives input from proprioceptors, chemoreceptors, and baroreceptors.",
+    answer: true,
+    explanation: "These afferents modulate autonomic outflow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Sympathetic output increases heart rate and contractility.",
+    answer: true,
+    explanation: "Sympathetic stimulation is both chronotropic and inotropic."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Parasympathetic impulses decrease heart rate and have a significant effect on ventricular contractility.",
+    answer: false,
+    explanation: "Parasympathetic decreases HR but has little effect on ventricular contractility because vagal innervation of ventricles is sparse."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Hypoxia depresses cardiac activity.",
+    answer: true,
+    explanation: "Lack of oxygen is a depressant factor for cardiac function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Acidosis and alkalosis both depress cardiac activity.",
+    answer: true,
+    explanation: "Both extreme pH changes depress cardiac activity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Catecholamines and thyroid hormones increase heart rate and contractility.",
+    answer: true,
+    explanation: "These hormones have positive chronotropic and inotropic effects."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Alterations in the balance of K⁺, Na⁺, and Ca²⁺ alter heart rate and contractility.",
+    answer: true,
+    explanation: "Cation imbalances directly affect cardiac excitability and contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "The vagus nerve (via ACh) decreases heart rate by decreasing the slow inflow of Na⁺ and Ca²⁺ and by increasing the outflow of K⁺.",
+    answer: true,
+    explanation: "This is the ionic mechanism of vagal bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "The vagus nerve acts primarily on the ventricular myocardium to decrease contractility.",
+    answer: false,
+    explanation: "Vagus acts mainly on SA and AV nodes, not ventricular myocardium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Gagging or massage of carotid arteries can treat SNS‑driven heart attack by activating vagal reflexes.",
+    answer: true,
+    explanation: "These manoeuvres stimulate vagal reflexes to counter sympathetic overactivity."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Female heart rate is generally higher than male heart rate.",
+    answer: true,
+    explanation: "Resting HR is typically slightly higher in females."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Physical fitness leads to resting tachycardia.",
+    answer: false,
+    explanation: "Physical fitness leads to resting bradycardia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "An increase in body temperature causes the SA node to discharge more rapidly, increasing heart rate.",
+    answer: true,
+    explanation: "Elevated temperature increases SA node firing rate."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Caffeine is a factor that can increase heart rate.",
+    answer: true,
+    explanation: "Caffeine is a cardiac stimulant."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Heart Rate & Its Regulation",
+    type: "truefalse",
+    question: "Calcium channel blockers and beta‑adrenergic blockers are drugs that can affect heart rate.",
+    answer: true,
+    explanation: "Both drug classes are known to alter HR."
+  },
+
+  // SECTION 4: Cardiac Cycle & Haemodynamics
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "The cardiac cycle consists of electrical and mechanical events from the beginning of one heartbeat to the beginning of the next.",
+    answer: true,
+    explanation: "This is the standard definition of the cardiac cycle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "At a heart rate of 70 beats per minute, the duration of each cardiac cycle is about 0.8 seconds.",
+    answer: true,
+    explanation: "60/70 ≈ 0.86 sec, approximately 0.8 sec."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "Atrial systole lasts for about 0.11 seconds, and atrial diastole lasts for about 0.69 seconds.",
+    answer: true,
+    explanation: "Atrial systole is 0.11 s, diastole 0.69 s."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "Ventricular systole lasts for about 0.53 seconds, and ventricular diastole lasts for about 0.27 seconds.",
+    answer: false,
+    explanation: "Ventricular systole = 0.27 s; diastole = 0.53 s (the values are reversed)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "Ventricular systole consists of isometric contraction (0.05 s) and ejection period (0.22 s).",
+    answer: true,
+    explanation: "Total ventricular systole = 0.05 + 0.22 = 0.27 s."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "Ventricular diastole consists of protodiastole (0.04 s), isometric relaxation (0.08 s), rapid filling (0.11 s), slow filling (0.19 s), and last rapid filling (0.11 s).",
+    answer: true,
+    explanation: "These phases total 0.53 s of ventricular diastole."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "The eight phases of the cardiac cycle include atrial systole, isovolumetric ventricular contraction, rapid ventricular ejection, reduced ventricular ejection, protodiastole, isovolumetric ventricular relaxation, rapid ventricular filling, and reduced ventricular filling (diastasis).",
+    answer: true,
+    explanation: "This is the complete eight‑phase sequence."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Cycle & Haemodynamics",
+    type: "truefalse",
+    question: "The cardiac cycle is divided into atrial and ventricular events, each with systole and diastole.",
+    answer: true,
+    explanation: "Both atria and ventricles have systolic and diastolic phases."
+  },
+
+  // SECTION 5: Microcirculation & Capillary Exchange
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Microcirculation is defined as the circulation of blood at the tissue level, from the first order arteriole to the first order venule.",
+    answer: true,
+    explanation: "This is the precise definition of microcirculation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "The microcirculation consists of terminal arteries, arterioles, metarterioles, true capillaries, and venules.",
+    answer: true,
+    explanation: "These are the components of the microcirculation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "The principal site for the exchange of gases, water, nutrients, and waste products is the arteriole.",
+    answer: false,
+    explanation: "The capillary is the principal exchange site."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "At any point in time, 5% of the circulating blood resides in the capillaries.",
+    answer: true,
+    explanation: "Approximately 5% of blood volume is in the capillaries."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Continuous capillaries are the most common type, with inter‑endothelial junctions 10‑15 nm wide.",
+    answer: true,
+    explanation: "Continuous capillaries have junctions of 10–15 nm."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Fenestrated capillaries have endothelial cells that are thick and without perforations.",
+    answer: false,
+    explanation: "Fenestrated capillaries have thin cells with perforations (fenestrations)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Discontinuous capillaries have fenestrations and gaps and are found in sinusoids of the liver.",
+    answer: true,
+    explanation: "Discontinuous capillaries (sinusoids) are found in the liver."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Velocity of flow increases as total cross‑sectional area increases.",
+    answer: false,
+    explanation: "Velocity decreases as cross‑sectional area increases."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Transit time from the arteriolar to the venous end of a capillary is about 1‑2 seconds.",
+    answer: true,
+    explanation: "Capillary transit time is approximately 1–2 sec."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Blood flow through capillaries is continuous and uninterrupted.",
+    answer: false,
+    explanation: "Capillary flow is intermittent."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Intermittent capillary flow is caused by contraction of metarterioles and precapillary sphincters.",
+    answer: true,
+    explanation: "Contraction of these structures regulates flow intermittency."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Autoregulation is the intrinsic ability of an organ to maintain constant blood flow despite changes in perfusion pressure.",
+    answer: true,
+    explanation: "This is the definition of autoregulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Autoregulation occurs in the absence of neural and hormonal influences.",
+    answer: true,
+    explanation: "Autoregulation is intrinsic and independent of extrinsic control."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "The two basic mechanisms of local blood flow control are the myogenic and metabolic theories.",
+    answer: true,
+    explanation: "These are the two primary theories of autoregulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Capillaries are permeable to water and solutes except plasma proteins.",
+    answer: true,
+    explanation: "Capillary walls are freely permeable to water and small solutes but restrict proteins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Oncotic pressure by plasma proteins produces fluid movement by osmosis from the blood into the interstitial spaces.",
+    answer: false,
+    explanation: "Oncotic pressure draws fluid from the interstitium into the blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "The net filtration equation is Kf × (Pc − Pif − Pip + Pif), where Pc is capillary hydrostatic pressure.",
+    answer: true,
+    explanation: "This is the Starling equation (with careful notation, but the principle is correct)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Fluid moves into the interstitial space at the arteriolar end of the capillary where filtration pressure exceeds oncotic pressure.",
+    answer: true,
+    explanation: "At the arterial end, hydrostatic pressure dominates, causing filtration."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Microcirculation & Capillary Exchange",
+    type: "truefalse",
+    question: "Fluid moves into the capillaries at the venous end where oncotic pressure exceeds filtration pressure.",
+    answer: true,
+    explanation: "At the venous end, reabsorption occurs."
+  },
+
+  // SECTION 6: Lymphatic System
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic fluid is formed by the slight mismatch between filtration and absorption in the capillaries.",
+    answer: true,
+    explanation: "The 15% of filtered fluid not reabsorbed becomes lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The lymphatic system is a closed system with a discrete pump similar to the heart.",
+    answer: false,
+    explanation: "The lymphatic system is not closed and has no central pump; flow is driven by other mechanisms."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The rate of lymph flow is determined by interstitial fluid hydrostatic pressure and the lymphatic 'pump.'",
+    answer: true,
+    explanation: "These are the primary determinants of lymph flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The lymphatic system returns fluid and proteins filtered out of circulation, absorbs fat from the intestine, and filters to destroy pathogens.",
+    answer: true,
+    explanation: "These are the three major functions of the lymphatic system."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the lower body flows up the thoracic duct and empties into the left internal jugular and subclavian veins.",
+    answer: true,
+    explanation: "The thoracic duct drains into the left venous angle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the left head, left arm, and parts of the chest drains into the right lymphatic duct.",
+    answer: false,
+    explanation: "These drain into the thoracic duct; the right lymphatic duct drains the right side of the head, neck, arm, and thorax."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph from the right side of the neck, right arm, and parts of the thorax drains into the right lymphatic duct.",
+    answer: true,
+    explanation: "The right lymphatic duct drains the right upper quadrant."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The right lymphatic duct empties into the right subclavian and internal jugular veins.",
+    answer: true,
+    explanation: "This is the drainage point for the right lymphatic duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph contains cells such as lymphocytes and monocytes, salts, and a small amount of proteins.",
+    answer: true,
+    explanation: "Lymph is a modified tissue fluid containing these components."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Plasma contains fibrinogen and prothrombin, while lymph contains these in very small quantities.",
+    answer: true,
+    explanation: "Lymph can coagulate but very slowly due to low clotting factor content."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph is composed of 96% water and 4% solids.",
+    answer: true,
+    explanation: "This is the approximate composition of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Proteins make up 2‑6% of lymph solids and include albumin, globulin, fibrinogen, prothrombin, antibodies, and enzymes.",
+    answer: true,
+    explanation: "This is the protein composition of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lipids in lymph are mainly chylomicrons and lipoproteins, accounting for 5‑15% of lymph solids.",
+    answer: true,
+    explanation: "Lipids are transported as chylomicrons and lipoproteins."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The total lymph flow averages 120 ml/hr or 2‑3 litres per day.",
+    answer: true,
+    explanation: "Daily lymph flow is 2‑3 litres."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels have thick walls and carry lymph under high pressure.",
+    answer: false,
+    explanation: "Lymphatic vessels have thin walls and carry lymph under low pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Initial lymphatics lack valves and smooth muscle in their walls.",
+    answer: true,
+    explanation: "Initial lymphatics have neither valves nor smooth muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Collecting lymphatics have valves and smooth muscle and contract in a peristaltic manner.",
+    answer: true,
+    explanation: "These features allow active propulsion of lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Flow in collecting lymphatics is aided by skeletal muscle movement, negative intrathoracic pressure during inspiration, and suction from venous flow.",
+    answer: true,
+    explanation: "These extrinsic forces assist lymphatic flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymphatic vessels are highly permeable, allowing bacteria and particulate matter to pass directly into the lymph.",
+    answer: true,
+    explanation: "High permeability allows entry of foreign material for immune surveillance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes trap and filter debris and bacteria, which are phagocytosed by macrophages.",
+    answer: true,
+    explanation: "Lymph nodes are filtration sites for particulate material."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Primary lymphoid organs include the red bone marrow and the thymus gland.",
+    answer: true,
+    explanation: "These are sites of lymphocyte generation and maturation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Secondary lymphoid organs include the spleen and lymph nodes.",
+    answer: true,
+    explanation: "These are sites where immune responses are mounted."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The red bone marrow produces all the formed elements of blood, including erythrocytes, leukocytes, and platelets.",
+    answer: true,
+    explanation: "Bone marrow is the primary haemopoietic tissue."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland plays a key role in programming the immune system to recognize 'self' and is a site for T-lymphocyte maturation.",
+    answer: true,
+    explanation: "These are the key functions of the thymus."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The thymus gland is located on the superior surface of the heart and atrophies with age.",
+    answer: true,
+    explanation: "The thymus is above the heart and involutes with age."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The spleen is the largest lymphoid organ and is located in the upper right hypochondriac region.",
+    answer: false,
+    explanation: "The spleen is in the upper LEFT hypochondriac region."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The red pulp of the spleen functions as a filtration system for blood.",
+    answer: true,
+    explanation: "Red pulp filters blood and removes damaged erythrocytes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The white pulp of the spleen is where adaptive T‑ and B‑cell responses are mounted.",
+    answer: true,
+    explanation: "White pulp is the immune-active region."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes are bean‑shaped structures found in clusters such as cervical, axillary, and inguinal regions.",
+    answer: true,
+    explanation: "These are major lymph node groups."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes contain fixed macrophages that phagocytose foreign material and populations of B‑ and T‑cells.",
+    answer: true,
+    explanation: "These are the key cellular components of lymph nodes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymph nodes are crucial to most antibody‑mediated immune responses because macrophages present pathogenic material to lymphocytes.",
+    answer: true,
+    explanation: "Antigen presentation in lymph nodes triggers antibody production."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The outer cortex of a lymph node is rich in T‑cells.",
+    answer: false,
+    explanation: "The outer cortex is rich in B‑cells; the inner cortex is rich in T‑cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The inner cortex of a lymph node is particularly rich in T‑cells.",
+    answer: true,
+    explanation: "T‑cells predominate in the inner cortex."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "The medulla of a lymph node contains large numbers of fixed phagocytic macrophages.",
+    answer: true,
+    explanation: "Macrophages in the medulla monitor lymph for pathogens."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Oedema is the accumulation of interstitial fluid in abnormal quantities.",
+    answer: true,
+    explanation: "This is the definition of oedema."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Interstitial fluid volume depends on capillary pressure, interstitial fluid pressure, oncotic pressure, capillary filtration coefficient, number of active capillaries, lymph flow, and total ECF volume.",
+    answer: true,
+    explanation: "These are the determinants of interstitial fluid volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Lymphedema is caused by lymphatic obstruction.",
+    answer: true,
+    explanation: "Lymphatic obstruction prevents drainage of interstitial fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Lymphatic System",
+    type: "truefalse",
+    question: "Gravity and skeletal muscle contraction do not affect interstitial fluid volume.",
+    answer: false,
+    explanation: "These factors can significantly affect interstitial fluid dynamics."
+  },
+
+  // SECTION 7: Vascular Physiology & Regulation
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "At rest, approximately 60% of the total blood volume is in the veins.",
+    answer: true,
+    explanation: "Veins serve as the major blood reservoir."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Sympathetically mediated venoconstriction can substantially increase venous return to the heart.",
+    answer: true,
+    explanation: "Venoconstriction mobilises blood from the venous reservoir."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation of alpha‑adrenergic receptors causes vasodilation.",
+    answer: false,
+    explanation: "Alpha‑adrenergic stimulation causes vasoconstriction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation of beta‑adrenergic receptors causes vasodilation.",
+    answer: true,
+    explanation: "Beta‑adrenergic stimulation leads to vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The walls of arteries and veins are composed of three coats: tunica externa, tunica media, and tunica interna.",
+    answer: true,
+    explanation: "These are the three layers of blood vessel walls."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The tunica externa is composed primarily of smooth muscle.",
+    answer: false,
+    explanation: "The tunica externa is composed of connective tissue; the tunica media is smooth muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The tunica media is composed primarily of smooth muscle.",
+    answer: true,
+    explanation: "Smooth muscle is the main component of the tunica media."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The tunica interna consists of endothelium, basement membrane, and internal elastic lamina.",
+    answer: true,
+    explanation: "These are the three parts of the tunica interna."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The vascular endothelium plays a role in regulating vessel integrity, vascular growth and remodelling, tissue growth, immune responses, cell adhesion, angiogenesis, haemostasis, and vascular permeability.",
+    answer: true,
+    explanation: "These are the multiple functions of vascular endothelium."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The endothelium plays a pivotal role in the regulation of vascular tone, controlling tissue blood flow, inflammatory responses, and maintaining blood fluidity.",
+    answer: true,
+    explanation: "These are key endothelial functions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Vascular smooth muscle cells ensure that blood vessels contract and relax, contributing to blood circulation regulation.",
+    answer: true,
+    explanation: "VSM cells regulate vessel diameter and blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "The endothelial layer produces paracrine regulators such as NO (vasodilation), endothelin‑1 (vasoconstriction), bradykinin (vasodilation), and prostaglandins I₂ (inhibits clotting and promotes vasodilation).",
+    answer: true,
+    explanation: "These are important endothelial-derived regulators."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Vascular smooth muscle contractions are rapid and of short duration, similar to cardiac muscle.",
+    answer: false,
+    explanation: "Vascular smooth muscle undergoes slow, sustained tonic contractions, unlike cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Vascular smooth muscle contains actin and myosin but lacks the regulatory protein troponin.",
+    answer: true,
+    explanation: "Troponin is absent in vascular smooth muscle; regulation differs from cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Actin and myosin in vascular smooth muscle are arranged into distinct bands similar to cardiac muscle.",
+    answer: false,
+    explanation: "VSM lacks the organised banding of cardiac muscle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Actin and myosin in vascular smooth muscle are arranged specifically for maintaining tonic contractions and reducing lumen diameter.",
+    answer: true,
+    explanation: "This arrangement suits VSM's sustained contraction function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Contraction in vascular smooth muscle can be initiated by mechanical, electrical, and chemical stimuli.",
+    answer: true,
+    explanation: "VSM responds to multiple stimulus types."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Chemical and electrical stimuli bind to specific receptors on VSM cells or on adjacent endothelium to cause contraction.",
+    answer: true,
+    explanation: "Receptor binding initiates signalling for contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Increased free intracellular calcium in VSM results from increased flux through calcium channels or release from internal stores.",
+    answer: true,
+    explanation: "These are the two sources of calcium in VSM."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "In VSM, free calcium binds to calmodulin, and calcium‑calmodulin activates myosin light chain kinase (MLCK).",
+    answer: true,
+    explanation: "This is the key step in VSM contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "MLCK phosphorylates myosin light chains (MLC) in the presence of ATP, leading to cross‑bridge formation and contraction.",
+    answer: true,
+    explanation: "Phosphorylation of MLC is essential for contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "VSM relaxation occurs when myosin light chains are dephosphorylated by myosin light chain phosphatase (MLCP).",
+    answer: true,
+    explanation: "Dephosphorylation promotes relaxation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Vascular tone is determined by the degree of MLC phosphorylation, which depends on the relative activity of MLCK and MLCP.",
+    answer: true,
+    explanation: "The balance between kinase and phosphatase determines tone."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Oxidative stress causes vascular endothelial dysfunction by reducing nitric oxide bioavailability.",
+    answer: true,
+    explanation: "Oxidative stress decreases NO, impairing endothelial function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Atherosclerosis is a condition in which there is obstruction within the arteries due to plaque formation.",
+    answer: true,
+    explanation: "Atherosclerosis involves plaque buildup causing arterial obstruction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Atherosclerosis is the progressive replacement of smooth muscle cells with collagen within the media of small arteries.",
+    answer: false,
+    explanation: "This describes arteriolosclerosis, not atherosclerosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Arteriosclerosis is the stiffening or hardening of artery walls, often caused by high blood pressure, aging, or plaque build-up.",
+    answer: true,
+    explanation: "This is the definition of arteriosclerosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "An aneurysm is a pathological, permanent localized dilatation of an artery driven by structural failure of the vessel wall.",
+    answer: true,
+    explanation: "This is the definition of an aneurysm."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Vascular Physiology & Regulation",
+    type: "truefalse",
+    question: "Aneurysms commonly occur in the brain, thoracic aorta, and abdominal aorta.",
+    answer: true,
+    explanation: "These are common sites for aneurysms."
+  },
+
+  // SECTION 8: Cardiac Output & Exercise Physiology
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Essential functions of the heart include covering the metabolic needs of body tissues by adequate blood supply and receiving all blood returning from tissues.",
+    answer: true,
+    explanation: "These are the two essential functions of the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Essential conditions for heart function include normal structure and function of the heart and surrounding tissues, and adequate filling of the heart by blood.",
+    answer: true,
+    explanation: "These conditions are necessary for proper heart function."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Cardiac output is determined by heart rate and stroke volume.",
+    answer: true,
+    explanation: "CO = HR × SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Control of heart rate is achieved by the autonomic nervous system and hormonal (humoral) control.",
+    answer: true,
+    explanation: "HR is regulated by these two systems."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Stroke volume is controlled by preload, contractility, afterload, number and size of myocytes, heart architecture, and synchronization of atrial and ventricular function.",
+    answer: true,
+    explanation: "These are the determinants of stroke volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "The Frank‑Starling mechanism is an adaptive mechanism for increased cardiac load.",
+    answer: true,
+    explanation: "The Frank‑Starling mechanism adjusts output to match venous return."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Ventricular hypertrophy increases the mass of contractile elements, strengthening contraction.",
+    answer: true,
+    explanation: "Hypertrophy is an adaptive response to increased load."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Increased sympathetic adrenergic activity increases heart rate and contractility.",
+    answer: true,
+    explanation: "Sympathetic stimulation has positive chronotropic and inotropic effects."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "During active muscle contraction, muscle belly blood flow increases during contraction.",
+    answer: false,
+    explanation: "During contraction, mechanical compression reduces blood flow; flow rises between contractions."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Increased muscle contraction results in increased metabolism and accumulation of vasodilator metabolites.",
+    answer: true,
+    explanation: "Metabolites such as CO₂, H⁺, and adenosine cause local vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "During exercise, increased sympathetic and reduced parasympathetic discharge increase heart rate and strength.",
+    answer: true,
+    explanation: "Autonomic changes during exercise enhance cardiac performance."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "During exercise, arteriolar constriction occurs in all vascular beds, including muscle, brain, and coronary beds.",
+    answer: false,
+    explanation: "Muscle, brain, and coronary beds dilate; constriction occurs in other beds."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Increased mean systemic filling pressure during exercise is due to venoconstriction and arteriolar constriction.",
+    answer: true,
+    explanation: "Venoconstriction and arteriolar constriction raise MSFP."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Cardiac output is the volume ejected per minute, expressed in mL/min or L/min.",
+    answer: true,
+    explanation: "CO is measured as volume per minute."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Normal cardiac output is approximately 5 L/min.",
+    answer: true,
+    explanation: "Average resting CO is 5 L/min."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Cardiac output varies widely with activity and can increase up to 25 L/min during maximal exercise in trained athletes.",
+    answer: true,
+    explanation: "CO can increase fivefold with exercise."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "When heart rate increases, cardiac output always increases proportionally.",
+    answer: false,
+    explanation: "HR increase may reduce SV due to shorter filling time, so CO may not increase proportionally."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "When the force of contraction increases (positive inotropy), stroke volume increases.",
+    answer: true,
+    explanation: "Increased contractility enhances SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "When blood volume increases, venous return increases, the ventricle fills more, and cardiac output increases.",
+    answer: true,
+    explanation: "Increased preload raises CO via Frank‑Starling."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Venous return equals cardiac output in steady state (Starling's law).",
+    answer: true,
+    explanation: "The heart pumps out what it receives."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Heart size and gender are factors affecting stroke volume.",
+    answer: true,
+    explanation: "Larger hearts and males generally have higher SV."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "Cardiac index (CI) is cardiac output expressed per unit body surface area.",
+    answer: true,
+    explanation: "CI normalises CO for body size."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Cardiac Output & Exercise",
+    type: "truefalse",
+    question: "The normal cardiac index is approximately 3.2 L/min/m².",
+    answer: true,
+    explanation: "CI = CO/BSA ≈ 5/1.7 = 3.2 L/min/m²."
+  },
+
+  // SECTION 9: Coronary & Cerebral Circulation
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "In the heart, oxygen extraction is very high at rest, so flow must increase when oxygen consumption increases.",
+    answer: true,
+    explanation: "The heart has high basal O₂ extraction, so increased demand requires increased flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary flow occurs mainly during systole because the aortic valve is open.",
+    answer: false,
+    explanation: "Coronary flow occurs mainly during diastole because systolic compression impedes flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The coronary arteries arise from the root of the aorta.",
+    answer: true,
+    explanation: "The right and left coronary arteries originate from the aortic root."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The left coronary artery supplies most of the right ventricle as well as the posterior part of the left ventricle.",
+    answer: false,
+    explanation: "The right coronary artery supplies most of the right ventricle and posterior left ventricle; the left coronary supplies the anterior and lateral left ventricle."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary venous blood returns to the right atrium through the coronary sinus.",
+    answer: true,
+    explanation: "The coronary sinus is the main venous drainage pathway."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "In normal human hearts, there are virtually no functional intercoronary channels, so occlusion leads to ischemia.",
+    answer: true,
+    explanation: "Lack of significant anastomoses makes occlusion dangerous."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "If a coronary vessel narrows slowly over time, collateral vessels may develop to prevent necrosis.",
+    answer: true,
+    explanation: "Slow narrowing allows collateral development."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary blood flow occurs mainly during cardiac systole.",
+    answer: false,
+    explanation: "Coronary flow is mainly diastolic."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "There is efficient anastomoses between coronary vessels, so occlusion rarely causes problems.",
+    answer: false,
+    explanation: "Anastomoses are inefficient, so occlusion causes serious problems."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The coronary circulation represents about 5% of cardiac output, while the heart weight is about 300 g.",
+    answer: true,
+    explanation: "Coronary flow is 4–5% of CO, and heart weight is approximately 300 g."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Regulation of coronary blood flow is mainly by metabolites and not neural factors.",
+    answer: true,
+    explanation: "Metabolic regulation (e.g., adenosine, hypoxia) dominates in the coronary circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The capillary permeability in the coronary circulation is high, and cardiac lymph is rich in protein.",
+    answer: true,
+    explanation: "Coronary capillaries are highly permeable, yielding protein‑rich lymph."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The subendocardial myocardial layer in the left ventricle receives more blood due to less compression.",
+    answer: false,
+    explanation: "It receives less blood due to greater compression, making it vulnerable to ischemia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Resting coronary blood flow averages 225 ml/min, which accounts for about 4‑5% of cardiac output.",
+    answer: true,
+    explanation: "Resting coronary flow is approximately 225 ml/min (4–5% of CO)."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "During systole, left ventricular vascular blood flow is markedly reduced due to compression of intramuscular vessels.",
+    answer: true,
+    explanation: "Systolic compression of coronary vessels, especially in the left ventricle, reduces flow during contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "During diastole, coronary blood flow is rapid because the obstruction caused by ventricular muscle compression is removed.",
+    answer: true,
+    explanation: "Diastolic relaxation allows unimpeded coronary flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Tachycardia always increases coronary blood flow because the heart beats faster.",
+    answer: false,
+    explanation: "Tachycardia reduces diastolic filling time, which can decrease coronary flow despite metabolic vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The primary factor responsible for perfusion of the myocardium is the change in aortic pressure.",
+    answer: true,
+    explanation: "Aortic pressure (especially diastolic) drives coronary perfusion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary blood flow is directly proportional to the work done by the heart.",
+    answer: true,
+    explanation: "Increased cardiac work increases metabolic demand and coronary flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Stimulation of sympathetic nerves causes coronary vasoconstriction through a direct effect on coronary vessels.",
+    answer: false,
+    explanation: "Sympathetic stimulation increases cardiac metabolism, which leads to vasodilation; the direct effect is indirect through metabolism."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Stimulation of parasympathetic nerves decreases cardiac metabolism, leading to coronary vasoconstriction and decreased coronary blood flow.",
+    answer: true,
+    explanation: "Reduced metabolic demand from parasympathetic stimulation leads to vasoconstriction."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Oxygen lack (hypoxia) is the most effective coronary vasodilator.",
+    answer: true,
+    explanation: "Hypoxia directly dilates coronary vessels and releases adenosine."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Adenosine is a potent coronary vasodilator released from ATP during hypoxia.",
+    answer: true,
+    explanation: "Adenosine is a key mediator of metabolic vasodilation in the coronary circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Nitrites, aminophylline, caffeine, and khellin are coronary vasoconstrictors.",
+    answer: false,
+    explanation: "These are coronary vasodilators that increase coronary blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Thyroxine increases cardiac metabolism and acts as a coronary vasodilator, increasing coronary blood flow.",
+    answer: true,
+    explanation: "Thyroxine raises metabolic rate, which increases coronary flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Ventricular systole causes compression of coronary vessels and decreases coronary blood flow, mainly in the left coronary artery.",
+    answer: true,
+    explanation: "The stronger left ventricular contraction compresses vessels more than the right."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary blood flow is maximal at the end of isometric relaxation during diastole.",
+    answer: true,
+    explanation: "Early diastole allows maximal coronary filling."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Excessive tachycardia decreases coronary blood flow because diastolic period is shortened.",
+    answer: true,
+    explanation: "Shortened diastole reduces coronary perfusion time."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary blood flow is inversely proportional to cardiac output.",
+    answer: false,
+    explanation: "CBF is directly proportional to cardiac output."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Increased cardiac output raises aortic pressure and may cause reflex inhibition of vagal vasoconstrictor tone, leading to coronary vasodilation.",
+    answer: true,
+    explanation: "Higher CO increases aortic pressure and reduces vagal tone, promoting coronary flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Coronary blood flow is directly proportional to aortic diastolic pressure.",
+    answer: true,
+    explanation: "Higher diastolic pressure drives more coronary perfusion."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Aortic regurgitation increases coronary blood flow because it raises diastolic pressure.",
+    answer: false,
+    explanation: "Aortic regurgitation lowers diastolic pressure, decreasing CBF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Blood reaches the brain through the internal carotid and vertebral arteries.",
+    answer: true,
+    explanation: "These are the two main arterial supplies to the brain."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The vertebral arteries unite to form the basilar artery.",
+    answer: true,
+    explanation: "The two vertebral arteries join to form the basilar artery."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The circle of Willis is formed by the internal carotid, anterior communicating, posterior communicating, and basilar arteries.",
+    answer: true,
+    explanation: "These arteries form the major anastomotic circle at the base of the brain."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The cerebral circulation lies in a rigid structure (the cranium), so any increase in arterial inflow must be matched by increased venous outflow.",
+    answer: true,
+    explanation: "The incompressible contents of the skull require matched inflow and outflow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Cerebral blood flow averages 55 ml/min/100g of brain tissue.",
+    answer: true,
+    explanation: "Normal CBF is about 55 ml/min/100g."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Cerebral blood flow represents about 15% of resting cardiac output.",
+    answer: true,
+    explanation: "The brain receives approximately 15% of resting CO."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "The brain is the organ most tolerant to ischemia and can survive without blood for many minutes.",
+    answer: false,
+    explanation: "The brain is the least tolerant to ischemia; 5 seconds of loss can cause unconsciousness."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Loss of cerebral blood flow for more than a few minutes leads to irreversible tissue damage.",
+    answer: true,
+    explanation: "Cerebral ischemia beyond a few minutes causes permanent damage."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Cerebral blood flow is regulated mainly by local regulatory mechanisms and reflexes originating in the brain.",
+    answer: true,
+    explanation: "Local mechanisms and intrinsic reflexes dominate cerebral flow regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "An increase in PCO₂ causes marked cerebral vasodilation and increased cerebral blood flow.",
+    answer: true,
+    explanation: "CO₂ is a potent cerebral vasodilator acting via pH changes."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "CO₂ acts on cerebral vessels by altering perivascular pH, which changes arterial resistance.",
+    answer: true,
+    explanation: "The pH change mediates the vasodilatory response."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Hypoxia, electrical stimulation, and seizures cause a decrease in perivascular potassium and a decrease in cerebral blood flow.",
+    answer: false,
+    explanation: "These increase perivascular K⁺, causing an initial increase in CBF."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Adenosine is a potent dilator of pial arterioles in the brain.",
+    answer: true,
+    explanation: "Adenosine causes vasodilation in the cerebral circulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Coronary & Cerebral Circulation",
+    type: "truefalse",
+    question: "Adenosine levels in the brain increase in response to ischemia, hypoxemia, hypotension, hypocapnia, electrical stimulation, and seizures.",
+    answer: true,
+    explanation: "These conditions all elevate cerebral adenosine."
+  },
+
+  // SECTION 10: Splanchnic & Cutaneous Circulation
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Splanchnic circulation includes blood flow through the gut, spleen, pancreas, and liver.",
+    answer: true,
+    explanation: "The splanchnic bed encompasses these abdominal organs."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "All blood from the gut, spleen, and pancreas flows immediately into the liver via the portal vein.",
+    answer: true,
+    explanation: "The portal system directs splanchnic blood to the liver."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "In the liver, blood passes through sinusoids and empties into hepatic veins that drain into the vena cava.",
+    answer: true,
+    explanation: "This is the normal hepatic circulation pathway."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Reticuloendothelial cells lining the liver sinusoids can remove bacteria and particulate matter from the blood.",
+    answer: true,
+    explanation: "The liver acts as a filter through its reticuloendothelial cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "The superior and inferior mesenteric arteries supply the walls of the small and large intestines.",
+    answer: true,
+    explanation: "These are the main arterial supplies to the intestines."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Blood flow in each area of the gastrointestinal tract is unrelated to the level of local activity.",
+    answer: false,
+    explanation: "GI blood flow is directly related to local activity level."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Blood flow in the muscle layers of the intestinal wall increases with increased motor activity.",
+    answer: true,
+    explanation: "Motor activity increases metabolic demand and blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "The countercurrent exchange system in the intestinal villi permits diffusion of oxygen from arterioles to venules.",
+    answer: true,
+    explanation: "The countercurrent arrangement allows oxygen shunting."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "At low blood flow, the countercurrent system may cause necrosis of intestinal villi tips due to oxygen shunting.",
+    answer: true,
+    explanation: "Low flow increases oxygen shunting away from villus tips, causing ischemia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Parasympathetic stimulation to the stomach and lower colon directly decreases local blood flow.",
+    answer: false,
+    explanation: "Parasympathetic stimulation increases glandular secretion, which secondarily increases blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation causes intense vasoconstriction of splanchnic arterioles via alpha-adrenergic receptors.",
+    answer: true,
+    explanation: "Alpha-adrenergic activation constricts splanchnic vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "The vasoconstriction caused by sympathetic stimulation in the splanchnic circulation is permanent and long-lasting.",
+    answer: false,
+    explanation: "Local metabolic vasodilator mechanisms override sympathetic constriction to restore flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Vasodilator substances such as CCK, VIP, gastrin, and secretin are released from the mucosa during digestion.",
+    answer: true,
+    explanation: "These gut hormones are vasodilators."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Kallidin and bradykinin are powerful vasodilators released during gastrointestinal glandular secretion.",
+    answer: true,
+    explanation: "These kinins contribute to mucosal vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Decreased oxygen concentration in the gut wall increases intestinal blood flow.",
+    answer: true,
+    explanation: "Hypoxia is a potent vasodilator in the gut."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "A decrease in oxygen can lead to a fourfold increase in adenosine, which may be responsible for increased intestinal blood flow.",
+    answer: true,
+    explanation: "Adenosine mediates the vasodilatory response to hypoxia."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "In cutaneous circulation, the chief factor regulating blood flow is the supply of oxygen and nutrients.",
+    answer: false,
+    explanation: "Thermoregulation, not oxygen delivery, is the primary regulator of skin blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "The primary function of cutaneous circulation is to maintain a constant body temperature.",
+    answer: true,
+    explanation: "Skin blood flow is adjusted to conserve or dissipate heat."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Skin contains arteriovenous anastomoses that shunt blood from arterioles directly to venules.",
+    answer: true,
+    explanation: "AV anastomoses provide a bypass route for blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Arteriovenous anastomoses in the skin are richly supplied with nerves and are almost exclusively under sympathetic neural control.",
+    answer: true,
+    explanation: "Sympathetic nerves dominate AV anastomosis regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Sympathetic stimulation causes dilation of AV anastomoses in the skin.",
+    answer: false,
+    explanation: "Sympathetic stimulation constricts AV anastomoses and may obliterate the lumen."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Arteriovenous anastomoses are highly sensitive to vasoconstrictor agents such as adrenaline and noradrenaline.",
+    answer: true,
+    explanation: "These agents cause potent constriction of AV anastomoses."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Arteriovenous anastomoses exhibit reactive hyperaemia and autoregulation of blood flow.",
+    answer: false,
+    explanation: "AV anastomoses are not under metabolic control and do not exhibit these phenomena."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Cutaneous blood flow is regulated mainly by the nervous system in response to temperature reflexes.",
+    answer: true,
+    explanation: "Neural reflexes from temperature receptors regulate skin blood flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Parasympathetic vasodilator nerve fibres innervate cutaneous blood vessels.",
+    answer: false,
+    explanation: "Parasympathetic fibres do not innervate skin vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Splanchnic & Cutaneous Circulation",
+    type: "truefalse",
+    question: "Stimulation of sweat glands (innervated by parasympathetic cholinergic fibres) dilates the skin's resistance vessels.",
+    answer: true,
+    explanation: "Sweat gland activity causes local vasodilation."
+  },
+
+  // SECTION 11: Shock
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Shock is a condition resulting in inadequate tissue perfusion or absolutely inadequate cardiac output that can cause widespread tissue damage.",
+    answer: true,
+    explanation: "This is the definition of shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Hypovolemic shock is a type of distributive shock.",
+    answer: false,
+    explanation: "Hypovolemic shock is low volume; distributive shock involves vasodilation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Types of shock include hypovolemic, distributive, cardiogenic, and obstructive shock.",
+    answer: true,
+    explanation: "These are the four major categories of shock."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In hypovolemic shock, compensatory mechanisms include increased formation of angiotensin II, increased ADH, increased thirst, and increased sodium retention.",
+    answer: true,
+    explanation: "These are compensatory responses to volume loss."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased erythropoietin and increased plasma protein synthesis are compensatory adjustments to shock.",
+    answer: true,
+    explanation: "These help restore oxygen-carrying capacity and oncotic pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Increased movement of interstitial fluid into capillaries occurs during hypovolemic shock.",
+    answer: true,
+    explanation: "Starling forces favour reabsorption to restore volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In skeletal muscle, sympathetic nerves cause vasoconstriction via alpha‑adrenergic receptors.",
+    answer: true,
+    explanation: "Sympathetic vasoconstriction in muscle is alpha‑mediated."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "Epinephrine causes vasodilation via beta‑2 receptors when present in low concentration, and vasoconstriction via alpha receptors when present in high concentration.",
+    answer: true,
+    explanation: "Epinephrine has a concentration‑dependent dual effect."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In the brain, vasodilation occurs in response to increased concentration of carbon dioxide in arterial blood.",
+    answer: true,
+    explanation: "CO₂ is a potent cerebral vasodilator."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "The skin is controlled mainly by sympathetic nerves, with reflex vasoconstriction in response to cold.",
+    answer: true,
+    explanation: "Skin blood flow is primarily sympathetically regulated for thermoregulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Cardiovascular Physiology",
+    subTopic: "Shock & Clinical Correlations",
+    type: "truefalse",
+    question: "In the lungs, vasoconstriction occurs in response to low oxygen concentration, which is opposite to the systemic circulation.",
+    answer: true,
+    explanation: "Hypoxic pulmonary vasoconstriction is unique to the lungs."
+  },
+    // ===== PHYSIOLOGY – RENAL PHYSIOLOGY =====
+
+  // SECTION 1: Body Fluid Compartments & Composition
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Fluid in the human body is defined as water plus suspended or dissolved constituents, making up 45-75% of body weight.",
+    answer: true,
+    explanation: "Fluid consists of water and its dissolved constituents, with its proportion varying inversely with the body's fat content."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "The percentage of body weight that is water varies directly with the body's fat content.",
+    answer: false,
+    explanation: "The percentage of body weight that is water varies inversely with the body's fat content."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "In infants and premature babies, total body water accounts for approximately 70-75% of their body weight.",
+    answer: true,
+    explanation: "Infants have a much higher water content compared to adults, reaching up to 70-75% of their total body weight."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "In an average 70kg adult male, the extracellular fluid (ECF) compartment contains approximately 25 liters of fluid.",
+    answer: false,
+    explanation: "In a 70kg man, the intracellular fluid (ICF) is about 25L, while the extracellular fluid (ECF) is about 15L."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Dehydration frequently develops more rapidly and is more severe in children because the absolute volume of ECF in children is smaller than in adults.",
+    answer: true,
+    explanation: "Because children have a smaller absolute volume of ECF and a larger ECF/ICF ratio, they are more susceptible to rapid and severe dehydration."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Cerebrospinal fluid (CSF) has a protein concentration that is nearly identical to that of blood plasma.",
+    answer: false,
+    explanation: "CSF protein concentration is very low (20-40 mg/dL) compared to the high concentration in plasma (2,000-5,000 mg/dL)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Sodium and chloride are largely intracellular electrolytes, whereas potassium is largely extracellular.",
+    answer: false,
+    explanation: "Sodium (Na+) and chloride (Cl-) are largely extracellular ions, whereas potassium (K+) is largely intracellular."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Osmosis is the net movement of water molecules across a semipermeable membrane from a region of higher water concentration to a region of lower water concentration.",
+    answer: true,
+    explanation: "Osmosis is a passive transport process driven by the goal of equalizing the overall solute concentration across a membrane."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Aquaporin-1 (Aq-1) water channel proteins are primarily located in the collecting duct of the nephron.",
+    answer: false,
+    explanation: "Aquaporin-1 (Aq-1) is found in the proximal tubule, whereas Aquaporin-2 (Aq-2) is located in the collecting duct."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Transcellular fluid is a minor body fluid compartment with a total volume of approximately 300 mL.",
+    answer: true,
+    explanation: "Transcellular fluid includes cerebrospinal, synovial, pleural, and intraocular fluids, totaling about 0.3L (300 mL)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Evans blue dye (T1824) can be used as an indicator to measure plasma volume.",
+    answer: true,
+    explanation: "Evans blue binds to plasma proteins, making it an effective dilution indicator for measuring plasma volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Inulin, mannitol, and raffinose are metabolizable saccharides used to measure the Extracellular Fluid (ECF) compartment.",
+    answer: false,
+    explanation: "These substances are non-metabolizable saccharides that distribute freely in the ECF but do not enter cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Cerebrospinal fluid functions to reduce the effective weight of the brain from 1500g to roughly 50g.",
+    answer: true,
+    explanation: "The buoyancy provided by the CSF protects the central nervous system by drastically reducing the brain's effective weight."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "In a normal young adult female, total body water is approximately 60% of her body weight.",
+    answer: false,
+    explanation: "Total body water is about 50% in normal young adult females, compared to 60% in normal young adult males."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Endocytosis is a cellular process where a cell takes in substances from its external environment by engulfing them, requiring cellular energy.",
+    answer: true,
+    explanation: "Endocytosis is an active transport mechanism used to import large molecules and particles into the cell."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Potassium, magnesium, and organic phosphates are the principal intracellular ions, heavily concentrated within the cell compared to the interstitial fluid.",
+    answer: true,
+    explanation: "The Na+/K+ ATPase pump and cellular membranes maintain this strict gradient, keeping K+ and Mg2+ high inside the ICF."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "The intracellular fluid (ICF) possesses a significantly lower concentration of negatively charged proteins compared to the extracellular fluid.",
+    answer: false,
+    explanation: "The ICF contains a much higher concentration of negatively charged proteins and organic molecules that cannot cross the cell membrane."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Simple diffusion of lipid-soluble substances, such as oxygen and carbon dioxide, occurs directly through the lipid bilayer without the assistance of carrier proteins.",
+    answer: true,
+    explanation: "These uncharged, lipophilic molecules can freely pass through the hydrophobic core of the plasma membrane down their concentration gradients."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Facilitated diffusion is an active transport mechanism that requires cellular energy in the form of ATP to move molecules against their concentration gradient.",
+    answer: false,
+    explanation: "Facilitated diffusion is a passive process; it uses carrier proteins to move molecules down their concentration gradients without the expenditure of ATP."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "The indicator dilution principle calculates the volume of a body fluid compartment by dividing the mass of the indicator injected by its final equilibrium concentration.",
+    answer: true,
+    explanation: "This principle assumes the indicator is evenly dispersed within the compartment and uses the formula Volume = Mass / Concentration."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "In the continuous injection method for measuring fluid volumes, the concentration of the indicator is measured immediately after a rapid, single bolus injection.",
+    answer: false,
+    explanation: "The continuous injection method relies on infusing the indicator until a steady-state equilibrium is reached, allowing for the precise measurement of flow or volume despite ongoing excretion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Capillary hydrostatic pressure (Pc) acts as an outward physical force that pushes fluid out of the capillary and into the surrounding interstitial spaces.",
+    answer: true,
+    explanation: "This pressure is generated by the pumping action of the heart and is the primary driver of fluid filtration at the arterial end of a capillary bed."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Plasma colloid osmotic pressure is largely generated by the presence of large, non-diffusible plasma proteins like albumin.",
+    answer: true,
+    explanation: "These proteins create an osmotic pull that tends to draw fluid from the interstitial spaces back into the blood capillaries, opposing hydrostatic pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "An increase in the interstitial fluid hydrostatic pressure (Pif) strongly favors the massive filtration of fluid out of the capillary.",
+    answer: false,
+    explanation: "Interstitial fluid hydrostatic pressure pushes against the outside of the capillary, opposing filtration and favoring reabsorption."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "The Gibbs-Donnan equilibrium describes the uneven distribution of diffusible ions across a membrane caused by the presence of a non-diffusible ion on one side.",
+    answer: true,
+    explanation: "Because plasma contains large anionic proteins that cannot leave the capillary, diffusible cations are slightly higher in plasma to maintain electrical neutrality."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Sensible water loss includes the constant, obligatory evaporation of water from the respiratory tract and skin diffusion, averaging about 700 mL per day.",
+    answer: false,
+    explanation: "Loss from the skin diffusion and respiratory tract is called *insensible* water loss because a person is not consciously aware of it. Sweating is sensible."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "In a healthy adult, the interstitial fluid compartment makes up approximately 80% of the total extracellular fluid volume.",
+    answer: true,
+    explanation: "Of the 15 liters of ECF in a 70kg man, roughly 12 liters are interstitial fluid, bathing the cells directly."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Effective solutes, such as sodium and mannitol, do not easily cross cell membranes and are responsible for creating osmotic pressure gradients.",
+    answer: true,
+    explanation: "These effective solutes drive the osmotic movement of water across fluid compartments."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Urea easily crosses plasma membranes and therefore acts as a highly effective solute that strongly dictates plasma tonicity.",
+    answer: false,
+    explanation: "Because urea is highly permeable, it equilibrates rapidly and acts as an ineffective solute regarding plasma tonicity."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Body Fluid Compartments",
+    type: "truefalse",
+    question: "Regulated water excretion involves the renal elimination of free water in excess of the obligate amount necessary to excrete metabolic solutes.",
+    answer: true,
+    explanation: "The kidneys can selectively excrete pure water depending on ADH levels to maintain precise osmoregulation."
+  },
+
+  // SECTION 2: Kidney Anatomy & Structure
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The kidneys are retroperitoneal organs positioned on either side of the spine, extending from the T12 to L3 vertebrae.",
+    answer: true,
+    explanation: "They sit behind the peritoneum, protected by the lower ribs and abdominal muscles."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The right kidney is typically located slightly higher than the left kidney to accommodate the liver.",
+    answer: false,
+    explanation: "The left kidney is usually slightly higher, while the right kidney is lower to accommodate the liver."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "Both kidneys receive 20-25% of the total cardiac output at rest.",
+    answer: true,
+    explanation: "Despite weighing only 0.5% of body weight, the kidneys receive a massive fraction of cardiac output to filter the blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "Juxtamedullary nephrons account for 85-90% of the total nephron population in the human kidney.",
+    answer: false,
+    explanation: "Cortical nephrons account for 85-90% of the nephron population, while juxtamedullary nephrons make up only 10-15%."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The loop of Henle in cortical nephrons is short and only partly descends into the outer medulla.",
+    answer: true,
+    explanation: "Unlike juxtamedullary nephrons, cortical nephrons have short loops that do not penetrate deeply into the inner medulla."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "Intercalated cells of the distal tubule and collecting duct are rich in mitochondria and contain abundant proton-ATPases.",
+    answer: true,
+    explanation: "These alpha and beta intercalated cells are primarily involved in acid-base regulation through active proton transport."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The macula densa is arbitrarily designated as the point where the loop of Henle ends and the distal convoluted tubule begins.",
+    answer: true,
+    explanation: "The macula densa acts as a chemoreceptor and forms a critical part of the juxtaglomerular apparatus at this junction."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The juxtaglomerular apparatus consists of the juxtaglomerular (granular) cells, the macula densa, and extraglomerular mesangial (Lacis) cells.",
+    answer: true,
+    explanation: "These three components work together to regulate renal hemodynamics and blood pressure via the RAAS pathway."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The renal papillae empty urine directly into the major calyces, which then funnel the fluid into the renal pelvis.",
+    answer: false,
+    explanation: "The papillae empty urine into the *minor* calyces first, which then merge to form the major calyces."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The renal corpuscle of a nephron consists of two main structures: the capillary tuft known as the glomerulus, and the surrounding Bowman's capsule.",
+    answer: true,
+    explanation: "This structural unit is the exclusive site of blood filtration in the kidney."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "Podocytes are highly specialized epithelial cells forming the visceral layer of Bowman's capsule, extending foot processes around the capillaries.",
+    answer: true,
+    explanation: "The interdigitating foot processes (pedicels) form filtration slits that act as a crucial size-selective barrier."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The glomerular basement membrane possesses a strong positive charge, which facilitates the filtration of positively charged plasma proteins.",
+    answer: false,
+    explanation: "The basement membrane has a strong *negative* charge (due to glycoproteins), which strongly repels negatively charged proteins like albumin."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The proximal convoluted tubule utilizes extensive apical microvilli to massively increase its surface area for solute and water reabsorption.",
+    answer: true,
+    explanation: "This structural adaptation (the brush border) allows the proximal tubule to reabsorb 65% of the filtered load."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The wall of the urinary bladder is lined by a simple squamous epithelium.",
+    answer: false,
+    explanation: "The bladder is lined by a transitional epithelium that is continuous with the ureters and allows for distension."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The human kidney acts as an excretory organ by eliminating urea, a metabolic waste product derived primarily from muscle creatine.",
+    answer: false,
+    explanation: "Urea is the end-product of amino acid (protein) metabolism, whereas creatinine is the specific byproduct derived from muscle creatine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "Uric acid is an excretory waste product eliminated by the kidneys that specifically results from the breakdown of nucleic acids.",
+    answer: true,
+    explanation: "Accumulation of uric acid, due to overproduction or underexcretion, can precipitate in joints and cause gout."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "During periods of prolonged fasting, the kidneys significantly support blood glucose levels by synthesizing glucose from non-carbohydrate precursors.",
+    answer: true,
+    explanation: "This process, known as renal gluconeogenesis, is a critical metabolic function of the kidney cortex during starvation."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Kidney Anatomy",
+    type: "truefalse",
+    question: "The renal pelvis is a large, funnel-shaped collecting structure that receives urine directly from the major calyces and channels it into the ureter.",
+    answer: true,
+    explanation: "It acts as the final collecting basin within the kidney before urine begins its transit down the ureter to the bladder."
+  },
+
+  // SECTION 3: Glomerular Filtration & Renal Blood Flow
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The normal pH of arterial blood is tightly regulated at 7.4 plus or minus 0.04.",
+    answer: true,
+    explanation: "Maintaining this narrow pH window is a critical homeostatic function of the kidneys, lungs, and chemical buffers."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Renal clearance is defined as the volume of urine produced from which a given substance is completely removed per minute.",
+    answer: false,
+    explanation: "Clearance is the volume of plasma from which a given substance is completely removed per minute."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "A suitable substance for measuring Glomerular Filtration Rate (GFR) must be freely filtered and heavily reabsorbed by the renal tubules.",
+    answer: false,
+    explanation: "To accurately measure GFR, the substance must be freely filtered but neither secreted nor reabsorbed."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Inulin is a polymer of fructose that is widely considered the gold standard for measuring GFR.",
+    answer: true,
+    explanation: "Inulin is freely filtered, not metabolized, and neither secreted nor reabsorbed, making its clearance equal to the GFR."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The average Glomerular Filtration Rate (GFR) in a healthy adult is approximately 125 mL/min.",
+    answer: true,
+    explanation: "This translates to the kidneys filtering an amount of fluid equal to 4 times the total body water every day."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Para-aminohippuric acid (PAH) clearance is utilized to estimate renal plasma flow (RPF).",
+    answer: true,
+    explanation: "PAH is both filtered and highly secreted, so it is almost completely cleared from the plasma in a single pass through the kidney."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The absolute renal plasma flow in a normal adult is approximately 666 mL/min.",
+    answer: true,
+    explanation: "Relative renal plasma flow is about 600 mL/min, yielding an absolute flow of about 666 mL/min when corrected for the extraction ratio."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "If a patient's hematocrit is 40% and their renal plasma flow is 600 mL/min, their calculated renal blood flow is 1000 mL/min.",
+    answer: true,
+    explanation: "Renal blood flow = RPF / (1 - Hematocrit). Thus, 600 / (1 - 0.40) = 1000 mL/min."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The myogenic hypothesis states that an increase in systemic arterial pressure causes the afferent arteriole to relax in order to increase RBF.",
+    answer: false,
+    explanation: "The myogenic response causes the afferent arteriolar smooth muscle to contract in response to stretch, keeping blood flow constant."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Creatinine clearance is a useful clinical index that tends to slightly overestimate true GFR because creatinine is partially secreted by the tubules.",
+    answer: true,
+    explanation: "Tubular secretion adds creatinine to the urine, which alone would overestimate GFR, though colorimetric lab errors often cancel this out in humans."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "An increase in the fluid hydrostatic pressure within Bowman's capsule favors an increase in the Glomerular Filtration Rate.",
+    answer: false,
+    explanation: "Fluid pressure in Bowman's capsule is a force that opposes glomerular filtration."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Under normal physiological conditions, the renal clearance of glucose is 0 mL/min.",
+    answer: true,
+    explanation: "Because 100% of filtered glucose is normally reabsorbed in the proximal tubule, none appears in the urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Autoregulation allows renal blood flow and GFR to remain relatively constant despite changes in arterial blood pressure.",
+    answer: true,
+    explanation: "This is achieved via both the myogenic mechanism and the tubuloglomerular feedback from the macula densa."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The clearance of urea is approximately 70 mL/min, which is less than GFR because urea is partially reabsorbed.",
+    answer: true,
+    explanation: "About 44% of filtered urea is reabsorbed per day, leading to a clearance lower than the inulin benchmark."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Glomerular capillary hydrostatic pressure is the primary outward force driving glomerular filtration and is typically around 60 mmHg.",
+    answer: true,
+    explanation: "This pressure pushes fluid out of the capillary and is opposed by Bowman's capsule pressure and capillary oncotic pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The total area of the glomerular capillary endothelium available for filtration in humans is roughly 0.8 square meters.",
+    answer: true,
+    explanation: "This massive surface area, along with the fenestrated nature of the capillaries, allows for high-volume filtration."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The glomerular filtration barrier prevents the passage of any neutral substance smaller than 4 nm in diameter.",
+    answer: false,
+    explanation: "The barrier permits the free passage of neutral substances up to 4 nm and excludes those greater than 8 nm."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The filtration fraction represents the proportion of renal plasma flow that is forced into Bowman's capsule, normally averaging about 20%.",
+    answer: true,
+    explanation: "Since the typical GFR is 125 ml/min and renal plasma flow is roughly 600 ml/min, about one-fifth of the plasma is filtered."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The composition of the ultrafiltrate in Bowman's space is virtually identical to blood plasma, including high concentrations of large proteins and cellular elements.",
+    answer: false,
+    explanation: "The ultrafiltrate is essentially protein-free and devoid of cellular elements, containing only water and low-molecular-weight solutes."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "As blood flows from the afferent arteriole to the efferent arteriole, the plasma colloid osmotic pressure within the glomerular capillary progressively increases.",
+    answer: true,
+    explanation: "Because protein-free fluid is filtered out, the remaining proteins become more concentrated, raising the oncotic pressure by the time blood reaches the efferent end."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Severe, intense stimulation of the sympathetic nervous system causes widespread vasodilation of renal arterioles and dramatically increases GFR.",
+    answer: false,
+    explanation: "Intense sympathetic stimulation causes massive vasoconstriction of renal arterioles, reducing both renal blood flow and GFR to preserve blood volume for the brain and heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The extraction ratio of inulin is exactly 1.0, meaning the kidneys extract 100% of the inulin from the arterial plasma in a single pass.",
+    answer: false,
+    explanation: "Because inulin is only filtered (roughly 20% of plasma) and not secreted, its extraction ratio is equal to the filtration fraction, not 1.0."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Relative renal plasma flow accurately reflects the total amount of plasma entering the kidneys without needing correction for the extraction ratio of PAH.",
+    answer: false,
+    explanation: "Relative RPF (measured directly by PAH clearance) must be corrected by dividing it by the extraction ratio of PAH (0.9) to calculate the true, absolute Renal Plasma Flow."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The calculation of absolute renal plasma flow utilizing para-aminohippuric acid requires dividing the clearance of PAH by the extraction ratio of PAH.",
+    answer: true,
+    explanation: "Since the kidneys only clear about 90% of PAH from the plasma in one pass, correcting for this extraction ratio yields the true plasma flow rate."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The myogenic hypothesis of renal autoregulation depends on the stretch-induced contraction of the efferent arteriole to maintain Glomerular Filtration Rate.",
+    answer: false,
+    explanation: "The myogenic mechanism relies on the stretch-induced contraction of the smooth muscle in the *afferent* arteriole, not the efferent arteriole."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "As systemic arterial pressure increases from roughly 80 mmHg to 160 mmHg, renal vascular resistance must actively increase to keep renal blood flow constant.",
+    answer: true,
+    explanation: "Autoregulation achieves constant flow in the face of rising pressure by proportionally increasing the resistance in the afferent arterioles."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The glomerular capillary endothelium contains small pores called fenestrae that completely restrict the filtration of cellular elements like red blood cells.",
+    answer: true,
+    explanation: "These fenestrations allow massive fluid filtration but are structurally small enough to keep blood cells within the capillary lumen."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The colloid osmotic pressure within Bowman's capsule is normally considered to be zero because the ultrafiltrate is essentially completely protein-free.",
+    answer: true,
+    explanation: "Because no large proteins pass the filtration barrier, there is no significant osmotic force pulling water into the capsular space."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "An abnormal increase in the plasma concentration of large proteins will increase the glomerular capillary oncotic pressure, thereby reducing the net filtration pressure.",
+    answer: true,
+    explanation: "Elevated plasma oncotic pressure acts as a stronger inward force, opposing hydrostatic pressure and decreasing the overall GFR."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Glomerular filtration is a highly selective active transport process driven directly by ATP-dependent pumps located in the podocytes.",
+    answer: false,
+    explanation: "Filtration is a purely passive physical process driven by the bulk flow of fluid under hydrostatic pressure generated by the heart."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The filtration coefficient (Kf) is a mathematical product of the hydraulic conductivity and the total surface area of the glomerular capillaries.",
+    answer: true,
+    explanation: "This coefficient reflects how easily fluid can cross the membrane and the total area available, determining the total GFR for a given net filtration pressure."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "The primary filtration membrane in the renal corpuscle consists of three layers: the capillary endothelium, the basement membrane, and the podocyte filtration slits.",
+    answer: true,
+    explanation: "These three layers form a complex physical and electrical barrier that determines the size and charge selectivity of the glomerular filtrate."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Glomerular Filtration",
+    type: "truefalse",
+    question: "Neutral molecules that are larger than 8 nanometers in diameter pass freely and easily through the normal healthy glomerular filtration barrier.",
+    answer: false,
+    explanation: "The barrier is highly size-selective; molecules larger than 8 nm are almost entirely restricted from passing into Bowman's capsule."
+  },
+
+  // SECTION 4: Tubular Reabsorption & Secretion
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Sodium is actively pumped from the tubular cells into the interstitium by the basolateral Na+-K+ ATPase.",
+    answer: true,
+    explanation: "This pump extrudes 3 Na+ ions in exchange for 2 K+ ions, maintaining the gradient needed for secondary active transport."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The renal threshold for glucose is the arterial plasma level (around 200 mg/dl) at which glucose first appears in the urine.",
+    answer: true,
+    explanation: "Below this threshold, all glucose is reabsorbed. Above it, the tubular transport maximum begins to be overwhelmed."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Under normal physiological conditions, 100% of the filtered amino acids and small peptides are reabsorbed in the proximal convoluted tubule.",
+    answer: true,
+    explanation: "These valuable nutrients are completely reclaimed via specific secondary active transporters, leaving none in the final urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Reabsorption in the proximal convoluted tubule is strictly isosmotic, leaving the tubular fluid with an osmolality of approximately 300 mOsm/L as it enters the loop of Henle.",
+    answer: true,
+    explanation: "Because water follows the reabsorbed solutes in proportional amounts, the concentration of the fluid remains equal to plasma."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The thin descending limb of the loop of Henle actively transports sodium out of the tubule but is completely impermeable to water.",
+    answer: false,
+    explanation: "The thin descending limb is highly permeable to water but lacks active solute transporters and is essentially impermeable to sodium."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The thick ascending limb of the loop of Henle is responsible for reabsorbing approximately 25% of the filtered sodium load via the Na+-K+-2Cl- cotransporter.",
+    answer: true,
+    explanation: "This segment actively transports solutes out of the lumen while remaining impermeable to water, crucial for generating the medullary gradient."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Loop diuretics, such as furosemide and ethacrynic acid, exert their powerful diuretic effect by inhibiting the Na+-K+-2Cl- cotransporter.",
+    answer: true,
+    explanation: "By blocking this transporter in the thick ascending limb, they drastically reduce sodium reabsorption and abolish the medullary concentrating gradient."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The early distal convoluted tubule is frequently referred to as the 'diluting segment' because it reabsorbs solutes while remaining impermeable to water.",
+    answer: true,
+    explanation: "Further solute removal without water following drops the osmolality of the tubular fluid significantly below that of plasma."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Thiazide diuretics produce diuresis by actively inhibiting the Na+-Cl- symporter located in the apical membrane of the early distal convoluted tubule.",
+    answer: true,
+    explanation: "This specific mechanism makes thiazides highly effective for managing hypertension and mild edema."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The clearance ratio of a given substance is determined by dividing its clearance by the clearance of para-aminohippuric acid (PAH).",
+    answer: false,
+    explanation: "The clearance ratio is calculated by dividing the substance's clearance by the clearance of inulin, which represents the standard GFR."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "If the calculated clearance ratio of a substance is greater than 1.0, it proves that the substance is filtered and undergoes net tubular secretion.",
+    answer: true,
+    explanation: "A ratio > 1.0 means more of the substance appears in the urine than was filtered, indicating active secretion by the peritubular capillaries."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "During the process of tubular reabsorption, substances move actively or passively from the peritubular capillaries directly into the tubular lumen.",
+    answer: false,
+    explanation: "Tubular reabsorption is the movement of substances from the tubular lumen back *into* the peritubular capillaries. The reverse process is called tubular secretion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The basolateral membrane of the renal tubular epithelial cells directly faces the tubular lumen and contains the extensive brush border.",
+    answer: false,
+    explanation: "The *apical* (luminal) membrane faces the tubular lumen and has the brush border. The basolateral membrane faces the interstitial space and blood vessels."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Secondary active transport of glucose in the proximal tubule fundamentally relies on the energy from the sodium concentration gradient established by the basolateral Na+/K+ ATPase.",
+    answer: true,
+    explanation: "The pump uses ATP to keep intracellular sodium low, allowing sodium to flow down its gradient from the lumen, pulling glucose with it via a cotransporter."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The phenomenon of 'splay' in the glucose titration curve occurs because not all nephrons possess the exact same transport maximum (Tmg) for glucose.",
+    answer: true,
+    explanation: "Heterogeneity among nephrons means some reach their maximal reabsorptive capacity earlier than others, causing a gradual rounding of the excretion curve rather than a sharp angle."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The normal tubular transport maximum for glucose (Tmg) in a healthy adult male is approximately 375 mg/min.",
+    answer: true,
+    explanation: "This high threshold ensures that under normal dietary conditions, the kidneys can reabsorb all filtered glucose and prevent its loss in urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The proximal convoluted tubule is uniquely responsible for the reabsorption of approximately 65% of the filtered load of sodium and water.",
+    answer: true,
+    explanation: "The highly developed brush border and abundant mitochondria make this segment the primary site for bulk, isosmotic reabsorption."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The massive reabsorption of sodium in the proximal convoluted tubule directly causes the remaining tubular fluid to become highly hypertonic.",
+    answer: false,
+    explanation: "Because the proximal tubule is highly permeable to water, water follows the reabsorbed sodium proportionally, keeping the tubular fluid strictly isosmotic."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "In the thin descending limb of the loop of Henle, the primary mechanism of water movement is simple diffusion through the lipid bilayer.",
+    answer: false,
+    explanation: "Water movement is heavily facilitated by the high density of Aquaporin-1 channels in this segment, rather than simple lipid diffusion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The Na+-K+-2Cl- cotransporter utilizes secondary active transport to move ions from the tubular lumen into the cells of the thick ascending limb.",
+    answer: true,
+    explanation: "This carrier uses the downhill electrochemical gradient of sodium to simultaneously drive potassium and chloride uphill into the cell."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The early distal convoluted tubule becomes highly permeable to water whenever antidiuretic hormone (ADH) is present in the blood.",
+    answer: false,
+    explanation: "The early distal tubule is constitutively impermeable to water regardless of ADH. Only the late distal tubule and collecting duct respond to ADH."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "A clearance ratio of less than 1.0 indicates that a freely filtered substance undergoes net tubular reabsorption as it passes through the nephron.",
+    answer: true,
+    explanation: "If the clearance is lower than the clearance of inulin (GFR), it means less plasma was cleared of the substance than was filtered, proving net reabsorption occurred."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Valuable physiological solutes such as glucose, amino acids, and bicarbonate are almost completely reabsorbed in the proximal convoluted tubule.",
+    answer: true,
+    explanation: "The proximal tubule utilizes a massive array of specific secondary active transporters to reclaim 100% of these critical nutrients."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The thin ascending limb of the loop of Henle is functionally characterized by being highly permeable to water but completely impermeable to sodium chloride.",
+    answer: false,
+    explanation: "The thin ascending limb is totally *impermeable* to water, but it is highly *permeable* to sodium chloride, allowing solutes to diffuse out into the medulla."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "The thick ascending limb of the loop of Henle is often referred to clinically as the 'diluting segment' because it actively removes solutes from the tubular fluid while blocking water.",
+    answer: true,
+    explanation: "By pumping out Na+, K+, and Cl- without allowing water to follow, the remaining tubular fluid becomes markedly hypotonic (dilute) as it exits this segment."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Tubular Reabsorption & Secretion",
+    type: "truefalse",
+    question: "Tubular secretion involves the movement of substances from the peritubular capillaries into the tubular lumen for excretion.",
+    answer: true,
+    explanation: "This active process eliminates substances like H+, K+, and foreign chemicals like penicillin from the blood."
+  },
+
+  // SECTION 5: Urine Concentration & Dilution
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The countercurrent multiplier system primarily resides in the U-shaped vasa recta.",
+    answer: false,
+    explanation: "The countercurrent multiplier resides in the loop of Henle, while the vasa recta acts as the countercurrent exchanger."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "In the loop of Henle, the thick ascending limb is highly permeable to solutes but impermeable to water.",
+    answer: true,
+    explanation: "Active transport of Na+ and Cl- out of this segment without water following creates the hypertonic medullary interstitium."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The countercurrent exchanger mechanism is an active, energy-consuming process required to generate the medullary osmotic gradient.",
+    answer: false,
+    explanation: "The countercurrent exchange in the vasa recta is a passive process that maintains, but does not generate, the gradient."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Urea contributes to the establishment of the medullary osmotic gradient by recycling from the inner medullary collecting ducts.",
+    answer: true,
+    explanation: "Urea transporters allow urea to accumulate in the medullary interstitium, significantly boosting urine concentrating ability."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "A high-protein diet decreases the kidneys' ability to concentrate urine because it reduces urea synthesis.",
+    answer: false,
+    explanation: "A high-protein diet increases urea production, which enhances the medullary osmotic gradient and the ability to concentrate urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Arginine vasopressin (ADH) binds to V2 receptors to insert Aquaporin-2 water channels into the apical membrane of principal cells.",
+    answer: true,
+    explanation: "This short-term regulation massively increases the water permeability of the collecting ducts to prevent water loss."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Ingestion of water at a rate higher than 16 mL/min can result in cellular swelling and water intoxication.",
+    answer: true,
+    explanation: "Since the maximal urine flow during water diuresis is about 16 mL/min, exceeding this rate dilutes the ECF and forces water into cells."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The obligatory urine volume, which is the minimum amount needed to excrete daily metabolic waste, is roughly 0.4 to 0.5 liters per day.",
+    answer: true,
+    explanation: "Even during severe dehydration, the kidneys must produce this volume to clear the body's solute load."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The tubular transport maximum (Tmg) for glucose is higher in women than in men.",
+    answer: false,
+    explanation: "The Tmg is 375 mg/min in men and 200 mg/min in women."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "In adults, water generally accounts for 70% of total body weight in males and 60% in females according to the water balance module.",
+    answer: true,
+    explanation: "Muscular individuals have higher water content, and women generally have a higher proportion of adipose tissue, which is low in water."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The majority of daily water loss in a healthy resting individual occurs through the feces.",
+    answer: false,
+    explanation: "The majority of water loss is through urine (approx. 1.5 L/day), followed by insensible losses from the skin and lungs."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Control of water balance relies heavily on hypothalamic osmoreceptors that detect minute changes in plasma osmolality.",
+    answer: true,
+    explanation: "These receptors can detect a change of even 1-2% in osmolality, instantly triggering thirst and ADH release."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The threshold for triggering the thirst sensation is lower than the threshold for secreting arginine vasopressin (AVP).",
+    answer: false,
+    explanation: "The thirst threshold is higher (approx. 295 mOsm/kg) compared to the AVP threshold (285 mOsm/kg)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Countercurrent multiplication relies on the active transport of solutes out of the thick ascending limb to generate a hyperosmotic medullary interstitium.",
+    answer: true,
+    explanation: "This active transport without water permeability creates an osmotic gradient that can reach 1200-1400 mOsm/L deep in the medulla."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The vasa recta receive a massive volume of blood, accounting for over 50% of total renal blood flow, to supply the energy-hungry medulla.",
+    answer: false,
+    explanation: "Blood flow in the vasa recta is extremely sluggish, accounting for only 1-2% of RBF, which is essential to prevent washing out the medullary solutes."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "In the complete absence of antidiuretic hormone (ADH), the late distal tubule and collecting duct become highly impermeable to water.",
+    answer: true,
+    explanation: "Without ADH to insert aquaporins, water cannot leave the tubule, resulting in the excretion of a large volume of dilute urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Central diabetes insipidus occurs when the renal collecting ducts completely fail to respond to circulating levels of antidiuretic hormone.",
+    answer: false,
+    explanation: "Central DI is a failure of the pituitary to *produce* ADH. Nephrogenic DI is the failure of the kidneys to *respond* to it."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The countercurrent exchanger mechanism in the vasa recta is a completely passive physical process that maintains the medullary gradient.",
+    answer: true,
+    explanation: "As blood flows down and then back up the U-shaped vessels, solutes and water passively exchange with the interstitium without consuming ATP."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Osmotic diuresis occurs when large quantities of osmotically active, non-reabsorbable substances like mannitol are present in the tubular fluid.",
+    answer: true,
+    explanation: "These substances act as an osmotic anchor, holding water in the tubule against the reabsorptive gradients and massively increasing urine volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Vasopressin (ADH) specifically induces the movement of aquaporin-2 water channels from intracellular vesicles and inserts them into the apical membrane of the collecting duct cells.",
+    answer: true,
+    explanation: "This receptor-mediated exocytosis rapidly increases the water permeability of the apical membrane, allowing water to exit the tubule and enter the hyperosmotic interstitium."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "In the complete absence of antidiuretic hormone, the kidneys can produce a highly dilute final urine with an osmolality that can fall as low as 50 mOsm/kg.",
+    answer: true,
+    explanation: "Without ADH, the collecting ducts are impermeable to water, meaning the dilute fluid generated in the ascending limb is excreted directly, resulting in massive water diuresis."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "The countercurrent multiplier system creates an internal osmotic gradient that ranges from approximately 300 mOsm/L in the cortex to about 1200-1400 mOsm/L in the deep medulla.",
+    answer: true,
+    explanation: "This profound gradient is the critical driving force that allows the collecting ducts to pull water out of the urine when ADH is present."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Nephrogenic diabetes insipidus is a clinical condition caused by a failure of the posterior pituitary gland to synthesize and secrete adequate amounts of ADH.",
+    answer: false,
+    explanation: "Central diabetes insipidus is the failure to produce ADH. Nephrogenic DI is the failure of the renal tubules to *respond* to adequate levels of circulating ADH."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Urea recycling significantly contributes to the hyperosmolality of the inner medulla, accounting for about half of the maximal medullary concentration.",
+    answer: true,
+    explanation: "Urea is reabsorbed from the inner medullary collecting duct and accumulates in the interstitium, deeply enhancing the kidney's ability to concentrate urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Urine Concentration & Dilution",
+    type: "truefalse",
+    question: "Aquaporin-2 (AQP2) channels are stored in intracellular vesicles and fuse with the apical membrane of principal cells upon stimulation by ADH.",
+    answer: true,
+    explanation: "This dynamic shuttling mechanism allows the kidneys to rapidly alter water permeability in response to systemic hydration status."
+  },
+
+  // SECTION 6: Acid-Base Balance
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Chemical buffer systems serve as the rapid, first line of defense against acid-base disturbances in the body.",
+    answer: true,
+    explanation: "Buffer systems like bicarbonate and phosphate react almost instantly to neutralize added acids or bases."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The renal regulation of acid-base balance is the fastest homeostatic mechanism, correcting pH shifts within minutes.",
+    answer: false,
+    explanation: "Renal control is the slowest mechanism (third line of defense) but is the most powerful and efficient for long-term correction."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The kidneys regulate body pH through the reabsorption of bicarbonate, excretion of non-volatile acids, and formation of ammonia.",
+    answer: true,
+    explanation: "These three interconnected mechanisms allow the kidney to eliminate the daily dietary acid load and restore buffer reserves."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The proximal convoluted tubule is responsible for reabsorbing approximately 85% of the filtered bicarbonate.",
+    answer: true,
+    explanation: "Most of the 'reclaimed' bicarbonate is recovered early in the nephron, linked to the secretion of hydrogen ions."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "In the proximal tubule, filtered bicarbonate is reabsorbed directly across the apical membrane as an intact ion.",
+    answer: false,
+    explanation: "Bicarbonate must combine with secreted H+ to form H2CO3, which splits into H2O and CO2, crosses the membrane, and reforms into bicarbonate inside the cell."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The minimum possible urine pH achievable by the human kidneys is roughly 4.5.",
+    answer: true,
+    explanation: "This pH limit restricts the amount of free H+ that can be excreted, necessitating the use of urinary buffers like phosphate and ammonia."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "During conditions of metabolic acidosis, the kidneys respond by decreasing the excretion of titratable acids.",
+    answer: false,
+    explanation: "During acidosis, the kidneys increase H+ secretion, increase bicarbonate reabsorption, and increase the formation of titratable acids."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The ammonia buffer system is synthesized mainly from the amino acid glutamine.",
+    answer: true,
+    explanation: "Glutamine is metabolized in the renal epithelial cells to produce ammonium ions and new bicarbonate ions."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Consumption of a high-vegetable diet frequently leads to metabolic acidosis due to the high acidic content of plants.",
+    answer: false,
+    explanation: "Vegetable diets contain basic cations like potassium and sodium, which tend to cause metabolic alkalosis."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Persistent vomiting typically induces metabolic alkalosis due to the substantial loss of gastric acid.",
+    answer: true,
+    explanation: "Losing H+ via gastric secretions leaves behind un-neutralized bicarbonate in the blood, raising the pH."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Severe muscular exercise can cause metabolic acidosis because it leads to the excessive formation of lactic acid.",
+    answer: true,
+    explanation: "Lactic acid floods the plasma and consumes bicarbonate buffers, decreasing the blood pH."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Cellular metabolism continuously generates volatile acids, primarily carbon dioxide, which are eliminated from the body entirely by the kidneys.",
+    answer: false,
+    explanation: "Volatile acids (carbon dioxide) are eliminated almost exclusively by the lungs, while the kidneys handle fixed/non-volatile acids."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Non-volatile acids, such as sulfuric and phosphoric acids produced from protein metabolism, can only be cleared from the body via renal excretion.",
+    answer: true,
+    explanation: "These fixed acids cannot be converted to gas and expired; the kidneys must secrete the hydrogen ions and excrete them."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "A daily net acid load of roughly 1 mEq/kg of body weight is generated by metabolism and must be buffered and eventually eliminated.",
+    answer: true,
+    explanation: "This continuous generation of metabolic acid necessitates constant buffering by the blood and long-term excretion by the kidneys."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Within renal tubular cells, the enzyme carbonic anhydrase rapidly catalyzes the combination of water and carbon dioxide to form carbonic acid.",
+    answer: true,
+    explanation: "This intracellular hydration of CO2 is the critical first step in generating hydrogen ions for secretion and bicarbonate for reabsorption."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "For every hydrogen ion (H+) actively secreted into the tubular lumen, one newly generated molecule of bicarbonate (HCO3-) is transported into the blood.",
+    answer: true,
+    explanation: "This 1:1 linked transport process replenishes the body's alkaline buffer reserves as acid is excreted."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Titratable acid excretion primarily involves the buffering of secreted hydrogen ions by filtered phosphate (HPO4^2-) within the tubular lumen.",
+    answer: true,
+    explanation: "Secreted H+ combines with HPO4^2- to form H2PO4-, which is then trapped in the urine and excreted."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "In response to metabolic acidosis, the kidneys drastically decrease the synthesis of ammonium (NH4+) to preserve body nitrogen.",
+    answer: false,
+    explanation: "During acidosis, the kidneys massively *increase* ammonium production from glutamine to bind and excrete excess hydrogen ions."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The metabolism of a single glutamine molecule in the proximal tubule cells yields two ammonium ions (NH4+) and two new bicarbonate ions (HCO3-).",
+    answer: true,
+    explanation: "This mechanism is the most powerful renal adaptation for clearing chronic, heavy acid loads."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Secretion of hydrogen ions in the proximal convoluted tubule occurs primarily through secondary active transport via the apical Na+/H+ antiporter.",
+    answer: true,
+    explanation: "This mechanism uses the sodium gradient generated by the basolateral Na+/K+ pump to drive hydrogen secretion into the lumen."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Metabolic alkalosis is clinically defined by a primary elevation of plasma bicarbonate concentration resulting in a systemic blood pH above 7.44.",
+    answer: true,
+    explanation: "This shift toward alkalinity can be caused by loss of acid (vomiting) or excessive ingestion of basic compounds."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Addison's disease, involving hypofunction of the adrenal cortex and low aldosterone, can cause metabolic acidosis due to decreased renal H+ secretion.",
+    answer: true,
+    explanation: "Aldosterone normally stimulates H+ secretion in the collecting ducts; its absence leads to acid retention."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Laxative abuse frequently results in metabolic alkalosis because the gastrointestinal tract strongly secretes large volumes of highly acidic fluid.",
+    answer: false,
+    explanation: "Laxative abuse causes profound diarrhea, which leads to the loss of bicarbonate-rich intestinal fluids, resulting in metabolic *acidosis*."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The 'alkaline tide' is a temporary rise in blood pH that occurs when the stomach secretes gastric acid, concurrently releasing bicarbonate into the blood.",
+    answer: true,
+    explanation: "For every H+ secreted into the stomach lumen to digest food, a matching HCO3- is pumped into the gastric venous blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The primary physiological buffer systems in the human body include the bicarbonate buffer system, the phosphate buffer system, and the protein buffer system.",
+    answer: true,
+    explanation: "These chemical buffers act instantly in the blood and intracellular compartments to minimize pH changes before the lungs and kidneys can respond."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The kidneys eliminate volatile acids, primarily carbon dioxide, by converting them into bicarbonate and excreting them in the urine.",
+    answer: false,
+    explanation: "Volatile acids (carbon dioxide) are eliminated almost entirely by the lungs through ventilation, not by the kidneys."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "To excrete a daily acid load, the kidneys must reabsorb virtually all filtered bicarbonate and synthesize new bicarbonate to replenish the consumed buffer stores.",
+    answer: true,
+    explanation: "This dual process ensures that no base is lost in the urine and that the buffering capacity of the ECF is continuously restored."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Intracellular hydration of carbon dioxide to form carbonic acid is a critical initial step in the renal mechanism for secreting hydrogen ions.",
+    answer: true,
+    explanation: "Catalyzed by carbonic anhydrase, this reaction provides the continuous supply of H+ needed for apical secretion into the tubular lumen."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "For every hydrogen ion secreted into the tubular lumen that combines with a filtered non-bicarbonate buffer, a newly generated bicarbonate ion is lost in the urine.",
+    answer: false,
+    explanation: "When secreted H+ binds to a non-bicarbonate buffer (like phosphate) and is excreted, the new bicarbonate ion generated in the cell is added to the *peritubular capillary blood*, not lost in urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The term 'titratable acidity' refers to the amount of strong base, such as sodium hydroxide, required to titrate an acidic urine sample back to the normal blood pH of 7.4.",
+    answer: true,
+    explanation: "This measurement quantifies the amount of hydrogen ions excreted in the urine bound to non-bicarbonate buffers like phosphate."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Ammonium (NH4+) is a highly lipid-soluble gas that easily diffuses across the apical membrane of the proximal tubule directly into the tubular lumen.",
+    answer: false,
+    explanation: "Ammonia (NH3) is the lipid-soluble gas that diffuses easily. Once in the lumen, it binds H+ to form Ammonium (NH4+), which is charged and trapped in the fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "During states of chronic metabolic acidosis, the renal production of ammonia from the amino acid glutamine is significantly upregulated to enhance acid excretion.",
+    answer: true,
+    explanation: "This highly adaptable mechanism allows the kidneys to vastly increase their capacity to buffer and excrete excessive hydrogen ions over several days."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Severe starvation and uncontrolled diabetes mellitus can lead to metabolic acidosis due to the excessive cellular production and systemic accumulation of ketone bodies.",
+    answer: true,
+    explanation: "The oxidation of fat in the absence of glucose utilization produces large amounts of acetoacetic acid and beta-hydroxybutyric acid, overwhelming the buffer systems."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Cushing's syndrome can result in metabolic alkalosis because excess adrenal corticosteroids strongly stimulate the reabsorption of sodium in exchange for the secretion of hydrogen ions.",
+    answer: true,
+    explanation: "The hyperfunction of the adrenal cortex drives excessive acid loss into the urine, leaving behind un-neutralized bicarbonate in the plasma."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The minimum pH of urine that the human kidneys can achieve is approximately 2.0, allowing for massive excretion of free, unbound hydrogen ions.",
+    answer: false,
+    explanation: "The minimum achievable urine pH is roughly 4.5. Because this limits the amount of free H+ that can be excreted, urinary buffers are essential."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Severe, prolonged diarrhea typically causes metabolic alkalosis due to the substantial loss of highly acidic fluid from the lower gastrointestinal tract.",
+    answer: false,
+    explanation: "Intestinal secretions are relatively rich in bicarbonate. Therefore, diarrhea results in the massive loss of base, causing metabolic *acidosis*."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "In a primary metabolic acidosis, the fundamental laboratory defect is a significant decrease in the plasma concentration of bicarbonate ions.",
+    answer: true,
+    explanation: "Metabolic acidosis is characterized by the consumption or loss of the body's primary buffer, bicarbonate, causing the systemic pH to drop."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The buffering of secreted hydrogen ions by filtered phosphate (HPO4^2-) in the tubular fluid directly generates new bicarbonate ions that enter the peritubular capillary blood.",
+    answer: true,
+    explanation: "This process is the primary mechanism for forming titratable acids, which allows the kidneys to excrete fixed acids while simultaneously restoring the blood's buffer reserves."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "The key enzyme carbonic anhydrase is present in exceptionally high concentrations within the epithelial cells of the proximal tubule and in their apical brush border.",
+    answer: true,
+    explanation: "This enzyme is absolutely required to rapidly catalyze the hydration of carbon dioxide, driving both bicarbonate reabsorption and hydrogen ion secretion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Under normal resting physiological conditions, the human body produces a significantly larger amount of volatile acid daily than it does non-volatile fixed acids.",
+    answer: true,
+    explanation: "The body produces a massive amount of volatile CO2 daily via cellular respiration, while fixed acid production (from protein and lipid metabolism) is only about 80 mEq/day."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Acid-Base Balance",
+    type: "truefalse",
+    question: "Ingesting a diet that is very high in protein tends to strongly alkalinize the blood due to the breakdown of complex proteins into basic bicarbonate compounds.",
+    answer: false,
+    explanation: "High-protein diets contain sulfur- and phosphorus-bearing amino acids that metabolize into sulfuric and phosphoric acids, which significantly *acidify* the blood."
+  },
+
+  // SECTION 7: Micturition & Bladder Physiology
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The external urethral sphincter is supplied by somatic nerve fibers from the pudendal nerve.",
+    answer: true,
+    explanation: "The pudendal nerve provides voluntary somatic control over the external sphincter, keeping it constricted until urination."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Stimulation of the hypogastric nerve causes relaxation of the detrusor muscle and constriction of the internal sphincter.",
+    answer: true,
+    explanation: "The hypogastric nerve provides sympathetic innervation, facilitating the filling of the bladder."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The pelvic nerve is a purely motor nerve that only innervates the detrusor muscle.",
+    answer: false,
+    explanation: "The pelvic nerve carries both parasympathetic motor fibers to the detrusor and sensory fibers that detect bladder stretch."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The first urge to micturate typically appears when the bladder volume reaches 400-600 ml.",
+    answer: false,
+    explanation: "The first urge to micturate is usually felt at a volume of 150-300 ml. Volumes of 400-600 ml cause a sense of discomfort."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "At a bladder volume of roughly 700 ml, the micturition reflex reaches a breakpoint and cannot be voluntarily suppressed.",
+    answer: true,
+    explanation: "As the bladder overfills, the micturition contractions become incredibly powerful and override voluntary cortical inhibition."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Spinal centers for the micturition reflex are located in the cervical and thoracic segments of the spinal cord.",
+    answer: false,
+    explanation: "The spinal centers governing micturition are located in the sacral and lumbar segments."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Denervation of the bladder, involving injury to both afferent and efferent nerves, results in a flaccid neurogenic bladder.",
+    answer: true,
+    explanation: "This condition, also called an isolated bladder, abolishes reflexes and causes the bladder wall to remain flaccid."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Deafferentation of the bladder often leads to overflow incontinence because the individual is unaware of bladder distension.",
+    answer: true,
+    explanation: "Loss of sensory (afferent) nerve fibers prevents the perception of fullness, causing the bladder to overfill and continuously dribble urine."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "During osmotic diuresis, the osmolality of the urine falls far below the osmolality of plasma.",
+    answer: false,
+    explanation: "In osmotic diuresis, urine osmolality falls but remains above plasma osmolality due to the presence of un-reabsorbed solutes."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Water diuresis results in increased urine volume primarily due to the excretion of pure water, without an increase in solute excretion.",
+    answer: true,
+    explanation: "Water diuresis is typically caused by excessive water intake or ADH deficiency, leading to reduced water reabsorption but normal solute handling."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "A lack of ADH receptors in the distal convoluted tubule and collecting duct causes nephrogenic diabetes insipidus.",
+    answer: true,
+    explanation: "This receptor deficiency prevents ADH from inserting aquaporins, leading to massive water diuresis."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The detrusor muscle is composed of voluntary skeletal muscle fibers.",
+    answer: false,
+    explanation: "The detrusor is the smooth muscle of the bladder wall, which contracts automatically during the micturition reflex."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Sympathetic nerve supply to the bladder originates from the L1, L2, and L3 segments of the spinal cord.",
+    answer: true,
+    explanation: "These fibers travel via the hypogastric nerve and stimulate the blood vessels and internal sphincter."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "In a normal cystometrogram, intrinsic bladder tone keeps the intravesical pressure relatively constant with only small rises as volume increases from 50 ml to 300 ml.",
+    answer: true,
+    explanation: "Due to high bladder compliance, the rugae flatten out, accommodating large volumes with minimal pressure change."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The ureters penetrate the bladder wall obliquely, running for several centimeters under the bladder mucosa to form a physiological valve.",
+    answer: true,
+    explanation: "This oblique entry ensures that as bladder pressure rises during micturition, the ureters are compressed, preventing urine backflow."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Vesicoureteral reflux occurs when the detrusor muscle fails to contract, causing urine to stagnate exclusively within the bladder.",
+    answer: false,
+    explanation: "Vesicoureteral reflux is the abnormal backflow of urine from the bladder *up into the ureters*, usually due to an incompetent ureterovesical valve."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The ureterorenal reflex is a protective mechanism triggered by a blocked ureter, initiating sympathetic impulses that constrict renal arterioles and decrease urine production.",
+    answer: true,
+    explanation: "This reflex prevents excessive pressure buildup and potential damage to the renal pelvis when a ureter is obstructed by a stone."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "A cystometrogram is a graphical recording that plots changes in intravesical pressure as the bladder progressively fills with increasing volumes of fluid.",
+    answer: true,
+    explanation: "It is used to clinically evaluate bladder compliance, capacity, and the integrity of the micturition reflex."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Phase Ib of a normal cystometrogram demonstrates a massive, exponential rise in pressure as the bladder fills from 50 mL to 300 mL.",
+    answer: false,
+    explanation: "Phase Ib reflects high compliance, where the pressure remains nearly flat and constant as the bladder accommodates volumes up to 300 mL."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Voluntary initiation of urination involves the conscious relaxation of the external sphincter and the simultaneous contraction of abdominal muscles.",
+    answer: true,
+    explanation: "Contracting the abdominal muscles increases intra-abdominal pressure, forcing urine into the bladder neck and triggering the stretch receptors."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Damage to the sensory nerve fibers supplying the bladder, such as in tabes dorsalis, results in a hyperactive, spastic bladder that empties constantly.",
+    answer: false,
+    explanation: "Sensory deafferentation destroys the reflex arc, resulting in an atonic, flaccid bladder that overfills and causes overflow incontinence."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Spinal cord transection above the sacral region initially causes spinal shock and a flaccid bladder, but may eventually recover into an involuntary 'automatic bladder.'",
+    answer: true,
+    explanation: "Once spinal shock wears off, the sacral reflex arcs function independently of cortical control, causing the bladder to empty automatically when filled."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The internal urethral sphincter is composed of voluntary skeletal muscle and provides the primary conscious control to prevent urination.",
+    answer: false,
+    explanation: "The internal sphincter is composed of involuntary smooth muscle. The *external* sphincter is skeletal muscle under conscious control."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The smooth muscle of the urinary bladder, known as the detrusor muscle, is composed of separate, isolated muscle fibers that contract individually during micturition.",
+    answer: false,
+    explanation: "The smooth muscle fibers of the detrusor are electrically coupled and function as a single unit or functional syncytium to provide a coordinated, powerful contraction."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The internal urethral sphincter is formed by a natural thickening of the detrusor muscle at the bladder neck and consists entirely of involuntary smooth muscle.",
+    answer: true,
+    explanation: "This sphincter keeps the bladder neck closed and prevents emptying until the pressure rises significantly during the micturition reflex."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The pudendal nerve provides somatic motor innervation to the external urethral sphincter, allowing for strict voluntary control over micturition.",
+    answer: true,
+    explanation: "Because the external sphincter is composed of skeletal muscle, it relies on conscious somatic input to remain contracted and prevent urination."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Sympathetic nervous stimulation via the hypogastric nerve causes powerful contraction of the detrusor muscle and relaxation of the internal sphincter to initiate urination.",
+    answer: false,
+    explanation: "Sympathetic stimulation facilitates bladder filling by causing *relaxation* of the detrusor and *contraction* of the internal sphincter."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The micturition reflex is an entirely localized spinal cord reflex that occurs completely independently and cannot be influenced or suppressed by higher brain centers.",
+    answer: false,
+    explanation: "While it is a spinal reflex, it is heavily facilitated or inhibited by centers located in the brain stem (pons) and the cerebral cortex."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "In the condition known as an 'automatic bladder,' caused by spinal cord transection above the sacral region, the micturition reflex occurs without any voluntary control once spinal shock has passed.",
+    answer: true,
+    explanation: "The sacral reflex arcs remain intact and eventually recover, causing the bladder to empty spontaneously whenever it reaches a certain threshold volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "Sensory nerve fibers traveling in the pelvic nerve detect stretch in the bladder wall and are responsible for initiating the afferent limb of the micturition reflex.",
+    answer: true,
+    explanation: "These stretch receptors signal the degree of filling to the sacral spinal cord, triggering the parasympathetic motor response."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The volume of the adult urinary bladder can increase from roughly 10 ml to 400 ml with an internal pressure change of only about 10 cm H2O due to its extremely high compliance.",
+    answer: true,
+    explanation: "The flattening of the internal rugae allows the bladder to accommodate large volumes of urine before tension in the wall begins to rise steeply."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "When the urinary bladder is completely empty, its internal mucosa is highly stretched and completely smooth.",
+    answer: false,
+    explanation: "When empty, the mucosa collapses into numerous deep folds called rugae, which allow for later expansion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The conscious urge to micturate becomes painfully uncomfortable when the volume of urine in the adult bladder reaches approximately 400 to 600 ml.",
+    answer: true,
+    explanation: "At this volume, the limits of bladder compliance are reached, and tension in the detrusor muscle rises rapidly, transmitting strong pain signals via sympathetic afferents."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "The body of the urinary bladder is a smooth muscle chamber primarily responsible for the collection of urine, while the funnel-shaped neck connects inferiorly to the urethra.",
+    answer: true,
+    explanation: "This distinct anatomical division allows the body to act as a highly compliant reservoir, while the neck and sphincters provide resistance to maintain continence."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "An uninhibited neurogenic bladder is characterized by frequent, uncontrollable micturition due to a lack of facilitative signals from the brain.",
+    answer: false,
+    explanation: "It is caused by a lack of *inhibitory* signals from the brain, leaving the sacral centers hyper-excitable."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Micturition & Bladder",
+    type: "truefalse",
+    question: "An uninhibited neurogenic bladder is characterized by frequent, uncontrolled micturition resulting from a complete lack of facilitatory signals from the brain.",
+    answer: false,
+    explanation: "It results from a lack of *inhibitory* signals from the brain, causing the sacral micturition center to become hyper-excitable and empty the bladder frequently."
+  },
+
+  // SECTION 8: Endocrine & Metabolic Functions of Kidney
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Renin secretion by the juxtaglomerular cells is stimulated by an increase in arterial blood pressure.",
+    answer: false,
+    explanation: "Renin secretion is stimulated by a decrease in arterial blood pressure, decreased renal blood flow, or decreased GFR."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Angiotensin II acts as a powerful vasodilator to help regulate arterial blood pressure.",
+    answer: false,
+    explanation: "Angiotensin II is a powerful vasoconstrictor that raises arterial blood pressure and stimulates aldosterone secretion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The final activation of Vitamin D into 1,25-dihydroxycholecalciferol occurs in the liver.",
+    answer: false,
+    explanation: "While the liver produces 25-hydroxycholecalciferol, the final activation by 1-alpha-hydroxylase occurs in the kidney."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Hypoxia is a strong stimulus for the secretion of erythropoietin by the kidneys.",
+    answer: true,
+    explanation: "The kidney acts as an endocrine organ, releasing erythropoietin to stimulate red blood cell production in response to low oxygen."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The kidney cortex contributes substantially to gluconeogenesis by producing glucose from precursors like lactate and glycerol during starvation.",
+    answer: true,
+    explanation: "This metabolic function helps maintain blood sugar levels when the body is fasting or under stress."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Prostaglandin E2 and prostacyclin produced by the kidney act to strongly constrict local blood vessels.",
+    answer: false,
+    explanation: "These lipid mediators dilate blood vessels locally to maintain renal blood flow, especially during low blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Tubuloglomerular feedback involves the macula densa sensing increased NaCl delivery and releasing chemical signals that constrict the afferent arteriole.",
+    answer: true,
+    explanation: "This feedback loop protects the distal tubule from being overwhelmed and stabilizes GFR despite blood pressure fluctuations."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "A drop in systemic blood pressure causes the juxtaglomerular cells to directly synthesize and secrete active angiotensin II into the blood.",
+    answer: false,
+    explanation: "The juxtaglomerular cells secrete the enzyme *renin*, which initiates a cascade that eventually leads to the formation of angiotensin II."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "At low physiological concentrations, angiotensin II preferentially constricts the efferent arterioles, which helps maintain GFR even when renal blood flow drops.",
+    answer: true,
+    explanation: "By increasing outflow resistance, angiotensin II increases glomerular capillary hydrostatic pressure, preserving filtration during volume depletion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Aldosterone binds to intracellular receptors in the principal cells of the late distal tubule and collecting duct to stimulate sodium reabsorption and potassium secretion.",
+    answer: true,
+    explanation: "This hormone is the final effector of the RAAS pathway for long-term blood pressure and electrolyte regulation."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Angiotensin II strongly stimulates the secretion of aldosterone from the adrenal cortex, which subsequently increases sodium reabsorption in the distal tubule and collecting duct.",
+    answer: true,
+    explanation: "This hormonal axis (RAAS) is the body's primary mechanism for defending against long-term hypovolemia and hypotension."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The Fick principle applied to the kidney states that the mass of a substance entering the kidney via the renal artery must equal the mass leaving via the renal vein plus the mass excreted in the urine.",
+    answer: true,
+    explanation: "This law of conservation of mass provides the mathematical basis for measuring renal blood flow using the extraction ratio of PAH."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "If the renal clearance of a freely filtered substance is exactly equal to the clearance of inulin, it proves mathematically that the substance is neither secreted nor reabsorbed by the tubules.",
+    answer: true,
+    explanation: "Because inulin represents pure filtration, any substance matching its clearance profile must be handled by the kidney in exactly the same way."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Changes in the rate of renin secretion from the juxtaglomerular cells play a critical role in the tubuloglomerular feedback mechanism of renal autoregulation.",
+    answer: true,
+    explanation: "The macula densa senses distal NaCl delivery and chemically signals the juxtaglomerular cells to alter renin release, adjusting afferent arteriolar resistance."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "A massive hemorrhage leading to severe hypotension will trigger intense parasympathetic stimulation to the kidneys, leading to widespread vasodilation and increased GFR.",
+    answer: false,
+    explanation: "Hemorrhage triggers intense *sympathetic* stimulation, causing severe vasoconstriction of renal arterioles, which sharply decreases renal blood flow and GFR to preserve systemic blood volume."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Chromium-51 (51Cr) labeled erythrocytes are utilized clinically to directly measure the total blood volume of a patient.",
+    answer: true,
+    explanation: "By tagging red blood cells with this radioisotope and allowing them to circulate, the dilution principle can precisely determine the total volume of blood."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Plasma volume can be accurately calculated by multiplying the total blood volume by the patient's hematocrit (PCV).",
+    answer: false,
+    explanation: "Plasma volume is calculated by multiplying the blood volume by the proportion of blood that is NOT red blood cells, which is (100 - Hematocrit)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The body fluid volume of a specific compartment is calculated by dividing the mass of the indicator injected by its final concentration in that fluid compartment.",
+    answer: true,
+    explanation: "This fundamental formula (Volume = Mass / Concentration) relies on the principle that the indicator distributes evenly throughout the target compartment."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Total body water can be directly and accurately measured using non-metabolizable saccharides such as inulin and mannitol.",
+    answer: false,
+    explanation: "Inulin and mannitol are confined to the extracellular space and are used to measure the Extracellular Fluid (ECF) volume, not Total Body Water."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Water content as a percentage of body weight is significantly higher in obese individuals compared to muscular individuals of the same weight.",
+    answer: false,
+    explanation: "Adipose tissue is relatively anhydrous (containing about 30% water), whereas muscle is rich in water (about 70%), making obese individuals have a lower percentage of total body water."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The daily loss of water through the skin via insensible perspiration is strictly regulated by the autonomic nervous system to maintain hydration.",
+    answer: false,
+    explanation: "Insensible water loss through skin diffusion and respiration is continuous and obligatory; it cannot be consciously or nervously regulated like active sweating."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Normal human urine typically contains trace amounts of glucose and significant amounts of large plasma proteins to help excrete excess metabolic energy.",
+    answer: false,
+    explanation: "Under normal physiological conditions, 100% of filtered glucose is reabsorbed, and large plasma proteins are prevented from entering the filtrate by the glomerular barrier."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The functional unit of the kidney, the nephron, is highly capable of rapid cellular regeneration if it is severely damaged by disease or ischemia.",
+    answer: false,
+    explanation: "The kidney cannot regenerate new nephrons; once destroyed by disease, aging, or injury, their functions must be compensated for by the remaining nephrons."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The macula densa cells act as baroreceptors that sense changes in the hydrostatic pressure of the afferent arteriole to regulate renin release.",
+    answer: false,
+    explanation: "The juxtaglomerular (granular) cells act as the baroreceptors. The macula densa cells act as chemoreceptors that sense sodium chloride delivery in the tubule."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Extraglomerular mesangial cells, also known as Lacis cells, are an integral structural component of the juxtaglomerular apparatus.",
+    answer: true,
+    explanation: "These cells form a complex with the macula densa and granular cells, facilitating communication to regulate renal blood flow and GFR."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Water intoxication causes an abnormal decrease in fluid osmolarity, triggering the suppression of ADH and resulting in cellular dehydration.",
+    answer: false,
+    explanation: "It does suppress ADH, but it results in cellular *swelling* (overhydration), not dehydration, because the ECF becomes hypotonic."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The major determinant of plasma osmolality is the sodium ion (Na+) and its associated anions.",
+    answer: true,
+    explanation: "Sodium and its matching anions account for approximately 90% of the total osmotic activity in the extracellular fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Intracellular fluid volume can be directly measured by injecting a specific dye that easily enters the cells and strictly avoids the extracellular space.",
+    answer: false,
+    explanation: "There is no tracer that exclusively targets the intracellular space. ICF must be measured indirectly by subtracting Extracellular Fluid volume from Total Body Water."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The interstitial fluid compartment contains a remarkably high concentration of negatively charged proteins compared to the plasma compartment.",
+    answer: false,
+    explanation: "Plasma contains a high concentration of large proteins (like albumin) which cannot cross the capillary wall, leaving the interstitial fluid relatively protein-poor."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Lipid-soluble substances such as oxygen and carbon dioxide move across the plasma membrane primarily via active transport mechanisms that consume cellular energy.",
+    answer: false,
+    explanation: "These molecules are highly lipophilic and move rapidly across the lipid bilayer via simple, passive diffusion down their concentration gradients."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "Endocytosis and exocytosis are examples of bulk active transport mechanisms that physically require cellular energy in the form of ATP.",
+    answer: true,
+    explanation: "These processes involve the physical deformation of the cell membrane and the movement of vesicles along the cytoskeleton, both of which consume energy."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The kidneys synthesize and secrete the enzyme renin into the bloodstream immediately in response to an abnormal increase in systemic arterial blood pressure.",
+    answer: false,
+    explanation: "Renin is secreted in response to a *decrease* in arterial pressure, a decrease in renal blood flow, or low sodium delivery to the macula densa."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Endocrine & Metabolic Functions",
+    type: "truefalse",
+    question: "The right kidney is typically situated slightly higher in the abdominal cavity than the left kidney due to the anatomical position of the stomach.",
+    answer: false,
+    explanation: "The right kidney is positioned slightly *lower* than the left kidney because it is displaced downward by the bulk of the liver."
+  },
+
+  // SECTION 9: Diuretics & Clinical Pharmacology
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Spironolactone functions as a potassium-sparing diuretic by competitively binding to the aldosterone receptor in the collecting ducts.",
+    answer: true,
+    explanation: "By blocking aldosterone, it prevents the reabsorption of sodium and the linked secretion of potassium."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Carbonic anhydrase inhibitors, such as acetazolamide, exert their major diuretic effect by blocking the Na-K-2Cl cotransporter in the loop of Henle.",
+    answer: false,
+    explanation: "Acetazolamide primarily acts in the proximal convoluted tubule by inhibiting bicarbonate reabsorption, leading to increased sodium and water excretion."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Osmotic diuretics like mannitol and glucose are freely filtered by the glomerulus but are not reabsorbed, retaining water in the tubules.",
+    answer: true,
+    explanation: "Their physical presence in the tubular fluid creates an osmotic pull that prevents water reabsorption, leading to osmotic diuresis."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Ethanol acts as a diuretic strictly by inhibiting the Na+-Cl- symporter in the early distal tubule.",
+    answer: false,
+    explanation: "Ethanol causes diuresis by suppressing the central secretion of antidiuretic hormone (ADH) from the posterior pituitary."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The principal cells of the collecting duct are responsible for the active secretion of hydrogen ions into the tubular fluid to regulate acid-base balance.",
+    answer: false,
+    explanation: "Hydrogen ion secretion is the primary function of the *intercalated* cells, whereas principal cells handle sodium, potassium, and water."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Ethanol induces significant diuresis by directly and competitively inhibiting the Na+-K+-2Cl- cotransporter in the thick ascending limb of the loop of Henle.",
+    answer: false,
+    explanation: "Ethanol does not act directly on renal tubular transporters; it causes diuresis by acting on the central nervous system to inhibit the secretion of vasopressin (ADH)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The renal threshold for glucose is mathematically defined as the arterial plasma concentration at which the transport maximum (Tmg) for all nephrons has been completely saturated.",
+    answer: false,
+    explanation: "The renal threshold (approx 200 mg/dL) is the point at which glucose *first appears* in the urine. Due to 'splay,' this happens before the Tmg for all nephrons is fully saturated."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Xanthines, such as caffeine and theophylline, function as mild diuretics by decreasing the tubular reabsorption of sodium and increasing the glomerular filtration rate.",
+    answer: true,
+    explanation: "These agents alter renal hemodynamics and slightly inhibit tubular transport, leading to a modest increase in urine output."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Metolazone and thiazide diuretics exert their pharmacological effect by inhibiting the Na+-K+-2Cl- cotransporter in the medullary thick ascending limb.",
+    answer: false,
+    explanation: "Thiazides and metolazone inhibit the Na+-Cl- cotransporter in the *early distal tubule*. Loop diuretics target the thick ascending limb."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Acidifying salts like ammonium chloride (NH4Cl) can cause diuresis by supplying an acid load that exceeds the kidney's ability to replace sodium with hydrogen.",
+    answer: true,
+    explanation: "When the acid load is overwhelming, unbuffered anions trap sodium and water in the tubular lumen, resulting in mild osmotic diuresis."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Spironolactone and triamterene are classified as potassium-retaining natriuretics that act in the late distal tubule and collecting duct.",
+    answer: true,
+    explanation: "By antagonizing aldosterone or blocking apical sodium channels, they promote sodium excretion without causing the potassium loss typical of other diuretics."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Type A intercalated cells in the collecting duct play a crucial role in acid-base balance by actively secreting bicarbonate ions during periods of acidosis.",
+    answer: false,
+    explanation: "During acidosis, Type A intercalated cells actively secrete *hydrogen* ions to rid the body of acid, and reabsorb bicarbonate to replenish buffers."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Aldosterone exerts its physiological effects by binding to cell membrane receptors, triggering a rapid intracellular cAMP cascade in principal cells.",
+    answer: false,
+    explanation: "Aldosterone is a lipid-soluble steroid hormone; it passes through the cell membrane and binds to *intracellular* receptors to alter gene transcription over several hours."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The medullary osmotic gradient is primarily maintained by the massive active transport of solutes by the endothelial cells of the vasa recta.",
+    answer: false,
+    explanation: "The vasa recta are passive structures that *maintain* the gradient through countercurrent exchange. The loop of Henle *creates* the gradient via active transport."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Systemic hypoxia acts as a potent physiological stimulus for the kidneys to secrete large amounts of 1,25-dihydroxycholecalciferol to increase intestinal calcium absorption.",
+    answer: false,
+    explanation: "Hypoxia specifically stimulates the kidneys to secrete the hormone *erythropoietin* to increase red blood cell production, not Vitamin D."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Radioisotopes of albumin, such as 131I-albumin, are highly reliable and specific indicators for calculating the exact volume of the intracellular fluid compartment.",
+    answer: false,
+    explanation: "Albumin cannot cross the capillary endothelium under normal conditions, so its radioisotopes are strictly used to measure the *plasma volume*, not the intracellular fluid."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "During physiological states of severe blood volume expansion, the healthy kidneys respond by excreting a hypertonic, highly concentrated urine to rid the body of the excess water.",
+    answer: false,
+    explanation: "To eliminate excess water, the kidneys suppress ADH secretion and excrete a large volume of *hypotonic, dilute* urine (water diuresis)."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The clinical renal clearance of urea is consistently higher than the Glomerular Filtration Rate because urea is heavily secreted into the tubular lumen by the proximal tubule.",
+    answer: false,
+    explanation: "Urea clearance is always *lower* than the GFR (roughly 70 ml/min compared to 125 ml/min) because roughly 40-50% of filtered urea is passively reabsorbed."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The primary physiological purpose of the extremely long loops of Henle in juxtamedullary nephrons is to establish the hyperosmotic medullary gradient required for concentrating urine.",
+    answer: true,
+    explanation: "By diving deep into the inner medulla and papilla, these specialized nephrons utilize countercurrent multiplication to build the massive osmotic gradient necessary for water conservation."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "Cortical nephrons possess extremely long loops of Henle that dive deep into the inner medulla and reach all the way to the renal papilla.",
+    answer: false,
+    explanation: "Juxtamedullary nephrons have the very long loops essential for concentration. Cortical nephrons have short loops that barely penetrate the outer medulla."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "The vasa recta are specialized, straight peritubular capillaries that specifically branch off to supply blood exclusively to the cortical structures of the kidney.",
+    answer: false,
+    explanation: "The vasa recta branch off the efferent arterioles of juxtamedullary nephrons and dive deep into the *medulla*, not the cortex."
+  },
+  {
+    course: "Physiology",
+    topic: "Renal Physiology",
+    subTopic: "Diuretics & Pharmacology",
+    type: "truefalse",
+    question: "A substance that is freely filtered at the glomerulus and is highly secreted by the renal tubules will have a measured clearance value that is strictly lower than the true Glomerular Filtration Rate.",
+    answer: false,
+    explanation: "If a substance is filtered and secreted, more of it ends up in the urine than was filtered, making its clearance *higher* than the GFR (like PAH)."
   }
 ];
 
