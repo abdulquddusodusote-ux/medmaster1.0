@@ -3,35 +3,17 @@
  *
  * Architecture
  * ────────────
- *   Host browser  ──write──▶  Supabase (rooms table)  ◀──read──  Guest browsers
+ * Host browser  ──write──▶  Supabase (rooms table)  ◀──read──  Guest browsers
  *
  * Every game-state mutation flows through one path:
- *   1.  Host modifies App.mp locally.
- *   2.  Host calls mp_pushState() → writes room_state to Supabase.
- *   3.  Supabase broadcasts a Realtime UPDATE event to all subscribers.
- *   4.  Every client (including the host) receives the event and calls
- *       mp_applyState(), which writes the authoritative state back into
- *       App.mp and re-renders.
+ * 1.  Host modifies App.mp locally.
+ * 2.  Host calls mp_pushState() → writes room_state to Supabase.
+ * 3.  Supabase broadcasts a Realtime UPDATE event to all subscribers.
+ * 4.  Every client receives the event and calls mp_applyState().
  *
- * Guests never write to the database directly.  They POST their answer to
- * the host by calling mp_submitAnswer(), which updates room_state via a
- * guest-safe helper that merges only the guest's answer into the existing
- * state (using a Postgres jsonb update instead of a full overwrite).
- *
- * Room state shape (room_state JSON stored in Supabase):
- * {
- *   phase:           'LOBBY' | 'QUESTION' | 'REVEAL' | 'REVIEW',
- *   players:         [ { id, name, score, currentAnswer, answerTimeScore,
- *                        correctCount, wrongCount, skippedCount, accuracy } ],
- *   questions:       [...],     // full question objects (host-set, immutable)
- *   currentIndex:    number,
- *   questionDuration: number,
- *   questionStartTime: number,  // ms epoch
- *   groupAccuracy:   number,
- *   lastCorrectCount: number,
- *   answerLog:       [...],
- *   hostId:          string,    // opaque client id chosen on room creation
- * }
+ * Guests never write to the database directly. They BROADCAST their answer
+ * to the host via Realtime. The host catches this, updates the master state,
+ * and pushes it back to the database.
  */
 
 // ─── Constants ─────────────────────────────────────────────────────────────
@@ -51,10 +33,7 @@ function mp_generateCode() {
   return Math.random().toString(36).substring(2, 6).toUpperCase();
 }
 
-/**
- * Generate a random opaque client id (used as player.id).
- * Not a UUID — just needs to be locally unique within a session.
- */
+/** Generate a random opaque client id (used as player.id). */
 function mp_generateClientId() {
   return Math.random().toString(36).substring(2, 12);
 }
@@ -63,7 +42,7 @@ function mp_generateClientId() {
 
 /**
  * Write the current App.mp state to Supabase as the authoritative room_state.
- * Only the host should call this.  Fire-and-forget; errors are logged.
+ * Only the host should call this.
  */
 async function mp_pushState() {
   const m = App.mp;
@@ -91,11 +70,11 @@ async function mp_pushState() {
 
 /**
  * Apply an incoming room_state (from Supabase Realtime) into App.mp and
- * re-render.  Called by both host and guests on every DB update event.
+ * re-render. Called by both host and guests on every DB update event.
  */
 function mp_applyState(roomState) {
   const m = App.mp;
-  if (!m.inRoom) return;   // navigated away — ignore stray events
+  if (!m.inRoom) return;
 
   const prevPhase = m.state;
 
@@ -108,24 +87,23 @@ function mp_applyState(roomState) {
   m.groupAccuracy   = roomState.groupAccuracy   ?? 0;
   m.lastCorrectCount = roomState.lastCorrectCount ?? 0;
 
-  // Merge answerLog: prefer the locally-built log (more personalised);
-  // adopt the host's log only as a fallback (e.g. after reconnect).
-  if (m.answerLog.length === 0 && roomState.answerLog?.length > 0) {
-    m.answerLog = roomState.answerLog;
+  // Don't blindly take the host's log! Pad missing entries if guest reconnected.
+  if (m.answerLog.length < (roomState.answerLog?.length || 0)) {
+    const newEntries = roomState.answerLog.slice(m.answerLog.length).map(entry => ({
+        ...entry, myAnswer: null
+    }));
+    m.answerLog.push(...newEntries);
   }
 
-  // If the phase just changed to QUESTION, start the local countdown timer.
   if (m.state === MP_PHASES.QUESTION && prevPhase !== MP_PHASES.QUESTION) {
+    m.myLastAnswer = null; // Clean up previous question
     mp_startLocalTimer();
   }
 
-  // If phase changed to REVEAL, record this question in the personal log
-  // (guests build their own log so they can tag their own answer).
   if (m.state === MP_PHASES.REVEAL && prevPhase !== MP_PHASES.REVEAL) {
     mp_recordPersonalLogEntry(roomState);
   }
 
-  // Stop the timer when we leave QUESTION phase.
   if (m.state !== MP_PHASES.QUESTION && prevPhase === MP_PHASES.QUESTION) {
     clearInterval(m.timerInterval);
     m.timerInterval = null;
@@ -138,12 +116,7 @@ function mp_applyState(roomState) {
 
 /**
  * Guests call this when they tap an answer button.
- * We use a targeted Postgres JSONB update so we only touch the single player
- * object that belongs to this guest — we never overwrite the whole state.
- *
- * Strategy: read the current room_state, find our player, mutate the answer
- * fields, write back.  Because Supabase serialises writes and we retry on
- * conflict, this is safe even if two guests answer simultaneously.
+ * Instead of writing to the DB, they broadcast their move to the host.
  */
 async function mp_submitGuestAnswer(answer) {
   const m = App.mp;
@@ -151,29 +124,19 @@ async function mp_submitGuestAnswer(answer) {
   // Optimistic local update so the UI feels instant.
   const me = m.players.find(p => p.id === m.myId);
   if (me) {
-    if (me.currentAnswer) return;   // already answered
+    if (me.currentAnswer) return;
     me.currentAnswer = answer;
   }
   m.myLastAnswer = answer;
   App.renderMpState();
 
+  const pct = Math.max(0, m.timer / m.questionDuration);
+  const answerTimeScore = Math.floor(100 + 900 * pct);
+
   try {
-    // Fetch the latest state (avoid clobbering concurrent guest answers).
-    const row = await dbGetRoom(m.roomCode);
-    if (!row) return;
-
-    const state = row.room_state;
-    const player = state.players?.find(p => p.id === m.myId);
-    if (!player || player.currentAnswer) return;   // host already moved on
-
-    const timeTaken = (Date.now() - state.questionStartTime) / 1000;
-    const pct = Math.max(0, 1 - (timeTaken / state.questionDuration));
-    player.currentAnswer    = answer;
-    player.answerTimeScore  = Math.floor(100 + 900 * pct);
-
-    await dbUpdateRoomState(m.roomCode, state);
+    await dbSendGuestAnswer(m.channel, m.myId, answer, answerTimeScore);
   } catch (err) {
-    console.error('[MP] guest submitAnswer failed:', err);
+    console.error('[MP] guest broadcast failed:', err);
   }
 }
 
@@ -181,16 +144,12 @@ async function mp_submitGuestAnswer(answer) {
 
 function mp_recordPersonalLogEntry(roomState) {
   const m = App.mp;
-  if (m.isHost) return;   // host builds its own log in hostResolveQuestion()
+  if (m.isHost) return; 
 
   const q = roomState.questions?.[roomState.currentIndex];
   if (!q) return;
 
-  const correctVal = q.type === 'truefalse'
-    ? (q.answer ? 'True' : 'False')
-    : q.correctAnswer;
-
-  // Avoid duplicating entries if applyState fires twice for the same reveal.
+  const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
   const alreadyLogged = m.answerLog.some(e => e.question === q.question);
   if (alreadyLogged) return;
 
@@ -207,23 +166,25 @@ function mp_recordPersonalLogEntry(roomState) {
 
 // ─── Local countdown timer ─────────────────────────────────────────────────
 
-/** Start (or restart) the client-side countdown for a question. */
+/** Start (or restart) the unified client-side countdown for a question. */
 function mp_startLocalTimer() {
   const m = App.mp;
   clearInterval(m.timerInterval);
 
-  // Derive remaining time from the authoritative questionStartTime so late
-  // joiners or reconnectors see the correct remaining seconds.
   const elapsed = Math.floor((Date.now() - m.questionStartTime) / 1000);
   m.timer = Math.max(0, m.questionDuration - elapsed);
 
   m.timerInterval = setInterval(() => {
     m.timer = Math.max(0, m.timer - 1);
     App.updateMpTimerDisplay();
+    
     if (m.timer <= 0) {
       clearInterval(m.timerInterval);
       m.timerInterval = null;
-      // Guests just stop; the host drives game flow.
+      // Host drives game flow when timer hits 0
+      if (m.isHost && m.state === MP_PHASES.QUESTION) {
+        mp_hostResolveQuestion();
+      }
     }
   }, 1000);
 }
@@ -258,7 +219,6 @@ async function mp_createRoom(playerName, questions, questionDuration) {
     throw new Error('Could not create room: ' + (err.message ?? err));
   }
 
-  // Initialise App.mp before subscribing so applyState has a valid target.
   App.mp = {
     ...App.mp,
     isHost:           true,
@@ -278,10 +238,31 @@ async function mp_createRoom(playerName, questions, questionDuration) {
     timer:            questionDuration,
     timerInterval:    null,
     channel:          null,
+    myLastAnswer:     null,
   };
 
+  // HOST intercepts guest answers here!
   App.mp.channel = dbSubscribeRoom(roomCode, (roomState) => {
     mp_applyState(roomState);
+  }, (payload) => {
+    if (App.mp.isHost && App.mp.state === MP_PHASES.QUESTION) {
+      const { playerId, answer, answerTimeScore } = payload;
+      const player = App.mp.players.find(p => p.id === playerId);
+      
+      if (player && !player.currentAnswer) {
+        player.currentAnswer = answer;
+        player.answerTimeScore = answerTimeScore;
+        App.renderMpState(); // Update 'Answers in: X/Y' locally
+        mp_pushState();      // Sync updated players array to all guests
+
+        // Auto-advance if everyone answered!
+        if (App.mp.players.every(p => p.currentAnswer)) {
+          clearInterval(App.mp.timerInterval);
+          App.mp.timerInterval = null;
+          mp_hostResolveQuestion();
+        }
+      }
+    }
   });
 }
 
@@ -297,21 +278,15 @@ async function mp_joinRoom(playerName, roomCode) {
   } catch (err) {
     throw new Error('Could not reach the server. Check your internet connection.');
   }
-  if (!row) {
-    throw new Error('Room not found. Check the code and make sure the host has created the room.');
-  }
+  if (!row) throw new Error('Room not found. Check the code.');
 
   const state = row.room_state;
-  if (state.phase === MP_PHASES.REVIEW) {
-    throw new Error('This game has already finished.');
-  }
+  if (state.phase === MP_PHASES.REVIEW) throw new Error('This game has already finished.');
 
-  // Add ourselves to the player list.
   state.players = state.players ?? [];
   if (!state.players.find(p => p.id === myId)) {
     state.players.push({
-      id: myId, name: playerName, score: 0,
-      currentAnswer: null, answerTimeScore: 0,
+      id: myId, name: playerName, score: 0, currentAnswer: null, answerTimeScore: 0,
       correctCount: 0, wrongCount: 0, skippedCount: 0, accuracy: 0,
     });
   }
@@ -349,39 +324,29 @@ async function mp_joinRoom(playerName, roomCode) {
   });
 }
 
-/**
- * Leave the current room cleanly (unsubscribe, close room if host).
- */
+/** Leave the current room cleanly. */
 async function mp_leaveRoom() {
   const m = App.mp;
   clearInterval(m.timerInterval);
 
-  if (m.channel) {
-    await dbUnsubscribeRoom(m.channel);
-  }
+  if (m.channel) await dbUnsubscribeRoom(m.channel);
 
   if (m.isHost && m.roomCode) {
-    // Remove our player and close the room.
     await dbCloseRoom(m.roomCode).catch(() => {});
   } else if (!m.isHost && m.roomCode) {
-    // Remove guest from player list.
     try {
       const row = await dbGetRoom(m.roomCode);
       if (row) {
-        row.room_state.players = (row.room_state.players ?? [])
-          .filter(p => p.id !== m.myId);
+        row.room_state.players = (row.room_state.players ?? []).filter(p => p.id !== m.myId);
         await dbUpdateRoomState(m.roomCode, row.room_state);
       }
     } catch (_) { /* best-effort */ }
   }
 
-  // Reset App.mp to a safe blank state.
   App.mp = {
-    peer: null, conn: null, connections: {}, isHost: false, inRoom: false,
-    roomCode: '', playerName: '', myId: '',
-    players: [], questions: [], currentIndex: 0,
-    timer: 0, timerInterval: null, state: 'SETUP',
-    questionDuration: 20, questionStartTime: 0,
+    isHost: false, inRoom: false, roomCode: '', playerName: '', myId: '',
+    players: [], questions: [], currentIndex: 0, state: 'SETUP',
+    timer: 0, timerInterval: null, questionDuration: 20, questionStartTime: 0,
     answerLog: [], channel: null,
   };
 }
@@ -400,46 +365,26 @@ async function mp_hostStartGame() {
 /** Host: push the current question to all clients and start the timer. */
 async function mp_hostIssueQuestion() {
   const m = App.mp;
-  // Reset per-question answer state for every player.
   m.players.forEach(p => { p.currentAnswer = null; p.answerTimeScore = 0; });
   m.state            = MP_PHASES.QUESTION;
   m.questionStartTime = Date.now();
   m.timer            = m.questionDuration;
+  m.myLastAnswer     = null;
 
-  await mp_pushState();
   mp_startLocalTimer();
-
-  // Host-side auto-resolve when the timer runs out.
-  clearInterval(m._hostTimerInterval);
-  m._hostTimerInterval = setInterval(async () => {
-    m.timer--;
-    App.updateMpTimerDisplay();
-    if (m.timer <= 0) {
-      clearInterval(m._hostTimerInterval);
-      m._hostTimerInterval = null;
-      await mp_hostResolveQuestion();
-    }
-  }, 1000);
+  App.renderMpState();
+  await mp_pushState();
 }
 
 /** Host: score all answers, compute group accuracy, push REVEAL state. */
 async function mp_hostResolveQuestion() {
   const m = App.mp;
-  clearInterval(m._hostTimerInterval);
-  m._hostTimerInterval = null;
+  clearInterval(m.timerInterval);
+  m.timerInterval = null;
 
   const q = m.questions[m.currentIndex];
-  const correctVal = q.type === 'truefalse'
-    ? (q.answer ? 'True' : 'False')
-    : q.correctAnswer;
+  const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
 
-  // Re-read the latest player list from Supabase to capture all guest answers.
-  try {
-    const row = await dbGetRoom(m.roomCode);
-    if (row) m.players = row.room_state.players ?? m.players;
-  } catch (_) { /* use local copy on failure */ }
-
-  // Score each player.
   m.players.forEach(p => {
     if (p.correctCount   === undefined) p.correctCount   = 0;
     if (p.wrongCount     === undefined) p.wrongCount     = 0;
@@ -457,16 +402,12 @@ async function mp_hostResolveQuestion() {
     p.accuracy = seen > 0 ? Math.round((p.correctCount / seen) * 100) : 0;
   });
 
-  // Sort leaderboard.
   m.players.sort((a, b) => b.score - a.score);
 
   const correctCount = m.players.filter(p => p.currentAnswer === correctVal).length;
-  m.groupAccuracy    = m.players.length
-    ? Math.round((correctCount / m.players.length) * 100)
-    : 0;
+  m.groupAccuracy    = m.players.length ? Math.round((correctCount / m.players.length) * 100) : 0;
   m.lastCorrectCount = correctCount;
 
-  // Build host's own log entry.
   const hostPlayer = m.players.find(p => p.id === m.myId);
   m.answerLog.push({
     question:     q.question,
@@ -479,6 +420,7 @@ async function mp_hostResolveQuestion() {
   });
 
   m.state = MP_PHASES.REVEAL;
+  App.renderMpState();
   await mp_pushState();
 }
 
@@ -491,21 +433,5 @@ async function mp_hostNextQuestion() {
     await mp_pushState();
   } else {
     await mp_hostIssueQuestion();
-  }
-}
-
-/**
- * Check whether all players have answered; if so, auto-resolve early.
- * The host's subscription calls this after receiving a guest-answer write.
- */
-async function mp_hostCheckAllAnswered(roomState) {
-  if (!App.mp.isHost) return;
-  const allIn = (roomState.players ?? []).every(p => p.currentAnswer);
-  if (allIn && App.mp.state === MP_PHASES.QUESTION) {
-    // Sync player list with the latest from DB, then resolve.
-    App.mp.players = roomState.players;
-    clearInterval(App.mp._hostTimerInterval);
-    App.mp._hostTimerInterval = null;
-    await mp_hostResolveQuestion();
   }
 }
