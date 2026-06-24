@@ -15,9 +15,7 @@ const App = {
   exam:     { questions: [], currentIndex: 0, answers: [], total: 0, score: 0, started: false, finished: false, timer: 0, timerInterval: null, results: [] },
 
   // ── Multiplayer state ──────────────────────────────────────────────────
-  // Populated / mutated by multiplayer.js functions.  The shape mirrors what
-  // was previously managed through PeerJS so that all render functions below
-  // can remain unchanged.
+  // Populated / mutated by multiplayer.js functions. 
   mp: {
     channel: null,          // Supabase RealtimeChannel
     isHost: false,
@@ -31,7 +29,6 @@ const App = {
     state: 'SETUP',         // see MP_PHASES in multiplayer.js
     timer: 0,
     timerInterval: null,
-    _hostTimerInterval: null,
     questionDuration: 20,
     questionStartTime: 0,
     groupAccuracy: 0,
@@ -751,22 +748,22 @@ const App = {
   async handleMpAnswer(answer) {
     const m  = this.mp;
     const me = m.players.find(p => p.id === m.myId);
-    if (me?.currentAnswer) return;   // already answered
+    if (me?.currentAnswer) return;
 
     if (m.isHost) {
-      // Host answers locally then checks if everyone is done.
-      const p = m.players.find(p => p.id === m.myId);
-      if (p) {
-        p.currentAnswer = answer;
-        const timeTaken = (Date.now() - m.questionStartTime) / 1000;
-        const pct       = Math.max(0, 1 - (timeTaken / m.questionDuration));
-        p.answerTimeScore = Math.floor(100 + 900 * pct);
+      if (me) {
+        me.currentAnswer = answer;
+        const pct = Math.max(0, m.timer / m.questionDuration);
+        me.answerTimeScore = Math.floor(100 + 900 * pct);
       }
       m.myLastAnswer = answer;
-      this.renderMpState();
+      
+      App.renderMpState();
+      mp_pushState(); // Sync host's answer presence to guests
+
       if (m.players.every(p => p.currentAnswer)) {
-        clearInterval(m._hostTimerInterval);
-        m._hostTimerInterval = null;
+        clearInterval(m.timerInterval);
+        m.timerInterval = null;
         await mp_hostResolveQuestion();
       }
     } else {
