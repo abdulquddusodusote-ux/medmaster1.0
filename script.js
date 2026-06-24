@@ -4,6 +4,16 @@
  * Restored Exam & History Engines, and Professional Online Room-Code Multiplayer via PeerJS.
  */
 
+// Explicit STUN servers to bypass strict WiFi/Mobile network firewalls
+const peerConfig = {
+  config: {
+    'iceServers': [
+      { urls: 'stun:stun.l.google.com:19302' },
+      { urls: 'stun:stun1.l.google.com:19302' }
+    ]
+  }
+};
+
 const App = {
   currentView: 'dashboard',
   viewContainer: null,
@@ -208,7 +218,6 @@ const App = {
     this.updateTopicDropdown(prefix);
   },
 
-  // ---- View Binders ----
   bindViewEvents(viewName) {
     if (viewName === 'practice') {
       this.bindFilterEvents('practice');
@@ -392,7 +401,7 @@ const App = {
     `;
   },
 
-  // ---- EXAM MODE (RESTORED) ----
+  // ---- EXAM MODE ----
   renderExamSetup() {
     let qOptions = `<option value="10">10</option>`;
     for (let i = 5; i <= 100; i += 5) qOptions += `<option value="${i}">${i}</option>`;
@@ -521,7 +530,7 @@ const App = {
     `;
   },
 
-  // ---- HISTORY (RESTORED) ----
+  // ---- HISTORY ----
   renderHistory() {
     return `
       <div class="container">
@@ -597,7 +606,7 @@ const App = {
       <div class="container">
         <div class="card" id="mp-lobby-ui">
           <h2 class="card-title">Online Multiplayer Rooms</h2>
-          <p class="text-muted mb-1">Host a live session or join a friend via Room Code. Identity is strictly tracked.</p>
+          <p class="text-muted mb-1">Host a live session or join a friend via Room Code.</p>
           <div class="flex" style="gap:2rem;">
             <div style="flex:1; background:#f8fafc; padding:1.5rem; border-radius:12px; border:1px solid #e2e8f0;">
               <h3>Join a Room</h3>
@@ -640,23 +649,33 @@ const App = {
     
     if(pool.length < 5) return alert("Not enough questions match the selected filters!");
 
+    // Immediate UI Feedback
+    document.getElementById('mp-lobby-ui').style.display = 'none';
     this.mp = { peer: null, conn: null, connections: {}, isHost: true, inRoom: true, roomCode: code, playerName: name, myId: 'host',
                 players: [{id: 'host', name: name, score: 0, currentAnswer: null, answerTimeScore: 0}],
-                questions: pool.slice(0, Math.min(qCount, pool.length)), currentIndex: 0, timer: 0, state: 'LOBBY',
+                questions: pool.slice(0, Math.min(qCount, pool.length)), currentIndex: 0, timer: 0, state: 'CONNECTING',
                 questionDuration: parseInt(document.getElementById('mp-q-time').value) };
+    this.renderMpState();
 
-    this.mp.peer = new Peer('medmaster-' + code);
+    this.mp.peer = new Peer('medmaster-' + code, peerConfig);
     
     this.mp.peer.on('open', () => {
-      document.getElementById('mp-lobby-ui').style.display = 'none';
+      this.mp.state = 'LOBBY';
       this.renderMpState();
+    });
+
+    this.mp.peer.on('error', (err) => {
+      alert("Failed to create room. Please check your internet connection.");
+      this.showView('multiplayer');
     });
 
     this.mp.peer.on('connection', (conn) => {
       conn.on('data', (data) => {
         if(data.type === 'JOIN') {
           this.mp.connections[conn.peer] = conn;
-          this.mp.players.push({id: conn.peer, name: data.name, score: 0, currentAnswer: null, answerTimeScore: 0});
+          if(!this.mp.players.find(p => p.id === conn.peer)) {
+             this.mp.players.push({id: conn.peer, name: data.name, score: 0, currentAnswer: null, answerTimeScore: 0});
+          }
           this.broadcastMpState();
         } else if (data.type === 'ANSWER' && this.mp.state === 'QUESTION') {
           const player = this.mp.players.find(p => p.id === conn.peer);
@@ -666,11 +685,15 @@ const App = {
              const pct = Math.max(0, 1 - (timeTaken / this.mp.questionDuration));
              player.answerTimeScore = Math.floor(100 + (900 * pct));
              if(this.mp.players.every(p => p.currentAnswer)) { clearInterval(this.mp.timerInterval); this.hostResolveQuestion(); }
-             this.renderMpState(); // Update UI to show who answered
+             this.renderMpState(); 
           }
         }
       });
-      conn.on('close', () => { this.mp.players = this.mp.players.filter(p => p.id !== conn.peer); delete this.mp.connections[conn.peer]; this.broadcastMpState(); });
+      conn.on('close', () => { 
+        this.mp.players = this.mp.players.filter(p => p.id !== conn.peer); 
+        delete this.mp.connections[conn.peer]; 
+        this.broadcastMpState(); 
+      });
     });
   },
 
@@ -679,16 +702,27 @@ const App = {
     const code = document.getElementById('mp-join-code').value.trim().toUpperCase();
     if(!name || !code) return alert("Please enter your name and a room code.");
 
-    this.mp = { peer: new Peer(), conn: null, isHost: false, inRoom: true, playerName: name, myId: '', state: 'CONNECTING' };
+    // Immediate UI Feedback
+    document.getElementById('mp-lobby-ui').style.display = 'none';
+    this.mp = { peer: new Peer(peerConfig), conn: null, isHost: false, inRoom: true, playerName: name, myId: '', state: 'CONNECTING' };
+    this.renderMpState();
+
+    // Fallback if connection hangs
+    let timeoutFallback = setTimeout(() => {
+        alert("Connection timed out. Check the room code and try again.");
+        this.mp.peer.destroy();
+        this.showView('multiplayer');
+    }, 12000);
     
     this.mp.peer.on('open', (id) => {
-      this.mp.myId = id; // Store exact identity
-      this.mp.conn = this.mp.peer.connect('medmaster-' + code);
+      this.mp.myId = id; 
+      this.mp.conn = this.mp.peer.connect('medmaster-' + code, { reliable: true });
+      
       this.mp.conn.on('open', () => {
+        clearTimeout(timeoutFallback);
         this.mp.conn.send({type: 'JOIN', name: name});
-        document.getElementById('mp-lobby-ui').style.display = 'none';
-        this.renderMpState(); 
       });
+      
       this.mp.conn.on('data', (data) => {
         if(data.type === 'SYNC') {
            this.mp.state = data.state;
@@ -704,7 +738,17 @@ const App = {
            this.renderMpState();
         }
       });
-      this.mp.conn.on('close', () => { alert("Host disconnected."); this.showView('multiplayer'); });
+      
+      this.mp.conn.on('close', () => { 
+          alert("Host disconnected or room closed."); 
+          this.showView('multiplayer'); 
+      });
+    });
+
+    this.mp.peer.on('error', (err) => {
+      clearTimeout(timeoutFallback);
+      alert("Failed to connect: The room code might be incorrect.");
+      this.showView('multiplayer');
     });
   },
 
@@ -773,7 +817,7 @@ const App = {
        if(this.mp.players.every(p => p.currentAnswer)) { clearInterval(this.mp.timerInterval); this.hostResolveQuestion(); }
        this.renderMpState(); 
     } else {
-       if(myPlayer) myPlayer.currentAnswer = ans; // visual lock
+       if(myPlayer) myPlayer.currentAnswer = ans; 
        this.mp.conn.send({type: 'ANSWER', answer: ans});
        this.renderMpState();
     }
@@ -805,7 +849,11 @@ const App = {
     `;
 
     if(m.state === 'CONNECTING') {
-       area.innerHTML = `<div class="card text-center"><h2>Connecting to Host...</h2></div>`;
+       area.innerHTML = `
+         <div class="card text-center" style="padding:4rem 1rem;">
+           <h2 style="color:#0b2b4a;">Connecting to Server...</h2>
+           <p class="text-muted mt-1">Establishing secure connection. This should only take a few seconds.</p>
+         </div>`;
     } 
     else if(m.state === 'LOBBY') {
        area.innerHTML = `
@@ -831,6 +879,10 @@ const App = {
          <div class="mp-layout">
            <div class="card mp-main">
              <div class="timer-wrapper"><div class="timer-bar"><div class="timer-fill" id="mp-timer-display" style="width:100%;"></div></div></div>
+             <div class="flex" style="justify-content:space-between;">
+               <span class="badge topic-badge">${q.course}</span>
+               <span class="progress-text">Q ${m.currentIndex + 1} / ${m.questions.length}</span>
+             </div>
              <p class="question-text">${q.question}</p>
              <div class="mt-1">${buttonsHtml}</div>
              <p class="text-muted text-center mt-1" style="font-size:0.85rem; font-weight:600;">Answers in: ${m.players.filter(p=>p.currentAnswer).length} / ${m.players.length}</p>
