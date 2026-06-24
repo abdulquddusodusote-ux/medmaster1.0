@@ -31,13 +31,8 @@ const App = {
     timerInterval: null,
     questionDuration: 20,
     questionStartTime: 0,
-    groupAccuracy: 0,
-    lastCorrectCount: 0,
     answerLog: [],
     myLastAnswer: null,
-    // Guest-only convenience references set during applyState:
-    currentQuestion: null,
-    totalQuestions: 0,
   },
 
   bookmarks: new Set(),
@@ -255,7 +250,6 @@ const App = {
       document.getElementById('mp-area')?.addEventListener('click', (e) => {
         if (e.target.matches('.btn-mp-start-game'))        this.handleHostStartGame();
         if (e.target.closest('.btn-mp-answer'))            this.handleMpAnswer(e.target.closest('.btn-mp-answer').dataset.value);
-        if (e.target.matches('.btn-mp-host-next'))         this.handleHostNextQuestion();
         if (e.target.closest('.btn-mp-bookmark'))          this.toggleBookmark(e.target.closest('.btn-mp-bookmark').dataset.question, true);
       });
     } else if (viewName === 'history') {
@@ -711,8 +705,6 @@ const App = {
 
     try {
       await mp_createRoom(name, finalPool, questionDuration);
-      // applyState / renderMpState will be called by the subscription on first write,
-      // but we also render immediately so the host sees the lobby right away.
       this.renderMpState();
     } catch (err) {
       this.showMpFatalError('Could not create room', err.message);
@@ -741,34 +733,13 @@ const App = {
   },
 
   async handleHostNextQuestion() {
-    if (!this.mp.isHost) return;
-    await mp_hostNextQuestion();
+    // Left empty/removed because the Host manual skip has been removed.
+    // Kept here just to catch any lingering button clicks safely.
   },
 
   async handleMpAnswer(answer) {
-    const m  = this.mp;
-    const me = m.players.find(p => p.id === m.myId);
-    if (me?.currentAnswer) return;
-
-    if (m.isHost) {
-      if (me) {
-        me.currentAnswer = answer;
-        const pct = Math.max(0, m.timer / m.questionDuration);
-        me.answerTimeScore = Math.floor(100 + 900 * pct);
-      }
-      m.myLastAnswer = answer;
-      
-      App.renderMpState();
-      mp_pushState(); // Sync host's answer presence to guests
-
-      if (m.players.every(p => p.currentAnswer)) {
-        clearInterval(m.timerInterval);
-        m.timerInterval = null;
-        await mp_hostResolveQuestion();
-      }
-    } else {
-      await mp_submitGuestAnswer(answer);
-    }
+    // We now just fire the universal submit answer function!
+    await mp_submitAnswer(answer);
   },
 
   _mpConnectingHtml() {
@@ -810,7 +781,7 @@ const App = {
         ${m.players.map((p, i) => `
           <li class="${p.id === m.myId ? 'is-me' : ''} rank-${i + 1}">
             <span>${i + 1}. ${p.name}${p.id === m.myId ? ' (You)' : ''}</span>
-            <span class="score-badge">${p.score}</span>
+            <span class="score-badge">${p.score || 0}</span>
           </li>
         `).join('')}
       </ul>
@@ -833,15 +804,41 @@ const App = {
         break;
 
       case 'QUESTION': {
-        const q             = m.isHost ? m.questions[m.currentIndex] : (m.currentQuestion ?? m.questions[m.currentIndex]);
-        const totalQuestions = m.isHost ? m.questions.length : (m.totalQuestions || m.questions.length || '?');
+        const q             = m.questions[m.currentIndex];
         const me            = m.players.find(p => p.id === m.myId);
         if (!q) break;
+        const totalQuestions = m.questions.length;
+        
         let buttonsHtml = '';
         const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
+        const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
+        
+        // If the player answered, highlight correct vs selected. Otherwise standard render.
         options.forEach((opt, index) => {
-          buttonsHtml += `<button class="btn-option btn-mp-answer ${me?.currentAnswer === opt ? 'selected' : ''}" data-value="${opt}" ${me?.currentAnswer ? 'disabled' : ''}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
+          let stateClass = '';
+          if (me?.currentAnswer) {
+             if (opt === correctVal) stateClass = 'correct';
+             else if (opt === me.currentAnswer) stateClass = 'incorrect';
+          }
+          buttonsHtml += `<button class="btn-option btn-mp-answer ${stateClass}" data-value="${opt}" ${me?.currentAnswer ? 'disabled' : ''}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
         });
+
+        // The instant local feedback panel (Only appears once you tap an answer)
+        let explanationHtml = '';
+        if (me?.currentAnswer) {
+           const isCorrect = me.currentAnswer === correctVal;
+           explanationHtml = `
+             <div class="feedback ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'} mt-1 text-center">
+               <h3 style="margin:0;">${isCorrect ? 'Correct! (+1 Point)' : 'Incorrect'}</h3>
+             </div>
+             <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;">
+               <strong style="color:#0b2b4a; display:block; margin-bottom:0.5rem; font-size:1.1rem;">Explanation:</strong>
+               <p>${q.explanation}</p>
+               <p class="text-muted mt-1" style="font-size:0.85rem; font-style: italic;">Waiting for the timer to reach 0 to advance...</p>
+             </div>
+           `;
+        }
+
         area.innerHTML = `
           <div class="mp-layout">
             <div class="card mp-main">
@@ -852,7 +849,8 @@ const App = {
               </div>
               <p class="question-text">${q.question}</p>
               <div class="mt-1">${buttonsHtml}</div>
-              <p class="answer-progress-text" id="mp-answer-count">Answers in: ${m.players.filter(p => p.currentAnswer).length} / ${m.players.length}</p>
+              ${explanationHtml}
+              <p class="answer-progress-text mt-1" id="mp-answer-count">Answers in: ${m.players.filter(p => p.currentAnswer).length} / ${m.players.length}</p>
             </div>
             <div class="card mp-sidebar">
               <h3 class="card-title text-center">Live Standings</h3>
@@ -861,37 +859,6 @@ const App = {
           </div>
         `;
         this.updateMpTimerDisplay();
-        break;
-      }
-
-      case 'REVEAL': {
-        const q         = m.isHost ? m.questions[m.currentIndex] : (m.currentQuestion ?? m.questions[m.currentIndex]);
-        if (!q) break;
-        const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-        const me         = m.players.find(p => p.id === m.myId);
-        const myAnswer   = me?.currentAnswer || m.myLastAnswer;
-        const isCorrect  = myAnswer === correctVal;
-        area.innerHTML = `
-          <div class="mp-layout">
-            <div class="card mp-main">
-              <div class="feedback ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'} text-center" style="margin-top:0;">
-                <h2 style="margin:0;">${isCorrect ? `+${me?.answerTimeScore || 0} Points!` : (myAnswer ? 'Incorrect' : "Time's Up — No Answer")}</h2>
-                <p><strong>Correct Answer:</strong> ${correctVal}</p>
-                <p class="group-accuracy-badge mt-1">Group Accuracy: ${m.groupAccuracy}%</p>
-              </div>
-              <p class="question-text">${q.question}</p>
-              <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;">
-                <strong style="color:#0b2b4a; display:block; margin-bottom:0.5rem; font-size:1.1rem;">Explanation:</strong>
-                <p>${q.explanation}</p>
-              </div>
-              ${m.isHost ? `<button class="btn btn-primary mt-1 btn-mp-host-next" style="width:100%;">Next Question</button>` : `<p class="text-center text-muted mt-1">Waiting for host…</p>`}
-            </div>
-            <div class="card mp-sidebar">
-              <h3 class="card-title text-center">Live Standings</h3>
-              ${leaderboardHtml}
-            </div>
-          </div>
-        `;
         break;
       }
 
@@ -972,7 +939,6 @@ const App = {
         <div class="review-item">
           <div class="review-question-header">
             <p class="question-text" style="margin:0; font-size:1.1rem;"><strong>${i + 1}.</strong> ${entry.question}</p>
-            <span class="group-accuracy-badge">${entry.correctCount}/${entry.totalPlayers} got this right (${entry.groupAccuracy}%)</span>
           </div>
           <p class="review-correct-answer">Correct Answer: ${entry.correctAnswer}</p>
           ${tag}
@@ -1000,7 +966,7 @@ const App = {
         </div>
       </div>
       <div class="card">
-        <h3 class="card-title">Question Review</h3>
+        <h3 class="card-title">Personal Question Review</h3>
         ${reviewHtml}
       </div>
       <div class="card text-center">
