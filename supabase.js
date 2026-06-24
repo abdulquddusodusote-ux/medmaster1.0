@@ -6,29 +6,29 @@
  * 1. Go to https://app.supabase.com → your project → SQL Editor
  * 2. Run the schema below (also in schema.sql) to create the rooms table.
  * 3. Replace SUPABASE_URL and SUPABASE_ANON_KEY below with your project values.
- *    (Dashboard → Settings → API)
+ * (Dashboard → Settings → API)
  *
  * SQL SCHEMA (run once):
  * ──────────────────────
- *   create table public.rooms (
- *     room_code   text primary key,
- *     room_state  jsonb not null default '{}'::jsonb,
- *     status      text not null default 'active',
- *     updated_at  timestamptz not null default now()
- *   );
+ * create table public.rooms (
+ * room_code   text primary key,
+ * room_state  jsonb not null default '{}'::jsonb,
+ * status      text not null default 'active',
+ * updated_at  timestamptz not null default now()
+ * );
  *
- *   -- Allow anyone to read / write rooms (use RLS policies for production).
- *   alter table public.rooms enable row level security;
- *   create policy "Public room access" on public.rooms
- *     for all using (true) with check (true);
+ * -- Allow anyone to read / write rooms (use RLS policies for production).
+ * alter table public.rooms enable row level security;
+ * create policy "Public room access" on public.rooms
+ * for all using (true) with check (true);
  *
- *   -- Realtime: enable for this table
- *   alter publication supabase_realtime add table public.rooms;
+ * -- Realtime: enable for this table
+ * alter publication supabase_realtime add table public.rooms;
  */
 
 // ─── ① Replace these two values with your project credentials ─────────────
 const SUPABASE_URL      = 'https://tgrmnotrqyzzwhryzlfc.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU';
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU'; // DO NOT SHARE YOUR REAL KEY PUBLICLY
 // ──────────────────────────────────────────────────────────────────────────
 
 const { createClient } = supabase;   // loaded from the CDN <script> in index.html
@@ -80,29 +80,45 @@ async function dbCloseRoom(roomCode) {
 }
 
 /**
- * Subscribe to realtime changes on a single room.
+ * Subscribe to realtime changes AND incoming broadcasts.
  * The callback receives the full, up-to-date room_state object.
  * Returns the Supabase RealtimeChannel so the caller can unsubscribe.
  */
-function dbSubscribeRoom(roomCode, onStateChange) {
-  const channel = db
-    .channel(`room:${roomCode}`)
-    .on(
-      'postgres_changes',
-      {
-        event:  'UPDATE',
-        schema: 'public',
-        table:  'rooms',
-        filter: `room_code=eq.${roomCode}`,
-      },
-      (payload) => {
-        if (payload.new && payload.new.room_state) {
-          onStateChange(payload.new.room_state);
-        }
+function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
+  const channel = db.channel(`room:${roomCode}`, {
+    config: { broadcast: { ack: false } }
+  });
+  
+  // Listen for database state changes
+  channel.on(
+    'postgres_changes',
+    { event: 'UPDATE', schema: 'public', table: 'rooms', filter: `room_code=eq.${roomCode}` },
+    (payload) => {
+      if (payload.new && payload.new.room_state) {
+        onStateChange(payload.new.room_state);
       }
-    )
-    .subscribe();
+    }
+  );
+
+  // Listen for peer-to-peer broadcasts (used for guest answers)
+  if (onBroadcast) {
+    channel.on('broadcast', { event: 'guest_answer' }, (payload) => {
+      onBroadcast(payload.payload);
+    });
+  }
+
+  channel.subscribe();
   return channel;
+}
+
+/** Guest sends answer directly to host without writing to DB */
+async function dbSendGuestAnswer(channel, playerId, answer, answerTimeScore) {
+  if (!channel) return;
+  await channel.send({
+    type: 'broadcast',
+    event: 'guest_answer',
+    payload: { playerId, answer, answerTimeScore }
+  });
 }
 
 /** Unsubscribe and clean up a realtime channel. */
