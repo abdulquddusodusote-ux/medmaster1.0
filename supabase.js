@@ -28,7 +28,7 @@
 
 // ─── ① Replace these two values with your project credentials ─────────────
 const SUPABASE_URL      = 'https://tgrmnotrqyzzwhryzlfc.supabase.co';
-const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU'; // DO NOT SHARE YOUR REAL KEY PUBLICLY
+const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU'; 
 // ──────────────────────────────────────────────────────────────────────────
 
 const { createClient } = supabase;   // loaded from the CDN <script> in index.html
@@ -61,7 +61,7 @@ async function dbCreateRoom(roomCode, initialState) {
 
 /**
  * Overwrite room_state for an existing room.
- * Only the host should call this; guests are read-only consumers.
+ * Only the host calls this to sync the master game phase/timer.
  */
 async function dbUpdateRoomState(roomCode, newState) {
   const { error } = await db
@@ -80,16 +80,14 @@ async function dbCloseRoom(roomCode) {
 }
 
 /**
- * Subscribe to realtime changes AND incoming broadcasts.
- * The callback receives the full, up-to-date room_state object.
- * Returns the Supabase RealtimeChannel so the caller can unsubscribe.
+ * Subscribe to realtime changes AND incoming peer-to-peer broadcasts.
  */
 function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
   const channel = db.channel(`room:${roomCode}`, {
     config: { broadcast: { ack: false } }
   });
   
-  // Listen for database state changes
+  // Listen for official database state changes (e.g., Next Question pulled)
   channel.on(
     'postgres_changes',
     { event: 'UPDATE', schema: 'public', table: 'rooms', filter: `room_code=eq.${roomCode}` },
@@ -100,9 +98,9 @@ function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
     }
   );
 
-  // Listen for peer-to-peer broadcasts (used for guest answers)
+  // Listen for instant peer-to-peer broadcasts (Live Leaderboard & Answer tracking)
   if (onBroadcast) {
-    channel.on('broadcast', { event: 'guest_answer' }, (payload) => {
+    channel.on('broadcast', { event: 'player_update' }, (payload) => {
       onBroadcast(payload.payload);
     });
   }
@@ -111,13 +109,15 @@ function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
   return channel;
 }
 
-/** Guest sends answer directly to host without writing to DB */
-async function dbSendGuestAnswer(channel, playerId, answer, answerTimeScore) {
+/** * Broadcasts local score and answer status instantly to all peers 
+ * without waiting for the database to process it.
+ */
+async function dbBroadcastUpdate(channel, payload) {
   if (!channel) return;
   await channel.send({
     type: 'broadcast',
-    event: 'guest_answer',
-    payload: { playerId, answer, answerTimeScore }
+    event: 'player_update',
+    payload: payload
   });
 }
 
