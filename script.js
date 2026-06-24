@@ -4,12 +4,33 @@
  * Exam & History Engines, and Professional Online Room-Code Multiplayer via PeerJS.
  */
 
-// Explicit STUN servers to bypass strict WiFi/Mobile network firewalls
+// STUN servers handle the common case (direct connection). TURN servers are the fallback
+// for networks where direct peer-to-peer fails entirely — symmetric NAT, some corporate/
+// school WiFi, some mobile carriers. Without a TURN fallback, those connections have no
+// way to succeed at all; this is the single most common cause of "connection timed out."
+// These are the Open Relay Project's free public TURN servers (no signup required).
+// They are free-tier / best-effort — not a guaranteed-uptime service — but they fix the
+// large majority of real-world NAT-traversal failures that STUN alone cannot.
 const peerConfig = {
   config: {
     'iceServers': [
       { urls: 'stun:stun.l.google.com:19302' },
-      { urls: 'stun:stun1.l.google.com:19302' }
+      { urls: 'stun:stun1.l.google.com:19302' },
+      {
+        urls: 'turn:openrelay.metered.ca:80',
+        username: 'openrelayproject',
+        credential: 'openrelayproject'
+      },
+      {
+        urls: 'turn:openrelay.metered.ca:443',
+        username: 'openrelayproject',
+        credential: 'openrelayproject'
+      },
+      {
+        urls: 'turn:openrelay.metered.ca:443?transport=tcp',
+        username: 'openrelayproject',
+        credential: 'openrelayproject'
+      }
     ]
   }
 };
@@ -804,13 +825,19 @@ const App = {
     }
     this.mp.peer = peer;
 
-    // Fallback if connection hangs entirely (covers cases where 'open'/'connect' never fires)
+    // Fallback if connection hangs entirely (covers cases where 'open'/'connect' never fires).
+    // 20s instead of 12s: TURN relay negotiation (especially the TCP-over-443 fallback) is
+    // slower than a direct STUN handshake, so a short timeout would cut off connections that
+    // were about to succeed via the relay.
     let settled = false;
     let timeoutFallback = setTimeout(() => {
         if (settled) return;
-        this.showMpFatalError("Connection timed out", "Check the room code and that the host's room is still open, then try again.");
+        this.showMpFatalError(
+          "Connection timed out",
+          "Couldn't reach the host after 20 seconds. Double-check the room code, confirm the host's room is still open, and try again. If this keeps happening on this network, try switching to mobile data or a different WiFi."
+        );
         this.mp.peer.destroy();
-    }, 12000);
+    }, 20000);
 
     this.mp.peer.on('open', (id) => {
       this.mp.myId = id;
@@ -1056,7 +1083,7 @@ const App = {
        area.innerHTML = `
          <div class="card text-center" style="padding:4rem 1rem;">
            <h2 style="color:#0b2b4a;">Connecting to Server...</h2>
-           <p class="text-muted mt-1">Establishing secure connection. This should only take a few seconds.</p>
+           <p class="text-muted mt-1">Establishing connection — this can take up to 20 seconds on some networks.</p>
          </div>`;
     }
     else if(m.state === 'LOBBY') {
