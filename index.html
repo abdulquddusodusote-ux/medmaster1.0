@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-  <title>MedMaster – Medical Quiz</title>
+  <title>MedMaster – Medical CBT</title>
   <link rel="stylesheet" href="style.css">
+  <!-- PeerJS for Online Multiplayer Signaling -->
+  <script src="https://unpkg.com/peerjs@1.5.2/dist/peerjs.min.js"></script>
 </head>
 <body>
   <header class="app-header">
-    <div class="container">
-      <h1 class="app-title">MedMaster</h1>
-      <span class="app-subtitle">Medical CBT</span>
+    <div class="container flex" style="justify-content: space-between; align-items: center;">
+      <div>
+        <h1 class="app-title">MedMaster</h1>
+        <span class="app-subtitle">Preclinical CBT</span>
+      </div>
     </div>
   </header>
 
@@ -19,6 +23,7 @@
       <button class="nav-btn active" data-view="dashboard">Dashboard</button>
       <button class="nav-btn" data-view="practice">Practice</button>
       <button class="nav-btn" data-view="exam">Exam</button>
+      <button class="nav-btn" data-view="multiplayer">Multiplayer</button>
       <button class="nav-btn" data-view="history">History</button>
       <button class="nav-btn" data-view="bookmarks">Bookmarks</button>
     </div>
@@ -30,7 +35,7 @@
 
   <footer class="app-footer">
     <div class="container">
-      <small>© 2026 MedMaster · Offline Medical Quiz</small>
+      <small>© 2026 MedMaster</small>
     </div>
   </footer>
 
