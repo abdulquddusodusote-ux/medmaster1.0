@@ -27,7 +27,7 @@
  */
 
 // ─── ① Replace these two values with your project credentials ─────────────
-const SUPABASE_URL      = 'tgrmnotrqyzzwhryzlfc.supabase.co';
+const SUPABASE_URL      = 'https://tgrmnotrqyzzwhryzlfc.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU';
 // ──────────────────────────────────────────────────────────────────────────
 
