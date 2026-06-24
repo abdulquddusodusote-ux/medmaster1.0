@@ -1,60 +1,53 @@
 /**
- * MedMaster - Main Application Engine
+ * MedMaster — Main Application Engine
  * Features: Cascading Filters, Keyboard Shortcuts, Anki CSV Export,
- * Exam & History Engines, and Professional Online Room-Code Multiplayer via PeerJS.
+ * Exam & History Engines, Flashcards, and Online Multiplayer via Supabase Realtime.
+ *
+ * Networking layer: multiplayer.js + supabase.js
+ * All PeerJS / STUN / TURN / ICE code has been removed.
  */
-
-// STUN servers handle the common case (direct connection). TURN servers are the fallback
-// for networks where direct peer-to-peer fails entirely — symmetric NAT, some corporate/
-// school WiFi, some mobile carriers. Without a TURN fallback, those connections have no
-// way to succeed at all; this is the single most common cause of "connection timed out."
-// These are the Open Relay Project's free public TURN servers (no signup required).
-// They are free-tier / best-effort — not a guaranteed-uptime service — but they fix the
-// large majority of real-world NAT-traversal failures that STUN alone cannot.
-const peerConfig = {
-  config: {
-    'iceServers': [
-      { urls: 'stun:stun.l.google.com:19302' },
-      { urls: 'stun:stun1.l.google.com:19302' },
-      {
-        urls: 'turn:openrelay.metered.ca:80',
-        username: 'openrelayproject',
-        credential: 'openrelayproject'
-      },
-      {
-        urls: 'turn:openrelay.metered.ca:443',
-        username: 'openrelayproject',
-        credential: 'openrelayproject'
-      },
-      {
-        urls: 'turn:openrelay.metered.ca:443?transport=tcp',
-        username: 'openrelayproject',
-        credential: 'openrelayproject'
-      }
-    ]
-  }
-};
 
 const App = {
   currentView: 'dashboard',
   viewContainer: null,
 
   practice: { questions: [], currentIndex: 0, score: 0, answered: false, total: 0, results: [], started: false },
-  exam: { questions: [], currentIndex: 0, answers: [], total: 0, score: 0, started: false, finished: false, timer: 0, timerInterval: null, results: [] },
+  exam:     { questions: [], currentIndex: 0, answers: [], total: 0, score: 0, started: false, finished: false, timer: 0, timerInterval: null, results: [] },
 
-  // PeerJS Multiplayer State
+  // ── Multiplayer state ──────────────────────────────────────────────────
+  // Populated / mutated by multiplayer.js functions.  The shape mirrors what
+  // was previously managed through PeerJS so that all render functions below
+  // can remain unchanged.
   mp: {
-    peer: null, conn: null, connections: {}, isHost: false, inRoom: false, roomCode: '', playerName: '', myId: '',
-    players: [], // {id, name, score, currentAnswer, answerTimeScore}
-    questions: [], currentIndex: 0, timer: 0, timerInterval: null, state: 'SETUP',
-    questionDuration: 20, questionStartTime: 0,
-    // Per-player log of every question + the answer they personally gave, kept across the whole match
-    answerLog: [] // {question, options, type, answer, correctAnswer, explanation, myAnswer, groupAccuracy}
+    channel: null,          // Supabase RealtimeChannel
+    isHost: false,
+    inRoom: false,
+    roomCode: '',
+    playerName: '',
+    myId: '',
+    players: [],
+    questions: [],
+    currentIndex: 0,
+    state: 'SETUP',         // see MP_PHASES in multiplayer.js
+    timer: 0,
+    timerInterval: null,
+    _hostTimerInterval: null,
+    questionDuration: 20,
+    questionStartTime: 0,
+    groupAccuracy: 0,
+    lastCorrectCount: 0,
+    answerLog: [],
+    myLastAnswer: null,
+    // Guest-only convenience references set during applyState:
+    currentQuestion: null,
+    totalQuestions: 0,
   },
 
   bookmarks: new Set(),
   flashcard: { questions: [], currentIndex: 0, revealed: false, total: 0 },
   history: [],
+
+  // ────────────────────────────────────────────────────────────────────────
 
   init() {
     this.viewContainer = document.getElementById('view-container');
@@ -64,26 +57,25 @@ const App = {
     this.showView('dashboard');
   },
 
-  // ---- Global Keyboard Shortcuts ----
+  // ── Global Keyboard Shortcuts ──────────────────────────────────────────
   setupKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT') return;
       const key = e.key.toLowerCase();
 
-      if (this.currentView === 'bookmarks' && document.getElementById('flashcard-area').innerHTML.trim() !== '') {
+      if (this.currentView === 'bookmarks' && document.getElementById('flashcard-area')?.innerHTML.trim()) {
         if (key === ' ' || key === 'spacebar') { e.preventDefault(); this.flashcard.revealed = !this.flashcard.revealed; this.renderFlashcard(); }
         if (key === 'arrowright' && this.flashcard.currentIndex < this.flashcard.total - 1) { this.flashcard.currentIndex++; this.flashcard.revealed = false; this.renderFlashcard(); }
-        if (key === 'arrowleft' && this.flashcard.currentIndex > 0) { this.flashcard.currentIndex--; this.flashcard.revealed = false; this.renderFlashcard(); }
+        if (key === 'arrowleft'  && this.flashcard.currentIndex > 0)                        { this.flashcard.currentIndex--; this.flashcard.revealed = false; this.renderFlashcard(); }
       }
 
       const numberMap = { '1': 0, '2': 1, '3': 2, '4': 3, '5': 4 };
       if (numberMap[key] !== undefined) {
         const index = numberMap[key];
         let buttons = [];
-        if (this.currentView === 'practice') buttons = document.querySelectorAll('.btn-answer');
-        if (this.currentView === 'exam') buttons = document.querySelectorAll('.btn-exam-answer');
+        if (this.currentView === 'practice')    buttons = document.querySelectorAll('.btn-answer');
+        if (this.currentView === 'exam')        buttons = document.querySelectorAll('.btn-exam-answer');
         if (this.currentView === 'multiplayer') buttons = document.querySelectorAll('.btn-mp-answer');
-
         if (buttons.length > index && !buttons[index].disabled) buttons[index].click();
       }
 
@@ -94,21 +86,22 @@ const App = {
   },
 
   loadData() {
-    try { this.history = JSON.parse(localStorage.getItem('mm_history')) || []; } catch(e) { this.history = []; }
+    try { this.history   = JSON.parse(localStorage.getItem('mm_history'))   || []; } catch(e) { this.history   = []; }
     try { this.bookmarks = new Set(JSON.parse(localStorage.getItem('mm_bookmarks')) || []); } catch(e) { this.bookmarks = new Set(); }
   },
   saveData() {
-    localStorage.setItem('mm_history', JSON.stringify(this.history));
+    localStorage.setItem('mm_history',   JSON.stringify(this.history));
     localStorage.setItem('mm_bookmarks', JSON.stringify([...this.bookmarks]));
   },
 
   setupNavigation() {
     const navBtns = document.querySelectorAll('.nav-btn');
     navBtns.forEach(btn => {
-      btn.addEventListener('click', () => {
-        if (this.mp.inRoom && !confirm("Leave active multiplayer room?")) return;
-        if (this.mp.peer) { this.mp.peer.destroy(); this.mp.peer = null; this.mp.inRoom = false; }
-
+      btn.addEventListener('click', async () => {
+        if (this.mp.inRoom) {
+          if (!confirm('Leave active multiplayer room?')) return;
+          await mp_leaveRoom();
+        }
         this.showView(btn.dataset.view);
         navBtns.forEach(b => b.classList.remove('active'));
         btn.classList.add('active');
@@ -118,29 +111,28 @@ const App = {
 
   showView(viewName) {
     this.currentView = viewName;
-    if(this.exam.timerInterval) clearInterval(this.exam.timerInterval);
-    if(this.mp.timerInterval) clearInterval(this.mp.timerInterval);
+    if (this.exam.timerInterval) clearInterval(this.exam.timerInterval);
 
     let html = '';
     switch (viewName) {
-      case 'dashboard': html = this.renderDashboard(); break;
-      case 'practice': html = this.renderPractice(); break;
-      case 'exam': html = this.renderExamSetup(); break;
-      case 'multiplayer': html = this.renderMultiplayerSetup(); break;
-      case 'history': html = this.renderHistory(); break;
-      case 'bookmarks': html = this.renderBookmarks(); break;
+      case 'dashboard':   html = this.renderDashboard();         break;
+      case 'practice':    html = this.renderPractice();          break;
+      case 'exam':        html = this.renderExamSetup();         break;
+      case 'multiplayer': html = this.renderMultiplayerSetup();  break;
+      case 'history':     html = this.renderHistory();           break;
+      case 'bookmarks':   html = this.renderBookmarks();         break;
     }
     this.viewContainer.innerHTML = html;
     this.bindViewEvents(viewName);
   },
 
-  // ---- Cascading Filters & Question Type ----
+  // ── Cascading Filters ──────────────────────────────────────────────────
   getUniqueCourses() { return [...new Set(questions.map(q => q.course))].sort(); },
   getSelectedPills(containerId) {
     const container = document.getElementById(containerId);
     if (!container) return ['all'];
     const actives = container.querySelectorAll('.filter-pill.active');
-    const values = Array.from(actives).map(p => p.dataset.value);
+    const values  = Array.from(actives).map(p => p.dataset.value);
     return values.includes('all') ? ['all'] : values;
   },
 
@@ -148,50 +140,49 @@ const App = {
     const courses = this.getSelectedPills(`${prefix}-courses`);
     let pool = courses.includes('all') ? questions : questions.filter(q => courses.includes(q.course));
 
-    const topic = document.getElementById(`${prefix}-topic`)?.value || 'all';
+    const topic    = document.getElementById(`${prefix}-topic`)?.value    || 'all';
     const subTopic = document.getElementById(`${prefix}-subtopic`)?.value || 'all';
-    const qType = document.getElementById(`${prefix}-type`)?.value || 'all';
+    const qType    = document.getElementById(`${prefix}-type`)?.value     || 'all';
 
-    if (topic !== 'all') pool = pool.filter(q => q.topic === topic);
+    if (topic    !== 'all') pool = pool.filter(q => q.topic    === topic);
     if (subTopic !== 'all') pool = pool.filter(q => q.subTopic === subTopic);
-    if (qType !== 'all') pool = pool.filter(q => q.type === qType);
-
+    if (qType    !== 'all') pool = pool.filter(q => q.type     === qType);
     return pool;
   },
 
   updateTopicDropdown(prefix) {
     const courses = this.getSelectedPills(`${prefix}-courses`);
-    const pool = courses.includes('all') ? questions : questions.filter(q => courses.includes(q.course));
-    const topics = [...new Set(pool.map(q => q.topic))].sort();
-    const select = document.getElementById(`${prefix}-topic`);
-    if(!select) return;
+    const pool    = courses.includes('all') ? questions : questions.filter(q => courses.includes(q.course));
+    const topics  = [...new Set(pool.map(q => q.topic))].sort();
+    const select  = document.getElementById(`${prefix}-topic`);
+    if (!select) return;
     const current = select.value;
     select.innerHTML = `<option value="all">All Topics</option>` + topics.map(t => `<option value="${t}" ${current===t?'selected':''}>${t}</option>`).join('');
     this.updateSubTopicDropdown(prefix);
   },
 
   updateSubTopicDropdown(prefix) {
-    const courses = this.getSelectedPills(`${prefix}-courses`);
-    let pool = courses.includes('all') ? questions : questions.filter(q => courses.includes(q.course));
-    const topic = document.getElementById(`${prefix}-topic`).value;
+    const courses   = this.getSelectedPills(`${prefix}-courses`);
+    let pool        = courses.includes('all') ? questions : questions.filter(q => courses.includes(q.course));
+    const topic     = document.getElementById(`${prefix}-topic`).value;
     if (topic !== 'all') pool = pool.filter(q => q.topic === topic);
     const subTopics = [...new Set(pool.map(q => q.subTopic))].sort();
-    const select = document.getElementById(`${prefix}-subtopic`);
-    if(!select) return;
+    const select    = document.getElementById(`${prefix}-subtopic`);
+    if (!select) return;
     const current = select.value;
     select.innerHTML = `<option value="all">All Sub-Topics</option>` + subTopics.map(st => `<option value="${st}" ${current===st?'selected':''}>${st}</option>`).join('');
     this.updateQuestionCountDropdown(prefix);
   },
 
   updateQuestionCountDropdown(prefix) {
-    const pool = this.getFullyFilteredPool(prefix);
-    const max = pool.length;
+    const pool   = this.getFullyFilteredPool(prefix);
+    const max    = pool.length;
     const select = document.getElementById(`${prefix}-question-count`);
     if (!select) return;
     const currentVal = select.value;
     let options = `<option value="all" ${currentVal==='all'?'selected':''}>All Available (${max})</option>`;
     for (let i = 5; i <= Math.min(max, 100); i += 5) options += `<option value="${i}" ${currentVal==String(i)?'selected':''}>${i}</option>`;
-    if(max < 5 && max > 0) options += `<option value="${max}">${max}</option>`;
+    if (max < 5 && max > 0) options += `<option value="${max}">${max}</option>`;
     select.innerHTML = options;
   },
 
@@ -229,7 +220,9 @@ const App = {
           } else {
             courseContainer.querySelector('[data-value="all"]').classList.remove('active');
             e.target.classList.toggle('active');
-            if (courseContainer.querySelectorAll('.filter-pill.active').length === 0) courseContainer.querySelector('[data-value="all"]').classList.add('active');
+            if (courseContainer.querySelectorAll('.filter-pill.active').length === 0) {
+              courseContainer.querySelector('[data-value="all"]').classList.add('active');
+            }
           }
           this.updateTopicDropdown(prefix);
         }
@@ -246,40 +239,42 @@ const App = {
       this.bindFilterEvents('practice');
       document.getElementById('start-practice')?.addEventListener('click', () => this.startPractice());
       document.getElementById('practice-area')?.addEventListener('click', (e) => {
-        if(e.target.closest('.btn-answer')) this.handlePracticeAnswer(e.target.closest('.btn-answer').dataset.value);
-        if(e.target.matches('.btn-next')) { this.practice.currentIndex++; this.practice.answered = false; this.renderPracticeQuestion(); }
-        if(e.target.matches('.btn-finish')) { this.practice.currentIndex = this.practice.total; this.showPracticeReview(); }
-        if(e.target.matches('.btn-bookmark')) { this.toggleBookmark(e.target.dataset.question); this.renderPracticeQuestion(); }
+        if (e.target.closest('.btn-answer'))  this.handlePracticeAnswer(e.target.closest('.btn-answer').dataset.value);
+        if (e.target.matches('.btn-next'))    { this.practice.currentIndex++; this.practice.answered = false; this.renderPracticeQuestion(); }
+        if (e.target.matches('.btn-finish'))  { this.practice.currentIndex = this.practice.total; this.showPracticeReview(); }
+        if (e.target.matches('.btn-bookmark')) { this.toggleBookmark(e.target.dataset.question); this.renderPracticeQuestion(); }
       });
     } else if (viewName === 'exam') {
       this.bindFilterEvents('exam');
       document.getElementById('start-exam')?.addEventListener('click', () => this.startExam());
       document.getElementById('exam-area')?.addEventListener('click', (e) => {
-        if(e.target.closest('.btn-exam-answer')) this.handleExamAnswer(e.target.closest('.btn-exam-answer').dataset.value);
-        if(e.target.matches('.btn-exam-finish')) this.finishExam(false);
+        if (e.target.closest('.btn-exam-answer')) this.handleExamAnswer(e.target.closest('.btn-exam-answer').dataset.value);
+        if (e.target.matches('.btn-exam-finish'))  this.finishExam(false);
       });
     } else if (viewName === 'multiplayer') {
       this.bindFilterEvents('mp');
-      document.getElementById('mp-create-btn')?.addEventListener('click', () => this.createMultiplayerRoom());
-      document.getElementById('mp-join-btn')?.addEventListener('click', () => this.joinMultiplayerRoom());
+      document.getElementById('mp-create-btn')?.addEventListener('click', () => this.handleCreateRoom());
+      document.getElementById('mp-join-btn')?.addEventListener('click',   () => this.handleJoinRoom());
       document.getElementById('mp-area')?.addEventListener('click', (e) => {
-        if(e.target.matches('.btn-mp-start-game')) this.hostStartGame();
-        if(e.target.closest('.btn-mp-answer')) this.guestSubmitAnswer(e.target.closest('.btn-mp-answer').dataset.value);
-        if(e.target.matches('.btn-mp-host-next')) this.hostNextQuestion();
-        if(e.target.closest('.btn-mp-bookmark')) this.toggleBookmark(e.target.closest('.btn-mp-bookmark').dataset.question, true);
+        if (e.target.matches('.btn-mp-start-game'))        this.handleHostStartGame();
+        if (e.target.closest('.btn-mp-answer'))            this.handleMpAnswer(e.target.closest('.btn-mp-answer').dataset.value);
+        if (e.target.matches('.btn-mp-host-next'))         this.handleHostNextQuestion();
+        if (e.target.closest('.btn-mp-bookmark'))          this.toggleBookmark(e.target.closest('.btn-mp-bookmark').dataset.question, true);
       });
     } else if (viewName === 'history') {
-      document.getElementById('clear-history-btn')?.addEventListener('click', () => { if(confirm('Clear all data?')) { this.history = []; this.saveData(); this.showView('history'); }});
+      document.getElementById('clear-history-btn')?.addEventListener('click', () => {
+        if (confirm('Clear all data?')) { this.history = []; this.saveData(); this.showView('history'); }
+      });
     } else if (viewName === 'bookmarks') {
       document.getElementById('start-flashcards')?.addEventListener('click', () => this.startFlashcards());
-      document.getElementById('export-anki')?.addEventListener('click', () => this.exportAnkiCSV());
+      document.getElementById('export-anki')?.addEventListener('click',      () => this.exportAnkiCSV());
       document.getElementById('bookmark-list')?.addEventListener('click', (e) => {
-        if(e.target.matches('.btn-remove-bookmark')) { this.bookmarks.delete(e.target.dataset.question); this.saveData(); this.showView('bookmarks'); }
+        if (e.target.matches('.btn-remove-bookmark')) { this.bookmarks.delete(e.target.dataset.question); this.saveData(); this.showView('bookmarks'); }
       });
       document.getElementById('flashcard-area')?.addEventListener('click', (e) => {
-        if(e.target.matches('.btn-flip')) { this.flashcard.revealed = !this.flashcard.revealed; this.renderFlashcard(); }
-        if(e.target.matches('.btn-flash-next')) { this.flashcard.currentIndex++; this.flashcard.revealed=false; this.renderFlashcard(); }
-        if(e.target.matches('.btn-flash-prev')) { this.flashcard.currentIndex--; this.flashcard.revealed=false; this.renderFlashcard(); }
+        if (e.target.matches('.btn-flip'))        { this.flashcard.revealed = !this.flashcard.revealed; this.renderFlashcard(); }
+        if (e.target.matches('.btn-flash-next'))  { this.flashcard.currentIndex++; this.flashcard.revealed = false; this.renderFlashcard(); }
+        if (e.target.matches('.btn-flash-prev'))  { this.flashcard.currentIndex--; this.flashcard.revealed = false; this.renderFlashcard(); }
       });
     }
   },
@@ -290,19 +285,27 @@ const App = {
     this.saveData();
   },
 
-  shuffleArray(arr) { for (let i = arr.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [arr[i], arr[j]] = [arr[j], arr[i]]; } return arr; },
-  formatTime(s) { return `${String(Math.floor(s/60)).padStart(2,'0')}:${String(s%60).padStart(2,'0')}`; },
+  shuffleArray(arr) {
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  },
+  formatTime(s) { return `${String(Math.floor(s / 60)).padStart(2, '0')}:${String(s % 60).padStart(2, '0')}`; },
 
-  // ---- Precision Dashboard ----
+  // ── Dashboard ──────────────────────────────────────────────────────────
   renderDashboard() {
     const completed = this.history.filter(h => h.total > 0 && typeof h.score === 'number');
     let totalQ = 0, correctQ = 0, subStats = {};
     completed.forEach(h => {
-      totalQ += h.total; correctQ += h.score;
+      totalQ   += h.total;
+      correctQ += h.score;
       if (h.subPerf) {
         for (const [sub, p] of Object.entries(h.subPerf)) {
           if (!subStats[sub]) subStats[sub] = { correct: 0, total: 0 };
-          subStats[sub].correct += p.correct; subStats[sub].total += p.total;
+          subStats[sub].correct += p.correct;
+          subStats[sub].total   += p.total;
         }
       }
     });
@@ -311,7 +314,7 @@ const App = {
     for (const [sub, stats] of Object.entries(subStats)) {
       if (stats.total >= 3) {
         const pct = (stats.correct / stats.total) * 100;
-        if (pct < weakPct) { weakPct = pct; weakest = sub; }
+        if (pct < weakPct)   { weakPct   = pct; weakest   = sub; }
         if (pct > strongPct) { strongPct = pct; strongest = sub; }
       }
     }
@@ -322,17 +325,17 @@ const App = {
           <h2 class="card-title">Performance Analytics</h2>
           <div class="stats-grid">
             <div class="stat-card"><strong>Attempts</strong><span>${completed.length}</span></div>
-            <div class="stat-card"><strong>Accuracy</strong><span>${totalQ ? Math.round((correctQ/totalQ)*100) : 0}%</span></div>
+            <div class="stat-card"><strong>Accuracy</strong><span>${totalQ ? Math.round((correctQ / totalQ) * 100) : 0}%</span></div>
             <div class="stat-card"><strong>Answered</strong><span>${totalQ}</span></div>
           </div>
           <div class="flex">
             <div class="card" style="flex:1; background:#fff1f2; border:1px solid #ffe4e6; padding:1rem;">
               <strong style="color:#be123c; font-size:0.8rem; text-transform:uppercase;">Weakest Sub-Topic</strong><br>
-              <span style="font-size:1.1rem; font-weight:700;">${weakest}</span> ${weakPct<=100 ? `(${Math.round(weakPct)}%)` : ''}
+              <span style="font-size:1.1rem; font-weight:700;">${weakest}</span> ${weakPct <= 100 ? `(${Math.round(weakPct)}%)` : ''}
             </div>
             <div class="card" style="flex:1; background:#f0fdf4; border:1px solid #dcfce7; padding:1rem;">
               <strong style="color:#15803d; font-size:0.8rem; text-transform:uppercase;">Strongest Sub-Topic</strong><br>
-              <span style="font-size:1.1rem; font-weight:700;">${strongest}</span> ${strongPct>=0 ? `(${Math.round(strongPct)}%)` : ''}
+              <span style="font-size:1.1rem; font-weight:700;">${strongest}</span> ${strongPct >= 0 ? `(${Math.round(strongPct)}%)` : ''}
             </div>
           </div>
         </div>
@@ -340,7 +343,7 @@ const App = {
     `;
   },
 
-  // ---- Practice Mode ----
+  // ── Practice Mode ──────────────────────────────────────────────────────
   renderPractice() {
     return `
       <div class="container">
@@ -360,14 +363,14 @@ const App = {
   startPractice() {
     const pool = this.shuffleArray(this.getFullyFilteredPool('practice'));
     if (!pool.length) return alert('No questions match these filters.');
-    const qCountVal = document.getElementById('practice-question-count').value;
-    const finalPool = qCountVal === 'all' ? pool : pool.slice(0, parseInt(qCountVal));
-    this.practice = { questions: finalPool, currentIndex: 0, score: 0, answered: false, total: finalPool.length, results: [], started: true };
+    const qCountVal  = document.getElementById('practice-question-count').value;
+    const finalPool  = qCountVal === 'all' ? pool : pool.slice(0, parseInt(qCountVal));
+    this.practice    = { questions: finalPool, currentIndex: 0, score: 0, answered: false, total: finalPool.length, results: [], started: true };
     document.getElementById('practice-setup').style.display = 'none';
     this.renderPracticeQuestion();
   },
   renderPracticeQuestion() {
-    const p = this.practice;
+    const p    = this.practice;
     const area = document.getElementById('practice-area');
     if (p.currentIndex >= p.total) return this.showPracticeReview();
     const q = p.questions[p.currentIndex];
@@ -375,13 +378,13 @@ const App = {
     let buttonsHtml = '';
     const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
     options.forEach((opt, index) => {
-        let stateClass = '';
-        if (p.answered) {
-            const res = p.results[p.currentIndex];
-            if (opt === res.correct) stateClass = 'correct';
-            else if (opt === res.selected && opt !== res.correct) stateClass = 'incorrect';
-        }
-        buttonsHtml += `<button class="btn-option btn-answer ${stateClass}" data-value="${opt}" ${p.answered?'disabled':''}>${opt} <span class="hotkey-hint">[${index+1}]</span></button>`;
+      let stateClass = '';
+      if (p.answered) {
+        const res = p.results[p.currentIndex];
+        if (opt === res.correct)                       stateClass = 'correct';
+        else if (opt === res.selected && opt !== res.correct) stateClass = 'incorrect';
+      }
+      buttonsHtml += `<button class="btn-option btn-answer ${stateClass}" data-value="${opt}" ${p.answered ? 'disabled' : ''}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
     });
 
     area.innerHTML = `
@@ -395,7 +398,7 @@ const App = {
         <div class="mt-1" style="display:${p.answered ? 'block' : 'none'};">
           ${p.answered ? `<div class="feedback ${p.results[p.currentIndex].selected === p.results[p.currentIndex].correct ? 'feedback-correct' : 'feedback-incorrect'}"><p>${q.explanation}</p></div>` : ''}
         </div>
-        <div class="mt-1 flex" style="justify-content:space-between; border-top: 1px solid #e2e8f0; padding-top: 1rem;">
+        <div class="mt-1 flex" style="justify-content:space-between; border-top:1px solid #e2e8f0; padding-top:1rem;">
           <button class="btn btn-outline btn-bookmark" data-question="${q.question}">${this.bookmarks.has(q.question) ? '★ Bookmarked' : '☆ Bookmark'}</button>
           ${p.answered ? `<button class="btn btn-primary btn-next">Next [Space]</button>` : `<button class="btn btn-danger btn-finish">End Early</button>`}
         </div>
@@ -404,7 +407,7 @@ const App = {
   },
   handlePracticeAnswer(selected) {
     if (this.practice.answered) return;
-    const q = this.practice.questions[this.practice.currentIndex];
+    const q        = this.practice.questions[this.practice.currentIndex];
     const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
     if (selected === correctVal) this.practice.score++;
     this.practice.results[this.practice.currentIndex] = { question: q.question, selected, correct: correctVal, explanation: q.explanation, subTopic: q.subTopic };
@@ -415,27 +418,26 @@ const App = {
     const p = this.practice;
     const subPerf = {};
     p.results.forEach(r => {
-      if(!subPerf[r.subTopic]) subPerf[r.subTopic] = { correct: 0, total: 0 };
+      if (!subPerf[r.subTopic]) subPerf[r.subTopic] = { correct: 0, total: 0 };
       subPerf[r.subTopic].total++;
-      if(r.selected === r.correct) subPerf[r.subTopic].correct++;
+      if (r.selected === r.correct) subPerf[r.subTopic].correct++;
     });
-    this.history.unshift({ mode:'Practice', score: p.score, total: p.total, percentage: p.total ? Math.round((p.score/p.total)*100) : 0, date: new Date().toISOString(), subPerf });
+    this.history.unshift({ mode: 'Practice', score: p.score, total: p.total, percentage: p.total ? Math.round((p.score / p.total) * 100) : 0, date: new Date().toISOString(), subPerf });
     this.saveData();
     document.getElementById('practice-area').innerHTML = `
       <div class="card text-center">
         <h2>Practice Complete</h2>
-        <div style="font-size:3rem; font-weight:800; color:#0b2b4a; margin:1rem 0;">${p.total ? Math.round((p.score/p.total)*100) : 0}%</div>
+        <div style="font-size:3rem; font-weight:800; color:#0b2b4a; margin:1rem 0;">${p.total ? Math.round((p.score / p.total) * 100) : 0}%</div>
         <p>${p.score} out of ${p.total}</p>
         <button class="btn btn-primary mt-1" onclick="App.showView('practice')">Practice Again</button>
       </div>
     `;
   },
 
-  // ---- EXAM MODE ----
+  // ── Exam Mode ──────────────────────────────────────────────────────────
   renderExamSetup() {
-    let qOptions = `<option value="10">10</option>`;
+    let qOptions = '';
     for (let i = 5; i <= 100; i += 5) qOptions += `<option value="${i}">${i}</option>`;
-
     return `
       <div class="container">
         <div class="card" id="exam-setup">
@@ -464,41 +466,38 @@ const App = {
   startExam() {
     const pool = this.shuffleArray(this.getFullyFilteredPool('exam'));
     if (!pool.length) return alert('No questions available.');
-
-    const count = Math.min(parseInt(document.getElementById('exam-question-count').value), pool.length);
+    const count    = Math.min(parseInt(document.getElementById('exam-question-count').value), pool.length);
     const duration = parseInt(document.getElementById('exam-duration').value) * 60;
-
     this.exam = { questions: pool.slice(0, count), currentIndex: 0, answers: new Array(count).fill(null), total: count, score: 0, started: true, finished: false, timer: duration, results: [] };
     document.getElementById('exam-setup').style.display = 'none';
-
     this.renderExamQuestion();
     this.exam.timerInterval = setInterval(() => {
       this.exam.timer--;
       const tDisp = document.getElementById('exam-timer-display');
-      if(tDisp) tDisp.textContent = this.formatTime(this.exam.timer);
-      if(this.exam.timer <= 0) this.finishExam(true);
+      if (tDisp) tDisp.textContent = this.formatTime(this.exam.timer);
+      if (this.exam.timer <= 0) this.finishExam(true);
     }, 1000);
   },
   renderExamQuestion() {
     const e = this.exam;
     if (e.finished || e.currentIndex >= e.total) return this.showExamReview();
-    const q = e.questions[e.currentIndex];
+    const q        = e.questions[e.currentIndex];
     const selected = e.answers[e.currentIndex];
 
     let buttonsHtml = '';
     const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
     options.forEach((opt, index) => {
-      buttonsHtml += `<button class="btn-option btn-exam-answer ${selected===opt?'selected':''}" data-value="${opt}">${opt} <span class="hotkey-hint">[${index+1}]</span></button>`;
+      buttonsHtml += `<button class="btn-option btn-exam-answer ${selected === opt ? 'selected' : ''}" data-value="${opt}">${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
     });
 
     document.getElementById('exam-area').innerHTML = `
-      <div class="card" style="border-top: 5px solid #b91c1c;">
+      <div class="card" style="border-top:5px solid #b91c1c;">
         <div class="flex" style="justify-content:space-between; align-items:center;">
           <span class="badge topic-badge">${q.course}</span>
           <div style="font-size:1.4rem; font-weight:700; color:#b91c1c;">⏱ <span id="exam-timer-display">${this.formatTime(e.timer)}</span></div>
         </div>
         <div class="timer-bar mt-1" style="height:6px;">
-           <div class="timer-fill" style="width:${(e.answers.filter(a=>a!==null).length/e.total)*100}%; background:#0b2b4a;"></div>
+          <div class="timer-fill" style="width:${(e.answers.filter(a => a !== null).length / e.total) * 100}%; background:#0b2b4a;"></div>
         </div>
         <p class="question-text">${q.question}</p>
         <div class="flex flex-col" style="margin-top:1.5rem; gap:0.5rem;">${buttonsHtml}</div>
@@ -510,48 +509,51 @@ const App = {
     `;
   },
   handleExamAnswer(val) {
-    if(this.exam.finished) return;
+    if (this.exam.finished) return;
     this.exam.answers[this.exam.currentIndex] = val;
     this.renderExamQuestion();
-    setTimeout(() => { if(!this.exam.finished && this.exam.currentIndex < this.exam.total - 1) { this.exam.currentIndex++; this.renderExamQuestion(); } else if (this.exam.currentIndex === this.exam.total - 1) { this.finishExam(); } }, 400);
+    setTimeout(() => {
+      if (!this.exam.finished && this.exam.currentIndex < this.exam.total - 1) {
+        this.exam.currentIndex++;
+        this.renderExamQuestion();
+      } else if (this.exam.currentIndex === this.exam.total - 1) {
+        this.finishExam();
+      }
+    }, 400);
   },
-  finishExam(timeout=false) {
-    if(this.exam.finished) return;
+  finishExam(timeout = false) {
+    if (this.exam.finished) return;
     clearInterval(this.exam.timerInterval);
     this.exam.finished = true;
-
     const subPerf = {};
-    for(let i=0; i<this.exam.total; i++) {
-       const q = this.exam.questions[i];
-       const sel = this.exam.answers[i];
-       const cor = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-       if(sel === cor) this.exam.score++;
-
-       if(!subPerf[q.subTopic]) subPerf[q.subTopic] = {correct:0, total:0};
-       subPerf[q.subTopic].total++;
-       if(sel === cor) subPerf[q.subTopic].correct++;
-
-       this.exam.results.push({ question: q.question, selected: sel, correct: cor, explanation: q.explanation });
+    for (let i = 0; i < this.exam.total; i++) {
+      const q   = this.exam.questions[i];
+      const sel = this.exam.answers[i];
+      const cor = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
+      if (sel === cor) this.exam.score++;
+      if (!subPerf[q.subTopic]) subPerf[q.subTopic] = { correct: 0, total: 0 };
+      subPerf[q.subTopic].total++;
+      if (sel === cor) subPerf[q.subTopic].correct++;
+      this.exam.results.push({ question: q.question, selected: sel, correct: cor, explanation: q.explanation });
     }
-    this.history.unshift({ mode:'Exam', score: this.exam.score, total: this.exam.total, percentage: Math.round((this.exam.score/this.exam.total)*100), date: new Date().toISOString(), subPerf });
+    this.history.unshift({ mode: 'Exam', score: this.exam.score, total: this.exam.total, percentage: Math.round((this.exam.score / this.exam.total) * 100), date: new Date().toISOString(), subPerf });
     this.saveData();
     this.showExamReview();
   },
   showExamReview() {
-    const e = this.exam;
-    const pct = Math.round((e.score/e.total)*100);
-    const incorrectHtml = e.results.filter(r => r.selected !== r.correct).map((r,i) => `
+    const e   = this.exam;
+    const pct = Math.round((e.score / e.total) * 100);
+    const incorrectHtml = e.results.filter(r => r.selected !== r.correct).map((r, i) => `
       <div class="card" style="background:#f8fafc; border:1px solid #e2e8f0;">
-        <p class="question-text" style="font-size:1.1rem; margin-top:0;"><strong>${i+1}.</strong> ${r.question}</p>
+        <p class="question-text" style="font-size:1.1rem; margin-top:0;"><strong>${i + 1}.</strong> ${r.question}</p>
         <p style="color:#b91c1c; font-weight:500;">Your answer: ${r.selected || 'Omitted'} <br> <span style="color:#16a34a;">Correct: ${r.correct}</span></p>
         <p class="mt-1" style="font-size:0.9rem;">${r.explanation}</p>
       </div>
     `).join('') || '<p>Perfect score!</p>';
-
     document.getElementById('exam-area').innerHTML = `
       <div class="card text-center">
         <h2>Exam Results</h2>
-        <div style="font-size:3rem; font-weight:700; color:${pct>=50?'#16a34a':'#b91c1c'}; margin:1rem 0;">${pct}%</div>
+        <div style="font-size:3rem; font-weight:700; color:${pct >= 50 ? '#16a34a' : '#b91c1c'}; margin:1rem 0;">${pct}%</div>
         <p>Final Score: ${e.score} / ${e.total}</p>
         <button class="btn btn-primary mt-1" onclick="App.showView('exam')">Take Another Exam</button>
       </div>
@@ -560,7 +562,7 @@ const App = {
     `;
   },
 
-  // ---- HISTORY ----
+  // ── History ────────────────────────────────────────────────────────────
   renderHistory() {
     return `
       <div class="container">
@@ -585,7 +587,7 @@ const App = {
     `;
   },
 
-  // ---- FLASHCARDS ----
+  // ── Flashcards ─────────────────────────────────────────────────────────
   startFlashcards() {
     const bQs = questions.filter(q => this.bookmarks.has(q.question));
     if (!bQs.length) return;
@@ -593,13 +595,12 @@ const App = {
     this.renderFlashcard();
   },
   renderFlashcard() {
-    const f = this.flashcard;
+    const f    = this.flashcard;
     const area = document.getElementById('flashcard-area');
     if (!area) return;
     if (!f.questions.length) { area.innerHTML = ''; return; }
-    const q = f.questions[f.currentIndex];
+    const q          = f.questions[f.currentIndex];
     const answerText = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-
     area.innerHTML = `
       <div class="card" style="text-align:center; min-height:220px; display:flex; flex-direction:column; justify-content:center;">
         <span class="progress-text" style="align-self:center; margin-bottom:1rem;">Card ${f.currentIndex + 1} / ${f.total}</span>
@@ -612,29 +613,29 @@ const App = {
         ` : `<button class="btn btn-outline btn-flip" style="align-self:center;">Tap or [Space] to Reveal</button>`}
       </div>
       <div class="flex mt-1" style="justify-content:space-between;">
-        <button class="btn btn-secondary btn-flash-prev" ${f.currentIndex===0?'disabled':''}>← Prev</button>
-        <button class="btn btn-secondary btn-flash-next" ${f.currentIndex>=f.total-1?'disabled':''}>Next →</button>
+        <button class="btn btn-secondary btn-flash-prev" ${f.currentIndex === 0 ? 'disabled' : ''}>← Prev</button>
+        <button class="btn btn-secondary btn-flash-next" ${f.currentIndex >= f.total - 1 ? 'disabled' : ''}>Next →</button>
       </div>
     `;
   },
 
-  // ---- Anki & Bookmarks ----
+  // ── Bookmarks & Anki ───────────────────────────────────────────────────
   renderBookmarks() {
     const bQs = questions.filter(q => this.bookmarks.has(q.question));
     return `
       <div class="container">
         <div class="card">
           <h2 class="card-title flex" style="justify-content:space-between;">Saved Questions
-            <button class="btn btn-success" id="export-anki" style="font-size:0.85rem; padding:0.4rem 0.8rem;" ${!bQs.length?'disabled':''}>Export to Anki (CSV)</button>
+            <button class="btn btn-success" id="export-anki" style="font-size:0.85rem; padding:0.4rem 0.8rem;" ${!bQs.length ? 'disabled' : ''}>Export to Anki (CSV)</button>
           </h2>
-          <button class="btn btn-primary mb-1" id="start-flashcards" ${!bQs.length?'disabled':''}>Study Flashcards</button>
+          <button class="btn btn-primary mb-1" id="start-flashcards" ${!bQs.length ? 'disabled' : ''}>Study Flashcards</button>
           <div id="flashcard-area" class="mt-1"></div>
           <div id="bookmark-list" class="mt-1" style="border-top:1px solid #e2e8f0; padding-top:1rem;">
             ${bQs.map(q => `
               <div style="background:#f8fafc; padding:1rem; border-radius:8px; border-left:4px solid #fbbf24; margin-bottom:0.75rem;">
                 <p style="font-weight:600;">${q.question}</p>
                 <div class="flex" style="justify-content:space-between; margin-top:0.5rem;">
-                  <span style="color:#16a34a; font-size:0.9rem; font-weight:700;">${q.type==='truefalse'?(q.answer?'True':'False'):q.correctAnswer}</span>
+                  <span style="color:#16a34a; font-size:0.9rem; font-weight:700;">${q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer}</span>
                   <button class="btn btn-danger btn-remove-bookmark" data-question="${q.question}" style="padding:0.2rem 0.6rem; font-size:0.8rem;">Remove</button>
                 </div>
               </div>
@@ -646,25 +647,24 @@ const App = {
   },
   exportAnkiCSV() {
     const bQs = questions.filter(q => this.bookmarks.has(q.question));
-    if(!bQs.length) return;
-    let csv = "Question,Answer,Explanation,Course,Topic,SubTopic\n";
+    if (!bQs.length) return;
+    let csv = 'Question,Answer,Explanation,Course,Topic,SubTopic\n';
     bQs.forEach(q => {
-        let ans = q.type === 'truefalse' ? (q.answer?'True':'False') : q.correctAnswer;
-        let row = `"${q.question.replace(/"/g, '""')}","${String(ans).replace(/"/g, '""')}","${q.explanation.replace(/"/g, '""')}","${q.course}","${q.topic}","${q.subTopic}"`;
-        csv += row + "\r\n";
+      const ans = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
+      csv += `"${q.question.replace(/"/g, '""')}","${String(ans).replace(/"/g, '""')}","${q.explanation.replace(/"/g, '""')}","${q.course}","${q.topic}","${q.subTopic}"\r\n`;
     });
     const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
-    const link = document.createElement("a");
-    link.href = URL.createObjectURL(blob);
-    link.download = "MedMaster_Anki_Deck.csv";
+    const link = document.createElement('a');
+    link.href     = URL.createObjectURL(blob);
+    link.download = 'MedMaster_Anki_Deck.csv';
     link.click();
   },
 
-  // ---- PEERJS MULTIPLAYER ENGINE ----
+  // ── Multiplayer UI Handlers ────────────────────────────────────────────
+
   renderMultiplayerSetup() {
     let qCountOptions = '';
-    for(let i=5; i<=100; i+=5) qCountOptions += `<option value="${i}">${i}</option>`;
-
+    for (let i = 5; i <= 100; i += 5) qCountOptions += `<option value="${i}">${i}</option>`;
     return `
       <div class="container">
         <div class="card" id="mp-lobby-ui">
@@ -700,337 +700,219 @@ const App = {
     `;
   },
 
-  generateRoomCode() { return Math.random().toString(36).substring(2, 6).toUpperCase(); },
-
-  createMultiplayerRoom() {
+  async handleCreateRoom() {
     const name = document.getElementById('mp-host-name').value.trim();
-    if(!name) return alert("Please enter a display name to host.");
-
-    const code = this.generateRoomCode();
+    if (!name) return alert('Please enter a display name to host.');
     const pool = this.shuffleArray(this.getFullyFilteredPool('mp'));
-    const qCount = parseInt(document.getElementById('mp-q-count').value);
+    if (pool.length < 5) return alert('Not enough questions match the selected filters!');
+    const qCount          = parseInt(document.getElementById('mp-q-count').value);
+    const questionDuration = parseInt(document.getElementById('mp-q-time').value);
+    const finalPool       = pool.slice(0, Math.min(qCount, pool.length));
 
-    if(pool.length < 5) return alert("Not enough questions match the selected filters!");
-
-    // Immediate UI Feedback
     document.getElementById('mp-lobby-ui').style.display = 'none';
-    this.mp = { peer: null, conn: null, connections: {}, isHost: true, inRoom: true, roomCode: code, playerName: name, myId: 'host',
-                players: [{id: 'host', name: name, score: 0, currentAnswer: null, answerTimeScore: 0}],
-                questions: pool.slice(0, Math.min(qCount, pool.length)), currentIndex: 0, timer: 0, state: 'CONNECTING',
-                questionDuration: parseInt(document.getElementById('mp-q-time').value),
-                answerLog: [] };
-    this.renderMpState();
+    document.getElementById('mp-area').innerHTML = this._mpConnectingHtml();
 
-    // Same guard as the guest path: if the library itself never loaded, fail visibly
-    // instead of letting `new Peer(...)` throw and leave the screen stuck on "Connecting...".
-    if (typeof Peer === 'undefined') {
-      this.showMpFatalError(
-        "Connection engine failed to load",
-        "The multiplayer library didn't load — this usually means your network is blocking it, you're offline, or an ad-blocker/extension stepped in. Try a different network (e.g. mobile data) or reload the page."
-      );
-      return;
-    }
-
-    // NOTE: do NOT pass { reliable: true } anywhere in this engine. That flag forces
-    // the heavier SCTP-based reliable channel, which is what was silently breaking the
-    // join handshake on mobile/restrictive networks. Plain unreliable (UDP-style) data
-    // channels connect far more reliably for this use case.
     try {
-      this.mp.peer = new Peer('medmaster-' + code, peerConfig);
-    } catch (err) {
-      console.error('Host peer construction failed:', err);
-      this.showMpFatalError("Couldn't create the room", "Something went wrong starting the network engine. Reloading the page usually fixes this.");
-      return;
-    }
-
-    this.mp.peer.on('open', () => {
-      this.mp.state = 'LOBBY';
+      await mp_createRoom(name, finalPool, questionDuration);
+      // applyState / renderMpState will be called by the subscription on first write,
+      // but we also render immediately so the host sees the lobby right away.
       this.renderMpState();
-    });
-
-    this.mp.peer.on('error', (err) => {
-      console.error('Host peer error:', err);
-      this.showMpFatalError("Couldn't create the room", "Please check your internet connection and try again. If this keeps happening, your network may be blocking the connection.");
-    });
-
-    this.mp.peer.on('connection', (conn) => {
-      conn.on('data', (data) => {
-        if(data.type === 'JOIN') {
-          this.mp.connections[conn.peer] = conn;
-          if(!this.mp.players.find(p => p.id === conn.peer)) {
-             this.mp.players.push({id: conn.peer, name: data.name, score: 0, currentAnswer: null, answerTimeScore: 0});
-          }
-          this.broadcastMpState();
-        } else if (data.type === 'ANSWER' && this.mp.state === 'QUESTION') {
-          const player = this.mp.players.find(p => p.id === conn.peer);
-          if(player && !player.currentAnswer) {
-             player.currentAnswer = data.answer;
-             const timeTaken = (Date.now() - this.mp.questionStartTime) / 1000;
-             const pct = Math.max(0, 1 - (timeTaken / this.mp.questionDuration));
-             player.answerTimeScore = Math.floor(100 + (900 * pct));
-             if(this.mp.players.every(p => p.currentAnswer)) { clearInterval(this.mp.timerInterval); this.hostResolveQuestion(); }
-             else { this.renderMpState(); this.broadcastAnswerCount(); }
-          }
-        }
-      });
-      conn.on('close', () => {
-        this.mp.players = this.mp.players.filter(p => p.id !== conn.peer);
-        delete this.mp.connections[conn.peer];
-        this.broadcastMpState();
-      });
-    });
+    } catch (err) {
+      this.showMpFatalError('Could not create room', err.message);
+    }
   },
 
-  // Lets guests see the live "answers in: X / Y" counter without waiting for a full state sync
-  broadcastAnswerCount() {
-    if(!this.mp.isHost) return;
-    const payload = { type: 'ANSWER_COUNT', count: this.mp.players.filter(p=>p.currentAnswer).length, total: this.mp.players.length };
-    Object.values(this.mp.connections).forEach(conn => { if(conn.open) conn.send(payload); });
-  },
-
-  joinMultiplayerRoom() {
+  async handleJoinRoom() {
     const name = document.getElementById('mp-join-name').value.trim();
     const code = document.getElementById('mp-join-code').value.trim().toUpperCase();
-    if(!name || !code) return alert("Please enter your name and a room code.");
+    if (!name || !code) return alert('Please enter your name and a room code.');
 
-    // Immediate UI Feedback — render BEFORE touching PeerJS in any way. Anything that can
-    // throw (including just constructing `new Peer(...)`) must happen AFTER this, or a
-    // synchronous error here leaves the screen blank with nothing rendered to replace the
-    // lobby UI we just hid.
     document.getElementById('mp-lobby-ui').style.display = 'none';
-    this.mp = { peer: null, conn: null, connections: {}, isHost: false, inRoom: true, playerName: name, myId: '',
-                players: [], questions: [], currentIndex: 0, timer: 0, timerInterval: null, state: 'CONNECTING',
-                questionDuration: 20, questionStartTime: 0, answerLog: [] };
-    this.renderMpState();
+    document.getElementById('mp-area').innerHTML = this._mpConnectingHtml();
 
-    // Guard 1: the PeerJS library itself failed to load (blocked CDN, offline, ad-blocker,
-    // restrictive school/work network). This is the most common real-world cause of a dead
-    // join screen, so detect it explicitly rather than letting `new Peer(...)` throw blind.
-    if (typeof Peer === 'undefined') {
-      this.showMpFatalError(
-        "Connection engine failed to load",
-        "The multiplayer library didn't load — this usually means your network is blocking it, you're offline, or an ad-blocker/extension stepped in. Try a different network (e.g. mobile data) or reload the page."
-      );
-      return;
-    }
-
-    // Guard 2: catch any other synchronous construction error instead of letting it crash silently.
-    let peer;
     try {
-      peer = new Peer(peerConfig);
+      await mp_joinRoom(name, code);
+      this.renderMpState();
     } catch (err) {
-      console.error('Peer construction failed:', err);
-      this.showMpFatalError("Couldn't start the connection", "Something went wrong starting the network engine. Reloading the page usually fixes this.");
-      return;
+      this.showMpFatalError('Could not join room', err.message);
     }
-    this.mp.peer = peer;
-
-    // Fallback if connection hangs entirely (covers cases where 'open'/'connect' never fires).
-    // 20s instead of 12s: TURN relay negotiation (especially the TCP-over-443 fallback) is
-    // slower than a direct STUN handshake, so a short timeout would cut off connections that
-    // were about to succeed via the relay.
-    let settled = false;
-    let timeoutFallback = setTimeout(() => {
-        if (settled) return;
-        this.showMpFatalError(
-          "Connection timed out",
-          "Couldn't reach the host after 20 seconds. Double-check the room code, confirm the host's room is still open, and try again. If this keeps happening on this network, try switching to mobile data or a different WiFi."
-        );
-        this.mp.peer.destroy();
-    }, 20000);
-
-    this.mp.peer.on('open', (id) => {
-      this.mp.myId = id;
-      // IMPORTANT: no { reliable: true } here — see note in createMultiplayerRoom().
-      this.mp.conn = this.mp.peer.connect('medmaster-' + code);
-
-      this.mp.conn.on('open', () => {
-        settled = true;
-        clearTimeout(timeoutFallback);
-        this.mp.conn.send({type: 'JOIN', name: name});
-      });
-
-      this.mp.conn.on('data', (data) => {
-        if(data.type === 'SYNC') {
-           this.mp.state = data.state;
-           this.mp.players = data.players;
-           if(data.state === 'QUESTION') {
-              this.mp.currentQuestion = data.question;
-              this.mp.currentIndex = data.questionIndex;
-              this.mp.totalQuestions = data.totalQuestions;
-              this.mp.questionDuration = data.duration;
-              this.mp.myLastAnswer = null;
-              this.startGuestTimer(data.duration);
-           }
-           if(data.state === 'REVEAL') {
-              this.mp.currentQuestion = data.question;
-              this.mp.groupAccuracy = data.groupAccuracy;
-              // Build my own personalized log entry locally — the host only knows ITS answer,
-              // not mine, so personalization for the review page must happen on each client.
-              const q = data.question;
-              const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-              this.mp.answerLog.push({
-                question: q.question, correctAnswer: correctVal, explanation: q.explanation,
-                myAnswer: this.mp.myLastAnswer || null,
-                groupAccuracy: data.groupAccuracy, correctCount: data.correctCount, totalPlayers: data.totalPlayers
-              });
-           }
-           if(data.state === 'REVIEW') {
-              // Keep my locally-built personalized log; only adopt the host's log as a fallback
-              // (e.g. if I reconnected mid-game and missed some REVEAL broadcasts).
-              if (!this.mp.answerLog.length && data.answerLog) this.mp.answerLog = data.answerLog;
-           }
-           this.renderMpState();
-        } else if (data.type === 'ANSWER_COUNT') {
-           const el = document.getElementById('mp-answer-count');
-           if (el) el.textContent = `Answers in: ${data.count} / ${data.total}`;
-        }
-      });
-
-      this.mp.conn.on('close', () => {
-          this.showMpFatalError("Host disconnected", "The host's room has closed or the connection dropped.");
-      });
-
-      this.mp.conn.on('error', (err) => {
-          console.error('Connection error:', err);
-      });
-    });
-
-    this.mp.peer.on('error', (err) => {
-      settled = true;
-      clearTimeout(timeoutFallback);
-      console.error('Guest peer error:', err);
-      this.showMpFatalError("Couldn't connect", "The room code might be incorrect, or the host's room has closed.");
-    });
   },
 
-  broadcastMpState() {
-    if(!this.mp.isHost) return;
-    const payload = { type: 'SYNC', state: this.mp.state, players: this.mp.players };
-    if(this.mp.state === 'QUESTION') {
-      payload.question = this.mp.questions[this.mp.currentIndex];
-      payload.questionIndex = this.mp.currentIndex;
-      payload.totalQuestions = this.mp.questions.length;
-      payload.duration = this.mp.questionDuration;
-    }
-    if(this.mp.state === 'REVEAL') {
-      payload.question = this.mp.questions[this.mp.currentIndex];
-      payload.groupAccuracy = this.mp.groupAccuracy;
-      payload.correctCount = this.mp.lastCorrectCount;
-      payload.totalPlayers = this.mp.players.length;
-    }
-    if(this.mp.state === 'REVIEW') {
-      payload.answerLog = this.mp.answerLog; // fallback only, see guest-side handling
-    }
-
-    Object.values(this.mp.connections).forEach(conn => { if(conn.open) conn.send(payload); });
-    this.renderMpState();
+  async handleHostStartGame() {
+    if (!this.mp.isHost) return;
+    await mp_hostStartGame();
   },
 
-  hostStartGame() {
-    this.mp.state = 'QUESTION';
-    this.mp.currentIndex = 0;
-    this.hostIssueQuestion();
+  async handleHostNextQuestion() {
+    if (!this.mp.isHost) return;
+    await mp_hostNextQuestion();
   },
 
-  hostIssueQuestion() {
-    this.mp.players.forEach(p => { p.currentAnswer = null; p.answerTimeScore = 0; });
-    this.mp.state = 'QUESTION';
-    this.mp.questionStartTime = Date.now();
-    this.broadcastMpState();
+  async handleMpAnswer(answer) {
+    const m  = this.mp;
+    const me = m.players.find(p => p.id === m.myId);
+    if (me?.currentAnswer) return;   // already answered
 
-    this.mp.timer = this.mp.questionDuration;
-    clearInterval(this.mp.timerInterval);
-    this.mp.timerInterval = setInterval(() => {
-        this.mp.timer--;
-        this.updateMpTimerDisplay();
-        if(this.mp.timer <= 0) { clearInterval(this.mp.timerInterval); this.hostResolveQuestion(); }
-    }, 1000);
-  },
-
-  hostResolveQuestion() {
-    const q = this.mp.questions[this.mp.currentIndex];
-    const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-
-    this.mp.players.forEach(p => {
-      // Initialize per-player tracking counters on first use
-      if (p.correctCount === undefined) { p.correctCount = 0; p.wrongCount = 0; p.skippedCount = 0; }
-      if (!p.currentAnswer) {
-        p.skippedCount++;
-      } else if (p.currentAnswer === correctVal) {
-        p.score += p.answerTimeScore;
-        p.correctCount++;
-      } else {
-        p.wrongCount++;
+    if (m.isHost) {
+      // Host answers locally then checks if everyone is done.
+      const p = m.players.find(p => p.id === m.myId);
+      if (p) {
+        p.currentAnswer = answer;
+        const timeTaken = (Date.now() - m.questionStartTime) / 1000;
+        const pct       = Math.max(0, 1 - (timeTaken / m.questionDuration));
+        p.answerTimeScore = Math.floor(100 + 900 * pct);
       }
-      const totalSeen = p.correctCount + p.wrongCount + p.skippedCount;
-      p.accuracy = totalSeen > 0 ? Math.round((p.correctCount / totalSeen) * 100) : 0;
-    });
-    this.mp.players.sort((a,b) => b.score - a.score);
-
-    const correctCount = this.mp.players.filter(p => p.currentAnswer === correctVal).length;
-    this.mp.groupAccuracy = this.mp.players.length ? Math.round((correctCount / this.mp.players.length) * 100) : 0;
-    this.mp.lastCorrectCount = correctCount;
-
-    // Log this question + the host's own answer for the personalized review later
-    const hostPlayer = this.mp.players.find(p => p.id === 'host');
-    this.mp.answerLog.push({
-      question: q.question, correctAnswer: correctVal, explanation: q.explanation,
-      myAnswer: hostPlayer ? hostPlayer.currentAnswer : null,
-      groupAccuracy: this.mp.groupAccuracy, correctCount, totalPlayers: this.mp.players.length
-    });
-
-    this.mp.state = 'REVEAL';
-    this.broadcastMpState();
-  },
-
-  hostNextQuestion() {
-    this.mp.currentIndex++;
-    if(this.mp.currentIndex >= this.mp.questions.length) { this.mp.state = 'REVIEW'; this.broadcastMpState(); }
-    else { this.hostIssueQuestion(); }
-  },
-
-  guestSubmitAnswer(ans) {
-    const myPlayer = this.mp.players.find(p => p.id === this.mp.myId);
-    if(myPlayer && myPlayer.currentAnswer) return;
-
-    if(this.mp.isHost) {
-       const p = this.mp.players.find(p => p.id === 'host');
-       p.currentAnswer = ans;
-       const timeTaken = (Date.now() - this.mp.questionStartTime) / 1000;
-       const pct = Math.max(0, 1 - (timeTaken / this.mp.questionDuration));
-       p.answerTimeScore = Math.floor(100 + (900 * pct));
-       if(this.mp.players.every(p => p.currentAnswer)) { clearInterval(this.mp.timerInterval); this.hostResolveQuestion(); }
-       else { this.renderMpState(); this.broadcastAnswerCount(); }
+      m.myLastAnswer = answer;
+      this.renderMpState();
+      if (m.players.every(p => p.currentAnswer)) {
+        clearInterval(m._hostTimerInterval);
+        m._hostTimerInterval = null;
+        await mp_hostResolveQuestion();
+      }
     } else {
-       if(myPlayer) myPlayer.currentAnswer = ans;
-       // Track my own answer locally too, in case the host's REVEAL payload doesn't include it
-       this.mp.myLastAnswer = ans;
-       this.mp.conn.send({type: 'ANSWER', answer: ans});
-       this.renderMpState();
+      await mp_submitGuestAnswer(answer);
     }
   },
 
-  startGuestTimer(duration) {
-    this.mp.timer = duration;
-    clearInterval(this.mp.timerInterval);
-    this.mp.timerInterval = setInterval(() => {
-        this.mp.timer--;
-        this.updateMpTimerDisplay();
-        if(this.mp.timer <= 0) clearInterval(this.mp.timerInterval);
-    }, 1000);
+  _mpConnectingHtml() {
+    return `
+      <div class="card text-center" style="padding:4rem 1rem;">
+        <h2 style="color:#0b2b4a;">Connecting…</h2>
+        <p class="text-muted mt-1">Reaching the server — usually instant.</p>
+      </div>
+    `;
   },
 
-  // Renders/updates the circular pulsing timer ring (id="mp-timer-ring") in place, without a full re-render
+  showMpFatalError(title, message) {
+    clearInterval(this.mp.timerInterval);
+    const area    = document.getElementById('mp-area');
+    const lobbyUi = document.getElementById('mp-lobby-ui');
+    if (lobbyUi) lobbyUi.style.display = 'none';
+    if (area) {
+      area.innerHTML = `
+        <div class="card text-center" style="border-top:4px solid #dc2626;">
+          <h2 style="color:#dc2626;">${title}</h2>
+          <p class="text-muted mt-1">${message}</p>
+          <button class="btn btn-primary mt-1" onclick="App.showView('multiplayer')">Back to Lobby</button>
+        </div>
+      `;
+    } else {
+      alert(`${title}: ${message}`);
+    }
+  },
+
+  // ── Multiplayer Render ─────────────────────────────────────────────────
+
+  renderMpState() {
+    const area = document.getElementById('mp-area');
+    if (!area) return;
+    const m = this.mp;
+
+    const leaderboardHtml = `
+      <ul class="mp-leaderboard">
+        ${m.players.map((p, i) => `
+          <li class="${p.id === m.myId ? 'is-me' : ''} rank-${i + 1}">
+            <span>${i + 1}. ${p.name}${p.id === m.myId ? ' (You)' : ''}</span>
+            <span class="score-badge">${p.score}</span>
+          </li>
+        `).join('')}
+      </ul>
+    `;
+
+    switch (m.state) {
+      case 'CONNECTING':
+        area.innerHTML = this._mpConnectingHtml();
+        break;
+
+      case 'LOBBY':
+        area.innerHTML = `
+          <div class="card text-center">
+            <h2>Waiting in Lobby</h2>
+            ${m.isHost ? `<div class="room-code-display">${m.roomCode}</div><p>Tell friends to join using this code!</p>` : `<p>Connected! Waiting for host to start…</p>`}
+            <ul class="player-list">${m.players.map(p => `<li class="player-tag ${p.id === m.myId ? 'is-me' : ''}">${p.name}</li>`).join('')}</ul>
+            ${m.isHost ? `<button class="btn btn-success mt-1 btn-mp-start-game" ${m.players.length < 1 ? 'disabled' : ''}>Start Game</button>` : ''}
+          </div>
+        `;
+        break;
+
+      case 'QUESTION': {
+        const q             = m.isHost ? m.questions[m.currentIndex] : (m.currentQuestion ?? m.questions[m.currentIndex]);
+        const totalQuestions = m.isHost ? m.questions.length : (m.totalQuestions || m.questions.length || '?');
+        const me            = m.players.find(p => p.id === m.myId);
+        if (!q) break;
+        let buttonsHtml = '';
+        const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
+        options.forEach((opt, index) => {
+          buttonsHtml += `<button class="btn-option btn-mp-answer ${me?.currentAnswer === opt ? 'selected' : ''}" data-value="${opt}" ${me?.currentAnswer ? 'disabled' : ''}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
+        });
+        area.innerHTML = `
+          <div class="mp-layout">
+            <div class="card mp-main">
+              ${this.renderCircularTimer()}
+              <div class="flex" style="justify-content:space-between;">
+                <span class="badge topic-badge">${q.course}</span>
+                <span class="progress-text">Q ${m.currentIndex + 1} / ${totalQuestions}</span>
+              </div>
+              <p class="question-text">${q.question}</p>
+              <div class="mt-1">${buttonsHtml}</div>
+              <p class="answer-progress-text" id="mp-answer-count">Answers in: ${m.players.filter(p => p.currentAnswer).length} / ${m.players.length}</p>
+            </div>
+            <div class="card mp-sidebar">
+              <h3 class="card-title text-center">Live Standings</h3>
+              ${leaderboardHtml}
+            </div>
+          </div>
+        `;
+        this.updateMpTimerDisplay();
+        break;
+      }
+
+      case 'REVEAL': {
+        const q         = m.isHost ? m.questions[m.currentIndex] : (m.currentQuestion ?? m.questions[m.currentIndex]);
+        if (!q) break;
+        const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
+        const me         = m.players.find(p => p.id === m.myId);
+        const myAnswer   = me?.currentAnswer || m.myLastAnswer;
+        const isCorrect  = myAnswer === correctVal;
+        area.innerHTML = `
+          <div class="mp-layout">
+            <div class="card mp-main">
+              <div class="feedback ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'} text-center" style="margin-top:0;">
+                <h2 style="margin:0;">${isCorrect ? `+${me?.answerTimeScore || 0} Points!` : (myAnswer ? 'Incorrect' : "Time's Up — No Answer")}</h2>
+                <p><strong>Correct Answer:</strong> ${correctVal}</p>
+                <p class="group-accuracy-badge mt-1">Group Accuracy: ${m.groupAccuracy}%</p>
+              </div>
+              <p class="question-text">${q.question}</p>
+              <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;">
+                <strong style="color:#0b2b4a; display:block; margin-bottom:0.5rem; font-size:1.1rem;">Explanation:</strong>
+                <p>${q.explanation}</p>
+              </div>
+              ${m.isHost ? `<button class="btn btn-primary mt-1 btn-mp-host-next" style="width:100%;">Next Question</button>` : `<p class="text-center text-muted mt-1">Waiting for host…</p>`}
+            </div>
+            <div class="card mp-sidebar">
+              <h3 class="card-title text-center">Live Standings</h3>
+              ${leaderboardHtml}
+            </div>
+          </div>
+        `;
+        break;
+      }
+
+      case 'REVIEW':
+        area.innerHTML = this.renderTournamentSummary();
+        break;
+    }
+  },
+
+  // Renders/updates the circular pulsing timer ring without a full re-render
   updateMpTimerDisplay() {
     const wrapper = document.getElementById('mp-timer-wrapper');
-    const path = document.getElementById('mp-timer-path');
-    const text = document.getElementById('mp-timer-text');
+    const path    = document.getElementById('mp-timer-path');
+    const text    = document.getElementById('mp-timer-text');
     if (!wrapper || !path || !text) return;
-    const duration = this.mp.questionDuration;
-    const remaining = Math.max(0, this.mp.timer);
-    const circumference = 2 * Math.PI * 38; // r=38
-    const pct = remaining / duration;
+    const circumference = 2 * Math.PI * 38;
+    const remaining     = Math.max(0, this.mp.timer);
+    const pct           = remaining / this.mp.questionDuration;
     path.style.strokeDashoffset = `${circumference * (1 - pct)}`;
     text.textContent = remaining;
     wrapper.classList.toggle('timer-urgent', remaining <= 5);
@@ -1041,7 +923,7 @@ const App = {
     return `
       <div class="circular-timer-wrapper" id="mp-timer-wrapper">
         <svg class="timer-svg" viewBox="0 0 88 88">
-          <circle class="timer-bg" cx="44" cy="44" r="38"></circle>
+          <circle class="timer-bg"   cx="44" cy="44" r="38"></circle>
           <circle class="timer-path" id="mp-timer-path" cx="44" cy="44" r="38"
             stroke-dasharray="${circumference}" stroke-dashoffset="0"></circle>
         </svg>
@@ -1050,130 +932,19 @@ const App = {
     `;
   },
 
-  showMpFatalError(title, message) {
-    clearInterval(this.mp.timerInterval);
-    const area = document.getElementById('mp-area');
-    const lobbyUi = document.getElementById('mp-lobby-ui');
-    if (lobbyUi) lobbyUi.style.display = 'none';
-    if (area) {
-      area.innerHTML = `
-        <div class="card text-center" style="border-top:4px solid #dc2626;">
-          <h2 style="color:#dc2626;">${title}</h2>
-          <p class="text-muted mt-1">${message}</p>
-          <button class="btn btn-primary mt-1" onclick="App.showView('multiplayer')">Back to Lobby</button>
-        </div>`;
-    } else {
-      // Fallback for the rare case mp-area itself isn't in the DOM (e.g. user navigated away)
-      alert(`${title}: ${message}`);
-    }
-  },
-
-  renderMpState() {
-    const area = document.getElementById('mp-area');
-    if (!area) return;
-    const m = this.mp;
-
-    const leaderboardHtml = `
-      <ul class="mp-leaderboard">
-        ${m.players.map((p,i) => `<li class="${p.id===m.myId?'is-me':''} rank-${i+1}"><span>${i+1}. ${p.name} ${p.id===m.myId?'(You)':''}</span> <span class="score-badge">${p.score}</span></li>`).join('')}
-      </ul>
-    `;
-
-    if(m.state === 'CONNECTING') {
-       area.innerHTML = `
-         <div class="card text-center" style="padding:4rem 1rem;">
-           <h2 style="color:#0b2b4a;">Connecting to Server...</h2>
-           <p class="text-muted mt-1">Establishing connection — this can take up to 20 seconds on some networks.</p>
-         </div>`;
-    }
-    else if(m.state === 'LOBBY') {
-       area.innerHTML = `
-         <div class="card text-center">
-           <h2>Waiting in Lobby</h2>
-           ${m.isHost ? `<div class="room-code-display">${m.roomCode}</div><p>Tell friends to join using this code!</p>` : `<p>Connected! Waiting for host to start...</p>`}
-           <ul class="player-list">${m.players.map(p => `<li class="player-tag ${p.id===m.myId?'is-me':''}">${p.name}</li>`).join('')}</ul>
-           ${m.isHost ? `<button class="btn btn-success mt-1 btn-mp-start-game" ${m.players.length<1?'disabled':''}>Start Game</button>` : ''}
-         </div>
-       `;
-    }
-    else if(m.state === 'QUESTION') {
-       const q = m.isHost ? m.questions[m.currentIndex] : m.currentQuestion;
-       const totalQuestions = m.isHost ? m.questions.length : (m.totalQuestions || '?');
-       const me = m.players.find(p => p.id === m.myId);
-
-       let buttonsHtml = '';
-       const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
-       options.forEach((opt, index) => {
-          buttonsHtml += `<button class="btn-option btn-mp-answer ${me?.currentAnswer===opt?'selected':''}" data-value="${opt}" ${me?.currentAnswer?'disabled':''}>${opt} <span class="hotkey-hint">[${index+1}]</span></button>`;
-       });
-
-       area.innerHTML = `
-         <div class="mp-layout">
-           <div class="card mp-main">
-             ${this.renderCircularTimer()}
-             <div class="flex" style="justify-content:space-between;">
-               <span class="badge topic-badge">${q.course}</span>
-               <span class="progress-text">Q ${m.currentIndex + 1} / ${totalQuestions}</span>
-             </div>
-             <p class="question-text">${q.question}</p>
-             <div class="mt-1">${buttonsHtml}</div>
-             <p class="answer-progress-text" id="mp-answer-count">Answers in: ${m.players.filter(p=>p.currentAnswer).length} / ${m.players.length}</p>
-           </div>
-           <div class="card mp-sidebar">
-             <h3 class="card-title text-center">Live Standings</h3>
-             ${leaderboardHtml}
-           </div>
-         </div>
-       `;
-       this.updateMpTimerDisplay();
-    }
-    else if(m.state === 'REVEAL') {
-       const q = m.isHost ? m.questions[m.currentIndex] : m.currentQuestion;
-       const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
-       const me = m.players.find(p => p.id === m.myId);
-       const myAnswer = me?.currentAnswer || m.myLastAnswer;
-       const isCorrect = myAnswer === correctVal;
-
-       area.innerHTML = `
-         <div class="mp-layout">
-           <div class="card mp-main">
-             <div class="feedback ${isCorrect ? 'feedback-correct' : 'feedback-incorrect'} text-center" style="margin-top:0;">
-                <h2 style="margin:0;">${isCorrect ? `+${me?.answerTimeScore || 0} Points!` : (myAnswer ? 'Incorrect' : 'Time\'s Up — No Answer')}</h2>
-                <p><strong>Correct Answer:</strong> ${correctVal}</p>
-                <p class="group-accuracy-badge mt-1">Group Accuracy: ${m.groupAccuracy}%</p>
-             </div>
-             <p class="question-text">${q.question}</p>
-             <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;">
-                <strong style="color:#0b2b4a; display:block; margin-bottom:0.5rem; font-size:1.1rem;">Explanation:</strong>
-                <p>${q.explanation}</p>
-             </div>
-             ${m.isHost ? `<button class="btn btn-primary mt-1 btn-mp-host-next" style="width:100%;">Next Question</button>` : `<p class="text-center text-muted mt-1">Waiting for host...</p>`}
-           </div>
-           <div class="card mp-sidebar">
-             <h3 class="card-title text-center">Live Standings</h3>
-             ${leaderboardHtml}
-           </div>
-         </div>
-       `;
-    }
-    else if(m.state === 'REVIEW') {
-       area.innerHTML = this.renderTournamentSummary();
-    }
-  },
-
   renderTournamentSummary() {
-    const m = this.mp;
-    const ranked = [...m.players].sort((a,b) => b.score - a.score);
+    const m          = this.mp;
+    const ranked     = [...m.players].sort((a, b) => b.score - a.score);
     const podiumOrder = ranked.slice(0, 3);
-    const rest = ranked.slice(3);
+    const rest       = ranked.slice(3);
 
     const podiumHtml = podiumOrder.map((p, i) => {
-      const cls = i === 0 ? 'gold' : i === 1 ? 'silver' : 'bronze';
+      const cls   = i === 0 ? 'gold'   : i === 1 ? 'silver' : 'bronze';
       const medal = i === 0 ? '🥇' : i === 1 ? '🥈' : '🥉';
       return `
         <div class="podium-place ${cls}">
           <div class="podium-rank">${medal}</div>
-          <div class="podium-name">${p.name}${p.id===m.myId?' (You)':''}</div>
+          <div class="podium-name">${p.name}${p.id === m.myId ? ' (You)' : ''}</div>
           <div class="podium-score">${p.score} pts</div>
         </div>
       `;
@@ -1181,29 +952,29 @@ const App = {
 
     const restHtml = rest.length ? `
       <ul class="mp-leaderboard" style="max-width:500px; margin:1rem auto 0;">
-        ${rest.map((p,i) => `<li class="${p.id===m.myId?'is-me':''}"><span>${i+4}. ${p.name}${p.id===m.myId?' (You)':''}</span><span class="score-badge">${p.score}</span></li>`).join('')}
+        ${rest.map((p, i) => `<li class="${p.id === m.myId ? 'is-me' : ''}"><span>${i + 4}. ${p.name}${p.id === m.myId ? ' (You)' : ''}</span><span class="score-badge">${p.score}</span></li>`).join('')}
       </ul>` : '';
 
     const statsRows = ranked.map(p => `
-        <tr class="${p.id===m.myId?'is-me':''}">
-          <td>${p.name}${p.id===m.myId?' (You)':''}</td>
-          <td class="score-cell">${p.score}</td>
-          <td>${p.accuracy ?? 0}%</td>
-          <td>${p.correctCount ?? 0}</td>
-          <td>${p.wrongCount ?? 0}</td>
-          <td>${p.skippedCount ?? 0}</td>
-        </tr>
-      `).join('');
+      <tr class="${p.id === m.myId ? 'is-me' : ''}">
+        <td>${p.name}${p.id === m.myId ? ' (You)' : ''}</td>
+        <td class="score-cell">${p.score}</td>
+        <td>${p.accuracy ?? 0}%</td>
+        <td>${p.correctCount  ?? 0}</td>
+        <td>${p.wrongCount    ?? 0}</td>
+        <td>${p.skippedCount  ?? 0}</td>
+      </tr>
+    `).join('');
 
     const reviewHtml = m.answerLog.map((entry, i) => {
       const passed = entry.myAnswer === entry.correctAnswer;
-      const tag = entry.myAnswer
+      const tag    = entry.myAnswer
         ? (passed ? `<span class="personal-feedback-tag passed">You got this correct! ✅</span>` : `<span class="personal-feedback-tag failed">Your Answer: ${entry.myAnswer} ❌</span>`)
         : `<span class="personal-feedback-tag failed">No Answer Submitted ❌</span>`;
       return `
         <div class="review-item">
           <div class="review-question-header">
-            <p class="question-text" style="margin:0; font-size:1.1rem;"><strong>${i+1}.</strong> ${entry.question}</p>
+            <p class="question-text" style="margin:0; font-size:1.1rem;"><strong>${i + 1}.</strong> ${entry.question}</p>
             <span class="group-accuracy-badge">${entry.correctCount}/${entry.totalPlayers} got this right (${entry.groupAccuracy}%)</span>
           </div>
           <p class="review-correct-answer">Correct Answer: ${entry.correctAnswer}</p>
@@ -1222,7 +993,6 @@ const App = {
         <div class="podium-wrapper">${podiumHtml}</div>
         ${restHtml}
       </div>
-
       <div class="card">
         <h3 class="card-title">Player Statistics</h3>
         <div class="stats-table-wrapper">
@@ -1232,17 +1002,15 @@ const App = {
           </table>
         </div>
       </div>
-
       <div class="card">
         <h3 class="card-title">Question Review</h3>
         ${reviewHtml}
       </div>
-
       <div class="card text-center">
         <button class="btn btn-primary" onclick="App.showView('multiplayer')">Exit Lobby</button>
       </div>
     `;
-  }
+  },
 };
 
 document.addEventListener('DOMContentLoaded', () => App.init());
