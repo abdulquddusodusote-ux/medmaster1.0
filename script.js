@@ -700,11 +700,27 @@ const App = {
                 answerLog: [] };
     this.renderMpState();
 
+    // Same guard as the guest path: if the library itself never loaded, fail visibly
+    // instead of letting `new Peer(...)` throw and leave the screen stuck on "Connecting...".
+    if (typeof Peer === 'undefined') {
+      this.showMpFatalError(
+        "Connection engine failed to load",
+        "The multiplayer library didn't load — this usually means your network is blocking it, you're offline, or an ad-blocker/extension stepped in. Try a different network (e.g. mobile data) or reload the page."
+      );
+      return;
+    }
+
     // NOTE: do NOT pass { reliable: true } anywhere in this engine. That flag forces
     // the heavier SCTP-based reliable channel, which is what was silently breaking the
     // join handshake on mobile/restrictive networks. Plain unreliable (UDP-style) data
     // channels connect far more reliably for this use case.
-    this.mp.peer = new Peer('medmaster-' + code, peerConfig);
+    try {
+      this.mp.peer = new Peer('medmaster-' + code, peerConfig);
+    } catch (err) {
+      console.error('Host peer construction failed:', err);
+      this.showMpFatalError("Couldn't create the room", "Something went wrong starting the network engine. Reloading the page usually fixes this.");
+      return;
+    }
 
     this.mp.peer.on('open', () => {
       this.mp.state = 'LOBBY';
@@ -713,8 +729,7 @@ const App = {
 
     this.mp.peer.on('error', (err) => {
       console.error('Host peer error:', err);
-      alert("Failed to create room. Please check your internet connection.");
-      this.showView('multiplayer');
+      this.showMpFatalError("Couldn't create the room", "Please check your internet connection and try again. If this keeps happening, your network may be blocking the connection.");
     });
 
     this.mp.peer.on('connection', (conn) => {
@@ -757,20 +772,44 @@ const App = {
     const code = document.getElementById('mp-join-code').value.trim().toUpperCase();
     if(!name || !code) return alert("Please enter your name and a room code.");
 
-    // Immediate UI Feedback
+    // Immediate UI Feedback — render BEFORE touching PeerJS in any way. Anything that can
+    // throw (including just constructing `new Peer(...)`) must happen AFTER this, or a
+    // synchronous error here leaves the screen blank with nothing rendered to replace the
+    // lobby UI we just hid.
     document.getElementById('mp-lobby-ui').style.display = 'none';
-    this.mp = { peer: new Peer(peerConfig), conn: null, connections: {}, isHost: false, inRoom: true, playerName: name, myId: '',
+    this.mp = { peer: null, conn: null, connections: {}, isHost: false, inRoom: true, playerName: name, myId: '',
                 players: [], questions: [], currentIndex: 0, timer: 0, timerInterval: null, state: 'CONNECTING',
                 questionDuration: 20, questionStartTime: 0, answerLog: [] };
     this.renderMpState();
+
+    // Guard 1: the PeerJS library itself failed to load (blocked CDN, offline, ad-blocker,
+    // restrictive school/work network). This is the most common real-world cause of a dead
+    // join screen, so detect it explicitly rather than letting `new Peer(...)` throw blind.
+    if (typeof Peer === 'undefined') {
+      this.showMpFatalError(
+        "Connection engine failed to load",
+        "The multiplayer library didn't load — this usually means your network is blocking it, you're offline, or an ad-blocker/extension stepped in. Try a different network (e.g. mobile data) or reload the page."
+      );
+      return;
+    }
+
+    // Guard 2: catch any other synchronous construction error instead of letting it crash silently.
+    let peer;
+    try {
+      peer = new Peer(peerConfig);
+    } catch (err) {
+      console.error('Peer construction failed:', err);
+      this.showMpFatalError("Couldn't start the connection", "Something went wrong starting the network engine. Reloading the page usually fixes this.");
+      return;
+    }
+    this.mp.peer = peer;
 
     // Fallback if connection hangs entirely (covers cases where 'open'/'connect' never fires)
     let settled = false;
     let timeoutFallback = setTimeout(() => {
         if (settled) return;
-        alert("Connection timed out. Check the room code and try again.");
+        this.showMpFatalError("Connection timed out", "Check the room code and that the host's room is still open, then try again.");
         this.mp.peer.destroy();
-        this.showView('multiplayer');
     }, 12000);
 
     this.mp.peer.on('open', (id) => {
@@ -822,8 +861,7 @@ const App = {
       });
 
       this.mp.conn.on('close', () => {
-          alert("Host disconnected or room closed.");
-          this.showView('multiplayer');
+          this.showMpFatalError("Host disconnected", "The host's room has closed or the connection dropped.");
       });
 
       this.mp.conn.on('error', (err) => {
@@ -835,8 +873,7 @@ const App = {
       settled = true;
       clearTimeout(timeoutFallback);
       console.error('Guest peer error:', err);
-      alert("Failed to connect: The room code might be incorrect, or the host's room has closed.");
-      this.showView('multiplayer');
+      this.showMpFatalError("Couldn't connect", "The room code might be incorrect, or the host's room has closed.");
     });
   },
 
@@ -984,6 +1021,24 @@ const App = {
         <span class="timer-text" id="mp-timer-text">${this.mp.timer}</span>
       </div>
     `;
+  },
+
+  showMpFatalError(title, message) {
+    clearInterval(this.mp.timerInterval);
+    const area = document.getElementById('mp-area');
+    const lobbyUi = document.getElementById('mp-lobby-ui');
+    if (lobbyUi) lobbyUi.style.display = 'none';
+    if (area) {
+      area.innerHTML = `
+        <div class="card text-center" style="border-top:4px solid #dc2626;">
+          <h2 style="color:#dc2626;">${title}</h2>
+          <p class="text-muted mt-1">${message}</p>
+          <button class="btn btn-primary mt-1" onclick="App.showView('multiplayer')">Back to Lobby</button>
+        </div>`;
+    } else {
+      // Fallback for the rare case mp-area itself isn't in the DOM (e.g. user navigated away)
+      alert(`${title}: ${message}`);
+    }
   },
 
   renderMpState() {
