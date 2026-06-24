@@ -21500,6 +21500,2711 @@ const questions = [
     ],
     correctAnswer: "C. Conn's syndrome - Excess aldosterone",
     explanation: "Conn's syndrome (primary hyperaldosteronism) involves excess aldosterone. Addison's disease involves deficient adrenal cortex hormones (including glucocorticoids and aldosterone). Cushing's syndrome involves excess glucocorticoids."
+  },
+    // ===== EMBRYOLOGY – GENERAL EMBRYOLOGY =====
+
+  // SECTION 1: General Embryology & Developmental Periods (1-50)
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Embryology is the study of development of an individual before birth, including the study of congenital anomalies that may develop from failure of normal development.",
+    answer: true,
+    explanation: "The definition states that embryology entails the study of development before birth and the congenital anomalies that may result from failure of normal development."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The time period from fertilization to death is called ontogeny.",
+    answer: true,
+    explanation: "Ontogeny is defined as the life cycle, which begins when an ovum is fertilized and ends at the moment of death of the individual."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Prenatal period extends from delivery of the fetus to death of the individual.",
+    answer: false,
+    explanation: "The prenatal period is from fertilization of an ovum to delivery of the fetus. The postnatal period is from delivery to death of the individual."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The goal of embryology consists of the study and description of events occurring during the postnatal period of development.",
+    answer: false,
+    explanation: "The goal of embryology consists of the study and description of events occurring during the prenatal period (phase) of development."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Gr. sperma means seed.",
+    answer: true,
+    explanation: "The Greek word 'sperma' translates to seed, as indicated in the lecture notes."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "A zygote is formed by the fusion of 1 sperm and 1 ovum, resulting in a single cell.",
+    answer: true,
+    explanation: "The zygote is defined as 1 sperm × 1 ovum = 1 cell, which is an embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Spermatozoon is derived from L. spermatos meaning seed and zoon meaning animal.",
+    answer: true,
+    explanation: "The etymology of spermatozoon is from Latin: spermatos = seed; zoon = animal."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "A morula develops 4-6 days after fertilization and contains 12-32 blastomeres.",
+    answer: false,
+    explanation: "The morula develops 2-4 days after fertilization, not 4-6 days, and contains 12-32 blastomeres."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The blastocyst stage, occurring 4-6 days after fertilization, is characterized by a fluid-filled space and two layers called epiblast and hypoblast.",
+    answer: true,
+    explanation: "At 4-6 days after fertilization, the blastocyst has a fluid-filled space and consists of two layers: epiblast and hypoblast."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "By the 3rd week of development, the embryo has 3 layers of cells: ectoderm, mesoderm, and endoderm.",
+    answer: true,
+    explanation: "During the 3rd week of development, the trilaminar germ disc forms with three layers of cells: ectoderm, mesoderm, and endoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The neurula stage occurs from the beginning of the 4th week to the end of the 8th week after fertilization.",
+    answer: false,
+    explanation: "The neurula stage occurs during the 3rd-4th week after fertilization. The embryo stage is from the beginning of the 4th week to the end of the 8th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The fetus stage extends from the 9th week to delivery of the fetus.",
+    answer: true,
+    explanation: "The fetal period begins from the 9th week and continues until delivery of the fetus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Conceptus refers to the embryo plus the gestational sac.",
+    answer: true,
+    explanation: "Conceptus is defined as the embryo plus the gestational sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Mitotic divisions occur in germ cells while meiotic divisions occur in somatic cells.",
+    answer: false,
+    explanation: "Mitotic divisions occur in somatic cells, while meiotic divisions occur in germ cells."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Both male and female germ cells originate from primordial germ cells in the posterior wall of the yolk sac.",
+    answer: true,
+    explanation: "Both male and female germ cells have a common origin from primordial germ cells in the posterior wall of the yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Primordial germ cells begin migrating by the 3rd week and reach the gonad by the 4th week.",
+    answer: false,
+    explanation: "Primordial germ cells start migrating by the 4th week and reach the gonad by the 5th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Meiosis I and Meiosis II both reduce the chromosome number from diploid to haploid.",
+    answer: false,
+    explanation: "Only Meiosis I reduces the chromosome number from diploid to haploid. Meiosis II is similar to mitosis and separates sister chromatids."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Leptotene is the stage of Prophase I where chromosomes become visible as single strands.",
+    answer: true,
+    explanation: "During Leptotene, chromosomes become visible as single strands."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Zygotene is characterized by crossing over of central chromatids of homologous chromosomes at chiasmata.",
+    answer: false,
+    explanation: "Zygotene is characterized by pairing of homologous chromosomes. Crossing over occurs during Pachytene."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Pachytene is the stage where crossing over of central chromatids of homologous chromosomes occurs at chiasmata with exchange of alleles.",
+    answer: true,
+    explanation: "During Pachytene, crossing over of central chromatids of homologous chromosomes occurs at chiasmata with exchange of alleles."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Diplotene is characterized by separation of homologous chromosomes with breaking away of a segment of the opposite chromosome.",
+    answer: true,
+    explanation: "Diplotene involves separation of homologous chromosomes with breaking away of a segment of the opposite chromosome."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Gametogenesis is the formation of gametes for asexual reproduction.",
+    answer: false,
+    explanation: "Gametogenesis is the formation of gametes for sexual reproduction."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Gametogenesis occurs in the gonads.",
+    answer: true,
+    explanation: "Gametogenesis occurs in the gonads (testes in males, ovaries in females)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Spermatogenesis is the formation of sperms in the testis.",
+    answer: true,
+    explanation: "In males, spermatogenesis is the formation of sperms in the testis."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Oogenesis is the formation of ova in the ovary.",
+    answer: true,
+    explanation: "In females, oogenesis is the formation of ova in the ovary."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Spermiogenesis involves the structural modification of spermatids.",
+    answer: true,
+    explanation: "Spermiogenesis is defined as the structural modification of spermatids."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Spermiogenesis involves 5 major events including cytoplasm shedding, nucleus condensation, formation of neck/middle piece/tail, and acrosome formation.",
+    answer: false,
+    explanation: "Spermiogenesis involves 4 events: 1) Cytoplasm shedding, 2) Nucleus condensation, 3) Formation of neck, middle piece & tail, and 4) Acrosome formation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Normal gametes have 23 chromosomes: either 22X or 22Y.",
+    answer: true,
+    explanation: "Normal gametes contain 23 chromosomes (22X or 22Y)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Abnormal gametes can have 23X or 23Y (i.e., 24 chromosomes) or 21X or 21Y (i.e., 22 chromosomes).",
+    answer: true,
+    explanation: "Abnormal gametes may have 24 chromosomes (23X or 23Y) or 22 chromosomes (21X or 21Y)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Abnormal gametes are due to failure of separation of homologous chromosomes in anaphase II (non-disjunction).",
+    answer: false,
+    explanation: "Abnormal gametes are due to failure of separation of homologous chromosomes in anaphase I (non-disjunction)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The ovarian cycle is defined as regular monthly sexual changes in the ovary that begin at puberty and end at menopause.",
+    answer: true,
+    explanation: "The ovarian cycle is defined as regular monthly sexual changes in the ovary that begin at puberty and end at menopause."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The ovarian cycle has four phases: maturation of follicle, ovulation, post-ovulation follicular changes, and menstruation.",
+    answer: false,
+    explanation: "The ovarian cycle has three phases: 1) Maturation of follicle, 2) Ovulation, and 3) Post-ovulation follicular changes."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Ovulation typically occurs at mid-cycle, around day 14.",
+    answer: true,
+    explanation: "Ovulation is timed at mid-cycle (Day 14)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The LH surge causes the oocyte to complete meiosis I and begin meiosis II.",
+    answer: true,
+    explanation: "The LH surge causes maturation promoting factor which causes the oocyte to complete meiosis I and begin meiosis II."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "If fertilization occurs, the granulosa and theca cells form the corpus luteum of pregnancy which secretes estrogen.",
+    answer: false,
+    explanation: "If fertilization occurs, granulosa and theca cells form the corpus luteum of pregnancy which secretes progesterone, not estrogen."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "If fertilization does not occur, luteolysis (degeneration of corpus luteum) occurs and the corpus albicans forms.",
+    answer: true,
+    explanation: "If fertilization does not occur, luteolysis (degeneration of corpus luteum) occurs and the corpus albicans forms."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The site of fertilization is the dilated part of the uterine tube, termed the isthmus.",
+    answer: false,
+    explanation: "The site of fertilization is the dilated part of the uterine tube, termed the ampulla, not the isthmus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Before fertilization can occur, two events must occur: coitus and gamete transport.",
+    answer: true,
+    explanation: "Before fertilization can occur, two events must occur: coitus and gamete transport."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The secondary oocyte reaches the fertilization site in approximately 25 minutes after ovulation.",
+    answer: true,
+    explanation: "The secondary oocyte reaches the fertilization site in approximately 25 minutes."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Fresh spermatozoa are immediately capable of fertilizing the oocyte upon arrival in the female genital tract.",
+    answer: false,
+    explanation: "Fresh spermatozoa, upon arrival in the female genital tract, are not capable of fertilizing the oocyte because they must undergo capacitation and the acrosome reaction."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Capacitation is an activation process lasting 7 hours.",
+    answer: true,
+    explanation: "Capacitation is an activation process lasting 7 hours."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Capacitation involves the removal of glycoprotein coat and seminal plasma protein from the plasma membrane over the acrosome.",
+    answer: true,
+    explanation: "Capacitation involves removal of glycoprotein coat and seminal plasma protein from the plasma membrane over the acrosome."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Capacitation is initiated by substances secreted by the cervix and vagina.",
+    answer: false,
+    explanation: "Capacitation is initiated by substances secreted by the uterus and fallopian tube, not the cervix and vagina."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Capacitation results in significant morphological alterations to the sperm.",
+    answer: false,
+    explanation: "Capacitation does not result in morphological alterations."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The acrosome reaction is induced by penetration of the zona pellucida.",
+    answer: false,
+    explanation: "The acrosome reaction is induced by penetration of the coronal radiata."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The acrosome reaction is accompanied by structural alterations, including multiple point fusions of the plasma membrane and the outer acrosomal membrane.",
+    answer: true,
+    explanation: "The acrosome reaction is accompanied by structural alterations - by multiple point fusions of plasma membrane and the outer acrosomal membrane."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Enzymes contained within the acrosome include hyaluronidase, trypsin-like substances, and acrosin.",
+    answer: true,
+    explanation: "The fused membranes rupture to produce multiple perforations through which enzymes contained within the acrosome escape: hyaluronidase, trypsin-like substances, and acrosin."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The phases of fertilization include penetration of corona radiata, penetration of zona pellucida, fusion of oocyte and sperm cell membranes, constitution of the male pronucleus, and fusion of the pronuclei.",
+    answer: true,
+    explanation: "The phases of fertilization are: 1) penetration of corona radiata, 2) penetration of zona pellucida, 3) fusion of oocyte and sperm cell membranes, 4) constitution of the male pronucleus, and 5) fusion of the pronuclei."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The main goal of penetration of the corona radiata is dispersal of corona radiata cells by enzyme hyaluronidase released from the acrosomal caps of spermatozoa.",
+    answer: true,
+    explanation: "The main goal of this phase is dispersal of corona radiata cells by enzyme hyaluronidase released from the acrosomal caps of spermatozoa."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The primary role in penetration of the zona pellucida is played by hyaluronidase.",
+    answer: false,
+    explanation: "The primary role in penetration of the zona pellucida is played by acrosin, not hyaluronidase. Acrosin causes lysis of the zone."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Once the first sperm passes through the zona pellucida, the zona reaction starts, making the zona pellucida impermeable to further spermatozoa.",
+    answer: true,
+    explanation: "Once the first sperm passes through the zona pellucida, a zona reaction starts during which the zona pellucida becomes impermeable to further spermatozoa."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The zona reaction is mediated by the cortical granules of the primary oocyte.",
+    answer: false,
+    explanation: "The zona reaction is mediated by cortical granules of the secondary oocyte, not the primary oocyte."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "After fusion of membranes, the secondary oocyte completes the second meiotic division to give rise to the mature ovum with a haploid number of chromosomes and the second polar body.",
+    answer: true,
+    explanation: "After fusion of membranes, the secondary oocyte can complete the second meiotic division to give rise to the mature ovum with haploid number of chromosomes and the second polar body."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The penetrating sperm's nucleus becomes rapidly swollen and forms the female pronucleus.",
+    answer: false,
+    explanation: "The penetrating sperm's nucleus becomes rapidly swollen and forms the male pronucleus, not the female pronucleus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The male and female pronuclei lose their nuclear membranes and maternal and paternal chromosomes intermingle and organize in an equatorial plane.",
+    answer: true,
+    explanation: "The male and female pronuclei lose their nuclear membranes and maternal and paternal chromosomes intermingle and organize in an equatorial plane."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Results of fertilization include restoration of diploid number of chromosomes, determination of sex, and initiation of cleavage.",
+    answer: true,
+    explanation: "Results of fertilization include: 1) restoration of diploid number of chromosomes, 2) determination of the sex of the new individual, and 3) initiation of cleavage."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Fertilization results in a diploid chromosome number with half from the mother and half from the father.",
+    answer: true,
+    explanation: "Fertilization results in restoration of diploid number of chromosomes (half from the mother and half from the father)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "XX chromosomes determine male sex while XY determines female sex.",
+    answer: false,
+    explanation: "XX determines female and XY determines male sex."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "In Down syndrome, an abnormal sperm with 23Y (Extra Chromosome 21) fuses with a normal ovum 22X, resulting in Trisomy 21.",
+    answer: true,
+    explanation: "In Down syndrome, abnormal sperm with 23Y (Extra Chromosome 21) + normal ova 22X = Trisomy 21."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Edwards syndrome is characterized by Trisomy 21.",
+    answer: false,
+    explanation: "Edwards syndrome is characterized by Trisomy 18, not Trisomy 21. Down syndrome is Trisomy 21."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Edwards syndrome results from an abnormal sperm with 23Y (Extra Chromosome 18) fusing with a normal ovum 22X.",
+    answer: true,
+    explanation: "Edwards syndrome results from abnormal sperm with 23Y (Extra Chromosome 18) + 22X = Trisomy 18."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Klinefelter syndrome results from 22XY (Extra X) + 22X = 47 (XXY).",
+    answer: true,
+    explanation: "Klinefelter syndrome results from abnormal sperm 22XY (Extra X) + normal ova 22X = 47 (XXY)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Turner syndrome results from 22(0) (No sex chromosome) + 22X = 45(0X).",
+    answer: true,
+    explanation: "Turner syndrome results from abnormal sperm 22(0) (No sex chromosome) + normal ova 22X = 45(0X)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Cleavage is the phase of development characterized by meiotic divisions of the zygote resulting in formation of the blastocyst.",
+    answer: false,
+    explanation: "Cleavage is the phase of development characterized by mitotic divisions (not meiotic) of the zygote resulting in formation of the blastocyst."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Cells produced during cleavage are called blastomeres and become smaller with each division.",
+    answer: true,
+    explanation: "Cells produced during cleavage are called blastomeres and become smaller with each division."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Cleavage takes place partly in the uterine tube during the first three days and partly in the uterus from day 4 to 6.",
+    answer: true,
+    explanation: "Cleavage takes place partly in the uterine tube (during the first three days) and partly in the uterus (from day 4 to 6)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The first division of the zygote results in an 8-cell stage at 24-30 hours.",
+    answer: false,
+    explanation: "The first division results in a 2-cell stage at 24-30 hours. The third division results in an 8-cell stage."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At the 2-cell and 4-cell stages, cells are loosely bound, but with the 3rd division compaction occurs producing tightly bound 8 cells.",
+    answer: true,
+    explanation: "2 and 4-cell stages have loosely bound cells. With the 3rd division, compaction occurs producing tightly bound 8 cells."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Cells become organized into inner cell mass (embryoblast) and outer cell mass (trophoblast) during compaction.",
+    answer: true,
+    explanation: "Cells become organized into inner cell mass (Embryoblast) and outer cell mass (Trophoblast)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The morula enters the uterine cavity where it is transformed into the blastocyst.",
+    answer: true,
+    explanation: "The morula enters the uterine cavity where it is transformed into the blastocyst."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "When the morula enters the uterus on day 4, fluid passes from the uterine cavity through the zona pellucida to form the blastocystic cavity.",
+    answer: true,
+    explanation: "Shortly after the morula enters the uterus (on day 4), fluid passes from the uterine cavity through the zona pellucida to form a single fluid-filled space - blastocystic cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The blastocystic cavity is also called the primitive amniotic cavity.",
+    answer: false,
+    explanation: "The blastocystic cavity is also called the primitive chorionic cavity or blastococele, not the primitive amniotic cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The trophoblast gives rise to the embryo.",
+    answer: false,
+    explanation: "The trophoblast gives rise to the chorion and finally the fetal part of the placenta. The inner cell mass/embryoblast gives rise to the embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The embryoblast gives rise to the embryo.",
+    answer: true,
+    explanation: "The inner cell mass or embryoblast gives rise to the embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The blastocyst lies free in the uterus cavity enclosed with the zona pellucida.",
+    answer: true,
+    explanation: "The blastocyst is enclosed with the zona pellucida and lies free in the uterus cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Attachment of the blastocyst to the endometrial epithelium is mediated by L-Selectin on the trophoblast and its receptor on the endometrial epithelium.",
+    answer: true,
+    explanation: "Attachment is mediated by L-Selectin on trophoblast and receptor on endometrial epithelium."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The zona pellucida persists throughout the implantation process.",
+    answer: false,
+    explanation: "The zona pellucida disappears before or during attachment/implantation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Invasion of trophoblast cells into the endometrium involves integrin, laminin, and fibronectin.",
+    answer: true,
+    explanation: "Invasion of the trophoblast cells in the endometrium involves integrin, laminin, and fibronectin."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The defect in the endometrial epithelium during implantation is repaired and filled with a closing plug called the operculum, consisting of blood clot and cellular debris.",
+    answer: true,
+    explanation: "The defect in the epithelium is filled with a closing plug (operculum) – a blood clot and cellular debris."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The normal site of implantation is the anterior wall of the midportion of the uterus body.",
+    answer: false,
+    explanation: "The normal site of implantation is the posterior wall of the midportion of the uterus body."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Ectopic implantation can occur at sites outside the uterus.",
+    answer: true,
+    explanation: "Ectopic sites of implantation exist outside the normal uterine site."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 8, the trophoblast differentiates into cytotrophoblast and syncytiotrophoblast.",
+    answer: true,
+    explanation: "At day 8, trophoblast differentiates into cytotrophoblast and syncytiotrophoblast."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 8, the embryoblast differentiates into hypoblast layer and epiblast layer.",
+    answer: true,
+    explanation: "At day 8, the embryoblast differentiates into hypoblast layer and epiblast layer."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 8, spaces appear within the epiblast to form the yolk sac cavity.",
+    answer: false,
+    explanation: "Spaces occur within epiblast to form the amniotic cavity, not yolk sac cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 8, the blastocyst is completely implanted in the endometrium.",
+    answer: false,
+    explanation: "At day 8, the blastocyst is partially implanted, not completely."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 9, the blastocyst is deeply embedded and the defect is plugged with fibrin clots.",
+    answer: true,
+    explanation: "At day 9, the blastocyst is deeply embedded and the defect is plugged with fibrin clots."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 9, spaces called lacunae appear within the cytotrophoblast.",
+    answer: false,
+    explanation: "Spaces (lacunae) appear within the syncytiotrophoblast, not cytotrophoblast."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 9, some hypoblastic cells migrate and form a thin membrane called the Exocoelomic membrane of Heuser.",
+    answer: true,
+    explanation: "Some hypoblastic cells migrate and form a thin membrane termed Exocoelomic membrane of Heuser."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The Heuser's membrane plus hypoblast cells form the primitive yolk sac.",
+    answer: true,
+    explanation: "Heuser's membrane + hypoblast cells → Primitive yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 11-12, the blastocyst becomes completely embedded in the endometrium.",
+    answer: true,
+    explanation: "By days 11-12, the blastocyst is completely embedded."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 11-12, syncytiotrophoblast lacunae establish connections with stromal capillaries to form sinusoids.",
+    answer: true,
+    explanation: "Syncytiotrophoblast lacunae establish connections with stromal capillaries to form sinusoids."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Extraembryonic mesoderm appears between the cytotrophoblast and Heuser's membrane.",
+    answer: true,
+    explanation: "New cells appear between cytotrophoblast and Heuser's membrane to form Extraembryonic mesoderm (EEM)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Spaces appear in the extraembryonic mesoderm to form the amniotic cavity.",
+    answer: false,
+    explanation: "Spaces appear in the extraembryonic mesoderm to form the chorionic cavity, not amniotic cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Extraembryonic mesoderm adjacent to the primitive yolk sac is called somatopleuric mesoderm.",
+    answer: false,
+    explanation: "EEM adjacent to primitive yolk sac = Splanchnopleuric mesoderm, not somatopleuric. EEM adjacent to cytotrophoblast = Somatopleuric."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Extraembryonic mesoderm adjacent to the cytotrophoblast is called somatopleuric mesoderm.",
+    answer: true,
+    explanation: "EEM adjacent to cytotrophoblast = Somatopleuric mesoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At day 13, cytotrophoblast grows outwards into syncytiotrophoblast forming primary villi.",
+    answer: true,
+    explanation: "At day 13, cytotrophoblast grows outwards into syncytiotrophoblast in a finger-like manner forming Primary Villi."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The definitive (secondary) yolk sac forms from new cells that migrate from the epiblast to the inner part of Heuser's membrane.",
+    answer: false,
+    explanation: "New cells from hypoblast (not epiblast) migrate to the inner part of Heuser's membrane to form the Definitive (Secondary) yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The process of formation of the three germ layers is called gastrulation.",
+    answer: true,
+    explanation: "The process of formation of the three germ layers is called gastrulation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The embryo during gastrulation is known as a blastula.",
+    answer: false,
+    explanation: "The embryo during gastrulation is known as a gastrula, not blastula."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Gastrulation is the process whereby the bilaminar germ disc is converted into a trilaminar germ disc.",
+    answer: true,
+    explanation: "Gastrulation is a process whereby the bilaminar germ disc is converted into a trilaminar germ disc."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Gastrulation begins with the formation of the primitive streak.",
+    answer: true,
+    explanation: "Gastrulation begins with the formation of the primitive streak."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At the beginning of the 3rd week, hypoblast cells proliferate and migrate to form the primitive streak.",
+    answer: false,
+    explanation: "At the beginning of the 3rd week, epiblast cells (not hypoblast) proliferate and migrate to form the primitive streak."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "As the primitive streak elongates, the cranial part forms the primitive node.",
+    answer: true,
+    explanation: "As the primitive streak elongates, the cranial part forms the primitive node."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The primitive groove appears in the primitive streak and is continuous with the primitive pit.",
+    answer: true,
+    explanation: "The primitive groove appears in the streak that is continuous with the primitive pit."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Cells from the deep surface of the primitive streak form connective tissues called mesenchyme or mesoblast which form the intraembryonic endoderm.",
+    answer: false,
+    explanation: "Cells from the deep surface of the primitive streak form mesenchyme or mesoblast which form the intraembryonic mesoderm, not endoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Some epiblast cells of the primitive streak displace the hypoblast to form the intraembryonic endoderm.",
+    answer: true,
+    explanation: "Some epiblast cells of the primitive streak displace the hypoblast to form the intraembryonic endoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The remaining cells of the epiblast form the intraembryonic ectoderm.",
+    answer: true,
+    explanation: "The remaining cells of the epiblast form the intraembryonic ectoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The primitive streak continues to produce mesoderm until the early 4th week where it regresses and becomes an insignificant structure in the sacrococcygeal region.",
+    answer: true,
+    explanation: "The primitive streak continues to produce mesoderm until the early 4th week where it regresses and becomes an insignificant structure in the sacrococcygeal region."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Persistence of the primitive streak results in a small benign tumor called sacrococcygeal teratoma.",
+    answer: false,
+    explanation: "Persistence of the primitive streak results in a large tumor called sacrococcygeal teratoma, not a small benign tumor."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Mesenchymal cells from the primitive node form the Notochordal process in the third week of development.",
+    answer: true,
+    explanation: "In the third week of development, mesenchymal cells from the primitive node of the primitive streak form the Notochordal process."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The notochordal process extends caudally between the ectoderm and endoderm to the cloacal membrane.",
+    answer: false,
+    explanation: "The notochordal process extends cranially (not caudally) between the ectoderm and endoderm to the prechordal plate."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The primitive pit extends into the notochordal process forming the Notochordal canal.",
+    answer: true,
+    explanation: "The primitive pit extends into the notochordal process forming the Notochordal canal."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The floor of the notochordal process fuses with the underlying endoderm of the yolk sac.",
+    answer: true,
+    explanation: "The floor of the notochordal process fuses with the underlying endoderm of the yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Openings in the floor of the notochordal process allow for communication between the notochordal canal and the amniotic cavity.",
+    answer: false,
+    explanation: "Openings in the floor of the notochordal process allow for communication between the notochordal canal and the yolk sac, not the amniotic cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The openings in the notochordal process coalesce causing it to form a flattened, grooved Notochordal plate.",
+    answer: true,
+    explanation: "The openings coalesce causing the notochordal process to form a flattened, grooved Notochordal plate."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The notochordal plate infolds to form the rod-shaped Notochord.",
+    answer: true,
+    explanation: "The notochordal plate infolds to form the rod-shaped Notochord."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The proximal part of the notochordal canal forms the Neurenteric canal which forms a temporary communication between the amniotic cavity and the yolk sac.",
+    answer: true,
+    explanation: "The proximal part of the notochordal canal forms the Neurenteric canal which forms a temporary communication between the amniotic cavity and the yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "After formation, the notochord remains permanently attached to the endoderm.",
+    answer: false,
+    explanation: "The notochord becomes detached from the endoderm after formation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The notochord defines the primordial axis of the embryo around which the axial skeleton forms.",
+    answer: true,
+    explanation: "The notochord defines the primordial axis of the embryo around which the axial skeleton forms and indicates the future site of the vertebral bodies."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The notochord persists throughout life as the nucleus pulposus of all vertebral discs.",
+    answer: false,
+    explanation: "The notochord degenerates and disappears as the bodies of the vertebrae form and persists as the Nucleus pulposus of each vertebral disc. It does not persist in its original form throughout life."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neurulation is the process involved in the formation of the neural plate, neural groove, neural folds, and fusion of the folds to form the Neural tube.",
+    answer: true,
+    explanation: "Neurulation is the process involved in the formation of the neural plate, neural groove, neural fold and fusion of the folds to form the Neural tube."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neurulation is completed by the end of the 5th week.",
+    answer: false,
+    explanation: "Neurulation is completed by the end of the 4th week, not 5th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "In the 3rd week (day 15), the surface ectoderm thickens to form a slipper-shaped Neural plate, which is the primordium of the CNS.",
+    answer: true,
+    explanation: "In the 3rd week (day 15), the surface ectoderm thickens to form a slipper-shaped Neural plate (primordium of the CNS)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural plate formation is induced by the overlying amniotic epithelium.",
+    answer: false,
+    explanation: "Neural plate formation is induced by the underlying notochord and adjacent mesoderm, not the overlying amniotic epithelium."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "About the 18th day, the neural plate begins to invaginate to form the Neural groove.",
+    answer: true,
+    explanation: "About the 18th day, the neural plate begins to invaginate to form the Neural groove."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The invagination of the neural plate is induced by interkinetic migration of cells of the neuroectoderm and formation of the somite.",
+    answer: true,
+    explanation: "The invagination is induced by interkinetic migration of cells of the neuroectoderm and formation of the somite."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The neural groove is bordered by the Neural crests.",
+    answer: false,
+    explanation: "The neural groove is bordered by the Neural folds, not neural crests."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The neural folds fuse to form the Neural tube which remains attached to the surface ectoderm permanently.",
+    answer: false,
+    explanation: "The neural tube becomes detached from the surface ectoderm after formation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The neural tube has two openings: the cranial or anterior neuropore and the caudal or posterior neuropore.",
+    answer: true,
+    explanation: "The neural tube has 2 openings - cranial or anterior neuropore and caudal or posterior neuropore."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The cranial neuropore closes on day 27 while the caudal neuropore closes on day 25.",
+    answer: false,
+    explanation: "The cranial neuropore closes on day 25, while the caudal neuropore closes on day 27."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Failure of the cranial neuropore to close results in anencephaly.",
+    answer: true,
+    explanation: "Failure of closure of the cranial neuropore results in anencephaly."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Failure of closure of the caudal neuropore results in a bifid vertebral arch, known as spina bifida.",
+    answer: true,
+    explanation: "Failure of closure of the caudal neuropore with bifid vertebral arch results in spina bifida."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "As the neural tube is being formed, some cells of the neural fold proliferate and form Neural crest cells.",
+    answer: true,
+    explanation: "As the neural tube is being formed, some cells of the neural fold proliferate and attach themselves to neighbouring cells forming Neural crest cells."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells migrate to ventrolaterally on each side of the neural tube.",
+    answer: false,
+    explanation: "Neural crest cells migrate to dorsolaterally (not ventrolaterally) on each side of the neural tube."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to dorsal root ganglia of spinal nerves.",
+    answer: true,
+    explanation: "The neural crest gives rise to dorsal root ganglia of spinal nerves."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to the ganglia of the autonomic nervous system.",
+    answer: true,
+    explanation: "Neural crest cells give rise to ganglia of the autonomic nervous system."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to odontoblasts and Schwann cells.",
+    answer: true,
+    explanation: "Neural crest cells give rise to odontoblasts and Schwann cells forming the myelin sheath of the peripheral nervous system."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to the pia and arachnoid mater (leptomeninges).",
+    answer: true,
+    explanation: "Neural crest cells give rise to pia and arachnoid mater (Leptomeninges)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to melanocytes, adrenal medulla, and the dermis of the face.",
+    answer: true,
+    explanation: "Neural crest cells give rise to melanocytes, adrenal medulla, and dermis of the face."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to the aorticopulmonary septum and C-cells (parafollicular cells) of the thyroid gland.",
+    answer: true,
+    explanation: "Neural crest cells give rise to the aorticopulmonary septum and C-(parafollicular) cells of the thyroid gland."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Neural crest cells give rise to the facial skeleton and some bones at the base of the skull.",
+    answer: true,
+    explanation: "Neural crest cells give rise to the facial skeleton and some bones at the base of the skull."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "In the 3rd week, cells of the mesoderm proliferate and differentiate to form paraxial, intermediate, and lateral plate mesoderm.",
+    answer: true,
+    explanation: "In the 3rd week, the cells of the mesoderm proliferate and differentiate to form paraxial, intermediate and lateral plate mesoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At about day 20, the paraxial mesoderm differentiates to form the first pair of somites on each side of the neural tube.",
+    answer: true,
+    explanation: "At about day 20, the paraxial mesoderm differentiates to form the first pair of somite on each side of the neural tube."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Somites are formed at a rate of 2 somites per day.",
+    answer: false,
+    explanation: "Four somites are formed per day, not 2."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "At the end of the somite period (day 20-30), about 42-44 somites are formed.",
+    answer: true,
+    explanation: "At the end of the somite period (day 20-30), about 42-44 somites are formed."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Somites give rise to most of the axial skeleton including bones of the cranium, vertebral column, ribs, and sternum.",
+    answer: true,
+    explanation: "Somites give rise to most of the axial skeleton including bones of the cranium, vertebral column, ribs and sternum."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The organogenetic period starts with embryonic folding.",
+    answer: true,
+    explanation: "The organogenetic period (weeks 4-8) starts with embryonic folding."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Embryonic folding occurs only in the median plane.",
+    answer: false,
+    explanation: "Folding of the embryo occurs in the median plane (head and tail folds) and in the horizontal plane (lateral folds)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The head fold and tail fold are the two folds that occur in the median plane.",
+    answer: true,
+    explanation: "In the median plane, folding occurs as the head fold and the tail fold."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Lateral folding rolls the sides of the embryo disc and turns part of the yolk sac into the embryo as the hindgut.",
+    answer: false,
+    explanation: "Lateral folding turns part of the yolk sac into the embryo as the midgut (not hindgut). The head fold forms the foregut and the tail fold forms the hindgut."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The septum transversum develops into the central tendon of the diaphragm.",
+    answer: true,
+    explanation: "The septum transversum develops into the central tendon of the diaphragm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The longitudinal infolding of the head fold turns the yolk sac inward as the foregut, which is the primordium of the pharynx, esophagus, stomach, and duodenum.",
+    answer: true,
+    explanation: "The longitudinal infolding turns yolk sac inward as foregut (primordium of pharynx, esophagus, stomach, and duodenum)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The tail fold involves the cloacal membrane on the caudal end of the primitive streak, which develops into the future anus.",
+    answer: true,
+    explanation: "The cloacal membrane on the caudal end of the primitive streak develops into the future anus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "During tail folding, the connecting stalk turns to the ventral surface and the allantois is incorporated into the embryo.",
+    answer: true,
+    explanation: "During tail folding, the connecting stalk turns to the ventral surface and the allantois is incorporated into the embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "During lateral folding, the part of the yolk sac left outside is incorporated into the umbilical cord.",
+    answer: true,
+    explanation: "The rest of the yolk sac left outside (yolk stalk) will be incorporated into the umbilical cord."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The rapid growth of the embryo causes the tail region to project over the oropharyngeal membrane.",
+    answer: false,
+    explanation: "The rapid growth of the embryo causes the tail region to project over the cloacal membrane, not the oropharyngeal membrane."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The terminal part of the hindgut dilates to form the cloaca.",
+    answer: true,
+    explanation: "The terminal part of the hindgut dilates to form the cloaca."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Before folding, the primitive streak lies caudal to the cloacal membrane, but after folding, it lies cranial to the cloacal membrane.",
+    answer: false,
+    explanation: "Before folding, the primitive streak lies cranial to the cloacal membrane, but after folding, it lies caudal to the cloacal membrane."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The septum transversum, developing heart, developing pericardium, and oropharyngeal membrane move to the dorsal surface of the embryo during folding.",
+    answer: false,
+    explanation: "The septum transversum, developing heart, developing pericardium, and oropharyngeal membrane move to the ventral surface of the embryo during folding."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The oropharyngeal membrane separates the foregut from the stomodeum (future mouth).",
+    answer: true,
+    explanation: "The oropharyngeal membrane separates the foregut from the stomodeum (future mouth)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "After folding, the developing pericardium lies dorsal to the heart and caudal to the septum transversum.",
+    answer: false,
+    explanation: "After folding, the developing pericardium lies ventral to the heart and cranial to the septum transversum."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The intraembryonic and extraembryonic coelom communicate widely after folding.",
+    answer: true,
+    explanation: "The intraembryonic and extraembryonic coelom communicate widely after folding."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The connecting stalk is the primordium for the umbilical cord.",
+    answer: true,
+    explanation: "The connecting stalk is the primordium for the umbilical cord."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "Lateral folding is caused by the rapid growth of the spinal cord and somite.",
+    answer: true,
+    explanation: "Lateral folding is caused by the rapid growth of the spinal cord and somite."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "As the abdominal wall forms, part of the endoderm is incorporated into the embryo as the hindgut.",
+    answer: false,
+    explanation: "As the abdominal wall forms, part of the endoderm is incorporated into the embryo as the midgut, not the hindgut."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The ectoderm gives rise to all nervous tissues including the CNS, PNS, and sensory epithelia of the eye, ear, and nose.",
+    answer: true,
+    explanation: "Ectodermal derivatives include all nervous tissues formed by neuroectoderm including CNS, PNS, sensory epithelia of the eye, ear and nose."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The ectoderm gives rise to pituitary gland, mammary glands, sebaceous glands, enamel of the teeth, and epidermis of the skin.",
+    answer: true,
+    explanation: "Ectodermal derivatives include pituitary gland, mammary glands, sebaceous glands, enamel of the teeth, and epidermis of the skin, hair and nails."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The ectoderm gives rise to the neural crest cells.",
+    answer: true,
+    explanation: "The ectoderm gives rise to the neural crest cells."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "All connective tissue, including bone, cartilage, and blood, is derived from the endoderm.",
+    answer: false,
+    explanation: "All connective tissue, including bone, cartilage, and blood, is derived from the mesoderm, not endoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "All muscles (skeletal, smooth, and cardiac) are derived from the mesoderm.",
+    answer: true,
+    explanation: "All muscles (skeletal, smooth and cardiac muscles) are derived from the mesoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The serous membranes lining the pleural, pericardial, and peritoneal cavities are derived from the mesoderm.",
+    answer: true,
+    explanation: "Mesodermal derivatives include body cavities (serous membranes lining of pleural, pericardial and peritoneal cavities)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The epithelial lining of the cardiovascular system, reproductive system, and most parts of the urinary system are derived from the mesoderm.",
+    answer: true,
+    explanation: "Mesodermal derivatives include epithelial lining of the cardiovascular system, reproductive system and most parts of the urinary system."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The spleen and cortex of the suprarenal gland are derived from the mesoderm.",
+    answer: true,
+    explanation: "Mesodermal derivatives include the spleen and cortex of the suprarenal gland."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The epithelial lining of the respiratory system and gastrointestinal tract are derived from the endoderm.",
+    answer: true,
+    explanation: "Endodermal derivatives include epithelial lining of the respiratory system and GIT."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The palatine tonsil, thymus, thyroid, and parathyroid glands are derived from the endoderm.",
+    answer: true,
+    explanation: "Endodermal derivatives include the palatine tonsil, thymus, thyroid, and parathyroid glands."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The liver and pancreas are derived from the endoderm.",
+    answer: true,
+    explanation: "Endodermal derivatives include the liver and pancreas."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The epithelial lining of the urinary bladder and most parts of the urethra are derived from the endoderm.",
+    answer: true,
+    explanation: "Endodermal derivatives include epithelial lining of the urinary bladder and most parts of the urethra."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "General Embryology & Developmental Periods",
+    type: "truefalse",
+    question: "The epithelial lining of the tympanic cavity, tympanic antrum, and auditory (Eustachian or pharyngotympanic) tube are derived from the endoderm.",
+    answer: true,
+    explanation: "Endodermal derivatives include epithelial lining of the tympanic cavity, tympanic antrum, and auditory or Eustachian or pharyngotympanic tube."
+  },
+
+  // SECTION 2: Fetal Period & Clinical Correlations (201-300)
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 24 days (Carnegie stage 11), the mandibular (1st) arch gives rise to the mandible and maxilla.",
+    answer: true,
+    explanation: "At 24 days, the Mandibular (1st) arch gives rise to the mandible and maxilla."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 24 days, the heart prominence is visible and the embryo shows slight curvature from the head and tail folds.",
+    answer: true,
+    explanation: "At 24 days, the embryo shows slight curvature (head and tail folds) and the heart prominence is visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 26 days (Carnegie stage 12), the rostral neuropore opens and the forebrain is elevated.",
+    answer: false,
+    explanation: "At 26 days, the rostral neuropore closes (not opens) and the forebrain is elevated."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 26 days, the embryo shows a C-shaped curvature.",
+    answer: true,
+    explanation: "At 26 days, the embryo shows a C-shaped curvature."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 28 days (Carnegie stage 13), the 4th pair of pharyngeal arches, upper and lower limb buds, and lens placodes are visible.",
+    answer: true,
+    explanation: "At 28 days, the 4th pair of pharyngeal arches, upper and lower limb buds, and lens placodes are visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 28 days, the caudal neuropore closes.",
+    answer: true,
+    explanation: "At 28 days, the caudal neuropore closes."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 5th week, the hyoid (2nd) arch overgrows the 3rd and 4th arches to form the cervical sinus.",
+    answer: true,
+    explanation: "During the 5th week, the hyoid (2nd) arch overgrows the 3rd and 4th arches and forms the cervical sinus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 5th week, the upper limb develops with elbow and hand plate, and mesenchymal ridges indicate the sites of the kidneys.",
+    answer: true,
+    explanation: "During the 5th week, the upper limb develops with elbow and hand plate, and mesenchymal ridges indicate the sites of kidneys."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 5th week, the brain grows rapidly and the face contacts the heart prominence.",
+    answer: true,
+    explanation: "During the 5th week, the brain grows rapidly and the face contacts the heart prominence."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 6th week, hand plates show digital rays and the groove between the 1st and 2nd arches develops into the external acoustic meatus.",
+    answer: true,
+    explanation: "During the 6th week, hand plates show digital rays, and the groove between the 1st and 2nd arches develops into the external acoustic meatus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 6th week, swellings around the external acoustic meatus are called auricular hillocks.",
+    answer: true,
+    explanation: "During the 6th week, swellings around the external acoustic meatus are called auricular hillocks."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 7th week, umbilical herniation with intestine occurs and notches appear between the digital rays of the hand.",
+    answer: true,
+    explanation: "During the 7th week, umbilical herniation with intestine occurs and notches appear between the digital rays of the hand."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 8th week, the embryo has webbed digits of the hand and notches between the digits of the foot.",
+    answer: true,
+    explanation: "During the 8th week, the embryo has webbed digits of the hand and notches between the digits of the foot."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 8th week, the tail is still present and the scalp vascular plexus appears.",
+    answer: true,
+    explanation: "During the 8th week, the tail is still present and the scalp vascular plexus appears."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 8th week, the head takes up one-third of the embryo.",
+    answer: false,
+    explanation: "By the end of the 8th week, the head takes up half (not one-third) of the embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 8th week, all regions of the limbs are apparent and the limbs move.",
+    answer: true,
+    explanation: "By the end of the 8th week, all regions of the limbs are apparent and the limbs move."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 8th week, the intestine is still in the umbilical cord.",
+    answer: true,
+    explanation: "By the end of the 8th week, the intestine is still in the umbilical cord."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 8th week, sexual differences exist and the sex can be determined.",
+    answer: false,
+    explanation: "By the end of the 8th week, sexual differences exist but sex still cannot be told."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The fetal period extends from the 9th week to birth.",
+    answer: true,
+    explanation: "The fetal period extends from the 9th week to birth."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At the beginning of the 9th week, the head is approximately one-third of the crown-rump length.",
+    answer: false,
+    explanation: "At the beginning of the 9th week, the head is half (not one-third) of the CRL."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 9th week, external genitalia show differences between males and females.",
+    answer: true,
+    explanation: "By the end of the 9th week, external genitalia show differences."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the 11th week, the intestine returns to the abdomen.",
+    answer: true,
+    explanation: "By the 11th week, the intestine returns to the abdomen."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the 12th week, the head is less than half of the CRL.",
+    answer: true,
+    explanation: "By the end of the 12th week, the head is less than half of the CRL."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the 12th week, primary ossification centers appear and erythropoiesis shifts from the liver to the spleen.",
+    answer: true,
+    explanation: "By the end of the 12th week, primary ossification centers appear and erythropoiesis shifts from the liver to the spleen."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Between the 9th and 12th weeks, urine forms and is discharged into the amniotic fluid, which is swallowed by the fetus.",
+    answer: true,
+    explanation: "Between the 9th and 12th weeks, urine forms and is discharged into the amniotic fluid, which is swallowed by the fetus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the 12th week, the fetal form of external genitalia is established.",
+    answer: true,
+    explanation: "By the 12th week, the fetal form of external genitalia is established."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 14 weeks, coordinated limb movement and active ossification of the skeleton occur.",
+    answer: true,
+    explanation: "At 14 weeks, coordinated limb movement and active ossification of the skeleton occur."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By 16 weeks, bones can be seen on radiographs and ovaries are differentiated containing primordial follicles.",
+    answer: true,
+    explanation: "By 16 weeks, bones can be seen on radiographs and ovaries are differentiated and contain primordial follicles."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Between 17 and 20 weeks, the fetus grows 100 mm.",
+    answer: false,
+    explanation: "Between 17 and 20 weeks, the fetus grows 50 mm (not 100 mm)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Fetal movements (quickening) are first felt by the mother between 17 and 20 weeks.",
+    answer: true,
+    explanation: "Fetal movements (quickening) are felt by the mother between 17 and 20 weeks."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The vernix caseosa is a protective covering on the fetal skin.",
+    answer: true,
+    explanation: "The fetal skin is covered and protected by vernix caseosa."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 20 weeks, the fetus is covered by lanugo (fine downy hair) and eyebrows and head hairs are visible.",
+    answer: true,
+    explanation: "At 20 weeks, the fetus is covered by lanugo (fine downy hair) and eyebrows and head hairs are visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 20 weeks, the testes begin to descend.",
+    answer: true,
+    explanation: "At 20 weeks, the testes begin to descend."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Between 21 and 25 weeks, the skin is wrinkled and translucent, and pink to red in color.",
+    answer: true,
+    explanation: "Between 21 and 25 weeks, the skin is wrinkled and translucent, and pink to red."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 21 weeks, rapid eye movements begin.",
+    answer: true,
+    explanation: "At 21 weeks, rapid eye movements begin."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 22 to 23 weeks, the fetus responds to noise with blink-startle responses.",
+    answer: true,
+    explanation: "At 22 to 23 weeks, the fetus responds to noise (blink-startle responses)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 24 weeks, type I pneumocytes secrete surfactant.",
+    answer: false,
+    explanation: "At 24 weeks, type II pneumocytes (not type I) secrete surfactant."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 24 weeks, fingernails are present.",
+    answer: true,
+    explanation: "At 24 weeks, fingernails are present."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Between 22 and 25 weeks, a fetus born prematurely may survive under intensive care.",
+    answer: true,
+    explanation: "Between 22 and 25 weeks, a fetus born prematurely may survive under intensive care."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 26 weeks, the eyes reopen and toenails are visible.",
+    answer: true,
+    explanation: "At 26 weeks, the eyes reopen and toenails are visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 28 weeks, the spleen has been an important site of hematopoiesis, but hematopoiesis shifts to bone marrow by the end of the 28th week.",
+    answer: true,
+    explanation: "At 28 weeks, the spleen has been an important site of hematopoiesis, and hematopoiesis shifts to bone marrow by the end of the 28th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 30 weeks, the pupillary light reflex appears.",
+    answer: true,
+    explanation: "At 30 weeks, the pupillary light reflex appears."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 32 weeks, a fetus born prematurely usually survives and white fat is 16% of body weight.",
+    answer: false,
+    explanation: "At 32 weeks, a fetus born prematurely usually survives, but white fat is 8% (not 16%) of body weight."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 35 weeks, the fetus shows grasp reflex and spontaneous orientation to light.",
+    answer: true,
+    explanation: "At 35 weeks, the fetus shows grasp reflex and spontaneous orientation to light."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 36 weeks, the circumferences of the head is equal to that of the abdomen.",
+    answer: true,
+    explanation: "At 36 weeks, the circumferences of the head is equal to that of the abdomen."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At full term, the testes are in the scrotum.",
+    answer: true,
+    explanation: "At full term, the testes are in the scrotum."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The greatest length (GL) measurement is used for embryos in the 3rd and early 4th weeks when the embryo is straight.",
+    answer: true,
+    explanation: "Greatest length (GL) is used for 3rd and early 4th weeks when the embryo is straight."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Crown-rump length (CRL) or sitting height is a neck-to-rump measurement.",
+    answer: true,
+    explanation: "Crown-rump length (CRL) or sitting height is a neck-rump measurement."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Crown-heel length (CHL) or standing height is another method of measuring embryos.",
+    answer: true,
+    explanation: "Crown-heel length (CHL) or standing height is another method of measuring embryos."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Biparietal diameter, head circumference, abdominal circumference, femur length, foot length, and fetal weight are used for measuring fetuses in the second and third trimesters.",
+    answer: true,
+    explanation: "These measurements are used for measuring fetuses in the second and third trimesters."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The fetal weight measurement may show discrepancy when the mother has diabetes mellitus.",
+    answer: true,
+    explanation: "Fetal weight may have discrepancy when the mother has diabetes mellitus."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Immature infants (extremely low birth weight) weighing less than 500 gm usually survive with expert postnatal care.",
+    answer: false,
+    explanation: "Extremely low birth weight infants (less than 500 gm) usually do not survive, but with expert postnatal care some may survive."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Low-birth-weight babies are full term but have intrauterine growth retardation.",
+    answer: true,
+    explanation: "Low-birth-weight babies are full term but caused by intrauterine growth retardation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Premature infants weighing 1500 to 2500 gm most may survive but with difficulties.",
+    answer: true,
+    explanation: "Premature infants (1500 to 2500 gm) most may survive but with difficulties."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Gestational age is calculated from the estimated day of fertilization.",
+    answer: false,
+    explanation: "Gestational age is calculated from the onset of the last normal menstrual period (LNMP), not the estimated day of fertilization."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The end of the first trimester marks the time when all major systems have developed.",
+    answer: true,
+    explanation: "At the end of the first trimester, all major systems have developed."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the first trimester, crown-rump length (CRL) is used for measuring the fetus.",
+    answer: true,
+    explanation: "During the first trimester, crown-rump length (CRL) is used for measuring."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At the end of the second trimester, the fetus may survive if born prematurely.",
+    answer: true,
+    explanation: "At the end of the second trimester, the fetus may survive if born prematurely."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 35 weeks, the fetus weighs 2500 gm and usually survives if born prematurely.",
+    answer: true,
+    explanation: "At 35 weeks, the fetus weighs 2500 gm and usually survives if born prematurely."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Diagnostic amniocentesis is a technique for detecting genetic disorders.",
+    answer: true,
+    explanation: "Diagnostic amniocentesis is a common technique for detecting genetic disorders."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Amniocentesis is typically performed after 14 weeks when there is about 200 ml of amniotic fluid.",
+    answer: true,
+    explanation: "After 14 weeks, there is about 200 ml of amniotic fluid, and 20-30 ml can be safely withdrawn."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The risk of inducing abortion with amniocentesis is about 0.5%.",
+    answer: true,
+    explanation: "The risk of inducing an abortion with amniocentesis is about 0.5%."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Alpha-fetoprotein (AFP) levels are decreased in neural tube defects and ventral wall defects.",
+    answer: false,
+    explanation: "AFP is increased (not decreased) in neural tube defects (NTDs) and ventral wall defects (VWDs)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "AFP levels are decreased in Down syndrome and Trisomy 18.",
+    answer: true,
+    explanation: "AFP is decreased in Down syndrome and Trisomy 18."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Chorionic villus sampling (CVS) involves obtaining trophoblasts through a needle under ultrasound guidance.",
+    answer: true,
+    explanation: "Chorionic villus sampling involves obtaining trophoblasts through a needle through the mother's abdominal and uterine wall under ultrasound guidance."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The risk of fetal loss with CVS is about 0.5%.",
+    answer: false,
+    explanation: "The risk of fetal loss with CVS is about 1% (not 0.5%)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The risk of limb defects with CVS is increased if done too early.",
+    answer: true,
+    explanation: "There is a risk of limb defects if CVS is done too early."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Ultrasonography is used for measuring placental and fetal size, detecting multiple births, and identifying abnormal presentations.",
+    answer: true,
+    explanation: "Ultrasonography is used for measuring placental and fetal size, multiple births, and abnormal presentations."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Amniography and fetography involve injecting radiopaque substance into the amniotic cavity.",
+    answer: true,
+    explanation: "Amniography and fetography involve injecting water-soluble or oil-soluble radiopaque substance into the amniotic cavity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Fetal monitoring is used for fetal heart rate monitoring to detect fetal distress.",
+    answer: true,
+    explanation: "Fetal monitoring is for fetal heart rate monitoring (fetal distress - abnormal heart rate)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Crossing over during meiosis decreases genetic diversity.",
+    answer: false,
+    explanation: "Crossing over during meiosis increases genetic diversity."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Crossing over is the exchange of chromosome segments between homologous chromosomes and occurs during prophase I of meiosis I.",
+    answer: true,
+    explanation: "Crossing over is the exchange of chromosome segments between homologous chromosomes and occurs during prophase I of meiosis I."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Crossing over results in new combinations of genes.",
+    answer: true,
+    explanation: "Crossing over results in new combinations of genes."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The neural plate, neural groove, neural folds, and neural tube are bathed in amniotic fluid derived from the yolk sac through the neurenteric canal.",
+    answer: true,
+    explanation: "The neural plate, neural groove, neural folds and neural tube are bathed in amniotic fluid derived from the yolk sac through the neurenteric canal."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Failure of neuropores to close results in neural tube defects (NTDs).",
+    answer: true,
+    explanation: "Failure of the neuropores to close results in Neural tube defects (NTDs)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Patau syndrome, Prader-Willi syndrome, and Fragile X syndrome are chromosomal abnormalities that were asked to be checked.",
+    answer: true,
+    explanation: "The lecture notes specifically mention checking up on the features of Patau syndrome, Prader-Willi syndrome, and Fragile X syndrome."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The trophoblast is derived from Greek word 'trophe' meaning nutrition.",
+    answer: true,
+    explanation: "The trophoblast is derived from Greek 'trophe' meaning nutrition."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The blastocystic cavity is also called the primitive chorionic cavity.",
+    answer: true,
+    explanation: "The blastocystic cavity is also called the primitive chorionic cavity or blastococele."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The inner cell mass gives rise to the chorion.",
+    answer: false,
+    explanation: "The trophoblast (not inner cell mass) gives rise to the chorion. The inner cell mass gives rise to the embryo."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The zona pellucida disappears before implantation.",
+    answer: true,
+    explanation: "The zona pellucida disappears before attachment and implantation."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At day 8, the blastocyst is completely implanted and the amniotic cavity forms.",
+    answer: false,
+    explanation: "At day 8, the blastocyst is partially implanted (not completely) and the amniotic cavity forms."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At day 9, lacunae appear within the syncytiotrophoblast.",
+    answer: true,
+    explanation: "At day 9, spaces (lacunae) appear within the syncytiotrophoblast."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Extraembryonic mesoderm adjacent to the primitive yolk sac is called splanchnopleuric mesoderm.",
+    answer: true,
+    explanation: "EEM adjacent to primitive yolk sac = Splanchnopleuric mesoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Primary villi form at day 13 when cytotrophoblast grows outwards into syncytiotrophoblast.",
+    answer: true,
+    explanation: "At day 13, cytotrophoblast grows outwards into syncytiotrophoblast in a finger-like manner forming Primary Villi."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The definitive (secondary) yolk sac forms from new cells from the epiblast.",
+    answer: false,
+    explanation: "The definitive yolk sac forms from new cells from the hypoblast (not epiblast)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The primitive streak normally degenerates and disappears by the end of the 4th week.",
+    answer: true,
+    explanation: "The primitive streak normally degenerates and disappears by the end of the 4th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The notochordal process extends cranially to the prechordal plate.",
+    answer: true,
+    explanation: "The notochordal process extends cranially between the ectoderm and endoderm to the prechordal plate."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The neurenteric canal forms a temporary communication between the amniotic cavity and the yolk sac.",
+    answer: true,
+    explanation: "The neurenteric canal forms a temporary communication between the amniotic cavity and the yolk sac."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The notochord persists as the nucleus pulposus of the vertebral discs.",
+    answer: true,
+    explanation: "The notochord degenerates and persists as the Nucleus pulposus of each vertebral disc."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Neural plate formation is induced by the overlying surface ectoderm.",
+    answer: false,
+    explanation: "Neural plate formation is induced by the underlying notochord and adjacent mesoderm."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The neural crest separates into right and left parts to lie on the ventrolateral aspect of the neural tube.",
+    answer: false,
+    explanation: "The neural crest separates into right and left parts to lie on the dorsolateral aspect (not ventrolateral) of the neural tube."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Neural crest cells give rise to the dorsal root ganglia of spinal nerves.",
+    answer: true,
+    explanation: "Neural crest cells give rise to dorsal root ganglia of spinal nerves."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The hyoid (2nd) arch overgrows the 3rd and 4th arches and forms the cervical sinus during the 5th week.",
+    answer: true,
+    explanation: "The hyoid (2nd) arch overgrows the 3rd and 4th arches and forms the cervical sinus during the 5th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The embryonic period ends at the 8th week.",
+    answer: true,
+    explanation: "The embryonic period ends at the end of the 8th week. The fetal period begins at the 9th week."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 6th week, embryos respond to touch.",
+    answer: true,
+    explanation: "During the 6th week, embryos respond to touch."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The 8th week is the final week of the embryonic period.",
+    answer: true,
+    explanation: "The 8th week is the final week of the embryonic period."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "By the end of the 8th week, the neck is established.",
+    answer: true,
+    explanation: "By the end of the 8th week, the neck is established."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The connecting stalk turns to the dorsal surface during tail folding.",
+    answer: false,
+    explanation: "The connecting stalk turns to the ventral surface (not dorsal) during tail folding."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During lateral folding, the midgut and yolk stalk communicate widely at first, but this communication becomes reduced as folding progresses.",
+    answer: true,
+    explanation: "At first, there is a wide communication between the midgut and yolk sac which becomes reduced with the lateral folding."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "As the umbilical cord forms, ventral fusion of the lateral folds narrows the communication between the intraembryonic and extraembryonic coelomic cavities.",
+    answer: true,
+    explanation: "As the umbilical cord forms, ventral fusion of the lateral folds narrows the communication between the intraembryonic and extraembryonic coelomic cavities."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The ectoderm gives rise to the epidermis of the skin, hair, and nails.",
+    answer: true,
+    explanation: "Ectodermal derivatives include the epidermis of the skin, hair and nails."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The mesoderm gives rise to the epithelial lining of the respiratory system.",
+    answer: false,
+    explanation: "The endoderm (not mesoderm) gives rise to the epithelial lining of the respiratory system."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The endoderm gives rise to the epithelial lining of the urinary bladder and most parts of the urethra.",
+    answer: true,
+    explanation: "Endodermal derivatives include epithelial lining of the urinary bladder and most parts of the urethra."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 24 days (Carnegie stage 11), the heart prominence is visible.",
+    answer: true,
+    explanation: "At 24 days, the heart prominence is visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 26 days, the embryo shows an S-shaped curvature.",
+    answer: false,
+    explanation: "At 26 days, the embryo shows a C-shaped curvature (not S-shaped)."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 28 days, the upper and lower limb buds are visible.",
+    answer: true,
+    explanation: "At 28 days, the upper and lower limb buds are visible."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "During the 5th week, spontaneous movements begin.",
+    answer: true,
+    explanation: "During the 5th week, spontaneous movements occur."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "The delivery day is 147 +/- 15 days after the first fetal movement.",
+    answer: true,
+    explanation: "The delivery day is 147 +/- 15 days after the first movement."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Between 21 and 25 weeks, there is substantial weight gain.",
+    answer: true,
+    explanation: "Between 21 and 25 weeks, there is substantial weight gain."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 26 weeks, subcutaneous fat flattens the wrinkled skin.",
+    answer: true,
+    explanation: "At 26 weeks, subcutaneous fat flattens wrinkled skin."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 28 weeks, the spleen has been an important site of hematopoiesis.",
+    answer: true,
+    explanation: "At 28 weeks, the spleen has been an important site of hematopoiesis."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 32 weeks, white fat is 8% of body weight.",
+    answer: true,
+    explanation: "At 32 weeks, white fat is 8% of body weight."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 36 weeks, the circumference of the head is less than that of the abdomen.",
+    answer: false,
+    explanation: "At 36 weeks, the circumference of the head is equal to (not less than) that of the abdomen."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 37 to 38 weeks, the nervous system is mature for integrative functions.",
+    answer: true,
+    explanation: "At 37 to 38 weeks, the nervous system is mature for integrative functions."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "At 38 weeks, the fetus adds 14 gm per day.",
+    answer: true,
+    explanation: "At 38 weeks, the fetus adds 14 gm per day."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Factors influencing fetal growth include maternal malnutrition, cigarette smoking, multiple pregnancy, social drugs, and impaired uteroplacental blood flow.",
+    answer: true,
+    explanation: "These are listed as factors influencing fetal growth."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Amniocentesis is recommended for mothers older than 38 years.",
+    answer: true,
+    explanation: "Amniocentesis is recommended for maternal age > 38 years."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Amniocentesis is recommended for carriers of X-linked recessive disorders and neural tube defects in the family.",
+    answer: true,
+    explanation: "Amniocentesis is recommended for carriers of X-linked recessive disorders and neural tube defects in the family."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Sex chromatin patterns are used for sex-linked hereditary diseases like hemophilia and muscular dystrophy.",
+    answer: true,
+    explanation: "Sex chromatin patterns are used for sex-linked hereditary diseases, e.g., hemophilia and muscular dystrophy."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "Fetoscopy is commonly used for fetal assessment.",
+    answer: false,
+    explanation: "Fetoscopy is rarely used ('few use')."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "CT and MRI provide more information for treatment but are expensive and have limited resolution.",
+    answer: true,
+    explanation: "CT and MRI provide more information for treatment, but are expensive and limited in resolution."
+  },
+  {
+    course: "Embryology",
+    topic: "General Embryology",
+    subTopic: "Fetal Period & Clinical Correlations",
+    type: "truefalse",
+    question: "4D-ultrasonography is one of the advanced imaging techniques used in obstetrics.",
+    answer: true,
+    explanation: "4D-Ultrasonography is mentioned as an advanced imaging technique."
   }
 ];
 
