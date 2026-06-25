@@ -22837,5 +22837,19322 @@ const questions = [
     ],
     correctAnswer: "C. Conn's syndrome - Excess aldosterone",
     explanation: "Conn's syndrome (primary hyperaldosteronism) involves excess aldosterone. Addison's disease involves deficient adrenal cortex hormones (including glucocorticoids and aldosterone). Cushing's syndrome involves excess glucocorticoids."
+  },
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY =====
+
+  // SECTION 1: Hip Joint
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The hip joint is a ball and socket variety of synovial joint that is multiaxial.",
+    answer: true,
+    explanation: "The hip joint is a ball and socket type of synovial joint that permits movement in multiple axes (multiaxial)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The head of the femur is completely covered with hyaline cartilage.",
+    answer: false,
+    explanation: "The head of the femur is covered with hyaline cartilage except at the fovea capitis, where the ligament of the head of the femur attaches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The lunate surface of the acetabulum is horseshoe-shaped and covered with cartilage.",
+    answer: true,
+    explanation: "The acetabulum presents a horseshoe-shaped, lunate articular surface that is covered with cartilage."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The acetabular labrum is made of bone and increases the depth of the acetabulum.",
+    answer: false,
+    explanation: "The acetabular labrum is a fibrocartilaginous rim attached to the margins of the acetabulum, not bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The iliofemoral ligament is the strongest ligament in the body.",
+    answer: true,
+    explanation: "The iliofemoral ligament, or inverted Y-shaped ligament of Bigelow, is one of the strongest ligaments in the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The pubofemoral ligament supports the hip joint superolaterally.",
+    answer: false,
+    explanation: "The pubofemoral ligament supports the hip joint inferomedially, not superolaterally."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ischiofemoral ligament covers the hip joint anteriorly.",
+    answer: false,
+    explanation: "The ischiofemoral ligament covers the hip joint posteriorly, not anteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ligament of the head of the femur transmits arteries from the acetabular branches of the obturator and medial circumflex femoral arteries.",
+    answer: true,
+    explanation: "The ligament of the head of the femur transmits arteries to the head of the femur from the acetabular branches of the obturator and medial circumflex femoral arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The transverse acetabular ligament bridges the acetabular notch and converts it into a foramen.",
+    answer: true,
+    explanation: "The transverse ligament of the acetabulum bridges the acetabular notch, converting it into a foramen that transmits acetabular vessels and nerves to the joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The close packed position for the hip joint is flexion with slight abduction and lateral rotation.",
+    answer: false,
+    explanation: "The close packed position for the hip joint is extension with slight abduction and medial rotation, where the ligaments and capsules are most taut. The surfaces are most congruent in slightly flexed, abducted and laterally rotated position."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Extension of the hip joint is limited to approximately 15 degrees.",
+    answer: true,
+    explanation: "The range of extension at the hip joint is approximately 15 degrees."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Adduction of the hip joint is limited by contact with the anterior abdominal wall.",
+    answer: false,
+    explanation: "Adduction is limited by contact with the opposite limb, while flexion is limited by contact of the thigh with the anterior abdominal wall."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Lateral rotation of the hip joint has a range of approximately 60 degrees.",
+    answer: true,
+    explanation: "The range of lateral rotation at the hip joint is approximately 60 degrees."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Retinacular arteries arise from the arterial circle around the capsular attachment on the neck of the femur and supply the greater part of the head of the femur.",
+    answer: true,
+    explanation: "Retinacular arteries arise from the arterial circle around the capsular attachment on the neck of the femur and supply the intracapsular part of the neck and the greater part of the head of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The hip joint is supplied by the femoral nerve through the nerve to the rectus femoris, the anterior division of the obturator nerve, the nerve to the quadratus femoris, and the inferior gluteal nerve.",
+    answer: false,
+    explanation: "The hip joint is supplied by the femoral nerve through the nerve to the rectus femoris, the anterior division of the obturator nerve, the nerve to the quadratus femoris, and the superior gluteal nerve (not the inferior gluteal nerve)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Coxa vara is a condition in which the neck-shaft angle is increased from the normal angle.",
+    answer: false,
+    explanation: "Coxa vara is a condition in which the neck-shaft angle is reduced from the normal angle (approximately 150° in a child and 127° in an adult). In coxa valga, the angle is increased."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Shenton's line is a continuous curve formed by the upper border of the obturator foramen and the lower border of the neck of the femur in an X-ray picture.",
+    answer: true,
+    explanation: "Shenton's line, in an X-ray picture, is a continuous curve formed by the upper border of the obturator foramen and the lower border of the neck of the femur."
+  },
+
+  // SECTION 2: Knee Joint
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is the smallest and simplest joint of the body.",
+    answer: false,
+    explanation: "The knee is the largest and most complex joint of the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is formed by the fusion of three joints: the lateral femorotibial, medial femorotibial, and femoropatellar joints.",
+    answer: true,
+    explanation: "The complexity of the knee joint is the result of fusion of three joints in one: lateral femorotibial, medial femorotibial, and femoropatellar joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is a hinge type of synovial joint only.",
+    answer: false,
+    explanation: "The knee joint is a condylar synovial joint, incorporating two condylar joints between the condyles of the femur and tibia, and one saddle joint between the femur and the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibrous capsule of the knee joint is very thin and is deficient anteriorly.",
+    answer: true,
+    explanation: "The fibrous capsule of the knee joint is very thin and is deficient anteriorly, where it is replaced by the quadriceps femoris, the patella, and the ligamentum patellae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The ligamentum patellae is about 7.5 cm long and 2.5 cm broad.",
+    answer: true,
+    explanation: "The ligamentum patellae is about 7.5 cm long and 2.5 cm broad, attached above to the margins and rough posterior surface of the apex of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tibial collateral ligament is the degenerated tendon of the adductor longus muscle.",
+    answer: false,
+    explanation: "The tibial collateral ligament morphologically represents the degenerated tendon of the adductor magnus muscle, not adductor longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is separated from the lateral meniscus by the tendon of the popliteus.",
+    answer: true,
+    explanation: "The fibular collateral ligament is separated from the lateral meniscus by the tendon of the popliteus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament begins from the anterior part of the intercondylar area of the tibia and is taut during flexion of the knee.",
+    answer: false,
+    explanation: "The anterior cruciate ligament is taut during extension of the knee, while the posterior cruciate ligament is taut during flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior cruciate ligament begins from the posterior part of the intercondylar area of the tibia and is taut during flexion of the knee.",
+    answer: true,
+    explanation: "The posterior cruciate ligament begins from the posterior part of the intercondylar area of the tibia, runs upwards, forwards and medially, and is taut during flexion of the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is nearly circular and more freely movable than the lateral meniscus.",
+    answer: false,
+    explanation: "The medial meniscus is nearly semicircular and less mobile than the lateral meniscus, while the lateral meniscus is nearly circular and more freely movable."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The peripheral 25-33% of the meniscus is vascularised and innervated in a young person.",
+    answer: true,
+    explanation: "In a young person, the peripheral 25-33% of the meniscus is vascularised and is innervated. The remaining part receives its nutrition from the synovial fluid."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The transverse ligament connects the posterior ends of the medial and lateral menisci.",
+    answer: false,
+    explanation: "The transverse ligament connects the anterior ends of the medial and lateral menisci."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa is a prolongation of the synovial membrane above the patella.",
+    answer: true,
+    explanation: "Above the patella, the synovial membrane is prolonged upwards for 5 cm or more as the suprapatellar bursa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is supplied by five genicular branches of the popliteal artery.",
+    answer: true,
+    explanation: "The knee joint is supplied by the anastomoses around it, with chief sources including five genicular branches of the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is supplied by the femoral nerve, sciatic nerve, and obturator nerve.",
+    answer: true,
+    explanation: "The knee joint is supplied by the femoral nerve through its branches to the vasti, the sciatic nerve through genicular branches of the tibial and common peroneal nerves, and the obturator nerve through its posterior division."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Locking of the knee joint occurs as a result of lateral rotation of the femur during the last stage of extension.",
+    answer: false,
+    explanation: "Locking occurs as a result of medial rotation of the femur during the last stage of extension, not lateral rotation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus muscle is responsible for unlocking the locked knee joint.",
+    answer: true,
+    explanation: "The locked knee joint can be flexed only after it is unlocked by a reversal of the medial rotation, i.e., by lateral rotation of the femur, brought about by the action of the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament is more commonly damaged than the posterior cruciate ligament.",
+    answer: true,
+    explanation: "The anterior cruciate ligament is more commonly damaged than the posterior cruciate ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is more vulnerable to injury than the lateral meniscus because of its fixity to the tibial collateral ligament.",
+    answer: true,
+    explanation: "The medial meniscus is more vulnerable to injury than the lateral because of its fixity to the tibial collateral ligament and because of greater excursion during rotatory movements."
+  },
+
+  // SECTION 3: Ankle Joint & Tibiofibular Joints
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The ankle joint is a synovial joint of the hinge variety.",
+    answer: true,
+    explanation: "The ankle joint is a synovial joint of the hinge variety."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior articular surface of the ankle joint is formed by the lower end of the tibia, the lateral malleolus of the fibula, and the inferior transverse tibiofibular ligament.",
+    answer: false,
+    explanation: "The upper articular surface of the ankle joint is formed by the lower end of the tibia, the lateral malleolus of the fibula, and the inferior transverse tibiofibular ligament. The inferior articular surface is formed by articular areas on the upper, medial and lateral aspects of the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The deep socket of the ankle joint is made flexible by strong tibiofibular ligaments and slight movements of the fibula at the superior tibiofibular joint.",
+    answer: true,
+    explanation: "The socket of the ankle joint is provided flexibility by strong tibiofibular ligaments and by slight movements of the fibula at the superior tibiofibular joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The talus is wedge-shaped, being wider anteriorly, and the malleoli are oriented to fit this wedge.",
+    answer: true,
+    explanation: "The talus is wedge-shaped, being wider anteriorly. The malleoli are oriented to fit this wedge, which helps prevent displacement of the tibia and fibula forwards over the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The deltoid ligament is the lateral ligament of the ankle joint.",
+    answer: false,
+    explanation: "The deltoid ligament is the medial ligament of the ankle joint. The lateral ligament consists of the anterior talofibular, posterior talofibular, and calcaneofibular ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The anterior talofibular ligament passes from the anterior margin of the lateral malleolus to the neck of the talus.",
+    answer: true,
+    explanation: "The anterior talofibular ligament is a flat band which passes from the anterior margin of the lateral malleolus to the neck of the talus, just in front of the fibular facet."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is crossed by the tendons of the peroneus longus and brevis.",
+    answer: true,
+    explanation: "The calcaneofibular ligament is crossed by the tendons of the peroneus longus and brevis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "Dorsiflexion of the ankle joint is the close-packed position with maximum congruence of the joint surfaces.",
+    answer: true,
+    explanation: "In dorsiflexion, the wider anterior trochlear surface of the talus fits into the lower end of the tibia. It is a close-pack position with maximum congruence of the joint surfaces."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The ankle joint is most stable during plantar flexion.",
+    answer: false,
+    explanation: "The ankle joint is most stable during dorsiflexion, not plantar flexion. During plantar flexion, the narrow posterior part of the trochlear surface of the talus loosely fits into the wide anterior part of the lower end of tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "Sprains of the ankle are almost always abduction sprains of the subtalar joints.",
+    answer: true,
+    explanation: "The sprains of the ankle are almost always abduction sprains of the subtalar joints, although a few fibres of the deltoid ligament are also torn."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The superior tibiofibular joint is a small synovial joint of the plane variety.",
+    answer: true,
+    explanation: "The superior tibiofibular joint is a small synovial joint of the plane variety, formed by articulation of small, rounded, flat facets present on the head of the fibula and on the lateral condyle of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The middle tibiofibular joint is a synovial joint formed by the interosseous membrane.",
+    answer: false,
+    explanation: "The middle tibiofibular joint is a fibrous joint (syndesmosis) formed by the interosseous membrane connecting the shafts of the tibia and the fibula, not a synovial joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior tibiofibular joint is a syndesmosis uniting the lower ends of the tibia and the fibula.",
+    answer: true,
+    explanation: "The inferior tibiofibular joint is a syndesmosis uniting the lower ends of the tibia and the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The interosseous ligament of the inferior tibiofibular joint forms the chief bond of union between the lower ends of the tibia and fibula.",
+    answer: true,
+    explanation: "The interosseous ligament of the inferior tibiofibular joint is very strong and forms the chief bond of union between the lower ends of the tibia and fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The posterior tibiofibular ligament is weaker than the anterior tibiofibular ligament.",
+    answer: false,
+    explanation: "The posterior tibiofibular ligament is stronger than the anterior tibiofibular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior transverse tibiofibular ligament is the lower and deep portion of the posterior tibiofibular ligament.",
+    answer: true,
+    explanation: "The lower and deep portion of the posterior tibiofibular ligament forms the inferior transverse tibiofibular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The subtalar joint is a plane synovial joint between the concave facet on the inferior surface of the body of the talus and the convex facet on the middle one-third of the superior surface of the calcaneum.",
+    answer: true,
+    explanation: "The talocalcanean joint (subtalar joint) is a plane synovial joint between the concave facet on the inferior surface of the body of the talus and the convex facet on the middle one-third of the superior surface of the calcaneum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The interosseous talocalcanean ligament becomes taut in inversion and limits this movement.",
+    answer: false,
+    explanation: "The interosseous talocalcanean ligament becomes taut in eversion and limits this movement, while the cervical ligament becomes taut in inversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The spring ligament is the most important ligament for maintaining the medial longitudinal arch of the foot.",
+    answer: true,
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) is the most important ligament for maintaining the medial longitudinal arch of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The bifurcate ligament is Y-shaped and has its stem attached to the anterolateral part of the sulcus calcanei.",
+    answer: true,
+    explanation: "The bifurcate ligament is Y-shaped with its stem attached to the anterolateral part of the sulcus calcanei, with medial and lateral limbs strengthening separate joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The long plantar ligament converts the groove on the plantar surface of the cuboid into a tunnel for the tendon of the tibialis posterior.",
+    answer: false,
+    explanation: "The long plantar ligament converts the groove on the plantar surface of the cuboid into a tunnel for the tendon of the peroneus longus, not tibialis posterior."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The short plantar ligament lies deep to the long plantar ligament.",
+    answer: true,
+    explanation: "The short plantar ligament (plantar calcaneocuboid ligament) lies deep to the long plantar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The transverse tarsal joint includes the talocalcanean and talonavicular joints.",
+    answer: false,
+    explanation: "The transverse tarsal joint includes the calcaneocuboid and the talonavicular joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "Inversion and eversion of the foot take place mainly at the subtalar and talocalcaneonavicular joints.",
+    answer: true,
+    explanation: "Inversion and eversion take place mainly at the subtalar (talocalcanean) and talocalcaneonavicular joints and partly at the transverse tarsal joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "Inversion is much more free than eversion of the foot.",
+    answer: true,
+    explanation: "Inversion is much more free than eversion of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "Inversion is produced by the actions of peroneus longus and peroneus brevis.",
+    answer: false,
+    explanation: "Inversion is produced by the actions of the tibialis anterior and the tibialis posterior, helped by the flexor hallucis longus and the flexor digitorum longus. Peroneus longus and brevis produce eversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The big toe carries double the weight to the ground than any of the other four toes.",
+    answer: true,
+    explanation: "The big toe carries double the weight to the ground than any of the other four toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The talus has no muscular attachment.",
+    answer: true,
+    explanation: "Talus has no muscular attachment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The fibula does not take part in the knee joint but participates in the formation of the ankle joint.",
+    answer: true,
+    explanation: "Fibula does not take part in knee joint, but participates in the formation of ankle joint."
+  },
+
+  // SECTION 4: Medial Compartment of Thigh
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor or medial compartment of the thigh is bounded anteriorly by the lateral intermuscular septum.",
+    answer: false,
+    explanation: "The adductor or medial compartment of the thigh is bounded anteriorly by the medial intermuscular septum which separates it from the extensor (anterior) compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor longus arises by a narrow, flat tendon from the front of the body of the pubis in the angle between the pubic crest and the pubic symphysis.",
+    answer: true,
+    explanation: "Adductor longus arises by a narrow, flat tendon from the front of the body of the pubis in the angle between the pubic crest and the pubic symphysis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor magnus is the largest muscle of the medial compartment and is called a hybrid muscle because of its double nerve supply.",
+    answer: true,
+    explanation: "Adductor magnus is the largest muscle of this compartment. Because of its double nerve supply, it is called a hybrid muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor part of adductor magnus is supplied by the anterior division of the obturator nerve.",
+    answer: false,
+    explanation: "The adductor part of adductor magnus is supplied by the posterior division of the obturator nerve, while the hamstring part is supplied by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The gracilis muscle is the most superficial muscle of the adductor compartment.",
+    answer: true,
+    explanation: "The gracilis muscle is the most superficial muscle of the adductor compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The obturator nerve is formed by the dorsal divisions of the anterior primary rami of spinal nerves L2, 3, 4.",
+    answer: false,
+    explanation: "The obturator nerve is formed by the ventral divisions of the anterior primary rami of spinal nerves L2, 3, 4, while the femoral nerve is formed by the dorsal divisions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The anterior division of the obturator nerve passes downwards in front of the obturator externus and behind the pectineus and the adductor longus.",
+    answer: true,
+    explanation: "The anterior division of the obturator nerve passes downwards in front of the obturator externus and then descends behind the pectineus and the adductor longus, and in front of the adductor brevis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The posterior division of the obturator nerve enters the thigh by piercing the upper border of the obturator externus muscle.",
+    answer: true,
+    explanation: "The posterior division of the obturator nerve enters the thigh by piercing the upper border of the obturator externus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The obturator artery is a branch of the external iliac artery.",
+    answer: false,
+    explanation: "The obturator artery is a branch of the internal iliac artery, not the external iliac artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The medial circumflex femoral artery arises from the profunda femoris artery.",
+    answer: true,
+    explanation: "The medial circumflex femoral artery arises from the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The ascending branch of the medial circumflex femoral artery anastomoses with the ascending branch of the lateral circumflex femoral and superior gluteal artery to form the trochanteric anastomoses.",
+    answer: true,
+    explanation: "Ascending branch of medial circumflex femoral anastomoses with ascending branch of lateral circumflex femoral and superior gluteal artery to form 'trochanteric anastomoses'."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The transverse branch of the medial circumflex femoral artery anastomoses with the transverse branch of lateral circumflex femoral, inferior gluteal and first perforating branch of profunda femoris to form the cruciate anastomoses.",
+    answer: true,
+    explanation: "Transverse branch anastomoses with transverse branch of lateral circumflex femoral, inferior gluteal and first perforating branch of profunda femoris to form 'cruciate anastomoses'."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The accessory obturator nerve is present in approximately 50% of subjects.",
+    answer: false,
+    explanation: "The accessory obturator nerve is present in about 30% of subjects, not 50%."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "truefalse",
+    question: "The gracilis muscle is often used for transplantation of any damaged muscle.",
+    answer: true,
+    explanation: "The gracilis is used for transplantation of any damaged muscles."
+  },
+
+  // SECTION 5: Popliteal Fossa
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal fossa is a diamond-shaped depression lying behind the knee joint.",
+    answer: true,
+    explanation: "The popliteal fossa is a diamond-shaped depression lying behind the knee joint, the lower part of the femur, and the upper part of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The superolateral boundary of the popliteal fossa is formed by the semitendinosus and semimembranosus.",
+    answer: false,
+    explanation: "The superolateral boundary of the popliteal fossa is formed by the biceps femoris. The superomedial boundary is formed by the semitendinosus and semimembranosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The inferolateral boundary of the popliteal fossa is formed by the medial head of the gastrocnemius.",
+    answer: false,
+    explanation: "The inferolateral boundary of the popliteal fossa is formed by the lateral head of the gastrocnemius supplemented by the plantaris. The inferomedial boundary is formed by the medial head of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The floor of the popliteal fossa is formed from above downwards by the popliteal surface of the femur, the capsule of the knee joint, and the popliteus muscle.",
+    answer: true,
+    explanation: "The floor of the popliteal fossa is formed from above downwards by the popliteal surface of the femur, the capsule of the knee joint and the oblique popliteal ligament, and the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal artery is the deepest structure in the popliteal fossa.",
+    answer: true,
+    explanation: "The popliteal artery is the deepest structure in the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "In the upper part of the popliteal fossa, from medial to lateral side, the arrangement is nerve, vein, and artery (N, V, A).",
+    answer: false,
+    explanation: "In the upper part of the fossa, from medial to lateral side—artery, vein and nerve (A, V, N). In the middle part, from behind forwards—nerve, vein and artery (N, V, A)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal artery terminates at the lower border of popliteus by dividing into the anterior and posterior tibial arteries.",
+    answer: true,
+    explanation: "The popliteal artery terminates at the lower border of popliteus by dividing into the anterior and posterior tibial arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The middle genicular artery pierces the oblique popliteal ligament of the knee and supplies the cruciate ligaments and the synovial membrane.",
+    answer: true,
+    explanation: "The middle genicular artery pierces the oblique popliteal ligament of the knee, and supplies the cruciate ligaments and the synovial membrane of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal vein is posterior to the popliteal artery in the middle of the fossa.",
+    answer: true,
+    explanation: "In the middle of the popliteal fossa, the popliteal vein lies posterior to the popliteal artery. The tibial nerve is the most superficial structure."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The small saphenous vein drains into the popliteal vein in the popliteal fossa.",
+    answer: true,
+    explanation: "The small saphenous vein enters the back of the leg, ascends, and in the lower part of the popliteal fossa, pierces the deep fascia and opens into the popliteal vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve is the larger terminal branch of the sciatic nerve.",
+    answer: false,
+    explanation: "The tibial nerve is the larger terminal branch of the sciatic nerve. The common peroneal nerve is the smaller terminal branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula.",
+    answer: true,
+    explanation: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula, pierces the peroneus longus, and divides into the superficial and deep peroneal nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The sural nerve is a branch of the common peroneal nerve only.",
+    answer: false,
+    explanation: "The sural nerve originates from the tibial nerve in the popliteal fossa. It is joined by the peroneal communicating nerve from the common peroneal nerve about 5 cm above the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve is the most frequently injured nerve in the lower limb.",
+    answer: true,
+    explanation: "The common peroneal nerve is the most frequently injured nerve in the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "Injury to the common peroneal nerve results in foot drop.",
+    answer: true,
+    explanation: "Injury to the common peroneal nerve results in foot drop with weakness of dorsiflexion of ankle and of eversion of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "Blood pressure in the lower limb is recorded from the popliteal artery by auscultation.",
+    answer: true,
+    explanation: "Blood pressure in the lower limb is recorded from the popliteal artery by auscultation."
+  },
+
+  // SECTION 6: Posterior Compartment of Leg
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The posterior compartment of the leg is also called the calf.",
+    answer: true,
+    explanation: "The back or posterior compartment of the leg is also called the calf."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The great saphenous vein begins on the dorsum of the foot from the lateral end of the dorsal venous arch.",
+    answer: false,
+    explanation: "The great saphenous vein begins on the dorsum of the foot from the medial end of the dorsal venous arch. The small saphenous vein begins from the lateral end."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The great saphenous vein ascends in front of the medial malleolus.",
+    answer: true,
+    explanation: "The great saphenous vein ascends in front of the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The small saphenous vein is accompanied by the sural nerve.",
+    answer: true,
+    explanation: "The small saphenous vein is accompanied by the sural nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The saphenous nerve is a branch of the obturator nerve.",
+    answer: false,
+    explanation: "The saphenous nerve is a branch of the posterior division of the femoral nerve, not the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The sural nerve supplies the skin of the lower half of the back of the leg and the whole of the lateral border of the foot till the tip of the little toe.",
+    answer: true,
+    explanation: "The sural nerve supplies the skin of lower half of back of leg and whole of lateral border of the foot till the tip of little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The flexor retinaculum of the ankle is a thickened band of deep fascia that extends from the medial malleolus to the medial side of the heel.",
+    answer: true,
+    explanation: "The flexor retinaculum extends from the medial malleolus to the medial side of the heel, running downwards and backwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The structures passing deep to the flexor retinaculum from medial to lateral side are: tibialis posterior, flexor digitorum longus, posterior tibial artery, tibial nerve, and flexor hallucis longus.",
+    answer: true,
+    explanation: "The structures passing deep to the flexor retinaculum from medial to lateral side are: the tendon of the tibialis posterior, the tendon of the flexor digitorum longus, the posterior tibial artery and its terminal branches, the tibial nerve and its terminal branches, and the tendon of the flexor hallucis longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "Compression of the tibial nerve under the flexor retinaculum leads to tarsal tunnel syndrome.",
+    answer: true,
+    explanation: "If the tibial nerve gets pressed under the flexor retinaculum, it leads to tarsal tunnel syndrome."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The soleus muscle is called the peripheral heart because it helps in venous return from the lower limb.",
+    answer: true,
+    explanation: "The soleus is called the peripheral heart because its contractions help in the venous return from the lower limb. There are large, valveless, venous sinuses in its substance."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The tendo calcaneus is the thinnest and weakest tendon of the body.",
+    answer: false,
+    explanation: "The tendo calcaneus is the thickest and strongest tendon of the body, about 15 cm long."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The popliteus muscle unlocks the knee joint by lateral rotation of the femur on the tibia prior to flexion.",
+    answer: true,
+    explanation: "The popliteus unlocks the knee joint by lateral rotation of the femur on the tibia prior to flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The posterior tibial artery terminates deep to the flexor retinaculum by dividing into the medial and lateral plantar arteries.",
+    answer: true,
+    explanation: "The posterior tibial artery terminates deep to the flexor retinaculum (and the origin of the abductor hallucis) by dividing into the lateral and medial plantar arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The peroneal artery is the largest branch of the posterior tibial artery.",
+    answer: true,
+    explanation: "The peroneal artery is the largest branch of the posterior tibial artery and supplies the posterior and lateral compartments of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The posterior tibial pulse can be felt against the calcaneum about 2 cm below and behind the medial malleolus.",
+    answer: true,
+    explanation: "The posterior tibial pulse can be felt against the calcaneum about 2 cm below and behind the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "truefalse",
+    question: "The superficial muscles of the back of the leg are all supplied by the tibial nerve.",
+    answer: true,
+    explanation: "All the muscles of the back of the leg/calf are supplied by the tibial nerve."
+  },
+
+  // SECTION 7: Nerves of Lower Limb
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The femoral nerve is the nerve of the anterior compartment of the thigh.",
+    answer: true,
+    explanation: "The femoral nerve is the nerve of the anterior compartment of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The obturator nerve arises from the dorsal divisions of the ventral rami of L2, 3, 4 segments of the spinal cord.",
+    answer: false,
+    explanation: "The obturator nerve arises from the ventral divisions of the ventral rami of L2, 3, 4 segments of the spinal cord. The femoral nerve arises from the dorsal divisions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The superior gluteal nerve enters the gluteal region through the greater sciatic notch above the piriformis muscle.",
+    answer: true,
+    explanation: "The superior gluteal nerve enters the gluteal region through the greater sciatic notch above the piriformis muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The inferior gluteal nerve supplies the gluteus medius and gluteus minimus muscles.",
+    answer: false,
+    explanation: "The inferior gluteal nerve supplies only the gluteus maximus muscle. The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The sciatic nerve is the thickest nerve of the body.",
+    answer: true,
+    explanation: "The sciatic nerve is the thickest nerve of the body, forming a band about 2 cm wide in its upper part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The sciatic nerve gives branches in the gluteal region.",
+    answer: false,
+    explanation: "The sciatic nerve gives no branches in the gluteal region. It supplies no muscles in the gluteal region."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The tibial nerve is the smaller terminal branch of the sciatic nerve.",
+    answer: false,
+    explanation: "The tibial nerve is the larger terminal branch of the sciatic nerve. The common peroneal nerve is the smaller terminal branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The deep peroneal nerve is the nerve of the anterior compartment of the leg.",
+    answer: true,
+    explanation: "The deep peroneal nerve is the nerve of the anterior compartment of the leg and the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the peroneus longus and peroneus brevis muscles.",
+    answer: true,
+    explanation: "The superficial peroneal nerve supplies both peroneus longus and peroneus brevis muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies 14 intrinsic muscles of the sole.",
+    answer: false,
+    explanation: "The medial plantar nerve supplies 4 intrinsic muscles of the sole: abductor hallucis, flexor digitorum brevis, flexor hallucis brevis, and 1st lumbrical. The lateral plantar nerve supplies 14 intrinsic muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The lateral plantar nerve corresponds to the median nerve of the hand in its distribution.",
+    answer: false,
+    explanation: "The medial plantar nerve corresponds to the median nerve of the hand in its distribution. The lateral plantar nerve corresponds to the ulnar nerve of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The deep peroneal nerve supplies the skin of the first interdigital cleft.",
+    answer: true,
+    explanation: "The deep peroneal nerve terminates by supplying the skin adjoining the cleft between the first and second toes (first interdigital cleft)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The common peroneal nerve is derived from the ventral divisions of the ventral rami of L4, 5, S1, 2.",
+    answer: false,
+    explanation: "The common peroneal nerve is derived from the dorsal divisions of the ventral rami of L4, 5, S1, 2. The tibial nerve is derived from the ventral divisions of the ventral rami of L4, 5, S1, 2, 3."
+  },
+
+  // SECTION 8: Arteries, Veins & Lymphatics
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The femoral artery is the continuation of the external iliac artery.",
+    answer: true,
+    explanation: "The femoral artery is the continuation of the external iliac artery. It begins behind the inguinal ligament at the midinguinal point."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The profunda femoris artery is the largest branch of the femoral artery.",
+    answer: true,
+    explanation: "The profunda femoris artery is the largest branch of the femoral artery and the chief artery of supply to all the three compartments of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The dorsalis pedis artery is a continuation of the posterior tibial artery.",
+    answer: false,
+    explanation: "The dorsalis pedis artery is a continuation of the anterior tibial artery onto the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The dorsalis pedis artery is congenitally absent in about 14% of subjects.",
+    answer: true,
+    explanation: "The dorsalis pedis artery is congenitally absent in about 14% of subjects."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The long saphenous vein has 10-15 valves which prevent backflow of venous blood.",
+    answer: true,
+    explanation: "The long saphenous vein contains about 10 to 15 valves which prevent back flow of the venous blood."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The short saphenous vein drains into the femoral vein.",
+    answer: false,
+    explanation: "The short saphenous vein drains into the popliteal vein, not the femoral vein. The long saphenous vein drains into the femoral vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The superficial inguinal lymph nodes drain the skin and fasciae of the lower limb, the perineum, and the trunk below the umbilical plane.",
+    answer: true,
+    explanation: "The superficial inguinal lymph nodes drain the skin and fasciae of the lower limb, the perineum, and the trunk below the umbilical plane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The gland of Cloquet is the most proximal deep inguinal lymph node, lying in the femoral canal.",
+    answer: true,
+    explanation: "The most proximal node of the deep inguinal group, the gland of Cloquet or Rosenmuller, lies in the femoral canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "Varicose veins often occur during the third trimester of pregnancy due to pressure on the iliac vein from the enlarged uterus.",
+    answer: true,
+    explanation: "Varicose veins often occur during third trimester of pregnancy, as the iliac vein gets pressed due to enlarged uterus. These mostly subside after delivery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "The great saphenous vein is used for coronary arterial bypasses because it is readily accessible and has a sufficient length.",
+    answer: true,
+    explanation: "The great saphenous vein is used for coronary arterial bypasses because it is readily accessible, a sufficient distance occurs between the tributaries and the perforating veins so that usable lengths can be harvested, and its wall contains a higher percentage of muscular and elastic fibers."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "truefalse",
+    question: "Elephantiasis of the lower limb is caused by lymphatic obstruction from filaria.",
+    answer: true,
+    explanation: "Lymphatic obstruction caused by the parasite filaria is very common in the lower limb, resulting in elephantiasis (great hypertrophy of the skin and subcutaneous tissue)."
+  },
+
+  // SECTION 9: Foot & Arches of Foot
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The foot has 7 tarsal bones, 5 metatarsal bones, and 14 phalanges.",
+    answer: true,
+    explanation: "The skeleton of the foot consists of 7 tarsals, 5 metatarsals, and 14 phalanges."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The medial longitudinal arch of the foot is formed by the calcaneus, talus, navicular, cuboid, and all five metatarsals.",
+    answer: false,
+    explanation: "The medial longitudinal arch is formed by the calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals. The cuboid is part of the lateral longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The key stone of the medial longitudinal arch is the talus.",
+    answer: true,
+    explanation: "The key stone of the medial longitudinal arch is the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The key stone of the lateral longitudinal arch is the cuboid.",
+    answer: true,
+    explanation: "The key stone of the lateral longitudinal arch is the cuboid."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The spring ligament is also called the plantar calcaneonavicular ligament.",
+    answer: true,
+    explanation: "The spring ligament or plantar calcaneonavicular ligament is powerful and is attached posteriorly to the anterior margin of the sustentaculum tali."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The long plantar ligament represents the divorced tendon of the gastrocnemius.",
+    answer: true,
+    explanation: "Morphologically, the long plantar ligament represents the divorced tendon of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The anterior transverse arch is incomplete and forms a half dome.",
+    answer: false,
+    explanation: "The anterior transverse arch is complete because the heads of the first and fifth metatarsals come in contact with the ground. The posterior transverse arch is incomplete."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The posterior transverse arch forms a half dome which is completed by the similar half dome of the opposite foot.",
+    answer: true,
+    explanation: "The posterior transverse arch is incomplete because only the lateral end comes in contact with the ground, the arch forming a 'half dome' which is completed by a similar half dome of the opposite foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "Flat foot is called pes cavus.",
+    answer: false,
+    explanation: "Absence or collapse of the arches leads to flat foot (pes planus). Exaggeration of the longitudinal arches is known as pes cavus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The commonest deformity of the foot is talipes equinovarus (club foot).",
+    answer: true,
+    explanation: "The commonest deformity of the foot is talipes equinovarus (club foot), in which the foot is inverted, adducted and plantar flexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The plantar aponeurosis represents the distal part of the plantaris which has become separated from the rest of the muscle during evolution.",
+    answer: true,
+    explanation: "Plantar aponeurosis represents the distal part of the plantaris which has become separated from the rest of the muscle during evolution because of the enlargement of the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The deep fascia of the sole is thickened in the centre to form the plantar aponeurosis.",
+    answer: true,
+    explanation: "The deep fascia covering the sole is thick in the centre and thin at the sides. The thickened central part is known as the plantar aponeurosis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The fibrous flexor sheaths of the foot retain the flexor tendons in position during flexion of the toes.",
+    answer: true,
+    explanation: "The fibrous flexor sheaths retain the flexor tendons in position during flexion of the toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The plantar aponeurosis differs from the palmar aponeurosis in giving off an additional process to the great toe.",
+    answer: true,
+    explanation: "The plantar aponeurosis differs from the palmar aponeurosis in giving off an additional process to the great toe, which restricts the movements of the latter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The flexor digitorum brevis is the most lateral muscle of the first layer of the sole.",
+    answer: false,
+    explanation: "The flexor digitorum brevis lies in the middle of the first layer. The abductor hallucis is medial, and the abductor digiti minimi is lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The flexor digitorum accessorius straightens the pull of the long flexor tendons.",
+    answer: true,
+    explanation: "The flexor digitorum accessorius straightens the pull of the long flexor tendons."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The first lumbrical is unipennate and is supplied by the lateral plantar nerve.",
+    answer: false,
+    explanation: "The first lumbrical is unipennate and is supplied by the medial plantar nerve. The second to fourth lumbricals are bipennate and supplied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The adductor hallucis has two heads: oblique and transverse.",
+    answer: true,
+    explanation: "The adductor hallucis arises by two heads: the oblique head is large and arises from the bases of the second, third, and fourth metatarsals; the transverse head is small and arises from the deep metatarsal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The plantar interossei muscles adduct the toes toward the axis of the second toe.",
+    answer: true,
+    explanation: "Plantar interossei are adductors of third, fourth and fifth toes toward the axis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The dorsal interossei muscles abduct the toes from the axis of the second toe.",
+    answer: true,
+    explanation: "Dorsal interossei are abductors of toes from axis of second toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The medial plantar artery is the larger terminal branch of the posterior tibial artery.",
+    answer: false,
+    explanation: "The lateral plantar artery is the larger terminal branch of the posterior tibial artery. The medial plantar artery is the smaller branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "The plantar arch lies between the third and fourth layers of the sole.",
+    answer: true,
+    explanation: "The plantar arch lies between the third and fourth layers of the sole and is accompanied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "truefalse",
+    question: "Morton's neuroma occurs on the branch of the medial plantar nerve between the 3rd and 4th metatarsal bones.",
+    answer: true,
+    explanation: "A neuroma may be formed on the branch of medial plantar nerve between 3rd and 4th metatarsal bones, called Morton's neuroma."
+  },
+
+  // SECTION 10: Anterior Compartment of Thigh & Femoral Triangle
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The sartorius is the longest muscle in the body.",
+    answer: true,
+    explanation: "The sartorius is long, narrow and ribbon-like, running downwards and medially across the front of the thigh. It is the longest muscle in the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The quadriceps femoris consists of four parts: rectus femoris, vastus lateralis, vastus medialis, and vastus intermedius.",
+    answer: true,
+    explanation: "The quadriceps femoris consists of four parts: the rectus femoris, the vastus lateralis, the vastus medialis, and the vastus intermedius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The articularis genu pulls the synovial membrane downwards during extension of the knee.",
+    answer: false,
+    explanation: "The articularis genu pulls the synovial membrane upwards during extension of the knee, thus preventing damage to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The iliopsoas is the chief flexor of the thigh.",
+    answer: true,
+    explanation: "The iliopsoas (iliacus and psoas major) has a common insertion on the lesser trochanter of the femur and is the chief and powerful flexor of the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The femoral triangle is bounded laterally by the medial border of the adductor longus.",
+    answer: false,
+    explanation: "The femoral triangle is bounded laterally by the medial border of sartorius and medially by the medial border of the adductor longus. Its base is formed by the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The femoral sheath encloses the femoral nerve, artery, and vein.",
+    answer: false,
+    explanation: "The femoral sheath encloses the upper 4 cm of the femoral vessels (artery and vein). The femoral nerve lies outside the femoral sheath, lateral to the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The femoral canal is the medial compartment of the femoral sheath.",
+    answer: true,
+    explanation: "The femoral canal is the medial compartment of the femoral sheath, conical in shape, about 1.5 cm long, and contains a lymph node of Cloquet."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "Femoral hernias are more common in females because the femoral canal is wider.",
+    answer: true,
+    explanation: "A femoral hernia is more common in females because the femoral canal is wider, associated with the wider pelvis and the smaller size of the femoral vessels in the female."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The femoral hernia appears inferolateral to the pubic tubercle.",
+    answer: true,
+    explanation: "A femoral hernia appears in the femoral triangle, inferolateral to the pubic tubercle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor canal is also called the subsartorial canal or Hunter's canal.",
+    answer: true,
+    explanation: "The adductor canal is also called the subsartorial canal or Hunter's canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The adductor canal extends from the apex of the femoral triangle to the tendinous opening in the adductor magnus.",
+    answer: true,
+    explanation: "The adductor canal extends from the apex of the femoral triangle, above, to the tendinous opening in the adductor magnus, below."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "truefalse",
+    question: "The saphenous nerve leaves the adductor canal by piercing the fibrous roof.",
+    answer: true,
+    explanation: "The saphenous nerve crosses the femoral artery anteriorly from lateral to medial side and leaves the canal by piercing the fibrous roof."
+  },
+
+  // SECTION 11: Gluteal Region
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The gluteus maximus is the largest, heaviest, and most coarsely fibered muscle of the body.",
+    answer: true,
+    explanation: "The gluteus maximus is the largest, heaviest, and most coarsely fibered muscle of the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The gluteus maximus is supplied by the superior gluteal nerve.",
+    answer: false,
+    explanation: "The gluteus maximus is supplied by the inferior gluteal nerve (L5, S1, 2). The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The piriformis is the key muscle of the gluteal region.",
+    answer: true,
+    explanation: "The piriformis is the key muscle of the gluteal region, as it determines the names of the blood vessels and nerves above and below it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The structures passing above the piriformis are the superior gluteal nerve and superior gluteal vessels.",
+    answer: true,
+    explanation: "The structures passing above the piriformis are the superior gluteal nerve and superior gluteal vessels."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The structures passing below the piriformis include the sciatic nerve, inferior gluteal nerve, and pudendal nerve.",
+    answer: true,
+    explanation: "Structures passing below the piriformis include the inferior gluteal nerve, inferior gluteal vessels, sciatic nerve, posterior cutaneous nerve of thigh, nerve to quadratus femoris, nerve to obturator internus, internal pudendal vessels, and pudendal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The sciatic nerve can be injured during intragluteal injections.",
+    answer: true,
+    explanation: "Intramuscular injections are given in the superolateral quadrant of the gluteal region to avoid injury to large vessels and nerves, especially the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "A positive Trendelenburg's sign indicates paralysis of the gluteus medius and minimus.",
+    answer: true,
+    explanation: "If the glutei medius and minimus are paralysed, the unsupported side of the pelvis drops, which is known as a positive Trendelenburg's sign."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The superior gluteal artery is a branch of the anterior division of the internal iliac artery.",
+    answer: false,
+    explanation: "The superior gluteal artery is a branch of the posterior division of the internal iliac artery. The inferior gluteal artery is a branch of the anterior division."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The trochanteric anastomosis is formed by the medial circumflex femoral, lateral circumflex femoral, superior gluteal, and inferior gluteal arteries.",
+    answer: true,
+    explanation: "The trochanteric anastomosis is formed by the medial circumflex femoral, lateral circumflex femoral, superior gluteal, and inferior gluteal arteries near the trochanteric fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The cruciate anastomosis is situated over the upper part of the back of the femur.",
+    answer: true,
+    explanation: "The cruciate anastomosis is situated over the upper part of the back of the femur at the level of the middle of the lesser trochanter."
+  },
+
+  // SECTION 12: Hamstrings & Miscellaneous
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The hamstring muscles are flexors of the knee and extensors of the hip.",
+    answer: true,
+    explanation: "The hamstring muscles act as flexors of the knee and extensors of the hip."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The biceps femoris has two heads - long and short - both supplied by the tibial part of the sciatic nerve.",
+    answer: false,
+    explanation: "The long head of the biceps femoris is supplied by the tibial part of the sciatic nerve, while the short head is supplied by the common peroneal part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The sciatic nerve terminates by dividing into the tibial and common peroneal nerves at the superior angle of the popliteal fossa.",
+    answer: true,
+    explanation: "The sciatic nerve terminates at the superior angle of the popliteal fossa by dividing into the tibial and the common peroneal nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The tibial collateral ligament of the knee joint is morphologically the degenerated tendon of the adductor magnus.",
+    answer: true,
+    explanation: "The tibial collateral ligament morphologically represents the degenerated tendon of the adductor magnus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "Sleeping foot occurs due to compression of the sciatic nerve between the femur and the edge of a hard surface.",
+    answer: true,
+    explanation: "The sciatic nerve lies on quadratus femoris and adductor magnus. Between the two muscles, the nerve lies on the hard femur, so it can get pressed between the femur and the hard edge of a table or chair, causing sleeping foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The profunda femoris artery gives off four perforating arteries.",
+    answer: true,
+    explanation: "The profunda femoris artery gives off four perforating arteries. The fourth perforating artery is the termination of the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The second perforating artery gives off the nutrient artery to the femur.",
+    answer: true,
+    explanation: "The second perforating artery gives off the nutrient artery to the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The tibialis anterior is the most lateral muscle of the anterior compartment of the leg.",
+    answer: false,
+    explanation: "The tibialis anterior is the most medial muscle of the anterior compartment. The peroneus tertius is the most lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The deep peroneal nerve supplies the extensor digitorum brevis on the dorsum of the foot.",
+    answer: true,
+    explanation: "The extensor digitorum brevis on the dorsum of the foot is supplied by the lateral terminal branch of the deep peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the tibia.",
+    answer: true,
+    explanation: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the tibia and laterally to the lower part of the anterior border of the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The inferior extensor retinaculum is a Y-shaped band of deep fascia.",
+    answer: true,
+    explanation: "The inferior extensor retinaculum is a Y-shaped band of deep fascia, situated in front of the ankle joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The peroneus longus is inserted into the base of the 5th metatarsal bone.",
+    answer: false,
+    explanation: "The peroneus longus is inserted into the base of the 1st metatarsal and medial cuneiform. The peroneus brevis is inserted into the base of the 5th metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The superficial peroneal nerve becomes cutaneous at the junction of the upper two-thirds and lower one-third of the leg.",
+    answer: true,
+    explanation: "The superficial peroneal nerve pierces the deep fascia in the distal one-third of the leg and descends to the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The sartorius, gracilis, and semitendinosus form the 'guy ropes' to stabilize the bony pelvis on the femur.",
+    answer: true,
+    explanation: "These three muscles, inserted into the upper part of the medial surface of the tibia, are anchored below at one point and spread out above to span the pelvis, like three strings of a tent, stabilizing the bony pelvis on the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The anserine bursa separates the tendons of sartorius, gracilis, and semitendinosus from one another.",
+    answer: true,
+    explanation: "The anserine bursa is a complicated bursa which separates the tendons of the sartorius, the gracilis and the semitendinosus from one another, from the tibia, and from the tibial collateral ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The medial surface of the tibia is subcutaneous throughout its entire length.",
+    answer: false,
+    explanation: "The medial surface of the tibia is subcutaneous, except in the uppermost part where it is crossed by the tendons of sartorius, gracilis and semitendinosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The tibia is the preaxial bone of the lower limb.",
+    answer: true,
+    explanation: "The tibia is the preaxial bone and the fibula is the postaxial bone of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The lower limb bud rotates laterally through 90° during development.",
+    answer: false,
+    explanation: "The limb bud rotates medially through 90°, so that the great toe and tibia are carried medially, and the little toe and fibula laterally."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "The obturator nerve supplies both the hip and knee joints, so pain from one joint may be referred to the other.",
+    answer: true,
+    explanation: "Since the obturator nerve supplies both the hip and knee joints, pain from one joint may be referred to the other joint. The femoral nerve also supplies both joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "truefalse",
+    question: "Lumbar sympathectomy for occlusive arterial disease involves removal of L2, L3, and L4 ganglia.",
+    answer: true,
+    explanation: "Sympathectomy, i.e., removal of L2, L3, and L4 ganglia with intervening sympathetic trunk, is advised for occlusive arterial disease to increase collateral circulation. L1 ganglion is not removed as it is responsible for ejaculation."
+  },
+
+  // ===== MULTIPLE CHOICE QUESTIONS (201-300) =====
+
+  // SECTION 13: Multiple Choice Questions
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor contributing to the stability of the hip joint?",
+    options: [
+      "A. Depth of the acetabulum and the acetabular labrum",
+      "B. Tension and strength of ligaments",
+      "C. Strength of surrounding muscles",
+      "D. The presence of the ligamentum teres"
+    ],
+    correctAnswer: "D. The presence of the ligamentum teres",
+    explanation: "The stability of the hip joint depends upon the depth of the acetabulum and acetabular labrum, tension and strength of ligaments, strength of surrounding muscles, length and obliquity of the neck of the femur, and atmospheric pressure. The ligamentum teres (ligament of the head of the femur) is weak and of little importance in strengthening the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "Which ligament of the hip joint prevents the trunk from falling backwards in the standing posture?",
+    options: [
+      "A. Ischiofemoral ligament",
+      "B. Pubofemoral ligament",
+      "C. Iliofemoral ligament",
+      "D. Ligament of the head of the femur"
+    ],
+    correctAnswer: "C. Iliofemoral ligament",
+    explanation: "The iliofemoral ligament, or inverted Y-shaped ligament of Bigelow, lies anteriorly and is one of the strongest ligaments in the body. It prevents the trunk from falling backwards in the standing posture."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The ligament of the head of the femur transmits arteries from which branches?",
+    options: [
+      "A. Femoral and profunda femoris arteries",
+      "B. Obturator and medial circumflex femoral arteries",
+      "C. Lateral circumflex femoral and superior gluteal arteries",
+      "D. Inferior gluteal and obturator arteries"
+    ],
+    correctAnswer: "B. Obturator and medial circumflex femoral arteries",
+    explanation: "The ligament of the head of the femur transmits arteries to the head of the femur from the acetabular branches of the obturator and medial circumflex femoral arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The close packed position of the hip joint is:",
+    options: [
+      "A. Flexion with slight abduction and lateral rotation",
+      "B. Extension with slight abduction and medial rotation",
+      "C. Flexion with adduction and medial rotation",
+      "D. Extension with adduction and lateral rotation"
+    ],
+    correctAnswer: "B. Extension with slight abduction and medial rotation",
+    explanation: "Hip joint extension with slight abduction and medial rotation is the close packed position for the hip joint, which means the ligaments and the capsules are most taut in this position. The surfaces are most congruent in slightly flexed, abducted and laterally rotated position."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The range of lateral rotation at the hip joint is approximately:",
+    options: [
+      "A. 25 degrees",
+      "B. 50 degrees",
+      "C. 60 degrees",
+      "D. 15 degrees"
+    ],
+    correctAnswer: "C. 60 degrees",
+    explanation: "The range of movements at the hip joint: Extension 15°, abduction 50°, medial rotation 25°, and lateral rotation 60°."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a structure passing under the flexor retinaculum of the ankle?",
+    options: [
+      "A. Tibialis posterior tendon",
+      "B. Flexor digitorum longus tendon",
+      "C. Deep peroneal nerve",
+      "D. Flexor hallucis longus tendon"
+    ],
+    correctAnswer: "C. Deep peroneal nerve",
+    explanation: "The structures passing deep to the flexor retinaculum from medial to lateral side are: tibialis posterior tendon, flexor digitorum longus tendon, posterior tibial artery and its terminal branches, tibial nerve and its terminal branches, and flexor hallucis longus tendon. The deep peroneal nerve passes under the extensor retinaculum on the anterior side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "Which muscle is called the 'peripheral heart' and why?",
+    options: [
+      "A. Gastrocnemius because it raises the heel during walking",
+      "B. Soleus because it helps in venous return from the lower limb",
+      "C. Tibialis posterior because it supports the medial longitudinal arch",
+      "D. Popliteus because it unlocks the knee joint"
+    ],
+    correctAnswer: "B. Soleus because it helps in venous return from the lower limb",
+    explanation: "The soleus is called the peripheral heart because its contractions help in the venous return from the lower limb. There are large, valveless, venous sinuses in its substance. When the muscle contracts, the blood in these sinuses is pumped upwards; when it relaxes, it sucks the blood from the superficial veins through the perforators."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "The tendo calcaneus is the thickest and strongest tendon of the body. It is approximately how long?",
+    options: [
+      "A. 5 cm",
+      "B. 10 cm",
+      "C. 15 cm",
+      "D. 20 cm"
+    ],
+    correctAnswer: "C. 15 cm",
+    explanation: "The tendo calcaneus is the thickest and strongest tendon of the body. It is about 15 cm long."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Which of the following muscles is NOT a hamstring muscle?",
+    options: [
+      "A. Semitendinosus",
+      "B. Semimembranosus",
+      "C. Long head of biceps femoris",
+      "D. Rectus femoris"
+    ],
+    correctAnswer: "D. Rectus femoris",
+    explanation: "The hamstring muscles are the semitendinosus, the semimembranosus, the long head of the biceps femoris, and the ischial head of the adductor magnus. The rectus femoris is part of the quadriceps femoris in the anterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The ischial part of the adductor magnus is supplied by which nerve?",
+    options: [
+      "A. Anterior division of the obturator nerve",
+      "B. Posterior division of the obturator nerve",
+      "C. Tibial part of the sciatic nerve",
+      "D. Femoral nerve"
+    ],
+    correctAnswer: "C. Tibial part of the sciatic nerve",
+    explanation: "The adductor magnus has a double nerve supply: the adductor part is supplied by the posterior division of the obturator nerve; the hamstring (ischial) part is supplied by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "The posterior tibial artery terminates by dividing into:",
+    options: [
+      "A. Anterior and posterior tibial arteries",
+      "B. Medial and lateral plantar arteries",
+      "C. Dorsalis pedis and plantar arteries",
+      "D. Peroneal and tibial arteries"
+    ],
+    correctAnswer: "B. Medial and lateral plantar arteries",
+    explanation: "The posterior tibial artery terminates deep to the flexor retinaculum by dividing into the lateral and medial plantar arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The common peroneal nerve is most commonly injured in relation to which structure?",
+    options: [
+      "A. Head of fibula",
+      "B. Neck of fibula",
+      "C. Lateral condyle of tibia",
+      "D. Medial malleolus"
+    ],
+    correctAnswer: "B. Neck of fibula",
+    explanation: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula and is the most frequently injured nerve in the lower limb at this location."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an action of the popliteus muscle?",
+    options: [
+      "A. Unlocks the knee joint",
+      "B. Lateral rotation of femur on tibia",
+      "C. Medial rotation of femur on tibia",
+      "D. Pulls the lateral meniscus backwards"
+    ],
+    correctAnswer: "C. Medial rotation of femur on tibia",
+    explanation: "The popliteus unlocks the knee joint by lateral rotation of the femur on the tibia prior to flexion. It also assists in pulling the lateral meniscus posteriorly. Medial rotation of the femur is produced by other muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The tibial nerve supplies all of the following muscles EXCEPT:",
+    options: [
+      "A. Gastrocnemius",
+      "B. Soleus",
+      "C. Tibialis anterior",
+      "D. Flexor hallucis longus"
+    ],
+    correctAnswer: "C. Tibialis anterior",
+    explanation: "The tibialis anterior is supplied by the deep peroneal nerve, not the tibial nerve. The tibial nerve supplies the gastrocnemius, soleus, flexor hallucis longus, flexor digitorum longus, tibialis posterior, and all other muscles of the posterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "multiplechoice",
+    question: "Which of the following structures is NOT found in the roof of the popliteal fossa?",
+    options: [
+      "A. Small saphenous vein",
+      "B. Posterior cutaneous nerve of the thigh",
+      "C. Popliteal artery",
+      "D. Sural communicating nerve"
+    ],
+    correctAnswer: "C. Popliteal artery",
+    explanation: "The roof of the popliteal fossa contains the small saphenous vein, posterior cutaneous nerve of the thigh, and sural communicating nerve. The popliteal artery is a content of the fossa, not part of the roof."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The medial longitudinal arch of the foot is primarily supported by which ligament?",
+    options: [
+      "A. Long plantar ligament",
+      "B. Short plantar ligament",
+      "C. Spring ligament (plantar calcaneonavicular)",
+      "D. Bifurcate ligament"
+    ],
+    correctAnswer: "C. Spring ligament (plantar calcaneonavicular)",
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) is the most important ligament for maintaining the medial longitudinal arch of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which nerve supplies the gluteus maximus?",
+    options: [
+      "A. Superior gluteal nerve",
+      "B. Inferior gluteal nerve",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "B. Inferior gluteal nerve",
+    explanation: "The inferior gluteal nerve (L5, S1, 2) supplies only the gluteus maximus muscle. The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The sciatic nerve enters the gluteal region through which foramen?",
+    options: [
+      "A. Lesser sciatic foramen",
+      "B. Greater sciatic foramen above the piriformis",
+      "C. Greater sciatic foramen below the piriformis",
+      "D. Obturator foramen"
+    ],
+    correctAnswer: "C. Greater sciatic foramen below the piriformis",
+    explanation: "The sciatic nerve enters the gluteal region through the greater sciatic foramen below the piriformis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The structures passing above the piriformis are:",
+    options: [
+      "A. Superior gluteal nerve and vessels",
+      "B. Inferior gluteal nerve and vessels",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "A. Superior gluteal nerve and vessels",
+    explanation: "The structures passing above the piriformis are the superior gluteal nerve and superior gluteal vessels."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "A positive Trendelenburg's sign indicates:",
+    options: [
+      "A. Paralysis of gluteus maximus",
+      "B. Paralysis of gluteus medius and minimus",
+      "C. Injury to sciatic nerve",
+      "D. Rupture of the ligamentum teres"
+    ],
+    correctAnswer: "B. Paralysis of gluteus medius and minimus",
+    explanation: "A positive Trendelenburg's sign indicates paralysis of the gluteus medius and minimus. When the patient stands on the affected leg, the unsupported side of the pelvis drops."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The femoral nerve arises from:",
+    options: [
+      "A. Ventral divisions of ventral rami of L2, 3, 4",
+      "B. Dorsal divisions of ventral rami of L2, 3, 4",
+      "C. Ventral divisions of ventral rami of L4, 5, S1",
+      "D. Dorsal divisions of ventral rami of L4, 5, S1"
+    ],
+    correctAnswer: "B. Dorsal divisions of ventral rami of L2, 3, 4",
+    explanation: "The femoral nerve is formed by the dorsal divisions of the anterior primary rami of spinal nerves L2, 3, 4. The obturator nerve is formed by the ventral divisions of the same segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The obturator nerve supplies all of the following muscles EXCEPT:",
+    options: [
+      "A. Adductor longus",
+      "B. Adductor brevis",
+      "C. Adductor magnus (adductor part)",
+      "D. Semimembranosus"
+    ],
+    correctAnswer: "D. Semimembranosus",
+    explanation: "The semimembranosus is supplied by the tibial part of the sciatic nerve. The obturator nerve supplies the adductor longus, adductor brevis, adductor magnus (adductor part), gracilis, obturator externus, and pectineus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The femoral sheath contains all of the following EXCEPT:",
+    options: [
+      "A. Femoral artery",
+      "B. Femoral vein",
+      "C. Femoral canal",
+      "D. Femoral nerve"
+    ],
+    correctAnswer: "D. Femoral nerve",
+    explanation: "The femoral sheath encloses the upper 4 cm of the femoral vessels and is divided into three compartments: lateral (femoral artery), intermediate (femoral vein), and medial (femoral canal). The femoral nerve lies outside the femoral sheath, lateral to the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The femoral ring is bounded by all of the following EXCEPT:",
+    options: [
+      "A. Inguinal ligament anteriorly",
+      "B. Pectineus posteriorly",
+      "C. Lacunar ligament medially",
+      "D. Femoral nerve laterally"
+    ],
+    correctAnswer: "D. Femoral nerve laterally",
+    explanation: "The femoral ring is bounded anteriorly by the inguinal ligament, posteriorly by pectineus and its covering fascia, medially by the lacunar ligament, and laterally by the septum separating it from the femoral vein. The femoral nerve is not a boundary of the femoral ring."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The adductor canal is bounded by all of the following EXCEPT:",
+    options: [
+      "A. Vastus medialis (anterolateral wall)",
+      "B. Adductor longus and magnus (posteromedial wall)",
+      "C. Sartorius (roof)",
+      "D. Femoral artery (content)"
+    ],
+    correctAnswer: "D. Femoral artery (content)",
+    explanation: "The adductor canal has three walls: anterolateral (vastus medialis), posteromedial (adductor longus and magnus), and medial (fibrous membrane covered by sartorius). The femoral artery is a content of the canal, not a boundary."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a content of the femoral triangle?",
+    options: [
+      "A. Femoral nerve",
+      "B. Femoral artery",
+      "C. Femoral vein",
+      "D. Sciatic nerve"
+    ],
+    correctAnswer: "D. Sciatic nerve",
+    explanation: "The contents of the femoral triangle include the femoral artery, femoral vein, femoral sheath, femoral nerve, deep inguinal lymph nodes, and the nerve to the pectineus. The sciatic nerve is in the gluteal region and posterior thigh, not in the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The piriformis syndrome is caused by compression of which nerve?",
+    options: [
+      "A. Superior gluteal nerve",
+      "B. Inferior gluteal nerve",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "C. Sciatic nerve",
+    explanation: "Piriformis syndrome occurs when the sciatic nerve gets compressed by the piriformis muscle, leading to pain in the buttock."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic feature of hamstring muscles?",
+    options: [
+      "A. Origin from the ischial tuberosity",
+      "B. Insertion into one of the bones of the leg",
+      "C. Nerve supply from the common peroneal nerve",
+      "D. Act as flexors of the knee and extensors of the hip"
+    ],
+    correctAnswer: "C. Nerve supply from the common peroneal nerve",
+    explanation: "Hamstring muscles share the following characters: origin from the ischial tuberosity, insertion into one of the bones of the leg, nerve supply from the tibial part of the sciatic nerve, and act as flexors of the knee and extensors of the hip. They are not supplied by the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The short head of the biceps femoris is supplied by which nerve?",
+    options: [
+      "A. Tibial part of the sciatic nerve",
+      "B. Common peroneal part of the sciatic nerve",
+      "C. Femoral nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Common peroneal part of the sciatic nerve",
+    explanation: "The long head of the biceps femoris is supplied by the tibial part of the sciatic nerve, while the short head is supplied by the common peroneal part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The dorsalis pedis artery is palpated between which two tendons?",
+    options: [
+      "A. Tibialis anterior and extensor hallucis longus",
+      "B. Extensor hallucis longus and extensor digitorum longus",
+      "C. Tibialis anterior and extensor digitorum longus",
+      "D. Peroneus longus and peroneus brevis"
+    ],
+    correctAnswer: "B. Extensor hallucis longus and extensor digitorum longus",
+    explanation: "Dorsalis pedis artery pulsations can be felt best on the dorsum of foot about 5 cm distal to the malleoli, lateral to the tendon of extensor hallucis longus, over the intermediate cuneiform bone, between the tendons of extensor hallucis longus and extensor digitorum longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following muscles is NOT present on the dorsum of the foot?",
+    options: [
+      "A. Extensor digitorum brevis",
+      "B. Extensor hallucis brevis",
+      "C. Extensor digitorum longus",
+      "D. Flexor digitorum brevis"
+    ],
+    correctAnswer: "D. Flexor digitorum brevis",
+    explanation: "The flexor digitorum brevis is a muscle of the first layer of the sole, not the dorsum. The dorsum contains the extensor digitorum brevis (including extensor hallucis brevis) and the tendons of the extensor digitorum longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The great saphenous vein drains into which vein?",
+    options: [
+      "A. Popliteal vein",
+      "B. Femoral vein",
+      "C. External iliac vein",
+      "D. Internal iliac vein"
+    ],
+    correctAnswer: "B. Femoral vein",
+    explanation: "The great saphenous vein pierces the cribriform fascia and opens into the femoral vein at the saphenous opening."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The small saphenous vein drains into which vein?",
+    options: [
+      "A. Femoral vein",
+      "B. Great saphenous vein",
+      "C. Popliteal vein",
+      "D. External iliac vein"
+    ],
+    correctAnswer: "C. Popliteal vein",
+    explanation: "The small saphenous vein pierces the deep fascia in the lower part of the popliteal fossa and opens into the popliteal vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "Which group of superficial inguinal lymph nodes drains the external genitalia?",
+    options: [
+      "A. Lower vertical group",
+      "B. Upper lateral group",
+      "C. Upper medial group",
+      "D. Deep inguinal group"
+    ],
+    correctAnswer: "C. Upper medial group",
+    explanation: "The upper medial group of superficial inguinal lymph nodes drains the perineum, including external genitalia, except the glans, the anal canal below the pectinate line, the vagina below hymen, and the penile part of the male urethra."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The gland of Cloquet is located in which structure?",
+    options: [
+      "A. Femoral triangle",
+      "B. Adductor canal",
+      "C. Femoral canal",
+      "D. Popliteal fossa"
+    ],
+    correctAnswer: "C. Femoral canal",
+    explanation: "The gland of Cloquet (or Rosenmuller) is the most proximal deep inguinal lymph node and lies in the femoral canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor helping venous return from the lower limb?",
+    options: [
+      "A. Negative intrathoracic pressure",
+      "B. Muscular contraction compressing deep veins",
+      "C. Presence of valves",
+      "D. Positive intra-abdominal pressure"
+    ],
+    correctAnswer: "D. Positive intra-abdominal pressure",
+    explanation: "Factors helping venous return include negative intrathoracic pressure, arterial pressure and overflow, compression of veins by arterial pulsation, valves, muscular compression of deep veins, and the tight sleeve of deep fascia. Positive intra-abdominal pressure would oppose venous return."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The deep fascia of the thigh is called:",
+    options: [
+      "A. Crural fascia",
+      "B. Fascia lata",
+      "C. Plantar aponeurosis",
+      "D. Popliteal fascia"
+    ],
+    correctAnswer: "B. Fascia lata",
+    explanation: "The deep fascia of the thigh is called fascia lata. The deep fascia of the leg is called crural fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The iliotibial tract is formed by the thickening of:",
+    options: [
+      "A. Fascia lata laterally",
+      "B. Fascia lata medially",
+      "C. Crural fascia",
+      "D. Plantar aponeurosis"
+    ],
+    correctAnswer: "A. Fascia lata laterally",
+    explanation: "The fascia lata is thickened laterally where it forms a 5 cm wide band called the iliotibial tract. It receives insertion of the gluteus maximus and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle of the gluteal region?",
+    options: [
+      "A. Piriformis",
+      "B. Obturator internus",
+      "C. Quadratus femoris",
+      "D. Adductor longus"
+    ],
+    correctAnswer: "D. Adductor longus",
+    explanation: "The muscles of the gluteal region are gluteus maximus, gluteus medius, gluteus minimus, piriformis, superior and inferior gemelli, obturator internus, quadratus femoris, obturator externus, and tensor fasciae latae. Adductor longus is in the medial compartment of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The superior gluteal nerve supplies all of the following EXCEPT:",
+    options: [
+      "A. Gluteus medius",
+      "B. Gluteus minimus",
+      "C. Tensor fasciae latae",
+      "D. Gluteus maximus"
+    ],
+    correctAnswer: "D. Gluteus maximus",
+    explanation: "The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae. The gluteus maximus is supplied by the inferior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "Which ligament connects the anterior ends of the medial and lateral menisci?",
+    options: [
+      "A. Coronary ligament",
+      "B. Transverse ligament",
+      "C. Oblique popliteal ligament",
+      "D. Arcuate popliteal ligament"
+    ],
+    correctAnswer: "B. Transverse ligament",
+    explanation: "The transverse ligament connects the anterior ends of the medial and lateral menisci."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "The infrapatellar synovial fold extends backwards from the pad of fat to the:",
+    options: [
+      "A. Tibial tuberosity",
+      "B. Intercondylar fossa of the femur",
+      "C. Patella",
+      "D. Medial condyle of tibia"
+    ],
+    correctAnswer: "B. Intercondylar fossa of the femur",
+    explanation: "A median fold, the infrapatellar synovial fold, extends backwards from the pad of fat to the intercondylar fossa of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "Which of the following bursae communicates with the cavity of the knee joint?",
+    options: [
+      "A. Subcutaneous prepatellar bursa",
+      "B. Subcutaneous infrapatellar bursa",
+      "C. Suprapatellar bursa",
+      "D. Deep infrapatellar bursa"
+    ],
+    correctAnswer: "C. Suprapatellar bursa",
+    explanation: "The suprapatellar bursa is a prolongation of the synovial membrane above the patella and communicates with the cavity of the knee joint. The subcutaneous bursae do not communicate with the joint cavity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "The locking of the knee joint is produced by continued action of which muscle?",
+    options: [
+      "A. Popliteus",
+      "B. Biceps femoris",
+      "C. Quadriceps femoris, especially the vastus medialis",
+      "D. Semimembranosus"
+    ],
+    correctAnswer: "C. Quadriceps femoris, especially the vastus medialis",
+    explanation: "Locking is produced by continued action of the same muscles that produce extension, i.e., the quadriceps femoris, especially the vastus medialis part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "Unlocking of the knee joint is brought about by the action of which muscle?",
+    options: [
+      "A. Vastus medialis",
+      "B. Popliteus",
+      "C. Biceps femoris",
+      "D. Rectus femoris"
+    ],
+    correctAnswer: "B. Popliteus",
+    explanation: "The locked knee joint can be flexed only after it is unlocked by a reversal of the medial rotation, i.e., by lateral rotation of the femur, brought about by the action of the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a component of the plantar aponeurosis?",
+    options: [
+      "A. Apex attached to the medial tubercle of the calcaneum",
+      "B. Base dividing into five processes",
+      "C. Superficial slip attached to the dermis of skin",
+      "D. Deep slip blending with the flexor digitorum longus tendon"
+    ],
+    correctAnswer: "D. Deep slip blending with the flexor digitorum longus tendon",
+    explanation: "Each process of the plantar aponeurosis splits into a superficial and a deep slip. The superficial slip is attached to the dermis of skin. The deep slip divides into two parts which embrace the flexor tendons and blend with the fibrous flexor sheaths and with the deep transverse metatarsal ligaments. It does not blend directly with the flexor digitorum longus tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following structures forms the lateral compartment of the sole?",
+    options: [
+      "A. Abductor hallucis and flexor hallucis brevis",
+      "B. Flexor digitorum brevis and quadratus plantae",
+      "C. Abductor digiti minimi and flexor digiti minimi brevis",
+      "D. Adductor hallucis and plantar interossei"
+    ],
+    correctAnswer: "C. Abductor digiti minimi and flexor digiti minimi brevis",
+    explanation: "The lateral compartment of the sole contains the abductor digiti minimi (1st layer) and flexor digiti minimi brevis (3rd layer). The medial compartment contains abductor hallucis and flexor hallucis brevis. The central compartment contains flexor digitorum brevis, quadratus plantae, and lumbricals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The plantar interossei muscles are supplied by:",
+    options: [
+      "A. Medial plantar nerve",
+      "B. Superficial branch of lateral plantar nerve",
+      "C. Deep branch of lateral plantar nerve",
+      "D. Tibial nerve"
+    ],
+    correctAnswer: "C. Deep branch of lateral plantar nerve",
+    explanation: "The plantar interossei are supplied by the deep branch of the lateral plantar nerve (first and second by deep branch, third by superficial branch). The lateral plantar nerve supplies all interossei."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The first lumbrical muscle of the foot is supplied by:",
+    options: [
+      "A. Lateral plantar nerve",
+      "B. Medial plantar nerve",
+      "C. Deep peroneal nerve",
+      "D. Superficial peroneal nerve"
+    ],
+    correctAnswer: "B. Medial plantar nerve",
+    explanation: "The first lumbrical is unipennate and is supplied by the medial plantar nerve. The second to fourth lumbricals are bipennate and supplied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The axis of adduction and abduction of the toes passes through which digit?",
+    options: [
+      "A. Great toe",
+      "B. Second toe",
+      "C. Third toe",
+      "D. Little toe"
+    ],
+    correctAnswer: "B. Second toe",
+    explanation: "The axis of movement of adduction and abduction passes through the 2nd digit. So the 2nd toe possesses two dorsal interossei muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an action of the tibialis anterior?",
+    options: [
+      "A. Dorsiflexion of foot",
+      "B. Inversion of foot",
+      "C. Maintaining medial longitudinal arch",
+      "D. Eversion of foot"
+    ],
+    correctAnswer: "D. Eversion of foot",
+    explanation: "The tibialis anterior is a dorsiflexor of foot, inverter of foot, keeps the leg vertical while walking on uneven ground, and maintains the medial longitudinal arch of the foot. It does not evert the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The peroneus longus is supplied by which nerve?",
+    options: [
+      "A. Deep peroneal nerve",
+      "B. Superficial peroneal nerve",
+      "C. Tibial nerve",
+      "D. Sciatic nerve"
+    ],
+    correctAnswer: "B. Superficial peroneal nerve",
+    explanation: "The peroneus longus and peroneus brevis are both supplied by the superficial peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The deep peroneal nerve supplies all of the following muscles EXCEPT:",
+    options: [
+      "A. Tibialis anterior",
+      "B. Extensor hallucis longus",
+      "C. Peroneus longus",
+      "D. Extensor digitorum longus"
+    ],
+    correctAnswer: "C. Peroneus longus",
+    explanation: "The deep peroneal nerve supplies the tibialis anterior, extensor hallucis longus, extensor digitorum longus, peroneus tertius, and extensor digitorum brevis. The peroneus longus is supplied by the superficial peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The saphenous nerve supplies the skin of:",
+    options: [
+      "A. Lateral side of the leg",
+      "B. Medial side of the leg and foot",
+      "C. Dorsum of the foot",
+      "D. Sole of the foot"
+    ],
+    correctAnswer: "B. Medial side of the leg and foot",
+    explanation: "The saphenous nerve supplies the skin of the medial side of the leg and the medial border of the foot up to the ball of the great toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the talus?",
+    options: [
+      "A. Has no muscular attachment",
+      "B. Wider anteriorly than posteriorly",
+      "C. Has a tendon of flexor hallucis longus coursing between its tubercles",
+      "D. Forms the lateral longitudinal arch"
+    ],
+    correctAnswer: "D. Forms the lateral longitudinal arch",
+    explanation: "The talus forms part of the medial longitudinal arch, not the lateral longitudinal arch. The lateral longitudinal arch is formed by the calcaneus, cuboid, and 4th and 5th metatarsals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The trochanteric bursitis involves inflammation of which bursa?",
+    options: [
+      "A. Bursa over the ischial tuberosity",
+      "B. Trochanteric bursa",
+      "C. Gluteofemoral bursa",
+      "D. Prepatellar bursa"
+    ],
+    correctAnswer: "B. Trochanteric bursa",
+    explanation: "Trochanteric bursitis is inflammation of the trochanteric bursa, which separates superior fibers of the gluteus maximus from the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Ischial bursitis is caused by:",
+    options: [
+      "A. Inflammation of the trochanteric bursa",
+      "B. Recurrent microtrauma to the ischial bursa",
+      "C. Inflammation of the prepatellar bursa",
+      "D. Infection of the popliteal bursa"
+    ],
+    correctAnswer: "B. Recurrent microtrauma to the ischial bursa",
+    explanation: "Ischial bursitis is a friction bursitis resulting from excessive friction between the ischial bursae and the ischial tuberosities, often from repetitive activities like cycling or rowing."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Hamstring strains are common in individuals who:",
+    options: [
+      "A. Walk long distances",
+      "B. Run and kick hard",
+      "C. Stand for prolonged periods",
+      "D. Sit for prolonged periods"
+    ],
+    correctAnswer: "B. Run and kick hard",
+    explanation: "Hamstring strains are common in individuals who run and/or kick hard (e.g., in running, jumping, and quick-start sports such as baseball, basketball, football, and soccer)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The knee jerk reflex tests which spinal segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "B. L3, L4",
+    explanation: "The patellar tendon reflex (knee jerk) tests the integrity of the femoral nerve and the L2-L4 spinal cord segments, with L3, L4 being the main segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The calcaneal tendon reflex (ankle jerk) tests which spinal segments?",
+    options: [
+      "A. L3, L4",
+      "B. L4, L5",
+      "C. S1, S2",
+      "D. L5, S1"
+    ],
+    correctAnswer: "C. S1, S2",
+    explanation: "The calcaneal tendon reflex tests the S1 and S2 nerve roots. If the S1 nerve root is injured or compressed, the ankle reflex is virtually absent."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a component of the femoral triangle?",
+    options: [
+      "A. Lateral border: medial border of sartorius",
+      "B. Medial border: medial border of adductor longus",
+      "C. Base: inguinal ligament",
+      "D. Floor: adductor magnus"
+    ],
+    correctAnswer: "D. Floor: adductor magnus",
+    explanation: "The floor of the femoral triangle is formed medially by the adductor longus and pectineus, and laterally by the psoas major and iliacus. The adductor magnus forms part of the floor of the adductor canal, not the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "The anterior compartment of the leg is bounded by all of the following EXCEPT:",
+    options: [
+      "A. Anterior intermuscular septum",
+      "B. Interosseous membrane",
+      "C. Tibia",
+      "D. Posterior intermuscular septum"
+    ],
+    correctAnswer: "D. Posterior intermuscular septum",
+    explanation: "The anterior compartment is bounded anteriorly by the deep fascia of the leg, posteriorly by the interosseous membrane, medially by the tibia, and laterally by the anterior intermuscular septum. The posterior intermuscular septum bounds the lateral compartment posteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lateral Compartment of Leg",
+    type: "multiplechoice",
+    question: "The lateral compartment of the leg contains which muscles?",
+    options: [
+      "A. Tibialis anterior and extensor digitorum longus",
+      "B. Peroneus longus and peroneus brevis",
+      "C. Gastrocnemius and soleus",
+      "D. Flexor hallucis longus and tibialis posterior"
+    ],
+    correctAnswer: "B. Peroneus longus and peroneus brevis",
+    explanation: "The lateral compartment of the leg contains the peroneus longus and peroneus brevis muscles. The anterior compartment contains tibialis anterior, extensor hallucis longus, extensor digitorum longus, and peroneus tertius. The posterior compartment contains gastrocnemius, soleus, plantaris, popliteus, flexor digitorum longus, flexor hallucis longus, and tibialis posterior."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Posterior Compartment of Leg",
+    type: "multiplechoice",
+    question: "The posterior compartment of the leg is subdivided by which structure?",
+    options: [
+      "A. Anterior intermuscular septum",
+      "B. Posterior intermuscular septum",
+      "C. Superficial and deep transverse fascial septa",
+      "D. Interosseous membrane"
+    ],
+    correctAnswer: "C. Superficial and deep transverse fascial septa",
+    explanation: "The posterior compartment is subdivided into three parts—superficial, middle and deep—by two strong fascial septa: the superficial and deep transverse fascial septa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "multiplechoice",
+    question: "Which of the following structures is NOT related to the anterior aspect of the ankle joint?",
+    options: [
+      "A. Tibialis anterior",
+      "B. Extensor hallucis longus",
+      "C. Anterior tibial vessels",
+      "D. Tibial nerve"
+    ],
+    correctAnswer: "D. Tibial nerve",
+    explanation: "Anteriorly, from medial to lateral side, there are the tibialis anterior, extensor hallucis longus, the anterior tibial vessels, the deep peroneal nerve, the extensor digitorum longus, and the peroneus tertius. The tibial nerve is posteromedial at the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which ligament is the most important for maintaining the medial longitudinal arch?",
+    options: [
+      "A. Long plantar ligament",
+      "B. Spring ligament",
+      "C. Short plantar ligament",
+      "D. Deltoid ligament"
+    ],
+    correctAnswer: "B. Spring ligament",
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) is the most important ligament for maintaining the medial longitudinal arch of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The lateral longitudinal arch is formed by which bones?",
+    options: [
+      "A. Calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals",
+      "B. Calcaneus, cuboid, and 4th and 5th metatarsals",
+      "C. Talus, navicular, and all five metatarsals",
+      "D. Calcaneus, talus, and all five metatarsals"
+    ],
+    correctAnswer: "B. Calcaneus, cuboid, and 4th and 5th metatarsals",
+    explanation: "The lateral longitudinal arch is formed by the calcaneus, cuboid, and 4th and 5th metatarsals. The medial longitudinal arch is formed by the calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor responsible for maintaining the arches of the foot?",
+    options: [
+      "A. Shape of bones",
+      "B. Intersegmental ties (ligaments)",
+      "C. Tie beams (bowstrings)",
+      "D. Atmospheric pressure"
+    ],
+    correctAnswer: "D. Atmospheric pressure",
+    explanation: "The factors responsible for maintaining the arches of the foot include the shape of the bones, intersegmental ties or ligaments, tie beams or bowstrings, and slings. Atmospheric pressure is a factor for hip joint stability, not for foot arches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The insertion of the tibialis posterior is primarily on which bone?",
+    options: [
+      "A. Tuberosity of the navicular",
+      "B. Base of the 5th metatarsal",
+      "C. Tuberosity of the calcaneum",
+      "D. Cuboid"
+    ],
+    correctAnswer: "A. Tuberosity of the navicular",
+    explanation: "The tibialis posterior is inserted primarily into the tuberosity of the navicular bone, with slips to other tarsal and metatarsal bones."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The insertion of the peroneus longus is on which bones?",
+    options: [
+      "A. Base of 5th metatarsal and cuboid",
+      "B. Base of 1st metatarsal and medial cuneiform",
+      "C. Tuberosity of navicular and medial cuneiform",
+      "D. Base of 2nd metatarsal and lateral cuneiform"
+    ],
+    correctAnswer: "B. Base of 1st metatarsal and medial cuneiform",
+    explanation: "The peroneus longus is inserted into the base of the 1st metatarsal and medial cuneiform bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor contributing to knee joint stability?",
+    options: [
+      "A. Cruciate ligaments",
+      "B. Collateral ligaments",
+      "C. Shape of articular surfaces",
+      "D. The patella"
+    ],
+    correctAnswer: "D. The patella",
+    explanation: "The stability of the knee joint is maintained by the cruciate ligaments (anteroposterior stability), the collateral ligaments (side-to-side stability), various capsular ligaments, and the iliotibial tract. While the patella is part of the joint, it is not considered a primary stability factor."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The superior extensor retinaculum is attached medially to the:",
+    options: [
+      "A. Head of the fibula",
+      "B. Lower part of the anterior border of the tibia",
+      "C. Medial malleolus",
+      "D. Calcaneum"
+    ],
+    correctAnswer: "B. Lower part of the anterior border of the tibia",
+    explanation: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the tibia, and laterally to the lower part of the anterior border of the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The inferior extensor retinaculum is attached to which structure?",
+    options: [
+      "A. Anterior border of the tibia",
+      "B. Anterior part of the superior surface of the calcaneum",
+      "C. Medial malleolus",
+      "D. Lateral malleolus"
+    ],
+    correctAnswer: "B. Anterior part of the superior surface of the calcaneum",
+    explanation: "The stem of the inferior extensor retinaculum is attached to the anterior non-articular part of the superior surface of the calcaneum, in front of the sulcus calcanei."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Which of the following structures passes under the superior extensor retinaculum?",
+    options: [
+      "A. Flexor hallucis longus",
+      "B. Peroneus longus",
+      "C. Tibialis anterior",
+      "D. Flexor digitorum longus"
+    ],
+    correctAnswer: "C. Tibialis anterior",
+    explanation: "The structures passing under the extensor retinacula include tibialis anterior, extensor hallucis longus, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, and peroneus tertius. Flexor hallucis longus and flexor digitorum longus pass under the flexor retinaculum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The anterolateral region of the thigh is commonly used for intramuscular injections because:",
+    options: [
+      "A. It contains the femoral artery",
+      "B. It is safe and avoids major nerves and vessels",
+      "C. It contains the sciatic nerve",
+      "D. It is the location of the femoral triangle"
+    ],
+    correctAnswer: "B. It is safe and avoids major nerves and vessels",
+    explanation: "Intramuscular injections are given in the anterolateral region of the thigh in the vastus lateralis muscle because it avoids major nerves and blood vessels."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The psoas abscess can track down to the femoral triangle because:",
+    options: [
+      "A. The psoas fascia is continuous with the femoral sheath",
+      "B. The psoas muscle inserts into the lesser trochanter",
+      "C. The femoral nerve lies in the psoas fascia",
+      "D. The psoas muscle has no fascia"
+    ],
+    correctAnswer: "A. The psoas fascia is continuous with the femoral sheath",
+    explanation: "A psoas abscess formed due to tubercular infection of lumbar vertebrae can track down between the psoas major muscle and its fascia to reach behind the inguinal ligament into the femoral triangle because the fascia is continuous."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "The Q-angle is assessed by drawing lines from:",
+    options: [
+      "A. ASIS to the middle of the patella and the middle of the patella to the tibial tuberosity",
+      "B. Pubic symphysis to the patella and the patella to the medial malleolus",
+      "C. Greater trochanter to the patella and the patella to the lateral malleolus",
+      "D. Iliac crest to the patella and the patella to the tibial tuberosity"
+    ],
+    correctAnswer: "A. ASIS to the middle of the patella and the middle of the patella to the tibial tuberosity",
+    explanation: "The Q-angle is assessed by drawing a line from the ASIS to the middle of the patella and extrapolating a second (vertical) line passing through the middle of the patella and tibial tuberosity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "The anterior drawer sign indicates injury to which ligament?",
+    options: [
+      "A. Posterior cruciate ligament",
+      "B. Anterior cruciate ligament",
+      "C. Tibial collateral ligament",
+      "D. Fibular collateral ligament"
+    ],
+    correctAnswer: "B. Anterior cruciate ligament",
+    explanation: "In a tear of the anterior cruciate ligament, the tibia is pushed anteriorly, known as the anterior drawer sign. In a tear of the posterior cruciate ligament, the tibia is pushed posteriorly (posterior drawer sign)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "The 'unhappy triad' of knee injuries involves:",
+    options: [
+      "A. ACL, PCL, and medial meniscus",
+      "B. ACL, tibial collateral ligament, and medial meniscus",
+      "C. PCL, fibular collateral ligament, and lateral meniscus",
+      "D. ACL, fibular collateral ligament, and lateral meniscus"
+    ],
+    correctAnswer: "B. ACL, tibial collateral ligament, and medial meniscus",
+    explanation: "The 'unhappy triad' of knee injuries involves tearing of the ACL, tibial collateral ligament (TCL), and medial meniscus. This occurs when a blow to the lateral side of the extended knee disrupts the TCL and concomitantly tears the medial meniscus and ACL."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Hallux valgus is characterized by:",
+    options: [
+      "A. Medial deviation of the great toe",
+      "B. Lateral deviation of the great toe",
+      "C. Dorsiflexion of the great toe",
+      "D. Plantarflexion of the great toe"
+    ],
+    correctAnswer: "B. Lateral deviation of the great toe",
+    explanation: "Hallux valgus is a foot deformity characterized by lateral deviation of the great toe. The L in valgus indicates lateral deviation. The sesamoids under the head of the 1st metatarsal are usually displaced."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The superior peroneal retinaculum holds which tendons in place?",
+    options: [
+      "A. Tibialis anterior and extensor hallucis longus",
+      "B. Peroneus longus and peroneus brevis",
+      "C. Flexor hallucis longus and flexor digitorum longus",
+      "D. Tibialis posterior and flexor digitorum longus"
+    ],
+    correctAnswer: "B. Peroneus longus and peroneus brevis",
+    explanation: "The superior peroneal retinaculum holds the peroneal tendons (peroneus longus and peroneus brevis) in place against the back of the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The inferior peroneal retinaculum is attached to:",
+    options: [
+      "A. Medial malleolus",
+      "B. Lateral malleolus",
+      "C. Anterior part of the superior surface of the calcaneum",
+      "D. Tuberosity of the navicular"
+    ],
+    correctAnswer: "C. Anterior part of the superior surface of the calcaneum",
+    explanation: "The inferior peroneal retinaculum is attached superiorly to the anterior part of the superior surface of the calcaneum, where it becomes continuous with the stem of the inferior extensor retinaculum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a branch of the popliteal artery?",
+    options: [
+      "A. Superior genicular arteries",
+      "B. Inferior genicular arteries",
+      "C. Middle genicular artery",
+      "D. Perforating arteries"
+    ],
+    correctAnswer: "D. Perforating arteries",
+    explanation: "The popliteal artery gives off several muscular branches and five genicular branches: superior medial, superior lateral, middle, inferior medial, and inferior lateral genicular arteries. The perforating arteries are branches of the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The sural nerve is formed by the union of:",
+    options: [
+      "A. Tibial nerve and common peroneal nerve",
+      "B. Medial sural cutaneous nerve and sural communicating branch",
+      "C. Superficial peroneal nerve and deep peroneal nerve",
+      "D. Femoral nerve and obturator nerve"
+    ],
+    correctAnswer: "B. Medial sural cutaneous nerve and sural communicating branch",
+    explanation: "The sural nerve originates from the tibial nerve (medial sural cutaneous nerve) in the popliteal fossa and is joined by the peroneal (sural) communicating nerve from the common peroneal nerve about 5 cm above the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle of the first layer of the sole?",
+    options: [
+      "A. Abductor hallucis",
+      "B. Flexor digitorum brevis",
+      "C. Abductor digiti minimi",
+      "D. Flexor digiti minimi brevis"
+    ],
+    correctAnswer: "D. Flexor digiti minimi brevis",
+    explanation: "The muscles of the first layer of the sole are the flexor digitorum brevis, abductor hallucis, and abductor digiti minimi. Flexor digiti minimi brevis is in the third layer."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The cruciate anastomosis is formed by which arteries?",
+    options: [
+      "A. Medial circumflex femoral, lateral circumflex femoral, inferior gluteal, and first perforating",
+      "B. Superior gluteal, inferior gluteal, medial circumflex femoral, and lateral circumflex femoral",
+      "C. Femoral, profunda femoris, and popliteal",
+      "D. Obturator, medial circumflex femoral, and superior gluteal"
+    ],
+    correctAnswer: "A. Medial circumflex femoral, lateral circumflex femoral, inferior gluteal, and first perforating",
+    explanation: "The cruciate anastomosis is formed by the transverse branch of the medial circumflex femoral, transverse branch of lateral circumflex femoral, inferior gluteal, and first perforating branch of profunda femoris arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The trochanteric anastomosis is formed by which arteries?",
+    options: [
+      "A. Medial circumflex femoral, lateral circumflex femoral, superior gluteal, and inferior gluteal",
+      "B. Medial circumflex femoral, lateral circumflex femoral, femoral, and profunda femoris",
+      "C. Superior gluteal, inferior gluteal, obturator, and femoral",
+      "D. Medial circumflex femoral, obturator, superior gluteal, and inferior gluteal"
+    ],
+    correctAnswer: "A. Medial circumflex femoral, lateral circumflex femoral, superior gluteal, and inferior gluteal",
+    explanation: "The trochanteric anastomosis is formed by the ascending branch of medial circumflex femoral, ascending branch of lateral circumflex femoral, and superior gluteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The nutrient artery to the tibia, the largest nutrient artery in the body, arises from:",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Anterior or posterior tibial artery",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "C. Anterior or posterior tibial artery",
+    explanation: "The nutrient artery of tibia, the largest nutrient artery in the body, arises from the origin of the anterior or posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the great saphenous vein?",
+    options: [
+      "A. Begins at the medial end of the dorsal venous arch",
+      "B. Ascends anterior to the medial malleolus",
+      "C. Drains into the popliteal vein",
+      "D. Has 10-15 valves"
+    ],
+    correctAnswer: "C. Drains into the popliteal vein",
+    explanation: "The great saphenous vein drains into the femoral vein, not the popliteal vein. The small saphenous vein drains into the popliteal vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The deep fascia of the leg is thickened to form which retinacula?",
+    options: [
+      "A. Extensor and flexor retinacula",
+      "B. Peroneal retinacula",
+      "C. Both A and B",
+      "D. None of the above"
+    ],
+    correctAnswer: "C. Both A and B",
+    explanation: "Around the ankle, the deep fascia is thickened to form bands called retinacula. On the front of the ankle there are the superior and inferior extensor retinacula. Laterally, there are the superior and inferior peroneal retinacula. Posteromedially, there is the flexor retinaculum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The femoral artery can be compressed at the midinguinal point against which structure?",
+    options: [
+      "A. Greater trochanter",
+      "B. Head of the femur or superior ramus of the pubis",
+      "C. Ischial tuberosity",
+      "D. Anterior superior iliac spine"
+    ],
+    correctAnswer: "B. Head of the femur or superior ramus of the pubis",
+    explanation: "The femoral artery can be compressed at the midinguinal point against the head of the femur or against the superior ramus of the pubis to control bleeding from the distal part of the limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The femoral pulse can be palpated at:",
+    options: [
+      "A. The midpoint between the ASIS and the pubic symphysis",
+      "B. The midpoint of the inguinal ligament",
+      "C. The pubic tubercle",
+      "D. The anterior superior iliac spine"
+    ],
+    correctAnswer: "A. The midpoint between the ASIS and the pubic symphysis",
+    explanation: "The femoral pulse can be palpated at the midinguinal point, which lies midway between the anterior superior iliac spine and the pubic symphysis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The posterior tibial pulse can be palpated:",
+    options: [
+      "A. On the dorsum of the foot",
+      "B. Between the medial malleolus and the calcaneal tendon",
+      "C. In the popliteal fossa",
+      "D. At the midinguinal point"
+    ],
+    correctAnswer: "B. Between the medial malleolus and the calcaneal tendon",
+    explanation: "The posterior tibial pulse can be palpated between the medial malleolus and the medial border of the calcaneal tendon (about 2 cm below and behind the medial malleolus)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The dorsalis pedis pulse can be palpated:",
+    options: [
+      "A. Between the medial malleolus and the calcaneal tendon",
+      "B. On the dorsum of the foot, lateral to the tendon of extensor hallucis longus",
+      "C. In the popliteal fossa",
+      "D. At the midinguinal point"
+    ],
+    correctAnswer: "B. On the dorsum of the foot, lateral to the tendon of extensor hallucis longus",
+    explanation: "Dorsalis pedis artery pulsations can be felt on the dorsum of foot, lateral to the tendon of extensor hallucis longus, over the intermediate cuneiform bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The superior gluteal nerve injury results in:",
+    options: [
+      "A. Foot drop",
+      "B. Positive Trendelenburg's sign",
+      "C. Loss of plantarflexion",
+      "D. Loss of knee extension"
+    ],
+    correctAnswer: "B. Positive Trendelenburg's sign",
+    explanation: "Injury to the superior gluteal nerve results in paralysis of the gluteus medius and minimus, leading to a positive Trendelenburg's sign and a characteristic gluteal (waddling) gait."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Injury to the common peroneal nerve results in:",
+    options: [
+      "A. Foot drop",
+      "B. Loss of plantarflexion",
+      "C. Loss of knee flexion",
+      "D. Loss of hip extension"
+    ],
+    correctAnswer: "A. Foot drop",
+    explanation: "Injury to the common peroneal nerve results in foot drop due to paralysis of the dorsiflexors of the ankle and evertors of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Femoral hernias are more common in females because:",
+    options: [
+      "A. The femoral canal is smaller",
+      "B. The femoral canal is wider due to a wider pelvis and smaller femoral vessels",
+      "C. The inguinal ligament is weaker",
+      "D. The femoral sheath is absent"
+    ],
+    correctAnswer: "B. The femoral canal is wider due to a wider pelvis and smaller femoral vessels",
+    explanation: "Femoral hernias are more common in females because the femoral canal is wider, associated with the wider pelvis and the smaller size of the femoral vessels in the female."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The structures passing through the greater sciatic foramen below the piriformis include all of the following EXCEPT:",
+    options: [
+      "A. Sciatic nerve",
+      "B. Inferior gluteal vessels",
+      "C. Superior gluteal vessels",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "C. Superior gluteal vessels",
+    explanation: "The superior gluteal vessels pass through the greater sciatic foramen above the piriformis. The structures passing below the piriformis include the sciatic nerve, inferior gluteal vessels, pudendal nerve, posterior cutaneous nerve of thigh, and nerves to the quadratus femoris and obturator internus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle of the medial compartment of the thigh?",
+    options: [
+      "A. Adductor longus",
+      "B. Adductor brevis",
+      "C. Adductor magnus",
+      "D. Sartorius"
+    ],
+    correctAnswer: "D. Sartorius",
+    explanation: "The muscles of the medial compartment of the thigh are adductor longus, adductor brevis, adductor magnus, gracilis, and pectineus. The sartorius is in the anterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Lymphatics",
+    type: "multiplechoice",
+    question: "The femoral vein drains into which vein?",
+    options: [
+      "A. Popliteal vein",
+      "B. External iliac vein",
+      "C. Internal iliac vein",
+      "D. Great saphenous vein"
+    ],
+    correctAnswer: "B. External iliac vein",
+    explanation: "The femoral vein becomes continuous with the external iliac vein behind the inguinal ligament, medial to the femoral artery."
+  },
+    // ===== HISTOLOGY – GENERAL HISTOLOGY =====
+
+  // SECTION 1: Introduction to Histology & Microscopy
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Histology is the study of the microscopic anatomy of cells and tissues.",
+    answer: true,
+    explanation: "The word histology comes from Greek 'histos' (tissue) and 'logia' (science), and it studies the microscopic anatomy of cells and tissues."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "The small size of cells and matrix components makes histology independent of microscopes.",
+    answer: false,
+    explanation: "The small size of cells and matrix components makes histology dependent on the use of microscopes and molecular methods of study."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "The process through which cell structure is preserved is called fixation.",
+    answer: true,
+    explanation: "Fixation is the process designed to preserve the structural integrity of a specimen and avoid tissue digestion by enzymes or bacteria."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "One of the best fixatives for routine light microscopy is a buffered isotonic solution of 4% formaldehyde.",
+    answer: true,
+    explanation: "Formaldehyde is one of the best fixatives for routine light microscopy, reacting by cross-linking amine groups of proteins."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "For high resolution electron microscopy, greater care in fixation is achieved using glutaraldehyde followed by osmium tetroxide.",
+    answer: true,
+    explanation: "In high resolution EM, buffered glutaraldehyde followed by osmium tetroxide is used to preserve ultrastructural detail."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Tissues are embedded in paraffin wax after being impregnated with a solvent that evaporates at room temperature.",
+    answer: true,
+    explanation: "Once the tissue is impregnated with solvent, it is placed in melted paraffin in the oven at 58-60°C; the heat causes the solvent to evaporate, and spaces become filled with paraffin."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "A cryostat is used to section tissues embedded in paraffin wax.",
+    answer: false,
+    explanation: "A cryostat (freezing microtome) is used to section frozen tissues; a standard microtome is used for paraffin-embedded tissues."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Hematoxylin is an acidic dye that colors basic components of the cell pink.",
+    answer: false,
+    explanation: "Hematoxylin is a basic dye that preferentially colors acidic components (like DNA and RNA) a bluish tint. Eosin is the acidic dye that colors basic components pink."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Components rich in RNA stain dark blue with hematoxylin because they are basophilic.",
+    answer: true,
+    explanation: "RNA is acidic and stains with the basic dye hematoxylin, making basophilic regions (like ribosome-rich cytoplasm) appear dark blue."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Artifacts are changes to the original structure that arise from tissue deterioration and the fixation process.",
+    answer: true,
+    explanation: "Artifacts are changes to the original structure of cells and tissues that arise from tissue deterioration and from the fixation process itself."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "A skilled histologist cannot distinguish artifacts from normal cell structures.",
+    answer: false,
+    explanation: "A skilled histologist has the ability to distinguish artifacts, distortions, and loss of components from normal cell structures."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Total magnification of a light microscope is calculated by multiplying the objective power by the eyepiece power.",
+    answer: true,
+    explanation: "Total magnification is the power of the objective (4X, 10X, 40X) multiplied by the power of the eyepiece, usually 10X."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Microscope resolution is the shortest distance between two points that can still be distinguished as distinct entities.",
+    answer: true,
+    explanation: "Resolution is the shortest distance between two separate points in a microscope's field of view that can still be distinguished as distinct entities."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "A microscope with high magnification always produces a high-resolution image.",
+    answer: false,
+    explanation: "A microscope may offer high magnification, but if the lenses are of poor quality, the resulting poor resolution will degrade the image quality."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Near-ultraviolet light offers the greatest resolution because it has a long wavelength.",
+    answer: false,
+    explanation: "Near-ultraviolet light has the shortest usable wavelength and offers the greatest resolution (shorter wavelength = better resolution)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Immersion oil has a refractive index of 1.51 and substantially shortens light waves.",
+    answer: true,
+    explanation: "Objective lenses allow imaging in immersion oil with refractive index 1.51, which shortens light waves and improves resolution."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Electron microscopes can magnify images about two million times.",
+    answer: true,
+    explanation: "Modern electron microscopes can magnify images about two million (2,000,000) times, while light microscopes magnify about 1500 times."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "Immunocytochemistry uses antibodies to visualize the localization of specific proteins in cells.",
+    answer: true,
+    explanation: "Immunocytochemistry uses a primary antibody that binds to a specific protein, visualized with a secondary antibody conjugated to a fluorophore."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "The condenser in a light microscope collects and focuses light to illuminate the object.",
+    answer: true,
+    explanation: "The condenser collects and focuses light, producing a cone of light that illuminates the object to be observed."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Introduction & Microscopy",
+    type: "truefalse",
+    question: "The 100x objective is a dry objective and should be used without oil.",
+    answer: false,
+    explanation: "The 100x objective is an oil immersion objective designed to focus properly with a film of immersion oil; other objectives focus through air."
+  },
+
+  // SECTION 2: Connective Tissue – General Concepts
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Connective tissue derives its name from its function in connecting or binding cells and tissues.",
+    answer: true,
+    explanation: "The tissue derives its name from its function in connecting or binding cells and tissues and maintaining the form of organs."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "The major constituent of connective tissue is the cells, unlike other tissue types.",
+    answer: false,
+    explanation: "The major constituent of connective tissue is the extracellular matrix, whereas other tissue types (epithelium, muscle, nerve) consist mainly of cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Ground substance is a complex of anionic, hydrophilic proteoglycans and glycoproteins.",
+    answer: true,
+    explanation: "Ground substance is a complex of anionic, hydrophilic proteoglycans, glycosaminoglycans, and multiahesive glycoproteins (laminin, fibronectin)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Glycosaminoglycans (GAGs) are long, branched chains of polysaccharides with repeating disaccharide units.",
+    answer: false,
+    explanation: "GAGs are long, unbranched chains of polysaccharides with repeating disaccharide units."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Most GAGs are covalently bonded to a large central protein to form proteoglycans.",
+    answer: true,
+    explanation: "Most GAGs are covalently bonded to a large central protein to form larger molecules called proteoglycans."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "The interstitial fluid of connective tissue gives metabolic support to cells as a medium for diffusion.",
+    answer: true,
+    explanation: "The interstitial fluid provides metabolic support as the medium for diffusion of nutrients and waste products."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Edema is an accumulation of fluid in connective tissue during pathological conditions.",
+    answer: true,
+    explanation: "In pathological conditions like traumatic injury or inflammation, fluid may accumulate in connective tissue, a condition known as edema."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Mesenchyme cells are only found in embryos and persist in adults as a major cell type.",
+    answer: false,
+    explanation: "Mesenchyme cells are only found in embryos, though some mesenchyme-like cells (pericytes) persist in adults and retain capacity to differentiate."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Fibroblasts are the most common cell type found in connective tissue.",
+    answer: true,
+    explanation: "Fibroblasts are the most common cell type found in connective tissue, with an oval, pale-staining nucleus and prominent nucleoli."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Myofibroblasts contain features of both fibroblasts and smooth muscle cells.",
+    answer: true,
+    explanation: "Myofibroblasts have morphological characteristics of fibroblasts but contain actin microfibrils and myosin, behaving like smooth muscle cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Macrophages originate from monocytes in the bone marrow.",
+    answer: true,
+    explanation: "Macrophages originate from monocytes (precursor cells in bone marrow), which migrate to connective tissue and differentiate into tissue macrophages."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "The Mononuclear Phagocyte System includes Kupffer cells of the liver, alveolar macrophages, and osteoclasts.",
+    answer: true,
+    explanation: "The MPS includes Kupffer cells, alveolar macrophages, osteoclasts, microglia, Langerhans cells, and tissue macrophages."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Langerhans cells in the skin are antigen-presenting cells.",
+    answer: true,
+    explanation: "Macrophages are antigen-presenting cells, and Langerhans cells in the skin epidermis are a typical example."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Mast cell granules stain metachromatically (purple with toluidine blue).",
+    answer: true,
+    explanation: "The granules are stained metachromatically (purple after toluidine blue staining) due to their composition."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Mast cell granules contain histamine, which promotes increased vascular permeability.",
+    answer: true,
+    explanation: "Histamine promotes increased vascular permeability and smooth muscle contraction."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Heparin found in mast cell granules acts as an anticoagulant.",
+    answer: true,
+    explanation: "Heparin is a sulfated GAG that acts locally as an anticoagulant."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Mast cells have specific receptors for immunoglobulin G (IgG) on their surface.",
+    answer: false,
+    explanation: "Mast cells contain specific receptors for immunoglobulin E (IgE), not IgG. Most IgE molecules are bound to mast cells and blood basophils."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Anaphylactic shock is a result of mast cell degranulation upon second exposure to an antigen.",
+    answer: true,
+    explanation: "Second exposure to an antigen binds IgE on mast cells, triggering release of granules (histamine, leukotrienes) leading to anaphylactic shock."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Plasma cells are responsible for antibody production and have a 'clock-face' appearance nucleus.",
+    answer: true,
+    explanation: "Plasma cells produce antibodies, have eccentric nuclei with a clock-face appearance, and basophilic cytoplasm due to abundant rough ER."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Plasma cells are derived from T lymphocytes.",
+    answer: false,
+    explanation: "Plasma cells are derived from B lymphocytes, which differentiate into plasma cells upon antigen stimulation."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Leukocytes migrate from blood to connective tissue by a process called diapedesis.",
+    answer: true,
+    explanation: "Leukocytes migrate through walls of capillaries and postcapillary venules from blood to connective tissues by diapedesis."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Inflammation signs include redness, swelling, heat, pain, and disturbed function.",
+    answer: true,
+    explanation: "The classic signs of inflammation are redness, swelling, heat, pain, and disturbed function (rubor, tumor, calore, dolore, et functio laesa)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Chemotaxis is the attraction of specific cell types by some molecules during inflammation.",
+    answer: true,
+    explanation: "Chemotaxis is the phenomenon by which specific cell types are attracted by molecules, causing them to migrate to areas of inflammation."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Adipocytes are connective tissue cells specialized for storage of neutral fats.",
+    answer: true,
+    explanation: "Adipocytes are specialized for storage of neutral fats or for the production of heat; they also cushion and insulate."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Collagen fibers provide greater strength than elastic fibers, while elastic fibers provide elasticity.",
+    answer: true,
+    explanation: "Collagen has greater properties of strength than elasticity; elastic fibers are not as strong but have elastic properties."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Reticular fibers consist mainly of collagen type III and form extensive networks.",
+    answer: true,
+    explanation: "Reticular fibers consist mainly of collagen type III and are extremely thin, forming extensive networks in certain organs."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Reticular fibers are not visible in H&E preparations but are stained black with silver salts (argyrophilic).",
+    answer: true,
+    explanation: "Reticular fibers are not visible in H&E but can be stained black by impregnation with silver salts (argyrophilic)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Scurvy is caused by vitamin C deficiency, leading to defective collagen synthesis.",
+    answer: true,
+    explanation: "Vitamin C (ascorbic acid) deficiency leads to scurvy; without this vitamin, fibroblasts synthesize defective collagen."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Keloid is a local swelling caused by abnormal amounts of collagen forming in scars.",
+    answer: true,
+    explanation: "Keloid is a local swelling caused by abnormal amounts of collagen that form in scars of the skin, occurring most often in blacks."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Marfan syndrome results from mutations in the collagen type I gene.",
+    answer: false,
+    explanation: "Marfan syndrome results from mutations in the fibrillin gene, not collagen type I, leading to lack of resistance in elastic fiber-rich tissues."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Connective Tissue",
+    type: "truefalse",
+    question: "Dense regular connective tissue has closely-packed, densely-arranged fiber bundles with clear orientation, such as in tendons.",
+    answer: true,
+    explanation: "Dense regular connective tissue has closely-packed bundles with clear orientation (tendons, ligaments, aponeuroses) and relatively few cells."
+  },
+
+  // SECTION 3: Cell Biology – Stem Cells & Differentiation
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Cell differentiation involves undifferentiated primitive cells transforming into specialized cells with specific functions.",
+    answer: true,
+    explanation: "Cell differentiation is the process where undifferentiated primitive cells transform into a variety of differentiated cells to perform specific functions more efficiently."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "A zygote is a totipotent cell.",
+    answer: true,
+    explanation: "Totipotency is the ability to produce all differentiated cells in an organism, including extraembryonic tissues; a zygote is totipotent."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Pluripotent stem cells can give rise to any fetal or adult cell type but cannot form extraembryonic tissues like the placenta.",
+    answer: true,
+    explanation: "Pluripotent stem cells can give rise to any cell type but cannot contribute to extraembryonic tissue such as the placenta."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Induced pluripotent stem cells (iPS cells) are derived from embryonic stem cells.",
+    answer: false,
+    explanation: "iPS cells are artificially derived from a non-pluripotent cell, typically an adult somatic cell, by inducing forced expression of certain genes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Adult stem cells are also called tissue-specific or somatic stem cells.",
+    answer: true,
+    explanation: "Adult stem cells are called tissue-specific or somatic stem cells; they exist throughout the body from embryonic development."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "A multipotent stem cell can give rise to any cell type in the body.",
+    answer: false,
+    explanation: "A multipotent stem cell can give rise to multiple cell types but a limited number of lineages (e.g., hematopoietic cells form blood cells but not brain cells)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Oligopotent progenitor cells can differentiate into a few cell types.",
+    answer: true,
+    explanation: "Oligopotency is the ability of progenitor cells to differentiate into a few cell types (e.g., lymphoid or myeloid stem cells)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Unipotent cells have the capacity to develop into only one type of tissue/cell type.",
+    answer: true,
+    explanation: "Unipotent cells (precursor cells) can develop into only one cell type, such as skin cells or hepatocytes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Hepatocytes are unipotent and the liver's ability to regenerate is attributed to this property.",
+    answer: true,
+    explanation: "Hepatocytes are unipotent, and the liver's ability to regenerate from as little as 25% of its mass is attributed to this property."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Biology",
+    type: "truefalse",
+    question: "Cell ecology states that cells respond and adapt to their environment due to diverse receptors for signaling molecules.",
+    answer: true,
+    explanation: "Cells respond to their environment, and the same cell type can exhibit different behaviors due to diverse receptors for hormones and ECM macromolecules."
+  },
+
+  // SECTION 4: Cell Membrane & Cell Junctions
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "The cell membrane consists of a phospholipid bilayer with integral and peripheral membrane proteins.",
+    answer: true,
+    explanation: "The cell membrane consists of a phospholipid bilayer, integral and peripheral membrane proteins, and cholesterol."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "The fluid mosaic model was proposed by Davson and Danielli in 1935.",
+    answer: false,
+    explanation: "The fluid mosaic model was advanced by Singer and Nicolson in 1972. Davson-Danielli proposed a model in 1935 but it did not include transmembrane proteins."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "The glycocalyx is composed of carbohydrate molecules attached to the integral proteins and lipids of the membrane.",
+    answer: true,
+    explanation: "The glycocalyx is a fuzzy coat on the external surface composed of carbohydrate molecules attached to integral proteins (glycoproteins) and lipids (glycolipids)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "The glycocalyx functions include cell recognition, cell adhesion, protection, and permeability barrier.",
+    answer: true,
+    explanation: "The glycocalyx has functions including cell recognition, cell adhesion, protection, and permeability barrier."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Cell adhesion molecules (CAMs) include cadherins, selectins, integrins, and mucins.",
+    answer: true,
+    explanation: "Most CAMs belong to five major protein families: cadherins, Ig superfamily, selectins, integrins, and mucins."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Cadherins are calcium-dependent cell adhesion molecules.",
+    answer: true,
+    explanation: "Cadherins are dependent on Ca²⁺ ions for their function and are transmembrane glycoproteins."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Gap junctions permit the exchange of molecules with molecular mass less than 1500 Da between cells.",
+    answer: true,
+    explanation: "Gap junctions (connexons) permit exchange of molecules with molecular mass <1500 Da between adjacent cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Tight junctions form a seal that prevents the flow of material between epithelial cells.",
+    answer: true,
+    explanation: "Tight junctions (zonulae occludens) prevent flow of material between epithelial cells, contributing to apical and basal compartments."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Desmosomes use integrins to mediate adhesion between cells.",
+    answer: false,
+    explanation: "Desmosomes use cadherins (desmoglein and desmocollin) to mediate adhesion. Hemidesmosomes use integrins to bind to the basal lamina."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cell Membrane & Junctions",
+    type: "truefalse",
+    question: "Hemidesmosomes bind epithelial cells to the underlying basal lamina.",
+    answer: true,
+    explanation: "Hemidesmosomes contain integrins that bind laminin and collagen type IV, anchoring cells to the basal lamina."
+  },
+
+  // SECTION 5: Epithelial Tissue
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Microvilli are motile structures that contain microtubules.",
+    answer: false,
+    explanation: "Microvilli are nonmotile, fingerlike extensions containing actin filaments, not microtubules. Cilia contain microtubules."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Cilia are 5-10 μm long and have a central pair of microtubules surrounded by nine pairs of microtubules (9+2 arrangement).",
+    answer: true,
+    explanation: "Cilia have a 9+2 arrangement of microtubules, are 5-10 μm long, and are motile."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "The immotile cilia syndrome (Kartagener syndrome) is caused by mutations in cilia proteins.",
+    answer: true,
+    explanation: "Mutations in cilia and flagella proteins cause immotile cilia syndrome, leading to chronic respiratory infections and male infertility."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Stereocilia are motile structures similar to cilia found in the respiratory tract.",
+    answer: false,
+    explanation: "Stereocilia are long, nonmotile extensions (branched microvilli) found in the epididymis and ductus deferens, not cilia."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Pseudostratified epithelium gives a false appearance of being stratified but all cells contact the basal lamina.",
+    answer: true,
+    explanation: "Pseudostratified epithelium consists of a single layer of cells all in contact with the basal lamina, but nuclei at different levels give a stratified appearance."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Transitional epithelium is found lining the urinary bladder and part of the urinary tract.",
+    answer: true,
+    explanation: "Transitional epithelium lines the urinary bladder, ureter, and upper part of the urethra; it can adapt to mechanical changes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Stratified squamous keratinized epithelium covers dry surfaces such as the skin.",
+    answer: true,
+    explanation: "Stratified squamous keratinized epithelium covers dry surfaces like the skin; non-keratinized covers wet surfaces like the mouth and esophagus."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Epithelia are vascular tissues with a rich blood supply.",
+    answer: false,
+    explanation: "Epithelia are avascular; they receive nutrients by diffusion from blood vessels in the underlying connective tissue (lamina propria)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Most cancers of the body result from uncontrolled proliferation of epithelial cells.",
+    answer: true,
+    explanation: "Most cancers (carcinomas) are derived from epithelial cells due to their high proliferative capacity and exposure to environmental factors."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Exocrine glands retain their connection with the surface epithelium and secrete via ducts.",
+    answer: true,
+    explanation: "Exocrine glands retain connection with surface epithelium and transport secretions via ducts to the exterior."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Endocrine glands have ducts that transport hormones to their target organs.",
+    answer: false,
+    explanation: "Endocrine glands are ductless and secrete hormones directly into the bloodstream."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Merocrine glands release secretory products by exocytosis without loss of cellular material.",
+    answer: true,
+    explanation: "In merocrine glands (e.g., pancreas, sweat glands), granules leave by exocytosis with no loss of cellular material."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Holocrine glands secrete products with the whole cell (e.g., sebaceous glands).",
+    answer: true,
+    explanation: "In holocrine glands, the product is shed with the whole cell (e.g., sebaceous glands)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "Metaplasia is a reversible change in epithelial lining in response to chronic irritation.",
+    answer: true,
+    explanation: "Metaplasia is a change in epithelial lining in response to chronic physical or chemical irritation (e.g., smoking or vitamin A deficiency)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Epithelial Tissue",
+    type: "truefalse",
+    question: "In heavy cigarette smokers, ciliated pseudostratified epithelium in bronchi is transformed into stratified squamous epithelium.",
+    answer: true,
+    explanation: "This is an example of pathological metaplasia."
+  },
+
+  // SECTION 6: Tissue Types – Basic Classification
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The four basic types of tissues are epithelial, connective, muscle, and nervous.",
+    answer: true,
+    explanation: "The four major tissue types are epithelial, connective, muscle, and nervous."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Nervous tissue is composed of cells with intertwining elongated processes and very little extracellular matrix.",
+    answer: true,
+    explanation: "Nervous tissue consists of neurons with elongated processes, and the extracellular matrix is minimal."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Muscle tissue contains elongated contractile cells and a moderate amount of extracellular matrix.",
+    answer: true,
+    explanation: "Muscle tissue has elongated contractile cells with a moderate amount of ECM."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Connective tissue has several types of cells and an abundant extracellular matrix.",
+    answer: true,
+    explanation: "Connective tissue has fixed and wandering cells with an abundant extracellular matrix."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Epithelial tissue has aggregated polyhedral cells with a very small amount of extracellular matrix.",
+    answer: true,
+    explanation: "Epithelial tissue consists of cells packed tightly with very little intercellular matrix."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The basal lamina is visible with the light microscope as the basement membrane.",
+    answer: false,
+    explanation: "The basal lamina is visible only with the electron microscope; the basement membrane is the thicker structure seen with the light microscope."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The basal lamina is composed of type IV collagen, laminin, entactin, and proteoglycans.",
+    answer: true,
+    explanation: "Components include type IV collagen, laminin, entactin, and heparan sulfate proteoglycan."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The reticular lamina is associated with the basal lamina and contains reticular fibers (type III collagen).",
+    answer: true,
+    explanation: "Reticular fibers (type III) are associated with the basal lamina, forming the reticular lamina."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "In diabetes mellitus, the basement membrane of small blood vessels, especially in the retina and kidney, thickens.",
+    answer: true,
+    explanation: "The basement membrane may thicken due to increased collagen and laminin production in diabetes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Cadherins are transmembrane glycoproteins that mediate cell adhesion in adherens junctions and desmosomes.",
+    answer: true,
+    explanation: "Cadherins mediate cell adhesion in the presence of calcium in adherens junctions and desmosomes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Connexons are composed of six proteins called connexins and form gap junctions.",
+    answer: true,
+    explanation: "Gap junctions consist of connexons, each formed by six connexin protein subunits."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Simple squamous epithelium lines blood vessels (endothelium) and body cavities (mesothelium).",
+    answer: true,
+    explanation: "Simple squamous epithelium includes endothelium lining vessels and mesothelium lining body cavities like pleura and peritoneum."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Simple cuboidal epithelium is found in the kidney tubules and the surface of the ovary.",
+    answer: true,
+    explanation: "Simple cuboidal epithelium lines kidney tubules and covers the surface of the ovary (germinal epithelium)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Simple columnar epithelium lines the gallbladder, the larger ducts of the kidney, and the small intestine.",
+    answer: true,
+    explanation: "Simple columnar epithelium lines the gallbladder, larger kidney ducts, and absorptive cells of the small intestine."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Ciliated columnar epithelium is found in the air passages, uterus, and Fallopian tubes.",
+    answer: true,
+    explanation: "Ciliated columnar epithelium lines the respiratory tract, uterus, and Fallopian tubes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Stratified cuboidal epithelium is common in the skin.",
+    answer: false,
+    explanation: "Stratified squamous epithelium is common in the skin, not stratified cuboidal."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Transitional epithelium has a superficial layer of domelike cells that changes shape with distention.",
+    answer: true,
+    explanation: "Transitional epithelium has domelike surface cells that change shape according to bladder distention."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The zonula adherens encircles the cell and provides adhesion, with actin filaments inserted into plaques.",
+    answer: true,
+    explanation: "The zonula adherens encircles the cell; actin filaments insert into plaques on cytoplasmic surfaces."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "The terminal web is composed of actin filaments, intermediate filaments, and spectrin near the free surface.",
+    answer: true,
+    explanation: "The zonula adherens possesses a terminal web of actin filaments, intermediate filaments, and spectrin."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Microvilli are visible with the light microscope as a brush or striated border.",
+    answer: true,
+    explanation: "The complex of microvilli and glycocalyx appears as a brush or striated border under the light microscope."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Tissue Types",
+    type: "truefalse",
+    question: "Flagella are present in spermatozoa and are similar in structure to cilia but much longer.",
+    answer: true,
+    explanation: "Flagella are present only in spermatozoa, similar to cilia but much longer, with one per cell."
+  },
+
+  // SECTION 7: Endocrine & Glandular Cells
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Endocrine & Glandular Cells",
+    type: "truefalse",
+    question: "Steroid-secreting cells contain abundant smooth endoplasmic reticulum and mitochondria with tubular cristae.",
+    answer: true,
+    explanation: "Steroid-secreting cells (testes, ovaries, adrenals) have rich smooth ER and mitochondria with tubular cristae."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Endocrine & Glandular Cells",
+    type: "truefalse",
+    question: "The diffuse neuroendocrine system (DNES) cells are derived from neural crest cells.",
+    answer: true,
+    explanation: "DNES cells are derived from neural crest cells and contain polypeptide hormones, epinephrine, or serotonin."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Endocrine & Glandular Cells",
+    type: "truefalse",
+    question: "Apudomas are tumors derived from polypeptide-secreting cells of the DNES.",
+    answer: true,
+    explanation: "Apudomas are tumors derived from DNES polypeptide-secreting cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Endocrine & Glandular Cells",
+    type: "truefalse",
+    question: "A carcinoma is a malignant tumor of epithelial cell origin.",
+    answer: true,
+    explanation: "Carcinoma is a malignant tumor derived from epithelial cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Endocrine & Glandular Cells",
+    type: "truefalse",
+    question: "Adenocarcinomas are malignant tumors derived from glandular epithelial tissue.",
+    answer: true,
+    explanation: "Adenocarcinomas are malignant tumors derived from glandular epithelium and are the most common tumors in adults."
+  },
+
+  // SECTION 8: Cartilage
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Chondrocytes are located in matrix cavities called lacunae.",
+    answer: true,
+    explanation: "Chondrocytes are embedded in lacunae within the extracellular matrix."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Cartilage is avascular and receives nutrients by diffusion from blood vessels in the perichondrium.",
+    answer: true,
+    explanation: "Cartilage lacks blood vessels and relies on diffusion from the perichondrium or synovial fluid."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Hyaline cartilage contains type I collagen as its principal collagen type.",
+    answer: false,
+    explanation: "Hyaline cartilage contains type II collagen as its principal collagen type."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Elastic cartilage possesses abundant elastic fibers in addition to collagen type II.",
+    answer: true,
+    explanation: "Elastic cartilage has abundant elastic fibers in addition to collagen type II, giving it a yellowish color."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Fibrocartilage contains a dense network of coarse type I collagen fibers and lacks perichondrium.",
+    answer: true,
+    explanation: "Fibrocartilage contains type I and II collagen, has sparse chondrocytes, and no distinct surrounding perichondrium."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Appositional growth of cartilage involves new cells added at the periphery by chondrogenic cells in the perichondrium.",
+    answer: true,
+    explanation: "Appositional growth involves chondrogenic cells in the inner layer of perichondrium dividing and differentiating into chondroblasts."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Interstitial growth of cartilage involves existing chondrocytes dividing and producing new matrix from within.",
+    answer: true,
+    explanation: "Interstitial growth occurs when existing chondrocytes divide by mitosis and produce new matrix from within."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Osteoarthritis is a condition involving progressive loss of articular cartilage and remodeling of underlying bone.",
+    answer: true,
+    explanation: "Osteoarthritis is a chronic condition with progressive loss of articular cartilage and remodeling of underlying bone."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Costochondritis is inflammation of the costal cartilage (hyaline cartilage) of the ribs.",
+    answer: true,
+    explanation: "Costochondritis causes chest pain from inflamed costal cartilage."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Achondroplasia is the most common form of short-limbed dwarfism, caused by a mutation in the FGF receptor 3 gene.",
+    answer: true,
+    explanation: "Achondroplasia results from a mutation in the FGF receptor 3 gene."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Chondromalacia refers to softening and deterioration of articular cartilage found in the knee cap.",
+    answer: true,
+    explanation: "Chondromalacia is the softening of articular cartilage, commonly in the patella."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Perichondrium consists of an outer fibrous layer (collagen type I, fibroblasts, blood vessels) and an inner chondrogenic layer.",
+    answer: true,
+    explanation: "The perichondrium has two layers: outer fibrous (collagen I, fibroblasts, vessels) and inner chondrogenic (chondrogenic cells, chondroblasts)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Articular cartilage covering the surfaces of bones in movable joints has a perichondrium.",
+    answer: false,
+    explanation: "Articular cartilage lacks perichondrium; it is sustained by diffusion from synovial fluid."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "The extracellular matrix of hyaline cartilage is homogeneous and glassy.",
+    answer: true,
+    explanation: "Hyaline cartilage has a homogeneous and glassy ECM."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Aggrecan is the most abundant proteoglycan in hyaline cartilage and binds to hyaluronic acid via link proteins.",
+    answer: true,
+    explanation: "Aggrecan is the most abundant proteoglycan, bound noncovalently to hyaluronic acid by link proteins."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Chondronectin is a multi-adhesive glycoprotein that mediates adherence of chondrocytes to ECM.",
+    answer: true,
+    explanation: "Chondronectin binds GAGs, collagen II fibers, and integrins to mediate chondrocyte adherence to the ECM."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Isogenous groups are clusters of chondrocytes arising from mitotic divisions of a single chondrocyte.",
+    answer: true,
+    explanation: "Isogenous groups are groups of up to eight cells from mitotic divisions of a single chondrocyte."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Hyaline cartilage cells metabolize glucose by aerobic respiration.",
+    answer: false,
+    explanation: "Hyaline cartilage cells metabolize glucose by anaerobic glycolysis to produce lactic acid due to low oxygen tension."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Elastic cartilage is found in the auricle of the ear, epiglottis, and auditory tubes.",
+    answer: true,
+    explanation: "Elastic cartilage is found in the auricle of the ear, external auditory canals, auditory tubes, epiglottis, and cuneiform cartilage."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Fibrocartilage is found in intervertebral discs, pubic symphysis, and ligaments.",
+    answer: true,
+    explanation: "Fibrocartilage is found in intervertebral discs, pubic symphysis, ligaments, and some joints."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "The annulus fibrosus of the intervertebral disc is rich in bundles of type I collagen.",
+    answer: true,
+    explanation: "The peripheral annulus fibrosus is rich in bundles of type I collagen."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "The nucleus pulposus is a gel-like matrix rich in hyaluronic acid.",
+    answer: true,
+    explanation: "The central nucleus pulposus is gel-like and rich in hyaluronic acid."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Chondrocytes exhibit high metabolic and mitotic rates.",
+    answer: false,
+    explanation: "Chondrocytes exhibit low metabolic and mitotic rates."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Cartilage",
+    type: "truefalse",
+    question: "Hyaline cartilage is susceptible to calcification during aging, accompanied by degenerative changes.",
+    answer: true,
+    explanation: "Hyaline cartilage calcifies with aging, with degenerative changes in chondrocytes."
+  },
+
+  // SECTION 9: Muscle Tissue
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Skeletal muscle fibers are multinucleated and have peripheral nuclei.",
+    answer: true,
+    explanation: "Skeletal muscle fibers are multinucleated syncytia with nuclei located peripherally beneath the sarcolemma."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Cardiac muscle cells are multinucleated with peripheral nuclei.",
+    answer: false,
+    explanation: "Cardiac muscle cells typically have one or two central nuclei, not multiple peripheral ones."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Smooth muscle cells are fusiform, have a single central nucleus, and lack striations.",
+    answer: true,
+    explanation: "Smooth muscle cells are spindle-shaped with a single central nucleus and no striations."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The sarcomere extends from Z disc to Z disc and is the functional unit of skeletal muscle contraction.",
+    answer: true,
+    explanation: "The sarcomere extends from Z disc to Z disc and is about 2.5 μm long; it is the functional unit of contraction."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The A band contains both thick and thin filaments and does not change length during contraction.",
+    answer: true,
+    explanation: "The A band length remains constant during contraction; it contains both thick and thin filaments."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The I band contains only thick filaments.",
+    answer: false,
+    explanation: "The I band contains only thin filaments (actin) and shortens during contraction."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The H band contains only thick filaments and shortens during contraction.",
+    answer: true,
+    explanation: "The H band contains only thick filaments and shortens during contraction."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The M line is bisected by the H band and contains creatine kinase.",
+    answer: false,
+    explanation: "The M line bisects the H band (not the other way around) and contains creatine kinase."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Troponin is a complex of three subunits: TnT, TnC, and Tnl.",
+    answer: true,
+    explanation: "Troponin has TnT (attaches to tropomyosin), TnC (binds Ca²⁺), and Tnl (regulates actin-myosin interaction)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The sarcoplasmic reticulum is the smooth ER of muscle cells that stores calcium.",
+    answer: true,
+    explanation: "The sarcoplasmic reticulum (smooth ER) stores and releases calcium for muscle contraction."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "T-tubules are invaginations of the sarcolemma that allow depolarization to penetrate the cell interior.",
+    answer: true,
+    explanation: "T-tubules allow the action potential to penetrate deep into the muscle fiber."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Skeletal muscle has triads consisting of a T-tubule and two terminal cisternae at the A-I junction.",
+    answer: true,
+    explanation: "In skeletal muscle, triads are at the A-I junction and consist of one T-tubule and two terminal cisternae."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Cardiac muscle has dyads consisting of a T-tubule and one terminal cisterna at the Z line.",
+    answer: true,
+    explanation: "Cardiac muscle has dyads at the Z line (T-tubule + one terminal cisterna)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Myasthenia gravis is caused by a reduction of acetylcholine receptors at the neuromuscular junction.",
+    answer: true,
+    explanation: "Myasthenia gravis is an autoimmune disorder with circulating antibodies that reduce functionally active acetylcholine receptors."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Type I (slow-twitch) muscle fibers have more mitochondria, capillaries, and myoglobin, giving them a red color.",
+    answer: true,
+    explanation: "Type I fibers are slow-twitch, rich in mitochondria, capillaries, and myoglobin, giving them a red color."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Type II (fast-twitch) fibers depend more heavily on aerobic metabolism.",
+    answer: false,
+    explanation: "Type II fibers depend more heavily on anaerobic (glycolytic) metabolism of glucose derived from stored glycogen."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Satellite cells are stem cells associated with skeletal muscle that can proliferate after injury.",
+    answer: true,
+    explanation: "Satellite cells are stem cells in skeletal muscle that can proliferate and produce new muscle fibers after injury."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "The motor end plate is the neuromuscular junction where the axon terminal contacts the sarcolemma.",
+    answer: true,
+    explanation: "The motor end plate (myoneural junction) is the site of innervation of skeletal muscle fibers."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Smooth muscle contraction is involuntary, slow, and sustained.",
+    answer: true,
+    explanation: "Smooth muscle is under involuntary control and contracts slowly and sustained."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Myofibroblasts play a prominent role in wound healing by secreting collagen and contracting.",
+    answer: true,
+    explanation: "Myofibroblasts proliferate, secrete collagen, and contract to reduce wound size."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Muscle Tissue",
+    type: "truefalse",
+    question: "Cardiac muscle lacks residual stem cells and cannot regenerate after damage.",
+    answer: true,
+    explanation: "Cardiac muscle lacks residual stem cells and cannot regenerate after damage."
+  },
+
+  // SECTION 10: Nervous Tissue
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Neurons are excitable cells that respond to stimuli by altering the ionic gradient across their plasma membrane.",
+    answer: true,
+    explanation: "Neurons respond to stimuli by changing the ionic gradient (depolarization)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Neurons are amitotic and cannot be replaced if destroyed.",
+    answer: true,
+    explanation: "Neurons do not undergo mitosis, so they cannot be replaced."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Dendrites transmit impulses away from the cell body (efferent processes).",
+    answer: false,
+    explanation: "Dendrites transmit impulses toward the cell body (afferent processes); axons transmit away (efferent)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Nissl substance consists of rough endoplasmic reticulum and free ribosomes, indicating high protein synthesis.",
+    answer: true,
+    explanation: "Nissl bodies are large masses of RER and free polysomes, indicating high rates of protein synthesis."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Myelin in the CNS is produced by Schwann cells.",
+    answer: false,
+    explanation: "Myelin in the CNS is produced by oligodendrocytes; in the PNS by Schwann cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Neurilemma is the covering around the myelin sheath in the PNS, important for regeneration.",
+    answer: true,
+    explanation: "Neurilemma is the cytoplasm, nucleus, and outer cell membrane of Schwann cells; important for axon regeneration in PNS."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "In the CNS, there is no neurilemma, so fibers do not regenerate.",
+    answer: true,
+    explanation: "CNS has no neurilemma (oligodendrocytes don't form one), so regeneration does not occur."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Pseudounipolar neurons are found in spinal ganglia and have a single T-shaped process.",
+    answer: true,
+    explanation: "Pseudounipolar neurons in spinal ganglia have a T-shaped process connecting to the CNS and periphery."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Bipolar neurons have two processes: one dendrite and one axon, found in the retina and olfactory mucosa.",
+    answer: true,
+    explanation: "Bipolar neurons are spindle-shaped with a dendrite at one end and an axon at the other (retina, olfactory)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Multipolar neurons have one axon and many dendrites, including motor neurons and interneurons.",
+    answer: true,
+    explanation: "Motor neurons and interneurons are multipolar."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Axonal transport occurs in two directions: anterograde (from cell body to synapse) and retrograde.",
+    answer: true,
+    explanation: "Axonal transport is anterograde (cell body to synapse) and retrograde (synapse to cell body)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "The slow axonal transport system moves components at about 100-200 mm per day.",
+    answer: false,
+    explanation: "Slow transport is about 1 mm per day; fast transport is 100-200 mm per day."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Tetanus toxin is carried to spinal motor neurons by retrograde axonal transport.",
+    answer: true,
+    explanation: "Tetanus toxin uses retrograde axonal transport to reach spinal motor neurons, causing spastic paralysis."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Astrocytes are the largest neuroglia and contribute to the blood-brain barrier.",
+    answer: true,
+    explanation: "Astrocytes are the largest neuroglia and their pedicels on blood capillaries contribute to the blood-brain barrier."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "There are two types of astrocytes: protoplasmic (gray matter) and fibrous (white matter).",
+    answer: true,
+    explanation: "Protoplasmic astrocytes are in gray matter with thick processes; fibrous in white matter with thinner processes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Oligodendrocytes are responsible for myelin formation in the CNS.",
+    answer: true,
+    explanation: "Oligodendrocytes form myelin sheaths in the CNS."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Microglia are of mesenchymal origin and function as macrophages in the CNS.",
+    answer: true,
+    explanation: "Microglia function as macrophages and are derived from blood-borne monocytes (mesenchymal origin)."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Ependymal cells line the ventricles of the brain and central canal of the spinal cord.",
+    answer: true,
+    explanation: "Ependymal cells line the internal cavities (ventricles and central canal) and are bathed in cerebrospinal fluid."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Multiple sclerosis involves demyelination by an autoimmune mechanism that damages myelin sheaths.",
+    answer: true,
+    explanation: "MS is an autoimmune disease where T lymphocytes and microglia damage myelin sheaths, interfering with neuron activity."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Satellite cells in ganglia provide trophic support and insulation for neuronal cell bodies.",
+    answer: true,
+    explanation: "Satellite cells cover and support neuronal cell bodies in peripheral ganglia, insulating and nourishing them."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "A nerve is made up of many nerve fibers bound together by connective tissue (epineurium, perineurium, endoneurium).",
+    answer: true,
+    explanation: "The nerve is surrounded by epineurium, bundles by perineurium, and individual fibers by endoneurium."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Type A nerve fibers are unmyelinated and conduct impulses slowly.",
+    answer: false,
+    explanation: "Type A fibers are myelinated (4-20 μm) and conduct fast (15-120 m/s). Type C fibers are unmyelinated and slow."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Chemical synapses involve the release of neurotransmitters across a synaptic cleft.",
+    answer: true,
+    explanation: "Chemical synapses release neurotransmitters into the synaptic cleft (about 20 nm wide) to transmit signals."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Electrical synapses (gap junctions) allow near-instantaneous signal transmission by ion flow.",
+    answer: true,
+    explanation: "Electrical synapses use gap junctions for rapid, near-instantaneous signal transmission."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "In a synapse, synaptic vesicles contain neurotransmitters and fuse with the presynaptic membrane.",
+    answer: true,
+    explanation: "Synaptic vesicles store neurotransmitters and fuse with the presynaptic membrane to release them into the cleft."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Acetylcholinesterase is the enzyme that breaks down acetylcholine at the synapse.",
+    answer: true,
+    explanation: "Acetylcholinesterase degrades acetylcholine in the synaptic cleft."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Dorsal root ganglia contain multipolar neurons.",
+    answer: false,
+    explanation: "Dorsal root ganglia contain pseudounipolar neurons."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Nervous Tissue",
+    type: "truefalse",
+    question: "Autonomic ganglia contain multipolar neurons.",
+    answer: true,
+    explanation: "Autonomic ganglia contain multipolar neurons with fewer satellite cells."
+  },
+
+  // SECTION 11: Blood & Hematopoiesis
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "All blood cells arise from a single type of pluripotent stem cell in the bone marrow.",
+    answer: true,
+    explanation: "All blood cells arise from a pluripotential stem cell in the bone marrow."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Pluripotent stem cells can self-renew and differentiate into all blood cell types.",
+    answer: true,
+    explanation: "Pluripotent stem cells are capable of self-renewal and differentiation into all blood cell types."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Erythropoiesis takes about 7 days from proerythroblast to reticulocyte release.",
+    answer: true,
+    explanation: "Development from proerythroblast to release of reticulocytes into blood takes approximately 7 days."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Erythropoietin is a glycoprotein produced mainly in the kidneys that stimulates RBC production.",
+    answer: true,
+    explanation: "Erythropoietin stimulates mRNA for globin production and is produced mainly in the kidneys."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Reticulocytes are mature erythrocytes with a nucleus.",
+    answer: false,
+    explanation: "Reticulocytes are immature erythrocytes that still contain some organelles but no nucleus; they mature to erythrocytes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Granulopoiesis involves the production of azurophilic granules first, then specific granules.",
+    answer: true,
+    explanation: "First stage produces azurophilic granules (lysosomal enzymes); second stage produces specific granules."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Myeloblasts proliferate to generate promyelocytes, which begin to accumulate specific granules.",
+    answer: false,
+    explanation: "Promyelocytes begin to accumulate nonspecific (azurophilic) granules, not specific granules. Specific granules appear in myelocytes."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "The appearance of band cells in the blood is called a 'shift to the left' and indicates bacterial infection.",
+    answer: true,
+    explanation: "A shift to the left indicates the presence of immature neutrophils (band/stab cells) in the blood, often due to infection."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Megakaryocytes are large cells with lobulated nuclei that fragment to form platelets.",
+    answer: true,
+    explanation: "Megakaryocytes are very large cells with highly lobulated polyploid nuclei; their cytoplasm fragments to form platelets."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Thrombocytopenia is a reduction in the number of circulating platelets.",
+    answer: true,
+    explanation: "Thrombocytopenia is caused by ineffective megakaryopoiesis or deficiencies of folic acid or vitamin B₁₂."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Erythroblastosis fetalis occurs when a Rh-negative mother is immunized by Rh-positive fetal erythrocytes.",
+    answer: true,
+    explanation: "Erythroblastosis fetalis results from Rh incompatibility, with erythrocyte precursors in fetal blood."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "In newborns, all bone marrow is red and active in hematopoiesis.",
+    answer: true,
+    explanation: "All bone marrow is red in newborns and gradually changes to yellow with age."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Yellow bone marrow contains mainly adipocytes and is inactive in hematopoiesis but can convert to red marrow.",
+    answer: true,
+    explanation: "Yellow bone marrow is dominated by adipocytes but can be replaced by red marrow in conditions like severe bleeding or hypoxia."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Growth factors (CSFs) stimulate proliferation and differentiation of hematopoietic cells.",
+    answer: true,
+    explanation: "Colony-stimulating factors stimulate proliferation, differentiation, and enhance functions of mature cells."
+  },
+  {
+    course: "Histology",
+    topic: "General Histology",
+    subTopic: "Blood & Hematopoiesis",
+    type: "truefalse",
+    question: "Aplastic anemia is characterized by increased production of hematopoietic cells.",
+    answer: false,
+    explanation: "Aplastic anemia is characterized by decreased production of hematopoietic cells."
+  },
+    // ===== BIOCHEMISTRY – BLOOD =====
+
+  // SECTION 1: Blood Composition & General Concepts
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood consists of 55% plasma and 45% formed elements in an adult man.",
+    answer: true,
+    explanation: "In an adult man, blood consists of 55% plasma and 45% by cells called formed elements. This corresponds to 5-6 litres or approximately 1/12th of body weight."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Albumin is the minor protein in plasma and functions in regulating colloidal osmotic pressure of blood.",
+    answer: false,
+    explanation: "Albumin is actually the major protein in plasma, not the minor protein. It functions in regulating colloidal osmotic pressure of blood."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Reticulocytes are immature red blood cells that lack a nucleus.",
+    answer: true,
+    explanation: "Reticulocytes are immature RBCs that lack a nucleus. They have enzymes for glycolysis, Krebs cycle, HMP shunt, oxidative phosphorylation, and synthesis of Hb, cholesterol, phospholipids, triacylglycerols, and purine nucleotides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Erythrocytes contain mitochondria, Golgi apparatus, and RNA for protein synthesis.",
+    answer: false,
+    explanation: "Erythrocytes do NOT have mitochondria, Golgi apparatus, or RNA. Consequently, they cannot synthesize proteins, glycogen, or lipids from glucose."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The erythrocyte membrane is freely permeable to water, urea, creatinine, carbonate, chloride, hydroxyl ions, and protons.",
+    answer: true,
+    explanation: "The erythrocyte membrane is freely permeable to water, urea, creatinine, carbonate, chloride, hydroxyl ions, and protons. It transports sodium, potassium, calcium ions, and probably inorganic phosphate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The phosphate content of RBC is about 50 to 100 fold lower than plasma.",
+    answer: false,
+    explanation: "The phosphate content of RBC is about 50 to 100 fold GREATER than plasma, not lower. Phosphate is mostly organic in the form of hexose phosphate, triose phosphate, and ATP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Human plasma has Na+ concentration of 19 mM and K+ concentration of 136 mM.",
+    answer: false,
+    explanation: "Human plasma has Na+ concentration of approximately 142 mM and K+ concentration of 5 mM. The RBC has 19 mM for Na+ and 136 mM for K+ ions respectively. The question incorrectly swaps these values."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The normal pH of blood is in the range of 7.35-7.45.",
+    answer: true,
+    explanation: "The normal pH of blood is in the range of 7.35-7.45. Blood has an average density of approximately 1060 kg/m3."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The proteinaceous component of blood, including clotting proteins, is produced predominantly by the kidneys.",
+    answer: false,
+    explanation: "The proteinaceous component of blood (including clotting proteins) is produced predominantly by the LIVER, not the kidneys. Hormones are produced by endocrine glands and the watery fraction is regulated by the hypothalamus and maintained by the kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "RBCs in mammals are nucleated biconcave shaped cells with intracellular organelles.",
+    answer: false,
+    explanation: "RBCs in mammals are NON-NUCLEATED biconcave shaped cells, highly flexible and LACKING intracellular organelles. They are flattened and depressed in the center."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "RBCs are terminally differentiated, meaning they can never divide, and live for about 120 days.",
+    answer: true,
+    explanation: "RBCs are terminally differentiated, meaning they can never divide, and live for about 120 days after which they are engulfed and phagocytosed by cells of the RES predominantly in the spleen, bone marrow, and liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The precursor cells of erythrocytes manufacture hemoglobin until it accounts for some 90% of the dry weight of the cell.",
+    answer: true,
+    explanation: "The precursor cells (pronormoblasts) of erythrocytes manufacture hemoglobin until it accounts for some 90% of the dry weight of the cell. As it matures, the nucleus is squeezed out and ingested by the macrophage."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "In many domestic animals such as dogs and horses, the liver acts as a reservoir of erythrocytes.",
+    answer: false,
+    explanation: "In many domestic animals such as dogs and horses, the SPLEEN acts as a reservoir of erythrocytes, not the liver. It sequesters large numbers of red blood cells which are dumped into the blood during times of exertion stress."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The fluid phase of coagulated blood is known as blood plasma.",
+    answer: false,
+    explanation: "The fluid phase of coagulated blood is known as blood SERUM, not plasma. It differs from plasma in that it lacks fibrin and other coagulation proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood consists of solid elements made up of RBCs, WBCs, and platelets suspended in plasma which contains about 92% water.",
+    answer: true,
+    explanation: "Blood consists of solid elements made up of RBCs, WBCs, and platelets (formed elements) suspended in a fluid medium, plasma, which contains water (about 92%), dissolved proteins, lipids, glucose, mineral ions, hormones, organic acids, urea, other wastes, and carbon dioxide."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "By volume, white blood cells constitute about 45% of whole blood.",
+    answer: false,
+    explanation: "By volume, red blood cells constitute about 45% of whole blood, plasma about 54.3%, and white cells about 0.7%. The question incorrectly attributes the 45% to white blood cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The blood distributes hormones throughout the organism as part of its transport function.",
+    answer: true,
+    explanation: "The blood distributes hormones throughout the organism as part of its transport function. It also transports gases, mediates exchange of substances between organs, and takes up metabolic end products from tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The acid-base balance is regulated by the blood alone without involvement of other organs.",
+    answer: false,
+    explanation: "The acid-base balance is regulated by the blood in COMBINATION with the lungs, liver, and kidneys, not by the blood alone. This is part of the blood's homeostatic function."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The electrolyte composition of blood plasma is similar to that of seawater due to evolution of early forms of life in the sea.",
+    answer: true,
+    explanation: "The electrolyte composition of blood plasma is similar to that of seawater, due to the evolution of early forms of life in the sea. 'Physiological saline' (NaCl at 0.15 mol/L) is almost isotonic with blood plasma."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The concentration of K+, Mg2+, and phosphate ions is higher in blood plasma than in cells.",
+    answer: false,
+    explanation: "The concentrations of K+, Mg2+, and phosphate ions are HIGHER in the cells, not in blood plasma. By contrast, there is a relatively high concentration of Na+, Ca2+, and Cl- ions in the blood plasma compared with the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Reticulocytes have higher glucose uptake than mature erythrocytes.",
+    answer: true,
+    explanation: "Reticulocytes have higher glucose uptake than erythrocytes. Glucose uptake and lactate production increases in low O2 situations. The increased glycolytic rate is due to activation of PFK (phosphofructokinase) and PK (pyruvate kinase)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Reticulocytes cannot utilize glycerol for energy production because they lack glycerol kinase.",
+    answer: false,
+    explanation: "Reticulocytes CAN utilize glycerol for energy production because they HAVE glycerol kinase, unlike erythrocytes. This is one of the metabolic differences between reticulocytes and mature erythrocytes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood plasma is an aqueous solution of electrolytes, nutrients, metabolites, proteins, vitamins, trace elements, and signaling substances.",
+    answer: true,
+    explanation: "Blood plasma is an aqueous solution of electrolytes, nutrients, metabolites, proteins, vitamins, trace elements, and signaling substances. It is the liquid medium in which blood cells are suspended."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood serum is identical to blood plasma and contains all the same components including fibrin.",
+    answer: false,
+    explanation: "Blood serum differs from plasma in that it LACKS fibrin and other coagulation proteins. Serum is the fluid phase of coagulated blood, while plasma is the fluid phase of uncoagulated blood."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The concentration of Na+, Ca2+, and Cl- ions is higher in cells than in blood plasma.",
+    answer: false,
+    explanation: "There is a relatively high concentration of Na+, Ca2+, and Cl- ions in the BLOOD PLASMA in comparison with the cytoplasm. Conversely, K+, Mg2+, and phosphate ions are higher in cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Physiological saline (NaCl at 0.15 mol/L) is almost isotonic with blood plasma.",
+    answer: true,
+    explanation: "'Physiological saline' (NaCl at a concentration of 0.15 mol/L) is almost isotonic with blood plasma. This makes it suitable for intravenous administration and cell culture."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The liquid medium of blood is straw-yellow in color and comprises 55% of blood fluid.",
+    answer: true,
+    explanation: "Blood plasma, the blood's liquid medium, is straw-yellow in color and comprises 55% of blood fluid. It is mostly water (90% by volume)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood has an average density of approximately 1060 kg/m3.",
+    answer: true,
+    explanation: "Blood has an average density of approximately 1060 kg/m3. This is slightly higher than water due to the presence of cells and dissolved solutes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The watery fraction of blood is regulated by the hypothalamus and maintained by the kidney.",
+    answer: true,
+    explanation: "The watery fraction of blood is regulated by the hypothalamus and maintained by the kidney. This involves complex hormonal and physiological mechanisms."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Human blood constitutes about 8% of the body's weight.",
+    answer: true,
+    explanation: "Human blood constitutes about 8% of the body's weight. In an adult man, the blood is about 1/12th of the body weight, which corresponds to 5-6 litres."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Blood plasma contains dissolved proteins, lipids, glucose, mineral ions, hormones, organic acids, and urea but no carbon dioxide.",
+    answer: false,
+    explanation: "Blood plasma contains water (about 92%), dissolved proteins, lipids, glucose, mineral ions, hormones, organic acids, urea, other wastes, AND carbon dioxide. The question omits carbon dioxide."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The blood circulates in an open system of blood vessels.",
+    answer: false,
+    explanation: "The blood circulates in a CLOSED system of blood vessels, not an open system. This allows for efficient transport and pressure maintenance."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Thrombocytes are complete cells that arise directly from stem cells in the bone marrow.",
+    answer: false,
+    explanation: "Thrombocytes are CELL FRAGMENTS, not complete cells, that arise in the bone marrow from large precursor cells called megakaryocytes. Their task is to promote hemostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "Platelets are complete nucleated cells that are formed in the bone marrow.",
+    answer: false,
+    explanation: "Platelets (thrombocytes) are CELL FRAGMENTS, not complete nucleated cells, that arise in the bone marrow from large precursor cells called megakaryocytes. Their task is to promote hemostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The precursors of erythrocytes are called pronormoblasts and mature in the bone marrow through a process called erythropoiesis.",
+    answer: true,
+    explanation: "The precursors (pronormoblasts) of erythrocytes mature in the bone marrow, in a process called erythropoiesis, closely attached to a macrophage. They manufacture hemoglobin until it accounts for some 90% of dry weight."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "In erythrocyte maturation, the nucleus is retained to allow for continued protein synthesis.",
+    answer: false,
+    explanation: "In erythrocyte maturation, the nucleus is SQUEEZED OUT of the cell and is ingested by the macrophage. The no-longer-needed proteins are expelled from the cell in vesicles called exosomes. This allows the cell to become a biconcave disc optimized for gas transport."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The blood mediates the exchange of substances between organs and takes up metabolic end products from tissues.",
+    answer: true,
+    explanation: "The blood mediates the exchange of substances between organs and takes up metabolic end products from tissues in order to transport them to the lungs, liver, and kidney for excretion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The blood conveys nutritive substances to tissues and gathers excreted material for elimination.",
+    answer: true,
+    explanation: "The blood conveys nutritive substances (e.g., amino acids, sugars, mineral salts) to tissues. It also gathers excreted material which will be eliminated through the renal filter."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "truefalse",
+    question: "The blood carries only hormones and enzymes without any vitamins or other substances.",
+    answer: false,
+    explanation: "The blood carries hormones, enzymes, AND vitamins. It performs many transport functions including carrying various signaling molecules and nutrients."
+  },
+
+  // SECTION 2: Erythrocyte Metabolism & Hemoglobin
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Erythrocytes use oxidative phosphorylation as their primary energy-producing pathway.",
+    answer: false,
+    explanation: "Erythrocytes have NO oxidative phosphorylation. They utilize glucose by glycolysis and HMP shunt. They cannot synthesize proteins, glycogen, or lipids from glucose due to lack of mitochondria, Golgi apparatus, and RNA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "2,3-BPG production bypasses one ATP producing step, hence net energy per 2,3-BPG is one ATP.",
+    answer: false,
+    explanation: "2,3-BPG production bypasses one ATP producing step, hence the net energy per 2,3-BPG is ZERO, not one ATP. Two ATP are utilized and four ATP are gained, but 2,3-BPG production results in no net ATP gain."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The pentose phosphate shunt produces NADPH for GSH regeneration in erythrocytes.",
+    answer: true,
+    explanation: "The pentose shunt produces NADPH for GSH regeneration. The reaction is: GSSG + NADPH + H+ → 2 GSH + NADP+ (with FAD as cofactor)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Na+,K+-ATPase is tetrameric with alpha2, beta2 subunits and has a molecular weight of 270,000.",
+    answer: true,
+    explanation: "Na+,K+-ATPase is tetrameric (alpha2, beta2) with molecular weight 270,000. The alpha unit is large (approximately 95,000) and has the ATP binding site. It is located in the membrane and binds Na+ on the inside and K+ on the outside."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "An increase in 2,3-BPG shifts the equilibrium to the left, implying increased affinity for O2 and release of less oxygen.",
+    answer: false,
+    explanation: "An increase in 2,3-BPG shifts the equilibrium to the RIGHT, implying REDUCED affinity for O2 and release of MORE oxygen. In O2 deficiency, RBC produces more 2,3-BPG to facilitate oxygen delivery to tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The binding site of 2,3-BPG is between two alpha chains of hemoglobin.",
+    answer: false,
+    explanation: "The binding site of 2,3-BPG is BETWEEN TWO BETA CHAINS of hemoglobin, not alpha chains. On oxygenation, the cavity contracts and expels the molecule."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Decreasing pH (increasing acidity) decreases O2 affinity, a phenomenon known as the Bohr effect.",
+    answer: true,
+    explanation: "Decreasing pH (increasing acidity) decreases O2 affinity. This phenomenon is known as the Bohr effect. In low O2 tension, glycolysis increases producing lactic acid, which lowers pH and causes release of more O2."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "GLUT-1 transports glucose in the erythrocyte and requires energy for this movement.",
+    answer: false,
+    explanation: "GLUT-1 is a carrier protein that transports glucose in the erythrocyte. It is a major part of the membrane, but movement of glucose does NOT require energy. There are approximately 60,000 sugar carriers per cell."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Complete degradation of heam of Hb to bile pigment occurs in the liver, while degradation of red cells occurs in spleen, bone marrow, liver, and lymph glands.",
+    answer: true,
+    explanation: "Complete degradation of heam of Hb to bile pigment occurs in the liver, while red cell degradation occurs in spleen, bone marrow, liver, and lymph glands within the reticuloendothelial system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The ATP formed during glycolysis in erythrocytes serves mainly to supply Na+/K+-ATPase, which maintains the membrane potential.",
+    answer: true,
+    explanation: "The ATP formed during glycolysis serves mainly to supply Na+/K+-ATPase, which maintains the erythrocytes' membrane potential. The allosteric effector 2,3-BPG is also derived from glycolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The PPP in erythrocytes supplies NADH which is needed to regenerate glutathione from GSSG.",
+    answer: false,
+    explanation: "The PPP supplies NADPH+H+, NOT NADH, which is needed to regenerate glutathione (GSH) from GSSG with the help of glutathione reductase. GSH serves as a coenzyme for glutathione peroxidase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Glutathione peroxidase is a selenium-containing enzyme that detoxifies H2O2 and hydroperoxides.",
+    answer: true,
+    explanation: "Glutathione peroxidase is a selenium-containing enzyme that detoxifies H2O2 and hydroperoxides, which arise during the reaction of ROS with unsaturated fatty acids in the erythrocyte membrane."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Interchange of cholesterol and phospholipids occurs between plasma and membrane and helps maintain membrane integrity.",
+    answer: true,
+    explanation: "Interchange of cholesterol and phospholipids occurs between plasma and membrane and helps to maintain the integrity of the erythrocyte membrane. This is an important membrane maintenance function."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Bile pigments formed from Hb degradation are excreted through urine as urobilinogen.",
+    answer: false,
+    explanation: "Bile pigments formed from Hb degradation are excreted through FAECES as faecal STERCOBILIN, not through urine as urobilinogen. The degradation occurs in the reticuloendothelial system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "In erythrocytes, the major activity is Hb transportation in carrying gases, and energy is required for metabolites such as 2,3-BPG for Hb function.",
+    answer: true,
+    explanation: "In erythrocytes, the major activity is Hb transportation in carrying gases. Energy is required for metabolites such as 2,3-BPG for Hb function and NADPH for glutathione reductase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The erythrocytes provide for gas transport in the blood, carrying oxygen and carbon dioxide.",
+    answer: true,
+    explanation: "The erythrocytes provide for gas transport in the blood. They carry oxygen to tissues and collect carbon dioxide (CO2) from tissues for transport to the lungs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Erythrocyte content consists mainly of hemoglobin, which accounts for about 90% of dry weight.",
+    answer: true,
+    explanation: "Erythrocyte content consists mainly of hemoglobin. The precursors mature in the bone marrow in a process called erythropoiesis, closely attached to a macrophage, and manufacture hemoglobin until it accounts for some 90% of dry weight."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The erythrocyte membrane is freely permeable to large proteins and polysaccharides.",
+    answer: false,
+    explanation: "The erythrocyte membrane is freely permeable to water, urea, creatinine, carbonate, chloride, hydroxyl ions, and protons, but NOT to large proteins and polysaccharides. It is selectively permeable."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "GLUT-1 is a carrier protein in the erythrocyte membrane with approximately 60,000 sugar carriers per cell.",
+    answer: true,
+    explanation: "GLUT-1 is a carrier protein that transports glucose in the erythrocyte. It is a major part of the membrane, and there are approximately 60,000 sugar carriers per cell."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "GLUT-1 requires energy in the form of ATP to transport glucose across the membrane.",
+    answer: false,
+    explanation: "Movement of glucose through GLUT-1 does NOT require energy. It is a facilitative transporter that moves glucose down its concentration gradient without ATP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Glycolysis in erythrocytes produces a net gain of 4 ATP molecules per glucose molecule.",
+    answer: false,
+    explanation: "In glycolysis, 2 ATP is utilized and 4 ATP is produced (net gain of 2 ATP), not 4. However, 2,3-BPG production bypasses one ATP producing step, reducing the net energy yield."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Glucose uptake and lactate production increases in erythrocytes during low O2 situations.",
+    answer: true,
+    explanation: "Glucose uptake and lactate production increases in low O2 situations. The increased glycolytic rate is due to activation of PFK (phosphofructokinase) and PK (pyruvate kinase)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The increased glycolytic rate in low O2 situations is due to inhibition of PFK and PK enzymes.",
+    answer: false,
+    explanation: "The increased glycolytic rate in low O2 situations is due to ACTIVATION of PFK (phosphofructokinase) and PK (pyruvate kinase), not inhibition. This activation promotes glycolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Reticulocytes lack nucleus but have enzymes for glycolysis, Krebs cycle, HMP shunt, and oxidative phosphorylation.",
+    answer: true,
+    explanation: "Reticulocytes (immature RBCs) lack nucleus but have enzymes for glycolysis, Krebs cycle, HMP shunt, oxidative phosphorylation, and those for synthesis of Hb, cholesterol, phospholipids, triacylglycerols, and purine nucleotides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Erythrocytes can synthesize lipids from glucose through the Krebs cycle.",
+    answer: false,
+    explanation: "Erythrocytes CANNOT synthesize lipids from glucose. They lack mitochondria, Golgi apparatus, and RNA, and thus cannot synthesize proteins, glycogen, or lipids from glucose."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The erythrocyte membrane transports sodium, potassium, calcium ions, and inorganic phosphate.",
+    answer: true,
+    explanation: "The erythrocyte membrane transports sodium, potassium, and calcium ions and probably inorganic phosphate. The phosphate content of RBC is about 50 to 100 fold greater than plasma."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Most phosphate in RBC is inorganic and exists as free phosphate ions.",
+    answer: false,
+    explanation: "Phosphate in RBC is mostly ORGANIC in the form of hexose phosphate, triose phosphate, and ATP, not inorganic. Only a small portion exists as inorganic phosphate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Combined effect of increased acidity and 2,3-BPG leads to marked increase in O2 binding capacity.",
+    answer: false,
+    explanation: "Combined effect of increased acidity and 2,3-BPG leads to marked REDUCTION in O2 binding capacity and O2 is released. This facilitates oxygen delivery to tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "2,3-BPG concentration in stored blood can be restored by adding adenosine.",
+    answer: false,
+    explanation: "2,3-BPG in stored blood can be restored by adding INOSINE, not adenosine. Inosine can be transported into the cell where the ribose group is split from the purine base and metabolized."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Maintenance of ion balance in RBC requires pumping out Na+ and pumping in K+ using energy from ATP.",
+    answer: true,
+    explanation: "Maintenance of ion balance in RBC requires pumping out Na+ and pumping in K+ using energy from ATP. This is achieved through the Na+/K+-ATPase pump."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "In human plasma, Na+ concentration is 19 mM and K+ concentration is 136 mM.",
+    answer: false,
+    explanation: "In human plasma, Na+ concentration is approximately 142 mM and K+ concentration is 5 mM. The values given (19 mM Na+ and 136 mM K+) are actually the concentrations INSIDE the RBC."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "A concentration gradient exists across the RBC membrane and is maintained by ATPase enzyme using energy from ATP.",
+    answer: true,
+    explanation: "A concentration gradient exists across the membrane and is maintained by ATPase enzyme and energy from ATP. This is essential for cellular function and homeostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "The alpha subunit of Na+,K+-ATPase has a molecular weight of approximately 95,000 and contains the ATP binding site.",
+    answer: true,
+    explanation: "The alpha unit of Na+,K+-ATPase is large (approximately 95,000) and the enzyme has an ATP binding site. The enzyme is tetrameric with alpha2, beta2 subunits."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "In the Na+,K+-ATPase mechanism, K+ ions are transported first, followed by Na+ ions in a sequential process.",
+    answer: false,
+    explanation: "In the Na+,K+-ATPase mechanism, Na+ ions are transported and released FIRST, then K+ ions are bound before dephosphorylation. Transport and release of K+ ions complete the cycle, with Na+ going out and K+ coming in."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "About 280 million hemoglobin molecules per RBC is approximately equal to the number of 2,3-BPG molecules.",
+    answer: true,
+    explanation: "About 280 million 2,3-BPG molecules per RBC, approximately equal to the number of Hb molecules. This close ratio is important for oxygen binding regulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "In O2 deficiency, RBC produces less 2,3-BPG to increase oxygen affinity.",
+    answer: false,
+    explanation: "In O2 deficiency, RBC produces MORE 2,3-BPG to reduce oxygen affinity and release more oxygen to tissues. This is a compensatory mechanism for hypoxia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "O2 affinity is affected by pH; decreasing pH (increasing acidity) decreases O2 affinity (Bohr effect).",
+    answer: true,
+    explanation: "O2 affinity is affected by pH; decreasing pH (increasing acidity) decreases O2 affinity. This phenomenon is known as the Bohr effect and facilitates oxygen release in metabolically active tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "2,3-BPG decreases the Bohr effect by forming salt bridges that decrease the pK of +ve groups on Hb.",
+    answer: false,
+    explanation: "2,3-BPG INCREASES the Bohr effect, not decreases it. Formed salt bridges increase the pK of +ve groups on Hb and decrease the pK values of phosphate and carboxyl groups of 2,3-BPG."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "In stored blood, 2,3-BPG concentration falls making Hb affinity high and transfused blood effective in releasing O2.",
+    answer: false,
+    explanation: "In stored blood, 2,3-BPG concentration falls making Hb affinity high and transfused blood is INEFFECTIVE in releasing O2 to tissue. This is why stored blood may not function optimally for oxygen delivery."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "Adding INOSINE to stored blood can restore 2,3-BPG levels and improve oxygen delivery.",
+    answer: true,
+    explanation: "Adding INOSINE to stored blood can restore 2,3-BPG levels. Inosine is transported into the cell, the ribose group is split from the purine base and metabolized by PPP via glycolysis to give 2,3-BPG."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "truefalse",
+    question: "About 280 million 2,3-BPG molecules per RBC is approximately equal to the number of hemoglobin molecules.",
+    answer: true,
+    explanation: "About 280 million 2,3-BPG molecules per RBC, approximately equal to the number of Hb molecules. This 1:1 ratio is significant for oxygen binding regulation."
+  },
+
+  // SECTION 3: Reactive Oxygen Species & Antioxidant Defense
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Erythrocytes are constantly exposed to high concentrations of O2 and are therefore particularly at risk from reactive oxygen species (ROS).",
+    answer: true,
+    explanation: "Due to their role in O2 transport, erythrocytes are constantly exposed to high concentrations of O2 and are therefore particularly at risk from ROS. These substances are powerful oxidation agents or extremely reactive free radicals."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The dioxygen molecule (O2) is a diradical containing two unpaired electrons.",
+    answer: true,
+    explanation: "The dioxygen molecule (O2) contains two unpaired electrons, meaning it is a diradical. Despite this, O2 is relatively stable due to its special electron arrangement."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Reaction of O2 with FMN or FAD rarely produces ROS.",
+    answer: false,
+    explanation: "Reaction of O2 with FMN or FAD CONSTANTLY produces ROS, not rarely. By contrast, reduction of O2 by cytochrome c-oxidase is 'clean' as the enzyme does not release the intermediates."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Superoxide dismutase breaks down two superoxide molecules into O2 and H2O2.",
+    answer: true,
+    explanation: "Superoxide dismutase breaks down ('disproportionates') two superoxide molecules into O2 and the less damaging H2O2. The latter is in turn disproportionated into O2 and H2O by heme-containing catalase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Biological antioxidants include vitamins C and E, coenzyme Q, several carotenoids, and bilirubin.",
+    answer: true,
+    explanation: "Biological antioxidants include vitamins C and E, coenzyme Q, several carotenoids, and bilirubin (formed during heme degradation). Bilirubin serves for protection against oxidation. Glutathione is particularly important."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Glutathione has the sequence Glu-Cys-Gly and contains an atypical α-peptide bond between Glu and Cys.",
+    answer: false,
+    explanation: "Glutathione has the sequence Glu-Cys-Gly and contains an atypical γ-PEPTIDE bond between Glu and Cys, not α-peptide bond. The thiol group of the cysteine residue is redox-active."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Superoxide anion (O2-) is harmless to sulphydryl groups and unsaturated lipids in membranes.",
+    answer: false,
+    explanation: "Superoxides are HARMFUL to sulphydryl groups and unsaturated lipids in membranes. They can initiate lipid peroxidation. Superoxides can be destroyed by SOD (superoxide dismutase) to give hydrogen peroxide."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Cells living in aerobic conditions are dependent on molecular oxygen for energy production, but O2 constantly gives rise to reactive oxygen species.",
+    answer: true,
+    explanation: "Cells living in aerobic conditions are dependent on molecular oxygen for energy production. On the other hand, O2 constantly gives rise to small quantities of toxic substances known as reactive oxygen species (ROS)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "If the O2 molecule takes up an extra electron, it forms the highly reactive peroxide anion.",
+    answer: false,
+    explanation: "If the O2 molecule takes up an extra electron, it forms the highly reactive SUPEROXIDE RADICAL (O2-), not peroxide anion. Another reduction step leads to the peroxide anion (O22-), which easily binds protons and becomes hydrogen peroxide (H2O2)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The hydroxy radical (OH) is formed by protonation of O- after inclusion of a third electron.",
+    answer: true,
+    explanation: "Inclusion of a third electron leads to cleavage of the molecule into O2- and O-. Protonation of O- provides the extremely dangerous hydroxy radical (OH). A fourth electron transfer and subsequent protonation convert O- into water."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The synthesis of ROS can be catalyzed by iron ions, but not by other metals.",
+    answer: false,
+    explanation: "The synthesis of ROS can be catalyzed by iron ions, for example. The statement 'but not by other metals' is not supported by the text. The text only gives iron as an example without excluding other metals."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Reduction of O2 by cytochrome c-oxidase releases intermediate products that cause oxidative damage.",
+    answer: false,
+    explanation: "Reduction of O2 by cytochrome c-oxidase is 'clean,' as the enzyme does NOT release the intermediates. This is in contrast to reaction of O2 with FMN or FAD which constantly produces ROS."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Catalase is a heme-containing enzyme that disproportionates hydrogen peroxide into O2 and H2O.",
+    answer: true,
+    explanation: "Catalase is a heme-containing enzyme that disproportionates hydrogen peroxide (H2O2) into O2 and H2O. This follows the action of superoxide dismutase which converts superoxide to H2O2."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "All cells contain antioxidants to protect them against ROS and other radicals.",
+    answer: true,
+    explanation: "To protect them against ROS and other radicals, all cells contain antioxidants. These are reducing agents that react easily with oxidative substances and thus protect more important molecules from oxidation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Erythrocytes lack systems that can inactivate ROS and repair damage caused by ROS.",
+    answer: false,
+    explanation: "Erythrocytes HAVE systems that can inactivate ROS (superoxide dismutase, catalase, GSH). They are also able to repair damage caused by ROS. This requires products supplied by the erythrocytes' maintenance metabolism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The maintenance metabolism of erythrocytes basically only involves anaerobic glycolysis and the pentose phosphate pathway.",
+    answer: true,
+    explanation: "The erythrocytes' maintenance metabolism basically only involves anaerobic glycolysis and the pentose phosphate pathway. This is because erythrocytes lack mitochondria and other organelles."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The PPP supplies NADPH+H+ which is needed to regenerate glutathione from GSSG with the help of glutathione peroxidase.",
+    answer: false,
+    explanation: "The PPP supplies NADPH+H+ which is needed to regenerate glutathione (GSH) from GSSG with the help of GLUTATHIONE REDUCTASE, not glutathione peroxidase. Glutathione peroxidase uses GSH as a coenzyme to detoxify H2O2."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Hydroperoxides arise during the reaction of ROS with unsaturated fatty acids in the erythrocyte membrane.",
+    answer: true,
+    explanation: "Hydroperoxides arise during the reaction of ROS with unsaturated fatty acids in the erythrocyte membrane. Glutathione peroxidase detoxifies these hydroperoxides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Superoxide anion (O2-) is a strong reducing agent that protects cells from oxidative damage.",
+    answer: false,
+    explanation: "Superoxide anion (O2-) is an OXIDIZING AGENT, not a reducing agent. It is harmful to sulphydryl groups and unsaturated lipids in membranes and can initiate lipid peroxidation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "SOD (superoxide dismutase) converts superoxide anion to hydrogen peroxide which is then detoxified by catalase.",
+    answer: true,
+    explanation: "Superoxides can be destroyed by SOD to give hydrogen peroxide (H2O2). The reaction is: O2- + SOD → H2O2. H2O2 is then detoxified by glutathione peroxidase: H2O2 + 2GSH → GSSG + 2H2O."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "In low O2 tension, glycolysis decreases, producing less lactic acid and causing release of less O2.",
+    answer: false,
+    explanation: "In low O2 tension, glycolysis INCREASES, thus producing lactic acid. This lowers the pH and causes the release of MORE O2. This is the Bohr effect in action."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Erythrocytes have systems that can inactivate ROS and repair damage caused by ROS.",
+    answer: true,
+    explanation: "Erythrocytes also have systems that can inactivate ROS (superoxide dismutase, catalase, GSH). They are also able to repair damage caused by ROS, though this is limited compared to nucleated cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Glutathione (GSH) is the most important antioxidant in the erythrocytes.",
+    answer: true,
+    explanation: "GSH, the most important antioxidant in the erythrocytes, serves as a coenzyme for glutathione peroxidase. This selenium-containing enzyme detoxifies H2O2 and hydroperoxides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Bilirubin, formed during heme degradation, promotes oxidation of cellular components.",
+    answer: false,
+    explanation: "Bilirubin, formed during heme degradation, also serves for protection against oxidation, NOT promotion of oxidation. It acts as an antioxidant despite being a waste product."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The erythrocytes' maintenance metabolism involves the Krebs cycle and oxidative phosphorylation for energy production.",
+    answer: false,
+    explanation: "Erythrocytes' maintenance metabolism basically only involves anaerobic glycolysis and the pentose phosphate pathway. They lack mitochondria and cannot perform Krebs cycle or oxidative phosphorylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Glutathione peroxidase uses NADPH directly to reduce H2O2 to water.",
+    answer: false,
+    explanation: "Glutathione peroxidase uses GSH (reduced glutathione) as a coenzyme, not NADPH directly, to detoxify H2O2. The reaction is: H2O2 + 2GSH → GSSG + 2H2O. NADPH is used by glutathione reductase to regenerate GSH from GSSG."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The thiol group of the cysteine residue in glutathione is redox-active, allowing GSH to act as an antioxidant.",
+    answer: true,
+    explanation: "The thiol group of the cysteine residue in glutathione is redox-active. Two molecules of the reduced form (GSH) are bound to the disulfide (GSSG) during oxidation, allowing it to act as an important cellular antioxidant."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Superoxide anion is produced during oxygenation of reduced hemoglobin.",
+    answer: true,
+    explanation: "Superoxide anion is produced during oxygenation of reduced hemoglobin. The reaction is: Hb + O2 → MetHb + O2-. This is a source of oxidative stress in RBCs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "Superoxide dismutase and catalase provide protection against superoxide and hydrogen peroxide in RBCs.",
+    answer: true,
+    explanation: "Superoxide dismutase converts superoxide to H2O2, and catalase (or glutathione peroxidase) converts H2O2 to water. These enzymes provide protection against ROS in RBCs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "truefalse",
+    question: "The HMP shunt in erythrocytes produces NADPH which is essential for maintaining glutathione in its reduced form.",
+    answer: true,
+    explanation: "The pentose phosphate (HMP) shunt produces NADPH for GSH regeneration. The reaction is: GSSG + NADPH + H+ → 2 GSH + NADP+. This maintains the antioxidant capacity of RBCs."
+  },
+
+  // SECTION 4: Blood Disorders & Clinical Correlations
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Pyruvate kinase deficiency is an inherited disease with an autosomal dominant trait.",
+    answer: false,
+    explanation: "Pyruvate kinase deficiency is an inherited disease with an AUTOSOMAL RECESSIVE trait, not dominant. Homozygotes exhibit the trait while heterozygotes are haematologically normal."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "G6PD deficiency causes inability of red cells to restore GSSG to GSH, an important reaction in removal of superoxide anion.",
+    answer: true,
+    explanation: "Lack of G6PD causes inability of red cell to restore GSSG to GSH, which is an important reaction in the removal of superoxide anion (O2-). This condition is prevalent among blacks and is sometimes called black water fever."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Pyruvate kinase deficiency is common in Northern Europe, among Mexicans, Syrians, Japanese, and Negroes.",
+    answer: true,
+    explanation: "Pyruvate kinase deficiency is common in Northern Europe, among Mexicans, Syrians, Japanese, and Negroes. It is an inherited disease with autosomal recessive inheritance."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "G6PD deficiency is sometimes called 'black water fever' and is prevalent among blacks.",
+    answer: true,
+    explanation: "G6PD deficiency is sometimes called black water fever. It is prevalent among blacks. In 2% of those affected it causes chronic anemia, and the remaining 98% are precipitated by infection or drugs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Drugs such as aminoquinolines, sulphonamides, and vitamin K derivatives can precipitate G6PD deficiency by causing oxidative denaturation of hemoglobin.",
+    answer: true,
+    explanation: "Drugs such as aminoquinolines, sulphonamides, and vitamin K derivatives capable of causing oxidative denaturation of hemoglobin can precipitate G6PD deficiency. Infections like malaria can also precipitate the condition."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "In pyruvate kinase deficiency, heterozygotes exhibit the trait and require lifelong blood transfusion.",
+    answer: false,
+    explanation: "In pyruvate kinase deficiency, HOMOZYGOTES exhibit the trait and may require lifelong blood transfusion. Heterozygotes are haematologically normal. The disease is autosomal recessive."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "The Reticuloendothelial system is involved only in RBC degradation and not in immune response or body defence.",
+    answer: false,
+    explanation: "The reticuloendothelial system is involved in RBC degradation AND immune response, processing antigens, body's defence, and removing dead bacteria. It is a multifunctional system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "G6PD deficiency affects 98% of those with the condition, causing chronic anemia.",
+    answer: false,
+    explanation: "In G6PD deficiency, 2% of those affected cause chronic anemia, and the remaining 98% are precipitated by infection (e.g., malaria) or drugs capable of causing oxidative denaturation of hemoglobin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Drugs like aminoquinolines, sulphonamides, and vitamin K derivatives can precipitate hemolytic anemia in G6PD deficiency.",
+    answer: true,
+    explanation: "Drugs like aminoquinolines, sulphonamides, and vitamin K derivatives capable of causing oxidative denaturation of hemoglobin can precipitate hemolytic anemia in G6PD-deficient individuals."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "G6PD deficiency is common among Asians and rare among blacks.",
+    answer: false,
+    explanation: "G6PD deficiency is prevalent among blacks and is sometimes called black water fever. It is not rare among blacks; in fact, it is quite common in this population."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Erythroblastosis fetalis occurs when a Rh-negative mother is immunized by Rh-positive fetal erythrocytes.",
+    answer: true,
+    explanation: "Erythroblastosis fetalis results from Rh incompatibility, with erythrocyte precursors in fetal blood."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "In newborns, all bone marrow is red and active in hematopoiesis.",
+    answer: true,
+    explanation: "All bone marrow is red in newborns and gradually changes to yellow with age."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Yellow bone marrow contains mainly adipocytes and is inactive in hematopoiesis but can convert to red marrow.",
+    answer: true,
+    explanation: "Yellow bone marrow is dominated by adipocytes but can be replaced by red marrow in conditions like severe bleeding or hypoxia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Growth factors (CSFs) stimulate proliferation and differentiation of hematopoietic cells.",
+    answer: true,
+    explanation: "Colony-stimulating factors stimulate proliferation, differentiation, and enhance functions of mature cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Aplastic anemia is characterized by increased production of hematopoietic cells.",
+    answer: false,
+    explanation: "Aplastic anemia is characterized by decreased production of hematopoietic cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Thrombocytopenia is a reduction in the number of circulating platelets.",
+    answer: true,
+    explanation: "Thrombocytopenia is caused by ineffective megakaryopoiesis or deficiencies of folic acid or vitamin B₁₂."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Pyruvate kinase deficiency is an X-linked recessive disease primarily affecting males.",
+    answer: false,
+    explanation: "Pyruvate kinase deficiency is an AUTOSOMAL RECESSIVE disease, not X-linked. It affects both males and females equally. Homozygotes exhibit the trait while heterozygotes are haematologically normal."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "truefalse",
+    question: "Pyruvate kinase deficiency can be mild to very severe, requiring lifelong blood transfusion in some cases.",
+    answer: true,
+    explanation: "Pyruvate kinase deficiency can be mild to very severe requiring lifelong blood transfusion. This depends on the severity of the enzyme deficiency and the resulting hemolytic anemia."
+  },
+
+  // SECTION 5: Blood Defense & Immune Function
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Neutrophil granulocytes, monocytes, and macrophages derived from monocytes are phagocytes that can ingest and degrade invading pathogens.",
+    answer: true,
+    explanation: "Neutrophil granulocytes, monocytes, and the macrophages derived from monocytes are phagocytes. They can ingest and degrade invading pathogens as part of the body's defense system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "B lymphocytes produce antibodies while T lymphocytes destroy virus-infected cells and tumor cells.",
+    answer: true,
+    explanation: "B lymphocytes produce antibodies, while T lymphocytes regulate the immune response and destroy virus-infected cells and tumor cells. Eosinophilic and basophilic granulocytes have special tasks for defense against animal parasites."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Blood serves to keep the 'internal milieu' constant (homeostasis) and plays a decisive role in defending the body against pathogens.",
+    answer: true,
+    explanation: "Blood serves to keep the 'internal milieu' constant (homeostasis) and plays a decisive role in defending the body against pathogens through non-specific and specific mechanisms."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood's regulation of body temperature depends on the controlled transport of heat by the blood.",
+    answer: true,
+    explanation: "The regulation of body temperature depends on the controlled transport of heat by the blood. This is one of the homeostatic functions of blood, along with maintaining water balance and acid-base balance."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Self-protection mechanisms of blood include only coagulation without any system for dissolving clots.",
+    answer: false,
+    explanation: "Self-protection includes systems for stanching blood flow AND coagulating the blood. The dissolution of blood clots (fibrinolysis) is also managed by the blood itself. This is a complete system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The white blood cells consist only of lymphocytes and monocytes with relatively clear cytoplasm.",
+    answer: false,
+    explanation: "White blood cells consist of lymphocytes and monocytes with relatively clear cytoplasm AND three types of granulocytes (neutrophils, eosinophils, basophils), whose cytoplasm is filled with granules. The statement is incomplete."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "In addition to O2 and CO2 transport, RBCs also play a role in immune response by releasing free radicals and S-nitrothiols that facilitate vasodilation when oxygenated.",
+    answer: false,
+    explanation: "RBCs release S-nitrothiols that facilitate vasodilation when they (RBCs) are DEOXYGENATED, not when oxygenated. They also release free radicals from damaged cells to destroy invading pathogens."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Vertebrate blood is bright red when its hemoglobin is deoxygenated.",
+    answer: false,
+    explanation: "Vertebrate blood is bright red when its hemoglobin is OXYGENATED, not deoxygenated. Deoxygenated blood is typically darker in color."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood conveys nutritive substances such as amino acids, sugars, and mineral salts to tissues.",
+    answer: true,
+    explanation: "The blood conveys nutritive substances (e.g., amino acids, sugars, mineral salts) to tissues. It also gathers excreted material which will be eliminated through the renal filter."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood carries hormones, enzymes, and vitamins as part of its transport function.",
+    answer: true,
+    explanation: "The blood carries hormones, enzymes, and vitamins. It also performs the defence of the organism by means of the phagocytic activity of leukocytes, bactericidal power of serum, and immune response of lymphocytes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Phagocytes in the blood include neutrophil granulocytes, monocytes, and macrophages derived from monocytes.",
+    answer: true,
+    explanation: "Neutrophil granulocytes, monocytes, and the macrophages derived from monocytes are phagocytes. They can ingest and degrade invading pathogens as part of the non-specific defense system."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Eosinophilic and basophilic granulocytes have primary tasks for defense against bacteria and viruses.",
+    answer: false,
+    explanation: "Eosinophilic and basophilic granulocytes have special tasks for defense against ANIMAL PARASITES, not primarily bacteria and viruses. Neutrophils and lymphocytes handle bacterial and viral defense."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The defense system of the body includes cells of the immune system and certain plasma proteins.",
+    answer: true,
+    explanation: "The body uses both non-specific and specific mechanisms to defend itself against pathogens. The defense system includes the cells of the immune system and certain plasma proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "RBCs play a role in immune response by releasing free radicals from damaged cells to destroy invading pathogens.",
+    answer: true,
+    explanation: "In addition to their major function of O2 and CO2 transport, RBCs also play some role in immune response by release of free radicals from damaged cells to destroy invading pathogens."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "RBCs release S-nitrothiols that facilitate vasodilation when they are oxygenated.",
+    answer: false,
+    explanation: "RBCs release S-nitrothiols that facilitate vasodilation when they (RBCs) are DEOXYGENATED, not when oxygenated. This helps match blood flow to tissue oxygen demand."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood performs defence functions through phagocytic activity of leukocytes, bactericidal power of serum, and immune response of lymphocytes.",
+    answer: true,
+    explanation: "The blood performs defence of the organism through phagocytic activity of leukocytes, bactericidal power of serum, and the immune response of which the lymphocytes are the protagonists."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "B lymphocytes regulate the immune response while T lymphocytes produce antibodies.",
+    answer: false,
+    explanation: "B lymphocytes produce antibodies, while T lymphocytes regulate the immune response and destroy virus-infected cells and tumor cells. The functions are reversed in the statement."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The white blood cells include only granulocytes without any agranulocytes.",
+    answer: false,
+    explanation: "White blood cells consist of lymphocytes and monocytes (agranulocytes) with relatively clear cytoplasm, AND three types of granulocytes (neutrophils, eosinophils, basophils), whose cytoplasm is filled with granules."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "Thrombocytes are large nucleated cells that produce antibodies.",
+    answer: false,
+    explanation: "Thrombocytes are CELL FRAGMENTS, not complete cells, that arise from megakaryocytes. Their task is to promote hemostasis, not produce antibodies. They do not have nuclei."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood maintains a balanced distribution of water between the vascular system, cells, and extracellular space.",
+    answer: true,
+    explanation: "The blood ensures that a balanced distribution of water is maintained between the vascular system, the cells (intracellular space), and the extracellular space. This is part of the blood's homeostatic function."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "truefalse",
+    question: "The blood's self-protection mechanisms include only coagulation factors without any fibrinolytic system.",
+    answer: false,
+    explanation: "The blood has systems for stanching blood flow and coagulating the blood. The dissolution of blood clots (fibrinolysis) is also managed by the blood itself. Both coagulation and fibrinolysis are part of self-protection."
+  },
+
+  // ===== MULTIPLE CHOICE QUESTIONS (201-275) =====
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "In an adult man, blood constitutes approximately what proportion of body weight?",
+    options: [
+      "A. 1/20th",
+      "B. 1/12th",
+      "C. 1/8th",
+      "D. 1/15th"
+    ],
+    correctAnswer: "B. 1/12th",
+    explanation: "In an adult man, the blood is about 1/12th of the body weight and corresponds to 5-6 litres. This represents approximately 8% of body weight."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which of the following is the major protein in plasma responsible for regulating colloidal osmotic pressure?",
+    options: [
+      "A. Globulin",
+      "B. Fibrinogen",
+      "C. Albumin",
+      "D. Transferrin"
+    ],
+    correctAnswer: "C. Albumin",
+    explanation: "Albumin is the major protein in plasma and functions in regulating colloidal osmotic pressure of blood. It is the most abundant plasma protein."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following enzymes is activated in erythrocytes during low O2 situations to increase glycolytic rate?",
+    options: [
+      "A. Hexokinase",
+      "B. Phosphofructokinase",
+      "C. Aldolase",
+      "D. Glyceraldehyde-3-phosphate dehydrogenase"
+    ],
+    correctAnswer: "B. Phosphofructokinase",
+    explanation: "In low O2 situations, glucose uptake and lactate production increases. The increased glycolytic rate is due to activation of PFK (phosphofructokinase) and PK (pyruvate kinase)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which of the following is NOT present in mature erythrocytes?",
+    options: [
+      "A. Hemoglobin",
+      "B. Glycolytic enzymes",
+      "C. Mitochondria",
+      "D. 2,3-BPG"
+    ],
+    correctAnswer: "C. Mitochondria",
+    explanation: "Erythrocytes do not have mitochondria, Golgi apparatus, or RNA. They do contain hemoglobin, glycolytic enzymes, and 2,3-BPG for metabolic functions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The phosphate content of RBC is mostly in which form?",
+    options: [
+      "A. Inorganic phosphate",
+      "B. Hexose phosphate, triose phosphate, and ATP",
+      "C. Phospholipids",
+      "D. Phosphate buffer"
+    ],
+    correctAnswer: "B. Hexose phosphate, triose phosphate, and ATP",
+    explanation: "Phosphate in RBC is mostly organic in the form of hexose phosphate, triose phosphate, and ATP. The phosphate content is 50 to 100 fold greater than plasma."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "Pyruvate kinase deficiency is characterized by which mode of inheritance?",
+    options: [
+      "A. X-linked dominant",
+      "B. Autosomal dominant",
+      "C. Autosomal recessive",
+      "D. X-linked recessive"
+    ],
+    correctAnswer: "C. Autosomal recessive",
+    explanation: "Pyruvate kinase deficiency is an inherited disease with autosomal recessive trait. Homozygotes exhibit the trait while heterozygotes are haematologically normal."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "G6PD deficiency causes hemolytic anemia primarily due to:",
+    options: [
+      "A. Inability to produce ATP",
+      "B. Inability to restore GSSG to GSH",
+      "C. Defective hemoglobin synthesis",
+      "D. Membrane fragility"
+    ],
+    correctAnswer: "B. Inability to restore GSSG to GSH",
+    explanation: "Lack of G6PD causes inability of red cell to restore GSSG to GSH, an important reaction in the removal of superoxide anion (O2-). This leads to oxidative damage and hemolysis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "Which of the following drugs can precipitate hemolytic anemia in G6PD deficiency?",
+    options: [
+      "A. Penicillin",
+      "B. Aminoquinolines",
+      "C. Aspirin",
+      "D. Digoxin"
+    ],
+    correctAnswer: "B. Aminoquinolines",
+    explanation: "Drugs like aminoquinolines, sulphonamides, and vitamin K derivatives capable of causing oxidative denaturation of hemoglobin can precipitate hemolytic anemia in G6PD deficiency."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "GLUT-1 in erythrocytes transports glucose by which mechanism?",
+    options: [
+      "A. Active transport using ATP",
+      "B. Facilitated diffusion",
+      "C. Secondary active transport",
+      "D. Endocytosis"
+    ],
+    correctAnswer: "B. Facilitated diffusion",
+    explanation: "GLUT-1 is a carrier protein that transports glucose in the erythrocyte. Movement of glucose does not require energy, indicating it uses facilitated diffusion down a concentration gradient."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "In which organ does complete degradation of heam of hemoglobin to bile pigment occur?",
+    options: [
+      "A. Spleen",
+      "B. Bone marrow",
+      "C. Liver",
+      "D. Lymph glands"
+    ],
+    correctAnswer: "C. Liver",
+    explanation: "Complete degradation of heam of Hb to bile pigment occurs in the liver. Degradation of red cells occurs in spleen, bone marrow, liver, and lymph glands."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "What is the net ATP gain from glycolysis per glucose molecule in erythrocytes?",
+    options: [
+      "A. 4 ATP",
+      "B. 2 ATP",
+      "C. 1 ATP",
+      "D. 0 ATP"
+    ],
+    correctAnswer: "B. 2 ATP",
+    explanation: "In glycolysis, 2 ATP is utilized and 4 ATP is produced (net gain of 2 ATP). However, 2,3-BPG production bypasses one ATP producing step, hence net energy per 2,3-BPG is zero."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "The pentose phosphate pathway in erythrocytes produces NADPH primarily for:",
+    options: [
+      "A. ATP production",
+      "B. Hemoglobin synthesis",
+      "C. GSH regeneration",
+      "D. DNA synthesis"
+    ],
+    correctAnswer: "C. GSH regeneration",
+    explanation: "The pentose phosphate shunt produces NADPH for GSH regeneration. The reaction is: GSSG + NADPH + H+ → 2 GSH + NADP+."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "What is the concentration of Na+ in human plasma?",
+    options: [
+      "A. 19 mM",
+      "B. 136 mM",
+      "C. 142 mM",
+      "D. 5 mM"
+    ],
+    correctAnswer: "C. 142 mM",
+    explanation: "Na+ in human plasma is approximately 142 mM and K+ is 5 mM. RBC has 19 mM for Na+ and 136 mM for K+ ions respectively."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Na+,K+-ATPase is located in the erythrocyte membrane and binds:",
+    options: [
+      "A. Na+ on the outside and K+ on the inside",
+      "B. Na+ on the inside and K+ on the outside",
+      "C. Both Na+ and K+ on the inside",
+      "D. Both Na+ and K+ on the outside"
+    ],
+    correctAnswer: "B. Na+ on the inside and K+ on the outside",
+    explanation: "Na+,K+-ATPase is located in the membrane and binds Na+ on the inside and K+ on the outside. This allows it to pump Na+ out and K+ in."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "An increase in 2,3-BPG concentration shifts the oxygen dissociation curve to the:",
+    options: [
+      "A. Left, indicating increased affinity",
+      "B. Right, indicating decreased affinity",
+      "C. Left, indicating decreased affinity",
+      "D. Right, indicating increased affinity"
+    ],
+    correctAnswer: "B. Right, indicating decreased affinity",
+    explanation: "Increase in 2,3-BPG shifts equilibrium to the right, implying reduced affinity for O2 and release of more oxygen. In O2 deficiency, RBC produces more 2,3-BPG."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The Bohr effect refers to the:",
+    options: [
+      "A. Increase in O2 affinity with increasing pH",
+      "B. Decrease in O2 affinity with decreasing pH",
+      "C. Increase in O2 affinity with decreasing pH",
+      "D. Decrease in O2 affinity with increasing pH"
+    ],
+    correctAnswer: "B. Decrease in O2 affinity with decreasing pH",
+    explanation: "Decreasing pH (increasing acidity) also decreases O2 affinity. This phenomenon is known as the Bohr effect. It facilitates oxygen release in metabolically active tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "2,3-BPG binds to hemoglobin at which site?",
+    options: [
+      "A. Between two alpha chains",
+      "B. Between two beta chains",
+      "C. At the heme iron",
+      "D. At the N-terminus"
+    ],
+    correctAnswer: "B. Between two beta chains",
+    explanation: "The binding site of 2,3-BPG is between two beta chains. On oxygenation, the cavity contracts and expels the molecule."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "What happens to 2,3-BPG concentration in stored blood?",
+    options: [
+      "A. Increases",
+      "B. Decreases",
+      "C. Remains stable",
+      "D. Fluctuates"
+    ],
+    correctAnswer: "B. Decreases",
+    explanation: "In stored blood, the 2,3-BPG concentration falls from 4.5 mM to about 0.45 mM. Hence Hb affinity is high and transfused blood is ineffective in releasing O2 to tissue."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Which substance can be added to stored blood to restore 2,3-BPG levels?",
+    options: [
+      "A. Adenosine",
+      "B. Inosine",
+      "C. Guanine",
+      "D. Cytosine"
+    ],
+    correctAnswer: "B. Inosine",
+    explanation: "2,3-BPG can be restored by adding INOSINE which can be transported into the cell, the ribose group is split from the purine base and metabolized by PPP via glycolysis to give 2,3-BPG."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Superoxide dismutase converts superoxide anion to:",
+    options: [
+      "A. Water",
+      "B. Hydrogen peroxide",
+      "C. Oxygen",
+      "D. Hydroxy radical"
+    ],
+    correctAnswer: "B. Hydrogen peroxide",
+    explanation: "Superoxides can be destroyed by SOD to give hydrogen peroxide (H2O2). The reaction is: O2- + SOD → H2O2."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Glutathione peroxidase detoxifies hydrogen peroxide using:",
+    options: [
+      "A. NADPH",
+      "B. GSH",
+      "C. FADH2",
+      "D. Glutathione reductase"
+    ],
+    correctAnswer: "B. GSH",
+    explanation: "GSH serves as a coenzyme for glutathione peroxidase which detoxifies H2O2. The reaction is: H2O2 + 2GSH → GSSG + 2H2O."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The normal pH range of blood is:",
+    options: [
+      "A. 7.15-7.25",
+      "B. 7.25-7.35",
+      "C. 7.35-7.45",
+      "D. 7.45-7.55"
+    ],
+    correctAnswer: "C. 7.35-7.45",
+    explanation: "The normal pH of blood is in the range of 7.35-7.45. This narrow range is maintained by buffer systems in the blood."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The proteinaceous component of blood, including clotting proteins, is produced predominantly by the:",
+    options: [
+      "A. Kidney",
+      "B. Liver",
+      "C. Spleen",
+      "D. Bone marrow"
+    ],
+    correctAnswer: "B. Liver",
+    explanation: "The proteinaceous component of blood (including clotting proteins) is produced predominantly by the liver. Hormones are produced by endocrine glands."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "RBCs in mammals are characterized by which shape?",
+    options: [
+      "A. Spherical",
+      "B. Biconcave",
+      "C. Irregular",
+      "D. Oval"
+    ],
+    correctAnswer: "B. Biconcave",
+    explanation: "RBCs in mammals are non-nucleated biconcave shaped cells, highly flexible and lacking intracellular organelles. They are flattened and depressed in the center."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The life span of erythrocytes is approximately:",
+    options: [
+      "A. 60 days",
+      "B. 90 days",
+      "C. 120 days",
+      "D. 150 days"
+    ],
+    correctAnswer: "C. 120 days",
+    explanation: "RBCs are terminally differentiated, that is, they can never divide, and live for about 120 days after which they are engulfed and phagocytosed by cells of the RES."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "In domestic animals like dogs and horses, which organ serves as a reservoir of erythrocytes?",
+    options: [
+      "A. Liver",
+      "B. Spleen",
+      "C. Bone marrow",
+      "D. Kidney"
+    ],
+    correctAnswer: "B. Spleen",
+    explanation: "In many domestic animals such as dogs and horses, the spleen acts as a reservoir of erythrocytes and sequesters large numbers of red blood cells which are dumped into the blood during exertion stress."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "The dioxygen molecule (O2) is classified as a:",
+    options: [
+      "A. Monoradical",
+      "B. Diradical",
+      "C. Triradical",
+      "D. No radical"
+    ],
+    correctAnswer: "B. Diradical",
+    explanation: "The dioxygen molecule (O2) contains two unpaired electrons, meaning it is a diradical. Despite this, O2 is relatively stable due to its special electron arrangement."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Which enzyme is a selenium-containing enzyme that detoxifies hydroperoxides?",
+    options: [
+      "A. Catalase",
+      "B. Superoxide dismutase",
+      "C. Glutathione peroxidase",
+      "D. Glutathione reductase"
+    ],
+    correctAnswer: "C. Glutathione peroxidase",
+    explanation: "Glutathione peroxidase is a selenium-containing enzyme that detoxifies H2O2 and hydroperoxides, which arise during the reaction of ROS with unsaturated fatty acids in the erythrocyte membrane."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Biological antioxidants include all of the following EXCEPT:",
+    options: [
+      "A. Vitamin C",
+      "B. Coenzyme Q",
+      "C. Bilirubin",
+      "D. Cytochrome c"
+    ],
+    correctAnswer: "D. Cytochrome c",
+    explanation: "Biological antioxidants include vitamins C and E, coenzyme Q, several carotenoids, bilirubin, and glutathione. Cytochrome c is an electron carrier, not typically classified as an antioxidant."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Glutathione contains which atypical bond?",
+    options: [
+      "A. α-peptide bond",
+      "B. β-peptide bond",
+      "C. γ-peptide bond",
+      "D. δ-peptide bond"
+    ],
+    correctAnswer: "C. γ-peptide bond",
+    explanation: "Glutathione (sequence: Glu-Cys-Gly) contains an atypical γ-peptide bond between Glu and Cys. The thiol group of the cysteine residue is redox-active."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The ATP formed during glycolysis in erythrocytes mainly supplies which enzyme?",
+    options: [
+      "A. Glutathione peroxidase",
+      "B. Catalase",
+      "C. Na+/K+-ATPase",
+      "D. Superoxide dismutase"
+    ],
+    correctAnswer: "C. Na+/K+-ATPase",
+    explanation: "The ATP formed during glycolysis serves mainly to supply Na+/K+-ATPase, which maintains the erythrocytes' membrane potential."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "By volume, plasma constitutes approximately what percentage of whole blood?",
+    options: [
+      "A. 45%",
+      "B. 50%",
+      "C. 54.3%",
+      "D. 60%"
+    ],
+    correctAnswer: "C. 54.3%",
+    explanation: "By volume, red blood cells constitute about 45% of whole blood, plasma about 54.3%, and white cells about 0.7%."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "Which type of lymphocytes produce antibodies?",
+    options: [
+      "A. T lymphocytes",
+      "B. B lymphocytes",
+      "C. NK cells",
+      "D. Null cells"
+    ],
+    correctAnswer: "B. B lymphocytes",
+    explanation: "B lymphocytes produce antibodies, while T lymphocytes regulate the immune response and destroy virus-infected cells and tumor cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Thrombocytes are cell fragments that arise from which precursor cells?",
+    options: [
+      "A. Myeloblasts",
+      "B. Lymphoblasts",
+      "C. Megakaryocytes",
+      "D. Erythroblasts"
+    ],
+    correctAnswer: "C. Megakaryocytes",
+    explanation: "Thrombocytes are cell fragments that arise in the bone marrow from large precursor cells, the megakaryocytes. Their task is to promote hemostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The fluid phase of coagulated blood is known as:",
+    options: [
+      "A. Plasma",
+      "B. Serum",
+      "C. Lymph",
+      "D. Interstitial fluid"
+    ],
+    correctAnswer: "B. Serum",
+    explanation: "The fluid phase of coagulated blood is known as blood serum. It differs from the plasma in that it lacks fibrin and other coagulation proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which of the following ions has a higher concentration in blood plasma compared to cells?",
+    options: [
+      "A. K+",
+      "B. Mg2+",
+      "C. Na+",
+      "D. Phosphate"
+    ],
+    correctAnswer: "C. Na+",
+    explanation: "There is a relatively high concentration of Na+, Ca2+, and Cl- ions in blood plasma in comparison with the cytoplasm. K+, Mg2+, and phosphate ions are higher in cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Physiological saline (NaCl at 0.15 mol/L) is nearly isotonic with:",
+    options: [
+      "A. Intracellular fluid",
+      "B. Blood plasma",
+      "C. Urine",
+      "D. Cerebrospinal fluid"
+    ],
+    correctAnswer: "B. Blood plasma",
+    explanation: "'Physiological saline' (NaCl at a concentration of 0.15 mol/L) is almost isotonic with blood plasma. This makes it suitable for intravenous use."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The various cells of blood are produced in the bone marrow through a process called:",
+    options: [
+      "A. Erythropoiesis",
+      "B. Hematopoiesis",
+      "C. Hemolysis",
+      "D. Thrombopoiesis"
+    ],
+    correctAnswer: "B. Hematopoiesis",
+    explanation: "The various cells of blood are made in the bone marrow in a process called hematopoiesis. This includes production of all formed elements."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Reticulocytes are characterized by all of the following EXCEPT:",
+    options: [
+      "A. Lack of nucleus",
+      "B. Enzymes for glycolysis",
+      "C. Enzymes for Krebs cycle",
+      "D. Ability to synthesize proteins"
+    ],
+    correctAnswer: "D. Ability to synthesize proteins",
+    explanation: "Reticulocytes lack nucleus but have enzymes for glycolysis, Krebs cycle, HMP shunt, and oxidative phosphorylation. However, mature erythrocytes lack these capabilities including protein synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The major activity in RBC metabolism is:",
+    options: [
+      "A. Glycolysis",
+      "B. Hb transportation in carrying gases",
+      "C. Pentose phosphate pathway",
+      "D. Ion transport"
+    ],
+    correctAnswer: "B. Hb transportation in carrying gases",
+    explanation: "The major activity in RBC metabolism is Hb transportation in carrying gases. Energy is required for metabolites such as 2,3-BPG for Hb function and NADPH for glutathione reductase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a component of blood plasma?",
+    options: [
+      "A. Water",
+      "B. Dissolved proteins",
+      "C. Mineral ions",
+      "D. Nucleated cells"
+    ],
+    correctAnswer: "D. Nucleated cells",
+    explanation: "Blood plasma contains water (about 92%), dissolved proteins, lipids, glucose, mineral ions, hormones, organic acids, urea, other wastes, and carbon dioxide. Cells are the formed elements, not part of plasma."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "Pyruvate kinase deficiency is common in all of the following populations EXCEPT:",
+    options: [
+      "A. Northern Europe",
+      "B. Mexicans",
+      "C. Japanese",
+      "D. Australian Aborigines"
+    ],
+    correctAnswer: "D. Australian Aborigines",
+    explanation: "Pyruvate kinase deficiency is common in Northern Europe, among Mexicans, Syrians, Japanese, and Negroes. Australian Aborigines are not listed."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "G6PD deficiency is sometimes referred to as:",
+    options: [
+      "A. Black water fever",
+      "B. Yellow fever",
+      "C. Dengue fever",
+      "D. Typhoid fever"
+    ],
+    correctAnswer: "A. Black water fever",
+    explanation: "G6PD deficiency is prevalent among blacks and it is sometimes called black water fever. This refers to the dark urine seen during hemolytic episodes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "In G6PD deficiency, which of the following does NOT precipitate hemolytic anemia?",
+    options: [
+      "A. Malaria",
+      "B. Aminoquinolines",
+      "C. Vitamin C",
+      "D. Sulphonamides"
+    ],
+    correctAnswer: "C. Vitamin C",
+    explanation: "Infections like malaria and drugs like aminoquinolines, sulphonamides, and vitamin K derivatives can precipitate hemolytic anemia. Vitamin C is not mentioned as a precipitating factor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The phosphate content of RBC is approximately how many fold greater than plasma?",
+    options: [
+      "A. 10-20 fold",
+      "B. 30-40 fold",
+      "C. 50-100 fold",
+      "D. 100-200 fold"
+    ],
+    correctAnswer: "C. 50-100 fold",
+    explanation: "The phosphate content of RBC is about 50 to 100 fold greater than plasma. Most of this phosphate is organic in the form of hexose phosphate, triose phosphate, and ATP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The combined effect of increased acidity and 2,3-BPG leads to:",
+    options: [
+      "A. Increased O2 binding capacity",
+      "B. Marked reduction in O2 binding capacity",
+      "C. No change in O2 binding",
+      "D. Reversible O2 binding"
+    ],
+    correctAnswer: "B. Marked reduction in O2 binding capacity",
+    explanation: "Combined effect of increased acidity and 2,3-BPG leads to marked reduction in O2 binding capacity and O2 is released, facilitating oxygen delivery to tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "Which enzyme deficiency causes inability of RBCs to restore GSSG to GSH?",
+    options: [
+      "A. Pyruvate kinase",
+      "B. Hexokinase",
+      "C. G6PD",
+      "D. Phosphofructokinase"
+    ],
+    correctAnswer: "C. G6PD",
+    explanation: "Lack of G6PD causes inability of red cell to restore GSSG to GSH, an important reaction in the removal of superoxide anion. This is the basis of G6PD deficiency hemolytic anemia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The process by which no-longer-needed proteins are expelled from maturing erythrocytes is through:",
+    options: [
+      "A. Phagocytosis",
+      "B. Exosomes",
+      "C. Apoptosis",
+      "D. Autophagy"
+    ],
+    correctAnswer: "B. Exosomes",
+    explanation: "As erythrocytes mature, the no-longer-needed proteins are expelled from the cell in vesicles called exosomes. This is part of the maturation process."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Reduction of O2 by which enzyme is 'clean' and does not release intermediates?",
+    options: [
+      "A. Cytochrome c-oxidase",
+      "B. NADH dehydrogenase",
+      "C. Succinate dehydrogenase",
+      "D. Cytochrome b"
+    ],
+    correctAnswer: "A. Cytochrome c-oxidase",
+    explanation: "Reduction of O2 by cytochrome c-oxidase is 'clean,' as the enzyme does not release the intermediates. This prevents ROS production during oxidative phosphorylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a function of blood?",
+    options: [
+      "A. Transport of nutrients and oxygen",
+      "B. Maintenance of acid-base balance",
+      "C. Production of antibodies",
+      "D. Regulation of body temperature"
+    ],
+    correctAnswer: "C. Production of antibodies",
+    explanation: "Blood transports nutrients and oxygen, maintains acid-base balance, and regulates body temperature. While blood contains antibodies, antibody production is performed by B lymphocytes, not the blood itself."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Erythrocyte metabolism primarily involves which two pathways?",
+    options: [
+      "A. Krebs cycle and oxidative phosphorylation",
+      "B. Glycolysis and pentose phosphate pathway",
+      "C. Glycogenesis and glycogenolysis",
+      "D. Lipolysis and beta-oxidation"
+    ],
+    correctAnswer: "B. Glycolysis and pentose phosphate pathway",
+    explanation: "Erythrocytes utilize glucose by glycolysis and HMP shunt. They lack mitochondria and cannot perform Krebs cycle or oxidative phosphorylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The alpha subunit of Na+,K+-ATPase has which function?",
+    options: [
+      "A. Potassium binding",
+      "B. ATP binding site",
+      "C. Sodium binding only",
+      "D. Membrane anchoring"
+    ],
+    correctAnswer: "B. ATP binding site",
+    explanation: "The alpha unit is large (approximately 95,000) and the enzyme has an ATP binding site on the alpha subunit. The enzyme is tetrameric (alpha2, beta2)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "In the Na+,K+-ATPase mechanism, dephosphorylation occurs after:",
+    options: [
+      "A. Na+ binding",
+      "B. Na+ transport and release",
+      "C. K+ binding",
+      "D. K+ transport and release"
+    ],
+    correctAnswer: "C. K+ binding",
+    explanation: "Na+ ions are transported and released and K+ ions are bound before dephosphorylation of the enzyme. Transport and release of K+ ions complete the cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "About how many 2,3-BPG molecules are present per RBC?",
+    options: [
+      "A. 28 million",
+      "B. 280 million",
+      "C. 2.8 billion",
+      "D. 28 billion"
+    ],
+    correctAnswer: "B. 280 million",
+    explanation: "About 280 million 2,3-BPG molecules per RBC, approximately equal to the number of Hb molecules. This 1:1 ratio is significant for oxygen binding regulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "Erythrocytes release S-nitrothiols that facilitate vasodilation under which condition?",
+    options: [
+      "A. When oxygenated",
+      "B. When deoxygenated",
+      "C. At high pH",
+      "D. At low temperature"
+    ],
+    correctAnswer: "B. When deoxygenated",
+    explanation: "RBCs release S-nitrothiols that facilitate vasodilation when they (RBCs) are deoxygenated. This helps match blood flow to tissue oxygen demand."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "Which of the following is a component of the reticuloendothelial system involved in RBC degradation?",
+    options: [
+      "A. Macrophages",
+      "B. Lymphocytes",
+      "C. Neutrophils",
+      "D. Eosinophils"
+    ],
+    correctAnswer: "A. Macrophages",
+    explanation: "RBC degradation occurs in the reticuloendothelial system, involving special cells in tissues, macrophages with high lysosome content. The system is also involved in immune response."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "The blood's defense functions include all of the following EXCEPT:",
+    options: [
+      "A. Phagocytic activity of leukocytes",
+      "B. Bactericidal power of serum",
+      "C. Immune response of lymphocytes",
+      "D. Coagulation of blood"
+    ],
+    correctAnswer: "D. Coagulation of blood",
+    explanation: "Defense functions include phagocytic activity of leukocytes, bactericidal power of serum, and immune response of lymphocytes. Coagulation is a self-protection mechanism, not defense against pathogens."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Erythrocytes can perform all of the following EXCEPT:",
+    options: [
+      "A. Glycolysis",
+      "B. HMP shunt",
+      "C. Protein synthesis",
+      "D. Ion transport"
+    ],
+    correctAnswer: "C. Protein synthesis",
+    explanation: "Erythrocytes cannot synthesize proteins, glycogen, or lipids (from glucose). They lack mitochondria, Golgi apparatus, and RNA needed for protein synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "Which type of granulocyte has special tasks for defense against animal parasites?",
+    options: [
+      "A. Neutrophils",
+      "B. Eosinophils",
+      "C. Basophils",
+      "D. Monocytes"
+    ],
+    correctAnswer: "B. Eosinophils",
+    explanation: "Eosinophilic and basophilic granulocytes have special tasks for defense against animal parasites. Eosinophils are particularly associated with parasitic infections."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The watery fraction of blood is regulated by the hypothalamus and maintained by the:",
+    options: [
+      "A. Liver",
+      "B. Kidney",
+      "C. Spleen",
+      "D. Lung"
+    ],
+    correctAnswer: "B. Kidney",
+    explanation: "The watery fraction of blood is regulated by the hypothalamus and maintained by the kidney. This involves regulation of water intake and excretion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Bile pigments formed from hemoglobin degradation are excreted through faeces as:",
+    options: [
+      "A. Urobilinogen",
+      "B. Bilirubin",
+      "C. Faecal stercobilin",
+      "D. Biliverdin"
+    ],
+    correctAnswer: "C. Faecal stercobilin",
+    explanation: "Bile pigments formed from hemoglobin degradation are excreted through faeces as faecal stercobilin. This gives feces its characteristic brown color."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "The PPP in erythrocytes supplies NADPH+H+ which is needed for:",
+    options: [
+      "A. ATP production",
+      "B. Glutathione regeneration",
+      "C. Hemoglobin synthesis",
+      "D. Iron transport"
+    ],
+    correctAnswer: "B. Glutathione regeneration",
+    explanation: "The PPP supplies NADPH+H+ which is needed to regenerate glutathione (GSH) from GSSG with the help of glutathione reductase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Antioxidant Defense",
+    type: "multiplechoice",
+    question: "Which of the following is the most important antioxidant in erythrocytes?",
+    options: [
+      "A. Vitamin C",
+      "B. Vitamin E",
+      "C. Glutathione",
+      "D. Bilirubin"
+    ],
+    correctAnswer: "C. Glutathione",
+    explanation: "Glutathione (GSH) is the most important antioxidant in erythrocytes. It serves as a coenzyme for glutathione peroxidase to detoxify H2O2 and hydroperoxides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "In which of the following does pyruvate kinase deficiency NOT commonly occur?",
+    options: [
+      "A. Northern Europe",
+      "B. Mexico",
+      "C. Syria",
+      "D. Scandinavia"
+    ],
+    correctAnswer: "D. Scandinavia",
+    explanation: "Pyruvate kinase deficiency is common in Northern Europe, among Mexicans, Syrians, Japanese, and Negroes. Scandinavia is not specifically mentioned."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which of the following metabolic products is NOT a waste product transported by blood?",
+    options: [
+      "A. Carbon dioxide",
+      "B. Urea",
+      "C. Lactic acid",
+      "D. Amino acids"
+    ],
+    correctAnswer: "D. Amino acids",
+    explanation: "Blood transports nutrients including amino acids, glucose, and fatty acids. Waste products include carbon dioxide, urea, and lactic acid. Amino acids are nutrients, not wastes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "The ability of RBCs to change shape is due to their:",
+    options: [
+      "A. Flexible membrane",
+      "B. Nucleus",
+      "C. Mitochondria",
+      "D. Rigid structure"
+    ],
+    correctAnswer: "A. Flexible membrane",
+    explanation: "RBCs are highly flexible due to their flexible membrane, allowing them to deform and pass through tiny capillary blood vessels. They lack a nucleus and organelles."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Defense & Immunity",
+    type: "multiplechoice",
+    question: "S-nitrothiols released by deoxygenated RBCs cause:",
+    options: [
+      "A. Vasoconstriction",
+      "B. Vasodilation",
+      "C. Increased heart rate",
+      "D. Decreased heart rate"
+    ],
+    correctAnswer: "B. Vasodilation",
+    explanation: "RBCs release S-nitrothiols that facilitate vasodilation when they (RBCs) are deoxygenated. This helps increase blood flow to tissues requiring oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Which process describes the formation of erythrocytes in the bone marrow?",
+    options: [
+      "A. Hematopoiesis",
+      "B. Erythropoiesis",
+      "C. Thrombopoiesis",
+      "D. Leukopoiesis"
+    ],
+    correctAnswer: "B. Erythropoiesis",
+    explanation: "Erythropoiesis is the process of erythrocyte formation in the bone marrow. The precursors (pronormoblasts) mature in this process, closely attached to a macrophage."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "In the Na+,K+-ATPase model, E1 and E2 refer to:",
+    options: [
+      "A. Two isoenzymes",
+      "B. Two principal conformations",
+      "C. Two subunits",
+      "D. Two binding sites"
+    ],
+    correctAnswer: "B. Two principal conformations",
+    explanation: "The model assumes two principal conformations, E1 and E2. Binding of Na+ ions to E1 is followed by phosphorylation and release of ADP, then conformational change to E2."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Reticulocytes can utilize which of the following for energy production that erythrocytes cannot?",
+    options: [
+      "A. Glucose",
+      "B. Glycerol",
+      "C. Fatty acids",
+      "D. Amino acids"
+    ],
+    correctAnswer: "B. Glycerol",
+    explanation: "Reticulocytes utilize glycerol for energy production because they have glycerol kinase. Erythrocytes lack glycerol kinase and cannot utilize glycerol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following is NOT produced by the PPP in erythrocytes?",
+    options: [
+      "A. NADPH",
+      "B. Pentose sugars",
+      "C. Ribose-5-phosphate",
+      "D. ATP"
+    ],
+    correctAnswer: "D. ATP",
+    explanation: "The PPP produces NADPH, pentose sugars, and ribose-5-phosphate. ATP is produced through glycolysis, not the pentose phosphate pathway."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Blood serum differs from plasma in that serum lacks:",
+    options: [
+      "A. Albumin",
+      "B. Globulins",
+      "C. Fibrin and other coagulation proteins",
+      "D. Electrolytes"
+    ],
+    correctAnswer: "C. Fibrin and other coagulation proteins",
+    explanation: "Blood serum differs from plasma in that it lacks fibrin and other coagulation proteins. Plasma is the fluid phase of uncoagulated blood, while serum is from coagulated blood."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Composition",
+    type: "multiplechoice",
+    question: "Erythrocyte membrane is freely permeable to all of the following EXCEPT:",
+    options: [
+      "A. Water",
+      "B. Urea",
+      "C. Proteins",
+      "D. Chloride"
+    ],
+    correctAnswer: "C. Proteins",
+    explanation: "The erythrocyte membrane is freely permeable to water, urea, creatinine, carbonate, chloride, hydroxyl ions, and protons. It is NOT freely permeable to large proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Blood Disorders",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a function of the reticuloendothelial system?",
+    options: [
+      "A. RBC degradation",
+      "B. Immune response",
+      "C. Processing antigens",
+      "D. Producing erythrocytes"
+    ],
+    correctAnswer: "D. Producing erythrocytes",
+    explanation: "The reticuloendothelial system is involved in RBC degradation, immune response, processing antigens, and removing dead bacteria. Erythrocyte production occurs in bone marrow, not the RES."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Blood",
+    subTopic: "Erythrocyte Metabolism",
+    type: "multiplechoice",
+    question: "The main function of 2,3-BPG in erythrocytes is:",
+    options: [
+      "A. ATP production",
+      "B. Modulating Hb binding to oxygen",
+      "C. Maintaining membrane potential",
+      "D. Synthesizing glutathione"
+    ],
+    correctAnswer: "B. Modulating Hb binding to oxygen",
+    explanation: "2,3-BPG helps in modulating Hb binding to oxygen. It binds between beta chains and decreases oxygen affinity, facilitating oxygen release to tissues."
+  },
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY (CONTINUED) =====
+
+  // SECTION 13: Knee Joint – Ligaments & Menisci
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The ligamentum patellae is the central portion of the common tendon of insertion of the quadriceps femoris.",
+    answer: true,
+    explanation: "The ligamentum patellae is the central portion of the common tendon of insertion of the quadriceps femoris; the remaining portions of the tendon form the medial and lateral patellar retinacula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The superficial fibres of the ligamentum patellae pass behind the patella.",
+    answer: false,
+    explanation: "The superficial fibres of the ligamentum patellae pass in front of the patella, not behind it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tibial collateral ligament is a long band of great strength, attached superiorly to the medial epicondyle of the femur just below the adductor tubercle.",
+    answer: true,
+    explanation: "The tibial collateral or medial ligament is a long band of great strength. Superiorly, it is attached to the medial epicondyle of the femur just below the adductor tubercle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior or superficial part of the tibial collateral ligament is about 10 cm long and 1.25 cm broad.",
+    answer: true,
+    explanation: "The anterior or superficial part of the tibial collateral ligament is about 10 cm long and 1.25 cm broad, and is separated from the capsule by one or two bursae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior (deep) part of the tibial collateral ligament blends with the capsule and with the lateral meniscus.",
+    answer: false,
+    explanation: "The posterior (deep) part of the tibial collateral ligament blends with the capsule and with the medial meniscus, not the lateral meniscus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is strong and cord-like, about 5 cm long.",
+    answer: true,
+    explanation: "The fibular collateral or lateral ligament is strong and cord-like, about 5 cm long."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is attached superiorly to the medial epicondyle of the femur.",
+    answer: false,
+    explanation: "The fibular collateral ligament is attached superiorly to the lateral epicondyle of the femur just above the popliteal groove, not the medial epicondyle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is crossed by the tendon of the biceps femoris and is attached to the head of the fibula in front of its apex.",
+    answer: true,
+    explanation: "The fibular collateral ligament is embraced by the tendon of the biceps femoris, and is attached to the head of the fibula in front of its apex."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The oblique popliteal ligament is an expansion from the tendon of the semitendinosus.",
+    answer: false,
+    explanation: "The oblique popliteal ligament is an expansion from the tendon of the semimembranosus, not the semitendinosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The oblique popliteal ligament runs upwards and laterally, blends with the posterior surface of the capsule, and is attached to the intercondylar line and lateral condyle of the femur.",
+    answer: true,
+    explanation: "The oblique popliteal ligament runs upwards and laterally, blends with the posterior surface of the capsule, and is attached to the intercondylar line and lateral condyle of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The arcuate popliteal ligament is a posterior expansion from the short lateral ligament.",
+    answer: true,
+    explanation: "The arcuate popliteal ligament is a posterior expansion from the short lateral ligament. It extends backwards from the head of the fibula, arches over the tendon of the popliteus, and is attached to the posterior border of the intercondylar area of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament is taut during flexion of the knee.",
+    answer: false,
+    explanation: "The anterior cruciate ligament is taut during extension of the knee. The posterior cruciate ligament is taut during flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior cruciate ligament begins from the posterior part of the intercondylar area of the tibia and runs upwards, forwards and medially.",
+    answer: true,
+    explanation: "The posterior cruciate ligament begins from the posterior part of the intercondylar area of the tibia, runs upwards, forwards and medially and is attached to the anterior part of the lateral surface of medial condyle of femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament begins from the anterior part of the intercondylar area of the tibia and runs upwards, backwards and laterally.",
+    answer: true,
+    explanation: "The anterior cruciate ligament begins from the anterior part of the intercondylar area of the tibia, runs upwards, backwards and laterally and is attached to the posterior part of medial surface of lateral condyle of femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The cruciate ligaments are supplied by middle genicular vessels and nerves.",
+    answer: true,
+    explanation: "The cruciate ligaments are supplied by middle genicular vessels and nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The menisci deepen the articular surfaces of the condyles of the tibia and partially divide the joint cavity into upper and lower compartments.",
+    answer: true,
+    explanation: "The menisci deepen the articular surfaces of the condyles of the tibia, and partially divide the joint cavity into upper and lower compartments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Flexion and extension of the knee take place in the lower compartment of the joint, whereas rotation takes place in the upper compartment.",
+    answer: false,
+    explanation: "Flexion and extension of the knee take place in the upper compartment, whereas rotation takes place in the lower compartment (meniscotibial compartment)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is nearly semicircular, being wider behind than in front.",
+    answer: true,
+    explanation: "The medial meniscus is nearly semicircular, being wider behind than in front. The lateral meniscus is nearly circular."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The peripheral margin of the medial meniscus is adherent to the deep part of the tibial collateral ligament.",
+    answer: true,
+    explanation: "The peripheral margin of the medial meniscus is adherent to the deep part of the tibial collateral ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lateral meniscus is attached to the medial condyle of the femur through two meniscofemoral ligaments.",
+    answer: true,
+    explanation: "The posterior end of the lateral meniscus is attached to the medial condyle of the femur through two meniscofemoral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tendon of the popliteus is attached to the medial meniscus.",
+    answer: false,
+    explanation: "The tendon of the popliteus is attached to the lateral meniscus, not the medial meniscus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The menisci serve as shock absorbers and help in lubricating the joint cavity.",
+    answer: true,
+    explanation: "The functions of menisci include making the articular surfaces more congruent, serving as shock absorbers, helping in lubricating the joint cavity, and having a sensory function."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The synovial membrane of the knee joint lines the capsule posteriorly where it is reflected forwards by the cruciate ligaments.",
+    answer: true,
+    explanation: "The synovial membrane of the knee joint lines the capsule, except posteriorly where it is reflected forwards by the cruciate ligaments, forming a common covering for both the ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "An alar fold is a median fold that extends backwards from the pad of fat to the intercondylar fossa of the femur.",
+    answer: false,
+    explanation: "The infrapatellar synovial fold is the median fold that extends backwards from the pad of fat to the intercondylar fossa of the femur. An alar fold diverges on each side from the median fold to reach the lateral edges of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is supplied by the anastomoses around it, with the chief sources including five genicular branches of the popliteal artery.",
+    answer: true,
+    explanation: "The chief sources of blood supply to the knee joint are five genicular branches of the popliteal artery, the descending genicular branch of the femoral artery, the descending branch of the lateral circumflex femoral artery, two recurrent branches of the anterior tibial artery, and the circumflex fibular branch of the posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint.",
+    answer: true,
+    explanation: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint, accounting for the thickness of the nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "During extension of the knee, the transverse axis moves forwards and upwards.",
+    answer: true,
+    explanation: "During extension, the transverse axis around which flexion and extension take place moves forwards and upwards, and in the reverse direction during flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "When the foot is on the ground, medial rotation of the femur occurs during the last 30° of extension as in the position of 'attention' by the vastus medialis.",
+    answer: true,
+    explanation: "When the foot is on the ground, medial rotation of the femur occurs during the last 30° of extension as in the position of 'attention' by the vastus medialis. This is called conjunct rotation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "During the position of 'stand at ease', there is lateral rotation of the femur during the initial stages of flexion by the popliteus muscle.",
+    answer: true,
+    explanation: "During the position of 'stand at ease', there is lateral rotation of the femur during the initial stages of flexion, by the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Rotatory movements at the knee are permitted in the upper compartment of the joint, above the menisci.",
+    answer: false,
+    explanation: "Rotatory movements take place around a vertical axis and are permitted in the lower compartment of the joint, below the menisci."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lower pair of articular facets of the patella articulates during extension; middle pair during the beginning of flexion; upper pair during midflexion; and the medial strip during full flexion of the knee.",
+    answer: true,
+    explanation: "During different phases of movements of the knee, different portions of the patella articulate with the femur: lower pair during extension; middle pair during beginning of flexion; upper pair during midflexion; and the medial strip during full flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lateral condyle serves as an axis around which the medial condyle rotates backwards, i.e., medial rotation of the femur occurs during locking.",
+    answer: true,
+    explanation: "When the lateral condylar articular surface is fully 'used up' by extension, the lateral condyle serves as an axis around which the medial condyle rotates backwards, i.e., medial rotation of the femur occurs during locking."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is structurally weak because the articular surfaces are not congruent.",
+    answer: true,
+    explanation: "Structurally, the knee is a weak joint because the articular surfaces are not congruent. The tibial condyles are too small and shallow to hold the large, convex, femoral condyles in place."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The femoropatellar articulation is quite insecure because of the shallow articular surfaces and the outward angulation between the long axis of the thigh and the leg.",
+    answer: true,
+    explanation: "The femoropatellar articulation is quite insecure because of the shallow articular surfaces, and because of the outward angulation between the long axis of the thigh and of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "In genu valgum, the leg is abnormally abducted, also known as knock knee.",
+    answer: true,
+    explanation: "In genu valgum (knock knee), the leg is abnormally abducted. In genu varum (bow knee), the leg is abnormally adducted."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is protected by the popliteus which pulls it backwards so that it is not crushed between the articular surfaces.",
+    answer: false,
+    explanation: "The lateral meniscus is protected by the popliteus which pulls it backwards so that it is not crushed between the articular surfaces. The medial meniscus is more vulnerable due to its fixity to the tibial collateral ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Semimembranosus bursitis causes a swelling in the popliteal fossa region on the posterolateral aspect.",
+    answer: false,
+    explanation: "Semimembranosus bursitis causes a swelling in the popliteal fossa region on the posteromedial aspect, not posterolateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Baker's cyst is a central swelling that occurs due to osteoarthritis of the knee joint, where the synovial membrane protrudes through a hole in the posterior part of the capsule.",
+    answer: true,
+    explanation: "Baker's cyst is a central swelling that occurs due to osteoarthritis of the knee joint. The synovial membrane protrudes through a hole in the posterior part of the capsule of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "In knee joint disease, vastus medialis is the first to atrophy and last to recover.",
+    answer: true,
+    explanation: "In knee joint disease, vastus medialis is first to atrophy and last to recover."
+  },
+
+  // SECTION 14: Ankle Joint & Foot Joints
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The ankle joint is structurally very strong, with stability ensured by close interlocking of the articular surfaces and strong collateral ligaments.",
+    answer: true,
+    explanation: "Structurally, the ankle joint is very strong. The stability of the joint is ensured by close interlocking of the articular surfaces, strong collateral ligaments on the sides, and tendons that cross the joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The depth of the superior articular socket of the ankle joint is contributed by the downward projection of medial and lateral malleoli and by the inferior transverse tibiofibular ligament.",
+    answer: true,
+    explanation: "The depth of the superior articular socket is contributed by the downward projection of medial and lateral malleoli, on the corresponding sides of talus, and by the inferior transverse tibiofibular ligament that bridges across the gap between the tibia and the fibula behind the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The anterior and posterior parts of the capsule of the ankle joint are thick and strong to allow hinge movements.",
+    answer: false,
+    explanation: "The anterior and posterior parts of the capsule of the ankle joint are loose and thin to allow hinge movements. On each side, however, it is supported by strong collateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The deltoid ligament is a very strong triangular ligament present on the medial side of the ankle.",
+    answer: true,
+    explanation: "The deltoid or medial ligament is a very strong triangular ligament present on the medial side of the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The superficial part of the deltoid ligament includes the anterior tibioavicular, middle tibioalcanear, and posterior tibiotalar fibres.",
+    answer: true,
+    explanation: "The superficial part of the deltoid ligament includes anterior or tibioavicular fibres, middle or tibioalcanear fibres, and posterior or posterior tibiotalar fibres."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The deep or anterior tibiotalar part of the deltoid ligament is attached to the posterior part of the medial surface of the talus.",
+    answer: false,
+    explanation: "The deep or anterior tibiotalar part is attached to the anterior part of the medial surface of the talus, not the posterior part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The deltoid ligament is crossed by the tendons of the tibialis posterior and flexor digitorum longus.",
+    answer: true,
+    explanation: "The deltoid ligament is crossed by the tendons of the tibialis posterior and flexor digitorum longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The anterior talofibular ligament is a flat band which passes from the anterior margin of the lateral malleolus to the neck of the talus.",
+    answer: true,
+    explanation: "The anterior talofibular ligament is a flat band which passes from the anterior margin of the lateral malleolus to the neck of the talus, just in front of the fibular facet."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The posterior talofibular ligament passes from the lower part of the malleolar fossa of the fibula to the lateral tubercle of the talus.",
+    answer: true,
+    explanation: "The posterior talofibular ligament passes from the lower part of the malleolar fossa of the fibula to the lateral tubercle of the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is a long rounded cord which passes from the notch on the lower border of the lateral malleolus to the tubercle on the lateral surface of the calcaneum.",
+    answer: true,
+    explanation: "The calcaneofibular ligament is a long rounded cord which passes from the notch on the lower border of the lateral malleolus to the tubercle on the lateral surface of the calcaneum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is crossed by the tendons of the tibialis posterior and flexor digitorum longus.",
+    answer: false,
+    explanation: "The calcaneofibular ligament is crossed by the tendons of the peroneus longus and brevis, not the tibialis posterior and flexor digitorum longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The ankle joint is supplied by the anterior tibial, posterior tibial, and peroneal arteries.",
+    answer: true,
+    explanation: "The blood supply to the ankle joint is from the anterior tibial, posterior tibial, and peroneal arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The ankle joint is supplied by the deep peroneal and tibial nerves.",
+    answer: true,
+    explanation: "The nerve supply to the ankle joint is from the deep peroneal and tibial nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "True sprains of the ankle joint are caused by forced dorsiflexion, which leads to tearing of the posterior fibres of the capsule.",
+    answer: false,
+    explanation: "True sprains of the ankle joint are caused by forced plantar flexion, which leads to tearing of the anterior fibres of the capsule, not posterior fibres."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "Dislocations of the ankle are rare because the joint is very stable due to the presence of the deep tibiofibular socket.",
+    answer: true,
+    explanation: "Dislocations of the ankle are rare because the joint is very stable due to the presence of the deep tibiofibular socket. Whenever dislocation occurs, it is accompanied by fracture of one of the malleoli."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "Acute sprains of the lateral ankle occur when the foot is dorsiflexed and excessively inverted.",
+    answer: false,
+    explanation: "Acute sprains of lateral ankle occur when the foot is plantar flexed and excessively inverted, not dorsiflexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The optimal position of the ankle to avoid ankylosis is one of slight dorsiflexion.",
+    answer: false,
+    explanation: "The optimal position of the ankle to avoid ankylosis is one of slight plantar flexion, not dorsiflexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "For injections into the ankle joint, the needle is introduced between the tendons of extensor hallucis longus and tibialis anterior with the ankle partially plantar flexed.",
+    answer: true,
+    explanation: "For injections into the ankle joint, the needle is introduced between tendons of extensor hallucis longus and tibialis anterior with the ankle partially plantar flexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The superior tibiofibular joint permits slight gliding or rotatory movements that help in adjustment of the lateral malleolus during movements at the ankle joint.",
+    answer: true,
+    explanation: "The superior tibiofibular joint permits slight gliding or rotatory movements that help in adjustment of the lateral malleolus during movements at the ankle joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The superior tibiofibular joint is supplied by the inferior lateral genicular branch of the popliteal artery.",
+    answer: true,
+    explanation: "The superior tibiofibular joint is supplied by the inferior lateral genicular branch of the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The superior tibiofibular joint is supplied by the nerve to the popliteus and by the recurrent genicular nerve.",
+    answer: true,
+    explanation: "The superior tibiofibular joint is supplied by the nerve to the popliteus and by the recurrent genicular nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interosseous membrane of the leg is wide above and narrow below where it is continuous with the interosseous ligament of the inferior tibiofibular joint.",
+    answer: true,
+    explanation: "The interosseous membrane is wide above and narrow below where it is continuous with the interosseous ligament of the inferior tibiofibular joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interosseous membrane presents a large opening at the upper end for the passage of the anterior tibial vessels and a smaller opening near its lower end for the perforating branch of the peroneal artery.",
+    answer: true,
+    explanation: "The interosseous membrane presents a large opening at the upper end for the passage of the anterior tibial vessels, and a much smaller opening near its lower end for the passage of the perforating branch of the peroneal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The biceps femoris is the only muscle that pulls the fibula downwards.",
+    answer: false,
+    explanation: "The biceps femoris is the only muscle that pulls the fibula upwards. Eight other muscles attached to the fibula pull it downwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interosseous ligament of the inferior tibiofibular joint forms the chief bond of union between the lower ends of the tibia and fibula.",
+    answer: true,
+    explanation: "The interosseous ligament of the inferior tibiofibular joint is very strong and forms the chief bond of union between the lower ends of the tibia and fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The inferior tibiofibular joint is supplied by the perforating branch of the peroneal artery and the malleolar branches of the anterior and posterior tibial arteries.",
+    answer: true,
+    explanation: "The inferior tibiofibular joint is supplied by the perforating branch of the peroneal artery and the malleolar branches of the anterior and posterior tibial arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The inferior tibiofibular joint permits slight movements so that the lateral malleolus can rotate laterally during plantarflexion of the ankle.",
+    answer: false,
+    explanation: "The inferior tibiofibular joint permits slight movements so that the lateral malleolus can rotate laterally during dorsiflexion of the ankle, not plantarflexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The metatarsophalangeal joints of the foot permit flexion, extension, adduction, and abduction of the toes.",
+    answer: true,
+    explanation: "The metatarsophalangeal joints permit flexion, extension, adduction, and abduction of the toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interphalangeal joints of the foot are of the hinge variety and permit flexion and extension of the distal phalanges.",
+    answer: true,
+    explanation: "The interphalangeal joints of the foot are of the hinge variety and permit flexion and extension of the distal phalanges."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The anterior joints of the subtalar joint are parts of the talocalcaneonavicular joint.",
+    answer: true,
+    explanation: "The anterior joints of the subtalar joint are parts of the talocalcaneonavicular joint. The posterior joint is named the talocalcanean or subtalar joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The sinus tarsi separates the posterior articulations of the subtalar joint from the anterior and medial articulations.",
+    answer: true,
+    explanation: "The sinus tarsi separates the posterior articulations from the anterior and medial articulations of the subtalar joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interosseous talocalcanean ligament occupies the sinus tarsi and separates the talocalcanean joint from the talocalcaneonavicular joint.",
+    answer: true,
+    explanation: "The interosseous talocalcanean ligament occupies the sinus tarsi and separates the talocalcanean joint from the talocalcaneonavicular joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The cervical ligament is placed medial to the sinus tarsi and becomes taut in eversion.",
+    answer: false,
+    explanation: "The cervical ligament is placed lateral to the sinus tarsi. It passes upwards and medially and becomes taut in inversion, limiting this movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The talocalcaneonavicular joint has some features of a ball and socket joint, with the head of the talus fitting into a socket formed by the navicular bone and calcaneum.",
+    answer: true,
+    explanation: "The talocalcaneonavicular joint has some of the features of a ball and socket joint. The head of the talus fits into a socket formed partly by the navicular bone and partly by the calcaneum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The spring ligament is attached posteriorly to the anterior margin of the sustentaculum tali and anteriorly to the plantar surface of the navicular bone.",
+    answer: true,
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) is attached posteriorly to the anterior margin of the sustentaculum tali, and anteriorly to the plantar surface of the navicular bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The head of the talus rests directly on the upper surface of the spring ligament, which is covered by fibrocartilage.",
+    answer: true,
+    explanation: "The head of the talus rests directly on the upper surface of the spring ligament, which is covered by fibrocartilage."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The calcaneocuboid joint is a plane synovial joint.",
+    answer: false,
+    explanation: "The calcaneocuboid joint is a saddle joint, not a plane joint. The opposed articular surfaces of the calcaneum and the cuboid are concavoconvex."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The bifurcate ligament is Y-shaped with its stem attached to the anterolateral part of the sulcus calcanei.",
+    answer: true,
+    explanation: "The bifurcate ligament is Y-shaped. Its stem is attached to the anterolateral part of the sulcus calcanei; the medial limb to the dorsolateral surface of the navicular bone; and the lateral limb to the dorsomedial surface of the cuboid bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The medial limb of the bifurcate ligament is the calcaneocuboid ligament.",
+    answer: false,
+    explanation: "The medial limb is the calcaneonavicular ligament, and the lateral limb is the calcaneocuboid ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The long plantar ligament is attached posteriorly to the plantar surface of the calcaneum and anteriorly to the lips of the groove on the cuboid bone and to the bases of the middle three metatarsals.",
+    answer: true,
+    explanation: "The long plantar ligament is attached posteriorly to the plantar surface of the calcaneum, and anteriorly to the lips of the groove on the cuboid bone, and to the bases of the middle three metatarsals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The short plantar ligament lies superficial to the long plantar ligament.",
+    answer: false,
+    explanation: "The short plantar ligament lies deep to the long plantar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The transverse tarsal joint demarcates the forefoot from the hindfoot.",
+    answer: true,
+    explanation: "The transverse tarsal joint demarcates the forefoot from the hindfoot. Its movements help in inversion and eversion of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "Inversion of the foot is accompanied by dorsiflexion of the foot and abduction of the forefoot.",
+    answer: false,
+    explanation: "Inversion is accompanied by plantar flexion of the foot and adduction of the forefoot. Eversion is accompanied by dorsiflexion of the foot and abduction of the forefoot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "Inversion is limited by tension of the cervical ligament.",
+    answer: true,
+    explanation: "Inversion is limited by tension of the peronei and tension of the cervical ligament. Eversion is limited by tension of tibialis anterior, tibialis posterior, and tension of the deltoid ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "Eversion is limited by tension of the peronei.",
+    answer: false,
+    explanation: "Eversion is limited by tension of tibialis anterior, tension of tibialis posterior, and tension of the deltoid ligament. Inversion is limited by tension of the peronei."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The interosseous talocalcanean ligament becomes taut in eversion and limits this movement.",
+    answer: true,
+    explanation: "The interosseous talocalcanean ligament becomes taut in eversion and limits this movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The cervical ligament becomes taut in inversion and limits this movement.",
+    answer: true,
+    explanation: "The cervical ligament becomes taut in inversion and limits this movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "There are only six joint cavities in the proximal part of the foot.",
+    answer: true,
+    explanation: "There are only six joint cavities in the proximal part of the foot: talocalcanean, talocalcaneanovicular, calcaneocuboid, first cuneometatarsal, cubometatarsal, and cuneonavicular with extensions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "The deep transverse ligaments of the foot connect all the five toes instead of only four fingers as in the hand.",
+    answer: true,
+    explanation: "The deep transverse ligaments of the foot connect all the five toes instead of only four fingers in the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "truefalse",
+    question: "In the foot, adduction and abduction of the toes are with reference to the third toe, as in the hand.",
+    answer: false,
+    explanation: "In the foot, toes are adducted and abducted with reference to the second toe, not the third finger as in the hand."
+  },
+
+  // SECTION 15: Gait & Clinical Correlations
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Gait is a motion which carries the body forwards and has two phases: swing and stance.",
+    answer: true,
+    explanation: "Gait is a motion which carries the body forwards. There are two phases: swing and stance."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "During the swing phase of gait, there is flexion of hip, flexion of knee, and plantar flexion of ankle.",
+    answer: true,
+    explanation: "The swing phase includes flexion of hip, flexion of knee and plantar flexion of ankle, followed by flexion of hip, extension of knee and dorsiflexion of ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "During the stance phase of gait, there is flexion of hip, extension of knee, and foot on the ground.",
+    answer: true,
+    explanation: "The stance phase includes flexion of hip, extension of knee and foot on the ground, followed by extension of hip, extension of knee and foot on the ground."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "High heels (more than 5 cm) put stress on the back and lower limbs, pushing the spine forwards and causing excessive bending of the knees.",
+    answer: true,
+    explanation: "Females wearing high heels (more than 5 cm) put stress on their back and lower limbs. The spine is pushed forwards, knees are excessively bent, resulting in too much pull on some muscles and ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "The sprains of the medial and lateral ligaments of the ankle joint are almost always due to flat shoes.",
+    answer: false,
+    explanation: "The sprains of the medial and lateral ligaments of the ankle joint are almost always due to high heels, not flat shoes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Arthroscopy of the knee joint involves introducing the instrument from the front of the semiflexed knee joint.",
+    answer: true,
+    explanation: "For the knee joint, the arthroscope is introduced from the front of the semiflexed knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Arthroscopy of the ankle joint involves introducing the instrument lateral to the tendon of tibialis anterior muscle, being careful of the great saphenous vein.",
+    answer: true,
+    explanation: "For the ankle joint, the arthroscope is introduced medial to the tendon of tibialis anterior muscle. One needs to be careful of the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Hallux valgus is caused by well-fitting shoes that push the great toe laterally.",
+    answer: false,
+    explanation: "Hallux valgus is due to ill-fitting shoes, not well-fitting shoes, that push the great toe laterally."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "A fractured toe is bandaged with the adjacent toe, which is called a buddy splint.",
+    answer: true,
+    explanation: "Fractured toe is bandaged with the adjacent toe, which is called buddy splint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Locking when the foot is on the ground is medial rotation of the tibia on the femur at terminal stages of extension.",
+    answer: false,
+    explanation: "When the foot is on the ground, locking is medial rotation of the femur on the tibia at terminal stages of extension. When the foot is off the ground, locking is lateral rotation of the tibia on the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "truefalse",
+    question: "Unlocking when the foot is on the ground is lateral rotation of the femur on the tibia at initial stages of flexion.",
+    answer: true,
+    explanation: "Unlocking when the foot is on the ground is lateral rotation of the femur on the tibia at initial stages of flexion."
+  },
+
+  // SECTION 16: Homology & Comparative Anatomy
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The upper limb bud rotates laterally during development, while the lower limb bud rotates medially.",
+    answer: true,
+    explanation: "The upper limb bud rotates laterally so that the thumb points laterally. The lower limb bud rotates medially so that the big toe points medially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The hip joint corresponds to the shoulder joint in the upper limb, both being multiaxial joints.",
+    answer: true,
+    explanation: "The hip joint is a multiaxial joint, corresponding to the shoulder joint in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The femur corresponds to the humerus in the upper limb, both being the longest bones of their respective limbs.",
+    answer: true,
+    explanation: "The femur is the longest bone of the lower limb and of the body, corresponding to the humerus in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The tibia corresponds to the radius in the upper limb, both being preaxial bones.",
+    answer: true,
+    explanation: "The tibia is the preaxial bone of the lower limb, corresponding to the radius in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The fibula corresponds to the ulna in the upper limb, both being postaxial bones.",
+    answer: true,
+    explanation: "The fibula is the postaxial bone of the lower limb, corresponding to the ulna in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The patella in the lower limb corresponds to the sesamoid bones found in the tendons of the hand.",
+    answer: false,
+    explanation: "The patella is a sesamoid bone in the tendon of the quadriceps femoris. There is no direct correspondence to a bone in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The soleus muscle corresponds to the flexor digitorum superficialis of the forearm.",
+    answer: true,
+    explanation: "Soleus is homologous with flexor digitorum superficialis of the front of forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The long plantar ligament is the divorced tendon of the gastrocnemius.",
+    answer: true,
+    explanation: "From an evolutionary point of view, the long plantar ligament is the divorced tendon of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum brevis is the divorced distal part of the soleus.",
+    answer: true,
+    explanation: "The flexor digitorum brevis is the divorced distal part of the soleus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The medial plantar nerve of the foot corresponds to the median nerve of the hand.",
+    answer: true,
+    explanation: "The medial plantar nerve's distribution is similar to the median nerve of the hand. The lateral plantar nerve resembles the ulnar nerve of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The plantar interossei muscles of the foot correspond to the palmar interossei of the hand.",
+    answer: true,
+    explanation: "The plantar interossei correspond to the palmar interossei of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The dorsal interossei muscles of the foot correspond to the dorsal interossei of the hand.",
+    answer: true,
+    explanation: "The dorsal interossei of the foot correspond to the dorsal interossei of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The axis of movement of adduction and abduction in the foot passes through the third digit.",
+    answer: false,
+    explanation: "The axis of movement of adduction and abduction in the foot passes through the second digit. In the hand, it passes through the third digit."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The great toe carries double the weight to the ground than any of the other four toes.",
+    answer: true,
+    explanation: "The big toe carries double the weight to the ground than any of the other four toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The sciatic nerve corresponds to the median nerve in the upper limb.",
+    answer: false,
+    explanation: "The sciatic nerve and its terminal branches supply the lower limb muscles similar to how the median, ulnar, and musculocutaneous nerves supply the upper limb. There is no single corresponding nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The common peroneal nerve winds around the neck of the fibula, which corresponds to the radial nerve winding around the radius in the upper limb.",
+    answer: false,
+    explanation: "The common peroneal nerve winds around the neck of the fibula (postaxial bone). The deep branch of the radial nerve winds around the radius (preaxial bone) in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The posterior tibial artery corresponds to the ulnar artery in the upper limb.",
+    answer: true,
+    explanation: "The posterior tibial artery corresponds to the ulnar artery in the forearm. The anterior tibial artery corresponds to the radial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The dorsal venous arch of the foot corresponds to the dorsal venous arch of the hand.",
+    answer: true,
+    explanation: "The dorsal venous arch of the foot corresponds to the dorsal venous arch of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The great saphenous vein corresponds to the cephalic vein in the upper limb, both lying along the preaxial border.",
+    answer: true,
+    explanation: "The great saphenous vein lies along the preaxial border, corresponding to the cephalic vein in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The small saphenous vein corresponds to the basilic vein in the upper limb, both lying along the postaxial border.",
+    answer: true,
+    explanation: "The small saphenous vein lies along the postaxial border, corresponding to the basilic vein in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The first carpometacarpal joint of the hand, a saddle joint permitting opposition, has no corresponding joint in the foot.",
+    answer: true,
+    explanation: "The first carpometacarpal joint of the hand is a unique saddle joint permitting opposition. There is no corresponding joint in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum accessorius is a distinct muscle in the foot that straightens the action of flexor digitorum longus tendons.",
+    answer: true,
+    explanation: "Flexor digitorum accessorius is a distinct muscle to straighten the action of flexor digitorum longus tendons in line with the toes on which these act."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The femoral nerve corresponds to the musculocutaneous nerve in the upper limb.",
+    answer: true,
+    explanation: "The femoral nerve supplies the anterior compartment of the thigh, corresponding to the musculocutaneous nerve supplying the anterior compartment of the arm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The obturator nerve corresponds to the radial nerve in the upper limb.",
+    answer: false,
+    explanation: "The obturator nerve supplies the adductor muscles of the medial compartment of the thigh. The coracobrachialis in the arm is also supplied by the musculocutaneous nerve, so the medial compartment in the arm is much smaller."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The hamstring muscles in the lower limb correspond to the triceps brachii in the upper limb.",
+    answer: false,
+    explanation: "The hamstring muscles are flexors of the knee and extensors of the hip. They correspond to the biceps brachii and brachialis (flexors of the elbow) in the upper limb. The triceps brachii extends the elbow."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The quadriceps femoris corresponds to the triceps brachii in the upper limb.",
+    answer: true,
+    explanation: "The quadriceps femoris extends the knee, corresponding to the triceps brachii which extends the elbow."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "truefalse",
+    question: "The tibialis anterior corresponds to the extensor carpi radialis in the upper limb.",
+    answer: false,
+    explanation: "The tibialis anterior dorsiflexes the ankle, corresponding to the extensor digitorum longus and extensor hallucis longus. The extensor carpi radialis extends the wrist."
+  },
+
+  // SECTION 17: Muscles & Tendons of Lower Limb
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tendo calcaneus is the thickest and strongest tendon in the body.",
+    answer: true,
+    explanation: "The tendo calcaneus is the thickest and strongest tendon of the body. It is about 15 cm long."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The plantaris muscle in the lower limb is well developed and functionally important.",
+    answer: false,
+    explanation: "The plantaris is vestigial in human beings. It has a short belly and a long tendon. It is absent in 5-10% of people."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The fabella is a small sesamoid bone present in the tendon of origin of the lateral head of the gastrocnemius.",
+    answer: true,
+    explanation: "A small sesamoid bone called the fabella is present in the tendon of origin of the lateral head of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "Brodie's bursa lies deep to the lateral head of the gastrocnemius.",
+    answer: false,
+    explanation: "Brodie's bursa lies deep to the medial head of the gastrocnemius, not the lateral head. The bursa is also deep to the semimembranosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tendo calcaneus begins near the middle of the leg and receives fleshy fibres of the soleus almost up to its lower end.",
+    answer: true,
+    explanation: "The tendo calcaneus begins near the middle of the leg, but its anterior surface receives fleshy fibres of the soleus almost up to its lower end."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The flexor digitorum longus tendon crosses the tibialis posterior in the lower part of the leg.",
+    answer: true,
+    explanation: "The flexor digitorum longus tendon crosses the tibialis posterior in the lower part of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The flexor digitorum longus tendon receives the insertion of the flexor digitorum accessorius in the sole.",
+    answer: true,
+    explanation: "The flexor digitorum longus tendon receives the insertion of the flexor digitorum accessorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The flexor digitorum longus tendon crosses the tendon of flexor hallucis longus in the sole.",
+    answer: true,
+    explanation: "In the sole, the flexor digitorum longus tendon crosses the tendon of flexor hallucis longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The flexor hallucis longus tendon runs forwards in the sole and is crossed by the tendon of flexor digitorum longus.",
+    answer: true,
+    explanation: "The flexor hallucis longus tendon runs forwards in the sole when it is crossed by the tendon of flexor digitorum longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tendon of tibialis posterior supports the spring ligament.",
+    answer: true,
+    explanation: "The terminal part of the tibialis posterior tendon supports the spring ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tendo-Achilles reflex or ankle jerk tests the S1 and S2 segments.",
+    answer: true,
+    explanation: "The tendo-Achilles reflex or ankle jerk (S1, 2) results in plantar flexion of the foot on tapping the tendo calcaneus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "For thromboangiitis obliterans, lumbar 2 and 3 ganglia with the intervening sympathetic trunk are removed to denervate the arteries of the lower limb.",
+    answer: true,
+    explanation: "For thromboangiitis obliterans or occlusive disease of lower limb arteries, lumbar 2 and 3 ganglia with the intervening sympathetic trunk are removed, as these supply the arteries of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tibiofibular mortice is wider anteriorly and narrow posteriorly.",
+    answer: true,
+    explanation: "The lower end of the leg bones forms the tibiofibular mortice, which is wider anteriorly and narrow posteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The trochlear surface of the talus is wider anteriorly and narrow posteriorly.",
+    answer: true,
+    explanation: "The trochlear surface of the talus forming the ankle joint is also wider anteriorly and narrow posteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "During dorsiflexion, the wider trochlear surface fits into the narrow posterior part of the mortice, making the joint stable and close packed.",
+    answer: true,
+    explanation: "During dorsiflexion, the wider trochlear surface fits into the narrow posterior part of the mortice. The joint is stable and close packed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "During plantar flexion, the narrow posterior trochlear surface lies loosely in the wider anterior part of the mortice, making the joint unstable.",
+    answer: true,
+    explanation: "During plantar flexion, the narrow posterior trochlear surface lies loosely in the wider anterior part of the mortice. The joint is unstable and can easily get subluxated or dislocated."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The posterior tibial artery enters the back of the leg by passing superficial to the tendinous arch of the soleus.",
+    answer: false,
+    explanation: "The posterior tibial artery enters the back of the leg by passing deep to the tendinous arch of the soleus, not superficial to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "In the lower one-third of the leg, the posterior tibial artery runs parallel to and 2.5 cm in front of the medial border of the tendo calcaneus.",
+    answer: true,
+    explanation: "In the lower one-third of the leg, the posterior tibial artery runs parallel to, and 2.5 cm in front of, the medial border of the tendo calcaneus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The posterior tibial artery is accompanied by two venae comitantes and by the tibial nerve.",
+    answer: true,
+    explanation: "The posterior tibial artery is accompanied by two venae comitantes and by the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The circumflex fibular branch of the posterior tibial artery winds around the lateral side of the neck of the fibula to reach the front of the knee.",
+    answer: true,
+    explanation: "The circumflex fibular branch of the posterior tibial artery winds around the lateral side of the neck of the fibula to reach the front of the knee where it takes part in the anastomoses around the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The perforating branch of the peroneal artery pierces the interosseous membrane 4 cm above the ankle.",
+    answer: true,
+    explanation: "The perforating branch of the peroneal artery pierces the interosseous membrane 4 cm above the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The perforating branch of the peroneal artery may reinforce or even replace the dorsalis pedis artery.",
+    answer: true,
+    explanation: "The perforating branch of the peroneal artery may reinforce, or even replace the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tibial nerve in the leg has similar relations to the posterior tibial artery.",
+    answer: true,
+    explanation: "The course and relations of the tibial nerve in the leg are similar to those of the posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The tibial nerve terminates by dividing into the medial and lateral plantar nerves.",
+    answer: true,
+    explanation: "The tibial nerve terminates by dividing into the medial plantar and lateral plantar nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The medial calcanean branches of the tibial nerve pierce the flexor retinaculum and supply the skin on the back and lower surface of the heel.",
+    answer: true,
+    explanation: "The medial calcanean branches of the tibial nerve pierce the flexor retinaculum and supply the skin on the back and lower surface of the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "The long tendon of plantaris is used for tendon transplantation in the body.",
+    answer: true,
+    explanation: "The long tendon of plantaris is used for tendon transplantation in the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "Tendo calcaneus can rupture in tennis players 5 cm above its insertion, making plantar flexion impossible.",
+    answer: true,
+    explanation: "Tendo calcaneus can rupture in tennis players 5 cm above its insertion. Plantar flexion is not possible. The two ends must be stitched."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "High heels for long periods cause the knees to be excessively bent with lumbar vertebrae pushed forwards.",
+    answer: true,
+    explanation: "High heels for long periods cause change in posture. Knees are excessively bent, with lumbar vertebrae pushed forwards, stressing the muscles of the back and calf."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "Soleus acts like first gear while gastrocnemius acts like second and third gears during walking.",
+    answer: true,
+    explanation: "Soleus acts like first gear while gastrocnemius acts like second and third gears during walking."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "All the muscles of the back of the leg/calf are supplied by the common peroneal nerve.",
+    answer: false,
+    explanation: "All the muscles of the back of the leg/calf are supplied by the tibial nerve, not the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "truefalse",
+    question: "Tarsal tunnel syndrome occurs due to entrapment of the tibial nerve under the flexor retinaculum of the ankle.",
+    answer: true,
+    explanation: "Tarsal tunnel syndrome occurs as the tibial nerve gets entrapped under the flexor retinaculum of the ankle, causing pain in the sole."
+  },
+
+  // SECTION 18: Nerves of Lower Limb
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial sural cutaneous nerve arises from the common peroneal nerve in the popliteal fossa.",
+    answer: false,
+    explanation: "The medial sural cutaneous nerve arises from the tibial nerve in the popliteal fossa. The lateral sural cutaneous nerve arises from the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The sural nerve is formed by the union of the medial sural cutaneous nerve and the sural communicating branch.",
+    answer: true,
+    explanation: "The sural nerve is formed by the union of the medial sural cutaneous nerve from the tibial nerve and the sural communicating branch from the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The sural nerve supplies the skin of the lateral side of the foot and the lower half of the back of the leg.",
+    answer: true,
+    explanation: "The sural nerve supplies the skin of the lower half of the back of the leg and the whole of the lateral border of the foot up to the tip of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The superficial peroneal nerve is the nerve of the lateral compartment of the leg.",
+    answer: true,
+    explanation: "The superficial peroneal nerve is the nerve of the lateral compartment of the leg, supplying both peroneus longus and peroneus brevis muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the entire dorsum of the foot.",
+    answer: false,
+    explanation: "The superficial peroneal nerve supplies most of the dorsum of the foot, except the lateral border (sural nerve), medial border (saphenous nerve), cleft between first and second toes (deep peroneal nerve), and distal phalanges including nail beds (plantar nerves)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The deep peroneal nerve supplies the extensor digitorum brevis on the dorsum of the foot.",
+    answer: true,
+    explanation: "The extensor digitorum brevis on the dorsum of the foot is supplied by the lateral terminal branch of the deep peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The lateral terminal branch of the deep peroneal nerve ends as the dorsal digital nerves for the adjacent sides of the big toe and second toe.",
+    answer: true,
+    explanation: "The lateral terminal branch of the deep peroneal nerve ends by forming the dorsal digital nerves for the adjacent sides of the big toe and second toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial terminal branch of the deep peroneal nerve ends in a pseudoganglion deep to the extensor digitorum brevis.",
+    answer: false,
+    explanation: "The lateral terminal branch turns laterally and ends in a pseudoganglion deep to the extensor digitorum brevis. The medial terminal branch supplies the skin adjoining the first interdigital cleft."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial plantar nerve is the larger terminal branch of the tibial nerve.",
+    answer: true,
+    explanation: "The medial plantar nerve is the larger terminal branch of the tibial nerve. Its distribution is similar to the median nerve of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The lateral plantar nerve is the smaller terminal branch of the tibial nerve.",
+    answer: true,
+    explanation: "The lateral plantar nerve is the smaller terminal branch of the tibial nerve, resembling the ulnar nerve of the hand in its distribution."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies 14 intrinsic muscles of the sole.",
+    answer: false,
+    explanation: "The medial plantar nerve supplies 4 intrinsic muscles of the sole: abductor hallucis, flexor digitorum brevis, flexor hallucis brevis, and first lumbrical. The lateral plantar nerve supplies 14 intrinsic muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The lateral plantar nerve supplies the flexor digitorum accessorius.",
+    answer: true,
+    explanation: "The lateral plantar nerve supplies the flexor digitorum accessorius and the abductor digiti minimi through its main trunk."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The deep branch of the lateral plantar nerve supplies the adductor hallucis.",
+    answer: true,
+    explanation: "The deep branch of the lateral plantar nerve supplies the adductor hallucis, among other muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The superficial branch of the lateral plantar nerve supplies the flexor digiti minimi brevis.",
+    answer: true,
+    explanation: "The superficial branch of the lateral plantar nerve supplies the flexor digiti minimi brevis, the third plantar and fourth dorsal interossei."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies the skin of the lateral one-third of the sole.",
+    answer: false,
+    explanation: "The medial plantar nerve supplies the skin of the medial part of the sole and the medial 3½ toes. The lateral plantar nerve supplies the lateral one-third of the sole and the lateral 1½ toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the tibial nerve causes loss of sensation on the whole of the sole of the foot.",
+    answer: true,
+    explanation: "Damage to the tibial nerve causes sensory loss on the whole of the sole of the foot, plantar aspect of digits, and nail beds on the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the common peroneal nerve causes loss of dorsiflexion of the ankle (foot drop).",
+    answer: true,
+    explanation: "Injury to the common peroneal nerve causes motor loss to dorsiflexors and evertors of the foot, resulting in foot drop."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the common peroneal nerve causes loss of sensation on the sole of the foot.",
+    answer: false,
+    explanation: "Injury to the common peroneal nerve causes sensory loss on the back of the leg, lateral side of the leg, and most of the dorsum of the foot. The sole is supplied by the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the deep peroneal nerve causes loss of sensation in the first interdigital cleft.",
+    answer: true,
+    explanation: "Injury to the deep peroneal nerve causes loss of sensation in the first interdigital cleft."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the femoral nerve causes paralysis of the quadriceps femoris.",
+    answer: true,
+    explanation: "Injury to the femoral nerve causes paralysis of the quadriceps femoris and a sensory deficit on the anterior and medial sides of the thigh and medial side of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the superior gluteal nerve causes a positive Trendelenburg's sign.",
+    answer: true,
+    explanation: "Injury to the superior gluteal nerve causes paralysis of the gluteus medius and minimus, leading to a positive Trendelenburg's sign."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "Injury to the inferior gluteal nerve causes paralysis of the gluteus medius.",
+    answer: false,
+    explanation: "Injury to the inferior gluteal nerve causes paralysis of the gluteus maximus only. The superior gluteal nerve supplies the gluteus medius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The sciatic nerve injury causes loss of all movements below the knee with foot drop.",
+    answer: true,
+    explanation: "Injury to the sciatic nerve results in loss of all movements below the knee with foot drop, sensory loss on the back of the thigh, the whole of the leg, and the foot except the area innervated by the saphenous nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "truefalse",
+    question: "The common peroneal nerve is the most frequently injured nerve in the lower limb.",
+    answer: true,
+    explanation: "The common peroneal nerve is the most frequently injured nerve in the lower limb due to its superficial position winding around the neck of the fibula."
+  },
+
+  // SECTION 19: Arteries, Veins & Clinical Tests
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The femoral artery is derived from the original axis artery of the lower limb.",
+    answer: false,
+    explanation: "Developmentally, the femoral artery is not derived from the axis artery. The original axis artery in the uppermost part of the limb is represented by the inferior gluteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The profunda femoris artery is the chief artery of supply to all the three compartments of the thigh.",
+    answer: true,
+    explanation: "The profunda femoris artery is the largest branch of the femoral artery and the chief artery of supply to all the three compartments of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The lateral circumflex femoral artery runs laterally between the anterior and posterior divisions of the femoral nerve.",
+    answer: true,
+    explanation: "The lateral circumflex femoral artery runs laterally between the anterior and posterior divisions of the femoral nerve, passes behind the sartorius and the rectus femoris, and divides into ascending, transverse and descending branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The descending branch of the lateral circumflex femoral artery runs down along the anterior border of the vastus medialis.",
+    answer: false,
+    explanation: "The descending branch of the lateral circumflex femoral artery runs down along the anterior border of the vastus lateralis, not the vastus medialis, accompanied by the nerve to that muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The femoral vein is medial to the femoral artery at the base of the femoral triangle.",
+    answer: true,
+    explanation: "The femoral vein is medial to the artery at the base of the femoral triangle, but posteromedial to the artery at the apex."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The femoral nerve is not included in the femoral sheath because its formation is behind the fascia iliaca.",
+    answer: true,
+    explanation: "The femoral nerve is not included in the femoral sheath as its formation is behind the fascia iliaca which is forming the posterior wall of the sheath."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The saphenous nerve is the longest cutaneous nerve in the body.",
+    answer: true,
+    explanation: "The saphenous nerve is the longest cutaneous nerve, extending from the thigh to the medial side of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The saphenous nerve arises from the anterior division of the femoral nerve.",
+    answer: false,
+    explanation: "The saphenous nerve arises from the posterior division of the femoral nerve, not the anterior division."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The nerve to the pectineus arises from the femoral nerve just above the inguinal ligament and passes behind the femoral sheath.",
+    answer: true,
+    explanation: "The nerve to the pectineus arises from the femoral nerve just above the inguinal ligament and passes behind the femoral sheath to reach the anterior surface of the muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The articularis genu is supplied by a branch from the nerve to the vastus medialis.",
+    answer: false,
+    explanation: "The articularis genu is supplied by a branch from the nerve to the vastus intermedius, not the vastus medialis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint.",
+    answer: true,
+    explanation: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint, accounting for the thickness of the nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The obturator nerve is thinner than the femoral nerve.",
+    answer: true,
+    explanation: "The obturator nerve is thinner in size compared to the femoral nerve, which is thicker."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The obturator nerve emerges at the lateral border of the psoas major muscle.",
+    answer: false,
+    explanation: "The femoral nerve emerges at the lateral border of psoas major, while the obturator nerve emerges at the medial border of psoas major."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The obturator nerve gives branches in the abdomen.",
+    answer: false,
+    explanation: "The obturator nerve gives no branches in the abdomen, while the femoral nerve gives branches in the abdomen to iliacus and pectineus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The obturator nerve gives big cutaneous branches in the thigh.",
+    answer: false,
+    explanation: "The obturator nerve gives very small unnamed cutaneous branches in the thigh, while the femoral nerve gives big cutaneous branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "Spasm of the adductors of the thigh in spastic paraplegia may be relieved by surgical division of the obturator nerve.",
+    answer: true,
+    explanation: "Spasm of the adductors of thigh in certain intractable cases of spastic paraplegia may be relieved by surgical division of the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "A disease of the hip joint may cause referred pain in the knee and on the medial side of the thigh because of their common nerve supply by the obturator nerve.",
+    answer: true,
+    explanation: "A disease of the hip joint may cause referred pain in the knee and on the medial side of the thigh because of their common nerve supply by the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "truefalse",
+    question: "The accessory obturator nerve is present in about 30% of subjects and supplies the pectineus muscle and the hip joint.",
+    answer: true,
+    explanation: "The accessory obturator nerve is present in about 30% of subjects. It supplies the deep surface of the pectineus, the hip joint, and communicates with the anterior division of the obturator nerve."
+  },
+
+  // ===== MULTIPLE CHOICE QUESTIONS (501-600) =====
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a ligament of the hip joint?",
+    options: [
+      "A. Iliofemoral ligament",
+      "B. Pubofemoral ligament",
+      "C. Ischiofemoral ligament",
+      "D. Oblique popliteal ligament"
+    ],
+    correctAnswer: "D. Oblique popliteal ligament",
+    explanation: "The oblique popliteal ligament is a ligament of the knee joint, not the hip joint. The ligaments of the hip joint include the iliofemoral, pubofemoral, and ischiofemoral ligaments, as well as the ligament of the head of the femur and the transverse acetabular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The acetabular labrum is made of which type of tissue?",
+    options: [
+      "A. Bone",
+      "B. Hyaline cartilage",
+      "C. Fibrocartilage",
+      "D. Elastic cartilage"
+    ],
+    correctAnswer: "C. Fibrocartilage",
+    explanation: "The acetabular labrum is a fibrocartilaginous rim attached to the margins of the acetabulum. It narrows the mouth of the acetabulum and helps in holding the head of the femur in position."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The retinacula of the hip joint contain which blood vessels?",
+    options: [
+      "A. Femoral artery branches",
+      "B. Branches of the obturator artery",
+      "C. Blood vessels supplying the head and neck of the femur",
+      "D. Branches of the inferior gluteal artery"
+    ],
+    correctAnswer: "C. Blood vessels supplying the head and neck of the femur",
+    explanation: "Blood vessels supplying the head and neck of the femur travel along the retinacula. The retinacula are formed by longitudinal fibres reflected along the neck of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "multiplechoice",
+    question: "The hip joint is supplied by all of the following nerves EXCEPT:",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Sciatic nerve",
+      "D. Superior gluteal nerve"
+    ],
+    correctAnswer: "C. Sciatic nerve",
+    explanation: "The hip joint is supplied by the femoral nerve, the anterior division of the obturator nerve, the nerve to the quadratus femoris, and the superior gluteal nerve. The sciatic nerve itself does not directly supply the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor contributing to the stability of the ankle joint?",
+    options: [
+      "A. Close interlocking of articular surfaces",
+      "B. Strong collateral ligaments",
+      "C. Deep tibiofibular socket",
+      "D. The presence of the anterior cruciate ligament"
+    ],
+    correctAnswer: "D. The presence of the anterior cruciate ligament",
+    explanation: "The anterior cruciate ligament is a ligament of the knee joint, not the ankle joint. Stability of the ankle joint is ensured by close interlocking of articular surfaces, strong collateral ligaments, the deep tibiofibular socket, and tendons that cross the joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "multiplechoice",
+    question: "The deltoid ligament of the ankle consists of which parts?",
+    options: [
+      "A. Anterior talofibular, posterior talofibular, and calcaneofibular",
+      "B. Tibioavicular, tibioalcanear, posterior tibiotalar, and anterior tibiotalar",
+      "C. Tibionavicular, tibiocalcaneal, and tibiotalar",
+      "D. Anterior tibiofibular, posterior tibiofibular, and interosseous"
+    ],
+    correctAnswer: "B. Tibioavicular, tibioalcanear, posterior tibiotalar, and anterior tibiotalar",
+    explanation: "The deltoid ligament is divided into a superficial and a deep part. The superficial part includes anterior tibioavicular, middle tibioalcanear, and posterior tibiotalar fibres. The deep part is the anterior tibiotalar part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "multiplechoice",
+    question: "The lateral ligament of the ankle consists of which three bands?",
+    options: [
+      "A. Deltoid, tibioavicular, and tibiocalcaneal",
+      "B. Anterior talofibular, posterior talofibular, and calcaneofibular",
+      "C. Tibionavicular, tibiotalar, and tibiofibular",
+      "D. Anterior tibiofibular, posterior tibiofibular, and interosseous"
+    ],
+    correctAnswer: "B. Anterior talofibular, posterior talofibular, and calcaneofibular",
+    explanation: "The lateral ligament of the ankle consists of three bands: the anterior talofibular ligament, the posterior talofibular ligament, and the calcaneofibular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a structure passing under the extensor retinacula?",
+    options: [
+      "A. Tibialis anterior",
+      "B. Extensor hallucis longus",
+      "C. Flexor hallucis longus",
+      "D. Deep peroneal nerve"
+    ],
+    correctAnswer: "C. Flexor hallucis longus",
+    explanation: "The structures passing under the extensor retinacula are tibialis anterior, extensor hallucis longus, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, and peroneus tertius. Flexor hallucis longus passes under the flexor retinaculum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "multiplechoice",
+    question: "Which of the following muscles is NOT a dorsiflexor of the ankle?",
+    options: [
+      "A. Tibialis anterior",
+      "B. Extensor hallucis longus",
+      "C. Extensor digitorum longus",
+      "D. Gastrocnemius"
+    ],
+    correctAnswer: "D. Gastrocnemius",
+    explanation: "The gastrocnemius is a plantar flexor of the ankle, not a dorsiflexor. The dorsiflexors include tibialis anterior, extensor hallucis longus, extensor digitorum longus, and peroneus tertius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscles & Tendons",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an action of the peroneus longus?",
+    options: [
+      "A. Eversion of the foot",
+      "B. Plantarflexion of the ankle",
+      "C. Dorsiflexion of the ankle",
+      "D. Support of the arches of the foot"
+    ],
+    correctAnswer: "C. Dorsiflexion of the ankle",
+    explanation: "The peroneus longus everts the foot, weakly plantarflexes the ankle, and supports the arches of the foot. It does not dorsiflex the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Foot Joints",
+    type: "multiplechoice",
+    question: "The flexor retinaculum of the ankle is attached to which structures?",
+    options: [
+      "A. Medial malleolus and medial side of the heel",
+      "B. Lateral malleolus and lateral side of the heel",
+      "C. Tibia and fibula",
+      "D. Medial malleolus and lateral malleolus"
+    ],
+    correctAnswer: "A. Medial malleolus and medial side of the heel",
+    explanation: "The flexor retinaculum extends from the medial malleolus to the medial side of the heel, running downwards and backwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle supplied by the tibial nerve in the leg?",
+    options: [
+      "A. Gastrocnemius",
+      "B. Soleus",
+      "C. Tibialis anterior",
+      "D. Flexor digitorum longus"
+    ],
+    correctAnswer: "C. Tibialis anterior",
+    explanation: "The tibialis anterior is supplied by the deep peroneal nerve. All the muscles of the back of the leg/calf (gastrocnemius, soleus, plantaris, popliteus, flexor digitorum longus, flexor hallucis longus, tibialis posterior) are supplied by the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The sural nerve supplies the skin of:",
+    options: [
+      "A. Medial side of the leg",
+      "B. Lower half of the back of the leg and the whole of the lateral border of the foot",
+      "C. Dorsum of the foot",
+      "D. Medial side of the foot"
+    ],
+    correctAnswer: "B. Lower half of the back of the leg and the whole of the lateral border of the foot",
+    explanation: "The sural nerve supplies the skin of the lower half of the back of the leg and the whole of the lateral border of the foot up to the tip of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a function of the arches of the foot?",
+    options: [
+      "A. Distribution of body weight to weight-bearing areas",
+      "B. Acting as springs for walking and running",
+      "C. Acting as shock absorbers",
+      "D. Providing a surface for articulation with the tibia"
+    ],
+    correctAnswer: "D. Providing a surface for articulation with the tibia",
+    explanation: "The arches of the foot distribute body weight to the weight-bearing areas of the sole, act as springs for walking and running, and act as shock absorbers. Articulation with the tibia is a function of the talus, not of the arches themselves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The medial longitudinal arch is formed by which bones?",
+    options: [
+      "A. Calcaneus, cuboid, and 4th and 5th metatarsals",
+      "B. Calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals",
+      "C. Talus, navicular, cuboid, and all five metatarsals",
+      "D. Calcaneus, navicular, cuboid, and 4th metatarsal"
+    ],
+    correctAnswer: "B. Calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals",
+    explanation: "The medial longitudinal arch is formed by the calcaneus, talus, navicular, three cuneiforms, and 1st-3rd metatarsals. The lateral longitudinal arch is formed by the calcaneus, cuboid, and 4th and 5th metatarsals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The key stone of the lateral longitudinal arch is:",
+    options: [
+      "A. Talus",
+      "B. Navicular",
+      "C. Cuboid",
+      "D. Calcaneus"
+    ],
+    correctAnswer: "C. Cuboid",
+    explanation: "The key stone of the lateral longitudinal arch is the cuboid. The key stone of the medial longitudinal arch is the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor maintaining the arches of the foot?",
+    options: [
+      "A. Shape of the bones",
+      "B. Intersegmental ties (ligaments)",
+      "C. Slings (tendons passing from the leg into the sole)",
+      "D. Atmospheric pressure"
+    ],
+    correctAnswer: "D. Atmospheric pressure",
+    explanation: "Atmospheric pressure is a factor for hip joint stability, not for the arches of the foot. The factors maintaining the arches of the foot include the shape of bones, intersegmental ties/ligaments, tie beams/bowstrings, and slings from tendons."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The spring ligament is also known as the:",
+    options: [
+      "A. Long plantar ligament",
+      "B. Short plantar ligament",
+      "C. Plantar calcaneonavicular ligament",
+      "D. Plantar calcaneocuboid ligament"
+    ],
+    correctAnswer: "C. Plantar calcaneonavicular ligament",
+    explanation: "The spring ligament is also called the plantar calcaneonavicular ligament. It is attached posteriorly to the anterior margin of the sustentaculum tali and anteriorly to the plantar surface of the navicular bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The posterior transverse arch of the foot is:",
+    options: [
+      "A. Complete, with both ends in contact with the ground",
+      "B. Incomplete, forming a half dome",
+      "C. Formed by the heads of the metatarsals",
+      "D. Supported only by the plantar aponeurosis"
+    ],
+    correctAnswer: "B. Incomplete, forming a half dome",
+    explanation: "The posterior transverse arch is incomplete because only the lateral end comes in contact with the ground, the arch forming a 'half dome' which is completed by a similar half dome of the opposite foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The anterior transverse arch of the foot is formed by:",
+    options: [
+      "A. The tarsal bones",
+      "B. The heads of the five metatarsal bones",
+      "C. The bases of the metatarsals",
+      "D. The calcaneus and talus"
+    ],
+    correctAnswer: "B. The heads of the five metatarsal bones",
+    explanation: "The anterior transverse arch is formed by the heads of the five metatarsal bones. It is complete because the heads of the first and fifth metatarsals come in contact with the ground."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle of the first layer of the sole?",
+    options: [
+      "A. Abductor hallucis",
+      "B. Flexor digitorum brevis",
+      "C. Abductor digiti minimi",
+      "D. Flexor hallucis brevis"
+    ],
+    correctAnswer: "D. Flexor hallucis brevis",
+    explanation: "The muscles of the first layer of the sole are the abductor hallucis, flexor digitorum brevis, and abductor digiti minimi. Flexor hallucis brevis is in the third layer."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The second layer of the sole contains all of the following EXCEPT:",
+    options: [
+      "A. Flexor digitorum longus tendons",
+      "B. Flexor hallucis longus tendon",
+      "C. Flexor digitorum accessorius",
+      "D. Flexor hallucis brevis"
+    ],
+    correctAnswer: "D. Flexor hallucis brevis",
+    explanation: "The second layer of the sole contains the tendons of the flexor digitorum longus and flexor hallucis longus, the flexor digitorum accessorius, and the lumbrical muscles. Flexor hallucis brevis is in the third layer."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following muscles is NOT supplied by the medial plantar nerve?",
+    options: [
+      "A. Abductor hallucis",
+      "B. Flexor digitorum brevis",
+      "C. Flexor hallucis brevis",
+      "D. Adductor hallucis"
+    ],
+    correctAnswer: "D. Adductor hallucis",
+    explanation: "The medial plantar nerve supplies the abductor hallucis, flexor digitorum brevis, flexor hallucis brevis, and first lumbrical. The adductor hallucis is supplied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following is NOT supplied by the lateral plantar nerve?",
+    options: [
+      "A. Abductor digiti minimi",
+      "B. Flexor digiti minimi brevis",
+      "C. Flexor digitorum accessorius",
+      "D. Flexor hallucis brevis"
+    ],
+    correctAnswer: "D. Flexor hallucis brevis",
+    explanation: "The lateral plantar nerve supplies the abductor digiti minimi, flexor digitorum accessorius, flexor digiti minimi brevis, adductor hallucis, lumbricals 2-4, and all interossei. Flexor hallucis brevis is supplied by the medial plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "The plantar arch lies between which layers of the sole?",
+    options: [
+      "A. 1st and 2nd layers",
+      "B. 2nd and 3rd layers",
+      "C. 3rd and 4th layers",
+      "D. Superficial and deep layers"
+    ],
+    correctAnswer: "C. 3rd and 4th layers",
+    explanation: "The plantar arch lies between the third and fourth layers of the sole. It is formed by the direct continuation of the lateral plantar artery and is completed medially by the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Morton's neuroma occurs on which nerve?",
+    options: [
+      "A. Lateral plantar nerve",
+      "B. Medial plantar nerve",
+      "C. Deep peroneal nerve",
+      "D. Sural nerve"
+    ],
+    correctAnswer: "B. Medial plantar nerve",
+    explanation: "Morton's neuroma occurs on the branch of the medial plantar nerve between the 3rd and 4th metatarsal bones, causing pain between the third and fourth metatarsals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a component of the quadriceps femoris?",
+    options: [
+      "A. Rectus femoris",
+      "B. Vastus lateralis",
+      "C. Vastus medialis",
+      "D. Sartorius"
+    ],
+    correctAnswer: "D. Sartorius",
+    explanation: "The quadriceps femoris consists of four parts: rectus femoris, vastus lateralis, vastus medialis, and vastus intermedius. Sartorius is a separate muscle in the anterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The iliopsoas is composed of which two muscles?",
+    options: [
+      "A. Iliacus and psoas major",
+      "B. Iliacus and psoas minor",
+      "C. Psoas major and psoas minor",
+      "D. Iliacus and quadratus lumborum"
+    ],
+    correctAnswer: "A. Iliacus and psoas major",
+    explanation: "The iliopsoas is composed of the iliacus and psoas major muscles. Both have a common insertion on the lesser trochanter of the femur and are the chief and powerful flexors of the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The femoral triangle is bounded by all of the following EXCEPT:",
+    options: [
+      "A. Medial border of sartorius",
+      "B. Medial border of adductor longus",
+      "C. Inguinal ligament",
+      "D. Iliotibial tract"
+    ],
+    correctAnswer: "D. Iliotibial tract",
+    explanation: "The femoral triangle is bounded laterally by the medial border of sartorius, medially by the medial border of adductor longus, and its base is formed by the inguinal ligament. The iliotibial tract is not a boundary of the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The femoral sheath is formed by which fascial layers?",
+    options: [
+      "A. Fascia lata and crural fascia",
+      "B. Fascia transversalis and fascia iliaca",
+      "C. Cribriform fascia and fascia lata",
+      "D. Deep fascia and superficial fascia"
+    ],
+    correctAnswer: "B. Fascia transversalis and fascia iliaca",
+    explanation: "The femoral sheath is formed by downward extension of two layers of the fascia of the abdomen: the anterior wall is formed by the fascia transversalis, and the posterior wall is formed by the fascia iliaca."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The femoral canal contains:",
+    options: [
+      "A. Femoral artery",
+      "B. Femoral vein",
+      "C. Lymph node of Cloquet",
+      "D. Femoral nerve"
+    ],
+    correctAnswer: "C. Lymph node of Cloquet",
+    explanation: "The femoral canal contains a lymph node of Cloquet (or Rosenmuller), lymphatics, and a small amount of areolar tissue. The femoral artery is in the lateral compartment and the femoral vein is in the intermediate compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The adductor canal is bounded by all of the following EXCEPT:",
+    options: [
+      "A. Vastus medialis",
+      "B. Adductor longus and magnus",
+      "C. Sartorius",
+      "D. Femoral nerve"
+    ],
+    correctAnswer: "D. Femoral nerve",
+    explanation: "The adductor canal is bounded by the vastus medialis (anterolateral wall), adductor longus and magnus (posteromedial wall), and a fibrous membrane covered by the sartorius (medial wall/roof). The femoral nerve is a content of the femoral triangle, not a boundary of the adductor canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The gluteus maximus is supplied by which nerve?",
+    options: [
+      "A. Superior gluteal nerve",
+      "B. Inferior gluteal nerve",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "B. Inferior gluteal nerve",
+    explanation: "The gluteus maximus is supplied by the inferior gluteal nerve (L5, S1, 2). The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a lateral rotator of the thigh?",
+    options: [
+      "A. Piriformis",
+      "B. Obturator internus",
+      "C. Quadratus femoris",
+      "D. Gluteus medius"
+    ],
+    correctAnswer: "D. Gluteus medius",
+    explanation: "The gluteus medius is an abductor and medial rotator of the thigh, not a lateral rotator. The lateral rotators of the thigh are piriformis, obturator internus, superior and inferior gemelli, quadratus femoris, and obturator externus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The greater sciatic foramen is formed by the:",
+    options: [
+      "A. Sacrotuberous and sacrospinous ligaments",
+      "B. Iliac crest and sacrum",
+      "C. Ischial spine and sacrotuberous ligament",
+      "D. Sacrospinous ligament and ischial spine"
+    ],
+    correctAnswer: "A. Sacrotuberous and sacrospinous ligaments",
+    explanation: "The greater sciatic foramen is formed by the sacrotuberous and sacrospinous ligaments converting the greater sciatic notch into a foramen."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a structure passing below the piriformis?",
+    options: [
+      "A. Sciatic nerve",
+      "B. Inferior gluteal vessels",
+      "C. Pudendal nerve",
+      "D. Superior gluteal nerve"
+    ],
+    correctAnswer: "D. Superior gluteal nerve",
+    explanation: "The superior gluteal nerve and vessels pass above the piriformis. The structures passing below the piriformis include the inferior gluteal nerve and vessels, sciatic nerve, pudendal nerve, posterior cutaneous nerve of thigh, and nerves to the quadratus femoris and obturator internus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a hamstring muscle?",
+    options: [
+      "A. Semitendinosus",
+      "B. Semimembranosus",
+      "C. Biceps femoris (long head)",
+      "D. Biceps femoris (short head)"
+    ],
+    correctAnswer: "D. Biceps femoris (short head)",
+    explanation: "The hamstring muscles are the semitendinosus, semimembranosus, long head of the biceps femoris, and ischial head of the adductor magnus. The short head of the biceps femoris is not considered a true hamstring muscle because it does not originate from the ischial tuberosity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The sciatic nerve is the:",
+    options: [
+      "A. Thinnest nerve in the body",
+      "B. Thickest nerve in the body",
+      "C. Shortest nerve in the body",
+      "D. Longest nerve in the body"
+    ],
+    correctAnswer: "B. Thickest nerve in the body",
+    explanation: "The sciatic nerve is the thickest nerve in the body. In its upper part, it forms a band about 2 cm wide."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The sciatic nerve gives no branches in:",
+    options: [
+      "A. The back of the thigh",
+      "B. The gluteal region",
+      "C. The leg",
+      "D. The foot"
+    ],
+    correctAnswer: "B. The gluteal region",
+    explanation: "The sciatic nerve gives no branches in the gluteal region. It supplies the hamstring muscles in the back of the thigh, all leg and foot muscles, and the skin of most of the leg and foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The common peroneal nerve is vulnerable to injury at which location?",
+    options: [
+      "A. Head of the fibula",
+      "B. Neck of the fibula",
+      "C. Lateral malleolus",
+      "D. Medial malleolus"
+    ],
+    correctAnswer: "B. Neck of the fibula",
+    explanation: "The common peroneal nerve is most often injured at the neck of the fibula, where it winds subcutaneously around this region."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an action of the gluteus maximus?",
+    options: [
+      "A. Extension of the thigh at the hip",
+      "B. Lateral rotation of the thigh",
+      "C. Abduction of the thigh (upper fibres)",
+      "D. Medial rotation of the thigh"
+    ],
+    correctAnswer: "D. Medial rotation of the thigh",
+    explanation: "The gluteus maximus is a chief extensor of the thigh, lateral rotator of the thigh, and abductor of the thigh (by upper fibres). It does not medially rotate the thigh; medial rotation is performed by the gluteus medius and minimus, tensor fasciae latae, and others."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hamstrings & Miscellaneous",
+    type: "multiplechoice",
+    question: "The pes anserinus is formed by the tendons of which three muscles?",
+    options: [
+      "A. Sartorius, gracilis, and semitendinosus",
+      "B. Sartorius, gracilis, and semimembranosus",
+      "C. Gracilis, semitendinosus, and semimembranosus",
+      "D. Sartorius, semitendinosus, and semimembranosus"
+    ],
+    correctAnswer: "A. Sartorius, gracilis, and semitendinosus",
+    explanation: "The pes anserinus is the common tendinous insertion of the sartorius, gracilis, and semitendinosus into the upper part of the medial surface of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a factor helping venous return from the lower limb?",
+    options: [
+      "A. Negative intrathoracic pressure",
+      "B. Muscular contraction",
+      "C. Presence of valves",
+      "D. High intra-abdominal pressure"
+    ],
+    correctAnswer: "D. High intra-abdominal pressure",
+    explanation: "High intra-abdominal pressure would impede venous return. Factors helping venous return include negative intrathoracic pressure, arterial pressure, compression by arterial pulsation, valves, muscular contraction, and the tight sleeve of deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The great saphenous vein has how many valves?",
+    options: [
+      "A. 5-8",
+      "B. 10-15",
+      "C. 15-20",
+      "D. 20-25"
+    ],
+    correctAnswer: "B. 10-15",
+    explanation: "The great saphenous vein contains about 10 to 15 valves which prevent backflow of the venous blood. The small saphenous vein has about 8-10 valves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The superficial inguinal lymph nodes are divided into which groups?",
+    options: [
+      "A. Upper and lower",
+      "B. Lateral, medial, and vertical",
+      "C. Superficial and deep",
+      "D. Anterior and posterior"
+    ],
+    correctAnswer: "B. Lateral, medial, and vertical",
+    explanation: "The superficial inguinal lymph nodes are divided into three sets: lower vertical group, upper lateral group, and upper medial group."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which group of superficial inguinal lymph nodes drains most of the lower limb?",
+    options: [
+      "A. Upper lateral group",
+      "B. Upper medial group",
+      "C. Lower vertical group",
+      "D. Deep inguinal group"
+    ],
+    correctAnswer: "C. Lower vertical group",
+    explanation: "The lower vertical group drains lymph from most of the lower limb (great saphenous territory). The upper lateral group drains the lateral part of the infraumbilical abdominal wall and gluteal region. The upper medial group drains the perineum and external genitalia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The deep inguinal lymph nodes receive afferents from all of the following EXCEPT:",
+    options: [
+      "A. Superficial inguinal nodes",
+      "B. Popliteal nodes",
+      "C. Glans penis or clitoris",
+      "D. Skin of the anterior abdominal wall above the umbilicus"
+    ],
+    correctAnswer: "D. Skin of the anterior abdominal wall above the umbilicus",
+    explanation: "The deep inguinal lymph nodes receive afferents from the superficial inguinal nodes, the popliteal nodes, the glans penis or clitoris, and the deep lymphatics of the lower limb. The skin of the anterior abdominal wall above the umbilicus drains to the axillary lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Popliteal lymph nodes receive afferents from:",
+    options: [
+      "A. The territory of the great saphenous vein",
+      "B. The territory of the small saphenous vein",
+      "C. The external genitalia",
+      "D. The anterior abdominal wall"
+    ],
+    correctAnswer: "B. The territory of the small saphenous vein",
+    explanation: "Popliteal lymph nodes receive afferents from the territory of the small saphenous vein, the deep parts of the leg through vessels running along the anterior and posterior tibial vessels, and the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The dorsal venous arch of the foot is located:",
+    options: [
+      "A. On the plantar surface of the foot",
+      "B. Over the proximal parts of the metatarsal bones",
+      "C. Over the distal parts of the metatarsal bones",
+      "D. Around the ankle joint"
+    ],
+    correctAnswer: "B. Over the proximal parts of the metatarsal bones",
+    explanation: "The dorsal venous arch lies on the dorsum of the foot over the proximal parts of the metatarsal bones. It receives four dorsal metatarsal veins each of which is formed by the union of two dorsal digital veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The lateral marginal vein joins with which structure to form the small saphenous vein?",
+    options: [
+      "A. Medial end of the dorsal venous arch",
+      "B. Lateral end of the dorsal venous arch",
+      "C. Great saphenous vein",
+      "D. Dorsal venous network"
+    ],
+    correctAnswer: "B. Lateral end of the dorsal venous arch",
+    explanation: "The small saphenous vein is formed by the union of the lateral end of the dorsal venous arch with the lateral marginal vein, draining the lateral side of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a tributary of the great saphenous vein?",
+    options: [
+      "A. Superficial epigastric vein",
+      "B. Superficial circumflex iliac vein",
+      "C. Superficial external pudendal vein",
+      "D. Small saphenous vein"
+    ],
+    correctAnswer: "D. Small saphenous vein",
+    explanation: "The great saphenous vein receives the superficial epigastric, superficial circumflex iliac, and superficial external pudendal veins before piercing the cribriform fascia. The small saphenous vein drains into the popliteal vein, not the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The thoracoepigastric vein connects:",
+    options: [
+      "A. The great saphenous vein to the femoral vein",
+      "B. The superficial epigastric vein to the lateral thoracic vein",
+      "C. The small saphenous vein to the popliteal vein",
+      "D. The femoral vein to the external iliac vein"
+    ],
+    correctAnswer: "B. The superficial epigastric vein to the lateral thoracic vein",
+    explanation: "The thoracoepigastric vein runs along the anterolateral wall of the trunk. It connects the superficial epigastric vein with the lateral thoracic vein, providing an important connection between the veins of the upper and lower limbs."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a feature of varicose veins?",
+    options: [
+      "A. Dilated superficial veins",
+      "B. Incompetent valves",
+      "C. Absence of valves",
+      "D. High pressure transmitted from deep veins"
+    ],
+    correctAnswer: "C. Absence of valves",
+    explanation: "Varicose veins have incompetent valves, not absent valves. The valves fail to function properly, allowing backflow and causing dilatation. The condition is associated with high pressure transmission from deep veins through incompetent perforating veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Trendelenburg's test is used to test:",
+    options: [
+      "A. Deep vein thrombosis",
+      "B. Incompetency of superficial and perforating veins",
+      "C. Arterial insufficiency",
+      "D. Lymphatic obstruction"
+    ],
+    correctAnswer: "B. Incompetency of superficial and perforating veins",
+    explanation: "Trendelenburg's test is done to find out the site of leak or defect in a patient with varicose veins. Only the superficial veins and the perforating veins can be tested, not the deep veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Perthes' test is used to test:",
+    options: [
+      "A. Superficial veins",
+      "B. Deep veins and perforating veins",
+      "C. Arteries",
+      "D. Lymphatics"
+    ],
+    correctAnswer: "B. Deep veins and perforating veins",
+    explanation: "Perthes' test is employed to test the deep veins and perforating veins. A tourniquet is tied around the upper part of the thigh, and the patient is asked to walk quickly. If the perforating and deep veins are normal, the varicose veins shrink."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Elephantiasis of the lower limb is caused by:",
+    options: [
+      "A. Deep vein thrombosis",
+      "B. Lymphatic obstruction from filaria",
+      "C. Arterial occlusion",
+      "D. Varicose veins"
+    ],
+    correctAnswer: "B. Lymphatic obstruction from filaria",
+    explanation: "Elephantiasis is caused by lymphatic obstruction from the parasite filaria, resulting in great hypertrophy of the skin and of subcutaneous tissue."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The dermatomes of the lower limb are supplied by which spinal segments?",
+    options: [
+      "A. C1-T1",
+      "B. T1-T12",
+      "C. L1-L5 and S1-S3",
+      "D. T12-S4"
+    ],
+    correctAnswer: "D. T12-S4",
+    explanation: "The cutaneous innervation of the lower limb is derived mainly from segments L1 to L5 and S1 to S3 of the spinal cord, and partly from segments T12 and S4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Homology & Comparative Anatomy",
+    type: "multiplechoice",
+    question: "The preaxial border of the lower limb is represented by which structures?",
+    options: [
+      "A. Great toe and tibia",
+      "B. Little toe and fibula",
+      "C. Great toe and fibula",
+      "D. Little toe and tibia"
+    ],
+    correctAnswer: "A. Great toe and tibia",
+    explanation: "The great toe and tibia lie along the preaxial border of the lower limb, and the little toe and fibula along the postaxial border."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The axial line of the lower limb is a line along which:",
+    options: [
+      "A. Dermatomes overlap maximally",
+      "B. Certain dermatomes are buried so that distant dermatomes adjoin each other",
+      "C. Muscles are attached",
+      "D. Blood vessels are located"
+    ],
+    correctAnswer: "B. Certain dermatomes are buried so that distant dermatomes adjoin each other",
+    explanation: "The axial line is defined as a line along which certain dermatomes are buried (missing) so that distant dermatomes adjoin each other. Overlapping of the dermatomes is minimal across the axial line."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The myotome for the quadriceps femoris is primarily:",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. L5, S1"
+    ],
+    correctAnswer: "B. L3, L4",
+    explanation: "The quadriceps femoris is primarily supplied by L3, L4 segments, with some contribution from L2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The myotome for the gluteus medius and minimus is primarily:",
+    options: [
+      "A. L3, L4",
+      "B. L4, L5",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "C. L5, S1",
+    explanation: "The gluteus medius and minimus are primarily supplied by L5, S1 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The myotome for the gastrocnemius and soleus is primarily:",
+    options: [
+      "A. L4, L5",
+      "B. L5, S1",
+      "C. S1, S2",
+      "D. S2, S3"
+    ],
+    correctAnswer: "C. S1, S2",
+    explanation: "The gastrocnemius and soleus are primarily supplied by S1, S2 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Lumbar sympathectomy for occlusive arterial disease involves removal of which ganglia?",
+    options: [
+      "A. L1 and L2",
+      "B. L2, L3, and L4",
+      "C. L3, L4, and L5",
+      "D. L1, L2, and L3"
+    ],
+    correctAnswer: "B. L2, L3, and L4",
+    explanation: "Sympathectomy involves removal of L2, L3, and L4 ganglia with the intervening sympathetic trunk. L1 ganglion is not removed as it is responsible for ejaculation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The postganglionic sympathetic fibres to the lower limb emerge from:",
+    options: [
+      "A. Thoracic ganglia only",
+      "B. Lumbar and sacral ganglia",
+      "C. Cervical ganglia",
+      "D. Pelvic ganglia"
+    ],
+    correctAnswer: "B. Lumbar and sacral ganglia",
+    explanation: "Postganglionic sympathetic fibres emerge from the lumbar sympathetic ganglia and pass through grey rami to reach the lumbar nerves. Some emerge from the upper two or three sacral ganglia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "In coarctation of the aorta, which of the following is true?",
+    options: [
+      "A. Blood pressure is higher in the lower limb than the upper limb",
+      "B. Blood pressure is lower in the lower limb than the upper limb",
+      "C. Blood pressure is equal in both limbs",
+      "D. Femoral pulse is stronger than brachial pulse"
+    ],
+    correctAnswer: "B. Blood pressure is lower in the lower limb than the upper limb",
+    explanation: "In coarctation of the aorta, the popliteal pressure is lower than the brachial pressure due to narrowing of the aorta."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a site for intramuscular injection in the lower limb?",
+    options: [
+      "A. Upper lateral quadrant of the gluteal region",
+      "B. Anterolateral region of the thigh",
+      "C. Vastus medialis",
+      "D. Deltoid muscle"
+    ],
+    correctAnswer: "D. Deltoid muscle",
+    explanation: "Intramuscular injections can be given in the upper lateral quadrant of the gluteal region (gluteus medius), the anterolateral region of the thigh (vastus lateralis), and the vastus lateralis in children. The deltoid is in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "'Sleeping foot' is caused by compression of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Sciatic nerve",
+      "D. Tibial nerve"
+    ],
+    correctAnswer: "C. Sciatic nerve",
+    explanation: "The sciatic nerve lies on quadratus femoris and adductor magnus. Between the thin borders of these two muscles, the nerve lies for a short distance on the femur, causing sleeping foot when compressed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The straight leg raising test is used to diagnose:",
+    options: [
+      "A. Femoral hernia",
+      "B. Sciatica",
+      "C. Varicose veins",
+      "D. Osteoarthritis"
+    ],
+    correctAnswer: "B. Sciatica",
+    explanation: "The straight leg raising test is used to diagnose sciatica. The patient lies supine with the affected leg extended at both hip and knee joints, then raised. As the sciatic nerve is stretched, it causes severe pain."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a feature of the common peroneal nerve injury?",
+    options: [
+      "A. Foot drop",
+      "B. Weakness of dorsiflexion of ankle",
+      "C. Weakness of eversion of foot",
+      "D. Loss of plantarflexion"
+    ],
+    correctAnswer: "D. Loss of plantarflexion",
+    explanation: "Common peroneal nerve injury causes foot drop with weakness of dorsiflexion of ankle and of eversion of the foot. Plantar flexion is normal because the tibial nerve is intact."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following is a feature of tibial nerve injury?",
+    options: [
+      "A. Foot drop",
+      "B. Loss of dorsiflexion",
+      "C. Loss of plantarflexion",
+      "D. Loss of eversion"
+    ],
+    correctAnswer: "C. Loss of plantarflexion",
+    explanation: "Tibial nerve injury causes loss of plantarflexion and inability to flex the toes. Foot drop is a feature of common peroneal nerve injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a site of pulse palpation in the lower limb?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Posterior tibial artery",
+      "D. Anterior tibial artery"
+    ],
+    correctAnswer: "D. Anterior tibial artery",
+    explanation: "The sites of pulse palpation in the lower limb include the femoral artery, popliteal artery, posterior tibial artery, and dorsalis pedis artery. The anterior tibial artery is deep and not routinely palpated."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "'Cut open' or venesection is performed on which vein?",
+    options: [
+      "A. Small saphenous vein",
+      "B. Great saphenous vein",
+      "C. Popliteal vein",
+      "D. Femoral vein"
+    ],
+    correctAnswer: "B. Great saphenous vein",
+    explanation: "The great saphenous vein is used for cut open (venesection) as it lies in front of the medial malleolus and its position is constant."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "'Policeman's heel' is caused by:",
+    options: [
+      "A. Plantar fasciitis",
+      "B. Calcaneal bursitis",
+      "C. Achilles tendinitis",
+      "D. Tarsal tunnel syndrome"
+    ],
+    correctAnswer: "A. Plantar fasciitis",
+    explanation: "Plantar fasciitis causes pain in the heel. Since policemen have to stand for long hours, they often suffer from it, hence the name 'policeman's heel.'"
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "'Housemaid's knee' is inflammation of which bursa?",
+    options: [
+      "A. Subcutaneous infrapatellar bursa",
+      "B. Prepatellar bursa",
+      "C. Suprapatellar bursa",
+      "D. Deep infrapatellar bursa"
+    ],
+    correctAnswer: "B. Prepatellar bursa",
+    explanation: "Prepatellar bursitis is called 'housemaid's knee' or 'miner's knee' because housemaids used to sweep the floor with their knees bent acutely."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "'Clergyman's knee' is inflammation of which bursa?",
+    options: [
+      "A. Prepatellar bursa",
+      "B. Subcutaneous infrapatellar bursa",
+      "C. Suprapatellar bursa",
+      "D. Deep infrapatellar bursa"
+    ],
+    correctAnswer: "B. Subcutaneous infrapatellar bursa",
+    explanation: "Subcutaneous infrapatellar bursitis is called 'clergyman's knee' as it used to be common in clergymen who sat for prayers with bent knees."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "'Fresher's syndrome' is associated with:",
+    options: [
+      "A. Varicose veins",
+      "B. Anterior compartment syndrome of the leg",
+      "C. Plantar fasciitis",
+      "D. Tarsal tunnel syndrome"
+    ],
+    correctAnswer: "B. Anterior compartment syndrome of the leg",
+    explanation: "Fresher's syndrome involves overexertion of the muscles of the anterior compartment of the leg, causing oedema as they are enclosed in a tight compartment of deep fascia, resulting in pain."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "multiplechoice",
+    question: "'Baker's cyst' is associated with:",
+    options: [
+      "A. Varicose veins",
+      "B. Osteoarthritis of the knee joint",
+      "C. Plantar fasciitis",
+      "D. Tarsal tunnel syndrome"
+    ],
+    correctAnswer: "B. Osteoarthritis of the knee joint",
+    explanation: "Baker's cyst is a central swelling that occurs due to osteoarthritis of the knee joint. The synovial membrane protrudes through a hole in the posterior part of the capsule of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a type of talipes (clubfoot)?",
+    options: [
+      "A. Talipes equinovarus",
+      "B. Talipes calcaneovalgus",
+      "C. Talipes planus",
+      "D. Talipes equinus"
+    ],
+    correctAnswer: "C. Talipes planus",
+    explanation: "Talipes planus is not a standard term for clubfoot. The types of talipes include talipes equinus, talipes calcaneus, talipes varus, talipes valgus, talipes equinovarus, and talipes calcaneovalgus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gait & Clinical Correlations",
+    type: "multiplechoice",
+    question: "The commonest type of clubfoot is:",
+    options: [
+      "A. Talipes calcaneus",
+      "B. Talipes equinus",
+      "C. Talipes equinovarus",
+      "D. Talipes valgus"
+    ],
+    correctAnswer: "C. Talipes equinovarus",
+    explanation: "The commonest deformity of the foot is talipes equinovarus (clubfoot), in which the foot is inverted, adducted, and plantar flexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot & Arches",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a feature of pes cavus?",
+    options: [
+      "A. Exaggeration of the longitudinal arches",
+      "B. Clawfoot",
+      "C. Flat foot",
+      "D. Contracture at the transverse tarsal joint"
+    ],
+    correctAnswer: "C. Flat foot",
+    explanation: "Pes cavus is the exaggeration of the longitudinal arches of the foot. Flat foot (pes planus) is the opposite condition, characterized by absence or collapse of the arches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The superficial peroneal nerve injury causes loss of:",
+    options: [
+      "A. Dorsiflexion of the ankle",
+      "B. Eversion of the foot",
+      "C. Inversion of the foot",
+      "D. Plantarflexion of the ankle"
+    ],
+    correctAnswer: "B. Eversion of the foot",
+    explanation: "The superficial peroneal nerve supplies both peroneus longus and brevis muscles. Its paralysis causes loss of eversion of the foot at the subtalar joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the femoral artery?",
+    options: [
+      "A. It is the continuation of the external iliac artery",
+      "B. It begins behind the inguinal ligament at the midinguinal point",
+      "C. It passes through the adductor canal",
+      "D. It terminates by dividing into the anterior and posterior tibial arteries"
+    ],
+    correctAnswer: "D. It terminates by dividing into the anterior and posterior tibial arteries",
+    explanation: "The femoral artery terminates by becoming continuous with the popliteal artery at the opening in the adductor magnus. It is the popliteal artery that divides into the anterior and posterior tibial arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a branch of the femoral artery in the femoral triangle?",
+    options: [
+      "A. Superficial external pudendal artery",
+      "B. Superficial epigastric artery",
+      "C. Superficial circumflex iliac artery",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "D. Peroneal artery",
+    explanation: "The peroneal artery is a branch of the posterior tibial artery, not the femoral artery. The femoral artery gives off superficial external pudendal, superficial epigastric, and superficial circumflex iliac arteries as superficial branches in the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the pectineus muscle?",
+    options: [
+      "A. It is flat and quadrilateral",
+      "B. It forms part of the floor of the femoral triangle",
+      "C. It is a flexor and adductor of the thigh",
+      "D. It is supplied only by the femoral nerve"
+    ],
+    correctAnswer: "D. It is supplied only by the femoral nerve",
+    explanation: "The pectineus is a hybrid or composite muscle with dual nerve supply. It is supplied by the femoral nerve and sometimes by the accessory obturator nerve or anterior division of the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the adductor magnus?",
+    options: [
+      "A. It is the largest muscle of the medial compartment",
+      "B. It has a double nerve supply",
+      "C. It is called a hybrid muscle",
+      "D. It is supplied only by the obturator nerve"
+    ],
+    correctAnswer: "D. It is supplied only by the obturator nerve",
+    explanation: "The adductor magnus is a hybrid muscle with double nerve supply: the adductor part by the posterior division of the obturator nerve and the hamstring part by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The obturator artery divides into:",
+    options: [
+      "A. Medial and lateral branches",
+      "B. Anterior and posterior branches",
+      "C. Superficial and deep branches",
+      "D. Ascending and descending branches"
+    ],
+    correctAnswer: "B. Anterior and posterior branches",
+    explanation: "At the upper margin of the obturator foramen, the obturator artery divides into anterior or medial and posterior or lateral branches which form a circle over the obturator membrane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The medial circumflex femoral artery gives off which branch to the head of the femur?",
+    options: [
+      "A. Retinacular artery",
+      "B. Acetabular branch",
+      "C. Foveolar artery",
+      "D. Nutrient artery"
+    ],
+    correctAnswer: "B. Acetabular branch",
+    explanation: "The medial circumflex femoral artery gives off an acetabular branch which passes through the acetabular notch to supply fat in the acetabular fossa. It also sends a twig to the head of the femur along the round ligament (foveolar artery). The retinacular branches arise from the arterial circle around the neck."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "The cruciate anastomosis is formed by all of the following EXCEPT:",
+    options: [
+      "A. Transverse branch of medial circumflex femoral",
+      "B. Transverse branch of lateral circumflex femoral",
+      "C. Inferior gluteal artery",
+      "D. Superior gluteal artery"
+    ],
+    correctAnswer: "D. Superior gluteal artery",
+    explanation: "The cruciate anastomosis is formed by the transverse branch of medial circumflex femoral, transverse branch of lateral circumflex femoral, inferior gluteal, and first perforating branch of profunda femoris. The superior gluteal artery participates in the trochanteric anastomosis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "multiplechoice",
+    question: "Which of the following is NOT an action of the adductor muscles?",
+    options: [
+      "A. Adduction of the thigh",
+      "B. Flexion of the thigh",
+      "C. Medial rotation of the thigh",
+      "D. Lateral rotation of the thigh"
+    ],
+    correctAnswer: "D. Lateral rotation of the thigh",
+    explanation: "The adductor muscles are adductors of the thigh and help in flexion and medial rotation of the thigh. They do not laterally rotate the thigh; that is a function of the gluteal and deep rotator muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Medial Compartment of Thigh",
+    type: "multiplechoice",
+    question: "The gracilis muscle is often used for transplantation because:",
+    options: [
+      "A. It is the strongest muscle",
+      "B. It is the most superficial and relatively weak",
+      "C. It is the longest muscle",
+      "D. It has the best blood supply"
+    ],
+    correctAnswer: "B. It is the most superficial and relatively weak",
+    explanation: "The gracilis muscle is most superficial muscle of the adductor compartment and is relatively weak, so it can be removed without noticeable loss of its actions. It is often used for transplantation of any damaged muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the accessory obturator nerve?",
+    options: [
+      "A. Present in about 30% of subjects",
+      "B. Formed by ventral divisions of L3 and L4",
+      "C. Supplies the pectineus muscle",
+      "D. Supplies the quadriceps femoris"
+    ],
+    correctAnswer: "D. Supplies the quadriceps femoris",
+    explanation: "The accessory obturator nerve supplies the pectineus, the hip joint, and communicates with the anterior division of the obturator nerve. It does not supply the quadriceps femoris, which is supplied by the femoral nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The lateral cutaneous nerve of the thigh is a branch of which plexus?",
+    options: [
+      "A. Sacral plexus",
+      "B. Lumbar plexus",
+      "C. Cervical plexus",
+      "D. Brachial plexus"
+    ],
+    correctAnswer: "B. Lumbar plexus",
+    explanation: "The lateral cutaneous nerve of the thigh (L2, 3) is a branch of the lumbar plexus. It emerges behind the lateral end of the inguinal ligament and supplies the skin on the anterolateral side of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The posterior cutaneous nerve of the thigh is a branch of which plexus?",
+    options: [
+      "A. Lumbar plexus",
+      "B. Sacral plexus",
+      "C. Cervical plexus",
+      "D. Brachial plexus"
+    ],
+    correctAnswer: "B. Sacral plexus",
+    explanation: "The posterior cutaneous nerve of the thigh (S1, 2, 3) is a branch of the sacral plexus. It enters the gluteal region through the greater sciatic foramen below the piriformis and supplies the skin of the back of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a muscle supplied by the superior gluteal nerve?",
+    options: [
+      "A. Gluteus medius",
+      "B. Gluteus minimus",
+      "C. Tensor fasciae latae",
+      "D. Gluteus maximus"
+    ],
+    correctAnswer: "D. Gluteus maximus",
+    explanation: "The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae. The gluteus maximus is supplied by the inferior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The nerve to the quadratus femoris supplies all of the following EXCEPT:",
+    options: [
+      "A. Quadratus femoris",
+      "B. Inferior gemellus",
+      "C. Hip joint",
+      "D. Superior gemellus"
+    ],
+    correctAnswer: "D. Superior gemellus",
+    explanation: "The nerve to the quadratus femoris supplies the quadratus femoris, inferior gemellus, and the hip joint. The superior gemellus is supplied by the nerve to the obturator internus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "multiplechoice",
+    question: "The nerve to the obturator internus supplies:",
+    options: [
+      "A. Obturator internus and superior gemellus",
+      "B. Obturator internus and inferior gemellus",
+      "C. Obturator internus only",
+      "D. Obturator internus and quadratus femoris"
+    ],
+    correctAnswer: "A. Obturator internus and superior gemellus",
+    explanation: "The nerve to the obturator internus supplies the obturator internus and the superior gemellus. The inferior gemellus is supplied by the nerve to the quadratus femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The tibial nerve supplies all of the following in the popliteal fossa EXCEPT:",
+    options: [
+      "A. Medial head of gastrocnemius",
+      "B. Lateral head of gastrocnemius",
+      "C. Plantaris",
+      "D. Biceps femoris"
+    ],
+    correctAnswer: "D. Biceps femoris",
+    explanation: "The biceps femoris is supplied by the sciatic nerve (long head by tibial part, short head by common peroneal part), not directly by the tibial nerve in the popliteal fossa. The tibial nerve in the popliteal fossa supplies the gastrocnemius (both heads), plantaris, soleus, and popliteus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The common peroneal nerve supplies the knee joint through which branches?",
+    options: [
+      "A. Superior and inferior medial genicular nerves",
+      "B. Superior and inferior lateral genicular nerves",
+      "C. Middle genicular nerve",
+      "D. Recurrent genicular nerve"
+    ],
+    correctAnswer: "B. Superior and inferior lateral genicular nerves",
+    explanation: "The common peroneal nerve gives articular branches including the superior lateral genicular and inferior lateral genicular nerves to the knee joint. The recurrent genicular nerve also arises from the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerves of Lower Limb",
+    type: "multiplechoice",
+    question: "The medial and lateral plantar nerves are terminal branches of which nerve?",
+    options: [
+      "A. Common peroneal nerve",
+      "B. Deep peroneal nerve",
+      "C. Superficial peroneal nerve",
+      "D. Tibial nerve"
+    ],
+    correctAnswer: "D. Tibial nerve",
+    explanation: "The medial and lateral plantar nerves are the terminal branches of the tibial nerve. They begin deep to the flexor retinaculum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries, Veins & Clinical Tests",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a characteristic of the dorsalis pedis artery?",
+    options: [
+      "A. It is a continuation of the anterior tibial artery",
+      "B. It runs on the dorsum of the foot",
+      "C. It is palpable between the extensor hallucis longus and extensor digitorum longus tendons",
+      "D. It terminates by dividing into the anterior and posterior tibial arteries"
+    ],
+    correctAnswer: "D. It terminates by dividing into the anterior and posterior tibial arteries",
+    explanation: "The dorsalis pedis artery is a continuation of the anterior tibial artery onto the dorsum of the foot. It ends in the sole by completing the plantar arterial arch. It does not divide into the anterior and posterior tibial arteries."
+  },
+    // ===== BIOCHEMISTRY – PROTEIN METABOLISM (STAGE 2) =====
+
+  // SECTION 1: Amino Acids – General Properties & Classification
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The word 'protein' is derived from the Greek word 'proteious' meaning secondary.",
+    answer: false,
+    explanation: "The word protein is derived from the Greek word 'proteious' meaning primary, indicating that proteins are the major components of any living organism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Proteins have molecular weights ranging from 5,000 to many millions.",
+    answer: true,
+    explanation: "Proteins are natural substances with high molecular weights ranging from 5,000 to many millions, and contain carbon, hydrogen, oxygen, nitrogen, and sometimes sulphur and phosphorus."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "20 naturally occurring amino acids and several modified amino acids are used in proteins.",
+    answer: true,
+    explanation: "Twenty naturally occurring amino acids and a few modified amino acids are used in proteins, allowing for huge diversity in amino acid sequences."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "All amino acids have an asymmetric carbon atom bonded to hydrogen, amino group, carboxyl group, and a variable R group.",
+    answer: false,
+    explanation: "All amino acids except glycine have an asymmetric carbon. Glycine does not have a chiral center as its R group is hydrogen, making it achiral."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "L-amino acids predominate in nature.",
+    answer: true,
+    explanation: "L-amino acids predominate in nature. The D,L-nomenclature is based on D- and L-glyceraldehyde."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Amino acids can be categorized into 3 groups based on the polarity of their side chains.",
+    answer: false,
+    explanation: "The 20 amino acids may be categorized into 4 groups based on the polarity of their side chains: non-polar, uncharged polar, positively charged, and negatively charged."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Histidine is considered a non-essential amino acid.",
+    answer: false,
+    explanation: "Histidine is an essential amino acid that must be obtained from the diet as it cannot be synthesized by the human body."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The reactivity of amino acids is primarily driven by their amphoteric nature.",
+    answer: true,
+    explanation: "The reactivity of amino acids is primarily driven by their amphoteric nature—the fact that they contain both an acidic group (carboxyl) and a basic group (amino)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "At low pH, both amines and carboxylic acids in amino acids are deprotonated.",
+    answer: false,
+    explanation: "At low pH, proton concentration [H+] is high. Therefore, both amines and carboxylic acids are protonated (-NH₃⁺ and -COOH). At high pH, they are deprotonated (-NH₂ and -COO⁻)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "At neutral pH, amines in amino acids are protonated (-NH₃⁺) and carboxylates are deprotonated (-COO⁻).",
+    answer: true,
+    explanation: "At neutral pH, amines are protonated (-NH₃⁺) and carboxylates are deprotonated (-COO⁻), forming a zwitterion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "The isoelectric point (IEP) is the pH value at which amino acids have a net electric charge of +1.",
+    answer: false,
+    explanation: "The isoelectric point (IEP) is the pH value at which amino acids have a net electric charge of zero. At IEP, an amino acid does not migrate under the influence of an electric field."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "A zwitterion is an ion bearing two charges, such as an amino acid with positive and negative charged groups at neutral pH.",
+    answer: true,
+    explanation: "Zwitterions are ions bearing two charges, such as an amino acid with positive and negative charged groups at neutral pH, forming a dipolar molecule like +H₃N-CH₂-COO⁻."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Hydroxylysine and hydroxyproline are found in collagen.",
+    answer: true,
+    explanation: "Hydroxylysine and hydroxyproline are uncommon amino acids found in collagen. Other uncommon amino acids include carboxyglutamate in blood-clotting proteins and phosphorylated amino acids for signaling."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Basics",
+    type: "truefalse",
+    question: "Amino acids that are converted to carbohydrates are called ketogenic amino acids.",
+    answer: false,
+    explanation: "Amino acids that are converted to carbohydrates are called glucogenic amino acids. Ketogenic amino acids give rise to acetyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Tyrosine forms hormones such as thyroid hormones (T3, T4), epinephrine, norepinephrine, and a pigment called melanin.",
+    answer: true,
+    explanation: "Tyrosine forms hormones such as thyroid hormones (T3, T4), epinephrine and norepinephrine, and a pigment called melanin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Tryptophan can synthesize a vitamin called niacin.",
+    answer: true,
+    explanation: "Tryptophan can synthesize a vitamin called niacin. Glycine, arginine and methionine synthesize creatine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Glycine and cysteine help in the synthesis of bile salts.",
+    answer: true,
+    explanation: "Glycine and cysteine help in the synthesis of bile salts. Glutamate, cysteine and glycine synthesize glutathione."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Histamine is formed from tryptophan by decarboxylation.",
+    answer: false,
+    explanation: "Histamine is formed from histidine by decarboxylation. Serotonin (5-HT) is formed from tryptophan."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Glycine is used for the synthesis of haem.",
+    answer: true,
+    explanation: "Glycine is used for the synthesis of haem. It is also used for purine synthesis, glutathione formation, and as a detoxificant."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Derivatives",
+    type: "truefalse",
+    question: "Purines use glycine, aspartic acid, glutamine and serine for their synthesis.",
+    answer: true,
+    explanation: "Pyrimidines use aspartate and glutamine for their synthesis, while purines use glycine, aspartic acid, glutamine and serine for purine synthesis."
+  },
+
+  // SECTION 2: Protein Structure & Peptides
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Amino acid polymers of ≤ 50 amino acids are called proteins.",
+    answer: false,
+    explanation: "Amino acid polymers of ≤ 50 amino acids are called polypeptides, peptides, or oligopeptides. Amino acid polymers of > 50 amino acids are called proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Aspartame is an example of a dipeptide with the abbreviated structure Asp-Phe-OCH₃.",
+    answer: true,
+    explanation: "Aspartame (NutraSweet, Equal) is a dipeptide with the abbreviated structure Asp-Phe-OCH₃ and IUPAC name 'N-L-α-Aspartyl-L-phenylalanine 1-methyl ester'."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Disulfide linkages between individual cysteines are called cystines.",
+    answer: true,
+    explanation: "Disulfide linkages between individual 'cysteines' are called 'cystines.' This forms cross-links between peptide chains."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Insulin is the largest protein, with 51 amino acids in two chains linked by disulfide cross-links.",
+    answer: false,
+    explanation: "Insulin is the smallest protein, with 51 amino acids in two chains linked by cystine (disulfide) cross-links."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "The primary structure of a protein is its three-dimensional shape.",
+    answer: false,
+    explanation: "The primary structure of a protein is its linear sequence of amino acids. The tertiary structure refers to the three-dimensional shape."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Secondary structure of proteins is stabilized by hydrogen bonds between peptide linkages in the protein's backbone.",
+    answer: true,
+    explanation: "Secondary structure involves repeated folding of the protein's polypeptide backbone, stabilized by H-bonds between peptide linkages in the protein's backbone. Two types are alpha helix and beta pleated sheets."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Tertiary structure results from interactions among 2 or more polypeptides.",
+    answer: false,
+    explanation: "Tertiary structure results from irregular contortions of a protein due to bonding between R groups. Quaternary structure results from interactions among 2 or more polypeptides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Tertiary structure is stabilized by hydrogen bonding between polar side chains, ionic bonding between charged side chains, hydrophobic interactions, van der Waals interactions, and disulfide bridges.",
+    answer: true,
+    explanation: "Tertiary structure is stabilized by weak bonds (H bonding between polar side chains, ionic bonding between charged side chains, hydrophobic and van der Waals interactions) and strong bonds (disulfide bridges forming strong covalent linkages)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Protein Structure",
+    type: "truefalse",
+    question: "Denatured protein retains its biological activity.",
+    answer: false,
+    explanation: "Denatured protein is biologically inactive. Denaturation occurs due to changes in environmental conditions such as pH, temperature, or salinity. Proteins can renature if the primary structure is not lost."
+  },
+
+  // SECTION 3: Amino Acid Pool & Deamination
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "The amino acid pool contains approximately 100g of amino acids.",
+    answer: true,
+    explanation: "The amino acid pool contains 100g of amino acids. 50% of these amino acids are in the form of glutamate and glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Catabolism of amino acids occurs by amination (addition of the amino group).",
+    answer: false,
+    explanation: "Catabolism of amino acids occurs by deamination (removal of the amino group) either by oxidative deamination, transamination, transdeamination, or specific methods of deamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Oxidative deamination is the oxidation and deamination of amino acids giving α-ketoacid and ammonia.",
+    answer: true,
+    explanation: "Oxidative deamination is the oxidation (removal of hydrogen) and deamination (removal of the amino group which is liberated as free ammonia) giving α-ketoacid and ammonia in reversible reactions."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Oxidative deamination occurs in most tissues, primarily in the liver and kidney.",
+    answer: true,
+    explanation: "Oxidative deamination occurs in most tissues, mostly in the liver and kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "L-glutamate dehydrogenase is found only in the cytosol of tissues.",
+    answer: false,
+    explanation: "L-glutamate dehydrogenase is found in the cytosol and mitochondria of most tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "ADP or GDP act as inhibitors of L-glutamate dehydrogenase.",
+    answer: false,
+    explanation: "ADP or GDP act as activators of L-glutamate dehydrogenase. ATP, GTP, and NADH act as inhibitors."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "D-amino acid oxidase deaminates D-amino acids present in diet giving α-keto acids.",
+    answer: true,
+    explanation: "D-amino acid oxidase deaminates D-amino acids present in diet giving α-keto acids that either are transaminated to corresponding L-amino acids, converted to glucose or fatty acids, or catabolized to CO₂ + H₂O + energy."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "L-amino acid oxidase is of high activity in mammalian tissues.",
+    answer: false,
+    explanation: "L-amino acid oxidase is of low activity in mammalian tissues. D- and L-amino acid oxidases are present only in the liver and kidney in minimal amounts."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "L-glutamate dehydrogenase is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissue.",
+    answer: true,
+    explanation: "L-glutamate dehydrogenase is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissue. This is why it is essential in transdeamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Transamination is the transfer of an amino group from one α-amino acid to an α-keto acid to form a new α-amino acid and a new α-keto acid.",
+    answer: true,
+    explanation: "Transamination is the transfer of an amino group from one α-amino acid to an α-keto acid to form a new α-amino acid and a new α-keto acid. This is a reversible reaction."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Transaminases require pyridoxal phosphate (PLP) as coenzyme.",
+    answer: true,
+    explanation: "Transaminases or aminotransferases require PLP (Pyridoxal phosphate) as coenzyme."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "All amino acids can undergo transamination.",
+    answer: false,
+    explanation: "All amino acids except threonine, lysine, proline, and hydroxyproline may undergo transamination. Transamination occurs in the cytosol or both cytosol and mitochondria of most cells, especially the liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Alanine transaminase (ALT) is also called Glutamate pyruvate transaminase (GPT).",
+    answer: true,
+    explanation: "Alanine transaminase (ALT) = Glutamate pyruvate transaminase (GPT). It catalyzes: Glutamic acid + Pyruvic acid ⇌ Alanine + α-ketoglutarate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Aspartate transaminase (AST) is also called Glutamate oxaloacetate transaminase (GOT).",
+    answer: true,
+    explanation: "Aspartate transaminase (AST) = Glutamate oxaloacetate transaminase (GOT). It catalyzes: Glutamic acid + Oxaloacetic acid ⇌ Aspartic acid + α-ketoglutarate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Increased levels of both ALT and AST indicate possible damage to heart muscle only.",
+    answer: false,
+    explanation: "Increased levels of both ALT and AST indicate possible damage to liver cells. Increased levels of AST alone suggest damage to heart muscle, skeletal muscle, or kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Transaminases are normally extracellular enzymes.",
+    answer: false,
+    explanation: "Transaminases are normally intracellular enzymes. They are elevated in the blood when damage occurs to the cells producing these enzymes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Transdeamination is the combination of transamination and oxidative deamination.",
+    answer: true,
+    explanation: "Transdeamination is the combination of transamination and oxidative deamination. It includes transamination of most amino acids with α-ketoglutarate to form glutamate, then oxidative deamination of glutamate reforming α-ketoglutarate and releasing ammonia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "Removal of ammonia from amino acids can be explained by transamination alone.",
+    answer: false,
+    explanation: "Removal of ammonia from amino acids cannot be explained by transamination alone as no free ammonia is liberated, nor by oxidative deamination alone as it works efficiently only on glutamic acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Amino Acid Pool & Deamination",
+    type: "truefalse",
+    question: "The formation of NH₃ from α-amino acids occurs mainly via the α-amino nitrogen of glutamate through transdeamination.",
+    answer: true,
+    explanation: "The formation of NH₃ from α-amino acids occurs mainly via the α-amino nitrogen of glutamate through transdeamination, as L-glutamate is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissue."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Glycine oxidase is a specific method of deamination that acts by oxidative deamination.",
+    answer: true,
+    explanation: "Glycine oxidase is a specific method of deamination, acting through a mechanism similar to D-amino acid oxidase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Histidase catalyzes oxidative deamination of histidine.",
+    answer: false,
+    explanation: "Histidase catalyzes non-oxidative deamination of histidine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Dehydratases catalyze non-oxidative deamination of hydroxy-containing amino acids like serine and threonine.",
+    answer: true,
+    explanation: "Dehydratases catalyze non-oxidative deamination for hydroxy-containing amino acids (serine and threonine)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Cysteine desulfhydrase catalyzes the deamination of cysteine.",
+    answer: true,
+    explanation: "Cysteine desulfhydrase catalyzes the deamination of cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Glutaminase and asparaginase catalyze hydrolytic deamination of glutamine and asparagine respectively.",
+    answer: true,
+    explanation: "Glutaminase and asparaginase catalyze the hydrolytic deamination of glutamine and asparagine respectively by deamination using H₂O."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Specific Deamination Methods",
+    type: "truefalse",
+    question: "Reductive deaminases act on amino acids by intestinal bacteria during putrefaction.",
+    answer: true,
+    explanation: "Reductive deaminases act by intestinal bacteria on amino acids during putrefaction, producing corresponding organic acids."
+  },
+
+  // SECTION 4: Ammonia Metabolism & Urea Cycle
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Normal blood ammonia level is < 0.1 mg/dl.",
+    answer: true,
+    explanation: "Normal blood ammonia level is < 0.1 mg/dl. Normal urine level is 0.7 gm/day."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "The main source of ammonia in the body is from the catabolism of nucleic acids.",
+    answer: false,
+    explanation: "The main source of ammonia is from deamination of amino acids (oxidative deamination, transdeamination, and specific deamination methods). Other sources include various nitrogenous compounds, neurotransmitters, and intestinal bacterial urease."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Ammonia is always produced by almost all cells, including neurons.",
+    answer: true,
+    explanation: "Ammonia is always produced by almost all cells, including neurons. The intracellular ammonia is immediately trapped by glutamic acid to form glutamine, especially in brain cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Glutamine produced in the brain is transported to the kidneys directly for excretion.",
+    answer: false,
+    explanation: "Glutamine produced in the brain is transported to the liver where ammonia is detoxified to urea. Glutamine is also transported to kidneys where it is hydrolyzed by glutaminase into glutamic acid and NH₃ which is excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Glutamate dehydrogenase is available in all tissues including the liver.",
+    answer: false,
+    explanation: "Glutamate dehydrogenase is available only in the liver. Therefore, the final deamination and production of ammonia takes place in the liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Increased NH₃ concentration enhances amination of α-ketoglutarate to form glutamate in the brain.",
+    answer: true,
+    explanation: "Increased NH₃ concentration enhances amination of α-ketoglutarate to form glutamate in the brain. This reduces the mitochondrial pool of α-ketoglutarate, depressing the TCA cycle and affecting cellular respiration."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "GABA (gamma-aminobutyric acid) is an excitatory neurotransmitter in the brain.",
+    answer: false,
+    explanation: "GABA (gamma-aminobutyric acid) is an inhibitory neurotransmitter. Increased NH₃ concentration reduces brain-cell pool of glutamic acid, decreasing formation of GABA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Increased brain glutamine levels enhance the outflow of glutamine from brain cells, allowing increased tryptophan entry.",
+    answer: true,
+    explanation: "Rise in brain glutamine level enhances the outflow of glutamine from brain cells. Glutamine is carried out by the same transporter that allows entry of tryptophan, leading to increased tryptophan concentration and increased serotonin synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Urea is the end product of protein metabolism and is excreted through the kidneys.",
+    answer: true,
+    explanation: "Urea is the end product of protein metabolism. Ammonia from all over the body reaches the liver, is detoxified to urea by liver cells, and then excreted through kidneys."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Glutamine formation accounts for 100% of the NH₃ excreted in urine.",
+    answer: false,
+    explanation: "Glutamine formation accounts for 60% of the NH₃ excreted in urine (via glutaminase in kidneys). NH₃ produced directly from amino acid deamination in the kidney accounts for 40% of NH₃ excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "NH₃ produced from amino acid deamination in the kidney regulates acid-base balance and preserves cations.",
+    answer: true,
+    explanation: "NH₃ produced from amino acid deamination in the kidney, especially from glutamine, regulates acid-base balance and preserves cations."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "The urea cycle occurs entirely in the mitochondria.",
+    answer: false,
+    explanation: "The urea cycle occurs in both mitochondria and cytoplasm. The first step (carbamoyl phosphate synthesis) occurs in mitochondria, and subsequent steps occur in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Carbamoyl phosphate synthetase I is involved in pyrimidine synthesis.",
+    answer: false,
+    explanation: "Carbamoyl phosphate synthetase I is involved in urea synthesis and is located in mitochondria. Carbamoyl phosphate synthetase II is involved in pyrimidine synthesis and is located in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Carbamoyl phosphate synthetase I requires N-acetyl glutamate as a positive effector.",
+    answer: true,
+    explanation: "Carbamoyl phosphate synthetase I has an absolute requirement for N-acetylglutamic acid which acts as an allosteric activator. CPS II has no such requirement."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "The first nitrogen atom of urea comes from aspartate.",
+    answer: false,
+    explanation: "The first N atom of urea comes from NH₃. The second N atom comes from aspartate. C and O come from CO₂."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Ornithine is consumed and not regenerated in the urea cycle.",
+    answer: false,
+    explanation: "Ornithine is regenerated with each turn of the urea cycle. There is no net gain or loss of ornithine, citrulline, argininosuccinate, or arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "The urea cycle consumes four high-energy phosphate bonds (3 ATP hydrolyzed to 2 ADP and one AMP).",
+    answer: true,
+    explanation: "The urea cycle consumes four 'high-energy' phosphate bonds (3 ATP hydrolyzed to 2 ADP and one AMP)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "The net energy expenditure of the urea cycle is zero high-energy phosphate bonds.",
+    answer: false,
+    explanation: "The net energy expenditure is only one high-energy phosphate. One NADH+H is produced by oxidative deamination of glutamate, and fumarate conversion to malate gives another NADH+H equivalent to 3 ATP, resulting in net production of one high-energy phosphate bond."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "Carbamoyl phosphate synthetase I is the key regulatory enzyme of the urea cycle.",
+    answer: true,
+    explanation: "Carbamoyl phosphate synthetase I is the key regulatory enzyme of the urea cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Ammonia & Urea Cycle",
+    type: "truefalse",
+    question: "High protein diet increases the rate of the urea cycle.",
+    answer: true,
+    explanation: "The synthesis of N-acetylglutamate from glutamic acid and acetyl CoA is stimulated by high protein diet and amino acids, especially arginine, which allosterically activates carbamoyl phosphate synthetase I."
+  },
+
+  // SECTION 5: Branched-Chain Amino Acids & Maple Syrup Urine Disease
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Valine, leucine, and isoleucine are non-essential branched-chain amino acids.",
+    answer: false,
+    explanation: "Valine, leucine, and isoleucine are essential branched-chain amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Valine has an aliphatic side chain with 4 carbons.",
+    answer: false,
+    explanation: "Valine has an aliphatic side chain with 3 carbons. Leucine and isoleucine have aliphatic side chains with 4 carbons."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "The first three metabolic reactions common to branched-chain amino acids are transamination, oxidative decarboxylation, and dehydrogenation.",
+    answer: true,
+    explanation: "The first three metabolic reactions common to branched-chain amino acids are transamination, oxidative decarboxylation, and dehydrogenation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Branched-chain α-keto acid dehydrogenase requires 3 coenzymes for its activity.",
+    answer: false,
+    explanation: "Branched-chain α-keto acid dehydrogenase requires 5 coenzymes: TPP, lipoamide, FAD, coenzyme A, and NAD⁺."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Valine is converted to acetyl CoA and acetoacetate.",
+    answer: false,
+    explanation: "Valine is converted to propionyl CoA, a precursor for glucose. Leucine produces acetyl CoA and acetoacetate. Isoleucine is degraded to propionyl CoA and acetyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Leucine is a pure ketogenic amino acid.",
+    answer: true,
+    explanation: "Leucine is a pure ketogenic amino acid. Valine is glycogenic. Isoleucine is both glycogenic and ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Maple syrup urine disease is caused by a defect in branched-chain amino acid transaminase.",
+    answer: false,
+    explanation: "Maple syrup urine disease is caused by a defect in branched-chain α-keto acid dehydrogenase, causing a blockade in conversion of α-keto acids to respective acyl CoA thioesters."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "In maple syrup urine disease, the urine has a typical odor similar to maple syrup or burnt sugar.",
+    answer: true,
+    explanation: "The enzyme deficiency in MSUD leads to accumulation and increased urinary excretion of branched-chain amino acids and their α-keto acid derivatives, imparting a typical odor to urine similar to maple syrup or burnt sugar."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Maple syrup urine disease symptoms appear within one month of birth.",
+    answer: false,
+    explanation: "Clinical signs and symptoms of MSUD appear within one week of birth: lethargy, vomiting, and aversion to food, followed by severe brain damage and ultimately death."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Treatment of maple syrup urine disease consists of exclusion of branched-chain amino acids from diet.",
+    answer: true,
+    explanation: "Treatment of MSUD consists of exclusion of branched-chain amino acids from diet until plasma levels fall to normal, then restricted intake to maintain plasma levels."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Intermittent branched-chain ketonuria is a more severe variant of maple syrup urine disease.",
+    answer: false,
+    explanation: "Intermittent branched-chain ketonuria is a milder variant of MSUD where enzyme activity is only moderately decreased, signs and symptoms are milder and appear later, and excretion of branched-chain α-keto acids is intermittently increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Isovaleric acidemia is an inborn error of valine metabolism.",
+    answer: false,
+    explanation: "Isovaleric acidemia is a specific inborn error of leucine metabolism. The enzyme isovaleryl CoA dehydrogenase is defective, impairing conversion of isovaleryl CoA to methylcrotonyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "In isovaleric acidemia, affected individuals exhibit a 'cheesy' odor in breath and body fluids.",
+    answer: true,
+    explanation: "In isovaleric acidemia, excretion of isovalerate is high in urine, and affected individuals exhibit a 'cheesy' odor in breath and body fluids, with symptoms including acidosis and mild mental retardation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Branched-Chain Amino Acids",
+    type: "truefalse",
+    question: "Hypervalinemia is characterized by increased plasma concentration of valine while leucine and isoleucine levels remain normal.",
+    answer: true,
+    explanation: "Hypervalinemia is characterized by increased plasma concentration of valine while leucine and isoleucine levels remain normal. The transamination of valine alone is selectively impaired."
+  },
+
+  // SECTION 6: Phenylalanine & Tyrosine Metabolism
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine is a non-essential amino acid while tyrosine is essential.",
+    answer: false,
+    explanation: "Phenylalanine is an essential amino acid while tyrosine is non-essential. Tyrosine can be formed in the body from phenylalanine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Ingestion of tyrosine can reduce the dietary requirement of phenylalanine due to the 'sparing action' of tyrosine.",
+    answer: true,
+    explanation: "Besides incorporation into proteins, the only function of phenylalanine is its conversion to tyrosine. Ingestion of tyrosine can reduce the dietary requirement of phenylalanine, referred to as 'sparing action' of tyrosine on phenylalanine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "The conversion of phenylalanine to tyrosine involves hydroxylation at the o-position in the benzene ring.",
+    answer: false,
+    explanation: "The conversion of phenylalanine to tyrosine involves hydroxylation at the p-position in the benzene ring by phenylalanine hydroxylase, which is present in the liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine hydroxylase requires molecular oxygen, NADPH, Fe²⁺, and tetrahydrobiopterin as cofactors.",
+    answer: true,
+    explanation: "Phenylalanine hydroxylase requires molecular oxygen, NADPH, Fe²⁺, and tetrahydrobiopterin (FH₄) coenzyme for its activity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Both phenylalanine and tyrosine are purely ketogenic amino acids.",
+    answer: false,
+    explanation: "Both phenylalanine and tyrosine are glucogenic and ketogenic. Tyrosine is degraded to fumarate (glucogenic) and acetoacetate (ketogenic), and phenylalanine is catabolized via tyrosine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Tyrosine is involved in the synthesis of thyroid hormones, catecholamines, and melanin.",
+    answer: true,
+    explanation: "Tyrosine is involved in the synthesis of thyroid hormones (T3, T4), catecholamines (epinephrine, norepinephrine, dopamine), and the pigment melanin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Synthesis of norepinephrine from tyrosine occurs in three steps.",
+    answer: false,
+    explanation: "Synthesis of norepinephrine from tyrosine occurs in four steps: 1) Hydroxylation, 2) Decarboxylation, 3) Hydroxylation, and 4) Methylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Melanins are synthesized from tyrosine in melanosomes within melanocytes.",
+    answer: true,
+    explanation: "Melanins are synthesized from tyrosine in 'melanosomes,' membrane-bound particles within melanocytes in skin, which are cells of neural crest origin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Pheomelanins contain sulphur while eumelanins do not.",
+    answer: true,
+    explanation: "Types of melanins depending on physical and chemical properties include eumelanins, pheomelanins (which contain sulphur), and trichochromes (which contain sulphur and are related to pheomelanins)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Phenylalanine and tyrosine are acted upon by intestinal bacteria to form p-cresol and phenol.",
+    answer: true,
+    explanation: "Phenylalanine and tyrosine are acted upon by intestinal bacteria in the gut to form p-cresol and phenol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylalanine & Tyrosine",
+    type: "truefalse",
+    question: "Albinism is associated with phenylalanine and tyrosine metabolism.",
+    answer: true,
+    explanation: "Albinism is an inherited disorder associated with phenylalanine and tyrosine metabolism, specifically due to absence of tyrosinase from melanocytes."
+  },
+
+  // SECTION 7: Phenylketonuria & Related Disorders
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Classical phenylketonuria has an incidence of about 1 in 1,000 live births.",
+    answer: false,
+    explanation: "Classical phenylketonuria has an incidence of about 1 in 10,000 live births. It was the first inborn error of amino acid metabolism to be treated successfully by diet manipulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "In PKU, phenylalanine hydroxylase is deficient, causing a block in conversion of phenylalanine to tyrosine.",
+    answer: true,
+    explanation: "In PKU, there is a block in the conversion of phenylalanine into tyrosine. Two-thirds of patients suffer from PKU type I where phenylalanine hydroxylase is deficient."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "In PKU, phenylalanine accumulates in the blood and undergoes transamination to form phenylpyruvic acid.",
+    answer: true,
+    explanation: "Phenylalanine accumulates in the blood in PKU and undergoes transamination to form phenylpyruvic acid and its products such as phenyl lactic acid and phenyl acetic acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Phenylacetylglutamine in urine is responsible for the 'mousy odor' in PKU patients.",
+    answer: true,
+    explanation: "Phenylacetic acid is conjugated with glutamine and excreted as phenylacetylglutamine in urine, responsible for the 'mousy odor' of urine in PKU patients."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Accumulation of phenylalanine leads to increased serotonin formation.",
+    answer: false,
+    explanation: "Accumulation of phenylalanine leads to defective serotonin formation. Excess phenylalanine also competes with tryptophan for absorption in the intestine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Untreated PKU shows symptoms of mental retardation by age of one year.",
+    answer: true,
+    explanation: "Untreated PKU shows symptoms of mental retardation by age of one year. Clinical manifestations appear a few days or weeks after birth, with delayed developmental milestones, motor hyperactivity, seizures, and hypopigmented skin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "In PKU, tyrosine becomes non-essential as it can still be synthesized in the body.",
+    answer: false,
+    explanation: "In PKU, tyrosine cannot be synthesized endogenously, so tyrosine becomes an essential amino acid for patients. Their diet needs tyrosine supplements."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "PKU type II is caused by a defect in dihydropteridine reductase.",
+    answer: true,
+    explanation: "PKU type II is caused by a defect in dihydropteridine reductase. PKU type III is caused by a defect in conversion of GTP to tetrahydrobiopterin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Tetrahydrobiopterin is only required for hydroxylation of phenylalanine.",
+    answer: false,
+    explanation: "Tetrahydrobiopterin is also required for hydroxylation of tyrosine and tryptophan. Deficiency results in decreased synthesis of dopamine, norepinephrine, epinephrine, serotonin, and melatonin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Phenylketonuria",
+    type: "truefalse",
+    question: "Clinical abnormalities in PKU types II and III do not improve despite diet manipulation.",
+    answer: true,
+    explanation: "Clinical abnormalities in phenylketonuria types II and III are more severe, appear early, and do not improve despite diet manipulation because tetrahydrobiopterin deficiency affects multiple neurotransmitter systems."
+  },
+
+  // SECTION 8: Tyrosinaemia, Alkaptonuria & Albinism
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Alkaptonuria is an inborn error of phenylalanine metabolism due to absence of homogentisate oxidase.",
+    answer: false,
+    explanation: "Alkaptonuria is an inborn error of tyrosine metabolism due to absence of homogentisate oxidase. Homogentisate, an intermediate in tyrosine catabolism, cannot be metabolized further."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "In alkaptonuria, freshly voided urine is dark in color.",
+    answer: false,
+    explanation: "In alkaptonuria, freshly voided urine is normal in color. Urine becomes dark on exposure to air due to oxidation of homogentisate by oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Ochronosis is generalized pigmentation of connective tissues caused by homogentisate and its oxidation products binding to collagen.",
+    answer: true,
+    explanation: "Homogentisate and its oxidation product form polymers that bind to collagen, leading to generalized pigmentation of connective tissues (ochronosis). Chemical irritation of collagen causes degenerative changes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Ochronotic arthritis usually occurs in small joints of the hands and feet.",
+    answer: false,
+    explanation: "Ochronotic arthritis usually occurs in hip, knee, shoulder joints, and vertebral column. Damage to joint cartilages causes arthritis. Pigmented spots may be seen on sclera and ears."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Ascorbic acid supplements have been very successful in treating alkaptonuria.",
+    answer: false,
+    explanation: "Treatment of alkaptonuria is symptomatic. Ascorbic acid supplements have been tried but without much success."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Tyrosinaemia type I is caused by deficiency of tyrosine transaminase.",
+    answer: false,
+    explanation: "Tyrosinaemia type I is caused by deficiency of fumarylacetoacetate hydrolase. Tyrosinaemia type II is caused by deficiency of tyrosine transaminase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Tyrosinaemia type I causes neurological abnormalities, liver damage, and renal tubular dysfunction.",
+    answer: true,
+    explanation: "Tyrosinaemia type I causes neurological abnormalities, liver damage, and renal tubular dysfunction. Tyrosinaemia type II affects eyes and skin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Tyrosinaemia type II is also known as Richner-Hanhart syndrome.",
+    answer: true,
+    explanation: "Tyrosinaemia type II is also known as Richner-Hanhart syndrome. It is characterized by eye and skin lesions and moderate mental retardation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Neonatal tyrosinaemia occurs due to relative deficiency of p-hydroxyphenylpyruvate hydroxylase.",
+    answer: true,
+    explanation: "Neonatal tyrosinaemia occurs due to relative deficiency of p-hydroxyphenylpyruvate hydroxylase. Blood levels of tyrosine and phenylalanine are elevated."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Albinism is due to absence of tyrosinase from melanocytes.",
+    answer: true,
+    explanation: "Albinism is due to absence of tyrosinase from melanocytes. This enzyme is required for synthesis of melanin. Melanin is not synthesized, resulting in white skin, hair, and iris."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Tyrosinaemia & Alkaptonuria",
+    type: "truefalse",
+    question: "Albinos have a lower incidence of skin cancer.",
+    answer: false,
+    explanation: "Photophobia and skin hypersensitivity are common in albinos. The incidence of skin cancer is also high. Goggles and sunscreen lotions can reduce discomfort."
+  },
+
+  // SECTION 9: Histidinaemia
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Histidinaemia",
+    type: "truefalse",
+    question: "Histidinaemia is an inborn error of histidine metabolism in which histidase is deficient.",
+    answer: true,
+    explanation: "Histidinaemia is an inborn error of histidine metabolism in which histidase is deficient. Histidine cannot be converted to urocanic acid, and histidine concentration in plasma is increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Histidinaemia",
+    type: "truefalse",
+    question: "In histidinaemia, histidine is converted to imidazole pyruvate, imidazole lactate, and imidazole acetate which are excreted in urine.",
+    answer: true,
+    explanation: "In histidinaemia, histidine is converted to alternate metabolites including imidazole pyruvate, imidazole lactate, and imidazole acetate, which are excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Histidinaemia",
+    type: "truefalse",
+    question: "Histidinaemia always causes impairment of speech development.",
+    answer: false,
+    explanation: "Histidinaemia was believed in the past to impair development of speech, but this later turned out to be incorrect. Most subjects with histidinaemia have no symptoms."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Histidinaemia",
+    type: "truefalse",
+    question: "Only 1% of histidinaemic subjects develop problems, usually when exposed to perinatal hypoxia.",
+    answer: true,
+    explanation: "1% of histidinaemic subjects develop behavioral problems, learning disorders, and intellectual disability, usually when histidinaemic babies are exposed to perinatal hypoxia."
+  },
+
+  // SECTION 10: Sulphur Amino Acids – Methionine, Cysteine & Homocysteine
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Sulphur-containing amino acids are three: L-methionine (essential), L-cysteine, and L-cystine (both non-essential).",
+    answer: true,
+    explanation: "Sulphur-containing amino acids are three: L-Methionine (essential), L-Cysteine (non-essential), and L-Cystine (non-essential)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Methionine is a sulfur-containing, essential, ketogenic amino acid.",
+    answer: false,
+    explanation: "Methionine is a sulfur-containing, essential, glucogenic amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Methionine is activated to S-adenosyl methionine (SAM) by the enzyme methionine adenosyl transferase.",
+    answer: true,
+    explanation: "Methionine is activated to 'active methionine' or S-adenosyl methionine (SAM) by the enzyme methionine adenosyl transferase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "In SAM, the methyl group is stable and cannot be transferred easily to other acceptors.",
+    answer: false,
+    explanation: "In methionine, the thio-ether linkage (C-S-C) is very stable. In SAM, due to the presence of a high-energy bond, the methyl group is labile and may be transferred easily to other acceptors."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homocysteine can be converted to methionine by addition of a methyl group donated from the one-carbon pool with the help of vitamin B12.",
+    answer: true,
+    explanation: "Homocysteine can be converted to methionine by addition of a methyl group. This methyl group is donated from the one-carbon pool with the help of vitamin B12."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homocysteine condenses with glycine to form cystathionine catalyzed by cystathionine-beta synthase.",
+    answer: false,
+    explanation: "Homocysteine condenses with serine to form cystathionine. This is catalyzed by pyridoxal phosphate (PLP) dependent cystathionine-beta synthase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Absence of cystathionine-beta synthase leads to homocystinuria.",
+    answer: true,
+    explanation: "Absence of cystathionine-beta synthase leads to homocystinuria. This enzyme catalyzes condensation of homocysteine with serine to form cystathionine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cystathionine is hydrolyzed by cystathionase to form cysteine and homoserine.",
+    answer: true,
+    explanation: "Cystathionine is hydrolyzed by cystathionase to form cysteine and homoserine. The net result is that the SH group from methionine is transferred to serine to form cysteine (trans-sulfuration reaction)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Homoserine is deaminated and then decarboxylated to propionyl CoA and finally enters the TCA cycle as acetyl CoA.",
+    answer: false,
+    explanation: "Homoserine is deaminated and then decarboxylated to propionyl CoA. It finally enters into the TCA cycle as succinyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is a non-essential and glucogenic amino acid.",
+    answer: true,
+    explanation: "Cysteine is non-essential and glucogenic. It is present in large quantity in keratin of hair and nails."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine formation uses the carbon skeleton contributed by glycine and sulfur originating from methionine.",
+    answer: false,
+    explanation: "Cysteine formation uses the carbon skeleton contributed by serine and sulfur originating from methionine. The pathway is: Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is catabolized to form pyruvic acid, which can be converted to glucose.",
+    answer: true,
+    explanation: "Cysteine is catabolized to form pyruvic acid, which can be converted to glucose. Thus cysteine is a glucogenic amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Glutathione is formed from glutamic acid, cysteine, and glycine.",
+    answer: true,
+    explanation: "Glutathione is formed from glutamic acid, cysteine, and glycine. G-SH is the reduced form with the active SH group, and G-S-S-G is the oxidized form."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Mercaptoethanolamine is an important constituent of hemoglobin.",
+    answer: false,
+    explanation: "Mercaptoethanolamine is an important constituent of coenzyme A."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is prominent in keratin of skin, nails, hair, and hoofs.",
+    answer: true,
+    explanation: "Cysteine is particularly prominent in the proteins of nails, hairs, hoofs, and keratin of the skin (sclera-proteins). It is also a constituent of many other proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Sulphur Amino Acids",
+    type: "truefalse",
+    question: "Cysteine is a constituent of protein hormones like insulin and vasopressin where it maintains secondary and tertiary structures.",
+    answer: true,
+    explanation: "Cysteine is a constituent of many proteins, including certain protein hormones like insulin, vasopressin, etc., where it is of great importance in maintaining secondary and tertiary structures of the proteins."
+  },
+
+  // SECTION 11: Cystinuria, Homocystinuria & Hyperoxaluria
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Primary hyperoxaluria is a disorder of glyoxylate metabolism where glyoxylate is formed from proline.",
+    answer: false,
+    explanation: "Primary hyperoxaluria is a disorder of glyoxylate metabolism. Glyoxylate is formed from hydroxyproline (not proline). Normally, glyoxylate is transaminated to glycine or oxidized to formate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Glyoxylate is converted into oxalate when glycine transaminase is deficient or oxidation of glyoxylate is impaired.",
+    answer: true,
+    explanation: "Glyoxylate is converted into oxalate when glycine transaminase is deficient or oxidation of glyoxylate is impaired. This leads to hyperoxaluria and recurrent formation of oxalate stones in the urinary tract."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Cystinuria involves a defect in tubular reabsorption of cystine only.",
+    answer: false,
+    explanation: "Cystinuria involves a defect in tubular reabsorption of cystine, lysine, arginine, and ornithine. Urinary excretion of cystine is increased, and being sparingly soluble, cystine deposits in the kidneys and forms cystine stones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "In homocystinuria, cystathionine synthetase is severely deficient, impairing conversion of methionine to cysteine.",
+    answer: true,
+    explanation: "Cystathionine synthetase is severely deficient in homocystinuria, impairing the conversion of methionine into cysteine. Homocysteine accumulates and is converted to homocystine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Homocystine is made up of two homocysteine molecules.",
+    answer: true,
+    explanation: "Homocystine is made up of two homocysteine molecules. Urinary excretion of homocystine is increased, and plasma methionine and homocysteine levels are increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Clinical features of homocystinuria include thrombotic phenomena, osteoporosis, dislocation of lenses in eyes, mental retardation, and ischaemic vascular disease.",
+    answer: true,
+    explanation: "Clinical features of homocystinuria include thrombotic phenomena, osteoporosis, dislocation of lenses in the eyes, mental retardation, and ischaemic vascular disease."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Accumulation of homocysteine causes abnormal cross-linking of collagen and abnormalities in the ground substance of walls of blood vessels.",
+    answer: true,
+    explanation: "Accumulation of homocysteine causes abnormal cross-linking of collagen, abnormalities in the ground substance of walls of blood vessels, and increased platelet adhesiveness."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Dislocation of ocular lenses and osteoporosis occur due to increased platelet adhesiveness.",
+    answer: false,
+    explanation: "Dislocation of ocular lenses and osteoporosis occur due to abnormal collagen. Thrombotic phenomena occur because of abnormalities in vessel walls and increased platelet adhesiveness."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Homocysteine has been described as the new cholesterol because of its propensity to cause ischaemic vascular diseases.",
+    answer: true,
+    explanation: "Ischaemic vascular diseases occur at a young age in homocystinuria. Homocysteine has been described as the new cholesterol because of its propensity to cause ischaemic vascular diseases."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Treatment of homocystinuria consists of a high-methionine, low-cysteine diet.",
+    answer: false,
+    explanation: "Treatment of homocystinuria consists of a low-methionine, high-cysteine diet. Pyridoxine supplements may be given to activate the residual cystathionine synthetase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Cystinuria & Homocystinuria",
+    type: "truefalse",
+    question: "Hyperhomocysteinaemia may occur due to deficiency of some vitamins, especially folic acid and vitamin B12.",
+    answer: true,
+    explanation: "Hyperhomocysteinaemia may occur due to deficiency of some vitamins, especially folic acid and vitamin B12. In such cases, vitamin supplements correct the abnormality."
+  },
+
+  // SECTION 12: Threonine & Glycine Metabolism
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine is a non-essential α-amino acid that plays a critical role in protein synthesis.",
+    answer: false,
+    explanation: "Threonine is an essential α-amino acid (not non-essential) that plays a critical role in protein synthesis, cellular metabolism, and maintenance of nitrogen balance."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "The three principal pathways of threonine catabolism include conversion to glycine, α-ketobutyrate, and aminoacetone.",
+    answer: true,
+    explanation: "The three principal pathways of threonine catabolism include: Conversion to Glycine via Threonine Aldolase, Conversion to α-Ketobutyrate via Threonine Dehydratase, and Conversion to Aminoacetone via Threonine Dehydrogenase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine aldolase cleaves threonine to produce glycine and acetaldehyde.",
+    answer: true,
+    explanation: "One of the major pathways of threonine metabolism involves its cleavage by threonine aldolase, producing glycine and acetaldehyde. Glycine has roles in heme synthesis, purine nucleotide synthesis, and glutathione formation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine dehydratase deaminates threonine to form α-ketobutyrate.",
+    answer: true,
+    explanation: "Threonine can be deaminated by threonine dehydratase to form α-ketobutyrate. This intermediate is further converted into propionyl-CoA, which enters the TCA cycle as succinyl-CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine dehydrogenase converts threonine to 2-amino-3-ketobutyrate, which is then converted to aminoacetone.",
+    answer: true,
+    explanation: "Threonine dehydrogenase oxidizes threonine to form 2-amino-3-ketobutyrate, which is then converted to aminoacetone. Aminoacetone can be further metabolized into pyruvate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine is classified as a ketogenic amino acid.",
+    answer: false,
+    explanation: "Threonine is classified as a glucogenic amino acid. Its carbon skeleton can be used to generate glucose through α-ketobutyrate → propionyl-CoA → methylmalonyl-CoA → succinyl-CoA, or through aminoacetone → pyruvate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Glycine can be reversibly converted to serine through serine hydroxymethyltransferase (SHMT) requiring tetrahydrofolate (THF) as cofactor.",
+    answer: true,
+    explanation: "Glycine can be reversibly converted to serine through serine hydroxymethyltransferase (SHMT), a reaction that requires tetrahydrofolate (THF) as a cofactor. A one-carbon unit is transferred to THF, forming methylene-THF."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "One-carbon units from glycine-serine interconversion are critical for purine synthesis, thymidylate synthesis, and methylation reactions via SAM.",
+    answer: true,
+    explanation: "One-carbon units are critical for purine synthesis (adenine and guanine bases), thymidylate synthesis (for DNA replication), and methylation reactions (via S-adenosylmethionine, SAM)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Glycine contributes to heme synthesis, glutathione production, and purine synthesis.",
+    answer: true,
+    explanation: "Glycine contributes to heme synthesis (important in red blood cells), glutathione production (a major cellular antioxidant), and purine nucleotide synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Threonine & Glycine",
+    type: "truefalse",
+    question: "Threonine metabolism pathways become particularly important during high-carbohydrate diets.",
+    answer: false,
+    explanation: "Threonine pathways become particularly important during fasting or starvation when glucose availability is low, and during high-protein diets where amino acids are used for energy."
+  },
+
+  // SECTION 13: Transmethylation, Trans-sulfuration & Glutathione
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Methionine in transmethylation reactions transfers methyl groups with the help of S-adenosyl methionine (SAM).",
+    answer: true,
+    explanation: "Methyl groups are transferred in methyl transfer reactions with the help of S-adenosyl methionine (SAM). Products of methylation reactions include creatine, epinephrine, choline, and melatonin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Methyl groups for transmethylation are originally derived from the one-carbon pool.",
+    answer: true,
+    explanation: "Methyl groups are originally derived from the one-carbon pool. Methyl tetrahydrofolic acid (methyl-THFA) can transfer the methyl group to homocysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Vitamin B12 deficiency is not associated with folic acid deficiency.",
+    answer: false,
+    explanation: "Vitamin B12 is the co-enzyme for the reaction accounting for the deficiency of folic acid associated with B12 deficiency (folate trap)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "SAM is the methyl donor for all transmethylation reactions.",
+    answer: true,
+    explanation: "SAM is the methyl donor for all the transmethylation reactions. The summary pathway is: Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Cysteine is particularly prominent in the proteins of nails, hairs, hoofs, and keratin of the skin.",
+    answer: true,
+    explanation: "Cysteine is particularly prominent in the proteins of nails, hairs, hoofs, and keratin of the skin (sclera-proteins). It is also a constituent of many other proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Cysteine is a constituent of protein hormones like insulin and vasopressin, where it maintains primary structure only.",
+    answer: false,
+    explanation: "Cysteine is a constituent of protein hormones like insulin, vasopressin, where it is of great importance in maintaining secondary and tertiary structures of the proteins, not just primary structure."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Leucine and lysine are the only pure ketogenic amino acids.",
+    answer: true,
+    explanation: "Leucine and lysine are the only pure ketogenic amino acids. Amino acids which give acetyl CoA are ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Threonine contributes to gluconeogenesis by contributing to succinyl-CoA.",
+    answer: true,
+    explanation: "Threonine is glucogenic. Through α-ketobutyrate → propionyl-CoA → methylmalonyl-CoA → succinyl-CoA, it supports gluconeogenesis, especially during fasting or prolonged energy demand."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Pyruvate from aminoacetone can enter the TCA cycle as acetyl-CoA or serve as a substrate for glucose synthesis.",
+    answer: true,
+    explanation: "Pyruvate from aminoacetone can enter the TCA cycle as acetyl-CoA or serve as a substrate for glucose synthesis. This helps maintain blood glucose levels and energy homeostasis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "S-adenosyl homocysteine (SAH) is formed by removal of the adenosyl group from SAM.",
+    answer: false,
+    explanation: "From S-adenosyl homocysteine (SAH), the adenosyl group is removed to form homocysteine. SAH is formed after the methyl group is transferred from SAM."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Cystathionine-beta synthase requires pyridoxal phosphate (PLP) as coenzyme.",
+    answer: true,
+    explanation: "Homocysteine condenses with serine to form cystathionine. This is catalyzed by pyridoxal phosphate (PLP) dependent cystathionine-beta synthase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "The trans-sulfuration reaction transfers the SH group from cysteine to methionine.",
+    answer: false,
+    explanation: "The trans-sulfuration reaction transfers the SH group from methionine to serine to form cysteine. The net result is that the SH group from methionine is transferred to serine to form cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Cysteine is catabolized to form lactic acid.",
+    answer: false,
+    explanation: "Cysteine is catabolized to form pyruvic acid (not lactic acid), which can be converted to glucose. Thus cysteine is a glucogenic amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Glutathione in its reduced form is G-S-S-G.",
+    answer: false,
+    explanation: "G-SH is the reduced form of glutathione, and the active group is the SH group. G-S-S-G is the oxidized form."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Transmethylation & Trans-sulfuration",
+    type: "truefalse",
+    question: "Mercaptoethanolamine is an important constituent of coenzyme A.",
+    answer: true,
+    explanation: "Mercaptoethanolamine is an important constituent of coenzyme A, formed from cysteine."
+  },
+
+  // SECTION 14: Clinical Correlations & Inborn Errors
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "In primary hyperoxaluria, glyoxylate is converted into oxalate, leading to recurrent formation of oxalate stones.",
+    answer: true,
+    explanation: "In primary hyperoxaluria, glyoxylate is converted into oxalate when glycine transaminase is deficient or oxidation of glyoxylate is impaired, leading to hyperoxaluria and recurrent formation of oxalate stones in the urinary tract."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Cystinuria involves a defect in tubular reabsorption of cystine only.",
+    answer: false,
+    explanation: "Cystinuria involves a defect in tubular reabsorption of cystine, lysine, arginine, and ornithine. Cystine deposits in the kidneys and forms cystine stones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "In homocystinuria, plasma methionine and homocysteine levels are decreased.",
+    answer: false,
+    explanation: "In homocystinuria, plasma methionine and homocysteine levels are increased. Urinary excretion of homocystine is increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Thrombotic phenomena in homocystinuria occur due to increased platelet adhesiveness and abnormalities in vessel walls.",
+    answer: true,
+    explanation: "Thrombotic phenomena occur in homocystinuria because of abnormalities in vessel walls and increased platelet adhesiveness."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Ischaemic vascular diseases in homocystinuria occur at an older age.",
+    answer: false,
+    explanation: "Ischaemic vascular diseases occur at a young age in homocystinuria. Homocysteine has been described as the new cholesterol because of its propensity to cause ischaemic vascular diseases."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Pyridoxine supplements may be given in homocystinuria to activate the residual cystathionine synthetase.",
+    answer: true,
+    explanation: "Treatment of homocystinuria consists of a low-methionine, high-cysteine diet. Pyridoxine supplements may be given to activate the residual cystathionine synthetase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "In PKU, a low-phenylalanine diet is given to keep the plasma phenylalanine level below 10 mg/dl.",
+    answer: false,
+    explanation: "In PKU, a low-phenylalanine diet is given to keep the plasma phenylalanine level below 6 mg/dl."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Alkaptonuria is diagnosed by Benedict's test being negative.",
+    answer: false,
+    explanation: "In alkaptonuria, Benedict's test is strongly positive. Therefore, alkaptonuria comes under the differential diagnosis of reducing substances in urine. Ferric chloride test is also positive."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Ochronosis is caused by oxidation products of homogentisate binding to melanin.",
+    answer: false,
+    explanation: "Ochronosis is caused by homogentisate and its oxidation products forming polymers that bind to collagen, leading to generalized pigmentation of connective tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Tyrosinaemia type II is characterized by eye and skin lesions and moderate mental retardation.",
+    answer: true,
+    explanation: "Tyrosinaemia type II (Richner-Hanhart syndrome) is characterized by eye and skin lesions and moderate mental retardation. Plasma tyrosine levels are elevated."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Neonatal tyrosinaemia is treated with a diet high in protein.",
+    answer: false,
+    explanation: "Neonatal tyrosinaemia occurs due to relative deficiency of p-hydroxyphenylpyruvate hydroxylase. Therapy involves feeding a diet low in protein."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Albinos have photophobia and skin hypersensitivity, and a higher incidence of skin cancer.",
+    answer: true,
+    explanation: "Photophobia and skin hypersensitivity are common in albinos. The incidence of skin cancer is also high. Goggles and sunscreen lotions can reduce the discomfort."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Histidinaemia always results in severe mental retardation.",
+    answer: false,
+    explanation: "Most subjects with histidinaemia have no symptoms. Only 1% develop behavioral problems, learning disorders, and intellectual disability, usually when exposed to perinatal hypoxia."
+  },
+
+  // SECTION 15: Additional Clinical & Metabolic Concepts
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The transamination of histidine to urocanic acid is blocked in histidinaemia.",
+    answer: true,
+    explanation: "In histidinaemia, histidase is deficient. Histidine cannot be converted into urocanic acid, and histidine concentration in plasma is increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Cysteine formation uses the carbon skeleton from methionine and sulfur from serine.",
+    answer: false,
+    explanation: "Cysteine formation uses the carbon skeleton contributed by serine and sulfur originating from methionine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Methionine adenosyl transferase catalyzes the activation of methionine to SAM.",
+    answer: true,
+    explanation: "Methionine is activated to 'active methionine' or S-adenosyl methionine (SAM) by the enzyme methionine adenosyl transferase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Homoserine is deaminated and decarboxylated to acetyl CoA.",
+    answer: false,
+    explanation: "Homoserine is deaminated and then decarboxylated to propionyl CoA, not acetyl CoA. It finally enters into the TCA cycle as succinyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Glycine cleavage system is a specific method of deamination for glycine.",
+    answer: true,
+    explanation: "The glycine cleavage system is a specific method of deamination for glycine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Hydrolytic deaminases use H₂O to deaminate glutamine and asparagine.",
+    answer: true,
+    explanation: "Glutaminase and asparaginase catalyze the hydrolytic deamination of glutamine and asparagine respectively, using H₂O for deamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Reductive deaminases act by intestinal bacteria on amino acids during putrefaction.",
+    answer: true,
+    explanation: "Reductive deaminases act by intestinal bacteria on amino acids during putrefaction, producing corresponding organic acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The amino acid pool contains 100 gm of amino acids, 50% as glutamate and glutamine.",
+    answer: true,
+    explanation: "The amino acid pool contains 100 gm of amino acids. 50% of these amino acids are in the form of glutamate and glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The amino acid pool represents the amount of protein in the body.",
+    answer: false,
+    explanation: "The amino acid pool is small (only 100 gm) compared to the amount of protein in the body (about 12 Kg in a 70 Kg man)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Sources of the amino acid pool include dietary protein, tissue protein breakdown, and de novo synthesis.",
+    answer: true,
+    explanation: "Sources of the amino acid pool include dietary protein, tissue protein breakdown, and de novo synthesis of non-essential amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Transdeamination provides a pathway by which the amino group of most amino acids is released as ammonia.",
+    answer: true,
+    explanation: "Transdeamination provides a pathway by which the amino group of most amino acids is released as ammonia through combination of transamination and oxidative deamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "L-glutamate dehydrogenase is inhibited by ADP and GDP.",
+    answer: false,
+    explanation: "L-glutamate dehydrogenase is activated by ADP or GDP. It is inhibited by ATP, GTP, and NADH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The ratio of NADP:NADPH+H regulates the direction of the L-glutamate dehydrogenase reaction.",
+    answer: true,
+    explanation: "The direction of the L-glutamate dehydrogenase reaction depends on the ratio of NADP:NADPH+H and availability of substrates."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "D-amino acids are used in the synthesis of mammalian proteins.",
+    answer: false,
+    explanation: "D-amino acids are found in plants and the cell wall of microorganisms but are not used in the synthesis of mammalian proteins. Mammalian proteins are formed of only L-amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Transaminases are normally elevated in the blood of healthy individuals.",
+    answer: false,
+    explanation: "Transaminases are normally intracellular enzymes. They are elevated in the blood only when damage to the cells producing these enzymes occurs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Increased level of AST alone suggests damage to liver cells.",
+    answer: false,
+    explanation: "Increased level of AST alone suggests damage to heart muscle, skeletal muscle, or kidney. Increased levels of both ALT and AST indicate possible damage to liver cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "α-ketoglutarate and glutamate are often involved in transamination reactions.",
+    answer: true,
+    explanation: "α-ketoglutarate and glutamate are often involved in transamination reactions, serving as the amino group acceptor and donor respectively."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The formation of NH₃ from α-amino acids occurs mainly via the α-amino nitrogen of glutamate.",
+    answer: true,
+    explanation: "The formation of NH₃ from α-amino acids occurs mainly via the α-amino nitrogen of glutamate, as this occurs by transdeamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "L-amino acid oxidase deaminates most naturally occurring amino acids at a high rate in mammalian tissues.",
+    answer: false,
+    explanation: "L-amino acid oxidase deaminates most naturally occurring amino acids but is of low activity in mammalian tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Transamination is important for both degradation of amino acids and synthesis of non-essential amino acids.",
+    answer: true,
+    explanation: "Transamination functions in degradation of amino acids to form α-keto acids and synthesis of non-essential amino acids from carbohydrates."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The first line of defense against ammonia toxicity is its conversion to urea.",
+    answer: false,
+    explanation: "The first line of defense against ammonia toxicity is its trapping by glutamic acid to form glutamine, especially in brain cells. Glutamine is then transported to the liver where ammonia is detoxified to urea."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Glutamine synthetase is a cytosolic enzyme.",
+    answer: false,
+    explanation: "Glutamine synthetase is a mitochondrial enzyme that catalyzes: Glutamic acid + Ammonia → Glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Glutamine produced in extrarenal tissues is transported to the kidneys where it is hydrolyzed by glutaminase.",
+    answer: true,
+    explanation: "Glutamine produced in extrarenal tissues goes via blood to the kidneys where it is hydrolyzed by glutaminase into glutamic acid and NH₃ which is excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "CPS I has N-acetyl glutamate as a positive effector while CPS II does not.",
+    answer: true,
+    explanation: "CPS I requires N-acetyl glutamate as a positive effector. CPS II has no such requirement. CPS I is involved in urea synthesis (mitochondria), while CPS II is involved in pyrimidine synthesis (cytoplasm)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "CPS I uses glutamine as a source of nitrogen while CPS II uses ammonia.",
+    answer: false,
+    explanation: "CPS I uses ammonia as a source of nitrogen, while CPS II uses glutamine. CPS I is involved in urea synthesis, CPS II in pyrimidine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The release of high-energy phosphate of carbamoyl phosphate as inorganic phosphate drives the urea cycle in the forward direction.",
+    answer: true,
+    explanation: "The release of the high-energy phosphate of carbamoyl phosphate as inorganic phosphate drives the reaction in the forward direction in the urea cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Fumarate produced in the urea cycle is linked to the TCA cycle.",
+    answer: true,
+    explanation: "Fumarate produced in the urea cycle is linked to the TCA cycle. It may be converted to malate in the cytosol and then oxidized to oxaloacetate, generating NADH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Gluconeogenesis in the cytosol uses the reducing equivalent from fumarate conversion to malate to generate ATP.",
+    answer: false,
+    explanation: "If gluconeogenesis is underway in the cytosol, the reducing equivalent from fumarate conversion to malate is used to drive the reversal of the glyceraldehyde 3-phosphate dehydrogenase step instead of generating ATP."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "High protein diet stimulates the synthesis of N-acetylglutamate.",
+    answer: true,
+    explanation: "The synthesis of N-acetylglutamate from glutamic acid and acetyl CoA is stimulated by high protein diet and amino acids, especially arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Arginine allosterically activates carbamoyl phosphate synthetase I indirectly through N-acetylglutamate.",
+    answer: true,
+    explanation: "Arginine stimulates the synthesis of N-acetylglutamate, which then allosterically activates carbamoyl phosphate synthetase I, increasing the rate of the urea cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "In hyperammonaemia, blood and brain NH₃ levels are elevated.",
+    answer: true,
+    explanation: "In hyperammonaemia, blood and brain NH₃ levels are elevated. Symptoms include peculiar flapping tremor, slurring of speech, blurring of vision, coma, and death."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Acquired hyperammonaemia results from genetic defects in the urea cycle enzyme.",
+    answer: false,
+    explanation: "Acquired hyperammonaemia results from cirrhosis of the liver. Inherited hyperammonaemia results from genetic defects in the urea cycle enzyme."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The symptoms of NH₃ intoxication resemble those of hepatic coma.",
+    answer: true,
+    explanation: "The symptoms of NH₃ intoxication include peculiar flapping tremor, slurring of speech, blurring of vision, and in severe cases, coma and death. These resemble those of hepatic coma."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Cysteine is used for the synthesis of glutathione but not for synthesis of coenzyme A.",
+    answer: false,
+    explanation: "Cysteine is required for synthesis of glutathione and is also involved in formation of mercaptoethanolamine, which is an important constituent of coenzyme A."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Phenylalanine hydroxylase deficiency in PKU results in decreased synthesis of melanin due to decreased tyrosine availability.",
+    answer: true,
+    explanation: "In PKU, decreased availability of tyrosine may decrease the synthesis of melanin, resulting in hypopigmentation. Affected individuals often have lighter skin, hair, and eye color."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "In PKU, phenylalanine accumulates in the blood and is excreted unchanged in urine.",
+    answer: false,
+    explanation: "In PKU, phenylalanine accumulates in blood and undergoes transamination to form phenylpyruvic acid and its products (phenyl lactic acid, phenyl acetic acid, and phenylacetylglutamine), which are excreted in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The mousy odor in PKU urine is due to phenylacetic acid.",
+    answer: true,
+    explanation: "Phenylacetic acid is conjugated with glutamine and excreted as phenylacetylglutamine in urine, responsible for the 'mousy odor' of urine in PKU patients."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "In PKU, excess phenylalanine competes with tryptophan for intestinal absorption.",
+    answer: true,
+    explanation: "Excess phenylalanine in blood leads to excretion into the intestine where it competes with tryptophan for absorption, making tryptophan subject to bacterial action forming indole derivatives."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Tyrosine is degraded to fumarate and acetoacetate, making it both glucogenic and ketogenic.",
+    answer: true,
+    explanation: "Tyrosine is degraded to produce fumarate (glucogenic) and acetoacetate (ketogenic). Phenylalanine is catabolized via tyrosine, so both are glucogenic and ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Catecholamines are synthesized from tyrosine and act only as hormones, not neurotransmitters.",
+    answer: false,
+    explanation: "Epinephrine, norepinephrine, and dopamine are synthesized from tyrosine and act as neurotransmitters. They are also hormones (epinephrine and norepinephrine)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The synthesis of thyroid hormones (T3, T4) requires tyrosine.",
+    answer: true,
+    explanation: "Tyrosine is required for the synthesis of thyroid hormones: Thyroxine (T4) and tri-iodothyronine (T3)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The conversion of DOPA to dopamine occurs in the mitochondria.",
+    answer: false,
+    explanation: "Conversion of tyrosine to DOPA occurs in the mitochondrion. Conversion of DOPA to dopamine occurs in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Melanocytes are cells of neural crest origin.",
+    answer: true,
+    explanation: "Melanins are synthesized from tyrosine in melanosomes within melanocytes in skin, which are cells of neural crest origin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Eumelanins, pheomelanins, and trichochromes are all types of melanins.",
+    answer: true,
+    explanation: "Types of melanins depending on physical and chemical properties include eumelanins, pheomelanins (contain sulphur), and trichochromes (contains sulphur, related to pheomelanins)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Fibrinogen contains tyrosine-O-sulphate.",
+    answer: true,
+    explanation: "Tyrosine-O-sulphate is present in the fibrinogen molecule."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Decarboxylation requires pyridoxal-P as coenzyme and removes the amino group from amino acids.",
+    answer: false,
+    explanation: "Decarboxylation removes the carboxyl group (CO₂) from the COOH group, not the amino group. It requires pyridoxal-P (B6-PO4) as coenzyme."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Tryptamine is formed from tryptophan and 5-hydroxylation produces serotonin.",
+    answer: true,
+    explanation: "Tryptamine is formed by decarboxylation of tryptophan. Hydroxylation at the 5-position produces 5-OH-tryptamine (5-HT/Serotonin)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Histamine is formed from histidine by decarboxylation and acts as a neurotransmitter.",
+    answer: true,
+    explanation: "Histamine is formed by decarboxylation of histidine by histidine decarboxylase or aromatic L-amino acid decarboxylase in the presence of B6-PO4. Histamine acts as a neurotransmitter."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "CPS I is located in the cytoplasm and CPS II is located in the mitochondria.",
+    answer: false,
+    explanation: "CPS I is located in the mitochondria and is involved in urea synthesis. CPS II is located in the cytoplasm and is involved in pyrimidine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "The amino acid pool contains more glutamine than any other amino acid.",
+    answer: true,
+    explanation: "50% of the amino acids in the amino acid pool are in the form of glutamate and glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "Glycine oxidase is a specific method of deamination that acts by reductive deamination.",
+    answer: false,
+    explanation: "Glycine oxidase acts through a mechanism similar to D-amino acid oxidase (oxidative deamination), not reductive deamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "In MSUD, Rothera's test is positive due to the presence of branched-chain keto acids.",
+    answer: true,
+    explanation: "In MSUD, Rothera's test is positive. Diagnosis depends on enzyme analysis and should be done prior to 1 week after birth."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Protein Metabolism",
+    subTopic: "Additional Concepts",
+    type: "truefalse",
+    question: "In PKU, tyrosine supplementation is not required as tyrosine is non-essential.",
+    answer: false,
+    explanation: "In PKU, tyrosine cannot be synthesized endogenously, so tyrosine becomes an essential amino acid for patients. Their diet needs tyrosine supplements."
+  },
+    // ===== BIOCHEMISTRY – AMINO ACID METABOLISM =====
+
+  // SECTION 1: Amino Acid Structure & Chemistry
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "The word 'protein' is derived from the Greek word meaning:",
+    options: [
+      "A. Secondary",
+      "B. Primary",
+      "C. Tertiary",
+      "D. Complex"
+    ],
+    correctAnswer: "B. Primary",
+    explanation: "The word protein is derived from the Greek word 'proteious' meaning primary, indicating that proteins are the major components of any living organism."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which of the following elements is NOT typically found in proteins?",
+    options: [
+      "A. Carbon",
+      "B. Hydrogen",
+      "C. Nitrogen",
+      "D. Sodium"
+    ],
+    correctAnswer: "D. Sodium",
+    explanation: "Proteins contain carbon, hydrogen, oxygen, nitrogen, and sometimes sulphur and phosphorus. Sodium is not typically a constituent of proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "How many naturally occurring amino acids are used in proteins?",
+    options: [
+      "A. 10",
+      "B. 15",
+      "C. 20",
+      "D. 25"
+    ],
+    correctAnswer: "C. 20",
+    explanation: "Twenty naturally occurring amino acids and a few modified amino acids are used in proteins, allowing for huge diversity in amino acid sequences."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which amino acid does NOT have an asymmetric carbon atom?",
+    options: [
+      "A. Alanine",
+      "B. Glycine",
+      "C. Valine",
+      "D. Leucine"
+    ],
+    correctAnswer: "B. Glycine",
+    explanation: "All amino acids except glycine have an asymmetric carbon. Glycine does not have a chiral center as its R group is hydrogen, making it achiral."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which form of amino acids predominates in nature?",
+    options: [
+      "A. D-amino acids",
+      "B. L-amino acids",
+      "C. Racemic mixtures",
+      "D. DL-amino acids"
+    ],
+    correctAnswer: "B. L-amino acids",
+    explanation: "L-amino acids predominate in nature. The D,L-nomenclature is based on D- and L-glyceraldehyde."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Amino acids can be categorized into how many groups based on the polarity of their side chains?",
+    options: [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    correctAnswer: "C. 4",
+    explanation: "The 20 amino acids may be categorized into 4 groups based on the polarity of their side chains: non-polar, uncharged polar, positively charged, and negatively charged."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which of the following is an essential amino acid?",
+    options: [
+      "A. Alanine",
+      "B. Glycine",
+      "C. Histidine",
+      "D. Serine"
+    ],
+    correctAnswer: "C. Histidine",
+    explanation: "Histidine is an essential amino acid that must be obtained from the diet. Alanine, glycine, and serine are non-essential amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "At low pH, the amino and carboxyl groups of amino acids are:",
+    options: [
+      "A. Both deprotonated",
+      "B. Both protonated",
+      "C. Amino protonated, carboxyl deprotonated",
+      "D. Amino deprotonated, carboxyl protonated"
+    ],
+    correctAnswer: "B. Both protonated",
+    explanation: "At low pH, proton concentration [H+] is high. Therefore, both amines and carboxylic acids are protonated (-NH₃⁺ and -COOH)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "At neutral pH, amino acids exist as:",
+    options: [
+      "A. Positively charged molecules",
+      "B. Negatively charged molecules",
+      "C. Zwitterions",
+      "D. Uncharged molecules"
+    ],
+    correctAnswer: "C. Zwitterions",
+    explanation: "At neutral pH, amines are protonated (-NH₃⁺) and carboxylates are deprotonated (-COO⁻), forming a zwitterion (dipolar molecule)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "The isoelectric point (pI) is the pH at which an amino acid has:",
+    options: [
+      "A. Net positive charge",
+      "B. Net negative charge",
+      "C. Net zero charge",
+      "D. Maximum solubility"
+    ],
+    correctAnswer: "C. Net zero charge",
+    explanation: "The isoelectric point (IEP) is the pH value at which amino acids have a net electric charge of zero. At IEP, an amino acid does not migrate under an electric field."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which of the following is an uncommon amino acid found in collagen?",
+    options: [
+      "A. Carboxyglutamate",
+      "B. Hydroxylysine",
+      "C. Pyroglutamate",
+      "D. Phosphorylated amino acids"
+    ],
+    correctAnswer: "B. Hydroxylysine",
+    explanation: "Hydroxylysine and hydroxyproline are uncommon amino acids found in collagen. Carboxyglutamate is found in blood-clotting proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Amino acids that give rise to acetyl CoA are called:",
+    options: [
+      "A. Glucogenic",
+      "B. Ketogenic",
+      "C. Amphoteric",
+      "D. Essential"
+    ],
+    correctAnswer: "B. Ketogenic",
+    explanation: "Amino acids which give acetyl CoA are ketogenic amino acids. Amino acids which give pyruvic acid or Krebs cycle intermediates are glucogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Which vitamin can be synthesized from tryptophan?",
+    options: [
+      "A. Vitamin A",
+      "B. Vitamin C",
+      "C. Niacin",
+      "D. Vitamin D"
+    ],
+    correctAnswer: "C. Niacin",
+    explanation: "Tryptophan can synthesize a vitamin called niacin. Glycine, arginine and methionine synthesize creatine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Structure & Chemistry",
+    type: "multiplechoice",
+    question: "Histamine is formed from which amino acid by decarboxylation?",
+    options: [
+      "A. Tryptophan",
+      "B. Tyrosine",
+      "C. Histidine",
+      "D. Glutamate"
+    ],
+    correctAnswer: "C. Histidine",
+    explanation: "Histamine is formed from histidine by decarboxylation. Serotonin (5-HT) is formed from tryptophan, and tyramine is formed from tyrosine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Amino acid polymers of more than 50 amino acids are called:",
+    options: [
+      "A. Peptides",
+      "B. Oligopeptides",
+      "C. Polypeptides",
+      "D. Proteins"
+    ],
+    correctAnswer: "D. Proteins",
+    explanation: "Amino acid polymers of ≤ 50 amino acids are called polypeptides, peptides, or oligopeptides. Amino acid polymers of > 50 amino acids are called proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Aspartame is an example of a:",
+    options: [
+      "A. Monopeptide",
+      "B. Dipeptide",
+      "C. Tripeptide",
+      "D. Protein"
+    ],
+    correctAnswer: "B. Dipeptide",
+    explanation: "Aspartame is an example of a dipeptide with the abbreviated structure Asp-Phe-OCH₃ and IUPAC name 'N-L-α-Aspartyl-L-phenylalanine 1-methyl ester.'"
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Disulfide linkages between cysteines are called:",
+    options: [
+      "A. Cysteines",
+      "B. Cystines",
+      "C. Cysteic acids",
+      "D. Cystathionines"
+    ],
+    correctAnswer: "B. Cystines",
+    explanation: "Disulfide linkages between individual 'cysteines' are called 'cystines.' This forms cross-links between peptide chains."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Insulin is the smallest protein with how many amino acids?",
+    options: [
+      "A. 21",
+      "B. 31",
+      "C. 41",
+      "D. 51"
+    ],
+    correctAnswer: "D. 51",
+    explanation: "Insulin is the smallest protein, with 51 amino acids in two chains linked by cystine (disulfide) cross-links."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "The linear sequence of amino acids in a protein is called its:",
+    options: [
+      "A. Primary structure",
+      "B. Secondary structure",
+      "C. Tertiary structure",
+      "D. Quaternary structure"
+    ],
+    correctAnswer: "A. Primary structure",
+    explanation: "The primary structure of a protein is its linear sequence of amino acids. Secondary structure involves folding, tertiary is 3-D shape, and quaternary involves multiple polypeptides."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Secondary structure of proteins is stabilized by:",
+    options: [
+      "A. Disulfide bonds",
+      "B. Hydrogen bonds",
+      "C. Ionic bonds",
+      "D. Hydrophobic interactions"
+    ],
+    correctAnswer: "B. Hydrogen bonds",
+    explanation: "Secondary structure involves repeated folding of the polypeptide backbone, stabilized by H-bonds between peptide linkages in the protein's backbone."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Which type of protein structure results from interactions among 2 or more polypeptides?",
+    options: [
+      "A. Primary structure",
+      "B. Secondary structure",
+      "C. Tertiary structure",
+      "D. Quaternary structure"
+    ],
+    correctAnswer: "D. Quaternary structure",
+    explanation: "Quaternary structure results from interactions among 2 or more polypeptides. Tertiary structure results from bonding between R groups within a single polypeptide."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a weak bond stabilizing tertiary structure?",
+    options: [
+      "A. Hydrogen bonding",
+      "B. Ionic bonding",
+      "C. Hydrophobic interactions",
+      "D. Disulfide bridges"
+    ],
+    correctAnswer: "D. Disulfide bridges",
+    explanation: "Disulfide bridges form strong covalent linkages. Hydrogen bonding, ionic bonding, hydrophobic interactions, and van der Waals interactions are weak bonds stabilizing tertiary structure."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Protein Classification & Structure",
+    type: "multiplechoice",
+    question: "Denatured protein is:",
+    options: [
+      "A. Biologically active",
+      "B. Biologically inactive",
+      "C. More active than native protein",
+      "D. Structurally unchanged"
+    ],
+    correctAnswer: "B. Biologically inactive",
+    explanation: "Denatured protein is biologically inactive. Denaturation occurs due to changes in environmental conditions such as pH, temperature, or salinity."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "The amino acid pool contains approximately how many grams of amino acids?",
+    options: [
+      "A. 50 gm",
+      "B. 100 gm",
+      "C. 200 gm",
+      "D. 500 gm"
+    ],
+    correctAnswer: "B. 100 gm",
+    explanation: "The amino acid pool contains 100 gm of amino acids. 50% of these amino acids are in the form of glutamate and glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a method of amino acid deamination?",
+    options: [
+      "A. Oxidative deamination",
+      "B. Transamination",
+      "C. Transdeamination",
+      "D. Transcarboxylation"
+    ],
+    correctAnswer: "D. Transcarboxylation",
+    explanation: "Catabolism of amino acids occurs by deamination through oxidative deamination, transamination, transdeamination, or specific methods. Transcarboxylation is not a deamination method."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "L-glutamate dehydrogenase is found in:",
+    options: [
+      "A. Cytosol only",
+      "B. Mitochondria only",
+      "C. Both cytosol and mitochondria",
+      "D. Nucleus only"
+    ],
+    correctAnswer: "C. Both cytosol and mitochondria",
+    explanation: "L-glutamate dehydrogenase is found in the cytosol and mitochondria of most tissues."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which of the following acts as an activator of L-glutamate dehydrogenase?",
+    options: [
+      "A. ATP",
+      "B. GTP",
+      "C. ADP",
+      "D. NADH"
+    ],
+    correctAnswer: "C. ADP",
+    explanation: "ADP or GDP act as activators of L-glutamate dehydrogenase. ATP, GTP, and NADH act as inhibitors."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "D-amino acid oxidase deaminates D-amino acids present in:",
+    options: [
+      "A. Mammalian proteins",
+      "B. The diet",
+      "C. Human enzymes",
+      "D. Neurotransmitters"
+    ],
+    correctAnswer: "B. The diet",
+    explanation: "D-amino acid oxidase deaminates D-amino acids present in diet giving α-keto acids that are either transaminated to L-amino acids, converted to glucose or fatty acids, or catabolized."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which amino acid is the only one that undergoes oxidative deamination at an appreciable rate in mammalian tissue?",
+    options: [
+      "A. Alanine",
+      "B. Glutamate",
+      "C. Aspartate",
+      "D. Glycine"
+    ],
+    correctAnswer: "B. Glutamate",
+    explanation: "L-glutamate dehydrogenase is the only amino acid that undergoes oxidative deamination at an appreciable rate in mammalian tissue. This makes it essential in transdeamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Transaminases require which coenzyme?",
+    options: [
+      "A. NADH",
+      "B. FAD",
+      "C. Pyridoxal phosphate (PLP)",
+      "D. Thiamine pyrophosphate"
+    ],
+    correctAnswer: "C. Pyridoxal phosphate (PLP)",
+    explanation: "Transaminases or aminotransferases require PLP (Pyridoxal phosphate) as coenzyme. PLP is the active form of vitamin B6."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which amino acids CANNOT undergo transamination?",
+    options: [
+      "A. Alanine and glycine",
+      "B. Threonine and lysine",
+      "C. Valine and leucine",
+      "D. Aspartate and glutamate"
+    ],
+    correctAnswer: "B. Threonine and lysine",
+    explanation: "All amino acids except threonine, lysine, proline, and hydroxyproline may undergo transamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Alanine transaminase (ALT) is also known as:",
+    options: [
+      "A. Glutamate oxaloacetate transaminase",
+      "B. Glutamate pyruvate transaminase",
+      "C. Glutamate dehydrogenase",
+      "D. Alanine dehydrogenase"
+    ],
+    correctAnswer: "B. Glutamate pyruvate transaminase",
+    explanation: "Alanine transaminase (ALT) = Glutamate pyruvate transaminase (GPT). It catalyzes conversion between glutamic acid + pyruvic acid and alanine + α-ketoglutarate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Increased levels of both ALT and AST indicate possible damage to:",
+    options: [
+      "A. Heart muscle",
+      "B. Skeletal muscle",
+      "C. Liver cells",
+      "D. Kidney"
+    ],
+    correctAnswer: "C. Liver cells",
+    explanation: "Increased levels of both ALT and AST indicate possible damage to liver cells. Increased AST alone suggests damage to heart muscle, skeletal muscle, or kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Transdeamination is the combination of:",
+    options: [
+      "A. Transamination and reductive deamination",
+      "B. Transamination and oxidative deamination",
+      "C. Oxidative deamination and decarboxylation",
+      "D. Transamination and decarboxylation"
+    ],
+    correctAnswer: "B. Transamination and oxidative deamination",
+    explanation: "Transdeamination is the combination of transamination and oxidative deamination. It includes transamination of most amino acids with α-ketoglutarate to form glutamate, then oxidative deamination of glutamate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Why can't the removal of ammonia from amino acids be explained by transamination alone?",
+    options: [
+      "A. Transamination only occurs in the liver",
+      "B. No free ammonia is liberated",
+      "C. Transamination requires oxygen",
+      "D. Transamination is irreversible"
+    ],
+    correctAnswer: "B. No free ammonia is liberated",
+    explanation: "Removal of ammonia from amino acids cannot be explained by transamination alone as no free ammonia is liberated, nor by oxidative deamination alone as it works efficiently only on glutamic acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Histidase catalyzes which type of deamination?",
+    options: [
+      "A. Oxidative deamination",
+      "B. Non-oxidative deamination",
+      "C. Hydrolytic deamination",
+      "D. Reductive deamination"
+    ],
+    correctAnswer: "B. Non-oxidative deamination",
+    explanation: "Histidase catalyzes non-oxidative deamination of histidine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Dehydratases catalyze non-oxidative deamination of:",
+    options: [
+      "A. Glycine and alanine",
+      "B. Serine and threonine",
+      "C. Valine and leucine",
+      "D. Aspartate and glutamate"
+    ],
+    correctAnswer: "B. Serine and threonine",
+    explanation: "Dehydratases catalyze non-oxidative deamination for hydroxy-containing amino acids, specifically serine and threonine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Glutaminase catalyzes:",
+    options: [
+      "A. Oxidative deamination of glutamate",
+      "B. Hydrolytic deamination of glutamine",
+      "C. Transamination of glutamine",
+      "D. Decarboxylation of glutamine"
+    ],
+    correctAnswer: "B. Hydrolytic deamination of glutamine",
+    explanation: "Glutaminase and asparaginase catalyze the hydrolytic deamination of glutamine and asparagine respectively, using H₂O for deamination."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The normal blood ammonia level is:",
+    options: [
+      "A. < 0.1 mg/dl",
+      "B. < 1.0 mg/dl",
+      "C. < 5.0 mg/dl",
+      "D. < 10.0 mg/dl"
+    ],
+    correctAnswer: "A. < 0.1 mg/dl",
+    explanation: "Normal blood ammonia level is < 0.1 mg/dl. Normal urine level is 0.7 gm/day."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The main source of ammonia in the body is from:",
+    options: [
+      "A. Catabolism of nucleic acids",
+      "B. Deamination of amino acids",
+      "C. Intestinal bacterial urease",
+      "D. Dietary intake"
+    ],
+    correctAnswer: "B. Deamination of amino acids",
+    explanation: "The main source of ammonia is from deamination of amino acids (oxidative deamination, transdeamination, and specific deamination methods)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Intracellular ammonia in the brain is immediately trapped by:",
+    options: [
+      "A. Glutamine to form glutamic acid",
+      "B. Glutamic acid to form glutamine",
+      "C. Alanine to form pyruvate",
+      "D. Aspartate to form asparagine"
+    ],
+    correctAnswer: "B. Glutamic acid to form glutamine",
+    explanation: "Intracellular ammonia is immediately trapped by glutamic acid to form glutamine, especially in brain cells. Glutamine is then transported to the liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Glutamate dehydrogenase is available in which organ for final deamination?",
+    options: [
+      "A. Brain",
+      "B. Kidney",
+      "C. Liver",
+      "D. Muscle"
+    ],
+    correctAnswer: "C. Liver",
+    explanation: "Glutamate dehydrogenase is available only in the liver. Therefore, the final deamination and production of ammonia takes place in the liver."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Increased NH₃ concentration enhances amination of α-ketoglutarate to form glutamate in the brain, which:",
+    options: [
+      "A. Increases TCA cycle activity",
+      "B. Depresses TCA cycle activity",
+      "C. Increases GABA formation",
+      "D. Decreases serotonin formation"
+    ],
+    correctAnswer: "B. Depresses TCA cycle activity",
+    explanation: "Increased NH₃ enhances amination of α-ketoglutarate to form glutamate, reducing the mitochondrial pool of α-ketoglutarate, depressing the TCA cycle and affecting cellular respiration."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "GABA (gamma-aminobutyric acid) is a(n):",
+    options: [
+      "A. Excitatory neurotransmitter",
+      "B. Inhibitory neurotransmitter",
+      "C. Hormone",
+      "D. Enzyme"
+    ],
+    correctAnswer: "B. Inhibitory neurotransmitter",
+    explanation: "GABA (gamma-aminobutyric acid) is an inhibitory neurotransmitter. Increased NH₃ reduces brain-cell pool of glutamic acid, decreasing formation of GABA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Increased brain glutamine levels lead to increased entry of which amino acid into brain cells?",
+    options: [
+      "A. Phenylalanine",
+      "B. Tyrosine",
+      "C. Tryptophan",
+      "D. Leucine"
+    ],
+    correctAnswer: "C. Tryptophan",
+    explanation: "Increased brain glutamine enhances outflow of glutamine via a transporter that allows entry of tryptophan, leading to increased tryptophan concentration and increased serotonin synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Glutamine formation accounts for what percentage of NH₃ excreted in urine?",
+    options: [
+      "A. 30%",
+      "B. 40%",
+      "C. 60%",
+      "D. 80%"
+    ],
+    correctAnswer: "C. 60%",
+    explanation: "Glutamine formation accounts for 60% of the NH₃ excreted in urine (via glutaminase in kidneys). Direct kidney deamination accounts for 40%."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "NH₃ produced from amino acid deamination in the kidney regulates:",
+    options: [
+      "A. Blood glucose levels",
+      "B. Acid-base balance",
+      "C. Blood pressure",
+      "D. Body temperature"
+    ],
+    correctAnswer: "B. Acid-base balance",
+    explanation: "NH₃ produced from amino acid deamination in the kidney, especially from glutamine, regulates acid-base balance and preserves cations."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The urea cycle occurs in which cellular compartments?",
+    options: [
+      "A. Cytoplasm only",
+      "B. Mitochondria only",
+      "C. Both mitochondria and cytoplasm",
+      "D. Nucleus only"
+    ],
+    correctAnswer: "C. Both mitochondria and cytoplasm",
+    explanation: "The urea cycle occurs in both mitochondria and cytoplasm. The first step (carbamoyl phosphate synthesis) occurs in mitochondria, and subsequent steps occur in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Carbamoyl phosphate synthetase I is involved in:",
+    options: [
+      "A. Pyrimidine synthesis",
+      "B. Urea synthesis",
+      "C. Purine synthesis",
+      "D. Fatty acid synthesis"
+    ],
+    correctAnswer: "B. Urea synthesis",
+    explanation: "Carbamoyl phosphate synthetase I is involved in urea synthesis and is located in mitochondria. CPS II is involved in pyrimidine synthesis and is located in the cytoplasm."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Carbamoyl phosphate synthetase I requires which allosteric activator?",
+    options: [
+      "A. ATP",
+      "B. N-acetyl glutamate",
+      "C. Glutamine",
+      "D. NADH"
+    ],
+    correctAnswer: "B. N-acetyl glutamate",
+    explanation: "Carbamoyl phosphate synthetase I has an absolute requirement for N-acetylglutamic acid which acts as an allosteric activator."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The first nitrogen atom of urea comes from:",
+    options: [
+      "A. Aspartate",
+      "B. Glutamine",
+      "C. NH₃",
+      "D. Arginine"
+    ],
+    correctAnswer: "C. NH₃",
+    explanation: "The first N atom of urea comes from NH₃. The second N atom comes from aspartate. C and O come from CO₂."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Which molecule is regenerated with each turn of the urea cycle?",
+    options: [
+      "A. Arginine",
+      "B. Citrulline",
+      "C. Ornithine",
+      "D. Argininosuccinate"
+    ],
+    correctAnswer: "C. Ornithine",
+    explanation: "Ornithine is regenerated with each turn of the urea cycle. There is no net gain or loss of ornithine, citrulline, argininosuccinate, or arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The urea cycle consumes how many high-energy phosphate bonds?",
+    options: [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    correctAnswer: "C. 4",
+    explanation: "The urea cycle consumes four 'high-energy' phosphate bonds (3 ATP hydrolyzed to 2 ADP and one AMP)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The net energy expenditure of the urea cycle is:",
+    options: [
+      "A. Zero high-energy phosphate bonds",
+      "B. One high-energy phosphate bond",
+      "C. Two high-energy phosphate bonds",
+      "D. Three high-energy phosphate bonds"
+    ],
+    correctAnswer: "B. One high-energy phosphate bond",
+    explanation: "The net energy expenditure is only one high-energy phosphate. NADH production from glutamate oxidation and fumarate conversion provides energy, resulting in net production of one high-energy phosphate bond."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The key regulatory enzyme of the urea cycle is:",
+    options: [
+      "A. Ornithine transcarbamoylase",
+      "B. Argininosuccinate synthetase",
+      "C. Carbamoyl phosphate synthetase I",
+      "D. Arginase"
+    ],
+    correctAnswer: "C. Carbamoyl phosphate synthetase I",
+    explanation: "Carbamoyl phosphate synthetase I is the key regulatory enzyme of the urea cycle."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Valine, leucine, and isoleucine are:",
+    options: [
+      "A. Non-essential amino acids",
+      "B. Essential amino acids",
+      "C. Conditionally essential amino acids",
+      "D. Branched-chain essential amino acids"
+    ],
+    correctAnswer: "D. Branched-chain essential amino acids",
+    explanation: "Valine, leucine, and isoleucine are essential branched-chain amino acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "The first three metabolic reactions common to branched-chain amino acids are transamination, oxidative decarboxylation, and:",
+    options: [
+      "A. Dehydrogenation",
+      "B. Deamination",
+      "C. Decarboxylation",
+      "D. Hydroxylation"
+    ],
+    correctAnswer: "A. Dehydrogenation",
+    explanation: "The first three metabolic reactions common to branched-chain amino acids are transamination, oxidative decarboxylation, and dehydrogenation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Branched-chain α-keto acid dehydrogenase requires how many coenzymes?",
+    options: [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    correctAnswer: "D. 5",
+    explanation: "Branched-chain α-keto acid dehydrogenase requires 5 coenzymes: TPP, lipoamide, FAD, coenzyme A, and NAD⁺."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Which branched-chain amino acid is converted to propionyl CoA?",
+    options: [
+      "A. Leucine",
+      "B. Valine",
+      "C. Isoleucine",
+      "D. Both A and C"
+    ],
+    correctAnswer: "B. Valine",
+    explanation: "Valine is converted to propionyl CoA, a precursor for glucose. Leucine produces acetyl CoA and acetoacetate. Isoleucine is degraded to propionyl CoA and acetyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Which branched-chain amino acid is a pure ketogenic amino acid?",
+    options: [
+      "A. Valine",
+      "B. Leucine",
+      "C. Isoleucine",
+      "D. Both B and C"
+    ],
+    correctAnswer: "B. Leucine",
+    explanation: "Leucine is a pure ketogenic amino acid. Valine is glycogenic. Isoleucine is both glycogenic and ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Maple syrup urine disease is caused by a defect in:",
+    options: [
+      "A. Branched-chain amino acid transaminase",
+      "B. Branched-chain α-keto acid dehydrogenase",
+      "C. Isovaleryl CoA dehydrogenase",
+      "D. Valine transaminase"
+    ],
+    correctAnswer: "B. Branched-chain α-keto acid dehydrogenase",
+    explanation: "Maple syrup urine disease is caused by a defect in branched-chain α-keto acid dehydrogenase, causing a blockade in conversion of α-keto acids to acyl CoA thioesters."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "In maple syrup urine disease, the urine has an odor similar to:",
+    options: [
+      "A. Ammonia",
+      "B. Maple syrup or burnt sugar",
+      "C. Cabbage",
+      "D. Mousy odor"
+    ],
+    correctAnswer: "B. Maple syrup or burnt sugar",
+    explanation: "In MSUD, accumulation of branched-chain amino acids and their α-keto acid derivatives imparts a typical odor to urine similar to maple syrup or burnt sugar."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Symptoms of maple syrup urine disease appear within:",
+    options: [
+      "A. A few hours of birth",
+      "B. One week of birth",
+      "C. One month of birth",
+      "D. One year of birth"
+    ],
+    correctAnswer: "B. One week of birth",
+    explanation: "Clinical signs and symptoms of MSUD appear within one week of birth: lethargy, vomiting, and aversion to food, followed by severe brain damage and death."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Treatment of maple syrup urine disease consists of:",
+    options: [
+      "A. Exclusion of all amino acids from diet",
+      "B. Exclusion of branched-chain amino acids from diet",
+      "C. High protein diet",
+      "D. Vitamin B12 supplements"
+    ],
+    correctAnswer: "B. Exclusion of branched-chain amino acids from diet",
+    explanation: "Treatment of MSUD consists of exclusion of branched-chain amino acids from diet until plasma levels fall to normal, then restricted intake to maintain plasma levels."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Intermittent branched-chain ketonuria is:",
+    options: [
+      "A. A more severe variant of MSUD",
+      "B. A milder variant of MSUD",
+      "C. A different disease unrelated to MSUD",
+      "D. A disorder of fatty acid metabolism"
+    ],
+    correctAnswer: "B. A milder variant of MSUD",
+    explanation: "Intermittent branched-chain ketonuria is a milder variant of MSUD where enzyme activity is only moderately decreased, signs are milder and appear later."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Isovaleric acidemia is an inborn error of:",
+    options: [
+      "A. Valine metabolism",
+      "B. Leucine metabolism",
+      "C. Isoleucine metabolism",
+      "D. Methionine metabolism"
+    ],
+    correctAnswer: "B. Leucine metabolism",
+    explanation: "Isovaleric acidemia is a specific inborn error of leucine metabolism. The enzyme isovaleryl CoA dehydrogenase is defective."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "In isovaleric acidemia, affected individuals exhibit:",
+    options: [
+      "A. Mousy odor",
+      "B. Maple syrup odor",
+      "C. Cheesy odor",
+      "D. Cabbage-like odor"
+    ],
+    correctAnswer: "C. Cheesy odor",
+    explanation: "In isovaleric acidemia, excretion of isovalerate is high in urine, and affected individuals exhibit a 'cheesy' odor in breath and body fluids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Hypervalinemia is characterized by increased plasma concentration of:",
+    options: [
+      "A. Valine only",
+      "B. Leucine only",
+      "C. Isoleucine only",
+      "D. All three branched-chain amino acids"
+    ],
+    correctAnswer: "A. Valine only",
+    explanation: "Hypervalinemia is characterized by increased plasma concentration of valine while leucine and isoleucine levels remain normal."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Phenylalanine is a(n) ________ amino acid while tyrosine is a(n) ________ amino acid.",
+    options: [
+      "A. Essential, essential",
+      "B. Essential, non-essential",
+      "C. Non-essential, essential",
+      "D. Non-essential, non-essential"
+    ],
+    correctAnswer: "B. Essential, non-essential",
+    explanation: "Phenylalanine is an essential amino acid while tyrosine is non-essential. Tyrosine can be formed in the body from phenylalanine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Ingestion of tyrosine can reduce dietary requirement of phenylalanine due to:",
+    options: [
+      "A. Transamination",
+      "B. Sparing action",
+      "C. Competitive inhibition",
+      "D. Feedback inhibition"
+    ],
+    correctAnswer: "B. Sparing action",
+    explanation: "Ingestion of tyrosine can reduce the dietary requirement of phenylalanine, referred to as 'sparing action' of tyrosine on phenylalanine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Conversion of phenylalanine to tyrosine involves hydroxylation at which position of the benzene ring?",
+    options: [
+      "A. o-position",
+      "B. m-position",
+      "C. p-position",
+      "D. Both o and p positions"
+    ],
+    correctAnswer: "C. p-position",
+    explanation: "The conversion of phenylalanine to tyrosine involves hydroxylation at the p-position in the benzene ring by phenylalanine hydroxylase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a cofactor required for phenylalanine hydroxylase?",
+    options: [
+      "A. Molecular oxygen",
+      "B. NADPH",
+      "C. Tetrahydrobiopterin",
+      "D. NADH"
+    ],
+    correctAnswer: "D. NADH",
+    explanation: "Phenylalanine hydroxylase requires molecular oxygen, NADPH, Fe²⁺, and tetrahydrobiopterin. NADH is not required."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tyrosine is degraded to produce:",
+    options: [
+      "A. Pyruvate and acetyl CoA",
+      "B. Fumarate and acetoacetate",
+      "C. Succinyl CoA and acetyl CoA",
+      "D. Oxaloacetate and acetoacetate"
+    ],
+    correctAnswer: "B. Fumarate and acetoacetate",
+    explanation: "Tyrosine is degraded to produce fumarate (glucogenic) and acetoacetate (ketogenic)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Both phenylalanine and tyrosine are:",
+    options: [
+      "A. Purely ketogenic",
+      "B. Purely glucogenic",
+      "C. Both glucogenic and ketogenic",
+      "D. Neither glucogenic nor ketogenic"
+    ],
+    correctAnswer: "C. Both glucogenic and ketogenic",
+    explanation: "Both phenylalanine and tyrosine are glucogenic and ketogenic because tyrosine is degraded to fumarate and acetoacetate, and phenylalanine is catabolized via tyrosine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Synthesis of norepinephrine from tyrosine occurs in how many steps?",
+    options: [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 5"
+    ],
+    correctAnswer: "C. 4",
+    explanation: "Synthesis of norepinephrine from tyrosine occurs in four steps: 1) Hydroxylation, 2) Decarboxylation, 3) Hydroxylation, and 4) Methylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Melanins are synthesized from tyrosine in:",
+    options: [
+      "A. Keratinocytes",
+      "B. Melanosomes",
+      "C. Fibroblasts",
+      "D. Adipocytes"
+    ],
+    correctAnswer: "B. Melanosomes",
+    explanation: "Melanins are synthesized from tyrosine in 'melanosomes,' membrane-bound particles within melanocytes in skin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Which type of melanin contains sulphur?",
+    options: [
+      "A. Eumelanins",
+      "B. Pheomelanins",
+      "C. Trichochromes",
+      "D. Both B and C"
+    ],
+    correctAnswer: "D. Both B and C",
+    explanation: "Pheomelanins contain sulphur. Trichochromes contain sulphur and are related to pheomelanins. Eumelanins do not contain sulphur."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Phenylalanine and tyrosine are acted upon by intestinal bacteria to form:",
+    options: [
+      "A. Tyramine and tryptamine",
+      "B. Phenol and cresol",
+      "C. Indole derivatives",
+      "D. Serotonin"
+    ],
+    correctAnswer: "B. Phenol and cresol",
+    explanation: "Phenylalanine and tyrosine are acted upon by intestinal bacteria in the gut to form p-cresol and phenol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Classical phenylketonuria has an incidence of about:",
+    options: [
+      "A. 1 in 1,000 live births",
+      "B. 1 in 5,000 live births",
+      "C. 1 in 10,000 live births",
+      "D. 1 in 50,000 live births"
+    ],
+    correctAnswer: "C. 1 in 10,000 live births",
+    explanation: "Classical phenylketonuria has an incidence of about 1 in 10,000 live births. It was the first inborn error of amino acid metabolism to be treated successfully by diet manipulation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, phenylalanine cannot be converted to tyrosine due to deficiency of:",
+    options: [
+      "A. Tyrosine transaminase",
+      "B. Phenylalanine hydroxylase",
+      "C. Homogentisate oxidase",
+      "D. Tyrosinase"
+    ],
+    correctAnswer: "B. Phenylalanine hydroxylase",
+    explanation: "In PKU, there is a block in the conversion of phenylalanine to tyrosine. Two-thirds of patients have PKU type I where phenylalanine hydroxylase is deficient."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Which metabolite is responsible for the 'mousy odor' in PKU patients?",
+    options: [
+      "A. Phenylpyruvate",
+      "B. Phenyl-lactate",
+      "C. Phenylacetate",
+      "D. Phenylacetylglutamine"
+    ],
+    correctAnswer: "D. Phenylacetylglutamine",
+    explanation: "Phenylacetic acid is conjugated with glutamine and excreted as phenylacetylglutamine in urine, responsible for the 'mousy odor' of urine in PKU patients."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Untreated PKU shows symptoms of mental retardation by age of:",
+    options: [
+      "A. 3 months",
+      "B. 6 months",
+      "C. 1 year",
+      "D. 2 years"
+    ],
+    correctAnswer: "C. 1 year",
+    explanation: "Untreated PKU shows symptoms of mental retardation by age of one year. Clinical manifestations include delayed developmental milestones, seizures, and hypopigmentation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, tyrosine becomes:",
+    options: [
+      "A. Non-essential",
+      "B. Essential",
+      "C. Conditionally essential",
+      "D. Unnecessary in diet"
+    ],
+    correctAnswer: "B. Essential",
+    explanation: "In PKU, tyrosine cannot be synthesized endogenously, so tyrosine becomes an essential amino acid for patients. Their diet needs tyrosine supplements."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "PKU type II is caused by a defect in:",
+    options: [
+      "A. Phenylalanine hydroxylase",
+      "B. Dihydropteridine reductase",
+      "C. Tyrosine transaminase",
+      "D. Homogentisate oxidase"
+    ],
+    correctAnswer: "B. Dihydropteridine reductase",
+    explanation: "PKU type II is caused by a defect in dihydropteridine reductase. PKU type III is caused by a defect in conversion of GTP to tetrahydrobiopterin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tetrahydrobiopterin is also required for hydroxylation of:",
+    options: [
+      "A. Phenylalanine and tyrosine only",
+      "B. Tyrosine and tryptophan",
+      "C. Phenylalanine and tryptophan",
+      "D. All aromatic amino acids"
+    ],
+    correctAnswer: "B. Tyrosine and tryptophan",
+    explanation: "Tetrahydrobiopterin is required for hydroxylation of phenylalanine, tyrosine, and tryptophan. Deficiency affects synthesis of dopamine, norepinephrine, epinephrine, serotonin, and melatonin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Clinical abnormalities in PKU types II and III:",
+    options: [
+      "A. Are less severe than type I",
+      "B. Do not improve despite diet manipulation",
+      "C. Respond well to dietary management",
+      "D. Only appear in adulthood"
+    ],
+    correctAnswer: "B. Do not improve despite diet manipulation",
+    explanation: "Clinical abnormalities in PKU types II and III are more severe, appear early, and do not improve despite diet manipulation because multiple neurotransmitter systems are affected."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Alkaptonuria is caused by absence of:",
+    options: [
+      "A. Phenylalanine hydroxylase",
+      "B. Homogentisate oxidase",
+      "C. Tyrosinase",
+      "D. Fumarylacetoacetate hydrolase"
+    ],
+    correctAnswer: "B. Homogentisate oxidase",
+    explanation: "Alkaptonuria is an inborn error of tyrosine metabolism due to absence of homogentisate oxidase. Homogentisate, an intermediate in tyrosine catabolism, cannot be metabolized further."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In alkaptonuria, urine becomes dark on standing due to:",
+    options: [
+      "A. Oxidation of homogentisate by oxygen",
+      "B. Oxidation of phenylpyruvate by oxygen",
+      "C. Accumulation of melanin",
+      "D. Bacterial action"
+    ],
+    correctAnswer: "A. Oxidation of homogentisate by oxygen",
+    explanation: "In alkaptonuria, freshly voided urine is normal in color. Urine becomes dark on exposure to air due to oxidation of homogentisate by oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Ochronosis is generalized pigmentation of:",
+    options: [
+      "A. Skin only",
+      "B. Connective tissues",
+      "C. Blood vessels",
+      "D. Nervous tissue"
+    ],
+    correctAnswer: "B. Connective tissues",
+    explanation: "Homogentisate and its oxidation products form polymers that bind to collagen, leading to generalized pigmentation of connective tissues (ochronosis)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Ochronotic arthritis usually occurs in:",
+    options: [
+      "A. Small joints of hands and feet",
+      "B. Hip, knee, shoulder, and vertebral column",
+      "C. Temporomandibular joint",
+      "D. All joints equally"
+    ],
+    correctAnswer: "B. Hip, knee, shoulder, and vertebral column",
+    explanation: "Ochronotic arthritis usually occurs in hip, knee, shoulder joints, and vertebral column. Pigmented spots may be seen on sclera and ears."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tyrosinaemia type I is caused by deficiency of:",
+    options: [
+      "A. Tyrosine transaminase",
+      "B. Fumarylacetoacetate hydrolase",
+      "C. p-Hydroxyphenylpyruvate hydroxylase",
+      "D. Tyrosinase"
+    ],
+    correctAnswer: "B. Fumarylacetoacetate hydrolase",
+    explanation: "Tyrosinaemia type I is caused by deficiency of fumarylacetoacetate hydrolase. Tyrosinaemia type II is caused by deficiency of tyrosine transaminase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tyrosinaemia type I causes:",
+    options: [
+      "A. Eye and skin lesions",
+      "B. Liver damage and neurological abnormalities",
+      "C. Only skin manifestations",
+      "D. Only eye manifestations"
+    ],
+    correctAnswer: "B. Liver damage and neurological abnormalities",
+    explanation: "Tyrosinaemia type I causes neurological abnormalities, liver damage, and renal tubular dysfunction. Tyrosinaemia type II affects eyes and skin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tyrosinaemia type II is also known as:",
+    options: [
+      "A. Richner-Hanhart syndrome",
+      "B. Alkaptonuria",
+      "C. Ochronosis",
+      "D. Albinism"
+    ],
+    correctAnswer: "A. Richner-Hanhart syndrome",
+    explanation: "Tyrosinaemia type II is also known as Richner-Hanhart syndrome. It is characterized by eye and skin lesions and moderate mental retardation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Neonatal tyrosinaemia is caused by deficiency of:",
+    options: [
+      "A. Fumarylacetoacetate hydrolase",
+      "B. Tyrosine transaminase",
+      "C. p-Hydroxyphenylpyruvate hydroxylase",
+      "D. Phenylalanine hydroxylase"
+    ],
+    correctAnswer: "C. p-Hydroxyphenylpyruvate hydroxylase",
+    explanation: "Neonatal tyrosinaemia occurs due to relative deficiency of p-hydroxyphenylpyruvate hydroxylase. Blood levels of tyrosine and phenylalanine are elevated."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Albinism is due to absence of:",
+    options: [
+      "A. Phenylalanine hydroxylase",
+      "B. Homogentisate oxidase",
+      "C. Tyrosinase",
+      "D. Tyrosine transaminase"
+    ],
+    correctAnswer: "C. Tyrosinase",
+    explanation: "Albinism is due to absence of tyrosinase from melanocytes. This enzyme is required for synthesis of melanin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Albinos have a higher incidence of:",
+    options: [
+      "A. Heart disease",
+      "B. Skin cancer",
+      "C. Liver disease",
+      "D. Kidney stones"
+    ],
+    correctAnswer: "B. Skin cancer",
+    explanation: "Photophobia and skin hypersensitivity are common in albinos. The incidence of skin cancer is also high due to lack of melanin protection."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Histidinaemia is caused by deficiency of:",
+    options: [
+      "A. Histidine decarboxylase",
+      "B. Histidase",
+      "C. Histidine transaminase",
+      "D. Urocanase"
+    ],
+    correctAnswer: "B. Histidase",
+    explanation: "Histidinaemia is an inborn error of histidine metabolism in which histidase is deficient. Histidine cannot be converted to urocanic acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In histidinaemia, histidine is converted to all of the following EXCEPT:",
+    options: [
+      "A. Imidazole pyruvate",
+      "B. Imidazole lactate",
+      "C. Imidazole acetate",
+      "D. Urocanic acid"
+    ],
+    correctAnswer: "D. Urocanic acid",
+    explanation: "In histidinaemia, histidine is converted to imidazole pyruvate, imidazole lactate, and imidazole acetate. Urocanic acid cannot be formed due to histidase deficiency."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Most subjects with histidinaemia:",
+    options: [
+      "A. Have severe mental retardation",
+      "B. Have speech impairment",
+      "C. Have no symptoms",
+      "D. Require dietary treatment"
+    ],
+    correctAnswer: "C. Have no symptoms",
+    explanation: "Most subjects with histidinaemia have no symptoms. Only 1% develop problems, usually when exposed to perinatal hypoxia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a sulphur-containing amino acid?",
+    options: [
+      "A. L-Methionine",
+      "B. L-Cysteine",
+      "C. L-Cystine",
+      "D. L-Serine"
+    ],
+    correctAnswer: "D. L-Serine",
+    explanation: "Sulphur-containing amino acids are L-methionine (essential), L-cysteine, and L-cystine (both non-essential). Serine does not contain sulphur."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Methionine is a:",
+    options: [
+      "A. Sulfur-containing, essential, glucogenic amino acid",
+      "B. Sulfur-containing, non-essential, glucogenic amino acid",
+      "C. Sulfur-containing, essential, ketogenic amino acid",
+      "D. Non-sulfur-containing, essential amino acid"
+    ],
+    correctAnswer: "A. Sulfur-containing, essential, glucogenic amino acid",
+    explanation: "Methionine is a sulfur-containing, essential, glucogenic amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Methionine is activated to S-adenosyl methionine (SAM) by:",
+    options: [
+      "A. Methionine synthetase",
+      "B. Methionine adenosyl transferase",
+      "C. Cystathionine synthase",
+      "D. Homocysteine methyltransferase"
+    ],
+    correctAnswer: "B. Methionine adenosyl transferase",
+    explanation: "Methionine is activated to 'active methionine' or S-adenosyl methionine (SAM) by the enzyme methionine adenosyl transferase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In SAM, the methyl group is labile because of:",
+    options: [
+      "A. The thio-ether linkage",
+      "B. A high-energy bond",
+      "C. The presence of adenosyl group",
+      "D. The presence of sulphur"
+    ],
+    correctAnswer: "B. A high-energy bond",
+    explanation: "In methionine, the thio-ether linkage (C-S-C) is very stable. In SAM, due to the presence of a high-energy bond, the methyl group is labile and can be transferred easily."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Homocysteine can be converted to methionine by addition of a methyl group donated from:",
+    options: [
+      "A. The one-carbon pool with vitamin B12",
+      "B. The two-carbon pool with vitamin B6",
+      "C. The three-carbon pool with folic acid",
+      "D. The Krebs cycle"
+    ],
+    correctAnswer: "A. The one-carbon pool with vitamin B12",
+    explanation: "Homocysteine can be converted to methionine by addition of a methyl group donated from the one-carbon pool with the help of vitamin B12."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Homocysteine condenses with which amino acid to form cystathionine?",
+    options: [
+      "A. Glycine",
+      "B. Serine",
+      "C. Alanine",
+      "D. Threonine"
+    ],
+    correctAnswer: "B. Serine",
+    explanation: "Homocysteine condenses with serine to form cystathionine. This is catalyzed by pyridoxal phosphate (PLP) dependent cystathionine-beta synthase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Absence of cystathionine-beta synthase leads to:",
+    options: [
+      "A. Cystinuria",
+      "B. Homocystinuria",
+      "C. Alkaptonuria",
+      "D. Maple syrup urine disease"
+    ],
+    correctAnswer: "B. Homocystinuria",
+    explanation: "Absence of cystathionine-beta synthase leads to homocystinuria. This enzyme catalyzes condensation of homocysteine with serine to form cystathionine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cystathionine is hydrolyzed by cystathionase to form:",
+    options: [
+      "A. Cysteine and homoserine",
+      "B. Cysteine and serine",
+      "C. Methionine and homoserine",
+      "D. Methionine and serine"
+    ],
+    correctAnswer: "A. Cysteine and homoserine",
+    explanation: "Cystathionine is hydrolyzed by cystathionase to form cysteine and homoserine. This is the trans-sulfuration reaction."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Homoserine is deaminated and decarboxylated to:",
+    options: [
+      "A. Acetyl CoA",
+      "B. Propionyl CoA",
+      "C. Succinyl CoA",
+      "D. Pyruvate"
+    ],
+    correctAnswer: "B. Propionyl CoA",
+    explanation: "Homoserine is deaminated and then decarboxylated to propionyl CoA. It finally enters the TCA cycle as succinyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cysteine is catabolized to form:",
+    options: [
+      "A. Lactic acid",
+      "B. Pyruvic acid",
+      "C. Acetyl CoA",
+      "D. Oxaloacetic acid"
+    ],
+    correctAnswer: "B. Pyruvic acid",
+    explanation: "Cysteine is catabolized to form pyruvic acid, which can be converted to glucose. Thus cysteine is a glucogenic amino acid."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Glutathione is synthesized from:",
+    options: [
+      "A. Glutamic acid, cysteine, and glycine",
+      "B. Glutamic acid, methionine, and glycine",
+      "C. Glutamine, cysteine, and serine",
+      "D. Glutamate, methionine, and serine"
+    ],
+    correctAnswer: "A. Glutamic acid, cysteine, and glycine",
+    explanation: "Glutathione is formed from glutamic acid, cysteine, and glycine. G-SH is the reduced form with the active SH group."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "The oxidized form of glutathione is:",
+    options: [
+      "A. G-SH",
+      "B. G-S-S-G",
+      "C. SAM",
+      "D. SAH"
+    ],
+    correctAnswer: "B. G-S-S-G",
+    explanation: "G-SH is the reduced form of glutathione, and the active group is the SH group. G-S-S-G is the oxidized form."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Mercaptoethanolamine is an important constituent of:",
+    options: [
+      "A. Hemoglobin",
+      "B. Coenzyme A",
+      "C. NADH",
+      "D. FAD"
+    ],
+    correctAnswer: "B. Coenzyme A",
+    explanation: "Mercaptoethanolamine is an important constituent of coenzyme A."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cysteine is particularly prominent in:",
+    options: [
+      "A. Blood plasma proteins",
+      "B. Keratin of hair and nails",
+      "C. Enzymes",
+      "D. Neurotransmitters"
+    ],
+    correctAnswer: "B. Keratin of hair and nails",
+    explanation: "Cysteine is particularly prominent in proteins of nails, hairs, hoofs, and keratin of the skin. It is also a constituent of many other proteins."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Primary hyperoxaluria is a disorder of:",
+    options: [
+      "A. Glyoxylate metabolism",
+      "B. Tyrosine metabolism",
+      "C. Methionine metabolism",
+      "D. Glycine metabolism"
+    ],
+    correctAnswer: "A. Glyoxylate metabolism",
+    explanation: "Primary hyperoxaluria is a disorder of glyoxylate metabolism. Glyoxylate is formed from hydroxyproline and is normally transaminated to glycine or oxidized to formate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Glyoxylate is converted into oxalate when:",
+    options: [
+      "A. Glycine transaminase is deficient",
+      "B. Glycine decarboxylase is deficient",
+      "C. Serine transaminase is deficient",
+      "D. Alanine transaminase is deficient"
+    ],
+    correctAnswer: "A. Glycine transaminase is deficient",
+    explanation: "Glyoxylate is converted into oxalate when glycine transaminase is deficient or oxidation of glyoxylate is impaired, leading to recurrent oxalate stones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cystinuria involves a defect in tubular reabsorption of all of the following EXCEPT:",
+    options: [
+      "A. Cystine",
+      "B. Lysine",
+      "C. Arginine",
+      "D. Methionine"
+    ],
+    correctAnswer: "D. Methionine",
+    explanation: "Cystinuria involves a defect in tubular reabsorption of cystine, lysine, arginine, and ornithine. Methionine is not affected."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In homocystinuria, which enzyme is severely deficient?",
+    options: [
+      "A. Cystathionine-beta synthase",
+      "B. Cystathionase",
+      "C. Methionine adenosyl transferase",
+      "D. Homocysteine methyltransferase"
+    ],
+    correctAnswer: "A. Cystathionine-beta synthase",
+    explanation: "Cystathionine synthetase is severely deficient in homocystinuria, impairing conversion of methionine to cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Clinical features of homocystinuria include all of the following EXCEPT:",
+    options: [
+      "A. Thrombotic phenomena",
+      "B. Osteoporosis",
+      "C. Dislocation of ocular lenses",
+      "D. Hyperpigmentation"
+    ],
+    correctAnswer: "D. Hyperpigmentation",
+    explanation: "Clinical features of homocystinuria include thrombotic phenomena, osteoporosis, dislocation of lenses in eyes, mental retardation, and ischaemic vascular disease. Hyperpigmentation is not a feature."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Dislocation of ocular lenses in homocystinuria occurs due to:",
+    options: [
+      "A. Increased platelet adhesiveness",
+      "B. Abnormal collagen",
+      "C. Abnormal vessel walls",
+      "D. Osteoporosis"
+    ],
+    correctAnswer: "B. Abnormal collagen",
+    explanation: "Dislocation of ocular lenses and osteoporosis occur due to abnormal collagen. Thrombotic phenomena occur due to abnormal vessel walls and increased platelet adhesiveness."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Homocysteine has been described as:",
+    options: [
+      "A. The new glucose",
+      "B. The new cholesterol",
+      "C. The new insulin",
+      "D. The new amino acid"
+    ],
+    correctAnswer: "B. The new cholesterol",
+    explanation: "Homocysteine has been described as the new cholesterol because of its propensity to cause ischaemic vascular diseases at a young age."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Treatment of homocystinuria consists of:",
+    options: [
+      "A. High-methionine, low-cysteine diet",
+      "B. Low-methionine, high-cysteine diet",
+      "C. Exclusion of all sulfur-containing amino acids",
+      "D. High protein diet"
+    ],
+    correctAnswer: "B. Low-methionine, high-cysteine diet",
+    explanation: "Treatment of homocystinuria consists of a low-methionine, high-cysteine diet. Pyridoxine supplements may be given to activate residual cystathionine synthetase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Hyperhomocysteinaemia may occur due to deficiency of:",
+    options: [
+      "A. Vitamin A and vitamin D",
+      "B. Folic acid and vitamin B12",
+      "C. Vitamin C and vitamin E",
+      "D. Vitamin K and vitamin B6"
+    ],
+    correctAnswer: "B. Folic acid and vitamin B12",
+    explanation: "Hyperhomocysteinaemia may occur due to deficiency of some vitamins, especially folic acid and vitamin B12. In such cases, vitamin supplements correct the abnormality."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, when plasma phenylalanine exceeds 1 mmol/L, which of the following is formed?",
+    options: [
+      "A. Tyrosine",
+      "B. Phenylpyruvate",
+      "C. Homogentisate",
+      "D. Melanin"
+    ],
+    correctAnswer: "B. Phenylpyruvate",
+    explanation: "In PKU, when plasma phenylalanine level exceeds 1 mmol/L, alternate metabolites of phenylalanine are formed including phenylpyruvate, phenyl-lactate, phenylacetate, and phenylacetylglutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "High phenylalanine levels in PKU inhibit:",
+    options: [
+      "A. Only intestinal absorption of other amino acids",
+      "B. Only renal reabsorption of other amino acids",
+      "C. Both intestinal absorption and renal reabsorption of other amino acids",
+      "D. Only neurotransmitter synthesis"
+    ],
+    correctAnswer: "C. Both intestinal absorption and renal reabsorption of other amino acids",
+    explanation: "A high phenylalanine level may inhibit intestinal absorption and renal tubular reabsorption of other amino acids sharing the same transport system. Uptake by brain may also be inhibited."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, synthesis of myelin sheath and norepinephrine is:",
+    options: [
+      "A. Increased",
+      "B. Decreased",
+      "C. Unchanged",
+      "D. Variable"
+    ],
+    correctAnswer: "B. Decreased",
+    explanation: "In PKU, synthesis of myelin sheath is decreased and synthesis of norepinephrine in the brain is decreased. Decreased tyrosine availability may decrease melanin synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Early diagnosis of PKU should be within:",
+    options: [
+      "A. 1 week of birth",
+      "B. 3 weeks of birth",
+      "C. 6 weeks of birth",
+      "D. 3 months of birth"
+    ],
+    correctAnswer: "B. 3 weeks of birth",
+    explanation: "Early diagnosis (within 3 weeks of birth) and treatment can prevent clinical abnormalities in PKU. A low-phenylalanine diet is given to keep plasma phenylalanine below 6 mg/dl."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, a low-phenylalanine diet aims to keep plasma phenylalanine level below:",
+    options: [
+      "A. 2 mg/dl",
+      "B. 4 mg/dl",
+      "C. 6 mg/dl",
+      "D. 10 mg/dl"
+    ],
+    correctAnswer: "C. 6 mg/dl",
+    explanation: "In PKU, a low-phenylalanine diet is given to keep the plasma phenylalanine level below 6 mg/dl."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Tetrahydrobiopterin deficiency affects synthesis of all of the following EXCEPT:",
+    options: [
+      "A. Dopamine",
+      "B. Norepinephrine",
+      "C. Serotonin",
+      "D. Histamine"
+    ],
+    correctAnswer: "D. Histamine",
+    explanation: "Tetrahydrobiopterin is required for hydroxylation of tyrosine and tryptophan. Deficiency affects dopamine, norepinephrine, epinephrine, serotonin, and melatonin. Histamine is not affected."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Decarboxylation removes which group from an amino acid?",
+    options: [
+      "A. Amino group",
+      "B. Carboxyl group",
+      "C. R group",
+      "D. Hydrogen"
+    ],
+    correctAnswer: "B. Carboxyl group",
+    explanation: "Decarboxylation removes the carboxyl group (CO₂) from the COOH group of an amino acid, forming an amine. It requires pyridoxal-P as coenzyme."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which tissue does NOT possess the enzyme decarboxylase?",
+    options: [
+      "A. Liver",
+      "B. Kidney",
+      "C. Brain",
+      "D. Erythrocytes"
+    ],
+    correctAnswer: "D. Erythrocytes",
+    explanation: "Tissues like liver, kidney, and brain possess the enzyme decarboxylase, as do microorganisms of the intestinal tract. Erythrocytes do not."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Decarboxylation of tyrosine forms:",
+    options: [
+      "A. Tryptamine",
+      "B. Tyramine",
+      "C. Histamine",
+      "D. Serotonin"
+    ],
+    correctAnswer: "B. Tyramine",
+    explanation: "Decarboxylation of tyrosine forms tyramine, which elevates blood pressure. This occurs in the gut as a result of bacterial action and in the kidney."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Tryptamine is formed by decarboxylation of:",
+    options: [
+      "A. Tyrosine",
+      "B. Tryptophan",
+      "C. Histidine",
+      "D. Phenylalanine"
+    ],
+    correctAnswer: "B. Tryptophan",
+    explanation: "Tryptamine is formed by decarboxylation of tryptophan in mammalian kidney, liver, and gut bacteria. Tryptamine elevates blood pressure."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Hydroxylation of tryptamine at the 5-position produces:",
+    options: [
+      "A. Tyramine",
+      "B. Serotonin (5-HT)",
+      "C. Histamine",
+      "D. Melatonin"
+    ],
+    correctAnswer: "B. Serotonin (5-HT)",
+    explanation: "Hydroxylation of tryptamine at the 5-position produces 5-OH-tryptamine (5-HT/Serotonin)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Histamine is formed by decarboxylation of:",
+    options: [
+      "A. Tryptophan",
+      "B. Tyrosine",
+      "C. Histidine",
+      "D. Phenylalanine"
+    ],
+    correctAnswer: "C. Histidine",
+    explanation: "Histamine is formed by decarboxylation of histidine by histidine decarboxylase or aromatic L-amino acid decarboxylase in the presence of B6-PO4."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Leucine and lysine are:",
+    options: [
+      "A. The only pure glucogenic amino acids",
+      "B. The only pure ketogenic amino acids",
+      "C. Both glucogenic and ketogenic",
+      "D. Neither glucogenic nor ketogenic"
+    ],
+    correctAnswer: "B. The only pure ketogenic amino acids",
+    explanation: "Leucine and lysine are the only pure ketogenic amino acids. Amino acids which give acetyl CoA are ketogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Threonine is classified as a:",
+    options: [
+      "A. Ketogenic amino acid",
+      "B. Glucogenic amino acid",
+      "C. Both glucogenic and ketogenic",
+      "D. Neither glucogenic nor ketogenic"
+    ],
+    correctAnswer: "B. Glucogenic amino acid",
+    explanation: "Threonine is classified as a glucogenic amino acid. Its carbon skeleton can be used to generate glucose through multiple metabolic entry points."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Threonine aldolase cleaves threonine to produce:",
+    options: [
+      "A. Glycine and acetaldehyde",
+      "B. Glycine and pyruvate",
+      "C. Serine and acetaldehyde",
+      "D. Alanine and acetaldehyde"
+    ],
+    correctAnswer: "A. Glycine and acetaldehyde",
+    explanation: "Threonine aldolase cleaves threonine to produce glycine and acetaldehyde. Glycine has roles in heme synthesis, purine synthesis, and glutathione formation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Threonine dehydratase converts threonine to:",
+    options: [
+      "A. Glycine",
+      "B. α-Ketobutyrate",
+      "C. Aminoacetone",
+      "D. Pyruvate"
+    ],
+    correctAnswer: "B. α-Ketobutyrate",
+    explanation: "Threonine dehydratase deaminates threonine to form α-ketobutyrate, which is further converted to propionyl-CoA and enters the TCA cycle as succinyl-CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Threonine dehydrogenase converts threonine to 2-amino-3-ketobutyrate, which is then converted to:",
+    options: [
+      "A. Glycine",
+      "B. α-Ketobutyrate",
+      "C. Aminoacetone",
+      "D. Acetaldehyde"
+    ],
+    correctAnswer: "C. Aminoacetone",
+    explanation: "Threonine dehydrogenase oxidizes threonine to 2-amino-3-ketobutyrate, which is then converted to aminoacetone. Aminoacetone can be further metabolized to pyruvate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Glycine can be reversibly converted to serine through:",
+    options: [
+      "A. Threonine aldolase",
+      "B. Serine hydroxymethyltransferase (SHMT)",
+      "C. Threonine dehydratase",
+      "D. Threonine dehydrogenase"
+    ],
+    correctAnswer: "B. Serine hydroxymethyltransferase (SHMT)",
+    explanation: "Glycine can be reversibly converted to serine through serine hydroxymethyltransferase (SHMT), a reaction that requires tetrahydrofolate (THF) as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "One-carbon units from glycine-serine interconversion are critical for all of the following EXCEPT:",
+    options: [
+      "A. Purine synthesis",
+      "B. Thymidylate synthesis",
+      "C. Fatty acid synthesis",
+      "D. Methylation reactions via SAM"
+    ],
+    correctAnswer: "C. Fatty acid synthesis",
+    explanation: "One-carbon units are critical for purine synthesis, thymidylate synthesis (for DNA replication), and methylation reactions via SAM. Fatty acid synthesis is not directly dependent on one-carbon units."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Products of methylation reactions include all of the following EXCEPT:",
+    options: [
+      "A. Creatine",
+      "B. Epinephrine",
+      "C. Choline",
+      "D. Glutamine"
+    ],
+    correctAnswer: "D. Glutamine",
+    explanation: "Products of methylation reactions with SAM include creatine, epinephrine, choline, and melatonin. Glutamine is not a product of methylation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Methyl groups for transmethylation are originally derived from:",
+    options: [
+      "A. The two-carbon pool",
+      "B. The one-carbon pool",
+      "C. The Krebs cycle",
+      "D. Fatty acid oxidation"
+    ],
+    correctAnswer: "B. The one-carbon pool",
+    explanation: "Methyl groups are originally derived from the one-carbon pool. Methyl tetrahydrofolic acid (methyl-THFA) can transfer the methyl group to homocysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Vitamin B12 deficiency is associated with folic acid deficiency due to:",
+    options: [
+      "A. Increased folate excretion",
+      "B. The folate trap",
+      "C. Reduced folate absorption",
+      "D. Increased folate degradation"
+    ],
+    correctAnswer: "B. The folate trap",
+    explanation: "Vitamin B12 is the co-enzyme for the reaction accounting for the deficiency of folic acid associated with B12 deficiency (folate trap)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "The summary pathway of methionine to cysteine conversion is:",
+    options: [
+      "A. Methionine → Homocysteine → SAM → SAH → Cystathionine → Cysteine",
+      "B. Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine",
+      "C. Methionine → SAH → SAM → Homocysteine → Cystathionine → Cysteine",
+      "D. Methionine → SAM → Homocysteine → SAH → Cystathionine → Cysteine"
+    ],
+    correctAnswer: "B. Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine",
+    explanation: "The correct pathway is Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Trans-sulfuration reaction transfers the SH group from:",
+    options: [
+      "A. Cysteine to methionine",
+      "B. Methionine to serine",
+      "C. Serine to methionine",
+      "D. Methionine to cysteine"
+    ],
+    correctAnswer: "B. Methionine to serine",
+    explanation: "The trans-sulfuration reaction transfers the SH group from methionine to serine to form cysteine. The net result is that the SH group from methionine is transferred to serine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In primary hyperoxaluria, glyoxylate is formed from:",
+    options: [
+      "A. Glycine",
+      "B. Hydroxyproline",
+      "C. Serine",
+      "D. Alanine"
+    ],
+    correctAnswer: "B. Hydroxyproline",
+    explanation: "Primary hyperoxaluria is a disorder of glyoxylate metabolism. Glyoxylate is formed from hydroxyproline."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Oxalate stones in primary hyperoxaluria are formed in:",
+    options: [
+      "A. Gallbladder",
+      "B. Urinary tract",
+      "C. Kidneys only",
+      "D. Bladder only"
+    ],
+    correctAnswer: "B. Urinary tract",
+    explanation: "Glyoxylate converted to oxalate leads to hyperoxaluria and recurrent formation of oxalate stones in the urinary tract."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In cystinuria, the sparingly soluble amino acid that deposits in the kidneys is:",
+    options: [
+      "A. Lysine",
+      "B. Arginine",
+      "C. Ornithine",
+      "D. Cystine"
+    ],
+    correctAnswer: "D. Cystine",
+    explanation: "Urinary excretion of cystine is increased in cystinuria. Being sparingly soluble, cystine deposits in the kidneys and forms cystine stones."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In homocystinuria, plasma levels of which amino acids are increased?",
+    options: [
+      "A. Methionine and homocysteine",
+      "B. Cysteine and cystine",
+      "C. Valine and leucine",
+      "D. Phenylalanine and tyrosine"
+    ],
+    correctAnswer: "A. Methionine and homocysteine",
+    explanation: "In homocystinuria, plasma methionine and homocysteine levels are increased. Urinary excretion of homocystine is increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Ischaemic vascular diseases in homocystinuria occur at:",
+    options: [
+      "A. Old age",
+      "B. Young age",
+      "C. Middle age",
+      "D. Variable age"
+    ],
+    correctAnswer: "B. Young age",
+    explanation: "Ischaemic vascular diseases occur at a young age in homocystinuria. Homocysteine has been described as the new cholesterol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Pyridoxine supplements in homocystinuria are given to:",
+    options: [
+      "A. Increase methionine synthesis",
+      "B. Activate residual cystathionine synthetase",
+      "C. Decrease homocysteine excretion",
+      "D. Increase cysteine excretion"
+    ],
+    correctAnswer: "B. Activate residual cystathionine synthetase",
+    explanation: "Pyridoxine supplements may be given in homocystinuria to activate the residual cystathionine synthetase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In alkaptonuria, the urine when kept in a test tube starts to blacken from:",
+    options: [
+      "A. The bottom layer",
+      "B. The top layer",
+      "C. The middle layer",
+      "D. Uniformly"
+    ],
+    correctAnswer: "B. The top layer",
+    explanation: "In alkaptonuria, the urine when kept in a test tube will start to blacken from the top layer due to exposure to oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Benedict's test in alkaptonuria is:",
+    options: [
+      "A. Negative",
+      "B. Weakly positive",
+      "C. Strongly positive",
+      "D. Variable"
+    ],
+    correctAnswer: "C. Strongly positive",
+    explanation: "Benedict's test is strongly positive in alkaptonuria, making it a differential diagnosis for reducing substances in urine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Acute tyrosinosis infants exhibit all of the following EXCEPT:",
+    options: [
+      "A. Diarrhea and vomiting",
+      "B. Cabbage-like odor",
+      "C. Liver damage",
+      "D. Skin lesions"
+    ],
+    correctAnswer: "D. Skin lesions",
+    explanation: "Acute tyrosinosis infants exhibit diarrhea, vomiting, a 'cabbage-like' odor, and liver damage. Untreated cases die within 6 to 8 months. Skin lesions are seen in type II."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Untreated acute tyrosinosis leads to death within:",
+    options: [
+      "A. 1-2 months",
+      "B. 3-5 months",
+      "C. 6-8 months",
+      "D. 12-18 months"
+    ],
+    correctAnswer: "C. 6-8 months",
+    explanation: "Untreated acute tyrosinosis cases do not survive and death occurs within 6 to 8 months."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Chronic tyrosinosis leads to death by age of:",
+    options: [
+      "A. 2 years",
+      "B. 5 years",
+      "C. 10 years",
+      "D. 15 years"
+    ],
+    correctAnswer: "C. 10 years",
+    explanation: "Chronic tyrosinosis children survive and in untreated cases lead to death by the age of 10 years."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In both types of tyrosinosis, plasma tyrosine levels are elevated to:",
+    options: [
+      "A. 2-4 mg/dl",
+      "B. 4-6 mg/dl",
+      "C. 6-12 mg/dl",
+      "D. 12-20 mg/dl"
+    ],
+    correctAnswer: "C. 6-12 mg/dl",
+    explanation: "In both acute and chronic tyrosinosis, plasma tyrosine levels are elevated: 6 to 12 mg/dl. Plasma methionine level is also increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Neonatal tyrosinaemia is treated by:",
+    options: [
+      "A. High protein diet",
+      "B. Low protein diet",
+      "C. Tyrosine supplements",
+      "D. Methionine supplements"
+    ],
+    correctAnswer: "B. Low protein diet",
+    explanation: "Neonatal tyrosinaemia occurs due to relative deficiency of p-hydroxyphenylpyruvate hydroxylase. Therapy involves feeding a diet low in protein."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Albinos use which measures to reduce discomfort?",
+    options: [
+      "A. Antibiotics and antifungals",
+      "B. Goggles and sunscreen lotions",
+      "C. Hormone therapy",
+      "D. Dietary restrictions"
+    ],
+    correctAnswer: "B. Goggles and sunscreen lotions",
+    explanation: "Photophobia and skin hypersensitivity are common in albinos. Goggles and sunscreen lotions can reduce the discomfort."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In histidinaemia, which percentage of subjects develop behavioral problems when exposed to perinatal hypoxia?",
+    options: [
+      "A. 10%",
+      "B. 5%",
+      "C. 1%",
+      "D. 0.1%"
+    ],
+    correctAnswer: "C. 1%",
+    explanation: "1% of histidinaemic subjects develop behavioral problems, learning disorders, and intellectual disability, usually when exposed to perinatal hypoxia."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Which enzyme defect leads to histidinaemia?",
+    options: [
+      "A. Histidine decarboxylase",
+      "B. Histidase",
+      "C. Urocanase",
+      "D. Imidazole pyruvate transaminase"
+    ],
+    correctAnswer: "B. Histidase",
+    explanation: "Histidinaemia is an inborn error of histidine metabolism in which histidase is deficient."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In histidinaemia, histidine concentration in plasma is:",
+    options: [
+      "A. Decreased",
+      "B. Normal",
+      "C. Increased",
+      "D. Variable"
+    ],
+    correctAnswer: "C. Increased",
+    explanation: "In histidinaemia, histidase is deficient, histidine cannot be converted to urocanic acid, and histidine concentration in plasma is increased."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Which of the following is NOT a method of specific deamination?",
+    options: [
+      "A. Glycine cleavage system",
+      "B. Histidase",
+      "C. Dehydratases",
+      "D. Transaminases"
+    ],
+    correctAnswer: "D. Transaminases",
+    explanation: "Specific deamination methods include glycine oxidase, glycine cleavage system, histidase, dehydratases, desulfhydrases, hydrolytic deaminases, and reductive deaminases. Transaminases are a general method."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Cysteine desulfhydrase catalyzes:",
+    options: [
+      "A. Oxidative deamination",
+      "B. Deamination of cysteine",
+      "C. Transamination of cysteine",
+      "D. Decarboxylation of cysteine"
+    ],
+    correctAnswer: "B. Deamination of cysteine",
+    explanation: "Cysteine desulfhydrase catalyzes the deamination of cysteine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Reductive deaminases act by:",
+    options: [
+      "A. Intestinal bacteria during putrefaction",
+      "B. Liver enzymes",
+      "C. Kidney enzymes",
+      "D. Brain enzymes"
+    ],
+    correctAnswer: "A. Intestinal bacteria during putrefaction",
+    explanation: "Reductive deaminases act by intestinal bacteria on amino acids during putrefaction, producing corresponding organic acids."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "The amount of protein in a 70 Kg man is approximately:",
+    options: [
+      "A. 1 Kg",
+      "B. 5 Kg",
+      "C. 12 Kg",
+      "D. 25 Kg"
+    ],
+    correctAnswer: "C. 12 Kg",
+    explanation: "The amino acid pool is small (100 gm) compared to the amount of protein in the body (about 12 Kg in a 70 Kg man)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "The amino acid pool contains 50% of its amino acids as:",
+    options: [
+      "A. Alanine and glycine",
+      "B. Glutamate and glutamine",
+      "C. Aspartate and asparagine",
+      "D. Valine and leucine"
+    ],
+    correctAnswer: "B. Glutamate and glutamine",
+    explanation: "50% of the amino acids in the amino acid pool are in the form of glutamate and glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "The direction of the L-glutamate dehydrogenase reaction depends on all of the following EXCEPT:",
+    options: [
+      "A. Availability of substrates",
+      "B. Ratio of NADP:NADPH+H",
+      "C. Allosteric regulation",
+      "D. pH of the environment"
+    ],
+    correctAnswer: "D. pH of the environment",
+    explanation: "The direction depends on availability of substrates, relative concentrations of substrates, ratio of NADP:NADPH+H, and allosteric regulation. pH is not a primary regulator."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "L-glutamate dehydrogenase is inhibited by:",
+    options: [
+      "A. ADP and GDP",
+      "B. ATP and GTP",
+      "C. NADP and NADPH",
+      "D. Calcium and magnesium"
+    ],
+    correctAnswer: "B. ATP and GTP",
+    explanation: "L-glutamate dehydrogenase is activated by ADP or GDP. It is inhibited by ATP, GTP, and NADH."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Transaminases are normally found:",
+    options: [
+      "A. Extracellularly",
+      "B. Intracellularly",
+      "C. In the blood",
+      "D. In the urine"
+    ],
+    correctAnswer: "B. Intracellularly",
+    explanation: "Transaminases are normally intracellular enzymes. They are elevated in the blood when damage to the cells producing these enzymes occurs."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Amino Acid Metabolism & Deamination",
+    type: "multiplechoice",
+    question: "Increased level of AST alone suggests damage to all of the following EXCEPT:",
+    options: [
+      "A. Heart muscle",
+      "B. Skeletal muscle",
+      "C. Liver cells",
+      "D. Kidney"
+    ],
+    correctAnswer: "C. Liver cells",
+    explanation: "Increased level of AST alone suggests damage to heart muscle, skeletal muscle, or kidney. Increased levels of both ALT and AST indicate possible damage to liver cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Glutamine synthetase is a:",
+    options: [
+      "A. Cytosolic enzyme",
+      "B. Mitochondrial enzyme",
+      "C. Nuclear enzyme",
+      "D. Extracellular enzyme"
+    ],
+    correctAnswer: "B. Mitochondrial enzyme",
+    explanation: "Glutamine synthetase is a mitochondrial enzyme that catalyzes: Glutamic acid + Ammonia → Glutamine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "CPS I is located in the:",
+    options: [
+      "A. Cytoplasm",
+      "B. Mitochondria",
+      "C. Nucleus",
+      "D. Endoplasmic reticulum"
+    ],
+    correctAnswer: "B. Mitochondria",
+    explanation: "CPS I is located in the mitochondria and is involved in urea synthesis. CPS II is located in the cytoplasm and is involved in pyrimidine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "CPS II uses which source of nitrogen?",
+    options: [
+      "A. Ammonia",
+      "B. Glutamine",
+      "C. Glutamate",
+      "D. Aspartate"
+    ],
+    correctAnswer: "B. Glutamine",
+    explanation: "CPS I uses ammonia as a source of nitrogen, while CPS II uses glutamine. CPS I is involved in urea synthesis, CPS II in pyrimidine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Arginine stimulates the urea cycle by:",
+    options: [
+      "A. Directly activating CPS I",
+      "B. Stimulating N-acetylglutamate synthesis",
+      "C. Inhibiting arginase",
+      "D. Increasing ammonia production"
+    ],
+    correctAnswer: "B. Stimulating N-acetylglutamate synthesis",
+    explanation: "Arginine stimulates the synthesis of N-acetylglutamate, which then allosterically activates carbamoyl phosphate synthetase I."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Symptoms of NH₃ intoxication include all of the following EXCEPT:",
+    options: [
+      "A. Flapping tremor",
+      "B. Slurring of speech",
+      "C. Blurring of vision",
+      "D. Increased alertness"
+    ],
+    correctAnswer: "D. Increased alertness",
+    explanation: "Symptoms include flapping tremor, slurring of speech, blurring of vision, and in severe cases, coma and death. Increased alertness is not a symptom."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Acquired hyperammonaemia results from:",
+    options: [
+      "A. Genetic defects in urea cycle enzymes",
+      "B. Cirrhosis of the liver",
+      "C. Vitamin deficiency",
+      "D. Dietary excess"
+    ],
+    correctAnswer: "B. Cirrhosis of the liver",
+    explanation: "Acquired hyperammonaemia results from cirrhosis of the liver. Inherited hyperammonaemia results from genetic defects in urea cycle enzymes."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, excess phenylalanine in the intestine competes with which amino acid for absorption?",
+    options: [
+      "A. Tyrosine",
+      "B. Tryptophan",
+      "C. Histidine",
+      "D. Leucine"
+    ],
+    correctAnswer: "B. Tryptophan",
+    explanation: "Excess phenylalanine in blood leads to excretion into the intestine where it competes with tryptophan for absorption, leading to indole derivative formation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Synthesis of catecholamines from tyrosine occurs in which order?",
+    options: [
+      "A. Tyrosine → dopamine → norepinephrine → epinephrine",
+      "B. Tyrosine → norepinephrine → dopamine → epinephrine",
+      "C. Tyrosine → epinephrine → norepinephrine → dopamine",
+      "D. Tyrosine → dopamine → epinephrine → norepinephrine"
+    ],
+    correctAnswer: "A. Tyrosine → dopamine → norepinephrine → epinephrine",
+    explanation: "The correct order is: Tyrosine → DOPA → Dopamine → Norepinephrine → Epinephrine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "The conversion of DOPA to dopamine occurs in:",
+    options: [
+      "A. Mitochondria",
+      "B. Cytoplasm",
+      "C. Granules/vesicles",
+      "D. Nucleus"
+    ],
+    correctAnswer: "B. Cytoplasm",
+    explanation: "Conversion of tyrosine to DOPA occurs in the mitochondrion. Conversion of DOPA to dopamine occurs in the cytoplasm. Conversion of dopamine to norepinephrine occurs in granules/vesicles."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "The conversion of dopamine to norepinephrine occurs in:",
+    options: [
+      "A. Mitochondria",
+      "B. Cytoplasm",
+      "C. Granules/vesicles",
+      "D. Cell membrane"
+    ],
+    correctAnswer: "C. Granules/vesicles",
+    explanation: "Conversion of dopamine to norepinephrine occurs in granules/vesicles. Conversion of norepinephrine to epinephrine occurs in the cytosol."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following is a type of melanin that contains sulphur?",
+    options: [
+      "A. Eumelanins only",
+      "B. Pheomelanins only",
+      "C. Pheomelanins and trichochromes",
+      "D. Eumelanins and trichochromes"
+    ],
+    correctAnswer: "C. Pheomelanins and trichochromes",
+    explanation: "Pheomelanins contain sulphur. Trichochromes contain sulphur and are related to pheomelanins. Eumelanins do not contain sulphur."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In alkaptonuria, the urine darkens on standing when it becomes:",
+    options: [
+      "A. Acidic",
+      "B. Alkaline",
+      "C. Neutral",
+      "D. Any pH"
+    ],
+    correctAnswer: "B. Alkaline",
+    explanation: "In alkaptonuria, the urine turns black on standing when it becomes alkaline. Blackening is accelerated on exposure to sunlight and oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Ferric chloride test is positive in which condition?",
+    options: [
+      "A. PKU",
+      "B. Alkaptonuria",
+      "C. Albinism",
+      "D. Homocystinuria"
+    ],
+    correctAnswer: "B. Alkaptonuria",
+    explanation: "Ferric chloride test is positive for urine in alkaptonuria. Benedict's test is also strongly positive."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Ochronotic arthritis occurs due to:",
+    options: [
+      "A. Increased melanin deposition",
+      "B. Homogentisate binding to collagen",
+      "C. Uric acid deposition",
+      "D. Calcium deposition"
+    ],
+    correctAnswer: "B. Homogentisate binding to collagen",
+    explanation: "Homogentisate and its oxidation products form polymers that bind to collagen, causing chemical irritation and degenerative changes leading to ochronotic arthritis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In tyrosinaemia type I, there is deficiency of:",
+    options: [
+      "A. Tyrosine transaminase",
+      "B. Fumarylacetoacetate hydrolase",
+      "C. p-Hydroxyphenylpyruvate hydroxylase",
+      "D. Tyrosinase"
+    ],
+    correctAnswer: "B. Fumarylacetoacetate hydrolase",
+    explanation: "Tyrosinaemia type I is caused by deficiency of fumarylacetoacetate hydrolase. Type II is caused by deficiency of tyrosine transaminase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In tyrosinaemia type II, there is deficiency of:",
+    options: [
+      "A. Fumarylacetoacetate hydrolase",
+      "B. Tyrosine transaminase",
+      "C. p-Hydroxyphenylpyruvate hydroxylase",
+      "D. Tyrosinase"
+    ],
+    correctAnswer: "B. Tyrosine transaminase",
+    explanation: "Tyrosinaemia type II is caused by deficiency of tyrosine transaminase. It is also known as Richner-Hanhart syndrome."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "The conversion of tyrosine to DOPA occurs in the:",
+    options: [
+      "A. Cytoplasm",
+      "B. Mitochondrion",
+      "C. Nucleus",
+      "D. Cell membrane"
+    ],
+    correctAnswer: "B. Mitochondrion",
+    explanation: "Conversion of tyrosine to DOPA occurs in the mitochondrion. This is the first step in catecholamine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "The conversion of norepinephrine to epinephrine occurs in the:",
+    options: [
+      "A. Mitochondria",
+      "B. Cytoplasm",
+      "C. Granules/vesicles",
+      "D. Cell membrane"
+    ],
+    correctAnswer: "B. Cytoplasm",
+    explanation: "Conversion of norepinephrine to epinephrine occurs in the cytosol. This is the final step in catecholamine synthesis."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Phenylalanine hydroxylase deficiency in PKU leads to decreased synthesis of melanin due to:",
+    options: [
+      "A. Direct enzyme involvement in melanin synthesis",
+      "B. Decreased tyrosine availability",
+      "C. Increased melanin degradation",
+      "D. Inhibition of tyrosinase"
+    ],
+    correctAnswer: "B. Decreased tyrosine availability",
+    explanation: "In PKU, decreased availability of tyrosine (since it cannot be synthesized from phenylalanine) may decrease the synthesis of melanin, resulting in hypopigmentation."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "The 'folate trap' refers to:",
+    options: [
+      "A. Excessive folate storage",
+      "B. Vitamin B12 deficiency causing folate deficiency",
+      "C. Folate excretion",
+      "D. Folate degradation"
+    ],
+    correctAnswer: "B. Vitamin B12 deficiency causing folate deficiency",
+    explanation: "Vitamin B12 is the co-enzyme for the reaction accounting for the deficiency of folic acid associated with B12 deficiency (folate trap)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Which of the following amino acids is both glucogenic and ketogenic?",
+    options: [
+      "A. Leucine",
+      "B. Lysine",
+      "C. Isoleucine",
+      "D. Valine"
+    ],
+    correctAnswer: "C. Isoleucine",
+    explanation: "Isoleucine is both glucogenic and ketogenic. Leucine and lysine are pure ketogenic. Valine is glucogenic."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "In MSUD, branched-chain amino acids competitively inhibit:",
+    options: [
+      "A. Alanine transaminase",
+      "B. Glutamate dehydrogenase",
+      "C. Pyruvate dehydrogenase",
+      "D. Isocitrate dehydrogenase"
+    ],
+    correctAnswer: "B. Glutamate dehydrogenase",
+    explanation: "In MSUD, accumulation of branched-chain amino acids competitively inhibits glutamate dehydrogenase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "Diagnosis of MSUD should be done prior to:",
+    options: [
+      "A. 3 days after birth",
+      "B. 1 week after birth",
+      "C. 2 weeks after birth",
+      "D. 1 month after birth"
+    ],
+    correctAnswer: "B. 1 week after birth",
+    explanation: "Diagnosis of MSUD depends on enzyme analysis and should be done prior to 1 week after birth for early intervention."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Branched-Chain Amino Acid Disorders",
+    type: "multiplechoice",
+    question: "In isovaleric acidemia, the defective enzyme is:",
+    options: [
+      "A. Isovaleryl CoA dehydrogenase",
+      "B. α-Keto acid dehydrogenase",
+      "C. Branched-chain transaminase",
+      "D. Isocaproyl CoA dehydrogenase"
+    ],
+    correctAnswer: "A. Isovaleryl CoA dehydrogenase",
+    explanation: "In isovaleric acidemia, the enzyme isovaleryl CoA dehydrogenase is defective, impairing conversion of isovaleryl CoA to methylcrotonyl CoA."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Primary hyperoxaluria leads to formation of stones containing:",
+    options: [
+      "A. Cystine",
+      "B. Uric acid",
+      "C. Oxalate",
+      "D. Calcium phosphate"
+    ],
+    correctAnswer: "C. Oxalate",
+    explanation: "Glyoxylate is converted into oxalate in primary hyperoxaluria, leading to recurrent formation of oxalate stones in the urinary tract."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In cystinuria, the defect involves reabsorption of all of the following EXCEPT:",
+    options: [
+      "A. Cystine",
+      "B. Lysine",
+      "C. Arginine",
+      "D. Histidine"
+    ],
+    correctAnswer: "D. Histidine",
+    explanation: "Cystinuria involves a defect in tubular reabsorption of cystine, lysine, arginine, and ornithine. Histidine is not affected."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In homocystinuria, ischaemic heart disease occurs at a young age due to:",
+    options: [
+      "A. Abnormal collagen",
+      "B. Abnormal vessel walls and increased platelet adhesiveness",
+      "C. Osteoporosis",
+      "D. Lens dislocation"
+    ],
+    correctAnswer: "B. Abnormal vessel walls and increased platelet adhesiveness",
+    explanation: "Thrombotic phenomena occur because of abnormalities in vessel walls and increased platelet adhesiveness, leading to ischaemic heart disease, cerebral thrombosis, and peripheral vascular disease."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The first line of defense against ammonia toxicity is its conversion to:",
+    options: [
+      "A. Urea",
+      "B. Glutamine",
+      "C. Glutamate",
+      "D. Alanine"
+    ],
+    correctAnswer: "B. Glutamine",
+    explanation: "The first line of defense against ammonia toxicity is its trapping by glutamic acid to form glutamine, especially in brain cells."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "Glutamine produced in extrarenal tissues is transported to:",
+    options: [
+      "A. The brain for immediate use",
+      "B. The liver for urea synthesis",
+      "C. The kidneys for excretion",
+      "D. The muscles for storage"
+    ],
+    correctAnswer: "B. The liver for urea synthesis",
+    explanation: "Glutamine is transported to the liver where ammonia is detoxified to urea. Some glutamine is also transported to kidneys for hydrolysis and ammonia excretion."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "The overall reaction of the urea cycle produces:",
+    options: [
+      "A. Urea + pyruvate",
+      "B. Urea + fumarate",
+      "C. Urea + citrate",
+      "D. Urea + malate"
+    ],
+    correctAnswer: "B. Urea + fumarate",
+    explanation: "The overall reaction of the urea cycle is: NH₃ + CO₂ + Aspartate → Urea + Fumarate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Urea Cycle & Ammonia Metabolism",
+    type: "multiplechoice",
+    question: "N-acetylglutamate synthesis is stimulated by:",
+    options: [
+      "A. Low protein diet",
+      "B. High protein diet and arginine",
+      "C. High carbohydrate diet",
+      "D. High fat diet"
+    ],
+    correctAnswer: "B. High protein diet and arginine",
+    explanation: "The synthesis of N-acetylglutamate from glutamic acid and acetyl CoA is stimulated by high protein diet and amino acids, especially arginine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, the plasma concentration of phenylalanine rises after:",
+    options: [
+      "A. Fasting",
+      "B. Ingestion of phenylalanine",
+      "C. Ingestion of tyrosine",
+      "D. Exercise"
+    ],
+    correctAnswer: "B. Ingestion of phenylalanine",
+    explanation: "Plasma phenylalanine concentration rises after ingestion of phenylalanine in PKU. When the level exceeds 1 mmol/L, alternate metabolites are formed."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "The conversion of methionine to cysteine involves all of the following intermediates EXCEPT:",
+    options: [
+      "A. S-adenosyl methionine",
+      "B. S-adenosyl homocysteine",
+      "C. Homocysteine",
+      "D. Methionine sulfoxide"
+    ],
+    correctAnswer: "D. Methionine sulfoxide",
+    explanation: "The pathway is Methionine → SAM → SAH → Homocysteine → Cystathionine → Cysteine. Methionine sulfoxide is not an intermediate."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cystathionase is responsible for:",
+    options: [
+      "A. Formation of cystathionine",
+      "B. Hydrolysis of cystathionine to cysteine and homoserine",
+      "C. Formation of homocysteine",
+      "D. Conversion of methionine to SAM"
+    ],
+    correctAnswer: "B. Hydrolysis of cystathionine to cysteine and homoserine",
+    explanation: "Cystathionase hydrolyzes cystathionine to form cysteine and homoserine. Cystathionine-beta synthase forms cystathionine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cysteine is important in maintaining secondary and tertiary structures of proteins due to:",
+    options: [
+      "A. Its small size",
+      "B. Its ability to form disulfide bridges",
+      "C. Its charge",
+      "D. Its hydrophobicity"
+    ],
+    correctAnswer: "B. Its ability to form disulfide bridges",
+    explanation: "Cysteine forms disulfide bridges (cystine) that are important in maintaining secondary and tertiary structures of proteins, including insulin and vasopressin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "The enzyme that catalyzes the activation of methionine to SAM is:",
+    options: [
+      "A. Methionine synthetase",
+      "B. Methionine adenosyl transferase",
+      "C. Cystathionine-beta synthase",
+      "D. Homocysteine methyltransferase"
+    ],
+    correctAnswer: "B. Methionine adenosyl transferase",
+    explanation: "Methionine is activated to S-adenosyl methionine (SAM) by the enzyme methionine adenosyl transferase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU type III, the defect is in:",
+    options: [
+      "A. Phenylalanine hydroxylase",
+      "B. Dihydropteridine reductase",
+      "C. Conversion of GTP to tetrahydrobiopterin",
+      "D. Tyrosine transaminase"
+    ],
+    correctAnswer: "C. Conversion of GTP to tetrahydrobiopterin",
+    explanation: "PKU type III is caused by a defect in conversion of GTP to tetrahydrobiopterin. Type I is phenylalanine hydroxylase deficiency, type II is dihydropteridine reductase deficiency."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In histidinaemia, the alternate metabolites excreted in urine include all of the following EXCEPT:",
+    options: [
+      "A. Imidazole pyruvate",
+      "B. Imidazole lactate",
+      "C. Imidazole acetate",
+      "D. Urocanic acid"
+    ],
+    correctAnswer: "D. Urocanic acid",
+    explanation: "In histidinaemia, alternate metabolites include imidazole pyruvate, imidazole lactate, and imidazole acetate. Urocanic acid cannot be formed due to histidase deficiency."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "The three principal pathways of threonine catabolism include:",
+    options: [
+      "A. Threonine aldolase, threonine dehydratase, and threonine dehydrogenase",
+      "B. Threonine transaminase, threonine decarboxylase, and threonine deaminase",
+      "C. Threonine oxidase, threonine reductase, and threonine hydrolase",
+      "D. Threonine carboxylase, threonine hydroxylase, and threonine lyase"
+    ],
+    correctAnswer: "A. Threonine aldolase, threonine dehydratase, and threonine dehydrogenase",
+    explanation: "The three principal pathways of threonine catabolism include conversion to glycine via threonine aldolase, to α-ketobutyrate via threonine dehydratase, and to aminoacetone via threonine dehydrogenase."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Glycine-serine interconversion requires which cofactor?",
+    options: [
+      "A. NADH",
+      "B. FAD",
+      "C. Tetrahydrofolate",
+      "D. Pyridoxal phosphate"
+    ],
+    correctAnswer: "C. Tetrahydrofolate",
+    explanation: "Glycine can be reversibly converted to serine through serine hydroxymethyltransferase (SHMT), a reaction that requires tetrahydrofolate (THF) as cofactor."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In alkaptonuria, ferric chloride test is:",
+    options: [
+      "A. Negative",
+      "B. Positive",
+      "C. Variable",
+      "D. Faintly positive"
+    ],
+    correctAnswer: "B. Positive",
+    explanation: "Ferric chloride test is positive for urine in alkaptonuria."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In alkaptonuria, urine darkening is accelerated by:",
+    options: [
+      "A. Darkness and nitrogen",
+      "B. Sunlight and oxygen",
+      "C. Heat and acidity",
+      "D. Cold and alkalinity"
+    ],
+    correctAnswer: "B. Sunlight and oxygen",
+    explanation: "Blackening of urine in alkaptonuria is accelerated on exposure to sunlight and oxygen."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Clinical features of tyrosinaemia type I include all of the following EXCEPT:",
+    options: [
+      "A. Neurological abnormalities",
+      "B. Liver damage",
+      "C. Renal tubular dysfunction",
+      "D. Eye and skin lesions"
+    ],
+    correctAnswer: "D. Eye and skin lesions",
+    explanation: "Tyrosinaemia type I causes neurological abnormalities, liver damage, and renal tubular dysfunction. Eye and skin lesions are characteristic of tyrosinaemia type II."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Melanocytes are cells of:",
+    options: [
+      "A. Mesodermal origin",
+      "B. Endodermal origin",
+      "C. Neural crest origin",
+      "D. Ectodermal origin"
+    ],
+    correctAnswer: "C. Neural crest origin",
+    explanation: "Melanins are synthesized in melanocytes in skin, which are cells of neural crest origin."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "The active group of reduced glutathione is:",
+    options: [
+      "A. NH₂ group",
+      "B. COOH group",
+      "C. SH group",
+      "D. OH group"
+    ],
+    correctAnswer: "C. SH group",
+    explanation: "G-SH is the reduced form of glutathione. The active group is the SH (sulfhydryl) group."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "Cystine is composed of:",
+    options: [
+      "A. Two cysteine molecules",
+      "B. Two cystine molecules",
+      "C. One cysteine and one methionine",
+      "D. Two methionine molecules"
+    ],
+    correctAnswer: "A. Two cysteine molecules",
+    explanation: "Cystine is composed of two cysteine molecules linked by a disulfide bond."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, the Rothera's test may be positive due to the presence of:",
+    options: [
+      "A. Phenylpyruvate",
+      "B. Phenylacetate",
+      "C. Phenylacetylglutamine",
+      "D. Phenyl-lactate"
+    ],
+    correctAnswer: "A. Phenylpyruvate",
+    explanation: "Phenylpyruvate and its derivatives are keto acids that can give positive Rothera's test in PKU."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In tyrosinaemia type II, plasma tyrosine levels are typically:",
+    options: [
+      "A. 2-3 mg/dl",
+      "B. 4-5 mg/dl",
+      "C. 6-8 mg/dl",
+      "D. 10-12 mg/dl"
+    ],
+    correctAnswer: "B. 4-5 mg/dl",
+    explanation: "Tyrosinaemia type II (Richner-Hanhart syndrome) has elevated tyrosine levels of 4-5 mg/dl."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "Catecholamines are synthesized from tyrosine and act as all of the following EXCEPT:",
+    options: [
+      "A. Neurotransmitters",
+      "B. Hormones",
+      "C. Pigments",
+      "D. Local mediators"
+    ],
+    correctAnswer: "C. Pigments",
+    explanation: "Catecholamines (epinephrine, norepinephrine, dopamine) act as neurotransmitters and hormones. They are not pigments. Melanin is the pigment synthesized from tyrosine."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "The enzyme histidine decarboxylase requires which coenzyme?",
+    options: [
+      "A. NADH",
+      "B. FAD",
+      "C. Pyridoxal-P (B6-PO4)",
+      "D. THF"
+    ],
+    correctAnswer: "C. Pyridoxal-P (B6-PO4)",
+    explanation: "Histamine is formed by decarboxylation of histidine by histidine decarboxylase or aromatic L-amino acid decarboxylase in the presence of B6-PO4 (pyridoxal phosphate)."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Sulfur-Containing Amino Acids",
+    type: "multiplechoice",
+    question: "In homocystinuria, the diet should be:",
+    options: [
+      "A. High in methionine, low in cysteine",
+      "B. Low in methionine, high in cysteine",
+      "C. High in both methionine and cysteine",
+      "D. Low in both methionine and cysteine"
+    ],
+    correctAnswer: "B. Low in methionine, high in cysteine",
+    explanation: "Treatment of homocystinuria consists of a low-methionine, high-cysteine diet. Pyridoxine supplements may also be given."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Phenylalanine & Tyrosine Metabolism",
+    type: "multiplechoice",
+    question: "In PKU, which of the following is NOT an alternate metabolite of phenylalanine?",
+    options: [
+      "A. Phenylpyruvate",
+      "B. Phenyl-lactate",
+      "C. Phenylacetylglutamine",
+      "D. Phenylserine"
+    ],
+    correctAnswer: "D. Phenylserine",
+    explanation: "Alternate metabolites of phenylalanine in PKU include phenylpyruvate, phenyl-lactate, phenylacetate, and phenylacetylglutamine. Phenylserine is not a metabolite."
+  },
+  {
+    course: "Biochemistry",
+    topic: "Amino Acid Metabolism",
+    subTopic: "Glycine, Serine & Threonine Metabolism",
+    type: "multiplechoice",
+    question: "Threonine dehydrogenase converts threonine to 2-amino-3-ketobutyrate, which is then converted to aminoacetone. Aminoacetone can be further metabolized to:",
+    options: [
+      "A. Glycine",
+      "B. Pyruvate",
+      "C. Acetaldehyde",
+      "D. α-Ketobutyrate"
+    ],
+    correctAnswer: "B. Pyruvate",
+    explanation: "Aminoacetone can be further metabolized into pyruvate, linking threonine metabolism to central carbon metabolism and energy production."
+  },
+    // ===== GROSS ANATOMY – UPPER LIMB ANATOMY =====
+
+  // SECTION 1: Subclavian Artery – Parts and Branches
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "Which muscle serves as the key anatomical landmark to divide the subclavian artery into three distinct parts?",
+    options: [
+      "A. Pectoralis minor",
+      "B. Anterior scalene",
+      "C. Teres major",
+      "D. Subscapularis"
+    ],
+    correctAnswer: "B. Anterior scalene",
+    explanation: "The anterior scalene muscle passes anterior to the subclavian artery, dividing it into three parts based on whether the artery is medial, posterior, or lateral to the muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "At which specific anatomical boundary does the subclavian artery officially terminate and become the axillary artery?",
+    options: [
+      "A. Medial border of the anterior scalene muscle",
+      "B. Lower border of the teres major muscle",
+      "C. Lateral border of the first rib",
+      "D. Inferior border of the pectoralis minor muscle"
+    ],
+    correctAnswer: "C. Lateral border of the first rib",
+    explanation: "The lateral border of the first rib marks the transition point where the subclavian artery ends and the axillary artery begins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "What is the correct origin of the right subclavian artery?",
+    options: [
+      "A. Directly from the arch of the aorta",
+      "B. Brachiocephalic trunk",
+      "C. Common carotid artery",
+      "D. Internal thoracic trunk"
+    ],
+    correctAnswer: "B. Brachiocephalic trunk",
+    explanation: "On the right side, the brachiocephalic trunk bifurcates into the right common carotid and right subclavian arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "From which specific part of the subclavian artery does the costocervical trunk typically arise?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. Fourth part"
+    ],
+    correctAnswer: "B. Second part",
+    explanation: "The second part of the subclavian artery (posterior to the anterior scalene) gives off the costocervical trunk."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "A patient presents with dizziness, syncope, and left arm fatigue during upper limb exercise. Subclavian steal syndrome is suspected. Where is the stenosis typically located?",
+    options: [
+      "A. Third part of the subclavian artery",
+      "B. Distal to the origin of the vertebral artery",
+      "C. Proximal to the origin of the vertebral artery",
+      "D. At the lower border of the teres major"
+    ],
+    correctAnswer: "C. Proximal to the origin of the vertebral artery",
+    explanation: "Stenosis proximal to the vertebral artery's origin causes retrograde blood flow down the vertebral artery to supply the exercising arm, 'stealing' blood from the brain."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The thyrocervical trunk arises from which part of the subclavian artery?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. It is a branch of the axillary artery"
+    ],
+    correctAnswer: "A. First part",
+    explanation: "The thyrocervical trunk is a major branch of the first part of the subclavian artery, medial to the anterior scalene muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The dorsal scapular artery originates from which part of the subclavian artery according to the provided text?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. It originates from the brachiocephalic trunk"
+    ],
+    correctAnswer: "C. Third part",
+    explanation: "The text details that the third part of the subclavian artery gives off the dorsal scapular artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The first part of the subclavian artery ends at the:",
+    options: [
+      "A. Origin of the vertebral artery",
+      "B. Medial border of the anterior scalene muscle",
+      "C. Lateral border of the first rib",
+      "D. Lateral border of the anterior scalene muscle"
+    ],
+    correctAnswer: "B. Medial border of the anterior scalene muscle",
+    explanation: "The first part of the subclavian artery extends from its origin up to the medial border of the anterior scalene muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The left subclavian artery arises directly from which structure?",
+    options: [
+      "A. Brachiocephalic trunk",
+      "B. Arch of the aorta",
+      "C. Left common carotid artery",
+      "D. Left internal thoracic artery"
+    ],
+    correctAnswer: "B. Arch of the aorta",
+    explanation: "Unlike the right subclavian, the left subclavian artery is a direct branch off the aortic arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The internal thoracic artery arises from which part of the subclavian artery?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. It is a direct branch of the aorta"
+    ],
+    correctAnswer: "A. First part",
+    explanation: "The internal thoracic artery is a branch of the first part of the subclavian artery, running inferiorly along the internal thoracic wall."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "Which branch of the thyrocervical trunk directly participates in the scapular anastomosis?",
+    options: [
+      "A. Inferior thyroid artery",
+      "B. Transverse cervical artery",
+      "C. Suprascapular artery",
+      "D. Internal thoracic artery"
+    ],
+    correctAnswer: "C. Suprascapular artery",
+    explanation: "The suprascapular artery travels posteriorly toward the scapular region to participate directly in this collateral network."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The vertebral artery is a branch of which part of the subclavian artery?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. It arises from the brachiocephalic trunk directly"
+    ],
+    correctAnswer: "A. First part",
+    explanation: "The vertebral artery is the first major branch coming off the superoposterior aspect of the first part of the subclavian artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The costocervical trunk supplies which of the following areas?",
+    options: [
+      "A. Brain and spinal cord",
+      "B. Anterior thoracic wall",
+      "C. Upper intercostal spaces and deep neck muscles",
+      "D. Rhomboids and levator scapulae"
+    ],
+    correctAnswer: "C. Upper intercostal spaces and deep neck muscles",
+    explanation: "According to the text, the costocervical trunk supplies the upper intercostal spaces and deep neck muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "Which statement is TRUE regarding the structural division of the subclavian artery?",
+    options: [
+      "A. It is divided by the pectoralis minor muscle",
+      "B. It is divided into two distinct parts",
+      "C. It is divided into three parts by its relationship to the anterior scalene muscle",
+      "D. It transitions into the brachial artery at its termination"
+    ],
+    correctAnswer: "C. It is divided into three parts by its relationship to the anterior scalene muscle",
+    explanation: "The anterior scalene muscle serves as the landmark that segments the subclavian artery into three parts."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "The third part of the subclavian artery is located between the:",
+    options: [
+      "A. Origin and medial border of the anterior scalene",
+      "B. Posterior surface of the anterior scalene",
+      "C. Lateral border of the anterior scalene and the lateral border of the first rib",
+      "D. Lateral border of the first rib and the lower border of the teres major"
+    ],
+    correctAnswer: "C. Lateral border of the anterior scalene and the lateral border of the first rib",
+    explanation: "The third part runs from the lateral edge of the anterior scalene to the lateral border of the first rib, where the vessel changes its name."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "multiplechoice",
+    question: "Which of the following arteries is NOT a direct or indirect branch of the subclavian artery?",
+    options: [
+      "A. Vertebral artery",
+      "B. Internal thoracic artery",
+      "C. Thoracoacromial artery",
+      "D. Inferior thyroid artery"
+    ],
+    correctAnswer: "C. Thoracoacromial artery",
+    explanation: "The thoracoacromial artery is a branch of the second part of the axillary artery, not the subclavian artery."
+  },
+
+  // SECTION 2: Axillary Artery – Parts and Branches
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "Which of the following is a branch originating from the first part of the axillary artery?",
+    options: [
+      "A. Lateral thoracic artery",
+      "B. Superior thoracic artery",
+      "C. Thoracoacromial artery",
+      "D. Subscapular artery"
+    ],
+    correctAnswer: "B. Superior thoracic artery",
+    explanation: "The first part of the axillary artery has exactly one branch: the superior thoracic artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "What muscle divides the axillary artery into three anatomical parts?",
+    options: [
+      "A. Pectoralis major",
+      "B. Pectoralis minor",
+      "C. Subscapularis",
+      "D. Latissimus dorsi"
+    ],
+    correctAnswer: "B. Pectoralis minor",
+    explanation: "The pectoralis minor muscle crosses anterior to the axillary artery, dividing it into parts proximal (first), posterior (second), and distal (third) to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The 'C A D P' mnemonic represents the branches of which specific artery?",
+    options: [
+      "A. Thyrocervical trunk",
+      "B. Costocervical trunk",
+      "C. Thoracoacromial artery",
+      "D. Subscapular artery"
+    ],
+    correctAnswer: "C. Thoracoacromial artery",
+    explanation: "The thoracoacromial artery divides into four branches: Clavicular, Acromial, Deltoid, and Pectoral (CADP)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "Which artery is recognized as the largest branch of the axillary artery?",
+    options: [
+      "A. Posterior circumflex humeral artery",
+      "B. Thoracoacromial artery",
+      "C. Subscapular artery",
+      "D. Lateral thoracic artery"
+    ],
+    correctAnswer: "C. Subscapular artery",
+    explanation: "The subscapular artery, arising from the third part, is the largest branch of the axillary artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "A fracture of the surgical neck of the humerus threatens which artery-nerve pair?",
+    options: [
+      "A. Profunda brachii artery and radial nerve",
+      "B. Posterior circumflex humeral artery and axillary nerve",
+      "C. Anterior circumflex humeral artery and musculocutaneous nerve",
+      "D. Superior thoracic artery and long thoracic nerve"
+    ],
+    correctAnswer: "B. Posterior circumflex humeral artery and axillary nerve",
+    explanation: "The posterior circumflex humeral artery and the axillary nerve run together around the surgical neck of the humerus, making them highly vulnerable during a fracture."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "Loss of sensation over the 'regimental badge area' of the shoulder implies damage to which nerve, often injured alongside the posterior circumflex humeral artery?",
+    options: [
+      "A. Radial nerve",
+      "B. Axillary nerve",
+      "C. Suprascapular nerve",
+      "D. Thoracodorsal nerve"
+    ],
+    correctAnswer: "B. Axillary nerve",
+    explanation: "The axillary nerve provides cutaneous innervation to the skin over the lower deltoid muscle, known as the regimental badge area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The axillary artery terminates and becomes the brachial artery at which location?",
+    options: [
+      "A. Lateral border of the first rib",
+      "B. Lower border of the teres major",
+      "C. Medial border of the anterior scalene",
+      "D. Upper border of the pectoralis minor"
+    ],
+    correctAnswer: "B. Lower border of the teres major",
+    explanation: "The lower (inferior) border of the teres major muscle marks the official exit from the axilla and the start of the brachial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The lateral thoracic artery originates from which part of the axillary artery?",
+    options: [
+      "A. First part",
+      "B. Second part",
+      "C. Third part",
+      "D. It is a branch of the brachial artery"
+    ],
+    correctAnswer: "B. Second part",
+    explanation: "The second part of the axillary artery, hidden behind the pectoralis minor, gives off the thoracoacromial and lateral thoracic arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "Which of the following arteries supplies the first two intercostal spaces and arises from the first part of the axillary artery?",
+    options: [
+      "A. Superior thoracic artery",
+      "B. Lateral thoracic artery",
+      "C. Internal thoracic artery",
+      "D. Costocervical trunk"
+    ],
+    correctAnswer: "A. Superior thoracic artery",
+    explanation: "The superior thoracic artery arises from the first part of the axillary artery and supplies the upper two intercostal spaces."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "Which branch of the axillary artery supplies the serratus anterior muscle and parts of the breast tissue?",
+    options: [
+      "A. Superior thoracic artery",
+      "B. Lateral thoracic artery",
+      "C. Subscapular artery",
+      "D. Pectoral branch of thoracoacromial artery"
+    ],
+    correctAnswer: "B. Lateral thoracic artery",
+    explanation: "The lateral thoracic artery arises from the second part of the axillary artery and supplies the serratus anterior and lateral breast structures."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The definitive feature defining the 'third part' of the axillary artery is that it is located:",
+    options: [
+      "A. Proximal to the pectoralis minor muscle",
+      "B. Posterior to the pectoralis minor muscle",
+      "C. Distal to the pectoralis minor muscle",
+      "D. Medial to the anterior scalene muscle"
+    ],
+    correctAnswer: "C. Distal to the pectoralis minor muscle",
+    explanation: "The third part of the axillary artery extends from the lateral/distal border of the pectoralis minor to the lower border of the teres major."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "How many distinct branches normally arise from the third part of the axillary artery?",
+    options: [
+      "A. One",
+      "B. Two",
+      "C. Three",
+      "D. Six"
+    ],
+    correctAnswer: "C. Three",
+    explanation: "The third part gives off three branches: the subscapular artery, the anterior circumflex humeral artery, and the posterior circumflex humeral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "What type of vessel does the axillary artery become immediately after passing the lower border of the teres major muscle?",
+    options: [
+      "A. Radial artery",
+      "B. Ulnar artery",
+      "C. Brachial artery",
+      "D. Deep brachial artery"
+    ],
+    correctAnswer: "C. Brachial artery",
+    explanation: "The direct continuation of the axillary artery into the arm is named the brachial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The acromial artery is a direct branch of which vessel?",
+    options: [
+      "A. Subscapular artery",
+      "B. Thoracoacromial artery",
+      "C. Suprascapular artery",
+      "D. First part of the axillary artery"
+    ],
+    correctAnswer: "B. Thoracoacromial artery",
+    explanation: "The acromial branch is one of the four components of the thoracoacromial artery (the 'A' in the CADP mnemonic)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The pectoral branch, which supplies the pectoral muscles, arises from which major parent artery?",
+    options: [
+      "A. Lateral thoracic artery",
+      "B. Thoracoacromial artery",
+      "C. Superior thoracic artery",
+      "D. Internal thoracic artery"
+    ],
+    correctAnswer: "B. Thoracoacromial artery",
+    explanation: "The pectoral branch is part of the thoracoacromial trunk's quadfurcation (CADP)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "How many total named branches typically arise from the entire axillary artery as outlined across all three parts?",
+    options: [
+      "A. Three",
+      "B. Four",
+      "C. Five",
+      "D. Six"
+    ],
+    correctAnswer: "D. Six",
+    explanation: "Part 1 has 1 branch, Part 2 has 2 branches, and Part 3 has 3 branches, yielding a total of 6 branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The total number of branches arising from the first part of the axillary artery is:",
+    options: [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4"
+    ],
+    correctAnswer: "A. 1",
+    explanation: "The first part yields exactly one branch: the superior thoracic artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "multiplechoice",
+    question: "The definition of the second part of the axillary artery states that it lies:",
+    options: [
+      "A. Medial to the pectoralis minor muscle",
+      "B. Posterior to the pectoralis minor muscle",
+      "C. Lateral to the pectoralis minor muscle",
+      "D. Inferior to the teres major muscle"
+    ],
+    correctAnswer: "B. Posterior to the pectoralis minor muscle",
+    explanation: "The second part is located directly behind (posterior to) the pectoralis minor muscle."
+  },
+
+  // SECTION 3: Scapular Anastomosis
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "Which of the following arteries is NOT part of the scapular anastomosis network?",
+    options: [
+      "A. Suprascapular artery",
+      "B. Dorsal scapular artery",
+      "C. Circumflex scapular artery",
+      "D. Superior thoracic artery"
+    ],
+    correctAnswer: "D. Superior thoracic artery",
+    explanation: "Scapular anastomosis involves the suprascapular and dorsal scapular arteries (from the subclavian system) and the circumflex scapular artery (from the axillary system)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "If the axillary artery is surgically ligated proximal to the origin of the subscapular artery, blood can still reach the distal upper limb through which mechanism?",
+    options: [
+      "A. Subclavian steal syndrome",
+      "B. Scapular anastomosis",
+      "C. Deep palmar arch",
+      "D. Thoracoacromial pathway"
+    ],
+    correctAnswer: "B. Scapular anastomosis",
+    explanation: "The scapular anastomosis connects branches of the subclavian artery to branches of the third part of the axillary artery (via retrograde flow into the subscapular artery), bypassing a proximal axillary blockage."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "What are the two terminal branches of the subscapular artery?",
+    options: [
+      "A. Deltoid and pectoral branches",
+      "B. Anterior and posterior circumflex humeral arteries",
+      "C. Circumflex scapular and thoracodorsal arteries",
+      "D. Suprascapular and dorsal scapular arteries"
+    ],
+    correctAnswer: "C. Circumflex scapular and thoracodorsal arteries",
+    explanation: "The subscapular artery branches into the circumflex scapular artery (which loops to the back of the scapula) and the thoracodorsal artery (which follows the thoracodorsal nerve)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "Which muscle is primarily supplied by the thoracodorsal artery?",
+    options: [
+      "A. Serratus anterior",
+      "B. Latissimus dorsi",
+      "C. Pectoralis major",
+      "D. Rhomboid major"
+    ],
+    correctAnswer: "B. Latissimus dorsi",
+    explanation: "The thoracodorsal artery courses downward alongside its corresponding nerve to supply the latissimus dorsi muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "The circumflex scapular artery is a direct branch of which vessel?",
+    options: [
+      "A. Thyrocervical trunk",
+      "B. Dorsal scapular artery",
+      "C. Subscapular artery",
+      "D. Posterior circumflex humeral artery"
+    ],
+    correctAnswer: "C. Subscapular artery",
+    explanation: "The subscapular artery splits into the circumflex scapular artery and the thoracodorsal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "The dorsal scapular artery supplies which of the following muscles?",
+    options: [
+      "A. Serratus anterior",
+      "B. Rhomboids and levator scapulae",
+      "C. Deltoid",
+      "D. Latissimus dorsi"
+    ],
+    correctAnswer: "B. Rhomboids and levator scapulae",
+    explanation: "As noted in the text, the dorsal scapular artery supplies the rhomboid muscles and the levator scapulae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "Which artery acts as a bridge linking the subclavian artery system to the distal axillary artery system via the scapular anastomosis?",
+    options: [
+      "A. Circumflex scapular artery",
+      "B. Superior thoracic artery",
+      "C. Lateral thoracic artery",
+      "D. Costocervical trunk"
+    ],
+    correctAnswer: "A. Circumflex scapular artery",
+    explanation: "The circumflex scapular artery arises from the subscapular artery (axillary system) and forms connections with the suprascapular and dorsal scapular arteries (subclavian system)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "multiplechoice",
+    question: "What is the key functional advantage of the scapular anastomosis?",
+    options: [
+      "A. It increases the pressure of blood entering the brain",
+      "B. It provides alternative routing for blood if the proximal axillary artery is blocked",
+      "C. It serves as the primary drainage site for the cephalic vein",
+      "D. It prevents Subclavian Steal Syndrome"
+    ],
+    correctAnswer: "B. It provides alternative routing for blood if the proximal axillary artery is blocked",
+    explanation: "Anastomoses function as vascular safety nets, ensuring collateral flow around regions prone to occlusion or ligation."
+  },
+
+  // SECTION 4: Clinical Correlations
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "The specialized function of the upper limb (fine motor manipulation, grasping) primarily demands:",
+    options: [
+      "A. Low metabolic activity",
+      "B. Intermittent blood supply",
+      "C. Continuous oxygen delivery and nutrient supply",
+      "D. Exclusively superficial venous drainage"
+    ],
+    correctAnswer: "C. Continuous oxygen delivery and nutrient supply",
+    explanation: "High mobility and fine motor control require a rich, continuous vascular supply to support muscle and nerve function."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Which of the following is a symptom of Subclavian Steal Syndrome mentioned in the text?",
+    options: [
+      "A. Paralyzed deltoid muscle",
+      "B. Loss of shoulder contour",
+      "C. Arm fatigue",
+      "D. Sensory loss over the regimental badge area"
+    ],
+    correctAnswer: "C. Arm fatigue",
+    explanation: "Symptoms include dizziness, syncope, and arm fatigue due to localized ischemia in the affected upper extremity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "If a clinician observes a patient with a flattened shoulder profile (loss of shoulder contour) following trauma, which muscle is likely paralyzed?",
+    options: [
+      "A. Pectoralis major",
+      "B. Latissimus dorsi",
+      "C. Deltoid",
+      "D. Teres major"
+    ],
+    correctAnswer: "C. Deltoid",
+    explanation: "Axillary nerve injury leads to paralysis and subsequent atrophy of the deltoid muscle, destroying the normal rounded contour of the shoulder."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Retrograde flow through which artery helps maintain upper limb viability in Subclavian Steal Syndrome?",
+    options: [
+      "A. Internal thoracic artery",
+      "B. Vertebral artery",
+      "C. Superior thoracic artery",
+      "D. Lateral thoracic artery"
+    ],
+    correctAnswer: "B. Vertebral artery",
+    explanation: "Blood flows backward (retrograde) through the vertebral artery on the affected side to supply the subclavian artery distal to the block."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "When the axillary nerve is damaged during a shoulder injury, what clinical presentation is expected?",
+    options: [
+      "A. Inability to flex the wrist",
+      "B. Loss of sensation over the medial side of the hand",
+      "C. Deltoid paralysis",
+      "D. Winging of the scapula"
+    ],
+    correctAnswer: "C. Deltoid paralysis",
+    explanation: "The axillary nerve innervates the deltoid; its injury causes paralysis of this muscle and loss of sensation in the regimental badge area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "Which area would show sensory deficit if the nerve running with the posterior circumflex humeral artery is compressed?",
+    options: [
+      "A. The palmar surface of the thumb",
+      "B. The medial aspect of the forearm",
+      "C. The regimental badge area of the shoulder",
+      "D. The skin over the scapula"
+    ],
+    correctAnswer: "C. The regimental badge area of the shoulder",
+    explanation: "The axillary nerve travels alongside the posterior circumflex humeral artery through the quadrangular space, and its sensory territory is the regimental badge area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "multiplechoice",
+    question: "The anatomical term 'vasculature of the upper limb' encompasses:",
+    options: [
+      "A. Only the arterial supply of the arm",
+      "B. Only the venous drainage of the forearm and hand",
+      "C. Arteries, veins, and capillaries supplying and draining the upper limb",
+      "D. Exclusively the lymphatic pathways of the axillary region"
+    ],
+    correctAnswer: "C. Arteries, veins, and capillaries supplying and draining the upper limb",
+    explanation: "It refers to the comprehensive vascular network responsible for both delivery (arteries/capillaries) and return (veins) of blood."
+  },
+
+  // SECTION 5: True/False Questions
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The right and left subclavian arteries share an identical anatomical origin.",
+    answer: false,
+    explanation: "The right subclavian artery originates from the brachiocephalic trunk, whereas the left subclavian artery arises directly from the arch of the aorta."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The anterior scalene muscle divides the subclavian artery into three parts.",
+    answer: true,
+    explanation: "The muscle serves as the reference point: the first part is medial, the second is posterior, and the third is lateral to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The axillary artery becomes the brachial artery at the lateral border of the first rib.",
+    answer: false,
+    explanation: "The subclavian artery becomes the axillary artery at the lateral border of the first rib. The axillary artery becomes the brachial artery at the lower border of the teres major."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The internal thoracic artery arises directly from the third part of the subclavian artery.",
+    answer: false,
+    explanation: "The internal thoracic artery arises from the *first part* of the subclavian artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The costocervical trunk is a branch given off by the second part of the subclavian artery.",
+    answer: true,
+    explanation: "The second part of the subclavian artery yields the costocervical trunk as its primary branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Subclavian Artery",
+    type: "truefalse",
+    question: "The vertebral artery is responsible for supplying portions of the brain and spinal cord.",
+    answer: true,
+    explanation: "The vertebral artery ascends through the neck to enter the cranium, providing essential blood flow to the brain and spinal cord."
+  },
+
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The pectoralis minor muscle separates the axillary artery into three separate parts.",
+    answer: true,
+    explanation: "The position of the artery relative to the pectoralis minor (proximal, posterior, distal) defines its three parts."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The superior thoracic artery is a branch derived from the second part of the axillary artery.",
+    answer: false,
+    explanation: "The superior thoracic artery is the single branch given off by the *first part* of the axillary artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The subscapular artery is recognized as the largest branch of the axillary artery.",
+    answer: true,
+    explanation: "It is the most robust branch of the axillary artery and stems from its third part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The thoracoacromial artery gives off branches designated as Clavicular, Acromial, Deltoid, and Pectoral.",
+    answer: true,
+    explanation: "These four branches match the classic 'CADP' mnemonic mentioned in the text."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The first part of the axillary artery lies distal to the pectoralis minor muscle.",
+    answer: false,
+    explanation: "The first part lies *proximal* to the pectoralis minor. The third part lies distal to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Axillary Artery",
+    type: "truefalse",
+    question: "The lateral thoracic artery helps supply the serratus anterior muscle.",
+    answer: true,
+    explanation: "The lateral thoracic artery runs down the lateral thoracic wall to supply the serratus anterior and adjacent breast tissues."
+  },
+
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "truefalse",
+    question: "The circumflex scapular artery is a direct branch of the thyrocervical trunk.",
+    answer: false,
+    explanation: "The circumflex scapular artery is a branch of the subscapular artery, which itself is a branch of the third part of the axillary artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "truefalse",
+    question: "The dorsal scapular artery supplies the rhomboids and levator scapulae muscles.",
+    answer: true,
+    explanation: "The text specifies that these are the target muscles supplied by the dorsal scapular artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "truefalse",
+    question: "In a scapular anastomosis, the suprascapular artery originates from the axillary artery.",
+    answer: false,
+    explanation: "The suprascapular artery is a branch of the thyrocervical trunk, which originates from the first part of the *subclavian artery*."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Scapular Anastomosis",
+    type: "truefalse",
+    question: "If the axillary artery is blocked proximal to the subscapular artery, blood flow to the limb can be maintained via the scapular anastomosis.",
+    answer: true,
+    explanation: "This network allows blood from the subclavian branches to flow in a reverse direction through the subscapular artery branches, bypassing the proximal obstruction."
+  },
+
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Subclavian Steal Syndrome can result in symptoms such as dizziness and syncope.",
+    answer: true,
+    explanation: "Because blood is diverted away from the brain via retrograde flow through the vertebral artery, cerebral hypoperfusion symptoms like dizziness and syncope manifest."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "A surgical neck fracture of the humerus can jeopardize both the posterior circumflex humeral artery and the axillary nerve.",
+    answer: true,
+    explanation: "These structures wrap closely around the surgical neck of the humerus, rendering them highly susceptible to injury from fractures at this location."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "Deltoid muscle paralysis is a known clinical sign of axillary nerve injury.",
+    answer: true,
+    explanation: "The axillary nerve supplies motor innervation to the deltoid muscle; injury results in its paralysis and subsequent wasting."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Upper Limb Anatomy",
+    subTopic: "Clinical Correlations",
+    type: "truefalse",
+    question: "The upper limb's specialized demand for high mobility is supported by a highly restricted, low-flow vascular system.",
+    answer: false,
+    explanation: "The high mobility and specialized motor functions require a continuous, robust, and highly adaptive blood supply."
+  },
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY =====
+
+  // SECTION 1: Anterior Thigh Muscles (601-605)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Thigh Muscles",
+    type: "truefalse",
+    question: "The sartorius muscle is the longest muscle in the body and is supplied by the femoral nerve.",
+    answer: true,
+    explanation: "The sartorius is long, narrow and ribbon-like, running downwards and medially across the front of the thigh. It is the longest muscle in the body and is supplied by the femoral nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Thigh Muscles",
+    type: "truefalse",
+    question: "The rectus femoris is the only part of the quadriceps femoris that crosses both the hip and knee joints.",
+    answer: true,
+    explanation: "The rectus femoris crosses two joints because of its attachments to the hip bone and tibia via the patellar ligament. It is capable of flexing the thigh at the hip joint and extending the leg at the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Thigh Muscles",
+    type: "truefalse",
+    question: "The vastus medialis is the largest component of the quadriceps femoris.",
+    answer: false,
+    explanation: "The vastus lateralis is the largest component of the quadriceps femoris, not the vastus medialis. The vastus medialis covers the medial side of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Thigh Muscles",
+    type: "truefalse",
+    question: "The articularis genu pulls the synovial membrane upwards during extension of the knee, preventing damage to it.",
+    answer: true,
+    explanation: "The articularis genu pulls the synovial membrane upwards during extension of the knee, thus preventing damage to it. It is a derivative of the vastus intermedius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Thigh Muscles",
+    type: "truefalse",
+    question: "The iliacus is supplied by branches from the nerve roots L2, L3, while the psoas major is supplied by the femoral nerve.",
+    answer: false,
+    explanation: "The psoas is supplied by branches from the nerve roots L2, L3, whereas the iliacus is supplied by the femoral nerve. Both have a common insertion on the lesser trochanter."
+  },
+
+  // SECTION 2: Femoral Triangle & Sheath (606-611)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "The adductor longus forms the medial boundary of the femoral triangle.",
+    answer: true,
+    explanation: "The femoral triangle is bounded medially by the medial border of the adductor longus and laterally by the medial border of the sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "The femoral sheath is formed by the downward extension of the fascia lata and the crural fascia.",
+    answer: false,
+    explanation: "The femoral sheath is formed by downward extension of two layers of the fascia of the abdomen: the anterior wall is formed by the fascia transversalis, and the posterior wall is formed by the fascia iliaca."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "The femoral canal contains the femoral artery.",
+    answer: false,
+    explanation: "The femoral canal is the medial compartment of the femoral sheath and contains a lymph node of Cloquet, lymphatics, and areolar tissue. The femoral artery is in the lateral compartment of the femoral sheath."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "The femoral ring is bounded anteriorly by the inguinal ligament and posteriorly by the pectineus and its covering fascia.",
+    answer: true,
+    explanation: "The femoral ring is bounded anteriorly by the inguinal ligament, posteriorly by the pectineus and its covering fascia, medially by the concave margin of the lacunar ligament, and laterally by the septum separating it from the femoral vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "An abnormal obturator artery may lie along the free margin of the lacunar ligament and be at risk during surgery for femoral hernia.",
+    answer: true,
+    explanation: "An abnormal obturator artery may lie along the medial margin of the femoral ring, i.e., along the free margin of the lacunar ligament. Such an artery is likely to be cut if an attempt is made to enlarge the femoral ring by cutting the lacunar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Triangle & Sheath",
+    type: "truefalse",
+    question: "Femoral hernias are more common in males because the femoral canal is wider in males.",
+    answer: false,
+    explanation: "Femoral hernias are more common in females because the femoral canal is wider, associated with the wider pelvis and the smaller size of the femoral vessels in the female."
+  },
+
+  // SECTION 3: Adductor Canal (612-616)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Adductor Canal",
+    type: "truefalse",
+    question: "The adductor canal is also called the subsartorial canal because it is covered by the sartorius muscle.",
+    answer: true,
+    explanation: "The adductor canal is also called the subsartorial canal because its roof is overlapped by the sartorius muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Adductor Canal",
+    type: "truefalse",
+    question: "The adductor canal transmits the femoral artery, femoral vein, saphenous nerve, and nerve to the vastus medialis.",
+    answer: true,
+    explanation: "The adductor canal contains the femoral artery, femoral vein, saphenous nerve, nerve to the vastus medialis, and branches of the anterior and posterior divisions of the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Adductor Canal",
+    type: "truefalse",
+    question: "The femoral artery leaves the adductor canal through the adductor hiatus to continue as the anterior tibial artery.",
+    answer: false,
+    explanation: "The femoral artery leaves the adductor canal through the opening in the adductor magnus muscle to continue as the popliteal artery, not the anterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Adductor Canal",
+    type: "truefalse",
+    question: "The saphenous nerve pierces the fibrous roof of the adductor canal and accompanies the great saphenous vein on the medial side of the leg.",
+    answer: true,
+    explanation: "The saphenous nerve leaves the adductor canal by piercing the fibrous roof and runs downwards in front of the great saphenous vein on the medial side of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Adductor Canal",
+    type: "truefalse",
+    question: "The subsartorial plexus is formed by branches from the medial cutaneous nerve of the thigh, the saphenous nerve, and the anterior division of the obturator nerve.",
+    answer: true,
+    explanation: "The subsartorial plexus of nerves lies on the fibrous roof of the adductor canal under cover of the sartorius. The plexus is formed by branches from the medial cutaneous nerve of the thigh, the saphenous nerve, and the anterior division of the obturator nerve."
+  },
+
+  // SECTION 4: Profunda Femoris & Its Branches (617-623)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The profunda femoris artery arises from the lateral side of the femoral artery about 4 cm below the inguinal ligament.",
+    answer: true,
+    explanation: "The profunda femoris artery is the largest branch of the femoral artery. It arises from the lateral side of the femoral artery about 4 cm below the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The medial circumflex femoral artery passes posteriorly between the pectineus and the adductor longus muscles.",
+    answer: false,
+    explanation: "The medial circumflex femoral artery leaves the femoral triangle by passing posteriorly between the pectineus and the psoas major muscles, not between the pectineus and adductor longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The lateral circumflex femoral artery runs laterally between the anterior and posterior divisions of the femoral nerve.",
+    answer: true,
+    explanation: "The lateral circumflex femoral artery runs laterally between the anterior and posterior divisions of the femoral nerve, passes behind the sartorius and the rectus femoris, and divides into ascending, transverse and descending branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The descending branch of the lateral circumflex femoral artery runs down along the anterior border of the vastus medialis.",
+    answer: false,
+    explanation: "The descending branch of the lateral circumflex femoral artery runs down along the anterior border of the vastus lateralis, not the vastus medialis, accompanied by the nerve to that muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The first perforating artery of the profunda femoris arises just above the upper border of the pectineus.",
+    answer: true,
+    explanation: "The first perforating artery arises just above the upper border of the pectineus, the second at the lower border of pectineus, the third on the adductor longus, and the fourth is the termination of the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The second perforating artery gives off the nutrient artery to the tibia.",
+    answer: false,
+    explanation: "The second perforating artery gives off the nutrient artery to the femur, not the tibia. The nutrient artery to the tibia arises from the anterior or posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Profunda Femoris Artery",
+    type: "truefalse",
+    question: "The descending genicular artery is the last branch of the femoral artery arising just above the hiatus magnus.",
+    answer: true,
+    explanation: "The descending genicular artery is the last branch of the femoral artery arising just above the hiatus magnus. It divides into a superficial saphenous branch and a deep muscular branch."
+  },
+
+  // SECTION 5: Femoral Vein (624)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Vein",
+    type: "truefalse",
+    question: "The femoral vein receives the great saphenous vein in the adductor canal.",
+    answer: false,
+    explanation: "The femoral vein receives the great saphenous vein in the femoral triangle, not in the adductor canal. The great saphenous vein pierces the cribriform fascia and opens into the femoral vein near the saphenous opening."
+  },
+
+  // SECTION 6: Femoral Nerve (625-631)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The femoral nerve divides into anterior and posterior divisions about 2.5 cm below the inguinal ligament.",
+    answer: true,
+    explanation: "The femoral nerve enters the thigh behind the inguinal ligament and divides into anterior and posterior divisions about 2.5 cm below the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The anterior division of the femoral nerve supplies the rectus femoris and the vasti muscles.",
+    answer: false,
+    explanation: "The anterior division of the femoral nerve supplies the sartorius and gives cutaneous branches. The posterior division supplies the rectus femoris, the three vasti, and the articularis genu."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The saphenous nerve is a branch of the anterior division of the femoral nerve.",
+    answer: false,
+    explanation: "The saphenous nerve is a branch of the posterior division of the femoral nerve, not the anterior division. It is the longest cutaneous nerve in the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint.",
+    answer: true,
+    explanation: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint, accounting for the thickness of the nerve. This is in accordance with Hilton's law."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The medial cutaneous nerve of the thigh is a branch of the anterior division of the femoral nerve.",
+    answer: true,
+    explanation: "The anterior division of the femoral nerve gives two cutaneous branches: the intermediate and the medial cutaneous nerves of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "Injury to the femoral nerve causes sensory loss on the posterior aspect of the thigh.",
+    answer: false,
+    explanation: "Injury to the femoral nerve causes sensory loss on the anterior and medial sides of the thigh and medial side of the leg. The posterior aspect of the thigh is supplied by the posterior cutaneous nerve of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Femoral Nerve",
+    type: "truefalse",
+    question: "The patellar tendon reflex tests the integrity of the femoral nerve and L2-L4 spinal cord segments.",
+    answer: true,
+    explanation: "The patellar tendon reflex (knee jerk) tests the integrity of the femoral nerve and the L2-L4 spinal cord segments. Tapping the ligamentum patellae causes contraction of the quadriceps and extension of the knee."
+  },
+
+  // SECTION 7: Gluteal Region (632-665)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The psoas abscess can track down to the femoral triangle because the psoas fascia is continuous with the fascia lata.",
+    answer: false,
+    explanation: "A psoas abscess can track down between the psoas major muscle and its fascia to reach behind the inguinal ligament into the femoral triangle. The fascia is continuous, allowing the abscess to spread."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The vastus lateralis is the preferred site for intramuscular injection in children.",
+    answer: true,
+    explanation: "Intramuscular injection can be given in the anterolateral region of the thigh in the vastus lateralis muscle, especially in children."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The gluteus maximus is the most superficial gluteal muscle and is the largest, heaviest muscle of the body.",
+    answer: true,
+    explanation: "The gluteus maximus is the most superficial gluteal muscle and is the largest, heaviest, and most coarsely fibered muscle of the body."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The gluteus maximus is supplied by the superior gluteal nerve.",
+    answer: false,
+    explanation: "The gluteus maximus is supplied by the inferior gluteal nerve (L5, S1, S2). The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The ischial tuberosity can be felt through the inferior part of the gluteus maximus just superior to the medial part of the gluteal fold.",
+    answer: true,
+    explanation: "The ischial tuberosity can be felt on deep palpation through the inferior part of the gluteus maximus, just superior to the medial part of the gluteal fold."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "You sit on the gluteus maximus muscle, which provides cushioning for the ischial tuberosity.",
+    answer: false,
+    explanation: "You do not sit on your gluteus maximus; you sit on the fatty fibrous tissue and the ischial bursa that lie between the ischial tuberosity and skin. The gluteus maximus moves superiorly when the thigh is flexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The trochanteric bursa separates the superior fibers of the gluteus maximus from the greater trochanter.",
+    answer: true,
+    explanation: "The trochanteric bursa separates superior fibers of the gluteus maximus from the greater trochanter. It is commonly the largest of the bursae formed in relation to bony prominences."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The ischial bursa separates the inferior part of the gluteus maximus from the ischial tuberosity and is always present.",
+    answer: false,
+    explanation: "The ischial bursa separates the inferior part of the gluteus maximus from the ischial tuberosity, but it is often absent."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The gluteus medius and minimus share the same actions and nerve supply from the inferior gluteal nerve.",
+    answer: false,
+    explanation: "The gluteus medius and minimus share the same actions and are both supplied by the superior gluteal nerve, not the inferior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The tensor fasciae latae is supplied by the superior gluteal nerve and is primarily a flexor of the thigh.",
+    answer: true,
+    explanation: "Despite its gluteal innervation, the tensor fasciae latae is primarily a flexor of the thigh because of its anterior location. It is supplied by the superior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The piriformis is located partly on the posterior wall of the lesser pelvis and partly posterior to the hip joint.",
+    answer: true,
+    explanation: "The pear-shaped piriformis is located partly on the posterior wall of the lesser pelvis and partly posterior to the hip joint. It leaves the pelvis through the greater sciatic foramen."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The superior gluteal vessels and nerve emerge inferior to the piriformis.",
+    answer: false,
+    explanation: "The superior gluteal vessels and nerve emerge superior to the piriformis. The inferior gluteal vessels and nerve emerge inferior to the piriformis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The obturator internus and gemelli form the triceps coxae and occupy the gap between the piriformis and the quadratus femoris.",
+    answer: true,
+    explanation: "The obturator internus and the superior and inferior gemelli form a tricipital (three-headed) muscle, the triceps coxae, which occupies the gap between the piriformis and the quadratus femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The quadratus femoris is a short, flat quadrangular muscle that is a strong lateral rotator of the thigh.",
+    answer: true,
+    explanation: "The quadratus femoris is a short, flat quadrangular muscle located inferior to the obturator internus and gemelli. True to its name, it is a rectangular muscle that is a strong lateral rotator of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The obturator externus is a lateral rotator of the thigh and is supplied by the sciatic nerve.",
+    answer: false,
+    explanation: "The obturator externus is a lateral rotator of the thigh but is supplied by the obturator nerve (L3, L4), not the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The hamstring muscles share a common proximal attachment to the ischial tuberosity.",
+    answer: true,
+    explanation: "The hamstring muscles (semitendinosus, semimembranosus, and long head of biceps femoris) share a common feature: proximal attachment to the ischial tuberosity deep to the gluteus maximus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "All hamstring muscles are supplied by the common peroneal part of the sciatic nerve.",
+    answer: false,
+    explanation: "The hamstring muscles are supplied by the tibial part of the sciatic nerve. Only the short head of the biceps femoris is supplied by the common peroneal part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The semitendinosus is named because it has a long tendon of insertion and is muscular in its upper part.",
+    answer: true,
+    explanation: "Semitendinosus is so named because it is muscular in the upper part and has a long tendon of insertion. It lies posteromedially in the thigh, superficial to the semimembranosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The semimembranosus is named because it has a flat tendon of origin.",
+    answer: true,
+    explanation: "Semimembranosus is so named because it has a flat tendon of origin. It lies posteromedially in the thigh, deep to the semitendinosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The biceps femoris has two heads of origin, both supplied by the tibial part of the sciatic nerve.",
+    answer: false,
+    explanation: "The biceps femoris has two heads of origin. The long head is supplied by the tibial part of the sciatic nerve, while the short head is supplied by the common peroneal part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The adductor magnus is called a hybrid muscle because of its double nerve supply.",
+    answer: true,
+    explanation: "The adductor magnus is called a hybrid muscle because of its double nerve supply: the adductor part is supplied by the posterior division of the obturator nerve, and the hamstring part is supplied by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The sciatic nerve enters the gluteal region through the greater sciatic foramen above the piriformis.",
+    answer: false,
+    explanation: "The sciatic nerve enters the gluteal region through the greater sciatic foramen below the piriformis, not above it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The sciatic nerve gives articular branches to the hip joint in the gluteal region.",
+    answer: true,
+    explanation: "The sciatic nerve gives articular branches to the hip joint in the gluteal region, although it gives no muscular branches in this region."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The sciatic nerve is accompanied by a small companion artery called the arteria nervi ischiadici, which is a branch of the inferior gluteal artery.",
+    answer: true,
+    explanation: "The sciatic nerve is accompanied by a small companion artery called the arteria nervi ischiadici. It is a branch of the inferior gluteal artery and runs along the sciatic nerve for some distance."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The sciatic nerve gives muscular branches to the hamstrings from its lateral side.",
+    answer: false,
+    explanation: "The tibial part of the sciatic nerve supplies the semitendinosus, semimembranosus, long head of the biceps femoris, and ischial head of the adductor magnus from its medial side, not its lateral side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The term 'sciatica' refers to shooting pain along the cutaneous distribution of the sciatic nerve and its terminal branches.",
+    answer: true,
+    explanation: "Shooting pain along the cutaneous distribution of the sciatic nerve and its terminal branches, chiefly the common peroneal, is known as sciatica. Pain usually begins in the gluteal region and radiates along the back of the thigh and lateral side of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "A complete section of the sciatic nerve results in loss of all movements below the knee with foot drop.",
+    answer: true,
+    explanation: "A complete section of the sciatic nerve results in loss of all movements below the knee with foot drop, sensory loss on the back of the thigh, the whole of the leg, and the foot except the area innervated by the saphenous nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The safe side for injections in the gluteal region is the inferomedial quadrant.",
+    answer: false,
+    explanation: "The safe area for intramuscular injections in the gluteal region is the superolateral quadrant. The inferomedial quadrant should be avoided because it contains the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The perforating arteries of the profunda femoris supply the hamstring muscles in the posterior compartment.",
+    answer: true,
+    explanation: "The perforating arteries supply the hamstring muscles in the posterior compartment and the vastus lateralis in the anterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The superior gluteal artery enters the gluteal region through the greater sciatic foramen below the piriformis.",
+    answer: false,
+    explanation: "The superior gluteal artery enters the gluteal region through the greater sciatic foramen above the piriformis, along with the superior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The inferior gluteal artery is a branch of the anterior division of the internal iliac artery.",
+    answer: true,
+    explanation: "The inferior gluteal artery is a branch of the anterior division of the internal iliac artery, while the superior gluteal artery is a branch of the posterior division."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The pudendal nerve enters the gluteal region through the greater sciatic foramen and supplies structures in the gluteal region.",
+    answer: false,
+    explanation: "The pudendal nerve enters the gluteal region through the greater sciatic foramen but leaves immediately through the lesser sciatic foramen to enter the perineum. It does not supply any structures in the gluteal region."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The trochanteric anastomosis supplies branches to the head of the femur.",
+    answer: true,
+    explanation: "The trochanteric anastomosis is situated near the trochanteric fossa and supplies branches to the head of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The cruciate anastomosis involves the transverse branches of the medial and lateral circumflex femoral arteries, the inferior gluteal artery, and the first perforating artery.",
+    answer: true,
+    explanation: "The cruciate anastomosis is formed by the transverse branch of the medial circumflex femoral, transverse branch of the lateral circumflex femoral, inferior gluteal, and first perforating branch of the profunda femoris arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region",
+    type: "truefalse",
+    question: "The long head of the biceps femoris originates from the ischial tuberosity and inserts into the head of the fibula.",
+    answer: true,
+    explanation: "The long head of the biceps femoris originates from the inferomedial impression on the upper part of the ischial tuberosity and is inserted into the head of the fibula in front of its apex."
+  },
+
+  // SECTION 8: Anterior Leg Compartment (667-669)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Leg Compartment",
+    type: "truefalse",
+    question: "The tibialis anterior is the most lateral muscle of the anterior compartment of the leg.",
+    answer: false,
+    explanation: "The tibialis anterior is the most medial muscle of the anterior compartment of the leg. The peroneus tertius is the most lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Leg Compartment",
+    type: "truefalse",
+    question: "The anterior tibial artery enters the anterior compartment of the leg by passing forwards through an opening in the interosseous membrane.",
+    answer: true,
+    explanation: "The anterior tibial artery enters the anterior compartment of the leg by passing forwards close to the fibula, through an opening in the upper part of the interosseous membrane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anterior Leg Compartment",
+    type: "truefalse",
+    question: "The deep peroneal nerve lies lateral to the anterior tibial artery in its upper and lower thirds, and anterior to the artery in its middle third.",
+    answer: true,
+    explanation: "The deep peroneal nerve is lateral to the anterior tibial artery in its upper and lower thirds, and anterior to it in its middle one-third."
+  },
+
+  // SECTION 9: Dorsum of Foot (670-674)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dorsum of Foot",
+    type: "truefalse",
+    question: "The dorsalis pedis artery begins at the ankle joint between the two malleoli as a continuation of the anterior tibial artery.",
+    answer: true,
+    explanation: "The dorsalis pedis artery is a continuation of the anterior tibial artery onto the dorsum of the foot. It begins in front of the ankle between the two malleoli."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dorsum of Foot",
+    type: "truefalse",
+    question: "The dorsalis pedis artery is congenitally absent in about 14% of subjects.",
+    answer: true,
+    explanation: "The dorsalis pedis artery is congenitally absent in about 14% of subjects. In these cases, it is replaced by an extended perforating fibular artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dorsum of Foot",
+    type: "truefalse",
+    question: "The arcuate artery of the foot arises from the dorsalis pedis artery and runs medially over the bases of the metatarsal bones.",
+    answer: false,
+    explanation: "The arcuate artery arises from the dorsalis pedis artery and runs laterally over the bases of the metatarsal bones, not medially. It gives off the second, third, and fourth dorsal metatarsal arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dorsum of Foot",
+    type: "truefalse",
+    question: "The first dorsal metatarsal artery arises from the dorsalis pedis artery just before it dips into the sole.",
+    answer: true,
+    explanation: "The first dorsal metatarsal artery arises just before the dorsalis pedis artery dips into the sole. It gives a branch to the medial side of the big toe and divides into dorsal digital branches for adjacent sides of the first and second toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dorsum of Foot",
+    type: "truefalse",
+    question: "The extensor digitorum brevis is a muscle on the dorsum of the foot that is supplied by the superficial peroneal nerve.",
+    answer: false,
+    explanation: "The extensor digitorum brevis is a muscle on the dorsum of the foot that is supplied by the lateral terminal branch of the deep peroneal nerve, not the superficial peroneal nerve."
+  },
+
+  // SECTION 10: Extensor Retinacula (675-676)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Extensor Retinacula",
+    type: "truefalse",
+    question: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the fibula.",
+    answer: false,
+    explanation: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the tibia and laterally to the lower part of the anterior border of the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Extensor Retinacula",
+    type: "truefalse",
+    question: "The inferior extensor retinaculum is a Y-shaped band of deep fascia situated in front of the ankle joint.",
+    answer: true,
+    explanation: "The inferior extensor retinaculum is a Y-shaped band of deep fascia, situated in front of the ankle joint and over the posterior part of the dorsum of the foot."
+  },
+
+  // SECTION 11: Lateral Leg Compartment (677-680)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lateral Leg Compartment",
+    type: "truefalse",
+    question: "The peroneus longus is inserted into the base of the 5th metatarsal bone.",
+    answer: false,
+    explanation: "The peroneus longus is inserted into the base of the 1st metatarsal and medial cuneiform. The peroneus brevis is inserted into the base of the 5th metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lateral Leg Compartment",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies both peroneus longus and peroneus brevis muscles.",
+    answer: true,
+    explanation: "The superficial peroneal nerve supplies both peroneus longus and peroneus brevis muscles, making it the nerve of the lateral compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lateral Leg Compartment",
+    type: "truefalse",
+    question: "The superficial peroneal nerve becomes cutaneous at the junction of the upper two-thirds and lower one-third of the leg.",
+    answer: true,
+    explanation: "The superficial peroneal nerve pierces the deep fascia at the junction of the upper two-thirds and lower one-third of the leg and descends to the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lateral Leg Compartment",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the entire dorsum of the foot, including the nail beds.",
+    answer: false,
+    explanation: "The superficial peroneal nerve supplies most of the dorsum of the foot, except the lateral border (sural nerve), medial border (saphenous nerve), cleft between first and second toes (deep peroneal nerve), and distal phalanges including nail beds (plantar nerves)."
+  },
+
+  // SECTION 12: Saphenous Nerve & Anserine Bursa (681-683)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Saphenous Nerve",
+    type: "truefalse",
+    question: "The saphenous nerve supplies the skin on the medial side of the leg and the medial border of the foot up to the ball of the great toe.",
+    answer: true,
+    explanation: "The saphenous nerve supplies the skin of the medial side of the leg and the medial border of the foot up to the ball of the great toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anserine Bursa",
+    type: "truefalse",
+    question: "The sartorius, gracilis, and semitendinosus form the 'guy ropes' to stabilize the bony pelvis on the femur and are all supplied by the same nerve.",
+    answer: false,
+    explanation: "The sartorius, gracilis, and semitendinosus form the 'guy ropes' to stabilize the bony pelvis on the femur, but they are supplied by three different nerves: sartorius by the femoral nerve, gracilis by the obturator nerve, and semitendinosus by the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anserine Bursa",
+    type: "truefalse",
+    question: "The anserine bursa separates the tendons of sartorius, gracilis, and semitendinosus from one another, from the tibia, and from the tibial collateral ligament.",
+    answer: true,
+    explanation: "The anserine bursa is a complicated bursa which separates the tendons of the sartorius, the gracilis, and the semitendinosus from one another, from the tibia, and from the tibial collateral ligament."
+  },
+
+  // SECTION 13: Tibia (684)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibia",
+    type: "truefalse",
+    question: "The medial surface of the tibia is subcutaneous throughout its entire length.",
+    answer: false,
+    explanation: "The medial surface of the tibia is subcutaneous, except in the uppermost part where it is crossed by the tendons of sartorius, gracilis, and semitendinosus."
+  },
+
+  // SECTION 14: Popliteal Fossa (685-697)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal artery is the deepest structure in the popliteal fossa, lying directly on the popliteal surface of the femur, the knee joint capsule, and the popliteus muscle.",
+    answer: true,
+    explanation: "The popliteal artery is the deepest structure in the popliteal fossa, lying on the popliteal surface of the femur, the back of the knee joint, and the fascia covering the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "In the upper part of the popliteal fossa, from medial to lateral side, the arrangement is nerve, vein, and artery.",
+    answer: false,
+    explanation: "In the upper part of the popliteal fossa, from medial to lateral side, the arrangement is artery, vein, and nerve (A, V, N). In the middle part, from behind forwards, it is nerve, vein, and artery (N, V, A)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The middle genicular artery pierces the oblique popliteal ligament and supplies the cruciate ligaments and the synovial membrane of the knee joint.",
+    answer: true,
+    explanation: "The middle genicular artery pierces the oblique popliteal ligament of the knee and supplies the cruciate ligaments and the synovial membrane of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve is the larger terminal branch of the sciatic nerve.",
+    answer: false,
+    explanation: "The common peroneal nerve is the smaller terminal branch of the sciatic nerve. The tibial nerve is the larger terminal branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula and is the most frequently injured nerve in the lower limb.",
+    answer: true,
+    explanation: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula and is the most frequently injured nerve in the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The sural nerve is formed by the union of the medial sural cutaneous nerve from the tibial nerve and the peroneal communicating nerve from the common peroneal nerve.",
+    answer: true,
+    explanation: "The sural nerve is formed by the union of the medial sural cutaneous nerve from the tibial nerve and the peroneal communicating nerve from the common peroneal nerve about 5 cm above the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal vein receives the small saphenous vein in the popliteal fossa.",
+    answer: true,
+    explanation: "The small saphenous vein pierces the deep fascia in the lower part of the popliteal fossa and opens into the popliteal vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The tibial nerve in the popliteal fossa gives genicular branches in the lower part, cutaneous branches in the middle, and muscular branches in the upper part.",
+    answer: false,
+    explanation: "The tibial nerve in the popliteal fossa gives genicular branches in the upper part, cutaneous branches in the middle, and muscular branches in the lower part of the fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The common peroneal nerve gives muscular branches to the short head of the biceps femoris in the popliteal fossa.",
+    answer: true,
+    explanation: "The common peroneal nerve may give a branch to the short head of the biceps femoris. This is the only muscular branch it gives in the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The recurrent genicular nerve arises from the common peroneal nerve and supplies the tibialis anterior muscle in addition to the knee joint.",
+    answer: true,
+    explanation: "The recurrent genicular nerve arises where the common peroneal nerve divides into the superficial and deep peroneal nerves. It ascends anterior to the knee joint and supplies the tibialis anterior muscle in addition to the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal lymph nodes receive afferents from the lateral part of the sole, both superficial and deep parts of the back of the leg, and the knee joint.",
+    answer: true,
+    explanation: "The popliteal lymph nodes receive afferents from the lateral part of the sole, both superficial and deep parts of the back of the leg, and the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "The popliteal lymph nodes drain into the superficial inguinal lymph nodes.",
+    answer: false,
+    explanation: "The efferents from the popliteal lymph nodes end in the deep inguinal lymph nodes, not the superficial inguinal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa",
+    type: "truefalse",
+    question: "Blood pressure in the lower limb is recorded from the popliteal artery by auscultation.",
+    answer: true,
+    explanation: "Blood pressure in the lower limb is recorded from the popliteal artery by auscultation. The patient lies in the prone position with a large cuff tied on the thigh."
+  },
+
+  // SECTION 15: Genicular Anastomosis (698-699)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Genicular Anastomosis",
+    type: "truefalse",
+    question: "The genicular anastomosis around the knee provides collateral circulation that can bypass the popliteal artery when it is occluded.",
+    answer: true,
+    explanation: "The genicular anastomosis around the knee provides collateral circulation capable of maintaining blood supply to the leg during full knee flexion or when the popliteal artery is occluded."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Genicular Anastomosis",
+    type: "truefalse",
+    question: "The descending genicular branch of the femoral artery participates in the genicular anastomosis around the knee.",
+    answer: true,
+    explanation: "The descending genicular branch of the femoral artery participates in the genicular anastomosis around the knee, along with the genicular branches of the popliteal artery, the descending branch of the lateral circumflex femoral artery, and the anterior tibial recurrent artery."
+  },
+
+  // SECTION 16: Short Saphenous Vein (700)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Short Saphenous Vein",
+    type: "truefalse",
+    question: "The short saphenous vein drains the lateral border of the foot, the heel, and the back of the leg.",
+    answer: true,
+    explanation: "The short saphenous vein drains the lateral border of the foot, the heel, and the back of the leg. It is connected with the great saphenous and with the deep veins, and is accompanied by the sural nerve."
+  },
+
+  // ===== BATCH 4: QUESTIONS 701-800 =====
+
+  // SECTION 17: Gluteal Region & Hip (701-702)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region & Hip",
+    type: "truefalse",
+    question: "The gluteus maximus is the most superficial muscle of the gluteal region and covers all other gluteal muscles completely.",
+    answer: false,
+    explanation: "The gluteus maximus covers all of the other gluteal muscles, except for the anterosuperior third of the gluteus medius, which remains exposed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Gluteal Region & Hip",
+    type: "truefalse",
+    question: "The fibular collateral ligament is separated from the lateral meniscus by the tendon of the popliteus.",
+    answer: true,
+    explanation: "The fibular collateral ligament is separated from the lateral meniscus by the tendon of the popliteus. The ligament is also free from the capsule."
+  },
+
+  // SECTION 18: Knee Joint (703-715)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tibial collateral ligament is attached to the medial meniscus, making the medial meniscus less mobile and more prone to injury.",
+    answer: true,
+    explanation: "The deep part of the tibial collateral ligament blends with the capsule and with the medial meniscus. This makes the medial meniscus less mobile and more vulnerable to injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament prevents posterior displacement of the tibia on the femur.",
+    answer: false,
+    explanation: "The anterior cruciate ligament prevents anterior displacement of the tibia on the femur (or posterior displacement of the femur on the tibia). The posterior cruciate ligament prevents posterior displacement of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior cruciate ligament is the stronger of the two cruciate ligaments and is taut during flexion.",
+    answer: true,
+    explanation: "The posterior cruciate ligament is the stronger of the two cruciate ligaments. It is taut during flexion of the knee and prevents anterior displacement of the femur on the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is nearly circular and more mobile than the lateral meniscus.",
+    answer: false,
+    explanation: "The medial meniscus is nearly semicircular, while the lateral meniscus is nearly circular. The lateral meniscus is more freely movable than the medial meniscus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The transverse ligament of the knee connects the anterior ends of the medial and lateral menisci.",
+    answer: true,
+    explanation: "The transverse ligament of the knee connects the anterior ends of the medial and lateral menisci, crossing the anterior intercondylar area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa communicates with the synovial cavity of the knee joint.",
+    answer: true,
+    explanation: "The suprapatellar bursa is a prolongation of the synovial membrane above the patella and communicates freely with the synovial cavity of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The semimembranosus bursa is located on the lateral side of the knee joint.",
+    answer: false,
+    explanation: "The semimembranosus bursa is located on the medial side of the knee joint, between the medial head of the gastrocnemius and the semimembranosus tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Locking of the knee joint occurs as a result of medial rotation of the femur on the tibia during the last stage of extension.",
+    answer: true,
+    explanation: "Locking occurs as a result of medial rotation of the femur during the last stage of extension. This makes the lower limb a solid column for weight bearing."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus muscle is responsible for unlocking the knee joint by medially rotating the femur.",
+    answer: false,
+    explanation: "The popliteus unlocks the knee joint by laterally rotating the femur on the tibia (or medially rotating the tibia when the foot is off the ground), allowing flexion to occur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is structurally weak because the tibial condyles are too small to hold the femoral condyles in place.",
+    answer: true,
+    explanation: "Structurally, the knee is a weak joint because the articular surfaces are not congruent. The tibial condyles are too small and shallow to hold the large, convex, femoral condyles in place."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial meniscus is more vulnerable to injury because of its fixity to the tibial collateral ligament.",
+    answer: true,
+    explanation: "The medial meniscus is more vulnerable to injury than the lateral because of its fixity to the tibial collateral ligament and greater excursion during rotatory movements."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lateral meniscus is protected by the popliteus which pulls it forwards during flexion.",
+    answer: false,
+    explanation: "The lateral meniscus is protected by the popliteus which pulls it backwards so that it is not crushed between the articular surfaces, not forwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "In knee joint disease, the vastus medialis is the first muscle to atrophy and the last to recover.",
+    answer: true,
+    explanation: "In knee joint disease, vastus medialis is the first to atrophy and last to recover, making it clinically important in rehabilitation."
+  },
+
+  // SECTION 19: Ankle & Tibiofibular Joints (716-725)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The ankle joint is most stable during plantar flexion because the talus fits tightly in the mortise.",
+    answer: false,
+    explanation: "The ankle joint is most stable during dorsiflexion, not plantar flexion. During dorsiflexion, the wider anterior part of the talus fits tightly in the mortise. During plantar flexion, the narrow part sits loosely."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The deltoid ligament of the ankle is a very strong ligament and is prone to injury in eversion.",
+    answer: true,
+    explanation: "The deltoid ligament is a very strong triangular ligament on the medial side of the ankle. Excessive tensile forces result in avulsion fracture rather than tear. It is prone to injury in eversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The lateral ligament of the ankle consists of the anterior talofibular, posterior talofibular, and calcaneofibular ligaments.",
+    answer: true,
+    explanation: "The lateral ligament of the ankle consists of three bands: the anterior talofibular ligament, the posterior talofibular ligament, and the calcaneofibular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The anterior talofibular ligament is the strongest ligament of the ankle and is rarely injured.",
+    answer: false,
+    explanation: "The anterior talofibular ligament is a flat, weak band and is the most commonly torn ligament during ankle sprains. It is the weakest of the lateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is crossed by the tendons of the peroneus longus and brevis.",
+    answer: true,
+    explanation: "The calcaneofibular ligament is crossed by the tendons of the peroneus longus and brevis as they pass behind the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The superior tibiofibular joint permits slight movements that help adjust the lateral malleolus during ankle movements.",
+    answer: true,
+    explanation: "The superior tibiofibular joint permits slight gliding or rotatory movements that help in adjustment of the lateral malleolus during movements at the ankle joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The middle tibiofibular joint is a synovial joint formed by the interosseous membrane.",
+    answer: false,
+    explanation: "The middle tibiofibular joint is a fibrous joint (syndesmosis) formed by the interosseous membrane connecting the shafts of the tibia and the fibula, not a synovial joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The interosseous membrane of the leg resists the downward pull exerted on the fibula by the powerful muscles attached to the bone.",
+    answer: true,
+    explanation: "The interosseous membrane resists the downward pull exerted on the fibula by the powerful muscles attached to the bone. The biceps femoris is the only muscle that pulls the fibula upwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior tibiofibular joint is a syndesmosis that allows no movement whatsoever.",
+    answer: false,
+    explanation: "The inferior tibiofibular joint permits slight movements, so that the lateral malleolus can rotate laterally during dorsiflexion of the ankle. The joint is a syndesmosis with slight mobility."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle & Tibiofibular Joints",
+    type: "truefalse",
+    question: "The posterior tibiofibular ligament is stronger than the anterior tibiofibular ligament.",
+    answer: true,
+    explanation: "The posterior tibiofibular ligament is stronger than the anterior tibiofibular ligament. Its lower and deep portion forms the inferior transverse tibiofibular ligament."
+  },
+
+  // SECTION 20: Foot Joints & Arches (726-745)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The subtalar joint is a plane synovial joint between the talus and the calcaneum.",
+    answer: true,
+    explanation: "The talocalcanean joint (subtalar joint) is a plane synovial joint between the concave facet on the inferior surface of the body of the talus and the convex facet on the middle one-third of the superior surface of the calcaneum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The interosseous talocalcanean ligament becomes taut in inversion and limits this movement.",
+    answer: false,
+    explanation: "The interosseous talocalcanean ligament becomes taut in eversion and limits this movement. The cervical ligament becomes taut in inversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The spring ligament is the most important ligament for maintaining the medial longitudinal arch of the foot.",
+    answer: true,
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) is the most important ligament for maintaining the medial longitudinal arch of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The long plantar ligament converts the groove on the plantar surface of the cuboid into a tunnel for the tendon of the tibialis posterior.",
+    answer: false,
+    explanation: "The long plantar ligament converts the groove on the plantar surface of the cuboid into a tunnel for the tendon of the peroneus longus, not the tibialis posterior."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The bifurcate ligament has its stem attached to the anterolateral part of the sulcus calcanei.",
+    answer: true,
+    explanation: "The bifurcate ligament is Y-shaped with its stem attached to the anterolateral part of the sulcus calcanei. The medial limb is the calcaneonavicular ligament, and the lateral limb is the calcaneocuboid ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Inversion and eversion of the foot take place mainly at the transverse tarsal joint.",
+    answer: false,
+    explanation: "Inversion and eversion take place mainly at the subtalar (talocalcanean) and talocalcaneonavicular joints, and partly at the transverse tarsal joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Inversion is accompanied by plantar flexion of the foot and adduction of the forefoot.",
+    answer: true,
+    explanation: "Inversion is accompanied by plantar flexion of the foot and adduction of the forefoot. Eversion is accompanied by dorsiflexion and abduction."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Eversion is limited by tension of the peroneal muscles.",
+    answer: false,
+    explanation: "Eversion is limited by tension of tibialis anterior, tibialis posterior, and tension of the deltoid ligament. Inversion is limited by tension of the peronei and the cervical ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The cervical ligament becomes taut in inversion and limits this movement.",
+    answer: true,
+    explanation: "The cervical ligament is placed lateral to the sinus tarsi. It becomes taut in inversion and limits this movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "There are seven joint cavities in the proximal part of the foot.",
+    answer: false,
+    explanation: "There are only six joint cavities in the proximal part of the foot: talocalcanean, talocalcaneanovicular, calcaneocuboid, first cuneometatarsal, cubometatarsal, and cuneonavicular with extensions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The deep transverse ligaments of the foot connect all five toes, unlike the hand where they connect only four fingers.",
+    answer: true,
+    explanation: "The deep transverse ligaments of the foot connect all the five toes instead of only four fingers in the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Adduction and abduction of the toes are with reference to the third toe, as in the hand.",
+    answer: false,
+    explanation: "In the foot, toes are adducted and abducted with reference to the second toe, not the third finger as in the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The medial longitudinal arch is higher and more resilient than the lateral longitudinal arch.",
+    answer: true,
+    explanation: "The medial longitudinal arch is considerably higher, more mobile and resilient than the lateral longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The key stone of the medial longitudinal arch is the cuboid.",
+    answer: false,
+    explanation: "The key stone of the medial longitudinal arch is the talus. The key stone of the lateral longitudinal arch is the cuboid."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The plantar calcaneonavicular ligament (spring ligament) supports the head of the talus.",
+    answer: true,
+    explanation: "The spring ligament supports the head of the talus and plays important roles in the transfer of weight from the talus and in maintaining the longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The long plantar ligament is attached to the bases of all five metatarsal bones.",
+    answer: false,
+    explanation: "The long plantar ligament is attached to the lips of the groove on the cuboid bone and to the bases of the middle three metatarsals, not all five."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The posterior transverse arch forms a complete arch that is in contact with the ground at both ends.",
+    answer: false,
+    explanation: "The posterior transverse arch is incomplete and forms a half dome which is completed by the similar half dome of the opposite foot. Only the lateral end contacts the ground."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "The anterior transverse arch is formed by the heads of the five metatarsal bones and is complete.",
+    answer: true,
+    explanation: "The anterior transverse arch is formed by the heads of the five metatarsal bones. It is complete because the heads of the first and fifth metatarsals come in contact with the ground."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Flat foot (pes planus) results from exaggeration of the arches.",
+    answer: false,
+    explanation: "Absence or collapse of the arches leads to flat foot (pes planus). Exaggeration of the arches is known as pes cavus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints & Arches",
+    type: "truefalse",
+    question: "Talipes equinovarus is the commonest deformity of the foot.",
+    answer: true,
+    explanation: "The commonest deformity of the foot is talipes equinovarus (club foot), in which the foot is inverted, adducted, and plantar flexed."
+  },
+
+  // SECTION 21: Sole of Foot (746-750)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "truefalse",
+    question: "The flexor digitorum brevis is the most lateral muscle of the first layer of the sole.",
+    answer: false,
+    explanation: "The flexor digitorum brevis lies in the middle of the first layer. The abductor hallucis is medial, and the abductor digiti minimi is lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "truefalse",
+    question: "The first lumbrical of the foot is bipennate and is supplied by the lateral plantar nerve.",
+    answer: false,
+    explanation: "The first lumbrical is unipennate and is supplied by the medial plantar nerve. The second to fourth lumbricals are bipennate and supplied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "truefalse",
+    question: "The flexor digitorum accessorius straightens the pull of the flexor digitorum longus tendons.",
+    answer: true,
+    explanation: "The flexor digitorum accessorius straightens the pull of the long flexor tendons so that their action is more efficient."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "truefalse",
+    question: "The plantar interossei muscles abduct the toes from the axis of the second toe.",
+    answer: false,
+    explanation: "The plantar interossei adduct the toes toward the axis of the second toe. The dorsal interossei abduct the toes from the axis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "truefalse",
+    question: "The dorsal interossei muscles of the foot are bipennate and arise from adjacent sides of the metatarsals.",
+    answer: true,
+    explanation: "The dorsal interossei are bipennate and arise from adjacent sides of metatarsal bones. They abduct the toes from the axis of the second toe."
+  },
+
+  // SECTION 22: Plantar Arteries & Nerves (751-755)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Plantar Arteries & Nerves",
+    type: "truefalse",
+    question: "The plantar arch is formed by the lateral plantar artery and is completed medially by the dorsalis pedis artery.",
+    answer: true,
+    explanation: "The plantar arch is formed by the direct continuation of the lateral plantar artery and is completed medially by the dorsalis pedis artery through its deep plantar branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Plantar Arteries & Nerves",
+    type: "truefalse",
+    question: "The plantar arch lies between the first and second layers of the sole.",
+    answer: false,
+    explanation: "The plantar arch lies between the third and fourth layers of the sole, accompanied by the deep branch of the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Plantar Arteries & Nerves",
+    type: "truefalse",
+    question: "Morton's neuroma occurs on the lateral plantar nerve between the 4th and 5th metatarsal bones.",
+    answer: false,
+    explanation: "Morton's neuroma occurs on the branch of the medial plantar nerve between the 3rd and 4th metatarsal bones, not on the lateral plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Plantar Arteries & Nerves",
+    type: "truefalse",
+    question: "The medial plantar artery is the larger terminal branch of the posterior tibial artery.",
+    answer: false,
+    explanation: "The lateral plantar artery is the larger terminal branch of the posterior tibial artery. The medial plantar artery is the smaller branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Plantar Arteries & Nerves",
+    type: "truefalse",
+    question: "The deep branch of the lateral plantar nerve lies in the concavity of the plantar arch.",
+    answer: true,
+    explanation: "The deep branch of the lateral plantar nerve lies in the concavity of the plantar arch, running with the plantar arch between the third and fourth layers."
+  },
+
+  // SECTION 23: Foot Bones (756-759)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Bones",
+    type: "truefalse",
+    question: "The talus has muscular attachments on its superior surface.",
+    answer: false,
+    explanation: "The talus has no muscular attachments. This is a unique feature of the talus among the bones of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Bones",
+    type: "truefalse",
+    question: "The big toe carries double the weight to the ground than any of the other four toes.",
+    answer: true,
+    explanation: "The big toe carries double the weight to the ground than any of the other four toes, making it functionally important for weight bearing and propulsion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Bones",
+    type: "truefalse",
+    question: "The fibula does not participate in the knee joint but participates in the formation of the ankle joint.",
+    answer: true,
+    explanation: "The fibula does not take part in the knee joint but participates in the formation of the ankle joint as the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Bones",
+    type: "truefalse",
+    question: "The tendon of flexor hallucis longus courses between the two tubercles of the posterior process of the talus.",
+    answer: true,
+    explanation: "The tendon of flexor hallucis longus courses between the two tubercles of the posterior process of the talus, passing through a groove on the posterior surface of the talus."
+  },
+
+  // SECTION 24: Obturator Nerve & Medial Thigh (760-784)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The obturator nerve is the chief nerve of the medial compartment of the thigh and supplies all adductor muscles.",
+    answer: false,
+    explanation: "The obturator nerve is the chief nerve of the medial compartment of the thigh, but the hamstring part of the adductor magnus is supplied by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The anterior division of the obturator nerve supplies the gracilis muscle.",
+    answer: true,
+    explanation: "The anterior division of the obturator nerve supplies the pectineus, adductor longus, gracilis, and sometimes adductor brevis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The posterior division of the obturator nerve supplies the obturator externus and the hamstring part of the adductor magnus.",
+    answer: false,
+    explanation: "The posterior division of the obturator nerve supplies the obturator externus and the adductor part of the adductor magnus, not the hamstring part. The hamstring part is supplied by the tibial part of the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The accessory obturator nerve supplies the pectineus muscle and communicates with the anterior division of the obturator nerve.",
+    answer: true,
+    explanation: "The accessory obturator nerve supplies the deep surface of the pectineus, the hip joint, and communicates with the anterior division of the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The obturator artery is a branch of the femoral artery.",
+    answer: false,
+    explanation: "The obturator artery is a branch of the internal iliac artery, not the femoral artery. It accompanies the obturator nerve in the pelvis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The medial circumflex femoral artery gives an acetabular branch that supplies the fat in the acetabular fossa and sends a twig to the head of the femur.",
+    answer: true,
+    explanation: "The medial circumflex femoral artery gives an acetabular branch which passes through the acetabular notch to supply fat in the acetabular fossa and sends a twig to the head of the femur along the round ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The ascending branch of the medial circumflex femoral artery participates in the cruciate anastomosis.",
+    answer: false,
+    explanation: "The ascending branch of the medial circumflex femoral artery participates in the trochanteric anastomosis. The transverse branch participates in the cruciate anastomosis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The gracilis muscle is the most superficial muscle of the adductor compartment and is often used for transplantation.",
+    answer: true,
+    explanation: "The gracilis is the most superficial muscle of the adductor compartment and is often used for transplantation of any damaged muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The pectineus is a hybrid muscle with double nerve supply from the femoral and the accessory obturator nerves.",
+    answer: true,
+    explanation: "The pectineus is a hybrid or composite muscle with dual nerve supply from the femoral nerve and sometimes from the accessory obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The adductor longus arises from the anterior surface of the body of the pubis in the angle between the pubic crest and the pubic symphysis.",
+    answer: true,
+    explanation: "The adductor longus arises by a narrow, flat tendon from the front of the body of the pubis in the angle between the pubic crest and the pubic symphysis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The adductor brevis lies deep to the adductor magnus and superficial to the adductor longus.",
+    answer: false,
+    explanation: "The adductor brevis lies deep to the pectineus and adductor longus, and superficial to the adductor magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The obturator externus is a triangular muscle that covers the outer surface of the anterior wall of the pelvis.",
+    answer: true,
+    explanation: "The obturator externus is triangular in shape and covers the outer surface of the anterior wall of the pelvis, being the only muscle of the gluteal region with this origin."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The adductor canal is located in the upper one-third of the thigh.",
+    answer: false,
+    explanation: "The adductor canal is located in the middle one-third of the thigh, extending from the apex of the femoral triangle to the opening in the adductor magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The saphenous nerve leaves the adductor canal by piercing the fibrous roof of the canal.",
+    answer: true,
+    explanation: "The saphenous nerve leaves the adductor canal by piercing the fibrous roof and runs downwards in front of the great saphenous vein on the medial side of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The femoral vein lies lateral to the femoral artery in the upper part of the adductor canal.",
+    answer: false,
+    explanation: "The femoral vein lies posterior to the femoral artery in the upper part of the adductor canal, and lateral to the artery in the lower part of the canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The profunda femoris artery passes deep to the adductor longus and supplies all three compartments of the thigh.",
+    answer: true,
+    explanation: "The profunda femoris artery passes deep to the adductor longus and is the chief artery of supply to all three compartments of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The lateral circumflex femoral artery gives off the nutrient artery to the femur.",
+    answer: false,
+    explanation: "The second perforating artery gives off the nutrient artery to the femur, not the lateral circumflex femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The medial circumflex femoral artery supplies most of the blood to the head and neck of the femur through its retinacular branches.",
+    answer: true,
+    explanation: "The medial circumflex femoral artery is especially important because it supplies most of the blood to the head and neck of the femur via its retinacular branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The femoral nerve gives branches to the iliacus muscle in the abdomen.",
+    answer: true,
+    explanation: "In the abdomen, the femoral nerve supplies the iliacus muscle. It also gives a branch to the pectineus just above the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The saphenous nerve is the shortest cutaneous nerve in the body.",
+    answer: false,
+    explanation: "The saphenous nerve is the longest cutaneous nerve in the body, extending from the thigh to the medial side of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The nerve to the vastus medialis contains proprioceptive fibres from the knee joint, making it thicker than other branches.",
+    answer: true,
+    explanation: "The nerve to the vastus medialis contains numerous proprioceptive fibres from the knee joint, accounting for the thickness of the nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The obturator nerve arises from the dorsal divisions of the ventral rami of L2, L3, and L4.",
+    answer: false,
+    explanation: "The obturator nerve arises from the ventral divisions of the ventral rami of L2, L3, and L4. The femoral nerve arises from the dorsal divisions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The obturator nerve exits the pelvis through the obturator foramen and enters the medial aspect of the thigh.",
+    answer: true,
+    explanation: "The obturator nerve exits the pelvis through the obturator foramen to enter the medial aspect of the thigh, where it divides into anterior and posterior divisions."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "The accessory obturator nerve is present in approximately 30% of subjects.",
+    answer: true,
+    explanation: "The accessory obturator nerve is present in about 30% of subjects. It is a branch of the lumbar plexus formed by the ventral divisions of L3 and L4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Obturator Nerve & Medial Thigh",
+    type: "truefalse",
+    question: "A disease of the hip joint may cause referred pain in the knee because both joints are supplied by the femoral nerve only.",
+    answer: false,
+    explanation: "Disease of the hip joint may cause referred pain in the knee and on the medial side of the thigh because of their common nerve supply by the obturator nerve, not only the femoral nerve."
+  },
+
+  // SECTION 25: Popliteal Fossa & Nerves (785-800)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The popliteal fossa is a diamond-shaped depression that is best felt when the knee is fully extended.",
+    answer: false,
+    explanation: "The popliteal fossa is a diamond-shaped depression felt best at the back of the knee joint when the joint is semi-flexed, not fully extended."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The superolateral boundary of the popliteal fossa is formed by the biceps femoris muscle.",
+    answer: true,
+    explanation: "The superolateral boundary of the popliteal fossa is formed by the biceps femoris. The superomedial boundary is formed by the semitendinosus and semimembranosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The floor of the popliteal fossa is formed by the popliteal surface of the femur, the capsule of the knee joint, and the popliteus muscle.",
+    answer: true,
+    explanation: "The floor of the popliteal fossa is formed from above downwards by the popliteal surface of the femur, the capsule of the knee joint and the oblique popliteal ligament, and the popliteus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The popliteal artery is the most superficial structure in the popliteal fossa.",
+    answer: false,
+    explanation: "The popliteal artery is the deepest structure in the popliteal fossa. The tibial nerve is the most superficial of the neurovascular structures."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "In the middle of the popliteal fossa, the popliteal vein lies posterior to the popliteal artery.",
+    answer: true,
+    explanation: "In the middle of the popliteal fossa, from behind forwards, the arrangement is nerve, vein, and artery (N, V, A). The vein lies posterior to the artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The popliteal artery terminates at the lower border of the popliteus by dividing into the femoral and tibial arteries.",
+    answer: false,
+    explanation: "The popliteal artery terminates at the lower border of the popliteus by dividing into the anterior and posterior tibial arteries, not the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The sural nerve supplies the skin of the lower half of the back of the leg and the whole of the lateral border of the foot.",
+    answer: true,
+    explanation: "The sural nerve supplies the skin of the lower half of the back of the leg and the whole of the lateral border of the foot up to the tip of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The common peroneal nerve is the larger terminal branch of the sciatic nerve and is more commonly injured than the tibial nerve.",
+    answer: false,
+    explanation: "The tibial nerve is the larger terminal branch of the sciatic nerve. The common peroneal nerve is the smaller terminal branch but is more commonly injured."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "Injury to the common peroneal nerve results in loss of dorsiflexion of the ankle (foot drop) and loss of eversion of the foot.",
+    answer: true,
+    explanation: "Injury to the common peroneal nerve results in foot drop with weakness of dorsiflexion of the ankle and of eversion of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The lateral sural cutaneous nerve is a branch of the tibial nerve.",
+    answer: false,
+    explanation: "The lateral sural cutaneous nerve is a branch of the common peroneal nerve, not the tibial nerve. The medial sural cutaneous nerve is a branch of the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The small saphenous vein is accompanied by the sural nerve and drains into the popliteal vein.",
+    answer: true,
+    explanation: "The small saphenous vein is accompanied by the sural nerve and drains into the popliteal vein in the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The genicular anastomosis around the knee is formed by branches of the femoral, popliteal, and anterior tibial arteries only.",
+    answer: false,
+    explanation: "The genicular anastomosis is formed by branches of the femoral, popliteal, anterior tibial, and posterior tibial (circumflex fibular) arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The middle genicular artery supplies the cruciate ligaments and the synovial membrane of the knee joint.",
+    answer: true,
+    explanation: "The middle genicular artery pierces the oblique popliteal ligament of the knee and supplies the cruciate ligaments and the synovial membrane of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The popliteal vein begins at the upper border of the popliteus as a continuation of the femoral vein.",
+    answer: false,
+    explanation: "The popliteal vein begins at the lower border of the popliteus by the union of veins accompanying the anterior and posterior tibial arteries. It continues as the femoral vein at the opening in the adductor magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The posterior cutaneous nerve of the thigh supplies the skin of the upper half of the back of the leg.",
+    answer: true,
+    explanation: "The posterior cutaneous nerve of the thigh supplies the skin of the upper half of the central area of the calf, along with the sural nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa & Nerves",
+    type: "truefalse",
+    question: "The saphenous nerve is a branch of the posterior division of the femoral nerve and accompanies the great saphenous vein on the medial side of the leg.",
+    answer: true,
+    explanation: "The saphenous nerve is a branch of the posterior division of the femoral nerve. It pierces the deep fascia on the medial side of the knee and runs downwards in front of the great saphenous vein."
   }
 ];
