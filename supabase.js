@@ -1,14 +1,13 @@
 /**
  * supabase.js — Supabase client initialization and database helpers.
  *
- * SETUP INSTRUCTIONS (do this once in your Supabase project):
+ * SETUP INSTRUCTIONS:
  * ─────────────────────────────────────────────────────────────
  * 1. Go to https://app.supabase.com → your project → SQL Editor
  * 2. Run the schema below (also in schema.sql) to create the rooms table.
  * 3. Replace SUPABASE_URL and SUPABASE_ANON_KEY below with your project values.
- * (Dashboard → Settings → API)
  *
- * SQL SCHEMA (run once):
+ * SQL SCHEMA:
  * ──────────────────────
  * create table public.rooms (
  * room_code   text primary key,
@@ -17,12 +16,8 @@
  * updated_at  timestamptz not null default now()
  * );
  *
- * -- Allow anyone to read / write rooms (use RLS policies for production).
  * alter table public.rooms enable row level security;
- * create policy "Public room access" on public.rooms
- * for all using (true) with check (true);
- *
- * -- Realtime: enable for this table
+ * create policy "Public room access" on public.rooms for all using (true) with check (true);
  * alter publication supabase_realtime add table public.rooms;
  */
 
@@ -31,7 +26,7 @@ const SUPABASE_URL      = 'https://tgrmnotrqyzzwhryzlfc.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU'; 
 // ──────────────────────────────────────────────────────────────────────────
 
-const { createClient } = supabase;   // loaded from the CDN <script> in index.html
+const { createClient } = supabase;   
 const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 // ─── Room helpers ──────────────────────────────────────────────────────────
@@ -61,7 +56,7 @@ async function dbCreateRoom(roomCode, initialState) {
 
 /**
  * Overwrite room_state for an existing room.
- * Only the host calls this to sync the master game phase/timer.
+ * In the Central Brain architecture, ONLY THE HOST calls this function.
  */
 async function dbUpdateRoomState(roomCode, newState) {
   const { error } = await db
@@ -80,14 +75,14 @@ async function dbCloseRoom(roomCode) {
 }
 
 /**
- * Subscribe to realtime changes AND incoming peer-to-peer broadcasts.
+ * Subscribe to realtime changes AND incoming peer-to-peer whispers.
  */
-function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
+function dbSubscribeRoom(roomCode, onStateChange, onWhisper) {
   const channel = db.channel(`room:${roomCode}`, {
     config: { broadcast: { ack: false } }
   });
   
-  // Listen for official database state changes (e.g., Next Question pulled)
+  // Listen for the official database state updates pushed by the Host
   channel.on(
     'postgres_changes',
     { event: 'UPDATE', schema: 'public', table: 'rooms', filter: `room_code=eq.${roomCode}` },
@@ -98,10 +93,10 @@ function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
     }
   );
 
-  // Listen for instant peer-to-peer broadcasts (Live Leaderboard & Answer tracking)
-  if (onBroadcast) {
-    channel.on('broadcast', { event: 'player_update' }, (payload) => {
-      onBroadcast(payload.payload);
+  // Listen for instant P2P whispers (Guest answers being sent to the Host)
+  if (onWhisper) {
+    channel.on('broadcast', { event: 'guest_whisper' }, (payload) => {
+      onWhisper(payload.payload);
     });
   }
 
@@ -109,15 +104,15 @@ function dbSubscribeRoom(roomCode, onStateChange, onBroadcast) {
   return channel;
 }
 
-/** * Broadcasts local score and answer status instantly to all peers 
- * without waiting for the database to process it.
+/** * Guests use this to instantly shoot their raw answer to the Host.
+ * No math is done locally. It just transmits the click.
  */
-async function dbBroadcastUpdate(channel, payload) {
+async function dbSendWhisperToHost(channel, playerId, answer) {
   if (!channel) return;
   await channel.send({
     type: 'broadcast',
-    event: 'player_update',
-    payload: payload
+    event: 'guest_whisper',
+    payload: { playerId, answer }
   });
 }
 
