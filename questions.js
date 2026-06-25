@@ -42154,5 +42154,12009 @@ const questions = [
     question: "The saphenous nerve is a branch of the posterior division of the femoral nerve and accompanies the great saphenous vein on the medial side of the leg.",
     answer: true,
     explanation: "The saphenous nerve is a branch of the posterior division of the femoral nerve. It pierces the deep fascia on the medial side of the knee and runs downwards in front of the great saphenous vein."
+  },
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY =====
+
+  // SECTION 1: Hip Joint Ligaments (901-913)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The iliofemoral ligament prevents hyperextension of the hip joint during standing.",
+    answer: true,
+    explanation: "The iliofemoral ligament is said to be the body's strongest ligament and specifically prevents hyperextension of the hip joint during standing by screwing the femoral head into the acetabulum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The pubofemoral ligament tightens during both extension and abduction of the hip joint.",
+    answer: true,
+    explanation: "The pubofemoral ligament tightens during both extension and abduction of the hip joint, preventing overabduction."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ischiofemoral ligament is the strongest of the three ligaments of the hip joint.",
+    answer: false,
+    explanation: "The ischiofemoral ligament is the weakest of the three ligaments of the hip joint. The iliofemoral ligament is the strongest."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ligament of the head of the femur is primarily a synovial fold conducting a blood vessel.",
+    answer: true,
+    explanation: "The ligament of the head of the femur is primarily a synovial fold conducting a blood vessel and is weak and of little importance in strengthening the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The acetabular labrum increases the acetabular articular area by nearly 10%.",
+    answer: true,
+    explanation: "The lip-shaped acetabular labrum is a fibrocartilaginous rim attached to the margin of the acetabulum, increasing the acetabular articular area by nearly 10%."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The articular surfaces of the acetabulum and femoral head are most congruent when the hip is fully extended.",
+    answer: false,
+    explanation: "The articular surfaces of the acetabulum and femoral head are most congruent when the hip is flexed 90°, abducted 5°, and rotated laterally 10° (the quadruped position)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The orbicular zone consists of deep fibres of the fibrous capsule that pass circularly around the femoral neck.",
+    answer: true,
+    explanation: "Some deep fibers of the fibrous layer of the hip joint capsule pass circularly around the neck, forming the orbicular zone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The synovial membrane of the hip joint reflects proximally along the femoral neck to the edge of the femoral head.",
+    answer: true,
+    explanation: "In the hip joint, where the fibrous layer attaches to the femur distant from the articular cartilage, the synovial membrane reflects proximally along the femoral neck to the edge of the femoral head."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The retinacular arteries that supply the femoral head arise from the lateral circumflex femoral artery only.",
+    answer: false,
+    explanation: "Retinacular arteries arising from the medial circumflex femoral artery are most abundant, bringing more blood to the head and neck of the femur. The lateral circumflex femoral also contributes but provides fewer vessels."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The artery to the head of the femur is a branch of the obturator artery that traverses the ligament of the head.",
+    answer: true,
+    explanation: "The artery to the head of the femur is a branch of the obturator artery of variable size that traverses the ligament of the head of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Hilton's law states that the nerves supplying the muscles extending directly across and acting at a given joint also innervate the joint.",
+    answer: true,
+    explanation: "Hilton's law states that the nerves supplying the muscles extending directly across and acting at a given joint also innervate the joint. This applies to the hip, knee, and ankle joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The anterior aspect of the hip joint is innervated by the obturator nerve.",
+    answer: false,
+    explanation: "The anterior aspect of the hip joint is innervated by the femoral nerve because the flexors (innervated by the femoral nerve) pass anterior to the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The posterior aspect of the hip joint is innervated by branches from the nerve to the quadratus femoris.",
+    answer: true,
+    explanation: "The posterior aspect of the hip joint is innervated by branches from the nerve to the quadratus femoris because the lateral rotators pass posterior to the joint."
+  },
+
+  // SECTION 2: Knee Joint (914-940)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint consists of three articulations: lateral and medial femorotibial, and femoropatellar.",
+    answer: true,
+    explanation: "The knee joint consists of three articulations: two femorotibial articulations (lateral and medial) and one femoropatellar articulation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibula participates in the knee joint as the lateral condyle articulates with the fibular head.",
+    answer: false,
+    explanation: "The fibula is not involved in the knee joint. The knee joint is formed by the femur, tibia, and patella only."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The most important muscle in stabilizing the knee joint is the quadriceps femoris.",
+    answer: true,
+    explanation: "The most important muscle in stabilizing the knee joint is the large quadriceps femoris, particularly the inferior fibers of the vastus medialis and lateralis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The erect, extended position is the most stable position of the knee joint.",
+    answer: true,
+    explanation: "The erect, extended position is the most stable position of the knee joint, where the articular surfaces are most congruent and the primary ligaments are taut."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibrous layer of the knee joint capsule is complete and has no openings.",
+    answer: false,
+    explanation: "The fibrous layer of the knee joint capsule has an opening posterior to the lateral tibial condyle to allow the tendon of the popliteus to pass out of the joint capsule."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa usually extends approximately 5 cm superior to the patella.",
+    answer: true,
+    explanation: "The suprapatellar bursa usually extends approximately 5 cm superior to the patella, though it may extend halfway up the anterior aspect of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial and lateral patellar retinacula are aponeurotic expansions of the vastus medialis and lateralis.",
+    answer: true,
+    explanation: "The medial and lateral patellar retinacula are aponeurotic expansions of the vastus medialis and lateralis and overlying deep fascia that make up the joint capsule on each side of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is stronger than the tibial collateral ligament.",
+    answer: true,
+    explanation: "The tibial collateral ligament is weaker than the fibular collateral ligament and is more often damaged."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tibial collateral ligament is attached to the lateral meniscus.",
+    answer: false,
+    explanation: "The tibial collateral ligament is attached to the medial meniscus, making the medial meniscus less mobile and more prone to injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The oblique popliteal ligament is a recurrent expansion of the tendon of the semitendinosus.",
+    answer: false,
+    explanation: "The oblique popliteal ligament is a recurrent expansion of the tendon of the semimembranosus, not the semitendinosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The arcuate popliteal ligament strengthens the joint capsule posteromedially.",
+    answer: false,
+    explanation: "The arcuate popliteal ligament strengthens the joint capsule posterolaterally, not posteromedially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament has a relatively poor blood supply.",
+    answer: true,
+    explanation: "The anterior cruciate ligament has a relatively poor blood supply, which contributes to its slow healing after injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior cruciate ligament prevents posterior displacement of the tibia on the femur.",
+    answer: true,
+    explanation: "The posterior cruciate ligament prevents posterior displacement of the tibia on the femur (or anterior displacement of the femur on the tibia)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lateral meniscus is firmly attached to the tibial collateral ligament.",
+    answer: false,
+    explanation: "The medial meniscus is firmly attached to the tibial collateral ligament, not the lateral meniscus. The lateral meniscus is more freely movable."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The coronary ligaments are portions of the joint capsule extending between the margins of the menisci and the tibial condyles.",
+    answer: true,
+    explanation: "The coronary ligaments are portions of the joint capsule extending between the margins of the menisci and most of the periphery of the tibial condyles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The transverse ligament of the knee joins the posterior edges of the menisci.",
+    answer: false,
+    explanation: "The transverse ligament of the knee joins the anterior edges of the menisci, crossing the anterior intercondylar area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus tendon attaches to the lateral meniscus, allowing it to be pulled posteriorly during flexion.",
+    answer: true,
+    explanation: "The popliteus tendon attaches to the lateral meniscus, allowing it to be pulled posteriorly during flexion, protecting it from being crushed between the articular surfaces."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The meniscofemoral ligaments attach the lateral meniscus to the medial femoral condyle.",
+    answer: true,
+    explanation: "The posterior end of the lateral meniscus is attached to the medial condyle of the femur through two meniscofemoral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint can rotate approximately 40° laterally when flexed to 90°.",
+    answer: true,
+    explanation: "Nearly 40° of lateral rotation is possible when the knee is flexed approximately 90°, limited ultimately by the tibial collateral ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Medial rotation of the knee is more extensive than lateral rotation.",
+    answer: false,
+    explanation: "Medial rotation is limited to about 10°, while lateral rotation is nearly 40° when the knee is flexed to 90°."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus contracts to assist the anterior cruciate ligament in preventing anterior displacement of the femur on the inclined tibial plateau.",
+    answer: true,
+    explanation: "When standing with the knee partly flexed, the popliteus contracts to assist the posterior cruciate ligament in preventing anterior displacement of the femur on the inclined tibial plateau."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus is primarily a powerful flexor of the knee joint.",
+    answer: false,
+    explanation: "The popliteus is insignificant as a flexor of the knee joint per se. Its primary function is to unlock the knee and assist in meniscal movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The genicular anastomosis around the knee includes branches from the femoral, popliteal, and anterior tibial arteries.",
+    answer: true,
+    explanation: "The genicular anastomosis around the knee includes the descending genicular from the femoral, genicular branches from the popliteal, and anterior tibial recurrent branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The middle genicular artery supplies the cruciate ligaments, synovial membrane, and peripheral margins of the menisci.",
+    answer: true,
+    explanation: "The middle genicular branches of the popliteal artery penetrate the fibrous layer of the joint capsule and supply the cruciate ligaments, synovial membrane, and peripheral margins of the menisci."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is supplied by articular branches from the femoral, tibial, and common fibular nerves only.",
+    answer: false,
+    explanation: "The knee joint is supplied by articular branches from the femoral, tibial, common fibular, and saphenous (cutaneous) nerves, which also supplies additional articular branches to the medial aspect."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa does not communicate with the knee joint cavity.",
+    answer: false,
+    explanation: "The suprapatellar bursa develops separately from the knee joint but becomes continuous with it and communicates freely with the synovial cavity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The subcutaneous prepatellar bursa allows free movement of skin over the patella during leg movements.",
+    answer: true,
+    explanation: "The subcutaneous prepatellar bursa is located at the convex surface of the joint, allowing the skin to move freely during movements of the knee."
+  },
+
+  // SECTION 3: Tibiofibular Joints (941-947)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The tibiofibular joint is a hinge type of synovial joint.",
+    answer: false,
+    explanation: "The tibiofibular joint is a plane type of synovial joint, not a hinge joint. It permits slight gliding or rotatory movements."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The interosseous membrane fibers run downward from the tibia to the fibula, resisting the downward pull on the fibula.",
+    answer: true,
+    explanation: "The fibers of the interosseous membrane run inferolaterally from the tibia to the fibula, strongly resisting the downward pull placed on the fibula by eight of the nine muscles attached to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The biceps femoris is one of eight muscles that pull the fibula downwards.",
+    answer: false,
+    explanation: "The biceps femoris is the only muscle that pulls the fibula upwards. Eight other muscles attached to the fibula pull it downwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The anterior tibial vessels pass through a hiatus at the superior end of the interosseous membrane.",
+    answer: true,
+    explanation: "The anterior tibial vessels pass through a hiatus at the superior end of the interosseous membrane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The perforating branch of the fibular artery passes through a hiatus at the superior end of the interosseous membrane.",
+    answer: false,
+    explanation: "The perforating branch of the fibular artery passes through a smaller hiatus at the inferior end of the interosseous membrane, not the superior end."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The tibiofibular syndesmosis is essential for the stability of the ankle joint.",
+    answer: true,
+    explanation: "The integrity of the inferior tibiofibular joint (tibiofibular syndesmosis) is essential for the stability of the ankle joint because it keeps the lateral malleolus firmly against the lateral surface of the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior transverse tibiofibular ligament forms the posterior wall of the malleolar mortise.",
+    answer: true,
+    explanation: "The inferior transverse tibiofibular ligament forms a strong connection between the distal ends of the tibia and fibula, forming the posterior wall of the malleolar mortise."
+  },
+
+  // SECTION 4: Ankle Joint (948-956)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The malleolar mortise has four deep walls.",
+    answer: false,
+    explanation: "The malleolar mortise has three deep walls (medial, lateral, and posterior) and a shallow or open anterior wall."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The ankle joint can be felt as a slight depression approximately 1 cm proximal to the tip of the medial malleolus.",
+    answer: true,
+    explanation: "The ankle joint can be felt between the tendons on the anterior surface of the ankle as a slight depression, approximately 1 cm proximal to the tip of the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The grip of the malleoli on the trochlea is strongest during plantar flexion.",
+    answer: false,
+    explanation: "The grip of the malleoli on the trochlea is strongest during dorsiflexion, not plantar flexion, because this movement forces the wider anterior part of the trochlea posteriorly between the malleoli."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The ankle joint is relatively unstable during plantar flexion, making it more susceptible to injury.",
+    answer: true,
+    explanation: "The ankle joint is relatively unstable during plantar flexion because the trochlea is narrower posteriorly and lies relatively loosely within the mortise. Most ankle injuries occur during plantar flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The joint capsule of the ankle joint is thin anteriorly and posteriorly but supported by strong collateral ligaments on each side.",
+    answer: true,
+    explanation: "The joint capsule of the ankle joint is thin anteriorly and posteriorly but is supported on each side by strong lateral and medial collateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The posterior talofibular ligament is the weakest of the lateral ankle ligaments.",
+    answer: false,
+    explanation: "The anterior talofibular ligament is the weakest of the lateral ankle ligaments. The posterior talofibular ligament is the thickest and strongest of the lateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is a round cord that passes postero-inferiorly from the tip of the lateral malleolus to the lateral surface of the calcaneus.",
+    answer: true,
+    explanation: "The calcaneofibular ligament is a round cord that passes postero-inferiorly from the tip of the lateral malleolus to the lateral surface of the calcaneus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The medial ligament of the ankle stabilizes the joint during inversion and prevents subluxation.",
+    answer: false,
+    explanation: "The medial ligament stabilizes the ankle joint during eversion and prevents subluxation, not inversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The subtalar joint is where the majority of inversion and eversion occurs.",
+    answer: true,
+    explanation: "The subtalar joint (by either anatomical or clinical definition) is where the majority of inversion and eversion occurs, around an axis that is oblique."
+  },
+
+  // SECTION 5: Foot Joints (957-958)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints",
+    type: "truefalse",
+    question: "The transverse tarsal joint is a single joint formed by the talonavicular and calcaneocuboid joints.",
+    answer: true,
+    explanation: "The transverse tarsal joint is a compound joint formed by two separate joints aligned transversely: the talonavicular part of the talocalcaneonavicular joint and the calcaneocuboid joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints",
+    type: "truefalse",
+    question: "Transection across the transverse tarsal joint is a standard method for surgical amputation of the foot.",
+    answer: true,
+    explanation: "Transection across the transverse tarsal joint is a standard method for surgical amputation of the foot."
+  },
+
+  // SECTION 6: Foot Ligaments & Arches (959-968)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The spring ligament supports the head of the talus and plays a role in weight transfer from the talus.",
+    answer: true,
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) supports the head of the talus and plays important roles in the transfer of weight from the talus and in maintaining the longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The long plantar ligament is more important than the spring ligament for maintaining the longitudinal arch.",
+    answer: false,
+    explanation: "The long plantar ligament is important, but its importance is surpassed only by the spring ligament for maintaining the longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The plantar calcaneocuboid ligament is located superficial to the long plantar ligament.",
+    answer: false,
+    explanation: "The plantar calcaneocuboid ligament (short plantar ligament) is located deep to the long plantar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The arches of the foot distribute weight over the pedal platform and act as shock absorbers.",
+    answer: true,
+    explanation: "The arches distribute weight over the pedal platform, acting not only as shock absorbers but also as springboards for propelling it during walking, running, and jumping."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The body's weight is transmitted from the talus posteriorly to the calcaneus and anteriorly to the ball of the foot.",
+    answer: true,
+    explanation: "The weight of the body is transmitted to the talus from the tibia. Then, it is transmitted posteriorly to the calcaneus and anteriorly to the ball of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The lateral longitudinal arch is higher and more important than the medial longitudinal arch.",
+    answer: false,
+    explanation: "The medial longitudinal arch is higher and more important than the lateral longitudinal arch, which is much flatter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The transverse arch of the foot is formed by the cuboid, cuneiforms, and bases of the metatarsals.",
+    answer: true,
+    explanation: "The transverse arch of the foot is formed by the cuboid, cuneiforms, and bases of the metatarsals, running from side to side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The tendons of the fibularis longus and tibialis posterior cross under the sole of the foot like a stirrup to maintain the transverse arch.",
+    answer: true,
+    explanation: "The tendons of the fibularis longus and tibialis posterior, crossing under the sole like a stirrup, help maintain the curvature of the transverse arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The plantar aponeurosis is the deepest factor in supporting the arches of the foot.",
+    answer: false,
+    explanation: "The plantar aponeurosis is the most superficial of the four successive layers of fibrous tissue that bowstring the longitudinal arch. The deepest is the plantar calcaneonavicular (spring) ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "Passive factors are more important than dynamic supports in maintaining the arches of the foot.",
+    answer: true,
+    explanation: "Of the factors maintaining the arches of the foot, the plantar ligaments and the plantar aponeurosis bear the greatest stress and are most important."
+  },
+
+  // SECTION 7: Clinical Conditions & Deformities (969-986)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The Q-angle is typically greater in adult females due to their wider pelves.",
+    answer: true,
+    explanation: "The Q-angle is typically greater in adult females, owing to their wider pelves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Genu valgum is also known as bowleg.",
+    answer: false,
+    explanation: "Genu valgum is known as knock-knee. Genu varum is known as bowleg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "In genu varum, the weight-bearing line falls medial to the center of the knee.",
+    answer: true,
+    explanation: "In genu varum (bowleg), the line of weight bearing falls medial to the center of the knee, placing excess pressure on the medial aspect of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The patella nearly always dislocates medially.",
+    answer: false,
+    explanation: "When the patella is dislocated, it nearly always dislocates laterally, not medially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The vastus medialis tends to prevent lateral dislocation of the patella.",
+    answer: true,
+    explanation: "The vastus medialis tends to prevent lateral dislocation of the patella because it attaches to and pulls on the medial border of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The unhappy triad of knee injuries involves the ACL, PCL, and lateral meniscus.",
+    answer: false,
+    explanation: "The unhappy triad involves the ACL, tibial collateral ligament, and medial meniscus, not the PCL and lateral meniscus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The anterior drawer sign tests for a tear of the posterior cruciate ligament.",
+    answer: false,
+    explanation: "The anterior drawer sign tests for a tear of the anterior cruciate ligament. The posterior drawer sign tests for a tear of the posterior cruciate ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Peripheral meniscal tears often heal on their own because of the generous blood supply to this area.",
+    answer: true,
+    explanation: "Peripheral meniscal tears can often be repaired or may heal on their own because of the generous blood supply to this area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Arthroscopy of the knee joint treats the articular cavity as one continuous space.",
+    answer: false,
+    explanation: "During arthroscopy, the articular cavity of the knee must be treated essentially as two separate (medial and lateral) femorotibial articulations, owing to the synovial fold around the cruciate ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Pott fracture-dislocation of the ankle occurs when the foot is forcibly everted.",
+    answer: true,
+    explanation: "A Pott fracture-dislocation of the ankle occurs when the foot is forcibly everted, pulling on the medial ligament and tearing off the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Hallux valgus is characterized by lateral deviation of the great toe.",
+    answer: true,
+    explanation: "Hallux valgus is a foot deformity characterized by lateral deviation of the great toe. The sesamoids under the head of the 1st metatarsal are usually displaced."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A bunion is a subcutaneous bursa that forms over the medial aspect of the 1st metatarsal head.",
+    answer: true,
+    explanation: "The pressure and friction against the shoe in hallux valgus cause a subcutaneous bursa to form. When tender and inflamed, the bursa is called a bunion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Claw toes are characterized by hyperextension of the metatarsophalangeal joints and flexion of the interphalangeal joints.",
+    answer: true,
+    explanation: "Claw toes are characterized by hyperextension of the metatarsophalangeal joints and flexion of the distal interphalangeal joints, usually involving the lateral four toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Hammer toe primarily affects the great toe.",
+    answer: false,
+    explanation: "Hammer toe primarily affects the 2nd toe, not the great toe. It is characterized by dorsiflexion at the metatarsophalangeal joint and plantarflexion at the proximal interphalangeal joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Flexible flat feet are common in childhood but usually resolve with age.",
+    answer: true,
+    explanation: "Flexible flat feet are common in childhood but usually resolves with age as the ligaments grow and mature. The condition occasionally persists into adulthood."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Rigid flat feet are likely to result from dysfunction of the tibialis posterior.",
+    answer: false,
+    explanation: "Rigid flat feet with a history that goes back to childhood are likely to result from a bone deformity. Acquired flat feet are likely to be secondary to dysfunction of the tibialis posterior."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "In talipes equinovarus, the foot is inverted, the ankle is plantarflexed, and the forefoot is adducted.",
+    answer: true,
+    explanation: "Talipes equinovarus is characterized by the foot being inverted, the ankle plantarflexed, and the forefoot adducted (turned toward the midline)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Talipes equinovarus affects girls twice as often as boys.",
+    answer: false,
+    explanation: "Talipes equinovarus affects boys twice as often as girls, not girls twice as often as boys."
+  },
+
+  // SECTION 8: Fascial Compartments & Vascular Conditions (987-1004)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The fascial compartments of the lower limbs are generally closed spaces ending proximally and distally at the joints.",
+    answer: true,
+    explanation: "The fascial compartments of the lower limbs are generally closed spaces, ending proximally and distally at the joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Compartment syndrome requires immediate fasciotomy to relieve pressure.",
+    answer: true,
+    explanation: "A fasciotomy (incision of overlying fascia or a septum) may be performed to relieve the pressure in the compartment(s) concerned when compartment syndrome occurs."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Varicose veins result from incompetent valves in the perforating veins only.",
+    answer: false,
+    explanation: "Varicose veins result from incompetency of valves in the superficial veins and/or the perforating veins, allowing high pressure from the deep veins to be transmitted to the superficial veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Deep venous thrombosis can result in pulmonary embolism if a thrombus breaks free.",
+    answer: true,
+    explanation: "A large thrombus that breaks free from a lower limb vein may travel to a lung, forming a pulmonary thromboembolism."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The great saphenous vein is used for coronary bypass grafts because it is readily accessible and has sufficient length.",
+    answer: true,
+    explanation: "The great saphenous vein is used for coronary arterial bypasses because it is readily accessible, a sufficient length can be harvested, and its wall contains a higher percentage of muscular and elastic fibers."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "When the great saphenous vein is used for a bypass, it is inverted so that the valves do not obstruct blood flow.",
+    answer: true,
+    explanation: "When part of the great saphenous vein is removed for a bypass, the vein is inverted so that the valves do not obstruct blood flow in the venous graft."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "A saphenous cutdown is performed by making a skin incision posterior to the medial malleolus.",
+    answer: false,
+    explanation: "A saphenous cutdown is performed by making a skin incision anterior to the medial malleolus, where the great saphenous vein can always be located."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The saphenous nerve should be avoided during a saphenous cutdown because injury causes pain or numbness along the medial border of the foot.",
+    answer: true,
+    explanation: "The saphenous nerve accompanies the great saphenous vein anterior to the medial malleolus. Cutting this nerve may cause pain or numbness along the medial border of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The femoral nerve block is performed approximately 2 cm inferior to the inguinal ligament, lateral to the femoral artery.",
+    answer: true,
+    explanation: "The femoral nerve (L2-L4) can be blocked 2 cm inferior to the inguinal ligament, approximately a finger's breadth lateral to the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Enlarged inguinal lymph nodes should prompt examination of the entire field of drainage, including the trunk below the umbilicus and the perineum.",
+    answer: true,
+    explanation: "When inguinal lymph nodes are enlarged, their entire field of drainage—the trunk inferior to the umbilicus, including the perineum, as well as the entire lower limb—should be examined."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins.",
+    answer: true,
+    explanation: "The dorsal venous arch lies on the dorsum of the foot over the proximal parts of the metatarsal bones and receives four dorsal metatarsal veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The medial marginal vein drains the lateral side of the little toe.",
+    answer: false,
+    explanation: "The medial marginal vein drains the medial side of the great toe and joins the medial end of the dorsal venous arch to form the great saphenous vein. The lateral marginal vein drains the lateral side of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The anterior tibial lymph node, when present, collects lymph from the anterior compartment of the leg and passes it to the popliteal nodes.",
+    answer: true,
+    explanation: "One inconstant anterior tibial lymph node may lie along the upper part of the anterior tibial artery. When present, it collects lymph from the anterior compartment of the leg and passes it to the popliteal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The popliteal lymph nodes receive afferents from the territory of the great saphenous vein.",
+    answer: false,
+    explanation: "The popliteal lymph nodes receive afferents from the territory of the small saphenous vein, not the great saphenous vein. The great saphenous territory drains to the superficial inguinal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The lymphatic vessels accompanying the great saphenous vein drain into the vertical group of superficial inguinal lymph nodes.",
+    answer: true,
+    explanation: "The lymphatic vessels accompanying the great saphenous vein end in the vertical group of superficial inguinal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The lymphatic vessels accompanying the small saphenous vein enter the deep inguinal lymph nodes directly.",
+    answer: false,
+    explanation: "The lymphatic vessels accompanying the small saphenous vein enter the popliteal lymph nodes, not the deep inguinal lymph nodes directly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The deep lymphatic vessels from the foot follow the main blood vessels and drain into the popliteal lymph nodes.",
+    answer: true,
+    explanation: "The deep lymphatic vessels from the foot follow the main blood vessels: fibular, anterior and posterior tibial, popliteal, and femoral veins, draining into the popliteal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Lymph from the deep tissues of the gluteal region follows the gluteal vessels to the superior and inferior gluteal lymph nodes.",
+    answer: true,
+    explanation: "Lymph from the deep tissues of the buttocks follows the gluteal vessels to the superior and inferior gluteal lymph nodes, and from them to the internal, external, and common iliac lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "All the superficial inguinal nodes send efferent lymphatic vessels to the deep inguinal lymph nodes.",
+    answer: true,
+    explanation: "All the superficial inguinal nodes send efferent lymphatic vessels to the deep inguinal lymph nodes. A few may pass directly to the external iliac nodes."
+  },
+
+  // SECTION 9: Dermatomes & Myotomes (1006-1012)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The dermatomes of the lower limb are distributed in a random, non-sequential pattern.",
+    answer: false,
+    explanation: "The dermatomes of the lower limb are distributed in an orderly numerical sequence. Along the preaxial border from above downwards, the dermatomes are T12, L1-4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The axial line is a line along which certain dermatomes overlap maximally.",
+    answer: false,
+    explanation: "The axial line is defined as a line along which certain dermatomes are buried (missing) so that distant dermatomes adjoin each other. Overlapping is minimal across the axial line."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "There are two axial lines in the lower limb: one ventral and one dorsal.",
+    answer: true,
+    explanation: "There are two axial lines, one ventral and one dorsal, both of which extend largely on the back of the limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for hip flexors, adductors, and medial rotators is L1, 2, 3.",
+    answer: true,
+    explanation: "Hip flexors, adductors, and medial rotators are supplied by L1, 2, 3, while extensors, abductors, and lateral rotators are supplied by L5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for knee extensors is L5, S1.",
+    answer: false,
+    explanation: "Knee extensors (quadriceps) are supplied by L3, 4. Knee flexors are supplied by L5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for ankle dorsiflexors is L4, 5, while plantar flexors are S1, 2.",
+    answer: true,
+    explanation: "Ankle dorsiflexors are supplied by L4, 5, while plantar flexors are supplied by S1, 2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for foot invertors is S1, 2, and evertors is L5, S1.",
+    answer: false,
+    explanation: "Foot invertors are supplied by L4, 5, and evertors are supplied by L5, S1."
+  },
+
+  // SECTION 10: Sympathetic Innervation (1013-1019)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The sympathetic innervation of the lower limb is derived from T10 to L2 segments of the spinal cord.",
+    answer: true,
+    explanation: "Sympathetic innervation of the lower limb is derived from the lower three thoracic and upper two lumbar (T10 to L2) segments of the spinal cord."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The preganglionic sympathetic fibres relay in the lumbar and upper two or three sacral ganglia.",
+    answer: true,
+    explanation: "The preganglionic fibres pass down the sympathetic chain to relay in the lumbar and upper two or three sacral ganglia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Postganglionic sympathetic fibres to the femoral artery travel through the femoral and obturator nerves.",
+    answer: true,
+    explanation: "Postganglionic sympathetic fibres emerge from the lumbar sympathetic ganglia and reach the lumbar nerves, then pass into the femoral nerve to supply the femoral artery and its branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Postganglionic sympathetic fibres to the popliteal artery travel through the common peroneal nerve.",
+    answer: false,
+    explanation: "Postganglionic sympathetic fibres emerge from the upper two or three sacral ganglia and travel through the tibial nerve to supply the popliteal artery and its branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The first lumbar ganglion is preserved during lumbar sympathectomy because it controls the proximal urethral sphincter mechanism.",
+    answer: true,
+    explanation: "The first lumbar ganglion is preserved because it controls the proximal urethral sphincter mechanism. Its removal is followed by dry coitus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Bilateral lumbar sympathectomy is done in patients with Buerger's disease.",
+    answer: true,
+    explanation: "Bilateral lumbar sympathectomy is done in patients with Buerger's disease to denervate the arteries and improve collateral circulation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The sympathetic nerves to the skin are vasomotor, sudomotor, and pilomotor.",
+    answer: true,
+    explanation: "Sympathetic nerves are vasomotor (control blood vessels), sudomotor (control sweat glands), and pilomotor (control hair erection)."
+  },
+
+  // SECTION 11: Comparative Anatomy (1020-1040)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The lower limb bud rotates laterally through 90° during development.",
+    answer: false,
+    explanation: "The lower limb bud rotates medially through 90°, so that the great toe and tibia are carried medially, and the little toe and fibula laterally."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The upper limb bud rotates medially through 90° during development.",
+    answer: false,
+    explanation: "The upper limb bud rotates laterally so that the thumb points laterally. The lower limb bud rotates medially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The sciatic nerve supplies the flexor aspect of the lower limb, corresponding to the median and ulnar nerves in the upper limb.",
+    answer: true,
+    explanation: "The sciatic nerve and its terminal branches supply the flexor aspect of the lower limb, while the femoral nerve supplies the extensor aspect, similar to how the median/ulnar and radial nerves supply the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The deep peroneal nerve corresponds to the posterior interosseous nerve of the forearm.",
+    answer: true,
+    explanation: "The deep peroneal nerve corresponds to the posterior interosseous nerve of the forearm, both supplying the extensor muscles of their respective compartments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The superficial peroneal nerve corresponds to the superficial radial nerve in the upper limb.",
+    answer: true,
+    explanation: "The superficial peroneal nerve, which supplies the peroneal muscles and becomes cutaneous, corresponds to the superficial radial nerve in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The medial plantar nerve corresponds to the ulnar nerve of the hand.",
+    answer: false,
+    explanation: "The medial plantar nerve corresponds to the median nerve of the hand in its distribution. The lateral plantar nerve corresponds to the ulnar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The tibialis anterior corresponds to the extensor carpi radialis in the upper limb.",
+    answer: false,
+    explanation: "The tibialis anterior corresponds to the extensor pollicis longus and extensor digitorum longus, which extend the digits and dorsiflex the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The soleus corresponds to the flexor digitorum superficialis of the forearm.",
+    answer: true,
+    explanation: "The soleus is homologous with the flexor digitorum superficialis of the front of the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum brevis in the foot corresponds to the flexor digitorum superficialis in the hand.",
+    answer: true,
+    explanation: "The flexor digitorum brevis in the foot corresponds to the flexor digitorum superficialis in the hand, both flexing the proximal interphalangeal joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The plantar interossei of the foot correspond to the dorsal interossei of the hand.",
+    answer: false,
+    explanation: "The plantar interossei of the foot correspond to the palmar interossei of the hand. The dorsal interossei of the foot correspond to the dorsal interossei of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The axis of adduction and abduction in the foot passes through the 2nd toe.",
+    answer: true,
+    explanation: "The axis of movement of adduction and abduction in the foot passes through the 2nd digit. In the hand, it passes through the 3rd digit."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The 2nd toe has two dorsal interossei muscles.",
+    answer: true,
+    explanation: "Since the axis of adduction and abduction passes through the 2nd digit, the 2nd toe possesses two dorsal interossei muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The extensor digitorum brevis of the foot corresponds to the extensor digitorum of the hand.",
+    answer: false,
+    explanation: "The extensor digitorum brevis of the foot is a small muscle on the dorsum of the foot. There is no direct corresponding muscle on the dorsum of the hand, which has no intrinsic muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum accessorius in the foot has no corresponding muscle in the hand.",
+    answer: true,
+    explanation: "The flexor digitorum accessorius is a distinct muscle in the foot to straighten the action of the flexor digitorum longus tendons. There is no corresponding muscle in the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The superficial palmar arch in the hand corresponds to the superficial plantar arch in the foot.",
+    answer: false,
+    explanation: "There is no superficial plantar arch in the foot. The foot has only one arch, the deep plantar arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The plantar arch of the foot is formed mainly by the radial artery.",
+    answer: false,
+    explanation: "The plantar arch of the foot is formed mainly by the lateral plantar artery and is completed medially by the dorsalis pedis artery. The superficial palmar arch in the hand is formed mainly by the ulnar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The cephalic vein of the upper limb corresponds to the great saphenous vein of the lower limb.",
+    answer: true,
+    explanation: "The cephalic vein lies along the preaxial border of the upper limb, corresponding to the great saphenous vein which lies along the preaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The basilic vein of the upper limb corresponds to the small saphenous vein of the lower limb.",
+    answer: true,
+    explanation: "The basilic vein lies along the postaxial border of the upper limb, corresponding to the small saphenous vein which lies along the postaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The first carpometacarpal joint of the hand, a saddle joint, has no corresponding joint in the foot.",
+    answer: true,
+    explanation: "The first carpometacarpal joint of the hand is a unique saddle joint permitting opposition. There is no corresponding joint in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The foot has two sesamoid bones associated with the head of the 1st metatarsal.",
+    answer: true,
+    explanation: "The common sesamoids are found on the plantar surface of the head of the first metatarsal bone, protecting the flexor hallucis longus tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "Accessory bones of the foot should always be distinguished from fractures on radiographs.",
+    answer: true,
+    explanation: "Accessory bones, such as os trigonum (lateral tubercle of talus) and os vesalianum (tuberosity of fifth metatarsal), should be distinguished from fractures on radiographs."
+  },
+
+  // SECTION 12: Surface Anatomy & Landmarks (1041-1055)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "Ward's triangle is a dense wedge of cancellous bone in the head of the femur representing the epiphyseal scar.",
+    answer: true,
+    explanation: "In the head of the femur, a dense wedge or triangle of cancellous bone is known as Ward's triangle. It represents the epiphyseal scar."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The calcar femorale is a dense plate of compact bone forming a buttress to strengthen the concavity of the neck-shaft angle.",
+    answer: true,
+    explanation: "The calcar femorale is a dense plate of compact bone forming a buttress to strengthen the concavity of the neck-shaft angle in front of the lesser trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The cervical torus is a thickened band of compact bone on the lower part of the neck of the femur.",
+    answer: false,
+    explanation: "The cervical torus is a thickened band or ridge of compact bone on the upper part of the neck between the head and the greater trochanter, not the lower part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The neck-shaft angle of the femur is approximately 125° in adults.",
+    answer: true,
+    explanation: "The neck-shaft angle is about 125° in adults, being more in children (140°) and less in females."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The fabella is a sesamoid bone in the medial head of the gastrocnemius.",
+    answer: false,
+    explanation: "The fabella is a small, rounded sesamoid bone in the lateral head of the gastrocnemius, not the medial head."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "Bipartite patella is due to failure of the ossification centres to fuse.",
+    answer: true,
+    explanation: "Bilateral separation of the superolateral angles of the patellae is known as bipartite patella, due to failure of the ossification centres to fuse."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tibial tuberosity is a bony prominence 2.5 cm distal to the knee joint line.",
+    answer: true,
+    explanation: "The tibial tuberosity is a bony prominence on the front of the upper part of tibia, 2.5 cm distal to the knee joint line."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The head of the fibula serves as a guide to the common peroneal nerve which winds around the anterolateral aspect of the neck of fibula.",
+    answer: false,
+    explanation: "The head of the fibula serves as a guide to the common peroneal nerve which winds around the posterolateral aspect of the neck of fibula, not the anterolateral aspect."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tuberosity of the base of the fifth metatarsal bone is the most prominent landmark on the lateral border of the foot.",
+    answer: true,
+    explanation: "The tuberosity of the base of the fifth metatarsal bone is the most prominent landmark on the lateral border of the foot, lying midway between the point of the heel and the root of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The sustentaculum tali can be felt about a thumb-breadth below the lateral malleolus.",
+    answer: false,
+    explanation: "The sustentaculum tali can be felt about a thumb-breadth below the medial malleolus, not the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tuberosity of the navicular bone can be felt 2.5 to 3.75 cm anteroinferior to the medial malleolus.",
+    answer: true,
+    explanation: "The tuberosity of the navicular bone is a low bony prominence felt 2.5 to 3.75 cm anteroinferior to the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The head of the talus lies below the line joining the sustentaculum tali and the tuberosity of the navicular bone.",
+    answer: false,
+    explanation: "The head of the talus lies above the line joining the sustentaculum tali and tuberosity of the navicular bone, not below."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tendon of the tibialis anterior becomes prominent on active inversion of the foot.",
+    answer: true,
+    explanation: "The tendon of the tibialis anterior becomes prominent on active inversion of the foot, passing downwards and medially across the anterior surface of the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The extensor digitorum brevis produces an elevation on the medial part of the dorsum of the foot when the toes are dorsiflexed.",
+    answer: false,
+    explanation: "The extensor digitorum brevis produces an elevation on the lateral part of the dorsum of the foot, not the medial part, when the toes are dorsiflexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The first metatarsophalangeal joint lies a little in front of the centre of the ball of the great toe.",
+    answer: true,
+    explanation: "The first metatarsophalangeal joint lies a little in front of the centre of the ball of the great toe. The other metatarsophalangeal joints are placed about 2.5 cm behind the webs of the toes."
+  },
+
+  // SECTION 13: Nerves & Arteries of Foot (1056-1099)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins.",
+    answer: true,
+    explanation: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The infrapatellar branch of the saphenous nerve supplies the skin over the ligamentum patellae.",
+    answer: true,
+    explanation: "The infrapatellar branch of the saphenous nerve pierces the sartorius and the deep fascia on the medial side of the knee, curves downwards and forwards, and supplies the skin over the ligamentum patellae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the distal phalanges and nail beds of the toes.",
+    answer: false,
+    explanation: "The superficial peroneal nerve does not supply the distal phalanges including nail beds. These are supplied by the medial and lateral plantar nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep peroneal nerve supplies the skin adjacent to the cleft between the first and second toes.",
+    answer: true,
+    explanation: "The deep peroneal nerve terminates by supplying the skin adjoining the cleft between the first and second toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral tarsal artery arises from the dorsalis pedis artery over the navicular bone.",
+    answer: true,
+    explanation: "The lateral tarsal artery is larger than the medial and arises over the navicular bone from the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery of the foot arises opposite the lateral cuneiform bone.",
+    answer: false,
+    explanation: "The arcuate artery arises from the dorsalis pedis artery opposite the medial cuneiform bone, not the lateral cuneiform."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The first dorsal metatarsal artery gives a branch to the medial side of the big toe and divides into dorsal digital branches for adjacent sides of the first and second toes.",
+    answer: true,
+    explanation: "The first dorsal metatarsal artery gives a branch to the medial side of the big toe and divides into dorsal digital branches for adjacent sides of the first and second toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The saphenous nerve may be subjected to entrapment neuropathy as it leaves the adductor canal.",
+    answer: true,
+    explanation: "The saphenous nerve may be subjected to entrapment neuropathy as it leaves the adductor canal, leading to pain in the area of its supply."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The anterior tibial compartment syndrome is also known as fresher's syndrome.",
+    answer: true,
+    explanation: "Anterior tibial compartment syndrome/fresher's syndrome occurs when the muscles of the anterior compartment of the leg get pain because of too much sudden exercise."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep peroneal nerve lies medial to the anterior tibial artery in its upper and lower thirds.",
+    answer: false,
+    explanation: "The deep peroneal nerve is lateral to the anterior tibial artery in its upper and lower thirds, and anterior to the artery in its middle third."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The peroneus tertius is a separated part of the extensor digitorum longus.",
+    answer: true,
+    explanation: "The peroneus tertius is a separated part of the extensor digitorum longus and may be regarded as its fifth tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The peroneus tertius is always present in the human foot.",
+    answer: false,
+    explanation: "The peroneus tertius is a separated part of the extensor digitorum longus and may be absent in some individuals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superior peroneal retinaculum holds the peroneal tendons in place against the back of the lateral malleolus.",
+    answer: true,
+    explanation: "The superior peroneal retinaculum is a thickened band of deep fascia situated just behind the lateral malleolus, holding the peroneal tendons in place."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "Under the superior peroneal retinaculum, the peroneus longus and brevis tendons are in separate compartments.",
+    answer: false,
+    explanation: "Under the superior peroneal retinaculum, the two tendons are lodged in a single compartment and are surrounded by a common synovial sheath."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "Under the inferior peroneal retinaculum, each peroneal tendon lies in a separate compartment.",
+    answer: true,
+    explanation: "Under the inferior peroneal retinaculum, each tendon lies in a separate compartment. The peroneus brevis lies in the superior compartment and the peroneus longus in the inferior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "If the superior peroneal retinaculum is torn, the peroneal tendons can dislocate to the front of the lateral malleolus.",
+    answer: true,
+    explanation: "If the superior peroneal retinaculum is torn, the tendons can get dislocated to the front of the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior is the most lateral muscle of the deep group of the posterior compartment.",
+    answer: false,
+    explanation: "The tibialis posterior is the deepest (most anterior) muscle in the posterior compartment and lies between the FDL and the FHL, not the most lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior is primarily an invertor of the foot when the foot is off the ground.",
+    answer: true,
+    explanation: "The tibialis posterior is traditionally described as an invertor of the foot. When the foot is off the ground, it can act synergistically with the tibialis anterior to invert the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The primary role of the tibialis posterior is to support or maintain the medial longitudinal arch during weight bearing.",
+    answer: true,
+    explanation: "The primary role of the tibialis posterior is to support or maintain the medial longitudinal arch during weight bearing, contracting statically throughout the stance phase of gait."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The popliteus muscle forms the inferior part of the floor of the popliteal fossa.",
+    answer: true,
+    explanation: "The popliteus is a thin, triangular muscle that forms the inferior part of the floor of the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tendon of the popliteus is entirely extracapsular.",
+    answer: false,
+    explanation: "The proximal tendinous attachment of the popliteus to the lateral femoral condyle occurs between the fibrous layer and the synovial membrane of the joint capsule, making it intra-articular for part of its course."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The popliteus assists in pulling the lateral meniscus posteriorly during flexion at the knee.",
+    answer: true,
+    explanation: "During flexion at the knee, the popliteus assists in pulling the lateral meniscus of the knee joint posteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The nerve to the popliteus supplies the tibialis posterior, the superior tibiofibular joint, the tibia, the interosseous membrane, and the inferior tibiofibular joint.",
+    answer: true,
+    explanation: "The nerve to the popliteus crosses the popliteal artery and, in addition to the popliteus, also supplies the tibialis posterior, the superior tibiofibular joint, the tibia, the interosseous membrane, and the inferior tibiofibular joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor hallucis longus is a powerful flexor of the joints of the great toe and provides the final thrust during the preswing phase of the gait cycle.",
+    answer: true,
+    explanation: "The flexor hallucis longus is a powerful flexor of all of the joints of the great toe, delivering a final thrust via flexion of the great toe for the preswing phase (toe off) of the gait cycle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor hallucis longus tendon runs between two sesamoid bones in the tendon of the flexor hallucis brevis.",
+    answer: true,
+    explanation: "The flexor hallucis longus tendon runs between two sesamoid bones in the tendons of the flexor hallucis brevis, protecting it from the pressure of the head of the 1st metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor digitorum longus is larger than the flexor hallucis longus.",
+    answer: false,
+    explanation: "The flexor digitorum longus is smaller than the flexor hallucis longus, even though it moves four digits."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The quadratus plantae muscle realigns the direction of pull of the flexor digitorum longus tendons.",
+    answer: true,
+    explanation: "The quadratus plantae (flexor digitorum accessorius) realigns the direction of pull of the flexor digitorum longus tendons."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior has attachments to the navicular and other tarsal and metatarsal bones.",
+    answer: true,
+    explanation: "The tibialis posterior attaches primarily to the navicular bone but has attachments to other tarsal and metatarsal bones as well."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the entire dorsum of the foot.",
+    answer: false,
+    explanation: "The superficial peroneal nerve supplies most of the dorsum of the foot, with the exception of the lateral border (sural nerve), medial border (saphenous nerve), the web between the 1st and 2nd toes (deep peroneal nerve), and the distal phalanges including nail beds (plantar nerves)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The saphenous nerve supplies the medial side of the foot as far anteriorly as the head of the 1st metatarsal.",
+    answer: true,
+    explanation: "The saphenous nerve passes anterior to the medial malleolus and continues to supply skin along the medial side of the foot as far anteriorly as the head of the 1st metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep fibular nerve supplies the extensor digitorum brevis muscle on the dorsum of the foot.",
+    answer: true,
+    explanation: "The deep fibular nerve supplies the extensor digitorum brevis muscle on the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep fibular nerve emerges as a cutaneous nerve proximal to the ankle, supplying a large area of the dorsum of the foot.",
+    answer: false,
+    explanation: "The deep fibular nerve emerges as a cutaneous nerve so far distal in the foot that only a small area of skin remains available for innervation: the web of skin between the 1st and 2nd toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies more skin area but fewer muscles than the lateral plantar nerve.",
+    answer: true,
+    explanation: "The medial plantar nerve supplies more skin area (medial three and a half toes) but fewer muscles (four muscles) compared to the lateral plantar nerve which supplies less skin area but more muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral plantar nerve supplies all muscles of the sole not supplied by the medial plantar nerve.",
+    answer: true,
+    explanation: "The superficial and deep branches of the lateral plantar nerve supply all muscles of the sole not supplied by the medial plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsalis pedis artery passes to the first interosseous space where it divides into the 1st dorsal metatarsal artery and a deep plantar artery.",
+    answer: true,
+    explanation: "The dorsalis pedis artery passes to the first interosseous space where it divides into the 1st dorsal metatarsal artery and a deep plantar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep plantar artery joins the medial plantar artery to form the plantar arch.",
+    answer: false,
+    explanation: "The deep plantar artery joins the lateral plantar artery, not the medial plantar artery, to form the deep plantar arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral tarsal artery supplies the extensor digitorum brevis muscle.",
+    answer: true,
+    explanation: "The lateral tarsal artery, a branch of the dorsalis pedis artery, runs laterally beneath the extensor digitorum brevis to supply this muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery arises from the dorsalis pedis artery and runs laterally across the bases of the metatarsals.",
+    answer: true,
+    explanation: "The arcuate artery runs laterally across the bases of the lateral four metatarsals, deep to the extensor tendons, to reach the lateral aspect of the forefoot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery gives rise to the 1st, 2nd, 3rd, and 4th dorsal metatarsal arteries.",
+    answer: false,
+    explanation: "The arcuate artery gives rise to the 2nd, 3rd, and 4th dorsal metatarsal arteries. The 1st dorsal metatarsal artery arises directly from the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsal metatarsal arteries generally end proximal to the distal interphalangeal joint and are replaced by dorsal branches of the plantar digital arteries.",
+    answer: true,
+    explanation: "The dorsal metatarsal arteries generally end proximal to the distal interphalangeal joint and are replaced by or receive replenishment from dorsal branches of the plantar digital arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The medial plantar artery is the larger terminal branch of the posterior tibial artery.",
+    answer: false,
+    explanation: "The medial plantar artery is the smaller terminal branch of the posterior tibial artery. The lateral plantar artery is the larger branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral plantar artery runs laterally and then arches medially to form the deep plantar arch.",
+    answer: true,
+    explanation: "The lateral plantar artery runs laterally and anteriorly, then arches medially across the foot to form the deep plantar arch, completed by union with the deep plantar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep plantar arch gives rise to four plantar metatarsal arteries and three perforating branches.",
+    answer: true,
+    explanation: "As it crosses the foot, the deep plantar arch gives rise to four plantar metatarsal arteries, three perforating branches, and many branches to the skin, fascia, and muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The plantar digital arteries typically provide most of the blood reaching the distal toes, including the nail beds.",
+    answer: true,
+    explanation: "The plantar digital arteries typically provide most of the blood reaching the distal toes, including the nail bed, via perforating and dorsal branches."
+  },
+
+  // SECTION 14: Veins & Lymphatics (1100-1107)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The deep veins of the foot take the form of single veins accompanying all arteries.",
+    answer: false,
+    explanation: "The deep veins take the form of interanastomosing paired veins (venae comitantes) accompanying all arteries internal to the deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Perforating veins begin the one-way shunting of blood from superficial to deep veins proximal to the ankle joint.",
+    answer: true,
+    explanation: "Perforating veins begin the one-way shunting of blood from superficial to deep veins, a pattern essential to operation of the musculovenous pump, proximal to the ankle joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The dorsal venous arch and network are located deep to the deep fascia of the foot.",
+    answer: false,
+    explanation: "The dorsal venous arch and network are located in the subcutaneous tissue, superficial to the deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The medial marginal vein becomes the great saphenous vein.",
+    answer: true,
+    explanation: "The medial marginal vein converges with the medial part of the dorsal venous arch and network to become the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The lateral marginal vein becomes the small saphenous vein.",
+    answer: true,
+    explanation: "The lateral marginal vein converges with the lateral part of the dorsal venous arch and network to become the small saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Superficial lymphatic vessels from the medial foot drain directly to the popliteal lymph nodes.",
+    answer: false,
+    explanation: "Superficial lymphatic vessels from the medial foot accompany the great saphenous vein to the vertical group of superficial inguinal lymph nodes, not the popliteal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Superficial lymphatic vessels from the lateral foot accompany the small saphenous vein to the popliteal lymph nodes.",
+    answer: true,
+    explanation: "Superficial lymphatic vessels from the lateral foot drain the lateral side of the dorsum and sole and mostly pass posterior to the lateral malleolus to accompany the small saphenous vein to the popliteal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Deep lymphatic vessels from the foot follow the main blood vessels and drain into the popliteal lymph nodes.",
+    answer: true,
+    explanation: "The deep lymphatic vessels from the foot follow the main blood vessels and also drain into the popliteal lymph nodes."
+  },
+
+  // SECTION 15: Clinical Conditions (1108-1119)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Plantar fasciitis is most commonly caused by overuse mechanisms such as running and high-impact aerobics.",
+    answer: true,
+    explanation: "Plantar fasciitis is often caused by an overuse mechanism, resulting from running and high-impact aerobics, especially when inappropriate footwear is worn."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A calcaneal spur is an abnormal bony process that protrudes from the medial tubercle of the calcaneus.",
+    answer: true,
+    explanation: "If a calcaneal spur (abnormal bony process) protrudes from the medial tubercle, plantar fasciitis is likely to cause pain on the medial side of the foot when walking."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A contusion of the extensor digitorum brevis muscle is often mistaken for a severely sprained ankle.",
+    answer: true,
+    explanation: "A contusion of the extensor digitorum brevis muscle produces edema anteromedial to the lateral malleolus, often mistaken for a severely sprained ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Pieces of the sural nerve are often used for nerve grafts.",
+    answer: true,
+    explanation: "Pieces of the sural nerve are often used for nerve grafts in procedures such as repairing nerve defects resulting from wounds."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The plantar reflex is a myotatic (deep tendon) reflex routinely tested during neurologic examinations.",
+    answer: true,
+    explanation: "The plantar reflex is a myotatic (deep tendon) reflex that is routinely tested during neurologic examinations."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A Babinski sign (extension of the great toe with fanning of the lateral toes) is always a sign of brain injury or cerebral disease.",
+    answer: false,
+    explanation: "A Babinski sign is an abnormal response indicating brain injury or cerebral disease, except in infants. Because the corticospinal tracts are not fully developed in newborns, a Babinski sign is usually elicited and may be present until children are 4 years of age."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Medial plantar nerve entrapment is also called 'jogger's foot' because of its frequency in runners.",
+    answer: true,
+    explanation: "Medial plantar nerve compression may occur during repetitive eversion of the foot (e.g., during gymnastics and running). Because of its frequency in runners, these symptoms have been called 'jogger's foot.'"
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The dorsalis pedis pulse is congenitally absent in approximately 14% of subjects.",
+    answer: true,
+    explanation: "The dorsalis pedis pulse is congenitally absent in about 14% of subjects. The variation is usually bilateral and the artery is replaced by an extended perforating fibular artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The five P signs of acute arterial occlusion are pain, pallor, paresthesia, paralysis, and pulselessness.",
+    answer: true,
+    explanation: "The five P signs of acute arterial occlusion are pain, pallor, paresthesia, paralysis, and pulselessness."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Puncture wounds of the sole of the foot involving the deep plantar arch are easily controlled with pressure.",
+    answer: false,
+    explanation: "Puncture wounds of the sole of the foot involving the deep plantar arch usually result in severe bleeding from both ends of the cut artery because of the abundant anastomoses. Ligation of the deep arch is difficult."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Infections on the lateral side of the foot initially produce enlargement of the inguinal lymph nodes.",
+    answer: false,
+    explanation: "Infections on the lateral side of the foot initially produce enlargement of popliteal lymph nodes (popliteal lymphadenopathy); later, the inguinal lymph nodes may enlarge."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Inguinal lymphadenopathy without popliteal lymphadenopathy can result from infection of the medial side of the foot or leg.",
+    answer: true,
+    explanation: "Inguinal lymphadenopathy without popliteal lymphadenopathy can result from infection of the medial side of the foot, leg, or thigh."
+  },
+
+  // SECTION 16: Additional Topics (1120-1200)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The intrinsic muscles of the plantar surface of the foot function throughout the stance phase of gait from heel strike to toe off.",
+    answer: true,
+    explanation: "The plantar intrinsic muscles function throughout the stance phase of gait, from heel strike to toe off, resisting forces that tend to spread the arches of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The extensor digitorum brevis muscle on the dorsum of the foot is innervated by the superficial fibular nerve.",
+    answer: false,
+    explanation: "The extensor digitorum brevis muscle on the dorsum of the foot is innervated by the deep fibular nerve, not the superficial fibular nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies the plantar aspect of the medial three and half toes and adjacent sole.",
+    answer: true,
+    explanation: "The medial plantar nerve supplies the skin of the medial three and a half digits (including the dorsal skin and nail beds of their distal phalanges) and the skin of the sole proximal to them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The lateral plantar nerve supplies the plantar aspect of the lateral one and a half toes and adjacent sole.",
+    answer: true,
+    explanation: "The lateral plantar nerve supplies the skin of the lateral one and a half digits (including the dorsal skin and nail beds of their distal phalanges) and skin of the sole proximal to them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The dorsalis pedis artery and the plantar arteries have limited anastomoses in the foot.",
+    answer: false,
+    explanation: "Anastomoses between the dorsalis pedis and plantar arteries are abundant and important for the health of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The venous drainage of the foot primarily follows a deep route before draining superficially.",
+    answer: false,
+    explanation: "Venous drainage of the foot primarily follows a superficial route, draining to the dorsum of the foot and then medially via the great saphenous vein or laterally via the small saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Blood is shunted from superficial to deep veins by perforating veins to participate in the musculoskeletal pump.",
+    answer: true,
+    explanation: "Blood is shunted by perforating veins to the deep veins of the leg and thigh that participate in the musculoskeletal pump."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Lymph from the medial foot follows the great saphenous vein and drains directly to the superficial inguinal lymph nodes.",
+    answer: true,
+    explanation: "Lymph from the medial foot follows the great saphenous vein and drains directly to the vertical group of superficial inguinal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Lymph from the lateral foot follows the small saphenous vein and drains initially to the deep inguinal lymph nodes.",
+    answer: false,
+    explanation: "Lymph from the lateral foot follows the small saphenous vein and drains initially to the popliteal lymph nodes, not directly to the deep inguinal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The trochanteric bursa is the largest bursa in the gluteal region and is present at birth.",
+    answer: true,
+    explanation: "The trochanteric bursa is commonly the largest of the bursae formed in relation to bony prominences and is present at birth. Other bursae appear to form as a result of postnatal movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteofemoral bursa separates the iliotibial tract from the superior part of the proximal attachment of the vastus medialis.",
+    answer: false,
+    explanation: "The gluteofemoral bursa separates the iliotibial tract from the superior part of the proximal attachment of the vastus lateralis, not the vastus medialis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The clunial nerves are vulnerable to injury when bone is taken from the ilium for grafting.",
+    answer: true,
+    explanation: "The superior, middle, and inferior clunial nerves supply the skin over the iliac crest and are vulnerable to injury when bone is taken from the ilium for grafting."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior cutaneous nerve of the thigh supplies more skin than any other cutaneous nerve of the lower limb.",
+    answer: true,
+    explanation: "The posterior cutaneous nerve of the thigh supplies more skin than any other cutaneous nerve, including the perineum, inferior buttocks, posterior thigh, and proximal leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior cutaneous nerve of the thigh lies superficial to the deep fascia throughout its course.",
+    answer: false,
+    explanation: "Unlike most nerves bearing the name cutaneous, the main part of the posterior cutaneous nerve of the thigh lies deep to the deep fascia (fascia lata), with only its terminal branches penetrating the subcutaneous tissue."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The perforating arteries of the thigh are unusual in the limbs for their transverse, intercompartmental course.",
+    answer: true,
+    explanation: "The perforating arteries are large vessels, unusual in the limbs for their transverse, intercompartmental course, and surgeons operating in the posterior compartment must be careful to identify them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The perforating arteries of the thigh, after supplying the posterior compartment, continue to supply the vastus lateralis in the anterior compartment.",
+    answer: true,
+    explanation: "After giving off their posterior compartment branches, the perforating arteries pierce the lateral intermuscular septum to enter the anterior compartment, where they supply the vastus lateralis muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A continuous anastomotic arterial chain extends from the gluteal to popliteal regions in the posterior thigh.",
+    answer: true,
+    explanation: "A continuous anastomotic arterial chain extends from the gluteal to popliteal regions, giving rise to additional branches to muscles and to the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal veins are tributaries of the internal iliac veins that drain blood from the gluteal region.",
+    answer: true,
+    explanation: "The gluteal veins are tributaries of the internal iliac veins that drain blood from the gluteal region. The superior and inferior gluteal veins accompany the corresponding arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal veins communicate with tributaries of the femoral vein, providing alternative routes for venous return.",
+    answer: true,
+    explanation: "The gluteal veins communicate with tributaries of the femoral vein, thereby providing alternative routes for the return of blood from the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The line joining the highest points of the iliac crests crosses the L1-L2 intervertebral disc.",
+    answer: false,
+    explanation: "The line joining the highest points of the iliac crests crosses the L4-L5 intervertebral disc, not the L1-L2 disc, and is a useful landmark for lumbar puncture."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior superior iliac spines are always located at the bottom of permanent skin dimples approximately 3.75 cm from the midline.",
+    answer: true,
+    explanation: "The posterior superior iliac spines (PSIS) can always be located at the bottom of the permanent skin dimples approximately 3.75 cm from the midline."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The line joining the posterior superior iliac spines passes through the S2 spinous process, indicating the level of the lowest limit of the dural sac.",
+    answer: true,
+    explanation: "A line joining the posterior superior iliac spine dimples passes through the S2 spinous process, indicating the level of the lowest limit of the dural sac."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal fold disappears when the hip joint is extended.",
+    answer: false,
+    explanation: "The gluteal fold disappears when the hip joint is flexed, not when it is extended."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The ischial tuberosity is easy to palpate when the thigh is flexed because the gluteus maximus slips superiorly off the tuberosity.",
+    answer: true,
+    explanation: "When the thigh is flexed, the gluteus maximus slips superiorly off the tuberosity, making the ischial tuberosity subcutaneous and easy to palpate."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Nélaton line is a line drawn from the ASIS to the ischial tuberosity and normally passes over or near the top of the greater trochanter.",
+    answer: true,
+    explanation: "Nélaton line is a line drawn over the lateral hip region from the ASIS to the ischial tuberosity and normally passes over or near the top of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The surface marking of the superior border of the piriformis is indicated by a line joining the PSIS to the superior border of the greater trochanter.",
+    answer: true,
+    explanation: "The surface marking of the superior border of the piriformis is indicated by a line joining the skin dimple formed by the PSIS to the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve is represented by a line from a point midway between the greater trochanter and ischial tuberosity down the middle of the posterior thigh.",
+    answer: true,
+    explanation: "The sciatic nerve is represented by a line that extends from a point midway between the greater trochanter and ischial tuberosity down the middle of the posterior aspect of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The iliotibial tract is prominent and taut when the heel is lowered.",
+    answer: false,
+    explanation: "The iliotibial tract is prominent and taut when the heel is raised, and indistinct when the heel is lowered."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The biceps femoris tendon is on the medial side of the popliteal fossa.",
+    answer: false,
+    explanation: "The biceps femoris tendon is on the lateral side of the popliteal fossa. The semimembranosus and semitendinosus tendons are on the medial side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Trochanteric bursitis causes deep diffuse pain in the lateral thigh region.",
+    answer: true,
+    explanation: "Trochanteric bursitis causes deep diffuse pain in the lateral thigh region, with point tenderness over the great trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The pain from trochanteric bursitis is generally elicited by manually resisting abduction and lateral rotation of the thigh.",
+    answer: true,
+    explanation: "The pain from an inflamed trochanteric bursa is generally elicited by manually resisting abduction and lateral rotation of the thigh while the person is lying on the unaffected side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Ischial bursitis may lead to pressure sores in debilitated people, particularly paraplegic persons with poor nursing care.",
+    answer: true,
+    explanation: "Because the ischial tuberosities bear the body's weight during sitting, these pressure points may lead to pressure sores in debilitated people."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Hamstring strains are twice as common as quadriceps strains.",
+    answer: true,
+    explanation: "Hamstring strains are twice as common as quadriceps strains in sports injuries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Avulsion of the ischial tuberosity may result from forcible flexion of the hip with the knee extended, as in kicking a football.",
+    answer: true,
+    explanation: "Avulsion of the ischial tuberosity at the proximal attachment of the biceps femoris and semitendinosus may result from forcible flexion of the hip with the knee extended."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Injury to the superior gluteal nerve results in a disabling gluteus medius limp.",
+    answer: true,
+    explanation: "Injury to the superior gluteal nerve results in a disabling gluteus medius limp, to compensate for weakened abduction of the thigh by the gluteus medius and minimus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Medial rotation of the thigh is severely impaired following superior gluteal nerve injury.",
+    answer: true,
+    explanation: "Medial rotation of the thigh is severely impaired following superior gluteal nerve injury because the gluteus medius and minimus are major medial rotators."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A person with superior gluteal nerve injury adopts a waddling gait to compensate for the dropped pelvis.",
+    answer: true,
+    explanation: "When the pelvis descends on the unsupported side, the individual leans away from the unsupported side, raising the pelvis to allow room for the foot, resulting in a characteristic waddling or gluteal gait."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A steppage gait is adopted to compensate for footdrop.",
+    answer: true,
+    explanation: "A high-stepping steppage gait involves extra flexion at the hip and knee to raise the foot high enough to keep the toes from hitting the ground, compensating for footdrop."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve can be blocked by injecting an anesthetic agent at the midpoint of the line joining the PSIS and the greater trochanter.",
+    answer: true,
+    explanation: "Sensation conveyed by the sciatic nerve can be blocked by the injection of an anesthetic agent a few centimeters inferior to the midpoint of the line joining the PSIS and the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Piriformis syndrome is more common in men than in women.",
+    answer: false,
+    explanation: "Women are more likely to develop piriformis syndrome, and approximately 50% of cases indicate trauma to the buttocks associated with hypertrophy and spasm of the piriformis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "In approximately 12% of people, the common fibular division of the sciatic nerve passes through the piriformis.",
+    answer: true,
+    explanation: "In approximately 12% of people, the common fibular division of the sciatic nerve passes through the piriformis, making it more susceptible to compression."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Complete section of the sciatic nerve makes the leg useless because extension of the hip and flexion of the leg are impaired.",
+    answer: true,
+    explanation: "Complete section of the sciatic nerve makes the leg useless because extension of the hip is impaired, as is flexion of the leg. All ankle and foot movements are also lost."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Recovery from a lesion of the sciatic nerve is usually rapid and complete.",
+    answer: false,
+    explanation: "Recovery from a lesion of the sciatic nerve is slow and usually incomplete."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial side of the buttock is the side of safety, while the lateral side is the side of danger for the sciatic nerve.",
+    answer: false,
+    explanation: "The buttocks have a side of safety (its lateral side) and a side of danger (its medial side). Wounds or surgery on the medial side may injure the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Intragluteal injections should be given in the superolateral quadrant of the buttocks.",
+    answer: true,
+    explanation: "Injections into the buttocks are safe only in the superolateral quadrant of the buttocks or superior to a line extending from the PSIS to the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The triangular area between the fingers placed on the ASIS and iliac crest is a safe site for intramuscular injection.",
+    answer: true,
+    explanation: "An IM injection can be made safely in the triangular area between the fingers (ASIS and iliac crest) because it is superior to the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral nerve is the chief nerve of the anterior compartment of the thigh.",
+    answer: true,
+    explanation: "The femoral nerve is the chief nerve of the anterior compartment of the thigh, supplying the quadriceps femoris and sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The obturator nerve is the chief nerve of the medial compartment of the thigh.",
+    answer: true,
+    explanation: "The obturator nerve is the chief nerve of the medial compartment of the thigh, supplying the adductor muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve is the chief nerve of the posterior compartment of the thigh.",
+    answer: true,
+    explanation: "The sciatic nerve is the chief nerve of the posterior compartment of the thigh, supplying the hamstring muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The tibial nerve is the chief nerve of the anterior compartment of the leg.",
+    answer: false,
+    explanation: "The deep peroneal nerve is the chief nerve of the anterior compartment of the leg. The tibial nerve is the chief nerve of the posterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The superficial peroneal nerve is the chief nerve of the lateral compartment of the leg.",
+    answer: true,
+    explanation: "The superficial peroneal nerve is the chief nerve of the lateral compartment of the leg, supplying the peroneus longus and brevis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial plantar and lateral plantar nerves are the chief nerves of the sole of the foot.",
+    answer: true,
+    explanation: "The medial plantar and lateral plantar nerves, terminal branches of the tibial nerve, are the chief nerves of the sole of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The anterior tibial artery is the chief artery of the anterior compartment of the leg.",
+    answer: true,
+    explanation: "The anterior tibial artery is the chief artery of the anterior compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior tibial artery is the chief artery of the posterior compartment of the leg.",
+    answer: true,
+    explanation: "The posterior tibial artery is the chief artery of the posterior compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The peroneal artery is the chief artery of the lateral compartment of the leg.",
+    answer: false,
+    explanation: "The lateral compartment does not have an artery exclusively coursing through it. Perforating branches from the anterior tibial and peroneal arteries supply the lateral compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The profunda femoris artery is the chief artery of all three compartments of the thigh.",
+    answer: true,
+    explanation: "The profunda femoris artery is the chief artery of all three compartments of the thigh, supplying muscles in the anterior, medial, and posterior compartments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus is an opening in the adductor longus muscle.",
+    answer: false,
+    explanation: "The adductor hiatus is an opening between the aponeurotic distal attachment of the adductor part of the adductor magnus and the tendinous distal attachment of the hamstring part of the adductor magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus transmits the femoral artery and vein from the adductor canal to the popliteal fossa.",
+    answer: true,
+    explanation: "The adductor hiatus transmits the femoral artery and vein from the adductor canal in the thigh to the popliteal fossa posterior to the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The retro-inguinal space is divided into two compartments by the iliopectineal arch.",
+    answer: true,
+    explanation: "The retro-inguinal space is divided into two compartments (muscular and vascular) by a thickening of the iliopsoas fascia, the iliopectineal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The muscular compartment of the retro-inguinal space transmits the iliopsoas muscle and the femoral nerve.",
+    answer: true,
+    explanation: "Lateral to the iliopectineal arch is the muscular compartment of the retro-inguinal space, through which the iliopsoas muscle and femoral nerve pass."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The vascular compartment of the retro-inguinal space transmits the femoral vessels and the femoral sheath.",
+    answer: true,
+    explanation: "Medial to the iliopectineal arch, the vascular compartment of the retro-inguinal space allows passage of the major vascular structures (veins, artery, and lymphatics)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral sheath allows the femoral artery and vein to glide deep to the inguinal ligament during hip movements.",
+    answer: true,
+    explanation: "The femoral sheath allows the femoral artery and vein to glide deep to the inguinal ligament during movements of the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral canal allows the femoral artery to expand when intra-abdominal pressure increases.",
+    answer: false,
+    explanation: "The femoral canal allows the femoral vein, not the femoral artery, to expand when venous return from the lower limb is increased or when increased intra-abdominal pressure causes temporary stasis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral septum is pierced by lymphatic vessels connecting the inguinal and external iliac lymph nodes.",
+    answer: true,
+    explanation: "The femoral septum is pierced by lymphatic vessels connecting the inguinal and external iliac lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral artery can be compressed just inferior to the midpoint of the inguinal ligament against the pectineus muscle.",
+    answer: false,
+    explanation: "The femoral artery can be compressed just inferior to the midpoint of the inguinal ligament against the superior pubic ramus, psoas major, and femoral head, not the pectineus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The profunda femoris vein joins the femoral vein approximately 5 cm inferior to the termination of the great saphenous vein.",
+    answer: true,
+    explanation: "The profunda femoris vein (deep vein of thigh) enters the femoral vein approximately 8 cm inferior to the inguinal ligament and approximately 5 cm inferior to the termination of the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The subsartorial fascia spans between the adductor longus and the vastus medialis, forming the anterior wall of the adductor canal.",
+    answer: true,
+    explanation: "A tough subsartorial or vastoadductor fascia spans between the adductor longus and the vastus medialis muscles, forming the anterior wall of the adductor canal deep to the sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus is located at the same level as the superior margin of the subsartorial fascia.",
+    answer: false,
+    explanation: "The adductor hiatus is located at a more inferior level than the superior margin of the subsartorial fascia, just proximal to the medial supracondylar ridge."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The term 'superficial femoral artery' is a safe clinical term with no risk of misunderstanding.",
+    answer: false,
+    explanation: "The adjective 'superficial' should not be used for the femoral artery because it implies that it is located in the subcutaneous tissue, which is misleading and potentially dangerous as it is actually deeply located."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A saphenous varix is a localized dilation of the terminal part of the great saphenous vein.",
+    answer: true,
+    explanation: "A saphenous varix (L. dilated vein) is a localized dilation of the terminal part of the great saphenous vein that may cause edema in the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral vein has no tributaries at the level of the inguinal ligament, except for the great saphenous vein.",
+    answer: true,
+    explanation: "The femoral vein has no tributaries at this level, except for the great saphenous vein that joins it approximately 3 cm inferior to the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Femoral venous puncture can be used for right cardiac angiography.",
+    answer: true,
+    explanation: "A catheter can be inserted into the femoral vein and passed to the heart for right cardiac angiography and for securing blood samples and pressure recordings."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Strangulation of a femoral hernia interferes with the blood supply to the herniated intestine.",
+    answer: true,
+    explanation: "Strangulation of a femoral hernia may occur because of the sharp, rigid boundaries of the femoral ring, interfering with the blood supply and resulting in necrosis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "An abnormal obturator artery may run close to or across the femoral ring, creating a risk during hernia surgery.",
+    answer: true,
+    explanation: "An enlarged pubic branch of the inferior epigastric artery may run close to or across the femoral ring and could be involved in a strangulated femoral hernia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gastrocnemius is capable of producing plantarflexion when the knee is fully flexed.",
+    answer: false,
+    explanation: "The gastrocnemius is incapable of producing plantarflexion when the knee is fully flexed because it crosses the knee joint and becomes slack."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The soleus is composed largely of red, fatigue-resistant, slow-twitch muscle fibers.",
+    answer: true,
+    explanation: "Composed largely of red, fatigue-resistant, slow-twitch (type 1) muscle fibers, the soleus is a strong but relatively slow plantarflexor capable of sustained contraction."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris is a vestigial muscle that is present in all individuals.",
+    answer: false,
+    explanation: "The plantaris is a vestigial muscle absent in 5-10% of people and highly variable in size and form when present."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris has been considered to be an organ of proprioception for the larger plantarflexors.",
+    answer: true,
+    explanation: "The plantaris has been considered to be an organ of proprioception for the larger plantarflexors, as it has a high density of muscle spindles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris tendon can be removed for grafting without causing disability.",
+    answer: true,
+    explanation: "Because of its minor role, the plantaris tendon can be removed for grafting (e.g., during reconstructive surgery of the tendons of the hand) without causing disability."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The deep muscles of the posterior compartment collectively produce most of the force of plantarflexion.",
+    answer: false,
+    explanation: "The 'nontriceps' plantarflexors collectively produce only about 7% of the total force of plantarflexion, with the triceps surae producing 93%."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "When the calcaneal tendon is ruptured, the deep muscles cannot generate the power necessary to lift the body's weight.",
+    answer: true,
+    explanation: "When the calcaneal tendon is ruptured, the deep muscles (nontriceps plantarflexors) cannot generate the power necessary to lift the body's weight (i.e., to stand on the toes)."
+  },
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY =====
+
+  // SECTION 1: Hip Joint Ligaments (901-913)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The iliofemoral ligament prevents hyperextension of the hip joint during standing.",
+    answer: true,
+    explanation: "The iliofemoral ligament is said to be the body's strongest ligament and specifically prevents hyperextension of the hip joint during standing by screwing the femoral head into the acetabulum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The pubofemoral ligament tightens during both extension and abduction of the hip joint.",
+    answer: true,
+    explanation: "The pubofemoral ligament tightens during both extension and abduction of the hip joint, preventing overabduction."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ischiofemoral ligament is the strongest of the three ligaments of the hip joint.",
+    answer: false,
+    explanation: "The ischiofemoral ligament is the weakest of the three ligaments of the hip joint. The iliofemoral ligament is the strongest."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The ligament of the head of the femur is primarily a synovial fold conducting a blood vessel.",
+    answer: true,
+    explanation: "The ligament of the head of the femur is primarily a synovial fold conducting a blood vessel and is weak and of little importance in strengthening the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The acetabular labrum increases the acetabular articular area by nearly 10%.",
+    answer: true,
+    explanation: "The lip-shaped acetabular labrum is a fibrocartilaginous rim attached to the margin of the acetabulum, increasing the acetabular articular area by nearly 10%."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The articular surfaces of the acetabulum and femoral head are most congruent when the hip is fully extended.",
+    answer: false,
+    explanation: "The articular surfaces of the acetabulum and femoral head are most congruent when the hip is flexed 90°, abducted 5°, and rotated laterally 10° (the quadruped position)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The orbicular zone consists of deep fibres of the fibrous capsule that pass circularly around the femoral neck.",
+    answer: true,
+    explanation: "Some deep fibers of the fibrous layer of the hip joint capsule pass circularly around the neck, forming the orbicular zone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The synovial membrane of the hip joint reflects proximally along the femoral neck to the edge of the femoral head.",
+    answer: true,
+    explanation: "In the hip joint, where the fibrous layer attaches to the femur distant from the articular cartilage, the synovial membrane reflects proximally along the femoral neck to the edge of the femoral head."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The retinacular arteries that supply the femoral head arise from the lateral circumflex femoral artery only.",
+    answer: false,
+    explanation: "Retinacular arteries arising from the medial circumflex femoral artery are most abundant, bringing more blood to the head and neck of the femur. The lateral circumflex femoral also contributes but provides fewer vessels."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The artery to the head of the femur is a branch of the obturator artery that traverses the ligament of the head.",
+    answer: true,
+    explanation: "The artery to the head of the femur is a branch of the obturator artery of variable size that traverses the ligament of the head of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "Hilton's law states that the nerves supplying the muscles extending directly across and acting at a given joint also innervate the joint.",
+    answer: true,
+    explanation: "Hilton's law states that the nerves supplying the muscles extending directly across and acting at a given joint also innervate the joint. This applies to the hip, knee, and ankle joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The anterior aspect of the hip joint is innervated by the obturator nerve.",
+    answer: false,
+    explanation: "The anterior aspect of the hip joint is innervated by the femoral nerve because the flexors (innervated by the femoral nerve) pass anterior to the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Hip Joint",
+    type: "truefalse",
+    question: "The posterior aspect of the hip joint is innervated by branches from the nerve to the quadratus femoris.",
+    answer: true,
+    explanation: "The posterior aspect of the hip joint is innervated by branches from the nerve to the quadratus femoris because the lateral rotators pass posterior to the joint."
+  },
+
+  // SECTION 2: Knee Joint (914-940)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint consists of three articulations: lateral and medial femorotibial, and femoropatellar.",
+    answer: true,
+    explanation: "The knee joint consists of three articulations: two femorotibial articulations (lateral and medial) and one femoropatellar articulation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibula participates in the knee joint as the lateral condyle articulates with the fibular head.",
+    answer: false,
+    explanation: "The fibula is not involved in the knee joint. The knee joint is formed by the femur, tibia, and patella only."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The most important muscle in stabilizing the knee joint is the quadriceps femoris.",
+    answer: true,
+    explanation: "The most important muscle in stabilizing the knee joint is the large quadriceps femoris, particularly the inferior fibers of the vastus medialis and lateralis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The erect, extended position is the most stable position of the knee joint.",
+    answer: true,
+    explanation: "The erect, extended position is the most stable position of the knee joint, where the articular surfaces are most congruent and the primary ligaments are taut."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibrous layer of the knee joint capsule is complete and has no openings.",
+    answer: false,
+    explanation: "The fibrous layer of the knee joint capsule has an opening posterior to the lateral tibial condyle to allow the tendon of the popliteus to pass out of the joint capsule."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa usually extends approximately 5 cm superior to the patella.",
+    answer: true,
+    explanation: "The suprapatellar bursa usually extends approximately 5 cm superior to the patella, though it may extend halfway up the anterior aspect of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The medial and lateral patellar retinacula are aponeurotic expansions of the vastus medialis and lateralis.",
+    answer: true,
+    explanation: "The medial and lateral patellar retinacula are aponeurotic expansions of the vastus medialis and lateralis and overlying deep fascia that make up the joint capsule on each side of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The fibular collateral ligament is stronger than the tibial collateral ligament.",
+    answer: true,
+    explanation: "The tibial collateral ligament is weaker than the fibular collateral ligament and is more often damaged."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The tibial collateral ligament is attached to the lateral meniscus.",
+    answer: false,
+    explanation: "The tibial collateral ligament is attached to the medial meniscus, making the medial meniscus less mobile and more prone to injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The oblique popliteal ligament is a recurrent expansion of the tendon of the semitendinosus.",
+    answer: false,
+    explanation: "The oblique popliteal ligament is a recurrent expansion of the tendon of the semimembranosus, not the semitendinosus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The arcuate popliteal ligament strengthens the joint capsule posteromedially.",
+    answer: false,
+    explanation: "The arcuate popliteal ligament strengthens the joint capsule posterolaterally, not posteromedially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The anterior cruciate ligament has a relatively poor blood supply.",
+    answer: true,
+    explanation: "The anterior cruciate ligament has a relatively poor blood supply, which contributes to its slow healing after injury."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The posterior cruciate ligament prevents posterior displacement of the tibia on the femur.",
+    answer: true,
+    explanation: "The posterior cruciate ligament prevents posterior displacement of the tibia on the femur (or anterior displacement of the femur on the tibia)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The lateral meniscus is firmly attached to the tibial collateral ligament.",
+    answer: false,
+    explanation: "The medial meniscus is firmly attached to the tibial collateral ligament, not the lateral meniscus. The lateral meniscus is more freely movable."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The coronary ligaments are portions of the joint capsule extending between the margins of the menisci and the tibial condyles.",
+    answer: true,
+    explanation: "The coronary ligaments are portions of the joint capsule extending between the margins of the menisci and most of the periphery of the tibial condyles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The transverse ligament of the knee joins the posterior edges of the menisci.",
+    answer: false,
+    explanation: "The transverse ligament of the knee joins the anterior edges of the menisci, crossing the anterior intercondylar area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus tendon attaches to the lateral meniscus, allowing it to be pulled posteriorly during flexion.",
+    answer: true,
+    explanation: "The popliteus tendon attaches to the lateral meniscus, allowing it to be pulled posteriorly during flexion, protecting it from being crushed between the articular surfaces."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The meniscofemoral ligaments attach the lateral meniscus to the medial femoral condyle.",
+    answer: true,
+    explanation: "The posterior end of the lateral meniscus is attached to the medial condyle of the femur through two meniscofemoral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint can rotate approximately 40° laterally when flexed to 90°.",
+    answer: true,
+    explanation: "Nearly 40° of lateral rotation is possible when the knee is flexed approximately 90°, limited ultimately by the tibial collateral ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "Medial rotation of the knee is more extensive than lateral rotation.",
+    answer: false,
+    explanation: "Medial rotation is limited to about 10°, while lateral rotation is nearly 40° when the knee is flexed to 90°."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus contracts to assist the anterior cruciate ligament in preventing anterior displacement of the femur on the inclined tibial plateau.",
+    answer: true,
+    explanation: "When standing with the knee partly flexed, the popliteus contracts to assist the posterior cruciate ligament in preventing anterior displacement of the femur on the inclined tibial plateau."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The popliteus is primarily a powerful flexor of the knee joint.",
+    answer: false,
+    explanation: "The popliteus is insignificant as a flexor of the knee joint per se. Its primary function is to unlock the knee and assist in meniscal movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The genicular anastomosis around the knee includes branches from the femoral, popliteal, and anterior tibial arteries.",
+    answer: true,
+    explanation: "The genicular anastomosis around the knee includes the descending genicular from the femoral, genicular branches from the popliteal, and anterior tibial recurrent branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The middle genicular artery supplies the cruciate ligaments, synovial membrane, and peripheral margins of the menisci.",
+    answer: true,
+    explanation: "The middle genicular branches of the popliteal artery penetrate the fibrous layer of the joint capsule and supply the cruciate ligaments, synovial membrane, and peripheral margins of the menisci."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The knee joint is supplied by articular branches from the femoral, tibial, and common fibular nerves only.",
+    answer: false,
+    explanation: "The knee joint is supplied by articular branches from the femoral, tibial, common fibular, and saphenous (cutaneous) nerves, which also supplies additional articular branches to the medial aspect."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The suprapatellar bursa does not communicate with the knee joint cavity.",
+    answer: false,
+    explanation: "The suprapatellar bursa develops separately from the knee joint but becomes continuous with it and communicates freely with the synovial cavity."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Knee Joint",
+    type: "truefalse",
+    question: "The subcutaneous prepatellar bursa allows free movement of skin over the patella during leg movements.",
+    answer: true,
+    explanation: "The subcutaneous prepatellar bursa is located at the convex surface of the joint, allowing the skin to move freely during movements of the knee."
+  },
+
+  // SECTION 3: Tibiofibular Joints (941-947)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The tibiofibular joint is a hinge type of synovial joint.",
+    answer: false,
+    explanation: "The tibiofibular joint is a plane type of synovial joint, not a hinge joint. It permits slight gliding or rotatory movements."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The interosseous membrane fibers run downward from the tibia to the fibula, resisting the downward pull on the fibula.",
+    answer: true,
+    explanation: "The fibers of the interosseous membrane run inferolaterally from the tibia to the fibula, strongly resisting the downward pull placed on the fibula by eight of the nine muscles attached to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The biceps femoris is one of eight muscles that pull the fibula downwards.",
+    answer: false,
+    explanation: "The biceps femoris is the only muscle that pulls the fibula upwards. Eight other muscles attached to the fibula pull it downwards."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The anterior tibial vessels pass through a hiatus at the superior end of the interosseous membrane.",
+    answer: true,
+    explanation: "The anterior tibial vessels pass through a hiatus at the superior end of the interosseous membrane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The perforating branch of the fibular artery passes through a hiatus at the superior end of the interosseous membrane.",
+    answer: false,
+    explanation: "The perforating branch of the fibular artery passes through a smaller hiatus at the inferior end of the interosseous membrane, not the superior end."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The tibiofibular syndesmosis is essential for the stability of the ankle joint.",
+    answer: true,
+    explanation: "The integrity of the inferior tibiofibular joint (tibiofibular syndesmosis) is essential for the stability of the ankle joint because it keeps the lateral malleolus firmly against the lateral surface of the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Tibiofibular Joints",
+    type: "truefalse",
+    question: "The inferior transverse tibiofibular ligament forms the posterior wall of the malleolar mortise.",
+    answer: true,
+    explanation: "The inferior transverse tibiofibular ligament forms a strong connection between the distal ends of the tibia and fibula, forming the posterior wall of the malleolar mortise."
+  },
+
+  // SECTION 4: Ankle Joint (948-956)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The malleolar mortise has four deep walls.",
+    answer: false,
+    explanation: "The malleolar mortise has three deep walls (medial, lateral, and posterior) and a shallow or open anterior wall."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The ankle joint can be felt as a slight depression approximately 1 cm proximal to the tip of the medial malleolus.",
+    answer: true,
+    explanation: "The ankle joint can be felt between the tendons on the anterior surface of the ankle as a slight depression, approximately 1 cm proximal to the tip of the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The grip of the malleoli on the trochlea is strongest during plantar flexion.",
+    answer: false,
+    explanation: "The grip of the malleoli on the trochlea is strongest during dorsiflexion, not plantar flexion, because this movement forces the wider anterior part of the trochlea posteriorly between the malleoli."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The ankle joint is relatively unstable during plantar flexion, making it more susceptible to injury.",
+    answer: true,
+    explanation: "The ankle joint is relatively unstable during plantar flexion because the trochlea is narrower posteriorly and lies relatively loosely within the mortise. Most ankle injuries occur during plantar flexion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The joint capsule of the ankle joint is thin anteriorly and posteriorly but supported by strong collateral ligaments on each side.",
+    answer: true,
+    explanation: "The joint capsule of the ankle joint is thin anteriorly and posteriorly but is supported on each side by strong lateral and medial collateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The posterior talofibular ligament is the weakest of the lateral ankle ligaments.",
+    answer: false,
+    explanation: "The anterior talofibular ligament is the weakest of the lateral ankle ligaments. The posterior talofibular ligament is the thickest and strongest of the lateral ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The calcaneofibular ligament is a round cord that passes postero-inferiorly from the tip of the lateral malleolus to the lateral surface of the calcaneus.",
+    answer: true,
+    explanation: "The calcaneofibular ligament is a round cord that passes postero-inferiorly from the tip of the lateral malleolus to the lateral surface of the calcaneus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The medial ligament of the ankle stabilizes the joint during inversion and prevents subluxation.",
+    answer: false,
+    explanation: "The medial ligament stabilizes the ankle joint during eversion and prevents subluxation, not inversion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Ankle Joint",
+    type: "truefalse",
+    question: "The subtalar joint is where the majority of inversion and eversion occurs.",
+    answer: true,
+    explanation: "The subtalar joint (by either anatomical or clinical definition) is where the majority of inversion and eversion occurs, around an axis that is oblique."
+  },
+
+  // SECTION 5: Foot Joints (957-958)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints",
+    type: "truefalse",
+    question: "The transverse tarsal joint is a single joint formed by the talonavicular and calcaneocuboid joints.",
+    answer: true,
+    explanation: "The transverse tarsal joint is a compound joint formed by two separate joints aligned transversely: the talonavicular part of the talocalcaneonavicular joint and the calcaneocuboid joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Joints",
+    type: "truefalse",
+    question: "Transection across the transverse tarsal joint is a standard method for surgical amputation of the foot.",
+    answer: true,
+    explanation: "Transection across the transverse tarsal joint is a standard method for surgical amputation of the foot."
+  },
+
+  // SECTION 6: Foot Ligaments & Arches (959-968)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The spring ligament supports the head of the talus and plays a role in weight transfer from the talus.",
+    answer: true,
+    explanation: "The spring ligament (plantar calcaneonavicular ligament) supports the head of the talus and plays important roles in the transfer of weight from the talus and in maintaining the longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The long plantar ligament is more important than the spring ligament for maintaining the longitudinal arch.",
+    answer: false,
+    explanation: "The long plantar ligament is important, but its importance is surpassed only by the spring ligament for maintaining the longitudinal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The plantar calcaneocuboid ligament is located superficial to the long plantar ligament.",
+    answer: false,
+    explanation: "The plantar calcaneocuboid ligament (short plantar ligament) is located deep to the long plantar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The arches of the foot distribute weight over the pedal platform and act as shock absorbers.",
+    answer: true,
+    explanation: "The arches distribute weight over the pedal platform, acting not only as shock absorbers but also as springboards for propelling it during walking, running, and jumping."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The body's weight is transmitted from the talus posteriorly to the calcaneus and anteriorly to the ball of the foot.",
+    answer: true,
+    explanation: "The weight of the body is transmitted to the talus from the tibia. Then, it is transmitted posteriorly to the calcaneus and anteriorly to the ball of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The lateral longitudinal arch is higher and more important than the medial longitudinal arch.",
+    answer: false,
+    explanation: "The medial longitudinal arch is higher and more important than the lateral longitudinal arch, which is much flatter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The transverse arch of the foot is formed by the cuboid, cuneiforms, and bases of the metatarsals.",
+    answer: true,
+    explanation: "The transverse arch of the foot is formed by the cuboid, cuneiforms, and bases of the metatarsals, running from side to side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The tendons of the fibularis longus and tibialis posterior cross under the sole of the foot like a stirrup to maintain the transverse arch.",
+    answer: true,
+    explanation: "The tendons of the fibularis longus and tibialis posterior, crossing under the sole like a stirrup, help maintain the curvature of the transverse arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "The plantar aponeurosis is the deepest factor in supporting the arches of the foot.",
+    answer: false,
+    explanation: "The plantar aponeurosis is the most superficial of the four successive layers of fibrous tissue that bowstring the longitudinal arch. The deepest is the plantar calcaneonavicular (spring) ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Ligaments & Arches",
+    type: "truefalse",
+    question: "Passive factors are more important than dynamic supports in maintaining the arches of the foot.",
+    answer: true,
+    explanation: "Of the factors maintaining the arches of the foot, the plantar ligaments and the plantar aponeurosis bear the greatest stress and are most important."
+  },
+
+  // SECTION 7: Clinical Conditions & Deformities (969-986)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The Q-angle is typically greater in adult females due to their wider pelves.",
+    answer: true,
+    explanation: "The Q-angle is typically greater in adult females, owing to their wider pelves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Genu valgum is also known as bowleg.",
+    answer: false,
+    explanation: "Genu valgum is known as knock-knee. Genu varum is known as bowleg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "In genu varum, the weight-bearing line falls medial to the center of the knee.",
+    answer: true,
+    explanation: "In genu varum (bowleg), the line of weight bearing falls medial to the center of the knee, placing excess pressure on the medial aspect of the knee joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The patella nearly always dislocates medially.",
+    answer: false,
+    explanation: "When the patella is dislocated, it nearly always dislocates laterally, not medially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The vastus medialis tends to prevent lateral dislocation of the patella.",
+    answer: true,
+    explanation: "The vastus medialis tends to prevent lateral dislocation of the patella because it attaches to and pulls on the medial border of the patella."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The unhappy triad of knee injuries involves the ACL, PCL, and lateral meniscus.",
+    answer: false,
+    explanation: "The unhappy triad involves the ACL, tibial collateral ligament, and medial meniscus, not the PCL and lateral meniscus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The anterior drawer sign tests for a tear of the posterior cruciate ligament.",
+    answer: false,
+    explanation: "The anterior drawer sign tests for a tear of the anterior cruciate ligament. The posterior drawer sign tests for a tear of the posterior cruciate ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Peripheral meniscal tears often heal on their own because of the generous blood supply to this area.",
+    answer: true,
+    explanation: "Peripheral meniscal tears can often be repaired or may heal on their own because of the generous blood supply to this area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Arthroscopy of the knee joint treats the articular cavity as one continuous space.",
+    answer: false,
+    explanation: "During arthroscopy, the articular cavity of the knee must be treated essentially as two separate (medial and lateral) femorotibial articulations, owing to the synovial fold around the cruciate ligaments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Pott fracture-dislocation of the ankle occurs when the foot is forcibly everted.",
+    answer: true,
+    explanation: "A Pott fracture-dislocation of the ankle occurs when the foot is forcibly everted, pulling on the medial ligament and tearing off the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Hallux valgus is characterized by lateral deviation of the great toe.",
+    answer: true,
+    explanation: "Hallux valgus is a foot deformity characterized by lateral deviation of the great toe. The sesamoids under the head of the 1st metatarsal are usually displaced."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A bunion is a subcutaneous bursa that forms over the medial aspect of the 1st metatarsal head.",
+    answer: true,
+    explanation: "The pressure and friction against the shoe in hallux valgus cause a subcutaneous bursa to form. When tender and inflamed, the bursa is called a bunion."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Claw toes are characterized by hyperextension of the metatarsophalangeal joints and flexion of the interphalangeal joints.",
+    answer: true,
+    explanation: "Claw toes are characterized by hyperextension of the metatarsophalangeal joints and flexion of the distal interphalangeal joints, usually involving the lateral four toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Hammer toe primarily affects the great toe.",
+    answer: false,
+    explanation: "Hammer toe primarily affects the 2nd toe, not the great toe. It is characterized by dorsiflexion at the metatarsophalangeal joint and plantarflexion at the proximal interphalangeal joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Flexible flat feet are common in childhood but usually resolve with age.",
+    answer: true,
+    explanation: "Flexible flat feet are common in childhood but usually resolves with age as the ligaments grow and mature. The condition occasionally persists into adulthood."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Rigid flat feet are likely to result from dysfunction of the tibialis posterior.",
+    answer: false,
+    explanation: "Rigid flat feet with a history that goes back to childhood are likely to result from a bone deformity. Acquired flat feet are likely to be secondary to dysfunction of the tibialis posterior."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "In talipes equinovarus, the foot is inverted, the ankle is plantarflexed, and the forefoot is adducted.",
+    answer: true,
+    explanation: "Talipes equinovarus is characterized by the foot being inverted, the ankle plantarflexed, and the forefoot adducted (turned toward the midline)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Talipes equinovarus affects girls twice as often as boys.",
+    answer: false,
+    explanation: "Talipes equinovarus affects boys twice as often as girls, not girls twice as often as boys."
+  },
+
+  // SECTION 8: Fascial Compartments & Vascular Conditions (987-1004)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The fascial compartments of the lower limbs are generally closed spaces ending proximally and distally at the joints.",
+    answer: true,
+    explanation: "The fascial compartments of the lower limbs are generally closed spaces, ending proximally and distally at the joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Compartment syndrome requires immediate fasciotomy to relieve pressure.",
+    answer: true,
+    explanation: "A fasciotomy (incision of overlying fascia or a septum) may be performed to relieve the pressure in the compartment(s) concerned when compartment syndrome occurs."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Varicose veins result from incompetent valves in the perforating veins only.",
+    answer: false,
+    explanation: "Varicose veins result from incompetency of valves in the superficial veins and/or the perforating veins, allowing high pressure from the deep veins to be transmitted to the superficial veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Deep venous thrombosis can result in pulmonary embolism if a thrombus breaks free.",
+    answer: true,
+    explanation: "A large thrombus that breaks free from a lower limb vein may travel to a lung, forming a pulmonary thromboembolism."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The great saphenous vein is used for coronary bypass grafts because it is readily accessible and has sufficient length.",
+    answer: true,
+    explanation: "The great saphenous vein is used for coronary arterial bypasses because it is readily accessible, a sufficient length can be harvested, and its wall contains a higher percentage of muscular and elastic fibers."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "When the great saphenous vein is used for a bypass, it is inverted so that the valves do not obstruct blood flow.",
+    answer: true,
+    explanation: "When part of the great saphenous vein is removed for a bypass, the vein is inverted so that the valves do not obstruct blood flow in the venous graft."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "A saphenous cutdown is performed by making a skin incision posterior to the medial malleolus.",
+    answer: false,
+    explanation: "A saphenous cutdown is performed by making a skin incision anterior to the medial malleolus, where the great saphenous vein can always be located."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The saphenous nerve should be avoided during a saphenous cutdown because injury causes pain or numbness along the medial border of the foot.",
+    answer: true,
+    explanation: "The saphenous nerve accompanies the great saphenous vein anterior to the medial malleolus. Cutting this nerve may cause pain or numbness along the medial border of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The femoral nerve block is performed approximately 2 cm inferior to the inguinal ligament, lateral to the femoral artery.",
+    answer: true,
+    explanation: "The femoral nerve (L2-L4) can be blocked 2 cm inferior to the inguinal ligament, approximately a finger's breadth lateral to the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Enlarged inguinal lymph nodes should prompt examination of the entire field of drainage, including the trunk below the umbilicus and the perineum.",
+    answer: true,
+    explanation: "When inguinal lymph nodes are enlarged, their entire field of drainage—the trunk inferior to the umbilicus, including the perineum, as well as the entire lower limb—should be examined."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins.",
+    answer: true,
+    explanation: "The dorsal venous arch lies on the dorsum of the foot over the proximal parts of the metatarsal bones and receives four dorsal metatarsal veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The medial marginal vein drains the lateral side of the little toe.",
+    answer: false,
+    explanation: "The medial marginal vein drains the medial side of the great toe and joins the medial end of the dorsal venous arch to form the great saphenous vein. The lateral marginal vein drains the lateral side of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The anterior tibial lymph node, when present, collects lymph from the anterior compartment of the leg and passes it to the popliteal nodes.",
+    answer: true,
+    explanation: "One inconstant anterior tibial lymph node may lie along the upper part of the anterior tibial artery. When present, it collects lymph from the anterior compartment of the leg and passes it to the popliteal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The popliteal lymph nodes receive afferents from the territory of the great saphenous vein.",
+    answer: false,
+    explanation: "The popliteal lymph nodes receive afferents from the territory of the small saphenous vein, not the great saphenous vein. The great saphenous territory drains to the superficial inguinal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The lymphatic vessels accompanying the great saphenous vein drain into the vertical group of superficial inguinal lymph nodes.",
+    answer: true,
+    explanation: "The lymphatic vessels accompanying the great saphenous vein end in the vertical group of superficial inguinal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The lymphatic vessels accompanying the small saphenous vein enter the deep inguinal lymph nodes directly.",
+    answer: false,
+    explanation: "The lymphatic vessels accompanying the small saphenous vein enter the popliteal lymph nodes, not the deep inguinal lymph nodes directly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "The deep lymphatic vessels from the foot follow the main blood vessels and drain into the popliteal lymph nodes.",
+    answer: true,
+    explanation: "The deep lymphatic vessels from the foot follow the main blood vessels: fibular, anterior and posterior tibial, popliteal, and femoral veins, draining into the popliteal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "Lymph from the deep tissues of the gluteal region follows the gluteal vessels to the superior and inferior gluteal lymph nodes.",
+    answer: true,
+    explanation: "Lymph from the deep tissues of the buttocks follows the gluteal vessels to the superior and inferior gluteal lymph nodes, and from them to the internal, external, and common iliac lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Fascial Compartments & Vascular",
+    type: "truefalse",
+    question: "All the superficial inguinal nodes send efferent lymphatic vessels to the deep inguinal lymph nodes.",
+    answer: true,
+    explanation: "All the superficial inguinal nodes send efferent lymphatic vessels to the deep inguinal lymph nodes. A few may pass directly to the external iliac nodes."
+  },
+
+  // SECTION 9: Dermatomes & Myotomes (1006-1012)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The dermatomes of the lower limb are distributed in a random, non-sequential pattern.",
+    answer: false,
+    explanation: "The dermatomes of the lower limb are distributed in an orderly numerical sequence. Along the preaxial border from above downwards, the dermatomes are T12, L1-4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The axial line is a line along which certain dermatomes overlap maximally.",
+    answer: false,
+    explanation: "The axial line is defined as a line along which certain dermatomes are buried (missing) so that distant dermatomes adjoin each other. Overlapping is minimal across the axial line."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "There are two axial lines in the lower limb: one ventral and one dorsal.",
+    answer: true,
+    explanation: "There are two axial lines, one ventral and one dorsal, both of which extend largely on the back of the limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for hip flexors, adductors, and medial rotators is L1, 2, 3.",
+    answer: true,
+    explanation: "Hip flexors, adductors, and medial rotators are supplied by L1, 2, 3, while extensors, abductors, and lateral rotators are supplied by L5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for knee extensors is L5, S1.",
+    answer: false,
+    explanation: "Knee extensors (quadriceps) are supplied by L3, 4. Knee flexors are supplied by L5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for ankle dorsiflexors is L4, 5, while plantar flexors are S1, 2.",
+    answer: true,
+    explanation: "Ankle dorsiflexors are supplied by L4, 5, while plantar flexors are supplied by S1, 2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Dermatomes & Myotomes",
+    type: "truefalse",
+    question: "The myotome for foot invertors is S1, 2, and evertors is L5, S1.",
+    answer: false,
+    explanation: "Foot invertors are supplied by L4, 5, and evertors are supplied by L5, S1."
+  },
+
+  // SECTION 10: Sympathetic Innervation (1013-1019)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The sympathetic innervation of the lower limb is derived from T10 to L2 segments of the spinal cord.",
+    answer: true,
+    explanation: "Sympathetic innervation of the lower limb is derived from the lower three thoracic and upper two lumbar (T10 to L2) segments of the spinal cord."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The preganglionic sympathetic fibres relay in the lumbar and upper two or three sacral ganglia.",
+    answer: true,
+    explanation: "The preganglionic fibres pass down the sympathetic chain to relay in the lumbar and upper two or three sacral ganglia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Postganglionic sympathetic fibres to the femoral artery travel through the femoral and obturator nerves.",
+    answer: true,
+    explanation: "Postganglionic sympathetic fibres emerge from the lumbar sympathetic ganglia and reach the lumbar nerves, then pass into the femoral nerve to supply the femoral artery and its branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Postganglionic sympathetic fibres to the popliteal artery travel through the common peroneal nerve.",
+    answer: false,
+    explanation: "Postganglionic sympathetic fibres emerge from the upper two or three sacral ganglia and travel through the tibial nerve to supply the popliteal artery and its branches."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The first lumbar ganglion is preserved during lumbar sympathectomy because it controls the proximal urethral sphincter mechanism.",
+    answer: true,
+    explanation: "The first lumbar ganglion is preserved because it controls the proximal urethral sphincter mechanism. Its removal is followed by dry coitus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "Bilateral lumbar sympathectomy is done in patients with Buerger's disease.",
+    answer: true,
+    explanation: "Bilateral lumbar sympathectomy is done in patients with Buerger's disease to denervate the arteries and improve collateral circulation."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sympathetic Innervation",
+    type: "truefalse",
+    question: "The sympathetic nerves to the skin are vasomotor, sudomotor, and pilomotor.",
+    answer: true,
+    explanation: "Sympathetic nerves are vasomotor (control blood vessels), sudomotor (control sweat glands), and pilomotor (control hair erection)."
+  },
+
+  // SECTION 11: Comparative Anatomy (1020-1040)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The lower limb bud rotates laterally through 90° during development.",
+    answer: false,
+    explanation: "The lower limb bud rotates medially through 90°, so that the great toe and tibia are carried medially, and the little toe and fibula laterally."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The upper limb bud rotates medially through 90° during development.",
+    answer: false,
+    explanation: "The upper limb bud rotates laterally so that the thumb points laterally. The lower limb bud rotates medially."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The sciatic nerve supplies the flexor aspect of the lower limb, corresponding to the median and ulnar nerves in the upper limb.",
+    answer: true,
+    explanation: "The sciatic nerve and its terminal branches supply the flexor aspect of the lower limb, while the femoral nerve supplies the extensor aspect, similar to how the median/ulnar and radial nerves supply the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The deep peroneal nerve corresponds to the posterior interosseous nerve of the forearm.",
+    answer: true,
+    explanation: "The deep peroneal nerve corresponds to the posterior interosseous nerve of the forearm, both supplying the extensor muscles of their respective compartments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The superficial peroneal nerve corresponds to the superficial radial nerve in the upper limb.",
+    answer: true,
+    explanation: "The superficial peroneal nerve, which supplies the peroneal muscles and becomes cutaneous, corresponds to the superficial radial nerve in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The medial plantar nerve corresponds to the ulnar nerve of the hand.",
+    answer: false,
+    explanation: "The medial plantar nerve corresponds to the median nerve of the hand in its distribution. The lateral plantar nerve corresponds to the ulnar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The tibialis anterior corresponds to the extensor carpi radialis in the upper limb.",
+    answer: false,
+    explanation: "The tibialis anterior corresponds to the extensor pollicis longus and extensor digitorum longus, which extend the digits and dorsiflex the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The soleus corresponds to the flexor digitorum superficialis of the forearm.",
+    answer: true,
+    explanation: "The soleus is homologous with the flexor digitorum superficialis of the front of the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum brevis in the foot corresponds to the flexor digitorum superficialis in the hand.",
+    answer: true,
+    explanation: "The flexor digitorum brevis in the foot corresponds to the flexor digitorum superficialis in the hand, both flexing the proximal interphalangeal joints."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The plantar interossei of the foot correspond to the dorsal interossei of the hand.",
+    answer: false,
+    explanation: "The plantar interossei of the foot correspond to the palmar interossei of the hand. The dorsal interossei of the foot correspond to the dorsal interossei of the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The axis of adduction and abduction in the foot passes through the 2nd toe.",
+    answer: true,
+    explanation: "The axis of movement of adduction and abduction in the foot passes through the 2nd digit. In the hand, it passes through the 3rd digit."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The 2nd toe has two dorsal interossei muscles.",
+    answer: true,
+    explanation: "Since the axis of adduction and abduction passes through the 2nd digit, the 2nd toe possesses two dorsal interossei muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The extensor digitorum brevis of the foot corresponds to the extensor digitorum of the hand.",
+    answer: false,
+    explanation: "The extensor digitorum brevis of the foot is a small muscle on the dorsum of the foot. There is no direct corresponding muscle on the dorsum of the hand, which has no intrinsic muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The flexor digitorum accessorius in the foot has no corresponding muscle in the hand.",
+    answer: true,
+    explanation: "The flexor digitorum accessorius is a distinct muscle in the foot to straighten the action of the flexor digitorum longus tendons. There is no corresponding muscle in the hand."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The superficial palmar arch in the hand corresponds to the superficial plantar arch in the foot.",
+    answer: false,
+    explanation: "There is no superficial plantar arch in the foot. The foot has only one arch, the deep plantar arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The plantar arch of the foot is formed mainly by the radial artery.",
+    answer: false,
+    explanation: "The plantar arch of the foot is formed mainly by the lateral plantar artery and is completed medially by the dorsalis pedis artery. The superficial palmar arch in the hand is formed mainly by the ulnar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The cephalic vein of the upper limb corresponds to the great saphenous vein of the lower limb.",
+    answer: true,
+    explanation: "The cephalic vein lies along the preaxial border of the upper limb, corresponding to the great saphenous vein which lies along the preaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The basilic vein of the upper limb corresponds to the small saphenous vein of the lower limb.",
+    answer: true,
+    explanation: "The basilic vein lies along the postaxial border of the upper limb, corresponding to the small saphenous vein which lies along the postaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The first carpometacarpal joint of the hand, a saddle joint, has no corresponding joint in the foot.",
+    answer: true,
+    explanation: "The first carpometacarpal joint of the hand is a unique saddle joint permitting opposition. There is no corresponding joint in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "The foot has two sesamoid bones associated with the head of the 1st metatarsal.",
+    answer: true,
+    explanation: "The common sesamoids are found on the plantar surface of the head of the first metatarsal bone, protecting the flexor hallucis longus tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Comparative Anatomy",
+    type: "truefalse",
+    question: "Accessory bones of the foot should always be distinguished from fractures on radiographs.",
+    answer: true,
+    explanation: "Accessory bones, such as os trigonum (lateral tubercle of talus) and os vesalianum (tuberosity of fifth metatarsal), should be distinguished from fractures on radiographs."
+  },
+
+  // SECTION 12: Surface Anatomy & Landmarks (1041-1055)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "Ward's triangle is a dense wedge of cancellous bone in the head of the femur representing the epiphyseal scar.",
+    answer: true,
+    explanation: "In the head of the femur, a dense wedge or triangle of cancellous bone is known as Ward's triangle. It represents the epiphyseal scar."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The calcar femorale is a dense plate of compact bone forming a buttress to strengthen the concavity of the neck-shaft angle.",
+    answer: true,
+    explanation: "The calcar femorale is a dense plate of compact bone forming a buttress to strengthen the concavity of the neck-shaft angle in front of the lesser trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The cervical torus is a thickened band of compact bone on the lower part of the neck of the femur.",
+    answer: false,
+    explanation: "The cervical torus is a thickened band or ridge of compact bone on the upper part of the neck between the head and the greater trochanter, not the lower part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The neck-shaft angle of the femur is approximately 125° in adults.",
+    answer: true,
+    explanation: "The neck-shaft angle is about 125° in adults, being more in children (140°) and less in females."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The fabella is a sesamoid bone in the medial head of the gastrocnemius.",
+    answer: false,
+    explanation: "The fabella is a small, rounded sesamoid bone in the lateral head of the gastrocnemius, not the medial head."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "Bipartite patella is due to failure of the ossification centres to fuse.",
+    answer: true,
+    explanation: "Bilateral separation of the superolateral angles of the patellae is known as bipartite patella, due to failure of the ossification centres to fuse."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tibial tuberosity is a bony prominence 2.5 cm distal to the knee joint line.",
+    answer: true,
+    explanation: "The tibial tuberosity is a bony prominence on the front of the upper part of tibia, 2.5 cm distal to the knee joint line."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The head of the fibula serves as a guide to the common peroneal nerve which winds around the anterolateral aspect of the neck of fibula.",
+    answer: false,
+    explanation: "The head of the fibula serves as a guide to the common peroneal nerve which winds around the posterolateral aspect of the neck of fibula, not the anterolateral aspect."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tuberosity of the base of the fifth metatarsal bone is the most prominent landmark on the lateral border of the foot.",
+    answer: true,
+    explanation: "The tuberosity of the base of the fifth metatarsal bone is the most prominent landmark on the lateral border of the foot, lying midway between the point of the heel and the root of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The sustentaculum tali can be felt about a thumb-breadth below the lateral malleolus.",
+    answer: false,
+    explanation: "The sustentaculum tali can be felt about a thumb-breadth below the medial malleolus, not the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tuberosity of the navicular bone can be felt 2.5 to 3.75 cm anteroinferior to the medial malleolus.",
+    answer: true,
+    explanation: "The tuberosity of the navicular bone is a low bony prominence felt 2.5 to 3.75 cm anteroinferior to the medial malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The head of the talus lies below the line joining the sustentaculum tali and the tuberosity of the navicular bone.",
+    answer: false,
+    explanation: "The head of the talus lies above the line joining the sustentaculum tali and tuberosity of the navicular bone, not below."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The tendon of the tibialis anterior becomes prominent on active inversion of the foot.",
+    answer: true,
+    explanation: "The tendon of the tibialis anterior becomes prominent on active inversion of the foot, passing downwards and medially across the anterior surface of the ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The extensor digitorum brevis produces an elevation on the medial part of the dorsum of the foot when the toes are dorsiflexed.",
+    answer: false,
+    explanation: "The extensor digitorum brevis produces an elevation on the lateral part of the dorsum of the foot, not the medial part, when the toes are dorsiflexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Surface Anatomy",
+    type: "truefalse",
+    question: "The first metatarsophalangeal joint lies a little in front of the centre of the ball of the great toe.",
+    answer: true,
+    explanation: "The first metatarsophalangeal joint lies a little in front of the centre of the ball of the great toe. The other metatarsophalangeal joints are placed about 2.5 cm behind the webs of the toes."
+  },
+
+  // SECTION 13: Nerves & Arteries of Foot (1056-1099)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins.",
+    answer: true,
+    explanation: "The dorsal venous arch receives four dorsal metatarsal veins, each formed by the union of two dorsal digital veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The infrapatellar branch of the saphenous nerve supplies the skin over the ligamentum patellae.",
+    answer: true,
+    explanation: "The infrapatellar branch of the saphenous nerve pierces the sartorius and the deep fascia on the medial side of the knee, curves downwards and forwards, and supplies the skin over the ligamentum patellae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the distal phalanges and nail beds of the toes.",
+    answer: false,
+    explanation: "The superficial peroneal nerve does not supply the distal phalanges including nail beds. These are supplied by the medial and lateral plantar nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep peroneal nerve supplies the skin adjacent to the cleft between the first and second toes.",
+    answer: true,
+    explanation: "The deep peroneal nerve terminates by supplying the skin adjoining the cleft between the first and second toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral tarsal artery arises from the dorsalis pedis artery over the navicular bone.",
+    answer: true,
+    explanation: "The lateral tarsal artery is larger than the medial and arises over the navicular bone from the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery of the foot arises opposite the lateral cuneiform bone.",
+    answer: false,
+    explanation: "The arcuate artery arises from the dorsalis pedis artery opposite the medial cuneiform bone, not the lateral cuneiform."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The first dorsal metatarsal artery gives a branch to the medial side of the big toe and divides into dorsal digital branches for adjacent sides of the first and second toes.",
+    answer: true,
+    explanation: "The first dorsal metatarsal artery gives a branch to the medial side of the big toe and divides into dorsal digital branches for adjacent sides of the first and second toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The saphenous nerve may be subjected to entrapment neuropathy as it leaves the adductor canal.",
+    answer: true,
+    explanation: "The saphenous nerve may be subjected to entrapment neuropathy as it leaves the adductor canal, leading to pain in the area of its supply."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The anterior tibial compartment syndrome is also known as fresher's syndrome.",
+    answer: true,
+    explanation: "Anterior tibial compartment syndrome/fresher's syndrome occurs when the muscles of the anterior compartment of the leg get pain because of too much sudden exercise."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep peroneal nerve lies medial to the anterior tibial artery in its upper and lower thirds.",
+    answer: false,
+    explanation: "The deep peroneal nerve is lateral to the anterior tibial artery in its upper and lower thirds, and anterior to the artery in its middle third."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The peroneus tertius is a separated part of the extensor digitorum longus.",
+    answer: true,
+    explanation: "The peroneus tertius is a separated part of the extensor digitorum longus and may be regarded as its fifth tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The peroneus tertius is always present in the human foot.",
+    answer: false,
+    explanation: "The peroneus tertius is a separated part of the extensor digitorum longus and may be absent in some individuals."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superior peroneal retinaculum holds the peroneal tendons in place against the back of the lateral malleolus.",
+    answer: true,
+    explanation: "The superior peroneal retinaculum is a thickened band of deep fascia situated just behind the lateral malleolus, holding the peroneal tendons in place."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "Under the superior peroneal retinaculum, the peroneus longus and brevis tendons are in separate compartments.",
+    answer: false,
+    explanation: "Under the superior peroneal retinaculum, the two tendons are lodged in a single compartment and are surrounded by a common synovial sheath."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "Under the inferior peroneal retinaculum, each peroneal tendon lies in a separate compartment.",
+    answer: true,
+    explanation: "Under the inferior peroneal retinaculum, each tendon lies in a separate compartment. The peroneus brevis lies in the superior compartment and the peroneus longus in the inferior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "If the superior peroneal retinaculum is torn, the peroneal tendons can dislocate to the front of the lateral malleolus.",
+    answer: true,
+    explanation: "If the superior peroneal retinaculum is torn, the tendons can get dislocated to the front of the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior is the most lateral muscle of the deep group of the posterior compartment.",
+    answer: false,
+    explanation: "The tibialis posterior is the deepest (most anterior) muscle in the posterior compartment and lies between the FDL and the FHL, not the most lateral."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior is primarily an invertor of the foot when the foot is off the ground.",
+    answer: true,
+    explanation: "The tibialis posterior is traditionally described as an invertor of the foot. When the foot is off the ground, it can act synergistically with the tibialis anterior to invert the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The primary role of the tibialis posterior is to support or maintain the medial longitudinal arch during weight bearing.",
+    answer: true,
+    explanation: "The primary role of the tibialis posterior is to support or maintain the medial longitudinal arch during weight bearing, contracting statically throughout the stance phase of gait."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The popliteus muscle forms the inferior part of the floor of the popliteal fossa.",
+    answer: true,
+    explanation: "The popliteus is a thin, triangular muscle that forms the inferior part of the floor of the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tendon of the popliteus is entirely extracapsular.",
+    answer: false,
+    explanation: "The proximal tendinous attachment of the popliteus to the lateral femoral condyle occurs between the fibrous layer and the synovial membrane of the joint capsule, making it intra-articular for part of its course."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The popliteus assists in pulling the lateral meniscus posteriorly during flexion at the knee.",
+    answer: true,
+    explanation: "During flexion at the knee, the popliteus assists in pulling the lateral meniscus of the knee joint posteriorly."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The nerve to the popliteus supplies the tibialis posterior, the superior tibiofibular joint, the tibia, the interosseous membrane, and the inferior tibiofibular joint.",
+    answer: true,
+    explanation: "The nerve to the popliteus crosses the popliteal artery and, in addition to the popliteus, also supplies the tibialis posterior, the superior tibiofibular joint, the tibia, the interosseous membrane, and the inferior tibiofibular joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor hallucis longus is a powerful flexor of the joints of the great toe and provides the final thrust during the preswing phase of the gait cycle.",
+    answer: true,
+    explanation: "The flexor hallucis longus is a powerful flexor of all of the joints of the great toe, delivering a final thrust via flexion of the great toe for the preswing phase (toe off) of the gait cycle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor hallucis longus tendon runs between two sesamoid bones in the tendon of the flexor hallucis brevis.",
+    answer: true,
+    explanation: "The flexor hallucis longus tendon runs between two sesamoid bones in the tendons of the flexor hallucis brevis, protecting it from the pressure of the head of the 1st metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The flexor digitorum longus is larger than the flexor hallucis longus.",
+    answer: false,
+    explanation: "The flexor digitorum longus is smaller than the flexor hallucis longus, even though it moves four digits."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The quadratus plantae muscle realigns the direction of pull of the flexor digitorum longus tendons.",
+    answer: true,
+    explanation: "The quadratus plantae (flexor digitorum accessorius) realigns the direction of pull of the flexor digitorum longus tendons."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The tibialis posterior has attachments to the navicular and other tarsal and metatarsal bones.",
+    answer: true,
+    explanation: "The tibialis posterior attaches primarily to the navicular bone but has attachments to other tarsal and metatarsal bones as well."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The superficial peroneal nerve supplies the skin of the entire dorsum of the foot.",
+    answer: false,
+    explanation: "The superficial peroneal nerve supplies most of the dorsum of the foot, with the exception of the lateral border (sural nerve), medial border (saphenous nerve), the web between the 1st and 2nd toes (deep peroneal nerve), and the distal phalanges including nail beds (plantar nerves)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The saphenous nerve supplies the medial side of the foot as far anteriorly as the head of the 1st metatarsal.",
+    answer: true,
+    explanation: "The saphenous nerve passes anterior to the medial malleolus and continues to supply skin along the medial side of the foot as far anteriorly as the head of the 1st metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep fibular nerve supplies the extensor digitorum brevis muscle on the dorsum of the foot.",
+    answer: true,
+    explanation: "The deep fibular nerve supplies the extensor digitorum brevis muscle on the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep fibular nerve emerges as a cutaneous nerve proximal to the ankle, supplying a large area of the dorsum of the foot.",
+    answer: false,
+    explanation: "The deep fibular nerve emerges as a cutaneous nerve so far distal in the foot that only a small area of skin remains available for innervation: the web of skin between the 1st and 2nd toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies more skin area but fewer muscles than the lateral plantar nerve.",
+    answer: true,
+    explanation: "The medial plantar nerve supplies more skin area (medial three and a half toes) but fewer muscles (four muscles) compared to the lateral plantar nerve which supplies less skin area but more muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral plantar nerve supplies all muscles of the sole not supplied by the medial plantar nerve.",
+    answer: true,
+    explanation: "The superficial and deep branches of the lateral plantar nerve supply all muscles of the sole not supplied by the medial plantar nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsalis pedis artery passes to the first interosseous space where it divides into the 1st dorsal metatarsal artery and a deep plantar artery.",
+    answer: true,
+    explanation: "The dorsalis pedis artery passes to the first interosseous space where it divides into the 1st dorsal metatarsal artery and a deep plantar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep plantar artery joins the medial plantar artery to form the plantar arch.",
+    answer: false,
+    explanation: "The deep plantar artery joins the lateral plantar artery, not the medial plantar artery, to form the deep plantar arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral tarsal artery supplies the extensor digitorum brevis muscle.",
+    answer: true,
+    explanation: "The lateral tarsal artery, a branch of the dorsalis pedis artery, runs laterally beneath the extensor digitorum brevis to supply this muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery arises from the dorsalis pedis artery and runs laterally across the bases of the metatarsals.",
+    answer: true,
+    explanation: "The arcuate artery runs laterally across the bases of the lateral four metatarsals, deep to the extensor tendons, to reach the lateral aspect of the forefoot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The arcuate artery gives rise to the 1st, 2nd, 3rd, and 4th dorsal metatarsal arteries.",
+    answer: false,
+    explanation: "The arcuate artery gives rise to the 2nd, 3rd, and 4th dorsal metatarsal arteries. The 1st dorsal metatarsal artery arises directly from the dorsalis pedis artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The dorsal metatarsal arteries generally end proximal to the distal interphalangeal joint and are replaced by dorsal branches of the plantar digital arteries.",
+    answer: true,
+    explanation: "The dorsal metatarsal arteries generally end proximal to the distal interphalangeal joint and are replaced by or receive replenishment from dorsal branches of the plantar digital arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The medial plantar artery is the larger terminal branch of the posterior tibial artery.",
+    answer: false,
+    explanation: "The medial plantar artery is the smaller terminal branch of the posterior tibial artery. The lateral plantar artery is the larger branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The lateral plantar artery runs laterally and then arches medially to form the deep plantar arch.",
+    answer: true,
+    explanation: "The lateral plantar artery runs laterally and anteriorly, then arches medially across the foot to form the deep plantar arch, completed by union with the deep plantar artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The deep plantar arch gives rise to four plantar metatarsal arteries and three perforating branches.",
+    answer: true,
+    explanation: "As it crosses the foot, the deep plantar arch gives rise to four plantar metatarsal arteries, three perforating branches, and many branches to the skin, fascia, and muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Foot Nerves & Arteries",
+    type: "truefalse",
+    question: "The plantar digital arteries typically provide most of the blood reaching the distal toes, including the nail beds.",
+    answer: true,
+    explanation: "The plantar digital arteries typically provide most of the blood reaching the distal toes, including the nail bed, via perforating and dorsal branches."
+  },
+
+  // SECTION 14: Veins & Lymphatics (1100-1107)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The deep veins of the foot take the form of single veins accompanying all arteries.",
+    answer: false,
+    explanation: "The deep veins take the form of interanastomosing paired veins (venae comitantes) accompanying all arteries internal to the deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Perforating veins begin the one-way shunting of blood from superficial to deep veins proximal to the ankle joint.",
+    answer: true,
+    explanation: "Perforating veins begin the one-way shunting of blood from superficial to deep veins, a pattern essential to operation of the musculovenous pump, proximal to the ankle joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The dorsal venous arch and network are located deep to the deep fascia of the foot.",
+    answer: false,
+    explanation: "The dorsal venous arch and network are located in the subcutaneous tissue, superficial to the deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The medial marginal vein becomes the great saphenous vein.",
+    answer: true,
+    explanation: "The medial marginal vein converges with the medial part of the dorsal venous arch and network to become the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "The lateral marginal vein becomes the small saphenous vein.",
+    answer: true,
+    explanation: "The lateral marginal vein converges with the lateral part of the dorsal venous arch and network to become the small saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Superficial lymphatic vessels from the medial foot drain directly to the popliteal lymph nodes.",
+    answer: false,
+    explanation: "Superficial lymphatic vessels from the medial foot accompany the great saphenous vein to the vertical group of superficial inguinal lymph nodes, not the popliteal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Superficial lymphatic vessels from the lateral foot accompany the small saphenous vein to the popliteal lymph nodes.",
+    answer: true,
+    explanation: "Superficial lymphatic vessels from the lateral foot drain the lateral side of the dorsum and sole and mostly pass posterior to the lateral malleolus to accompany the small saphenous vein to the popliteal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins & Lymphatics",
+    type: "truefalse",
+    question: "Deep lymphatic vessels from the foot follow the main blood vessels and drain into the popliteal lymph nodes.",
+    answer: true,
+    explanation: "The deep lymphatic vessels from the foot follow the main blood vessels and also drain into the popliteal lymph nodes."
+  },
+
+  // SECTION 15: Clinical Conditions (1108-1119)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Plantar fasciitis is most commonly caused by overuse mechanisms such as running and high-impact aerobics.",
+    answer: true,
+    explanation: "Plantar fasciitis is often caused by an overuse mechanism, resulting from running and high-impact aerobics, especially when inappropriate footwear is worn."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A calcaneal spur is an abnormal bony process that protrudes from the medial tubercle of the calcaneus.",
+    answer: true,
+    explanation: "If a calcaneal spur (abnormal bony process) protrudes from the medial tubercle, plantar fasciitis is likely to cause pain on the medial side of the foot when walking."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A contusion of the extensor digitorum brevis muscle is often mistaken for a severely sprained ankle.",
+    answer: true,
+    explanation: "A contusion of the extensor digitorum brevis muscle produces edema anteromedial to the lateral malleolus, often mistaken for a severely sprained ankle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Pieces of the sural nerve are often used for nerve grafts.",
+    answer: true,
+    explanation: "Pieces of the sural nerve are often used for nerve grafts in procedures such as repairing nerve defects resulting from wounds."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The plantar reflex is a myotatic (deep tendon) reflex routinely tested during neurologic examinations.",
+    answer: true,
+    explanation: "The plantar reflex is a myotatic (deep tendon) reflex that is routinely tested during neurologic examinations."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "A Babinski sign (extension of the great toe with fanning of the lateral toes) is always a sign of brain injury or cerebral disease.",
+    answer: false,
+    explanation: "A Babinski sign is an abnormal response indicating brain injury or cerebral disease, except in infants. Because the corticospinal tracts are not fully developed in newborns, a Babinski sign is usually elicited and may be present until children are 4 years of age."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Medial plantar nerve entrapment is also called 'jogger's foot' because of its frequency in runners.",
+    answer: true,
+    explanation: "Medial plantar nerve compression may occur during repetitive eversion of the foot (e.g., during gymnastics and running). Because of its frequency in runners, these symptoms have been called 'jogger's foot.'"
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The dorsalis pedis pulse is congenitally absent in approximately 14% of subjects.",
+    answer: true,
+    explanation: "The dorsalis pedis pulse is congenitally absent in about 14% of subjects. The variation is usually bilateral and the artery is replaced by an extended perforating fibular artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "The five P signs of acute arterial occlusion are pain, pallor, paresthesia, paralysis, and pulselessness.",
+    answer: true,
+    explanation: "The five P signs of acute arterial occlusion are pain, pallor, paresthesia, paralysis, and pulselessness."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Puncture wounds of the sole of the foot involving the deep plantar arch are easily controlled with pressure.",
+    answer: false,
+    explanation: "Puncture wounds of the sole of the foot involving the deep plantar arch usually result in severe bleeding from both ends of the cut artery because of the abundant anastomoses. Ligation of the deep arch is difficult."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Infections on the lateral side of the foot initially produce enlargement of the inguinal lymph nodes.",
+    answer: false,
+    explanation: "Infections on the lateral side of the foot initially produce enlargement of popliteal lymph nodes (popliteal lymphadenopathy); later, the inguinal lymph nodes may enlarge."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Clinical Conditions",
+    type: "truefalse",
+    question: "Inguinal lymphadenopathy without popliteal lymphadenopathy can result from infection of the medial side of the foot or leg.",
+    answer: true,
+    explanation: "Inguinal lymphadenopathy without popliteal lymphadenopathy can result from infection of the medial side of the foot, leg, or thigh."
+  },
+
+  // SECTION 16: Additional Topics (1120-1200)
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The intrinsic muscles of the plantar surface of the foot function throughout the stance phase of gait from heel strike to toe off.",
+    answer: true,
+    explanation: "The plantar intrinsic muscles function throughout the stance phase of gait, from heel strike to toe off, resisting forces that tend to spread the arches of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The extensor digitorum brevis muscle on the dorsum of the foot is innervated by the superficial fibular nerve.",
+    answer: false,
+    explanation: "The extensor digitorum brevis muscle on the dorsum of the foot is innervated by the deep fibular nerve, not the superficial fibular nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial plantar nerve supplies the plantar aspect of the medial three and half toes and adjacent sole.",
+    answer: true,
+    explanation: "The medial plantar nerve supplies the skin of the medial three and a half digits (including the dorsal skin and nail beds of their distal phalanges) and the skin of the sole proximal to them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The lateral plantar nerve supplies the plantar aspect of the lateral one and a half toes and adjacent sole.",
+    answer: true,
+    explanation: "The lateral plantar nerve supplies the skin of the lateral one and a half digits (including the dorsal skin and nail beds of their distal phalanges) and skin of the sole proximal to them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The dorsalis pedis artery and the plantar arteries have limited anastomoses in the foot.",
+    answer: false,
+    explanation: "Anastomoses between the dorsalis pedis and plantar arteries are abundant and important for the health of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The venous drainage of the foot primarily follows a deep route before draining superficially.",
+    answer: false,
+    explanation: "Venous drainage of the foot primarily follows a superficial route, draining to the dorsum of the foot and then medially via the great saphenous vein or laterally via the small saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Blood is shunted from superficial to deep veins by perforating veins to participate in the musculoskeletal pump.",
+    answer: true,
+    explanation: "Blood is shunted by perforating veins to the deep veins of the leg and thigh that participate in the musculoskeletal pump."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Lymph from the medial foot follows the great saphenous vein and drains directly to the superficial inguinal lymph nodes.",
+    answer: true,
+    explanation: "Lymph from the medial foot follows the great saphenous vein and drains directly to the vertical group of superficial inguinal lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Lymph from the lateral foot follows the small saphenous vein and drains initially to the deep inguinal lymph nodes.",
+    answer: false,
+    explanation: "Lymph from the lateral foot follows the small saphenous vein and drains initially to the popliteal lymph nodes, not directly to the deep inguinal nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The trochanteric bursa is the largest bursa in the gluteal region and is present at birth.",
+    answer: true,
+    explanation: "The trochanteric bursa is commonly the largest of the bursae formed in relation to bony prominences and is present at birth. Other bursae appear to form as a result of postnatal movement."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteofemoral bursa separates the iliotibial tract from the superior part of the proximal attachment of the vastus medialis.",
+    answer: false,
+    explanation: "The gluteofemoral bursa separates the iliotibial tract from the superior part of the proximal attachment of the vastus lateralis, not the vastus medialis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The clunial nerves are vulnerable to injury when bone is taken from the ilium for grafting.",
+    answer: true,
+    explanation: "The superior, middle, and inferior clunial nerves supply the skin over the iliac crest and are vulnerable to injury when bone is taken from the ilium for grafting."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior cutaneous nerve of the thigh supplies more skin than any other cutaneous nerve of the lower limb.",
+    answer: true,
+    explanation: "The posterior cutaneous nerve of the thigh supplies more skin than any other cutaneous nerve, including the perineum, inferior buttocks, posterior thigh, and proximal leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior cutaneous nerve of the thigh lies superficial to the deep fascia throughout its course.",
+    answer: false,
+    explanation: "Unlike most nerves bearing the name cutaneous, the main part of the posterior cutaneous nerve of the thigh lies deep to the deep fascia (fascia lata), with only its terminal branches penetrating the subcutaneous tissue."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The perforating arteries of the thigh are unusual in the limbs for their transverse, intercompartmental course.",
+    answer: true,
+    explanation: "The perforating arteries are large vessels, unusual in the limbs for their transverse, intercompartmental course, and surgeons operating in the posterior compartment must be careful to identify them."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The perforating arteries of the thigh, after supplying the posterior compartment, continue to supply the vastus lateralis in the anterior compartment.",
+    answer: true,
+    explanation: "After giving off their posterior compartment branches, the perforating arteries pierce the lateral intermuscular septum to enter the anterior compartment, where they supply the vastus lateralis muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A continuous anastomotic arterial chain extends from the gluteal to popliteal regions in the posterior thigh.",
+    answer: true,
+    explanation: "A continuous anastomotic arterial chain extends from the gluteal to popliteal regions, giving rise to additional branches to muscles and to the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal veins are tributaries of the internal iliac veins that drain blood from the gluteal region.",
+    answer: true,
+    explanation: "The gluteal veins are tributaries of the internal iliac veins that drain blood from the gluteal region. The superior and inferior gluteal veins accompany the corresponding arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal veins communicate with tributaries of the femoral vein, providing alternative routes for venous return.",
+    answer: true,
+    explanation: "The gluteal veins communicate with tributaries of the femoral vein, thereby providing alternative routes for the return of blood from the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The line joining the highest points of the iliac crests crosses the L1-L2 intervertebral disc.",
+    answer: false,
+    explanation: "The line joining the highest points of the iliac crests crosses the L4-L5 intervertebral disc, not the L1-L2 disc, and is a useful landmark for lumbar puncture."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior superior iliac spines are always located at the bottom of permanent skin dimples approximately 3.75 cm from the midline.",
+    answer: true,
+    explanation: "The posterior superior iliac spines (PSIS) can always be located at the bottom of the permanent skin dimples approximately 3.75 cm from the midline."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The line joining the posterior superior iliac spines passes through the S2 spinous process, indicating the level of the lowest limit of the dural sac.",
+    answer: true,
+    explanation: "A line joining the posterior superior iliac spine dimples passes through the S2 spinous process, indicating the level of the lowest limit of the dural sac."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gluteal fold disappears when the hip joint is extended.",
+    answer: false,
+    explanation: "The gluteal fold disappears when the hip joint is flexed, not when it is extended."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The ischial tuberosity is easy to palpate when the thigh is flexed because the gluteus maximus slips superiorly off the tuberosity.",
+    answer: true,
+    explanation: "When the thigh is flexed, the gluteus maximus slips superiorly off the tuberosity, making the ischial tuberosity subcutaneous and easy to palpate."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Nélaton line is a line drawn from the ASIS to the ischial tuberosity and normally passes over or near the top of the greater trochanter.",
+    answer: true,
+    explanation: "Nélaton line is a line drawn over the lateral hip region from the ASIS to the ischial tuberosity and normally passes over or near the top of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The surface marking of the superior border of the piriformis is indicated by a line joining the PSIS to the superior border of the greater trochanter.",
+    answer: true,
+    explanation: "The surface marking of the superior border of the piriformis is indicated by a line joining the skin dimple formed by the PSIS to the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve is represented by a line from a point midway between the greater trochanter and ischial tuberosity down the middle of the posterior thigh.",
+    answer: true,
+    explanation: "The sciatic nerve is represented by a line that extends from a point midway between the greater trochanter and ischial tuberosity down the middle of the posterior aspect of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The iliotibial tract is prominent and taut when the heel is lowered.",
+    answer: false,
+    explanation: "The iliotibial tract is prominent and taut when the heel is raised, and indistinct when the heel is lowered."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The biceps femoris tendon is on the medial side of the popliteal fossa.",
+    answer: false,
+    explanation: "The biceps femoris tendon is on the lateral side of the popliteal fossa. The semimembranosus and semitendinosus tendons are on the medial side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Trochanteric bursitis causes deep diffuse pain in the lateral thigh region.",
+    answer: true,
+    explanation: "Trochanteric bursitis causes deep diffuse pain in the lateral thigh region, with point tenderness over the great trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The pain from trochanteric bursitis is generally elicited by manually resisting abduction and lateral rotation of the thigh.",
+    answer: true,
+    explanation: "The pain from an inflamed trochanteric bursa is generally elicited by manually resisting abduction and lateral rotation of the thigh while the person is lying on the unaffected side."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Ischial bursitis may lead to pressure sores in debilitated people, particularly paraplegic persons with poor nursing care.",
+    answer: true,
+    explanation: "Because the ischial tuberosities bear the body's weight during sitting, these pressure points may lead to pressure sores in debilitated people."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Hamstring strains are twice as common as quadriceps strains.",
+    answer: true,
+    explanation: "Hamstring strains are twice as common as quadriceps strains in sports injuries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Avulsion of the ischial tuberosity may result from forcible flexion of the hip with the knee extended, as in kicking a football.",
+    answer: true,
+    explanation: "Avulsion of the ischial tuberosity at the proximal attachment of the biceps femoris and semitendinosus may result from forcible flexion of the hip with the knee extended."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Injury to the superior gluteal nerve results in a disabling gluteus medius limp.",
+    answer: true,
+    explanation: "Injury to the superior gluteal nerve results in a disabling gluteus medius limp, to compensate for weakened abduction of the thigh by the gluteus medius and minimus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Medial rotation of the thigh is severely impaired following superior gluteal nerve injury.",
+    answer: true,
+    explanation: "Medial rotation of the thigh is severely impaired following superior gluteal nerve injury because the gluteus medius and minimus are major medial rotators."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A person with superior gluteal nerve injury adopts a waddling gait to compensate for the dropped pelvis.",
+    answer: true,
+    explanation: "When the pelvis descends on the unsupported side, the individual leans away from the unsupported side, raising the pelvis to allow room for the foot, resulting in a characteristic waddling or gluteal gait."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A steppage gait is adopted to compensate for footdrop.",
+    answer: true,
+    explanation: "A high-stepping steppage gait involves extra flexion at the hip and knee to raise the foot high enough to keep the toes from hitting the ground, compensating for footdrop."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve can be blocked by injecting an anesthetic agent at the midpoint of the line joining the PSIS and the greater trochanter.",
+    answer: true,
+    explanation: "Sensation conveyed by the sciatic nerve can be blocked by the injection of an anesthetic agent a few centimeters inferior to the midpoint of the line joining the PSIS and the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Piriformis syndrome is more common in men than in women.",
+    answer: false,
+    explanation: "Women are more likely to develop piriformis syndrome, and approximately 50% of cases indicate trauma to the buttocks associated with hypertrophy and spasm of the piriformis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "In approximately 12% of people, the common fibular division of the sciatic nerve passes through the piriformis.",
+    answer: true,
+    explanation: "In approximately 12% of people, the common fibular division of the sciatic nerve passes through the piriformis, making it more susceptible to compression."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Complete section of the sciatic nerve makes the leg useless because extension of the hip and flexion of the leg are impaired.",
+    answer: true,
+    explanation: "Complete section of the sciatic nerve makes the leg useless because extension of the hip is impaired, as is flexion of the leg. All ankle and foot movements are also lost."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Recovery from a lesion of the sciatic nerve is usually rapid and complete.",
+    answer: false,
+    explanation: "Recovery from a lesion of the sciatic nerve is slow and usually incomplete."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial side of the buttock is the side of safety, while the lateral side is the side of danger for the sciatic nerve.",
+    answer: false,
+    explanation: "The buttocks have a side of safety (its lateral side) and a side of danger (its medial side). Wounds or surgery on the medial side may injure the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Intragluteal injections should be given in the superolateral quadrant of the buttocks.",
+    answer: true,
+    explanation: "Injections into the buttocks are safe only in the superolateral quadrant of the buttocks or superior to a line extending from the PSIS to the superior border of the greater trochanter."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The triangular area between the fingers placed on the ASIS and iliac crest is a safe site for intramuscular injection.",
+    answer: true,
+    explanation: "An IM injection can be made safely in the triangular area between the fingers (ASIS and iliac crest) because it is superior to the sciatic nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral nerve is the chief nerve of the anterior compartment of the thigh.",
+    answer: true,
+    explanation: "The femoral nerve is the chief nerve of the anterior compartment of the thigh, supplying the quadriceps femoris and sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The obturator nerve is the chief nerve of the medial compartment of the thigh.",
+    answer: true,
+    explanation: "The obturator nerve is the chief nerve of the medial compartment of the thigh, supplying the adductor muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The sciatic nerve is the chief nerve of the posterior compartment of the thigh.",
+    answer: true,
+    explanation: "The sciatic nerve is the chief nerve of the posterior compartment of the thigh, supplying the hamstring muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The tibial nerve is the chief nerve of the anterior compartment of the leg.",
+    answer: false,
+    explanation: "The deep peroneal nerve is the chief nerve of the anterior compartment of the leg. The tibial nerve is the chief nerve of the posterior compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The superficial peroneal nerve is the chief nerve of the lateral compartment of the leg.",
+    answer: true,
+    explanation: "The superficial peroneal nerve is the chief nerve of the lateral compartment of the leg, supplying the peroneus longus and brevis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The medial plantar and lateral plantar nerves are the chief nerves of the sole of the foot.",
+    answer: true,
+    explanation: "The medial plantar and lateral plantar nerves, terminal branches of the tibial nerve, are the chief nerves of the sole of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The anterior tibial artery is the chief artery of the anterior compartment of the leg.",
+    answer: true,
+    explanation: "The anterior tibial artery is the chief artery of the anterior compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The posterior tibial artery is the chief artery of the posterior compartment of the leg.",
+    answer: true,
+    explanation: "The posterior tibial artery is the chief artery of the posterior compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The peroneal artery is the chief artery of the lateral compartment of the leg.",
+    answer: false,
+    explanation: "The lateral compartment does not have an artery exclusively coursing through it. Perforating branches from the anterior tibial and peroneal arteries supply the lateral compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The profunda femoris artery is the chief artery of all three compartments of the thigh.",
+    answer: true,
+    explanation: "The profunda femoris artery is the chief artery of all three compartments of the thigh, supplying muscles in the anterior, medial, and posterior compartments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus is an opening in the adductor longus muscle.",
+    answer: false,
+    explanation: "The adductor hiatus is an opening between the aponeurotic distal attachment of the adductor part of the adductor magnus and the tendinous distal attachment of the hamstring part of the adductor magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus transmits the femoral artery and vein from the adductor canal to the popliteal fossa.",
+    answer: true,
+    explanation: "The adductor hiatus transmits the femoral artery and vein from the adductor canal in the thigh to the popliteal fossa posterior to the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The retro-inguinal space is divided into two compartments by the iliopectineal arch.",
+    answer: true,
+    explanation: "The retro-inguinal space is divided into two compartments (muscular and vascular) by a thickening of the iliopsoas fascia, the iliopectineal arch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The muscular compartment of the retro-inguinal space transmits the iliopsoas muscle and the femoral nerve.",
+    answer: true,
+    explanation: "Lateral to the iliopectineal arch is the muscular compartment of the retro-inguinal space, through which the iliopsoas muscle and femoral nerve pass."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The vascular compartment of the retro-inguinal space transmits the femoral vessels and the femoral sheath.",
+    answer: true,
+    explanation: "Medial to the iliopectineal arch, the vascular compartment of the retro-inguinal space allows passage of the major vascular structures (veins, artery, and lymphatics)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral sheath allows the femoral artery and vein to glide deep to the inguinal ligament during hip movements.",
+    answer: true,
+    explanation: "The femoral sheath allows the femoral artery and vein to glide deep to the inguinal ligament during movements of the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral canal allows the femoral artery to expand when intra-abdominal pressure increases.",
+    answer: false,
+    explanation: "The femoral canal allows the femoral vein, not the femoral artery, to expand when venous return from the lower limb is increased or when increased intra-abdominal pressure causes temporary stasis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral septum is pierced by lymphatic vessels connecting the inguinal and external iliac lymph nodes.",
+    answer: true,
+    explanation: "The femoral septum is pierced by lymphatic vessels connecting the inguinal and external iliac lymph nodes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral artery can be compressed just inferior to the midpoint of the inguinal ligament against the pectineus muscle.",
+    answer: false,
+    explanation: "The femoral artery can be compressed just inferior to the midpoint of the inguinal ligament against the superior pubic ramus, psoas major, and femoral head, not the pectineus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The profunda femoris vein joins the femoral vein approximately 5 cm inferior to the termination of the great saphenous vein.",
+    answer: true,
+    explanation: "The profunda femoris vein (deep vein of thigh) enters the femoral vein approximately 8 cm inferior to the inguinal ligament and approximately 5 cm inferior to the termination of the great saphenous vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The subsartorial fascia spans between the adductor longus and the vastus medialis, forming the anterior wall of the adductor canal.",
+    answer: true,
+    explanation: "A tough subsartorial or vastoadductor fascia spans between the adductor longus and the vastus medialis muscles, forming the anterior wall of the adductor canal deep to the sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The adductor hiatus is located at the same level as the superior margin of the subsartorial fascia.",
+    answer: false,
+    explanation: "The adductor hiatus is located at a more inferior level than the superior margin of the subsartorial fascia, just proximal to the medial supracondylar ridge."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The term 'superficial femoral artery' is a safe clinical term with no risk of misunderstanding.",
+    answer: false,
+    explanation: "The adjective 'superficial' should not be used for the femoral artery because it implies that it is located in the subcutaneous tissue, which is misleading and potentially dangerous as it is actually deeply located."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "A saphenous varix is a localized dilation of the terminal part of the great saphenous vein.",
+    answer: true,
+    explanation: "A saphenous varix (L. dilated vein) is a localized dilation of the terminal part of the great saphenous vein that may cause edema in the femoral triangle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The femoral vein has no tributaries at the level of the inguinal ligament, except for the great saphenous vein.",
+    answer: true,
+    explanation: "The femoral vein has no tributaries at this level, except for the great saphenous vein that joins it approximately 3 cm inferior to the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Femoral venous puncture can be used for right cardiac angiography.",
+    answer: true,
+    explanation: "A catheter can be inserted into the femoral vein and passed to the heart for right cardiac angiography and for securing blood samples and pressure recordings."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "Strangulation of a femoral hernia interferes with the blood supply to the herniated intestine.",
+    answer: true,
+    explanation: "Strangulation of a femoral hernia may occur because of the sharp, rigid boundaries of the femoral ring, interfering with the blood supply and resulting in necrosis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "An abnormal obturator artery may run close to or across the femoral ring, creating a risk during hernia surgery.",
+    answer: true,
+    explanation: "An enlarged pubic branch of the inferior epigastric artery may run close to or across the femoral ring and could be involved in a strangulated femoral hernia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The gastrocnemius is capable of producing plantarflexion when the knee is fully flexed.",
+    answer: false,
+    explanation: "The gastrocnemius is incapable of producing plantarflexion when the knee is fully flexed because it crosses the knee joint and becomes slack."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The soleus is composed largely of red, fatigue-resistant, slow-twitch muscle fibers.",
+    answer: true,
+    explanation: "Composed largely of red, fatigue-resistant, slow-twitch (type 1) muscle fibers, the soleus is a strong but relatively slow plantarflexor capable of sustained contraction."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris is a vestigial muscle that is present in all individuals.",
+    answer: false,
+    explanation: "The plantaris is a vestigial muscle absent in 5-10% of people and highly variable in size and form when present."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris has been considered to be an organ of proprioception for the larger plantarflexors.",
+    answer: true,
+    explanation: "The plantaris has been considered to be an organ of proprioception for the larger plantarflexors, as it has a high density of muscle spindles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The plantaris tendon can be removed for grafting without causing disability.",
+    answer: true,
+    explanation: "Because of its minor role, the plantaris tendon can be removed for grafting (e.g., during reconstructive surgery of the tendons of the hand) without causing disability."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "The deep muscles of the posterior compartment collectively produce most of the force of plantarflexion.",
+    answer: false,
+    explanation: "The 'nontriceps' plantarflexors collectively produce only about 7% of the total force of plantarflexion, with the triceps surae producing 93%."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Additional Topics",
+    type: "truefalse",
+    question: "When the calcaneal tendon is ruptured, the deep muscles cannot generate the power necessary to lift the body's weight.",
+    answer: true,
+    explanation: "When the calcaneal tendon is ruptured, the deep muscles (nontriceps plantarflexors) cannot generate the power necessary to lift the body's weight (i.e., to stand on the toes)."
+  },
+  // ===== HISTOLOGY – GENERAL HISTOLOGY =====
+
+// SECTION 1: Blood & Hematopoiesis (201-210)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Leukemia is characterized by the abnormal proliferation of leukocytes.",
+  answer: true,
+  explanation: "Leukemia involves the abnormal proliferation of leukocytes, with cells appearing in peripheral blood."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Bone marrow transplantation was established after experiments with normal bone marrow transplanted to irradiated mice.",
+  answer: true,
+  explanation: "Initial experiments with bone marrow transplants in irradiated mice established the basis for bone marrow transplantation used today."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Red bone marrow is found in the medullary canals of adult long bones.",
+  answer: false,
+  explanation: "Red bone marrow is found between the trabeculae of spongy bone in the epiphysis of adult long bones; yellow marrow dominates in the diaphysis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Hematopoietic cells surround vascular sinusoids and are supported by reticular connective tissue in bone marrow.",
+  answer: true,
+  explanation: "Hematopoietic cells are supported by reticular connective tissue and surround the vascular sinusoids in red bone marrow."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "The release of mature blood cells from the marrow is controlled by releasing factors produced in response to the body's needs.",
+  answer: true,
+  explanation: "Releasing factors (C3 complement, hormones, bacterial toxins) control the release of mature blood cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "In chronic myeloid leukemia, all types of granulocyte precursors can be found in peripheral blood.",
+  answer: true,
+  explanation: "Chronic myeloid leukemia presents with all types of granulocyte precursors in the peripheral blood."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Bone marrow aspiration is a clinical technique where a needle is introduced through compact bone to sample marrow.",
+  answer: true,
+  explanation: "Bone marrow aspiration involves a needle introduced through compact bone (usually sternum) to withdraw a marrow sample."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Lymphoblasts are the smallest cells in the lymphocyte series.",
+  answer: false,
+  explanation: "Lymphoblasts are large cells capable of division; as cells mature, they decrease in size."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "Prolymphocytes have condensed chromatin and lack cell-surface antigens that mark T or B lymphocytes.",
+  answer: true,
+  explanation: "Prolymphocytes have condensed chromatin but none of the antigens that mark them as T or B lymphocytes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "truefalse",
+  question: "B and T lymphocytes are easily distinguishable in routine histological procedures.",
+  answer: false,
+  explanation: "B and T lymphocytes cannot be distinguished in routine histology; immunocytochemical techniques are required."
+},
+
+// SECTION 2: Cell Biology (211-240)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "All life consists of cells, with the exception of viruses.",
+  answer: true,
+  explanation: "All life consists of cells; viruses are the exception."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "All mammalian cells contain a cytoplasm and a nucleus.",
+  answer: false,
+  explanation: "All mammalian cells contain cytoplasm and nucleus except red blood cells (RBCs), which lack a nucleus."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Cholesterol stabilizes the cell membrane and regulates the fluidity of the phospholipid bilayer.",
+  answer: true,
+  explanation: "Cholesterol stabilizes the membrane, makes it more rigid, and regulates phospholipid bilayer fluidity."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Integrins are membrane proteins linked to cytoplasmic cytoskeletal filaments and extracellular molecules.",
+  answer: true,
+  explanation: "Integrins are linked to cytoskeletal filaments and extracellular molecules, enabling exchange between ECM and cytoplasm."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Membrane proteins are synthesized in the Golgi apparatus and completed in the rough ER.",
+  answer: false,
+  explanation: "Membrane proteins are synthesized in the rough ER and completed in the Golgi apparatus."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "G protein-coupled receptors (GPCRs) are also known as seven-transmembrane domain receptors.",
+  answer: true,
+  explanation: "GPCRs are also called seven-transmembrane domain receptors, 7TM receptors, or serpentine receptors."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "GPCRs detect molecules outside the cell and activate internal signal transduction pathways.",
+  answer: true,
+  explanation: "GPCRs detect extracellular molecules and activate intracellular signal transduction pathways."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Second messengers diffuse through the cytoplasm and carry signals beyond the cell membrane.",
+  answer: true,
+  explanation: "Second messengers diffuse through the cytoplasm and carry signals beyond the cell membrane."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Pseudohypoparathyroidism is caused by excessive production of parathyroid hormone.",
+  answer: false,
+  explanation: "Pseudohypoparathyroidism is due to nonfunctioning parathyroid receptors, not excessive hormone production."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Cadherins consist of three domains: extracellular, hydrophobic transmembrane, and cytoplasmic.",
+  answer: true,
+  explanation: "Cadherins have an extracellular Ca²⁺-binding domain, a hydrophobic transmembrane domain, and a cytoplasmic domain that binds catenins."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Catenins bind to the extracellular domain of cadherins.",
+  answer: false,
+  explanation: "Catenins bind to the cytoplasmic domain of cadherins, which in turn bind to the cytoskeleton."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "N-CAM and L1-CAM are involved in formation of neuron contacts and grouping.",
+  answer: true,
+  explanation: "N-CAM and L1-CAM (Ig superfamily CAMs) are involved in neuron contact formation and grouping."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "In cancer cells, loss of cell adhesion molecules allows cells to migrate and metastasize.",
+  answer: true,
+  explanation: "Loss or changes of CAMs in cancer cells results in failure to adhere, allowing migration, spread, and metastasis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "E. coli, Salmonella, Shigella, and Vibrio cholerae use fimbriae to bind to cell surface glycoproteins.",
+  answer: true,
+  explanation: "These bacteria use fimbriae (protein chains of fibrillin) to bind to cell surface glycoproteins via specific sugars."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "The malarial parasite Plasmodium falciparum binds to the glycoprotein coat of erythrocytes.",
+  answer: true,
+  explanation: "Plasmodium falciparum binds to the glycoprotein coat of erythrocytes before penetrating them."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Multiple sclerosis is caused by a deficiency of myelin-associated glycoprotein (MAG).",
+  answer: true,
+  explanation: "MS involves deficiency of MAG, a CAM responsible for adhesion between axons and Schwann cells forming myelin sheaths."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Pelizaeus-Merzbacher disease is associated with mutations in the proteolipid protein 1 (PLP1) gene.",
+  answer: true,
+  explanation: "Mutations in PLP1 cause Pelizaeus-Merzbacher disease with neurological problems and progressive myelin loss."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "The nucleolus is the control center of the cell that holds DNA.",
+  answer: false,
+  explanation: "The nucleus holds DNA and is the control center; the nucleolus is a dark spot in the nucleus that makes ribosomes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Rough ER has ribosomes and helps make proteins; smooth ER has no ribosomes and makes lipids.",
+  answer: true,
+  explanation: "Rough ER has ribosomes for protein synthesis; smooth ER lacks ribosomes and synthesizes lipids."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "The Golgi complex packages, modifies, and transports materials inside and outside the cell.",
+  answer: true,
+  explanation: "The Golgi apparatus is nicknamed 'the shippers' for its role in packaging and transporting materials."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Mitochondria break down food to make ATP, which is the major fuel for all cell activities.",
+  answer: true,
+  explanation: "Mitochondria produce ATP, which fuels all cell activities requiring energy."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "The TIGER domain stands for TIS granules and ER, creating a space for mRNA and protein interactions.",
+  answer: true,
+  explanation: "TIGER = TIS granules + ER; it creates a distinct space for mRNA and protein interactions."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Heterochromatin is the less compact DNA form containing genes frequently expressed by the cell.",
+  answer: false,
+  explanation: "Euchromatin is the less compact DNA containing genes frequently expressed. Heterochromatin is more compact and infrequently transcribed."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Constitutive heterochromatin consists of chromosome structural components such as telomeres and centromeres.",
+  answer: true,
+  explanation: "Constitutive heterochromatin includes telomeres and centromeres; facultative heterochromatin varies by cell type."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Eukaryotic cells have 3 of the 4 ribosomal RNA strands synthesized in the nucleolus.",
+  answer: true,
+  explanation: "In eukaryotic cells, 3 of 4 ribosomal RNA strands are synthesized in the nucleolus; the 4th is synthesized outside."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Prokaryotic cells synthesize ribosomes in the nucleolus.",
+  answer: false,
+  explanation: "Prokaryotic cells lack a nucleus and nucleolus; ribosomal synthesis occurs in the cytoplasm."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Peroxisomes contain enzymes that convert hydrogen peroxide to water.",
+  answer: true,
+  explanation: "Peroxisomes contain enzymes that convert hydrogen peroxide to water, making the toxic substance safe."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Mitochondria contain their own DNA and are thought to represent bacteria-like organisms incorporated into eukaryotic cells.",
+  answer: true,
+  explanation: "Mitochondria have their own DNA (mDNA) and are thought to be bacterial-like organisms incorporated into eukaryotic cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "Mitochondrial inheritance is paternal because mitochondria come from the sperm.",
+  answer: false,
+  explanation: "Mitochondrial inheritance is maternal because few, if any, mitochondria from sperm enter the zygote."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "truefalse",
+  question: "The cell cycle is the series of events leading to cell division and duplication.",
+  answer: true,
+  explanation: "The cell cycle leads to cell division and duplication, including interphase and mitosis."
+},
+
+// SECTION 3: Stem Cells & Differentiation (241-242)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "truefalse",
+  question: "The development of a fertilized egg into a newborn child requires about 41 rounds of mitosis.",
+  answer: true,
+  explanation: "Development from a fertilized egg to newborn requires approximately 41 rounds of mitosis (2^41 = 2.2 x 10^12)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "truefalse",
+  question: "Cells produced by mitosis all enter the same pathway of differentiation.",
+  answer: false,
+  explanation: "Cells enter different pathways of differentiation, becoming blood cells, muscle cells, and other types."
+},
+
+// SECTION 4: Epithelial Tissue (243-278)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Epithelial tissue has cells packed tightly with almost no intercellular spaces.",
+  answer: true,
+  explanation: "Epithelial cells are packed tightly together with almost no intercellular spaces and only a small amount of intercellular substance."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Epithelial cells have structural polarity with distinct apical, basal, and lateral regions.",
+  answer: true,
+  explanation: "Epithelial cells are polarized with apical, basal, and lateral surfaces having specific structural modifications."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Microvilli are found on the apical surface of epithelial cells.",
+  answer: true,
+  explanation: "Microvilli are apical surface modifications found on absorptive cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "The basal lamina is secreted by the underlying connective tissue cells.",
+  answer: false,
+  explanation: "The basal lamina is secreted by the epithelial cells themselves."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Simple epithelia are composed of a single layer of epithelial cells.",
+  answer: true,
+  explanation: "Simple epithelia consist of a single cell layer."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Stratified epithelia are composed of a single layer of cells with nuclei at different levels.",
+  answer: false,
+  explanation: "Stratified epithelia have more than one layer of cells; pseudostratified epithelia have one layer with nuclei at different levels."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Nuclear shape corresponds roughly to cell shape in epithelial cells.",
+  answer: true,
+  explanation: "Tall cells have elongated nuclei; squamous cells have flattened nuclei; cuboidal cells have spherical nuclei."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "An epithelium with many microvilli on the apical surface is described as possessing a brush border.",
+  answer: true,
+  explanation: "Columnar absorptive cells in the small intestine with many microvilli have a brush border."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Simple squamous epithelia line serous cavities and are called endothelium due to their mesodermal origin.",
+  answer: false,
+  explanation: "Simple squamous epithelia lining serous cavities are called mesothelium; endothelium lines blood vessels."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Simple cuboidal epithelia line many small ducts in the body, including urinary ducts of the kidney.",
+  answer: true,
+  explanation: "Simple cuboidal epithelium lines kidney urinary ducts, bile ductules, and thyroid follicles."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Goblet cells are unicellular glands found between columnar epithelial cells in the duodenum.",
+  answer: true,
+  explanation: "Goblet cells secrete mucus and are found between columnar epithelial cells of the duodenum."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Ciliated columnar epithelium has cilia on its basal surface.",
+  answer: false,
+  explanation: "Cilia are on the free (apical) surface of ciliated columnar epithelium."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Ciliated epithelium is found in the air passages, uterus, and Fallopian tubes.",
+  answer: true,
+  explanation: "Ciliated epithelium lines the respiratory passages, uterus, and Fallopian tubes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Pseudostratified columnar epithelium is the typical epithelial type of much of the respiratory tract.",
+  answer: true,
+  explanation: "Pseudostratified columnar epithelium lines much of the respiratory tract, often ciliated with goblet cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Transitional epithelium in an empty bladder appears thinner and more stretched than in a full bladder.",
+  answer: false,
+  explanation: "Transitional epithelium appears thicker with more layers when the bladder is empty; when full, cells appear more stretched and thinner."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Epithelia are highly vascular and have a rich blood supply.",
+  answer: false,
+  explanation: "Epithelia are avascular and rely on diffusion from blood vessels in underlying connective tissue."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Epithelia have remarkable proliferative properties and many dividing cells to replace lost cells.",
+  answer: true,
+  explanation: "Epithelial cells constantly divide to replace cells lost due to mechanical damage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Stratified squamous keratinized epithelium forms moist linings of body openings.",
+  answer: false,
+  explanation: "Non-keratinized stratified squamous forms moist linings; keratinized covers dry surfaces like skin."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Keratin is a tough, resistant protein found in keratinized stratified squamous epithelium.",
+  answer: true,
+  explanation: "Keratin is a tough, resistant protein present in mammalian skin (dry, keratinized epithelium)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Endocrine glands have ducts that open to the exterior of the body.",
+  answer: false,
+  explanation: "Endocrine glands are ductless; exocrine glands have ducts opening to the exterior."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Unicellular glands include goblet cells.",
+  answer: true,
+  explanation: "Goblet cells are unicellular exocrine glands."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Pituitary, thyroid, and adrenal glands are examples of endocrine glands.",
+  answer: true,
+  explanation: "These are ductless endocrine glands producing hormones."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Sweat and oil glands are examples of endocrine glands.",
+  answer: false,
+  explanation: "Sweat and oil glands are exocrine glands with ducts opening to the exterior."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Adherens junctions occur at cell-cell junctions in epithelial tissues and are usually more basal than tight junctions.",
+  answer: true,
+  explanation: "Adherens junctions are protein complexes usually more basal than tight junctions."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "The zonula adherens forms spots of attachment to the extracellular matrix.",
+  answer: false,
+  explanation: "The zonula adherens appears as bands encircling the cell; adhesion plaques are spots attaching to ECM."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Fascia adherens is similar to zonula adherens but appears in ribbon-like patterns in non-epithelial cells.",
+  answer: true,
+  explanation: "Fascia adherens is found in non-epithelial cells like cardiomyocytes in ribbon-like patterns."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Zonulae occludens is another name for tight junctions.",
+  answer: true,
+  explanation: "Tight junctions are also called zonulae occludens."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Claudin and occludin are transmembrane proteins in tight junctions.",
+  answer: true,
+  explanation: "Claudin and occludin form the seal between adjacent cell membranes in tight junctions."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Epithelia with one or few fusion sites in tight junctions are less permeable than those with many fusion sites.",
+  answer: false,
+  explanation: "Epithelia with few fusion sites are more permeable (e.g., proximal renal tubule); numerous sites increase impermeability (e.g., urinary bladder)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Desmosomes are also called macula adherens.",
+  answer: true,
+  explanation: "Desmosomes are also called macula adherens and resemble 'spot-welds.'"
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Desmosomes contain cadherins called desmoglein and desmocollin.",
+  answer: true,
+  explanation: "Desmosomes contain desmoglein and desmocollin, which are larger members of the cadherin family."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Pemphigus vulgaris is caused by abnormal desmosome function due to autoimmune reactions.",
+  answer: true,
+  explanation: "Autoimmune reactions against desmogleins reduce cell-to-cell adhesion, causing blistering in pemphigus vulgaris."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "The enterotoxin from Clostridium perfringens binds integrin molecules of intestinal cells.",
+  answer: false,
+  explanation: "The toxin binds claudin molecules of intestinal cells, causing loss of tight junction function."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Helicobacter pylori binds tight-junction proteins in stomach cells and disrupts ZO-1 and p120ctn.",
+  answer: true,
+  explanation: "H. pylori binds extracellular domains of tight-junction proteins and disrupts signaling from the junction."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Villi are small finger-like projections that increase the surface area of the small intestine.",
+  answer: true,
+  explanation: "Villi are projections of the wall of the small intestine that extend into the lumen, increasing surface area."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Celiac disease is an immune reaction against the wheat protein gluten that causes loss of microvilli.",
+  answer: true,
+  explanation: "Celiac disease involves an immune reaction against gluten causing loss of microvilli brush border."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Stereocilia are found in the respiratory tract and are motile.",
+  answer: false,
+  explanation: "Stereocilia are nonmotile, found in the epididymis and ductus deferens, not the respiratory tract."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Primary cilia are nonmotile and act as sensory structures detecting light, odors, and motion.",
+  answer: true,
+  explanation: "Primary cilia are enriched with receptors for detection of light, odors, motion, and fluid flow."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Motile cilia are abundant on the apical domains of many squamous epithelial cells.",
+  answer: false,
+  explanation: "Motile cilia are abundant on cuboidal or columnar epithelial cells, not squamous."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "truefalse",
+  question: "Kartagener syndrome causes chronic respiratory infections due to lack of ciliary cleansing action.",
+  answer: true,
+  explanation: "Immotile cilia syndrome causes chronic respiratory infections and male infertility."
+},
+
+// SECTION 5: Germ Layers & Tissue Types (283-289)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "The three major germ layers are endoderm, mesoderm, and ectoderm.",
+  answer: true,
+  explanation: "The three germ layers are endoderm (inner), mesoderm (middle), and ectoderm (outer)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "The endoderm forms muscle, bone, and blood vessels.",
+  answer: false,
+  explanation: "The mesoderm forms muscle, bone, and blood vessels; endoderm forms the lining of the digestive tract."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "The ectoderm forms skin and the nervous system.",
+  answer: true,
+  explanation: "Ectoderm forms skin (epidermis) and neuroectoderm (nervous system)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "The mesoderm forms the lining of the gastrointestinal tract.",
+  answer: false,
+  explanation: "Endoderm forms the lining of the GI tract; mesoderm forms connective tissues, muscle, and blood vessels."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "There are over 100 visibly distinguishable kinds of differentiated cells in vertebrates.",
+  answer: true,
+  explanation: "More than 100 visibly distinguishable differentiated cell types exist in vertebrates."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "Connective tissue maintains the form of organs throughout the body.",
+  answer: true,
+  explanation: "Connective tissue maintains organ form by connecting or binding cells and tissues."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "truefalse",
+  question: "Elastin fiber, collagen fiber, and fibroblasts are components of the extracellular matrix.",
+  answer: true,
+  explanation: "The ECM contains protein fibers (collagen and elastic) and cells like fibroblasts."
+},
+
+// SECTION 6: Connective Tissue (290-339)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Ground substance is viscous, clear, and has little morphologic structure.",
+  answer: true,
+  explanation: "Ground substance is clear and viscous with little morphologic structure when stained."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Ground substance stains with basic dyes due to its high water content.",
+  answer: false,
+  explanation: "Ground substance is periodic acid-Schiff (PAS) positive but appears as a clear space; its staining is due to GAGs, not water."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Connective tissues provide a matrix that supports and physically connects other tissues and cells together.",
+  answer: true,
+  explanation: "Connective tissue provides a supportive matrix connecting other tissues and cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Connective tissue makes up trabeculae and part of the walls of several organs.",
+  answer: true,
+  explanation: "Connective tissue forms the stroma (supporting tissue) of organs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Tendons, aponeuroses, capsules of organs, and meninges contain collagen fibers.",
+  answer: true,
+  explanation: "These structures are composed of collagen fibers."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "The variety of connective tissue types reflects differences in the composition and amount of cells, fibers, and ground substance.",
+  answer: true,
+  explanation: "Different connective tissue types reflect variations in cellular composition, fibers, and ground substance."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Tissue fluid equilibrium maintains a constant amount of interstitial fluid.",
+  answer: true,
+  explanation: "The amount of tissue fluid is fairly constant with equilibrium between water entering and leaving."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Fibroblasts in adults undergo division frequently.",
+  answer: false,
+  explanation: "In adults, fibroblasts rarely undergo division; mitoses occur only when additional fibroblasts are needed."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Fibroblasts are targets of growth factors that influence cell growth and differentiation.",
+  answer: true,
+  explanation: "Fibroblasts are targets of many growth factor families."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Myofibroblasts are observed during wound healing and contain actin microfibrils and myosin.",
+  answer: true,
+  explanation: "Myofibroblasts appear during wound healing, containing actin microfibrils and myosin, and behave like smooth muscle cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages demonstrate phagocytic activity, demonstrated by uptake of vital dyes like trypan blue.",
+  answer: true,
+  explanation: "Macrophage phagocytosis can be demonstrated by injection of vital dyes such as trypan blue or Indian ink."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages participate in the breakdown of aged cells including erythrocytes.",
+  answer: true,
+  explanation: "Macrophages break down aged cells including erythrocytes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Intracellular digestion in macrophages occurs without fusion with lysosomes.",
+  answer: false,
+  explanation: "Intracellular digestion occurs as a result of fusion of lysosomes with the phagosome."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Foreign body giant cells are formed when several macrophages fuse together.",
+  answer: true,
+  explanation: "Several macrophages may fuse to form multinuclear foreign body giant cells at sites of foreign body invasion."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages phagocytose cell debris, bacteria, and neoplastic cells.",
+  answer: true,
+  explanation: "Macrophages phagocytose debris, abnormal ECM, neoplastic cells, bacteria, and inert elements."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages are antigen-presenting cells that participate in antigen digestion and presentation.",
+  answer: true,
+  explanation: "Macrophages are APCs that partially digest and present antigens to other cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Only macrophages can act as antigen-presenting cells.",
+  answer: false,
+  explanation: "Under certain circumstances, fibroblasts, endothelial cells, astrocytes, and thyroid epithelial cells can also act as APCs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages participate in cell-mediated resistance to bacteria, viruses, and tumors.",
+  answer: true,
+  explanation: "Macrophages resist infection by bacteria, viruses, protozoans, fungi, metazoans, and tumors."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages play a role in removing cell debris during physiological involution processes.",
+  answer: true,
+  explanation: "Macrophages remove debris and damaged ECM during processes like uterine involution after pregnancy."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Macrophages secrete enzymes such as collagenase and cytokines.",
+  answer: true,
+  explanation: "Macrophages produce enzymes (collagenase) and cytokines for defensive and reparative functions."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mast cell progenitor cells originate in the thymus.",
+  answer: false,
+  explanation: "Mast cells originate from progenitor cells in the bone marrow."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mast cells are oval or round cells packed with basophilic granules.",
+  answer: true,
+  explanation: "Mast cells (20-30 μm) have cytoplasm packed with large round basophilic granules."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mast cell granules contain serine proteases that activate inflammatory mediators.",
+  answer: true,
+  explanation: "Serine proteases in mast cell granules activate various mediators of inflammation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Most IgE molecules are found in the plasma, not bound to mast cells.",
+  answer: false,
+  explanation: "Most IgE molecules are bound to the surface of mast cells and blood basophils; very few remain in plasma."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mast cells are abundant in loose connective tissue, especially adjacent to blood vessels.",
+  answer: true,
+  explanation: "Mast cells are abundant in loose connective tissue adjacent to blood vessels, dermis, and lamina propria."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mast cells function as sentinels detecting invasion by microorganisms.",
+  answer: true,
+  explanation: "Mast cells are strategically placed to detect microbial invasion."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Connective tissue mast cells contain chondroitin sulfate in their granules.",
+  answer: false,
+  explanation: "Connective tissue mast cells contain heparin; mucosal mast cells contain chondroitin sulfate."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mucosal mast cells are found in the skin and peritoneal cavity.",
+  answer: false,
+  explanation: "Mucosal mast cells are in intestinal mucosa and lungs; connective tissue mast cells are in skin and peritoneal cavity."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Plasma cells are large cells with eccentric nuclei and basophilic cytoplasm.",
+  answer: true,
+  explanation: "Plasma cells have eccentric nuclei, basophilic cytoplasm (RER), and well-developed Golgi."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Plasma cells are derived from B lymphocytes and synthesize antibodies.",
+  answer: true,
+  explanation: "Plasma cells produce antibodies in response to antigens and are derived from B lymphocytes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Each antibody is specific for the one antigen that gave rise to its production.",
+  answer: true,
+  explanation: "Antibodies are specific to the antigen that triggered their production."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Bound antigen-antibody complexes remain in tissues and are not removed by phagocytosis.",
+  answer: false,
+  explanation: "Bound antigen-antibody complexes are quickly removed from tissues by phagocytosis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Leukocytes are the wandering cells of the connective tissue.",
+  answer: true,
+  explanation: "Leukocytes are wandering cells that migrate from blood to connective tissue."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Leukocytes return to the blood after residing in connective tissue.",
+  answer: false,
+  explanation: "Leukocytes do not return to the blood except for lymphocytes that circulate continuously."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Vasoactive substances like histamine are liberated from mast cells and cause increased vascular permeability.",
+  answer: true,
+  explanation: "Histamine from mast cells and basophils increases vascular permeability."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Chemotaxis is responsible for the migration of specific cell types to regions of inflammation.",
+  answer: true,
+  explanation: "Chemotaxis attracts specific cell types to inflamed areas."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Adipose tissue contains cells that cushion and insulate the skin and other organs.",
+  answer: true,
+  explanation: "Adipose tissue cushions and insulates skin and organs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Collagen and reticular fibers are formed by the protein elastin.",
+  answer: false,
+  explanation: "Collagen and reticular fibers are formed by collagen protein; elastic fibers are composed of elastin."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "The elastic system consists of elastic, elaunin, and oxytalan fibers.",
+  answer: true,
+  explanation: "The elastic system includes elastic, elaunin, and oxytalan fibers."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Progressive systemic sclerosis involves excessive accumulation of collagen in various organs.",
+  answer: true,
+  explanation: "Progressive systemic sclerosis causes excessive collagen accumulation in skin, digestive tract, muscles, and kidneys."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Keloids occur most often in Caucasians.",
+  answer: false,
+  explanation: "Keloids occur most often in blacks."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Ascorbic acid is a cofactor for proline hydroxylase, essential for normal collagen synthesis.",
+  answer: true,
+  explanation: "Vitamin C (ascorbic acid) is a cofactor for proline hydroxylase, essential for collagen synthesis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Periodontal ligaments are markedly affected by scurvy, leading to loss of teeth.",
+  answer: true,
+  explanation: "The periodontal ligament has high collagen turnover and is affected by scurvy."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Reticular fibers are PAS positive due to their high sugar chain content.",
+  answer: true,
+  explanation: "Reticular fibers are PAS positive due to high sugar chain content."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Ehlers-Danlos syndrome is caused by abnormal type III procollagen synthesis.",
+  answer: true,
+  explanation: "Ehlers-Danlos syndrome (autosomal dominant) involves mutation in COL3A1 causing abnormal type III procollagen."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Marfan syndrome is characterized by a lack of resistance in tissues rich in elastic fibers.",
+  answer: true,
+  explanation: "Marfan syndrome results from fibrillin mutations, leading to lack of resistance in elastic fiber-rich tissues."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Patients with Marfan syndrome are at risk for aortic rupture.",
+  answer: true,
+  explanation: "Large arteries rich in elastic fibers make aortic rupture a life-threatening risk in Marfan syndrome."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Loose (areolar) connective tissue supports microvasculature and immune defense cells.",
+  answer: true,
+  explanation: "Loose connective tissue supports microvasculature, nerves, and immune defense cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Dense irregular connective tissue has closely packed fibers with clear orientation.",
+  answer: false,
+  explanation: "Dense irregular connective tissue has collagen in randomly arranged fibers; dense regular has clear orientation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Dense regular connective tissue is found in ligaments, tendons, and aponeuroses.",
+  answer: true,
+  explanation: "Dense regular connective tissue provides strong connections in ligaments, tendons, and aponeuroses."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Mesenchyme contains stem/progenitor cells for all adult connective tissue cells.",
+  answer: true,
+  explanation: "Embryonic mesenchyme contains stem/progenitor cells for all adult connective tissue cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Reticular connective tissue supports blood-forming cells in bone marrow.",
+  answer: true,
+  explanation: "Reticular connective tissue supports blood-forming cells, secretory cells, and lymphocytes in lymphoid organs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "truefalse",
+  question: "Adipose tissue is classified as embryonic connective tissue.",
+  answer: false,
+  explanation: "Adipose tissue is classified as specialized connective tissue, not embryonic."
+},
+
+// SECTION 7: Cartilage (343-363)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "The process of bone development from cartilage is called osteogenesis.",
+  answer: true,
+  explanation: "Hyaline cartilage serves as a template for bone development (endochondral ossification)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Hyaline cartilage is the most common of the three cartilage forms.",
+  answer: true,
+  explanation: "Hyaline cartilage is the most common and is homogeneous and semitransparent."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "In adults, hyaline cartilage is found in the articular surfaces of movable joints.",
+  answer: true,
+  explanation: "Hyaline cartilage lines articular surfaces of movable joints."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Hyaline cartilage is found in the walls of larger respiratory passages.",
+  answer: true,
+  explanation: "Hyaline cartilage supports the nose, larynx, trachea, and bronchi."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "In the embryo, hyaline cartilage forms the permanent skeleton.",
+  answer: false,
+  explanation: "Hyaline cartilage forms the temporary skeleton in the embryo that is replaced by bone."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Water bound to GAGs in proteoglycans constitutes up to 60-80% of hyaline cartilage weight.",
+  answer: true,
+  explanation: "Bound water constitutes up to 60-80% of hyaline cartilage weight."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Transport of water and solutes in cartilage is promoted by pumping action of intermittent compression.",
+  answer: true,
+  explanation: "Intermittent cartilage compression and decompression promotes transport of water and solutes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Chondrocytes in hyaline cartilage respire under high oxygen tension.",
+  answer: false,
+  explanation: "Chondrocytes respire under low-oxygen tension due to lack of blood capillaries."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Secretion of proteoglycans in cartilage is accelerated by hormones and growth factors.",
+  answer: true,
+  explanation: "Hormones and growth factors accelerate secretion of sulfated GAGs and proteoglycans."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Somatotropin (growth hormone) promotes release of insulin-like growth factors that stimulate chondrocyte proliferation.",
+  answer: true,
+  explanation: "Pituitary growth hormone promotes release of somatomedins that stimulate chondrocyte proliferation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Cartilage has an excellent capacity for repair and regeneration.",
+  answer: false,
+  explanation: "Cartilage has poor repair capacity due to avascularity and low metabolic/mitotic rates."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Chondroma is a malignant tumor of cartilage cells.",
+  answer: false,
+  explanation: "Chondroma is a benign tumor; chondrosarcoma is malignant."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Elastic cartilage is found in the external auditory canals and auditory tubes.",
+  answer: true,
+  explanation: "Elastic cartilage is in the auricle, external auditory canals, auditory tubes, epiglottis, and cuneiform cartilage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Elastic cartilage lacks perichondrium.",
+  answer: false,
+  explanation: "Elastic cartilage has perichondrium similar to hyaline cartilage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Fibrocartilage has a distinct surrounding perichondrium.",
+  answer: false,
+  explanation: "Fibrocartilage has no distinct surrounding perichondrium."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Fibrocartilage is found in intervertebral discs and the pubic symphysis.",
+  answer: true,
+  explanation: "Fibrocartilage is in intervertebral discs, pubic symphysis, and ligaments."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Intervertebral discs act as lubricated cushions and shock absorbers.",
+  answer: true,
+  explanation: "Intervertebral discs prevent vertebrae from being damaged by abrasive forces or impacts."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Chondrogenesis forms cartilage from embryonic mesenchyme.",
+  answer: true,
+  explanation: "Cartilage forms from embryonic mesenchyme through chondrogenesis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "During embryonic development, cartilage differentiation takes place from the periphery inward.",
+  answer: false,
+  explanation: "Differentiation of cartilage takes place from the center outward."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "In extensively damaged areas, the perichondrium produces new cartilage instead of scar tissue.",
+  answer: false,
+  explanation: "In extensively damaged areas, the perichondrium produces a scar of dense connective tissue instead of new cartilage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "truefalse",
+  question: "Hyaline cartilage is susceptible to calcification during aging.",
+  answer: true,
+  explanation: "Hyaline cartilage calcifies with aging, accompanied by degenerative chondrocyte changes."
+},
+
+// SECTION 8: Muscle Tissue (364-389)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Skeletal muscle is composed of very long multinucleated cells with cross-striations.",
+  answer: true,
+  explanation: "Skeletal muscle contains long, multinucleated cells with cross-striations."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Skeletal muscle contraction is slow and involuntary.",
+  answer: false,
+  explanation: "Skeletal muscle contraction is quick, forceful, and usually voluntary."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Smooth muscle consists of fusiform cells lacking striations with slow, involuntary contractions.",
+  answer: true,
+  explanation: "Smooth muscle has fusiform cells without striations, with slow, involuntary contractions."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Cardiac muscle has cross-striations, involuntary contraction, and intercalated discs.",
+  answer: true,
+  explanation: "Cardiac muscle is striated, involuntary, and has intercalated discs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Intercalated discs are unique to cardiac muscle.",
+  answer: true,
+  explanation: "Intercalated discs are specialized structures unique to cardiac muscle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Blood vessels penetrate muscle within connective tissue septa forming a capillary network.",
+  answer: true,
+  explanation: "Blood vessels form a rich capillary network running between and parallel to muscle fibers."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Lymphatic vessels are absent in muscle connective tissue.",
+  answer: false,
+  explanation: "Lymphatic vessels are found in the connective tissue of muscle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "The sarcoplasm of skeletal muscle is filled with myofibrils.",
+  answer: true,
+  explanation: "Myofibrils fill the sarcoplasm and run parallel to the long axis."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Myofibrils consist of an end-to-end chainlike arrangement of sarcomeres.",
+  answer: true,
+  explanation: "Myofibrils are chainlike arrangements of sarcomeres."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Creatine kinase is found in the Z disc.",
+  answer: false,
+  explanation: "Creatine kinase is the major protein of the M line."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Creatine kinase catalyzes transfer of phosphate from phosphocreatine to ADP to supply ATP.",
+  answer: true,
+  explanation: "Creatine kinase produces ATP for muscle contraction."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Smooth muscle cells have highly organized T-tubule and sarcoplasmic reticulum systems.",
+  answer: false,
+  explanation: "Smooth muscle lacks the organized T-tubule/SR system of striated muscle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Dense bodies in smooth muscle serve as anchoring points for contractile proteins.",
+  answer: true,
+  explanation: "Bundles of contractile proteins insert into dense bodies (anchoring points) in the cytoplasm."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Smooth muscle contraction transmits tension through anchoring densities to the external lamina.",
+  answer: true,
+  explanation: "Tension is transmitted through anchoring densities in the cell membrane to the surrounding external lamina."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Smooth muscle cells are fusiform with tapered ends and widest in the middle.",
+  answer: true,
+  explanation: "Smooth muscle cells are elongated, spindle-shaped, and widest in the middle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Myofibroblasts produce collagen and contain smooth muscle actin.",
+  answer: true,
+  explanation: "Myofibroblasts produce collagen and have smooth muscle actin and desmin."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Cardiac muscle cells are branched and have intercalated discs.",
+  answer: true,
+  explanation: "Cardiac muscle has elongated, often branched cells bound at intercalated discs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Cardiac muscle contraction is voluntary.",
+  answer: false,
+  explanation: "Cardiac muscle contraction is involuntary, vigorous, and rhythmic."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Cardiac muscle has residual stem cells and can regenerate after damage.",
+  answer: false,
+  explanation: "Cardiac muscle lacks residual stem cells and cannot regenerate after damage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Skeletal muscle is under voluntary control driven by somatic motor nerves.",
+  answer: true,
+  explanation: "Skeletal muscle is voluntary, controlled by somatic motor nerves."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "A motor unit consists of a motor neuron and all the muscle fibers it innervates.",
+  answer: true,
+  explanation: "A motor unit is the motor neuron and the muscle fibers it supplies."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "All fibers of a motor unit contract simultaneously upon stimulation.",
+  answer: true,
+  explanation: "All muscle fibers in a motor unit contract together when stimulated."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "At the neuromuscular junction, the axon loses its myelin sheath and forms a motor end plate.",
+  answer: true,
+  explanation: "At the site of innervation, the nerve loses myelin and forms a dilated termination."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Skeletal muscle can function normally without neural innervation.",
+  answer: false,
+  explanation: "Skeletal muscle requires neural innervation; denervation causes neurogenic atrophy."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Neurogenic atrophy occurs when muscle cells wither due to loss of axonal innervation.",
+  answer: true,
+  explanation: "If axons fail to develop or are damaged, muscle cells wither (neurogenic atrophy)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "truefalse",
+  question: "Muscle spindles are sensory receptors found in skeletal muscle.",
+  answer: true,
+  explanation: "Muscle spindles are sensory structures in skeletal muscle."
+},
+
+// SECTION 9: Nervous Tissue (390-400)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Nervous tissue is the substance of the brain, spinal cord, and peripheral nerves.",
+  answer: true,
+  explanation: "Nerve tissue constitutes the brain, spinal cord, and peripheral nerves."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "The basic functional cell of nerve tissue is the neuroglia.",
+  answer: false,
+  explanation: "The neuron is the basic functional cell of nerve tissue."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Neuroglia are conductive cells that transmit nerve impulses.",
+  answer: false,
+  explanation: "Neuroglia are nonconductive support cells; neurons transmit impulses."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Neuroglia are unable to divide.",
+  answer: false,
+  explanation: "Neuroglia can divide and are the source of nervous system tumors."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Neurons have three basic parts: cell body, dendrites, and axon.",
+  answer: true,
+  explanation: "Neurons consist of a cell body (soma), one or more dendrites, and a single axon."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Dendrites are afferent processes that transmit impulses to the neuron cell body.",
+  answer: true,
+  explanation: "Dendrites transmit impulses toward the cell body (afferent)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Axons are efferent processes that carry impulses away from the cell body.",
+  answer: true,
+  explanation: "Axons carry impulses away from the cell body (efferent)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Each neuron has many axons.",
+  answer: false,
+  explanation: "There is only one axon that projects from each cell body."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Axons may have infrequent branches called axon collaterals.",
+  answer: true,
+  explanation: "Axons may have axon collaterals that terminate in telodendria."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Myelinated fibers make up the gray matter in the CNS.",
+  answer: false,
+  explanation: "Myelinated fibers make up the white matter; cell bodies and unmyelinated fibers make gray matter."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "truefalse",
+  question: "Nodes of Ranvier are unmyelinated regions between myelin segments.",
+  answer: true,
+  explanation: "Nodes of Ranvier are the gaps between myelin segments along the axon."
+},
+
+// =========================================================================
+// BATCH 3: MULTIPLE CHOICE QUESTIONS (401-600)
+// =========================================================================
+
+// SECTION 10: Histological Techniques (401-411)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "What is the primary function of fixation in tissue preparation?",
+  options: [
+    "A. To stain the tissue for visualization",
+    "B. To preserve cell structure and prevent autolysis",
+    "C. To embed the tissue in paraffin wax",
+    "D. To section the tissue into thin slices"
+  ],
+  correctAnswer: "B. To preserve cell structure and prevent autolysis",
+  explanation: "Fixation preserves structural integrity and prevents tissue digestion by enzymes (autolysis) or bacteria, ensuring the tissue on the slide has the same structure as in the body."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Which fixative is commonly used for routine light microscopy?",
+  options: [
+    "A. Glutaraldehyde",
+    "B. Osmium tetroxide",
+    "C. Buffered isotonic solution of 4% formaldehyde",
+    "D. Ethanol"
+  ],
+  correctAnswer: "C. Buffered isotonic solution of 4% formaldehyde",
+  explanation: "A buffered isotonic solution of 4% formaldehyde is one of the best fixatives for routine light microscopy. Glutaraldehyde and osmium tetroxide are used for electron microscopy."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "What is the purpose of embedding tissues in paraffin wax?",
+  options: [
+    "A. To stain the tissue",
+    "B. To preserve the tissue's color",
+    "C. To provide support for sectioning on a microtome",
+    "D. To prevent bacterial contamination"
+  ],
+  correctAnswer: "C. To provide support for sectioning on a microtome",
+  explanation: "Embedding in paraffin wax provides support so that thin sections (1-10 μm) can be cut on a microtome. The hard block containing the tissue is then sectioned."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Which stain is most commonly used in histology?",
+  options: [
+    "A. Periodic acid-Schiff (PAS)",
+    "B. Silver nitrate",
+    "C. Hematoxylin and eosin (H&E)",
+    "D. Toluidine blue"
+  ],
+  correctAnswer: "C. Hematoxylin and eosin (H&E)",
+  explanation: "The most commonly used stains in histology are hematoxylin and eosin (H&E). Hematoxylin stains acidic components blue, while eosin stains basic components pink."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Hematoxylin preferentially stains which cellular components?",
+  options: [
+    "A. Basic components, staining them pink",
+    "B. Acidic components, staining them blue",
+    "C. Lipid components, staining them black",
+    "D. Carbohydrate components, staining them red"
+  ],
+  correctAnswer: "B. Acidic components, staining them blue",
+  explanation: "Hematoxylin is a basic dye that preferentially colors the acidic components of the cell (DNA and RNA) a bluish tint. These components are referred to as basophilic."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "What is the total magnification when using a 40X objective and a 10X eyepiece?",
+  options: [
+    "A. 40X",
+    "B. 50X",
+    "C. 400X",
+    "D. 4000X"
+  ],
+  correctAnswer: "C. 400X",
+  explanation: "Total magnification is calculated by multiplying the objective power (40X) by the eyepiece power (10X), resulting in 400X magnification."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Which type of microscopy uses a laser to scan multiple z-planes to produce three-dimensional images?",
+  options: [
+    "A. Phase contrast microscopy",
+    "B. Fluorescence microscopy",
+    "C. Confocal microscopy",
+    "D. Darkfield microscopy"
+  ],
+  correctAnswer: "C. Confocal microscopy",
+  explanation: "Confocal microscopy uses a laser to scan multiple z-planes successively, producing numerous 2D images at various depths that can be constructed into a 3D image."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "What is the resolution limit of a light microscope?",
+  options: [
+    "A. 0.2 nm",
+    "B. 200 nm",
+    "C. 2 μm",
+    "D. 200 μm"
+  ],
+  correctAnswer: "B. 200 nm",
+  explanation: "Light microscopes can resolve structures that are 200 nm apart. Electron microscopes can resolve structures that are 0.2 nm apart."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Which of the following factors improves microscope resolution?",
+  options: [
+    "A. Using longer wavelength light",
+    "B. Decreasing numerical aperture",
+    "C. Using immersion oil with a high refractive index",
+    "D. Reducing the condenser aperture"
+  ],
+  correctAnswer: "C. Using immersion oil with a high refractive index",
+  explanation: "Increasing the refractive index (e.g., using immersion oil with refractive index 1.51) shortens light waves and improves resolution. Shorter wavelengths also improve resolution."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Histological Techniques",
+  type: "multiplechoice",
+  question: "Immunocytochemistry uses which component to visualize the localization of a specific protein in cells?",
+  options: [
+    "A. A fluorescent dye that binds directly to DNA",
+    "B. A primary antibody that binds to the specific protein",
+    "C. A radioactive isotope incorporated into proteins",
+    "D. An enzyme that digests the target protein"
+  ],
+  correctAnswer: "B. A primary antibody that binds to the specific protein",
+  explanation: "Immunocytochemistry uses a primary antibody that binds to a specific protein or antigen. The primary antibody is visualized when bound by a secondary antibody with a conjugated fluorophore."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which type of connective tissue cell is the most common?",
+  options: [
+    "A. Macrophage",
+    "B. Mast cell",
+    "C. Fibroblast",
+    "D. Adipocyte"
+  ],
+  correctAnswer: "C. Fibroblast",
+  explanation: "Fibroblasts are the most common cell type found in connective tissue. They are elongated, spindle-shaped cells that produce the extracellular matrix."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "What is the major constituent of connective tissue?",
+  options: [
+    "A. Cells",
+    "B. Blood vessels",
+    "C. Extracellular matrix",
+    "D. Nerves"
+  ],
+  correctAnswer: "C. Extracellular matrix",
+  explanation: "The major constituent of connective tissue is the extracellular matrix, unlike other tissue types (epithelium, muscle, nerve) which consist mainly of cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Ground substance is primarily composed of which of the following?",
+  options: [
+    "A. Collagen fibers and elastin",
+    "B. Glycosaminoglycans and proteoglycans",
+    "C. Adipose cells and fibroblasts",
+    "D. Blood vessels and nerves"
+  ],
+  correctAnswer: "B. Glycosaminoglycans and proteoglycans",
+  explanation: "Ground substance is a complex of anionic, hydrophilic proteoglycans, glycosaminoglycans (GAGs), and multiahesive glycoproteins. GAGs are long, unbranched chains of polysaccharides."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Edema is a condition characterized by:",
+  options: [
+    "A. Excessive collagen deposition",
+    "B. Accumulation of fluid in connective tissue",
+    "C. Increased number of fibroblasts",
+    "D. Degeneration of elastic fibers"
+  ],
+  correctAnswer: "B. Accumulation of fluid in connective tissue",
+  explanation: "In pathological conditions (traumatic injury and inflammation), fluid may accumulate in the connective tissue, a condition known as edema."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which cell type is derived from monocytes and functions as a phagocyte in connective tissue?",
+  options: [
+    "A. Fibroblast",
+    "B. Mast cell",
+    "C. Macrophage",
+    "D. Plasma cell"
+  ],
+  correctAnswer: "C. Macrophage",
+  explanation: "Macrophages originate from monocytes (precursor cells in bone marrow), which migrate to connective tissue and differentiate into tissue macrophages. They are phagocytic."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Langerhans cells, found in the skin epidermis, are examples of:",
+  options: [
+    "A. Mast cells",
+    "B. Antigen-presenting cells (macrophages)",
+    "C. Fibroblasts",
+    "D. Adipocytes"
+  ],
+  correctAnswer: "B. Antigen-presenting cells (macrophages)",
+  explanation: "Langerhans cells are antigen-presenting cells that participate in the processes of partial digestion and presentation of antigen to other cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Mast cells are characterized by cytoplasm containing granules that:",
+  options: [
+    "A. Stain with H&E as acidophilic",
+    "B. Stain metachromatically (purple with toluidine blue)",
+    "C. Contain primarily collagen",
+    "D. Are visible only with electron microscopy"
+  ],
+  correctAnswer: "B. Stain metachromatically (purple with toluidine blue)",
+  explanation: "Mast cell granules stain metachromatically, appearing purple after toluidine blue staining. They contain heparin, histamine, and other inflammatory mediators."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which of the following is a component of mast cell granules?",
+  options: [
+    "A. Collagenase",
+    "B. Heparin",
+    "C. Albumin",
+    "D. Immunoglobulin G"
+  ],
+  correctAnswer: "B. Heparin",
+  explanation: "Mast cell granules contain heparin (a sulfated GAG that acts as an anticoagulant), histamine, serine proteases, chemotactic factors, cytokines, and phospholipid precursors."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Mast cells have surface receptors for which immunoglobulin?",
+  options: [
+    "A. IgG",
+    "B. IgA",
+    "C. IgM",
+    "D. IgE"
+  ],
+  correctAnswer: "D. IgE",
+  explanation: "Mast cells contain specific receptors for immunoglobulin E (IgE). Most IgE molecules are bound to the surface of mast cells and blood basophils."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Plasma cells are derived from:",
+  options: [
+    "A. T lymphocytes",
+    "B. B lymphocytes",
+    "C. Monocytes",
+    "D. Mast cells"
+  ],
+  correctAnswer: "B. B lymphocytes",
+  explanation: "Plasma cells are derived from B lymphocytes and are responsible for the synthesis of antibodies. They have eccentric nuclei with a 'clock-face' appearance."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "The nucleus of a plasma cell is described as having which appearance?",
+  options: [
+    "A. Kidney-shaped",
+    "B. Clock-face",
+    "C. Horseshoe-shaped",
+    "D. Multilobed"
+  ],
+  correctAnswer: "B. Clock-face",
+  explanation: "The nucleus of a plasma cell is commonly described as having a clock-face appearance. This is due to the arrangement of chromatin."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Leukocytes migrate from blood vessels to connective tissue by a process called:",
+  options: [
+    "A. Phagocytosis",
+    "B. Chemotaxis",
+    "C. Diapedesis",
+    "D. Pinocytosis"
+  ],
+  correctAnswer: "C. Diapedesis",
+  explanation: "Leukocytes migrate through the walls of capillaries and postcapillary venules from the blood to connective tissues by diapedesis. This process increases greatly during inflammation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which of the following is NOT a classic sign of inflammation?",
+  options: [
+    "A. Redness",
+    "B. Swelling",
+    "C. Pallor",
+    "D. Pain"
+  ],
+  correctAnswer: "C. Pallor",
+  explanation: "The classic signs of inflammation are redness, swelling, heat, pain, and disturbed function (rubor, tumor, calore, dolore, et functio laesa). Pallor is not a sign of inflammation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Chemotaxis refers to:",
+  options: [
+    "A. The movement of cells toward chemical signals",
+    "B. The process of cell division",
+    "C. The engulfment of particles by cells",
+    "D. The migration of cells through vessel walls"
+  ],
+  correctAnswer: "A. The movement of cells toward chemical signals",
+  explanation: "Chemotaxis is the phenomenon by which specific cell types are attracted by some molecules, responsible for the migration of specific cell types to regions of inflammation."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which connective tissue cell type is specialized for storage of neutral fats?",
+  options: [
+    "A. Fibroblast",
+    "B. Macrophage",
+    "C. Adipocyte",
+    "D. Mast cell"
+  ],
+  correctAnswer: "C. Adipocyte",
+  explanation: "Adipocytes are connective tissue cells that have become specialized for storage of neutral fats or for the production of heat. They are often called fat cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Reticular fibers consist mainly of:",
+  options: [
+    "A. Collagen type I",
+    "B. Collagen type II",
+    "C. Collagen type III",
+    "D. Elastin"
+  ],
+  correctAnswer: "C. Collagen type III",
+  explanation: "Reticular fibers consist mainly of collagen type III. They are extremely thin and form extensive networks in certain organs."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Scurvy is caused by a deficiency of which vitamin?",
+  options: [
+    "A. Vitamin A",
+    "B. Vitamin B12",
+    "C. Vitamin C",
+    "D. Vitamin D"
+  ],
+  correctAnswer: "C. Vitamin C",
+  explanation: "Vitamin C (ascorbic acid) deficiency leads to scurvy. Without this vitamin, fibroblasts synthesize defective collagen. Ascorbic acid is a cofactor for proline hydroxylase."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Marfan syndrome results from mutations in which gene?",
+  options: [
+    "A. COL1A1",
+    "B. COL3A1",
+    "C. Fibrillin",
+    "D. Aggrecan"
+  ],
+  correctAnswer: "C. Fibrillin",
+  explanation: "Marfan syndrome results from mutations in the fibrillin gene, characterized by a lack of resistance in tissues rich in elastic fibers. Patients are at risk for aortic rupture."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Connective Tissue",
+  type: "multiplechoice",
+  question: "Which type of dense connective tissue has closely packed, parallel bundles of collagen with clear orientation?",
+  options: [
+    "A. Dense irregular connective tissue",
+    "B. Dense regular connective tissue",
+    "C. Loose connective tissue",
+    "D. Reticular connective tissue"
+  ],
+  correctAnswer: "B. Dense regular connective tissue",
+  explanation: "Dense regular connective tissue has closely-packed, densely-arranged fiber bundles with clear orientation (such as in tendons and ligaments) and relatively few cells."
+},
+
+// SECTION 11: Stem Cells & Differentiation (430-433)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "multiplechoice",
+  question: "What is the potency of a zygote?",
+  options: [
+    "A. Pluripotent",
+    "B. Multipotent",
+    "C. Totipotent",
+    "D. Unipotent"
+  ],
+  correctAnswer: "C. Totipotent",
+  explanation: "Totipotency is the ability to produce all differentiated cells in an organism, including extraembryonic tissues. Totipotent cells include zygotes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "multiplechoice",
+  question: "Induced pluripotent stem cells (iPS cells) are derived from:",
+  options: [
+    "A. Embryonic stem cells",
+    "B. Adult somatic cells through forced expression of specific genes",
+    "C. Fetal bone marrow",
+    "D. Umbilical cord blood"
+  ],
+  correctAnswer: "B. Adult somatic cells through forced expression of specific genes",
+  explanation: "iPS cells are a type of pluripotent stem cell artificially derived from a non-pluripotent cell, typically an adult somatic cell, by inducing forced expression of certain genes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "multiplechoice",
+  question: "Which stem cell type can differentiate into any of the three germ layers but cannot form extraembryonic tissue?",
+  options: [
+    "A. Totipotent",
+    "B. Pluripotent",
+    "C. Multipotent",
+    "D. Oligopotent"
+  ],
+  correctAnswer: "B. Pluripotent",
+  explanation: "Pluripotent stem cells can differentiate into any of the three germ layers (endoderm, mesoderm, ectoderm) but cannot contribute to extraembryonic tissue such as the placenta."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Stem Cells & Differentiation",
+  type: "multiplechoice",
+  question: "Hepatocytes are examples of which type of cell potency?",
+  options: [
+    "A. Pluripotent",
+    "B. Multipotent",
+    "C. Oligopotent",
+    "D. Unipotent"
+  ],
+  correctAnswer: "D. Unipotent",
+  explanation: "Hepatocytes are unipotent cells that can develop into only one type of tissue/cell type. The liver's ability to regenerate from as little as 25% of its original mass is attributed to this property."
+},
+
+// SECTION 12: Cell Membrane & Glycocalyx (434-438)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "The cell membrane is composed primarily of which structure?",
+  options: [
+    "A. A single layer of proteins",
+    "B. A phospholipid bilayer with embedded proteins",
+    "C. A network of carbohydrate chains",
+    "D. A single layer of cholesterol"
+  ],
+  correctAnswer: "B. A phospholipid bilayer with embedded proteins",
+  explanation: "The cell membrane consists of a phospholipid bilayer (double layer of phospholipid molecules) with integral and peripheral membrane proteins, and cholesterol."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "The fluid mosaic model of the cell membrane was proposed by:",
+  options: [
+    "A. Gorter and Grendel",
+    "B. Davson and Danielli",
+    "C. Singer and Nicolson",
+    "D. Watson and Crick"
+  ],
+  correctAnswer: "C. Singer and Nicolson",
+  explanation: "Singer and Nicolson advanced the fluid mosaic model in 1972, describing the plasma membrane as a two-dimensional solution of integral proteins in a viscous phospholipid bilayer solvent."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "The glycocalyx is best described as:",
+  options: [
+    "A. A layer of cholesterol inside the membrane",
+    "B. A carbohydrate-rich coat on the external surface of the plasma membrane",
+    "C. A protein layer beneath the membrane",
+    "D. A network of microtubules inside the cell"
+  ],
+  correctAnswer: "B. A carbohydrate-rich coat on the external surface of the plasma membrane",
+  explanation: "The glycocalyx is a fuzzy coat on the external surface of the plasma membrane, composed of carbohydrate molecules attached to integral proteins (glycoproteins) and lipids (glycolipids)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Which of the following is NOT a function of the glycocalyx?",
+  options: [
+    "A. Cell recognition",
+    "B. Cell adhesion",
+    "C. ATP production",
+    "D. Protection"
+  ],
+  correctAnswer: "C. ATP production",
+  explanation: "The glycocalyx functions include cell recognition, cell adhesion, protection, and permeability barrier. ATP production occurs in mitochondria."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Cadherins are a class of cell adhesion molecules that are dependent on which ion?",
+  options: [
+    "A. Na⁺",
+    "B. K⁺",
+    "C. Ca²⁺",
+    "D. Mg²⁺"
+  ],
+  correctAnswer: "C. Ca²⁺",
+  explanation: "Cadherins are dependent on Ca²⁺ ions for their function. They are plasma membrane glycoproteins with extracellular, transmembrane, and cytoplasmic domains."
+},
+
+// SECTION 13: Cell Junctions (439-441)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "What is the function of gap junctions?",
+  options: [
+    "A. To form a seal preventing material flow between cells",
+    "B. To provide firm adhesion between cells",
+    "C. To permit exchange of molecules between adjacent cells",
+    "D. To bind cells to the extracellular matrix"
+  ],
+  correctAnswer: "C. To permit exchange of molecules between adjacent cells",
+  explanation: "Gap junctions mediate communication between cells, permitting the exchange of molecules with molecular mass less than 1500 Da between adjacent cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Desmosomes are composed of which adhesion proteins?",
+  options: [
+    "A. Integrins",
+    "B. Cadherins (desmoglein and desmocollin)",
+    "C. Selectins",
+    "D. Claudins"
+  ],
+  correctAnswer: "B. Cadherins (desmoglein and desmocollin)",
+  explanation: "Desmosomes contain larger members of the cadherin family called desmoglein and desmocollin. They provide firm adhesion among epithelial cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Hemidesmosomes bind epithelial cells to:",
+  options: [
+    "A. Other epithelial cells",
+    "B. The underlying basal lamina",
+    "C. Blood vessels",
+    "D. Tight junctions"
+  ],
+  correctAnswer: "B. The underlying basal lamina",
+  explanation: "Hemidesmosomes bind epithelial cells to the underlying basal lamina. Unlike desmosomes, they contain abundant integrins rather than cadherins."
+},
+
+// SECTION 14: Apical Modifications (442-445)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Microvilli are best described as:",
+  options: [
+    "A. Motile structures containing microtubules",
+    "B. Nonmotile fingerlike extensions containing actin filaments",
+    "C. Long branched structures containing intermediate filaments",
+    "D. Motile structures containing dynein"
+  ],
+  correctAnswer: "B. Nonmotile fingerlike extensions containing actin filaments",
+  explanation: "Microvilli are nonmotile, small fingerlike extensions measuring about 1 μm high and 0.08 μm wide, containing actin filaments. They increase surface area for absorption."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "The brush border seen on absorptive cells of the small intestine is formed by:",
+  options: [
+    "A. Cilia",
+    "B. Stereocilia",
+    "C. Microvilli",
+    "D. Flagella"
+  ],
+  correctAnswer: "C. Microvilli",
+  explanation: "The complex of microvilli and glycocalyx seen with the light microscope is called the brush or striated border, found on columnar absorptive cells of the small intestine."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Cilia have which type of microtubule arrangement?",
+  options: [
+    "A. 9+0",
+    "B. 9+2",
+    "C. 9+3",
+    "D. 13+2"
+  ],
+  correctAnswer: "B. 9+2",
+  explanation: "Cilia have a central pair of microtubules surrounded by nine pairs of microtubules (9+2 arrangement). They are 5-10 μm long and 0.2 μm in diameter."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cell Biology",
+  type: "multiplechoice",
+  question: "Kartagener syndrome (immotile cilia syndrome) is characterized by:",
+  options: [
+    "A. Excessive mucus production",
+    "B. Chronic respiratory infections and male infertility",
+    "C. Increased ciliary beating",
+    "D. Excessive collagen deposition"
+  ],
+  correctAnswer: "B. Chronic respiratory infections and male infertility",
+  explanation: "Kartagener syndrome is caused by mutations in cilia and flagella proteins, resulting in chronic respiratory infections (due to lack of cleansing action) and immotile spermatozoa (male infertility)."
+},
+
+// SECTION 15: Epithelium Types (446-449)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Pseudostratified epithelium appears stratified because:",
+  options: [
+    "A. It has multiple layers of cells",
+    "B. The cells are all different shapes",
+    "C. The nuclei are at different levels although all cells contact the basal lamina",
+    "D. It contains both ciliated and non-ciliated cells"
+  ],
+  correctAnswer: "C. The nuclei are at different levels although all cells contact the basal lamina",
+  explanation: "Pseudostratified epithelium gives the false appearance of being stratified because nuclei of adjacent cells are not orderly arranged but appear at different levels, although all cells are in contact with the basal lamina."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Transitional epithelium is found lining which organ?",
+  options: [
+    "A. Esophagus",
+    "B. Skin",
+    "C. Urinary bladder",
+    "D. Trachea"
+  ],
+  correctAnswer: "C. Urinary bladder",
+  explanation: "Transitional epithelium lines the urinary bladder, ureter, and upper part of the urethra. It can adapt to mechanical changes, appearing thicker when the bladder is empty."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "What is the characteristic feature of stratified squamous keratinized epithelium?",
+  options: [
+    "A. It forms moist linings of body openings",
+    "B. The surface cells are dead and full of keratin",
+    "C. It lines blood vessels",
+    "D. It is found in the esophagus"
+  ],
+  correctAnswer: "B. The surface cells are dead and full of keratin",
+  explanation: "Stratified squamous keratinized epithelium covers dry surfaces such as the skin; surface cells are dead and full of the protective protein keratin. Non-keratinized forms moist linings."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "The basal lamina is composed primarily of:",
+  options: [
+    "A. Collagen type I and fibronectin",
+    "B. Collagen type IV, laminin, entactin, and proteoglycans",
+    "C. Collagen type II and aggrecan",
+    "D. Elastin and fibrillin"
+  ],
+  correctAnswer: "B. Collagen type IV, laminin, entactin, and proteoglycans",
+  explanation: "The basal lamina is composed of type IV collagen, the glycoproteins laminin and entactin, and proteoglycans (heparan sulfate proteoglycan). It is visible only with the electron microscope."
+},
+
+// SECTION 16: Epithelial Characteristics & Glands (450-455)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "In diabetes mellitus, thickening of the basement membrane occurs primarily in:",
+  options: [
+    "A. Skin and muscle",
+    "B. Small blood vessels of the retina and kidney",
+    "C. Bone and cartilage",
+    "D. Nervous tissue"
+  ],
+  correctAnswer: "B. Small blood vessels of the retina and kidney",
+  explanation: "In diabetes mellitus, the basement membrane of small blood vessels, especially those in the retina and kidney, thickens due to increased collagen and laminin production."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Which of the following is NOT a characteristic of epithelial tissue?",
+  options: [
+    "A. Avascular",
+    "B. Polarized cells",
+    "C. Abundant extracellular matrix",
+    "D. Good regenerative capacity"
+  ],
+  correctAnswer: "C. Abundant extracellular matrix",
+  explanation: "Epithelial tissue has cells tightly packed with very little extracellular matrix. It is avascular, polarized, and has good regenerative capacity."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Exocrine glands that release secretory products by exocytosis without loss of cellular material are called:",
+  options: [
+    "A. Holocrine glands",
+    "B. Apocrine glands",
+    "C. Merocrine glands",
+    "D. Endocrine glands"
+  ],
+  correctAnswer: "C. Merocrine glands",
+  explanation: "Merocrine glands release secretory granules by exocytosis with no loss of cellular material (e.g., pancreas, sweat glands)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Sebaceous glands are examples of which type of gland?",
+  options: [
+    "A. Merocrine",
+    "B. Apocrine",
+    "C. Holocrine",
+    "D. Endocrine"
+  ],
+  correctAnswer: "C. Holocrine",
+  explanation: "Sebaceous glands are holocrine glands where the product of secretion is shed with the whole cell."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "Metaplasia is best described as:",
+  options: [
+    "A. The proliferation of cancer cells",
+    "B. A change in epithelial lining in response to chronic irritation",
+    "C. The normal differentiation of cells",
+    "D. The process of wound healing"
+  ],
+  correctAnswer: "B. A change in epithelial lining in response to chronic irritation",
+  explanation: "Metaplasia is a change in the epithelial lining in response to chronic physical or chemical irritation. For example, ciliated pseudostratified epithelium in bronchi can transform into stratified squamous epithelium in heavy smokers."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Epithelial Tissue",
+  type: "multiplechoice",
+  question: "The parenchyma of an organ refers to:",
+  options: [
+    "A. The supporting tissue",
+    "B. The cells responsible for the main functions of the organ",
+    "C. The blood supply",
+    "D. The nerve supply"
+  ],
+  correctAnswer: "B. The cells responsible for the main functions of the organ",
+  explanation: "Organs are divided into parenchyma (cells responsible for the main functions typical of the organ) and stroma (supporting tissue)."
+},
+
+// SECTION 17: Tissue Types (456)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Germ Layers & Tissue Types",
+  type: "multiplechoice",
+  question: "Which tissue type has aggregated polyhedral cells with very little extracellular matrix?",
+  options: [
+    "A. Connective tissue",
+    "B. Muscle tissue",
+    "C. Nervous tissue",
+    "D. Epithelial tissue"
+  ],
+  correctAnswer: "D. Epithelial tissue",
+  explanation: "Epithelial tissue has aggregated polyhedral cells with very little extracellular matrix. Connective tissue has abundant ECM, muscle has moderate, and nervous has minimal."
+},
+
+// SECTION 18: Cartilage (457-466)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Chondrocytes are found in which location within cartilage?",
+  options: [
+    "A. In the perichondrium",
+    "B. In lacunae within the extracellular matrix",
+    "C. On the surface of the cartilage",
+    "D. In blood vessels of the cartilage"
+  ],
+  correctAnswer: "B. In lacunae within the extracellular matrix",
+  explanation: "Chondrocytes are embedded in an extensive extracellular matrix and are located in matrix cavities called lacunae. They synthesize and maintain ECM components."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Which type of cartilage contains abundant elastic fibers in addition to collagen type II?",
+  options: [
+    "A. Hyaline cartilage",
+    "B. Elastic cartilage",
+    "C. Fibrocartilage",
+    "D. Calcified cartilage"
+  ],
+  correctAnswer: "B. Elastic cartilage",
+  explanation: "Elastic cartilage possesses abundant elastic fibers in addition to collagen type II, giving it a yellowish color. It provides flexible support."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "The annulus fibrosus of the intervertebral disc is rich in:",
+  options: [
+    "A. Type II collagen",
+    "B. Elastic fibers",
+    "C. Type I collagen bundles",
+    "D. Chondroitin sulfate"
+  ],
+  correctAnswer: "C. Type I collagen bundles",
+  explanation: "The peripheral annulus fibrosus is rich in bundles of type I collagen. The central nucleus pulposus has a gel-like matrix rich in hyaluronic acid."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Which of the following is a characteristic of cartilage?",
+  options: [
+    "A. Rich blood supply",
+    "B. High metabolic rate",
+    "C. Avascular and aneural",
+    "D. Extensive innervation"
+  ],
+  correctAnswer: "C. Avascular and aneural",
+  explanation: "Cartilage is avascular (lacks blood vessels), aneural (lacks nerves), and has low metabolic activity. It receives nutrients by diffusion from blood vessels in the perichondrium."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "The perichondrium has two layers. The inner chondrogenic layer contains:",
+  options: [
+    "A. Collagen fibers and fibroblasts",
+    "B. Chondrogenic cells and chondroblasts",
+    "C. Blood vessels and nerves",
+    "D. Adipocytes and macrophages"
+  ],
+  correctAnswer: "B. Chondrogenic cells and chondroblasts",
+  explanation: "The perichondrium has an outer fibrous layer (collagen fibers, fibroblasts, blood vessels) and an inner chondrogenic layer (chondrogenic cells and chondroblasts) that helps in growth and repair."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Appositional growth of cartilage involves:",
+  options: [
+    "A. Mitosis of chondrocytes within lacunae",
+    "B. Addition of new cells at the periphery from the perichondrium",
+    "C. Calcification of the matrix",
+    "D. Degeneration of chondrocytes"
+  ],
+  correctAnswer: "B. Addition of new cells at the periphery from the perichondrium",
+  explanation: "Appositional growth involves cells in the inner layer of the perichondrium dividing and differentiating into chondroblasts, which produce matrix and are added at the periphery."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Interstitial growth of cartilage occurs when:",
+  options: [
+    "A. New cells are added from the perichondrium",
+    "B. Existing chondrocytes divide by mitosis and produce new matrix",
+    "C. The cartilage calcifies",
+    "D. The cartilage is replaced by bone"
+  ],
+  correctAnswer: "B. Existing chondrocytes divide by mitosis and produce new matrix",
+  explanation: "Interstitial growth occurs during childhood and adolescence when existing chondrocytes divide by mitosis and produce new matrix from within the cartilage."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "The most abundant proteoglycan in hyaline cartilage is:",
+  options: [
+    "A. Aggrecan",
+    "B. Decorin",
+    "C. Biglycan",
+    "D. Versican"
+  ],
+  correctAnswer: "A. Aggrecan",
+  explanation: "Aggrecan is the most abundant proteoglycan in hyaline cartilage. It is bound noncovalently by link proteins to hyaluronic acid."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Cartilage",
+  type: "multiplechoice",
+  question: "Osteoarthritis is characterized by:",
+  options: [
+    "A. Inflammation of costal cartilage",
+    "B. Progressive loss of articular cartilage and remodeling of underlying bone",
+    "C. Excessive collagen deposition in the skin",
+    "D. Short-limbed dwarfism"
+  ],
+  correctAnswer: "B. Progressive loss of articular cartilage and remodeling of underlying bone",
+  explanation: "Osteoarthritis is a chronic condition involving progressive loss of articular (hyaline) cartilage lining articular ends of bones in joints and remodeling of underlying bone."
+},
+
+// SECTION 19: Muscle Tissue (466-476)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Which type of muscle has cross-striations and is under voluntary control?",
+  options: [
+    "A. Cardiac muscle",
+    "B. Skeletal muscle",
+    "C. Smooth muscle",
+    "D. Myoepithelial cells"
+  ],
+  correctAnswer: "B. Skeletal muscle",
+  explanation: "Skeletal muscle contains bundles of very long, multinucleated cells with cross-striations, and its contraction is quick, forceful, and usually under voluntary control."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Intercalated discs are unique to which type of muscle?",
+  options: [
+    "A. Skeletal muscle",
+    "B. Cardiac muscle",
+    "C. Smooth muscle",
+    "D. Both skeletal and cardiac muscle"
+  ],
+  correctAnswer: "B. Cardiac muscle",
+  explanation: "Intercalated discs are unique to cardiac muscle. They bind cardiac muscle cells together at specialized structures."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "The functional unit of skeletal muscle contraction is the:",
+  options: [
+    "A. Myofibril",
+    "B. Sarcomere",
+    "C. Myosin filament",
+    "D. T-tubule"
+  ],
+  correctAnswer: "B. Sarcomere",
+  explanation: "The sarcomere is the repetitive functional unit of the contractile apparatus, extending from Z disc to Z disc, about 2.5 μm long in resting muscle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "The A band of the sarcomere contains:",
+  options: [
+    "A. Only thin filaments",
+    "B. Only thick filaments",
+    "C. Both thick and thin filaments",
+    "D. Neither thick nor thin filaments"
+  ],
+  correctAnswer: "C. Both thick and thin filaments",
+  explanation: "The A band contains both thick (myosin) and thin (actin) filaments. Its length is equal to the length of the thick filaments and does not change during contraction."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "What is the role of troponin in skeletal muscle contraction?",
+  options: [
+    "A. It binds ATP to provide energy",
+    "B. It regulates the actin-myosin interaction in a calcium-dependent manner",
+    "C. It forms the thick filaments",
+    "D. It connects adjacent sarcomeres"
+  ],
+  correctAnswer: "B. It regulates the actin-myosin interaction in a calcium-dependent manner",
+  explanation: "Troponin is a complex of three subunits: TnT (attaches to tropomyosin), TnC (binds Ca²⁺), and Tnl (regulates actin-myosin interaction)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "In skeletal muscle, triads are formed by:",
+  options: [
+    "A. A T-tubule and two terminal cisternae at the A-I junction",
+    "B. A T-tubule and one terminal cisterna at the Z line",
+    "C. Two T-tubules and one terminal cisterna",
+    "D. The sarcoplasmic reticulum only"
+  ],
+  correctAnswer: "A. A T-tubule and two terminal cisternae at the A-I junction",
+  explanation: "In skeletal muscle, triads consist of a T-tubule and two terminal cisternae at the junction overlap between the A and I bands."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Cardiac muscle has dyads instead of triads. Where do dyads occur?",
+  options: [
+    "A. At the A-I junction",
+    "B. At the Z line",
+    "C. At the M line",
+    "D. At the H band"
+  ],
+  correctAnswer: "B. At the Z line",
+  explanation: "Cardiac muscle has dyads (T-tubule and one terminal cisterna) that occur at the Z line, rather than the A-I junction of skeletal muscle."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Myasthenia gravis is an autoimmune disorder that causes:",
+  options: [
+    "A. Progressive muscular weakness due to reduced acetylcholine receptors",
+    "B. Excessive muscle growth",
+    "C. Loss of myelin in the CNS",
+    "D. Degeneration of motor neurons"
+  ],
+  correctAnswer: "A. Progressive muscular weakness due to reduced acetylcholine receptors",
+  explanation: "Myasthenia gravis is characterized by progressive muscular weakness caused by circulating antibodies that reduce the number of functionally active acetylcholine receptors at the neuromuscular junction."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Type I (slow-twitch) muscle fibers are characterized by:",
+  options: [
+    "A. Fewer mitochondria and capillaries",
+    "B. Dependence on anaerobic metabolism",
+    "C. Red color due to myoglobin",
+    "D. Large diameter and rapid fatigue"
+  ],
+  correctAnswer: "C. Red color due to myoglobin",
+  explanation: "Type I (slow-twitch) fibers have more mitochondria for oxidative phosphorylation, a higher density of capillaries, and cytoplasmic myoglobin, giving them a red color. They are used for endurance activities."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "Which type of muscle fiber is larger in diameter and depends more heavily on anaerobic glycolysis?",
+  options: [
+    "A. Type I (slow-twitch)",
+    "B. Type II (fast-twitch)",
+    "C. Cardiac muscle",
+    "D. Smooth muscle"
+  ],
+  correctAnswer: "B. Type II (fast-twitch)",
+  explanation: "Type II (fast-twitch) fibers are typically larger in diameter and depend more heavily on anaerobic (glycolytic) metabolism of glucose derived from stored glycogen. They fatigue faster."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Muscle Tissue",
+  type: "multiplechoice",
+  question: "The neuromuscular junction is also known as the:",
+  options: [
+    "A. Synaptic cleft",
+    "B. Motor end plate",
+    "C. Node of Ranvier",
+    "D. Axon hillock"
+  ],
+  correctAnswer: "B. Motor end plate",
+  explanation: "The motor end plate (myoneural junction) is the site of innervation of skeletal muscle fibers, where the axon terminal forms a dilated termination within a trough on the muscle cell surface."
+},
+
+// SECTION 20: Nervous Tissue (477-498)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Satellite cells associated with skeletal muscle are important because:",
+  options: [
+    "A. They provide the main contractile force",
+    "B. They can proliferate and produce new muscle fibers after injury",
+    "C. They synthesize the extracellular matrix",
+    "D. They store calcium for contraction"
+  ],
+  correctAnswer: "B. They can proliferate and produce new muscle fibers after injury",
+  explanation: "Satellite cells are stem cells closely associated with muscle fibers. After injury, these cells proliferate and have a limited capacity to produce new muscle fibres."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Smooth muscle cells are best described as:",
+  options: [
+    "A. Multinucleated, striated, and voluntary",
+    "B. Fusiform with a single central nucleus and lacking striations",
+    "C. Branched with intercalated discs",
+    "D. Large, elongated with peripheral nuclei"
+  ],
+  correctAnswer: "B. Fusiform with a single central nucleus and lacking striations",
+  explanation: "Smooth muscle cells are fusiform (spindle-shaped) with a single central nucleus, lack striations, and are under involuntary control."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "A neuron is composed of which three basic parts?",
+  options: [
+    "A. Cell body, dendrites, and axon",
+    "B. Cell body, myelin sheath, and synaptic vesicles",
+    "C. Axon, dendrites, and neuroglia",
+    "D. Nucleus, cytoplasm, and cell membrane"
+  ],
+  correctAnswer: "A. Cell body, dendrites, and axon",
+  explanation: "Each neuron has three basic parts: cell body (soma), one or more dendrites, and a single axon. Dendrites are afferent processes, and axons are efferent processes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Dendrites transmit impulses:",
+  options: [
+    "A. Away from the cell body",
+    "B. Toward the cell body",
+    "C. Between two axons",
+    "D. From the cell body to the synapse"
+  ],
+  correctAnswer: "B. Toward the cell body",
+  explanation: "Dendrites are afferent processes that transmit impulses to the neuron cell body. Axons are efferent processes that carry impulses away from the cell body."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Nissl bodies in neurons are composed of:",
+  options: [
+    "A. Rough endoplasmic reticulum and free ribosomes",
+    "B. Smooth endoplasmic reticulum",
+    "C. Mitochondria and Golgi apparatus",
+    "D. Microtubules and neurofilaments"
+  ],
+  correctAnswer: "A. Rough endoplasmic reticulum and free ribosomes",
+  explanation: "Nissl substance (Nissl bodies) consists of rough endoplasmic reticulum with rosettes of free ribosomes. These are the site of protein synthesis and appear as basophilic granules."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Myelin in the central nervous system (CNS) is produced by:",
+  options: [
+    "A. Schwann cells",
+    "B. Oligodendrocytes",
+    "C. Astrocytes",
+    "D. Microglia"
+  ],
+  correctAnswer: "B. Oligodendrocytes",
+  explanation: "In the CNS, oligodendrocytes produce myelin. In the peripheral nervous system, Schwann cells produce myelin."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Why do nerve fibers in the CNS not regenerate?",
+  options: [
+    "A. They lack a nucleus",
+    "B. There is no neurilemma",
+    "C. There is no blood supply",
+    "D. They are too myelinated"
+  ],
+  correctAnswer: "B. There is no neurilemma",
+  explanation: "In the CNS, there is no neurilemma (cytoplasm and membrane covering of Schwann cells), which is why fibers within the CNS do not regenerate. The neurilemma plays an important role in regeneration of nerve fibers in the PNS."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Pseudounipolar neurons are found in:",
+  options: [
+    "A. The retina",
+    "B. The olfactory mucosa",
+    "C. Spinal ganglia",
+    "D. The cerebellum"
+  ],
+  correctAnswer: "C. Spinal ganglia",
+  explanation: "Pseudounipolar neurons are found in spinal ganglia (sensory ganglia with spinal nerves) and in most cranial ganglia. They have a T-shaped process."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Bipolar neurons are found in the retina and olfactory mucosa and are characterized by:",
+  options: [
+    "A. One axon and many dendrites",
+    "B. A single T-shaped process",
+    "C. A dendrite at one end and an axon at the other",
+    "D. No axon"
+  ],
+  correctAnswer: "C. A dendrite at one end and an axon at the other",
+  explanation: "Bipolar neurons are spindle-shaped, with a dendrite at one end and an axon at the other. They serve the senses of sight, smell, and balance."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Fast axonal transport occurs at a rate of:",
+  options: [
+    "A. About 1 mm per day",
+    "B. About 100-200 mm per day",
+    "C. About 1 μm per day",
+    "D. About 1 cm per second"
+  ],
+  correctAnswer: "B. About 100-200 mm per day",
+  explanation: "Fast axonal transport occurs at about 100-200 mm per day and involves transport of enzymes needed for synthesis of neurotransmitters. Slow transport is about 1 mm per day."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Which neuroglial cell contributes to the blood-brain barrier?",
+  options: [
+    "A. Oligodendrocyte",
+    "B. Microglia",
+    "C. Astrocyte",
+    "D. Ependymal cell"
+  ],
+  correctAnswer: "C. Astrocyte",
+  explanation: "Astrocytes have many long processes that often terminate in 'pedicels' on blood capillaries and contribute to the blood-brain barrier."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Oligodendrocytes are responsible for:",
+  options: [
+    "A. Phagocytosis in the CNS",
+    "B. Myelin formation in the CNS",
+    "C. Lining the ventricles",
+    "D. Formation of the blood-brain barrier"
+  ],
+  correctAnswer: "B. Myelin formation in the CNS",
+  explanation: "Oligodendrocytes are responsible for the formation of the myelin sheath surrounding axons in the CNS. Schwann cells perform this function in the PNS."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Microglia function as:",
+  options: [
+    "A. Myelin producers",
+    "B. Macrophages in the CNS",
+    "C. Epithelial lining cells",
+    "D. Supporting cells in ganglia"
+  ],
+  correctAnswer: "B. Macrophages in the CNS",
+  explanation: "Microglia are found in both gray and white matter of the CNS and function as macrophages. They are derived from blood-borne monocytes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Ependymal cells line the:",
+  options: [
+    "A. Meninges of the brain",
+    "B. Ventricles of the brain and central canal of the spinal cord",
+    "C. Blood vessels of the brain",
+    "D. Subarachnoid space"
+  ],
+  correctAnswer: "B. Ventricles of the brain and central canal of the spinal cord",
+  explanation: "Ependymal cells line the internal cavities (ventricles) of the brain and central canal of the spinal cord. They are bathed in cerebrospinal fluid (CSF)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Multiple sclerosis is an autoimmune disease characterized by:",
+  options: [
+    "A. Loss of astrocytes",
+    "B. Demyelination of axons in the CNS",
+    "C. Proliferation of microglia only",
+    "D. Degeneration of motor neurons"
+  ],
+  correctAnswer: "B. Demyelination of axons in the CNS",
+  explanation: "In multiple sclerosis, the myelin sheaths surrounding axons are damaged by an autoimmune mechanism, interfering with neuron activity. T lymphocytes and microglia play major roles."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Satellite cells are found in:",
+  options: [
+    "A. The CNS",
+    "B. Peripheral ganglia",
+    "C. The ventricles of the brain",
+    "D. The choroid plexus"
+  ],
+  correctAnswer: "B. Peripheral ganglia",
+  explanation: "Satellite cells are restricted to ganglia where they cover and support the large neuronal cell bodies in the PNS. They are derived from the neural crest."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "A nerve is composed of many nerve fibers bound together by connective tissue. The layer surrounding individual nerve fibers is the:",
+  options: [
+    "A. Epineurium",
+    "B. Perineurium",
+    "C. Endoneurium",
+    "D. Neurilemma"
+  ],
+  correctAnswer: "C. Endoneurium",
+  explanation: "A nerve is surrounded by epineurium (outer layer), bundles by perineurium, and individual nerve fibers by endoneurium (loose connective tissue)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Type C nerve fibers are characterized as:",
+  options: [
+    "A. Myelinated and fast conducting",
+    "B. Unmyelinated and slow conducting",
+    "C. Myelinated and of medium diameter",
+    "D. Unmyelinated and fast conducting"
+  ],
+  correctAnswer: "B. Unmyelinated and slow conducting",
+  explanation: "Type C fibers are unmyelinated (0.2-1 μm) and conduct impulses at 0.2-2 m/s. They include autonomic and sensory fibers."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Chemical synapses involve the release of neurotransmitters across a synaptic cleft that is approximately:",
+  options: [
+    "A. 2 nm wide",
+    "B. 20 nm wide",
+    "C. 200 nm wide",
+    "D. 2 μm wide"
+  ],
+  correctAnswer: "B. 20 nm wide",
+  explanation: "The synaptic cleft in chemical synapses is about 20 nm wide. Neurotransmitters are released from synaptic vesicles into this cleft."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Acetylcholinesterase is an enzyme that:",
+  options: [
+    "A. Synthesizes acetylcholine",
+    "B. Breaks down acetylcholine in the synaptic cleft",
+    "C. Binds acetylcholine receptors",
+    "D. Transports acetylcholine across the membrane"
+  ],
+  correctAnswer: "B. Breaks down acetylcholine in the synaptic cleft",
+  explanation: "Acetylcholinesterase breaks down acetylcholine in the synaptic cleft, terminating the signal transmission at cholinergic synapses."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Dorsal root ganglia contain which type of neurons?",
+  options: [
+    "A. Multipolar neurons",
+    "B. Bipolar neurons",
+    "C. Pseudounipolar neurons",
+    "D. Anaxonic neurons"
+  ],
+  correctAnswer: "C. Pseudounipolar neurons",
+  explanation: "Neurons in dorsal root ganglia are pseudounipolar with a T-shaped process. The central branch connects to the CNS and the peripheral branch to the periphery."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Nervous Tissue",
+  type: "multiplechoice",
+  question: "Autonomic ganglia differ from dorsal root ganglia in that they contain:",
+  options: [
+    "A. Pseudounipolar neurons",
+    "B. Multipolar neurons",
+    "C. Bipolar neurons",
+    "D. Unipolar neurons"
+  ],
+  correctAnswer: "B. Multipolar neurons",
+  explanation: "Autonomic ganglia contain multipolar neurons, unlike dorsal root ganglia which contain pseudounipolar neurons. They have fewer satellite cells and are more evenly distributed."
+},
+
+// SECTION 21: Hematopoiesis (499-510)
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Which cell is the first identifiable progenitor of lymphoid cells?",
+  options: [
+    "A. Lymphocyte",
+    "B. Prolymphocyte",
+    "C. Lymphoblast",
+    "D. Plasmablast"
+  ],
+  correctAnswer: "C. Lymphoblast",
+  explanation: "The first identifiable progenitor of lymphoid cells is the lymphoblast, a large cell capable of dividing two or three times to form prolymphocytes."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Reticulocytes are immature erythrocytes that:",
+  options: [
+    "A. Have a nucleus and are fully mature",
+    "B. Still contain some organelles but no nucleus",
+    "C. Are incapable of carrying oxygen",
+    "D. Are found only in the spleen"
+  ],
+  correctAnswer: "B. Still contain some organelles but no nucleus",
+  explanation: "Reticulocytes are immature erythrocytes that still contain some organelles but have lost their nucleus. They remain for a few days in bone marrow or spleen to mature."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Erythropoietin, which stimulates red blood cell production, is produced mainly in the:",
+  options: [
+    "A. Liver",
+    "B. Spleen",
+    "C. Kidneys",
+    "D. Bone marrow"
+  ],
+  correctAnswer: "C. Kidneys",
+  explanation: "Erythropoietin is a glycoprotein produced mainly in the kidneys that stimulates the production of mRNA for globin, the protein component of the hemoglobin molecule."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "The process of granulopoiesis involves the production of two types of granules in which sequence?",
+  options: [
+    "A. Specific granules first, then azurophilic granules",
+    "B. Azurophilic granules first, then specific granules",
+    "C. Both simultaneously",
+    "D. Only specific granules are produced"
+  ],
+  correctAnswer: "B. Azurophilic granules first, then specific granules",
+  explanation: "Granulopoiesis involves cytoplasmic changes with synthesis of proteins packed in two organelles: first azurophilic granules (lysosomal enzymes), then specific granules (cell-type specific proteins)."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "A 'shift to the left' in a blood test indicates:",
+  options: [
+    "A. Increased lymphocyte count",
+    "B. Presence of immature neutrophils (band cells), often indicating infection",
+    "C. Decreased platelet count",
+    "D. Increased erythrocyte production"
+  ],
+  correctAnswer: "B. Presence of immature neutrophils (band cells), often indicating infection",
+  explanation: "The appearance of large numbers of immature neutrophils (band cells) in the blood is called a shift to the left and is clinically significant, usually indicating bacterial infection."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Megakaryocytes are large cells that fragment to form:",
+  options: [
+    "A. Erythrocytes",
+    "B. Leukocytes",
+    "C. Platelets (thrombocytes)",
+    "D. Lymphocytes"
+  ],
+  correctAnswer: "C. Platelets (thrombocytes)",
+  explanation: "Blood platelets originate in red bone marrow by fragmentation of the cytoplasm of mature megakaryoblasts. Megakaryocytes are very large cells with highly lobulated polyploid nuclei."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Thrombocytopenia is characterized by:",
+  options: [
+    "A. Increased platelet count",
+    "B. Reduced number of circulating platelets",
+    "C. Excessive bleeding due to platelet hyperactivity",
+    "D. Increased megakaryocyte production"
+  ],
+  correctAnswer: "B. Reduced number of circulating platelets",
+  explanation: "Thrombocytopenia is a reduction in the number of circulating platelets, often resulting from ineffective megakaryopoiesis due to deficiencies of folic acid or vitamin B₁₂."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Erythroblastosis fetalis occurs when:",
+  options: [
+    "A. A Rh-positive mother is immunized by Rh-negative fetal erythrocytes",
+    "B. A Rh-negative mother is immunized by Rh-positive fetal erythrocytes",
+    "C. There is a deficiency of vitamin B₁₂",
+    "D. There is excessive iron absorption"
+  ],
+  correctAnswer: "B. A Rh-negative mother is immunized by Rh-positive fetal erythrocytes",
+  explanation: "Erythroblastosis fetalis develops when a Rh-negative mother is immunized by erythrocytes of a Rh-positive fetus, showing erythrocyte precursors in peripheral blood during subsequent pregnancies."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "In newborns, what type of bone marrow is present?",
+  options: [
+    "A. Only yellow bone marrow",
+    "B. Only red bone marrow",
+    "C. Equal amounts of red and yellow",
+    "D. Mostly yellow with some red"
+  ],
+  correctAnswer: "B. Only red bone marrow",
+  explanation: "In newborns, all bone marrow is red and is therefore active in the production of blood cells. As the child grows, most changes gradually to the yellow variety."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Yellow bone marrow is dominated by:",
+  options: [
+    "A. Hematopoietic cells",
+    "B. Adipocytes",
+    "C. Osteoblasts",
+    "D. Lymphocytes"
+  ],
+  correctAnswer: "B. Adipocytes",
+  explanation: "Yellow bone marrow's color is produced by the presence of a great number of adipose cells. Under certain conditions like severe bleeding, it can be replaced by red marrow."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Growth factors in hematopoiesis act by:",
+  options: [
+    "A. Only inhibiting cell division",
+    "B. Stimulating proliferation, supporting differentiation, and enhancing mature cell functions",
+    "C. Only supporting differentiation",
+    "D. Only enhancing mature cell functions"
+  ],
+  correctAnswer: "B. Stimulating proliferation, supporting differentiation, and enhancing mature cell functions",
+  explanation: "Growth factors have complex, overlapping functions: (1) stimulating proliferation (mitogenic activity), (2) supporting differentiation, and (3) enhancing functions of mature cells."
+},
+{
+  course: "Histology",
+  topic: "General Histology",
+  subTopic: "Blood & Hematopoiesis",
+  type: "multiplechoice",
+  question: "Chronic myeloid leukemia is characterized by:",
+  options: [
+    "A. Presence of all types of granulocyte precursors in peripheral blood",
+    "B. Decreased white blood cell count",
+    "C. Only lymphocytes in peripheral blood",
+    "D. Absence of granulocyte precursors in bone marrow"
+  ],
+  correctAnswer: "A. Presence of all types of granulocyte precursors in peripheral blood",
+  explanation: "Chronic myeloid leukemia shows itself by the presence of all types of granulocyte precursors in peripheral blood."
+},
+    // ===== GROSS ANATOMY – LOWER LIMB ANATOMY =====
+
+  // SECTION 1: Nerve Formation and Root Values
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1401. The femoral nerve is formed by which divisions of which spinal segments?",
+    options: [
+      "A. Ventral divisions of L2, L3, L4",
+      "B. Dorsal divisions of L2, L3, L4",
+      "C. Ventral divisions of L4, L5, S1",
+      "D. Dorsal divisions of L4, L5, S1"
+    ],
+    correctAnswer: "B. Dorsal divisions of L2, L3, L4",
+    explanation: "The femoral nerve is formed by the dorsal divisions of the anterior primary rami of spinal nerves L2, 3, 4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1402. The obturator nerve is formed by which divisions of which spinal segments?",
+    options: [
+      "A. Ventral divisions of L2, L3, L4",
+      "B. Dorsal divisions of L2, L3, L4",
+      "C. Ventral divisions of L4, L5, S1",
+      "D. Dorsal divisions of L4, L5, S1"
+    ],
+    correctAnswer: "A. Ventral divisions of L2, L3, L4",
+    explanation: "The obturator nerve is formed by the ventral divisions of the anterior primary rami of spinal nerves L2, 3, 4."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1403. The tibial nerve is derived from which divisions of which spinal segments?",
+    options: [
+      "A. Ventral divisions of L4, L5, S1, S2, S3",
+      "B. Dorsal divisions of L4, L5, S1, S2, S3",
+      "C. Ventral divisions of L4, L5, S1, S2",
+      "D. Dorsal divisions of L4, L5, S1, S2"
+    ],
+    correctAnswer: "A. Ventral divisions of L4, L5, S1, S2, S3",
+    explanation: "The tibial nerve is formed by the ventral divisions of the ventral rami of L4, 5, S1, 2, 3."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1404. The common peroneal nerve is derived from which divisions of which spinal segments?",
+    options: [
+      "A. Ventral divisions of L4, L5, S1, S2, S3",
+      "B. Dorsal divisions of L4, L5, S1, S2, S3",
+      "C. Ventral divisions of L4, L5, S1, S2",
+      "D. Dorsal divisions of L4, L5, S1, S2"
+    ],
+    correctAnswer: "D. Dorsal divisions of L4, L5, S1, S2",
+    explanation: "The common peroneal nerve is formed by the dorsal divisions of the ventral rami of L4, 5, S1, 2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1405. The superior gluteal nerve is derived from which spinal segments?",
+    options: [
+      "A. L2, L3, L4",
+      "B. L4, L5, S1",
+      "C. L5, S1, S2",
+      "D. S1, S2, S3"
+    ],
+    correctAnswer: "B. L4, L5, S1",
+    explanation: "The superior gluteal nerve has a root value of L4, 5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1406. The inferior gluteal nerve is derived from which spinal segments?",
+    options: [
+      "A. L2, L3, L4",
+      "B. L4, L5, S1",
+      "C. L5, S1, S2",
+      "D. S1, S2, S3"
+    ],
+    correctAnswer: "C. L5, S1, S2",
+    explanation: "The inferior gluteal nerve has a root value of L5, S1, S2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1407. The pudendal nerve is derived from which spinal segments?",
+    options: [
+      "A. L4, L5, S1",
+      "B. L5, S1, S2",
+      "C. S1, S2, S3",
+      "D. S2, S3, S4"
+    ],
+    correctAnswer: "D. S2, S3, S4",
+    explanation: "The pudendal nerve is derived from S2, 3, 4 spinal segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1408. The nerve to the quadratus femoris is derived from which spinal segments?",
+    options: [
+      "A. L2, L3, L4",
+      "B. L4, L5, S1",
+      "C. L5, S1, S2",
+      "D. S1, S2, S3"
+    ],
+    correctAnswer: "B. L4, L5, S1",
+    explanation: "The nerve to the quadratus femoris has a root value of L4, 5, S1."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1409. The nerve to the obturator internus is derived from which spinal segments?",
+    options: [
+      "A. L2, L3, L4",
+      "B. L4, L5, S1",
+      "C. L5, S1, S2",
+      "D. S1, S2, S3"
+    ],
+    correctAnswer: "C. L5, S1, S2",
+    explanation: "The nerve to the obturator internus has a root value of L5, S1, S2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1410. The posterior cutaneous nerve of the thigh is derived from which spinal segments?",
+    options: [
+      "A. L2, L3, L4",
+      "B. L4, L5, S1",
+      "C. L5, S1, S2",
+      "D. S1, S2, S3"
+    ],
+    correctAnswer: "D. S1, S2, S3",
+    explanation: "The posterior cutaneous nerve of the thigh has a root value of S1, 2, 3."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1411. The sural nerve is formed from which spinal segments?",
+    options: [
+      "A. L3, L4",
+      "B. L4, L5",
+      "C. L5, S1, S2",
+      "D. S1, S2"
+    ],
+    correctAnswer: "C. L5, S1, S2",
+    explanation: "The sural nerve has a root value of L5, S1, 2."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1412. The medial plantar nerve is derived from which spinal segments?",
+    options: [
+      "A. L3, L4",
+      "B. L4, L5",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "B. L4, L5",
+    explanation: "The medial plantar nerve has a root value of L4, 5."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Formation and Root Values",
+    type: "multiplechoice",
+    question: "Question 1413. The lateral plantar nerve is derived from which spinal segments?",
+    options: [
+      "A. L4, L5",
+      "B. L5, S1",
+      "C. S1, S2",
+      "D. S2, S3"
+    ],
+    correctAnswer: "C. S1, S2",
+    explanation: "The lateral plantar nerve has a root value of S1, 2."
+  },
+
+  // SECTION 2: Muscle Innervation
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation",
+    type: "multiplechoice",
+    question: "Question 1414. Which muscle is supplied by the inferior gluteal nerve?",
+    options: [
+      "A. Gluteus medius",
+      "B. Gluteus minimus",
+      "C. Gluteus maximus",
+      "D. Tensor fasciae latae"
+    ],
+    correctAnswer: "C. Gluteus maximus",
+    explanation: "The inferior gluteal nerve supplies only the gluteus maximus muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation",
+    type: "multiplechoice",
+    question: "Question 1415. Which muscles are supplied by the superior gluteal nerve?",
+    options: [
+      "A. Gluteus maximus only",
+      "B. Gluteus medius and minimus only",
+      "C. Gluteus medius, minimus, and tensor fasciae latae",
+      "D. Piriformis and obturator internus"
+    ],
+    correctAnswer: "C. Gluteus medius, minimus, and tensor fasciae latae",
+    explanation: "The superior gluteal nerve supplies the gluteus medius, gluteus minimus, and tensor fasciae latae."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation",
+    type: "multiplechoice",
+    question: "Question 1416. Which muscles are supplied by the nerve to the obturator internus?",
+    options: [
+      "A. Obturator internus and superior gemellus",
+      "B. Obturator internus and inferior gemellus",
+      "C. Superior and inferior gemelli only",
+      "D. Obturator internus only"
+    ],
+    correctAnswer: "A. Obturator internus and superior gemellus",
+    explanation: "The nerve to the obturator internus supplies the obturator internus and the superior gemellus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation",
+    type: "multiplechoice",
+    question: "Question 1417. Which muscles are supplied by the nerve to the quadratus femoris?",
+    options: [
+      "A. Quadratus femoris and superior gemellus",
+      "B. Quadratus femoris and inferior gemellus",
+      "C. Quadratus femoris only",
+      "D. Quadratus femoris and gluteus maximus"
+    ],
+    correctAnswer: "B. Quadratus femoris and inferior gemellus",
+    explanation: "The nerve to the quadratus femoris supplies the quadratus femoris, inferior gemellus, and the hip joint."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation",
+    type: "multiplechoice",
+    question: "Question 1418. The pudendal nerve supplies which region?",
+    options: [
+      "A. Gluteal region",
+      "B. Posterior thigh",
+      "C. Perineum",
+      "D. Anterior thigh"
+    ],
+    correctAnswer: "C. Perineum",
+    explanation: "The pudendal nerve is the principal nerve to the perineum, supplying structures in this region."
+  },
+
+  // SECTION 3: Nerve Injuries and Characteristics
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1419. Which nerve is the thickest nerve in the body?",
+    options: [
+      "A. Femoral nerve",
+      "B. Sciatic nerve",
+      "C. Tibial nerve",
+      "D. Common peroneal nerve"
+    ],
+    correctAnswer: "B. Sciatic nerve",
+    explanation: "The sciatic nerve is the thickest nerve of the body, forming a band about 2 cm wide in its upper part."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1420. Which nerve is the longest cutaneous nerve in the body?",
+    options: [
+      "A. Sural nerve",
+      "B. Saphenous nerve",
+      "C. Superficial peroneal nerve",
+      "D. Posterior cutaneous nerve of thigh"
+    ],
+    correctAnswer: "B. Saphenous nerve",
+    explanation: "The saphenous nerve is the longest cutaneous nerve in the body, extending from the thigh to the medial side of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1421. Which nerve is the most frequently injured nerve in the lower limb?",
+    options: [
+      "A. Tibial nerve",
+      "B. Common peroneal nerve",
+      "C. Femoral nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Common peroneal nerve",
+    explanation: "The common peroneal nerve is the most frequently injured nerve in the lower limb because of its superficial position around the neck of the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1422. Injury to which nerve causes foot drop?",
+    options: [
+      "A. Tibial nerve",
+      "B. Common peroneal nerve",
+      "C. Femoral nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Common peroneal nerve",
+    explanation: "Injury to the common peroneal nerve causes foot drop with weakness of dorsiflexion of the ankle and of eversion of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1423. Injury to which nerve causes loss of sensation on the sole of the foot?",
+    options: [
+      "A. Common peroneal nerve",
+      "B. Deep peroneal nerve",
+      "C. Tibial nerve",
+      "D. Superficial peroneal nerve"
+    ],
+    correctAnswer: "C. Tibial nerve",
+    explanation: "Tibial nerve injury causes loss of sensation on the whole of the sole of the foot, plantar aspect of digits, and nail beds on the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1424. Injury to which nerve causes loss of sensation in the first interdigital cleft?",
+    options: [
+      "A. Tibial nerve",
+      "B. Common peroneal nerve",
+      "C. Deep peroneal nerve",
+      "D. Superficial peroneal nerve"
+    ],
+    correctAnswer: "C. Deep peroneal nerve",
+    explanation: "The deep peroneal nerve terminates by supplying the skin adjoining the cleft between the first and second toes. Injury causes sensory loss in this area."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1425. Injury to which nerve causes a positive Trendelenburg's sign?",
+    options: [
+      "A. Inferior gluteal nerve",
+      "B. Superior gluteal nerve",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "B. Superior gluteal nerve",
+    explanation: "Injury to the superior gluteal nerve causes paralysis of the gluteus medius and minimus, leading to a positive Trendelenburg's sign."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1426. Injury to which nerve causes paralysis of the gluteus maximus?",
+    options: [
+      "A. Superior gluteal nerve",
+      "B. Inferior gluteal nerve",
+      "C. Sciatic nerve",
+      "D. Pudendal nerve"
+    ],
+    correctAnswer: "B. Inferior gluteal nerve",
+    explanation: "The inferior gluteal nerve supplies the gluteus maximus only. Injury causes paralysis of this muscle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1427. Injury to the obturator nerve causes paralysis of which muscles?",
+    options: [
+      "A. Quadriceps femoris",
+      "B. Hamstring muscles",
+      "C. Adductor muscles",
+      "D. Gluteal muscles"
+    ],
+    correctAnswer: "C. Adductor muscles",
+    explanation: "The obturator nerve supplies the adductor muscles of the medial compartment of the thigh. Injury causes paralysis of these muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Characteristics",
+    type: "multiplechoice",
+    question: "Question 1428. Injury to the femoral nerve causes paralysis of which muscles?",
+    options: [
+      "A. Adductor muscles",
+      "B. Hamstring muscles",
+      "C. Quadriceps femoris",
+      "D. Gluteal muscles"
+    ],
+    correctAnswer: "C. Quadriceps femoris",
+    explanation: "The femoral nerve supplies the quadriceps femoris. Injury causes paralysis of knee extension."
+  },
+
+  // SECTION 4: Cutaneous Innervation
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Cutaneous Innervation",
+    type: "multiplechoice",
+    question: "Question 1429. Which nerve supplies the skin of the medial side of the leg and foot?",
+    options: [
+      "A. Sural nerve",
+      "B. Saphenous nerve",
+      "C. Superficial peroneal nerve",
+      "D. Deep peroneal nerve"
+    ],
+    correctAnswer: "B. Saphenous nerve",
+    explanation: "The saphenous nerve supplies the skin of the medial side of the leg and the medial border of the foot up to the ball of the great toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Cutaneous Innervation",
+    type: "multiplechoice",
+    question: "Question 1430. Which nerve supplies the skin of the lateral border of the foot?",
+    options: [
+      "A. Saphenous nerve",
+      "B. Sural nerve",
+      "C. Superficial peroneal nerve",
+      "D. Deep peroneal nerve"
+    ],
+    correctAnswer: "B. Sural nerve",
+    explanation: "The sural nerve supplies the skin of the whole of the lateral border of the foot up to the tip of the little toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Cutaneous Innervation",
+    type: "multiplechoice",
+    question: "Question 1431. Which nerve supplies the skin of most of the dorsum of the foot?",
+    options: [
+      "A. Saphenous nerve",
+      "B. Sural nerve",
+      "C. Superficial peroneal nerve",
+      "D. Deep peroneal nerve"
+    ],
+    correctAnswer: "C. Superficial peroneal nerve",
+    explanation: "The superficial peroneal nerve supplies most of the dorsum of the foot, except for specific areas supplied by other nerves."
+  },
+
+  // SECTION 5: Muscle Innervation by Specific Nerves
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation by Specific Nerves",
+    type: "multiplechoice",
+    question: "Question 1432. The deep peroneal nerve supplies which muscles?",
+    options: [
+      "A. Peroneus longus and brevis",
+      "B. Tibialis anterior, extensor hallucis longus, extensor digitorum longus",
+      "C. Gastrocnemius and soleus",
+      "D. Flexor hallucis longus and flexor digitorum longus"
+    ],
+    correctAnswer: "B. Tibialis anterior, extensor hallucis longus, extensor digitorum longus",
+    explanation: "The deep peroneal nerve supplies the muscles of the anterior compartment: tibialis anterior, extensor hallucis longus, extensor digitorum longus, and peroneus tertius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation by Specific Nerves",
+    type: "multiplechoice",
+    question: "Question 1433. The superficial peroneal nerve supplies which muscles?",
+    options: [
+      "A. Tibialis anterior and extensor hallucis longus",
+      "B. Peroneus longus and brevis",
+      "C. Gastrocnemius and soleus",
+      "D. Flexor hallucis longus and flexor digitorum longus"
+    ],
+    correctAnswer: "B. Peroneus longus and brevis",
+    explanation: "The superficial peroneal nerve supplies both peroneus longus and brevis muscles."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation by Specific Nerves",
+    type: "multiplechoice",
+    question: "Question 1434. The tibial nerve supplies which muscles?",
+    options: [
+      "A. All muscles of the anterior compartment",
+      "B. All muscles of the lateral compartment",
+      "C. All muscles of the posterior compartment",
+      "D. All muscles of the dorsum of the foot"
+    ],
+    correctAnswer: "C. All muscles of the posterior compartment",
+    explanation: "The tibial nerve supplies all muscles of the posterior compartment of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation by Specific Nerves",
+    type: "multiplechoice",
+    question: "Question 1435. The medial plantar nerve supplies how many intrinsic muscles of the sole?",
+    options: [
+      "A. 4",
+      "B. 7",
+      "C. 10",
+      "D. 14"
+    ],
+    correctAnswer: "A. 4",
+    explanation: "The medial plantar nerve supplies 4 intrinsic muscles: abductor hallucis, flexor digitorum brevis, flexor hallucis brevis, and first lumbrical."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Innervation by Specific Nerves",
+    type: "multiplechoice",
+    question: "Question 1436. The lateral plantar nerve supplies how many intrinsic muscles of the sole?",
+    options: [
+      "A. 4",
+      "B. 7",
+      "C. 10",
+      "D. 14"
+    ],
+    correctAnswer: "D. 14",
+    explanation: "The lateral plantar nerve supplies 14 intrinsic muscles of the sole through its superficial and deep branches."
+  },
+
+  // SECTION 6: Arteries of Lower Limb
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1437. Which artery is the continuation of the external iliac artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Profunda femoris artery",
+      "D. Obturator artery"
+    ],
+    correctAnswer: "A. Femoral artery",
+    explanation: "The femoral artery is the continuation of the external iliac artery, beginning behind the inguinal ligament at the midinguinal point."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1438. The femoral artery terminates as which artery?",
+    options: [
+      "A. Anterior tibial artery",
+      "B. Posterior tibial artery",
+      "C. Popliteal artery",
+      "D. Profunda femoris artery"
+    ],
+    correctAnswer: "C. Popliteal artery",
+    explanation: "The femoral artery passes through the opening in the adductor magnus to become continuous with the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1439. Which artery is the largest branch of the femoral artery?",
+    options: [
+      "A. Superficial external pudendal",
+      "B. Superficial epigastric",
+      "C. Deep external pudendal",
+      "D. Profunda femoris"
+    ],
+    correctAnswer: "D. Profunda femoris",
+    explanation: "The profunda femoris artery is the largest branch of the femoral artery and the chief artery of supply to all three compartments of the thigh."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1440. The medial circumflex femoral artery arises from which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Profunda femoris artery",
+      "C. Obturator artery",
+      "D. Popliteal artery"
+    ],
+    correctAnswer: "B. Profunda femoris artery",
+    explanation: "The medial circumflex femoral artery arises from the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1441. The lateral circumflex femoral artery arises from which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Profunda femoris artery",
+      "C. Obturator artery",
+      "D. Popliteal artery"
+    ],
+    correctAnswer: "B. Profunda femoris artery",
+    explanation: "The lateral circumflex femoral artery arises from the profunda femoris artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1442. The anterior tibial artery enters the anterior compartment through which structure?",
+    options: [
+      "A. Adductor hiatus",
+      "B. Interosseous membrane",
+      "C. Flexor retinaculum",
+      "D. Extensor retinaculum"
+    ],
+    correctAnswer: "B. Interosseous membrane",
+    explanation: "The anterior tibial artery enters the anterior compartment by passing through an opening in the upper part of the interosseous membrane."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1443. The dorsalis pedis artery is a continuation of which artery?",
+    options: [
+      "A. Posterior tibial artery",
+      "B. Anterior tibial artery",
+      "C. Peroneal artery",
+      "D. Popliteal artery"
+    ],
+    correctAnswer: "B. Anterior tibial artery",
+    explanation: "The dorsalis pedis artery is a continuation of the anterior tibial artery onto the dorsum of the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1444. The posterior tibial artery terminates as which arteries?",
+    options: [
+      "A. Anterior and posterior tibial",
+      "B. Medial and lateral plantar",
+      "C. Dorsalis pedis and plantar",
+      "D. Peroneal and tibial"
+    ],
+    correctAnswer: "B. Medial and lateral plantar",
+    explanation: "The posterior tibial artery terminates by dividing into the medial and lateral plantar arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1445. Which artery is the largest branch of the posterior tibial artery?",
+    options: [
+      "A. Medial plantar artery",
+      "B. Lateral plantar artery",
+      "C. Peroneal artery",
+      "D. Anterior tibial artery"
+    ],
+    correctAnswer: "C. Peroneal artery",
+    explanation: "The peroneal artery is the largest branch of the posterior tibial artery, supplying the posterior and lateral compartments of the leg."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arteries of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1446. The perforating branch of the peroneal artery pierces the interosseous membrane at what level?",
+    options: [
+      "A. 2 cm above the ankle",
+      "B. 4 cm above the ankle",
+      "C. 6 cm above the ankle",
+      "D. 8 cm above the ankle"
+    ],
+    correctAnswer: "B. 4 cm above the ankle",
+    explanation: "The perforating branch of the peroneal artery pierces the interosseous membrane 4 cm above the ankle."
+  },
+
+  // SECTION 7: Veins of Lower Limb
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1447. The great saphenous vein drains into which vein?",
+    options: [
+      "A. Popliteal vein",
+      "B. Femoral vein",
+      "C. External iliac vein",
+      "D. Internal iliac vein"
+    ],
+    correctAnswer: "B. Femoral vein",
+    explanation: "The great saphenous vein pierces the cribriform fascia and opens into the femoral vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1448. The small saphenous vein drains into which vein?",
+    options: [
+      "A. Femoral vein",
+      "B. Great saphenous vein",
+      "C. Popliteal vein",
+      "D. External iliac vein"
+    ],
+    correctAnswer: "C. Popliteal vein",
+    explanation: "The small saphenous vein pierces the deep fascia in the lower part of the popliteal fossa and opens into the popliteal vein."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1449. How many valves does the great saphenous vein typically contain?",
+    options: [
+      "A. 5-8",
+      "B. 10-15",
+      "C. 15-20",
+      "D. 20-25"
+    ],
+    correctAnswer: "B. 10-15",
+    explanation: "The great saphenous vein contains about 10 to 15 valves which prevent backflow of the venous blood."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Veins of Lower Limb",
+    type: "multiplechoice",
+    question: "Question 1450. How many valves does the small saphenous vein typically contain?",
+    options: [
+      "A. 5-8",
+      "B. 8-10",
+      "C. 10-15",
+      "D. 15-20"
+    ],
+    correctAnswer: "B. 8-10",
+    explanation: "The small saphenous vein contains about 8 to 10 valves."
+  },
+
+  // SECTION 8: Lymphatics
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lymphatics",
+    type: "multiplechoice",
+    question: "Question 1451. The superficial inguinal lymph nodes are divided into how many groups?",
+    options: [
+      "A. Two",
+      "B. Three",
+      "C. Four",
+      "D. Five"
+    ],
+    correctAnswer: "B. Three",
+    explanation: "The superficial inguinal lymph nodes are divided into three sets: lower vertical group, upper lateral group, and upper medial group."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lymphatics",
+    type: "multiplechoice",
+    question: "Question 1452. Which group of superficial inguinal lymph nodes drains most of the lower limb?",
+    options: [
+      "A. Upper lateral group",
+      "B. Upper medial group",
+      "C. Lower vertical group",
+      "D. Deep inguinal group"
+    ],
+    correctAnswer: "C. Lower vertical group",
+    explanation: "The lower vertical group drains lymph from most of the lower limb (great saphenous territory)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lymphatics",
+    type: "multiplechoice",
+    question: "Question 1453. Which group of superficial inguinal lymph nodes drains the external genitalia?",
+    options: [
+      "A. Lower vertical group",
+      "B. Upper lateral group",
+      "C. Upper medial group",
+      "D. Deep inguinal group"
+    ],
+    correctAnswer: "C. Upper medial group",
+    explanation: "The upper medial group drains the perineum, including external genitalia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lymphatics",
+    type: "multiplechoice",
+    question: "Question 1454. The gland of Cloquet is located in which structure?",
+    options: [
+      "A. Femoral triangle",
+      "B. Adductor canal",
+      "C. Femoral canal",
+      "D. Popliteal fossa"
+    ],
+    correctAnswer: "C. Femoral canal",
+    explanation: "The gland of Cloquet is the most proximal deep inguinal lymph node and lies in the femoral canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Lymphatics",
+    type: "multiplechoice",
+    question: "Question 1455. What is the most common cause of elephantiasis of the lower limb?",
+    options: [
+      "A. Deep vein thrombosis",
+      "B. Lymphatic obstruction from filaria",
+      "C. Arterial occlusion",
+      "D. Varicose veins"
+    ],
+    correctAnswer: "B. Lymphatic obstruction from filaria",
+    explanation: "Elephantiasis is caused by lymphatic obstruction from the parasite filaria."
+  },
+
+  // SECTION 9: Anatomical Comparisons and Axes
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1456. The preaxial border of the lower limb is represented by which structures?",
+    options: [
+      "A. Great toe and tibia",
+      "B. Little toe and fibula",
+      "C. Great toe and fibula",
+      "D. Little toe and tibia"
+    ],
+    correctAnswer: "A. Great toe and tibia",
+    explanation: "The great toe and tibia lie along the preaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1457. The postaxial border of the lower limb is represented by which structures?",
+    options: [
+      "A. Great toe and tibia",
+      "B. Little toe and fibula",
+      "C. Great toe and fibula",
+      "D. Little toe and tibia"
+    ],
+    correctAnswer: "B. Little toe and fibula",
+    explanation: "The little toe and fibula lie along the postaxial border of the lower limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1458. The myotome for the quadriceps femoris is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. L5, S1"
+    ],
+    correctAnswer: "B. L3, L4",
+    explanation: "The quadriceps femoris is primarily supplied by L3, L4 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1459. The myotome for the gluteus medius is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. L5, S1"
+    ],
+    correctAnswer: "D. L5, S1",
+    explanation: "The gluteus medius and minimus are primarily supplied by L5, S1 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1460. The myotome for the gluteus maximus is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. S1, S2"
+    ],
+    correctAnswer: "D. S1, S2",
+    explanation: "The gluteus maximus is primarily supplied by S1, S2 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1461. The myotome for the hamstring muscles is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "C. L5, S1",
+    explanation: "The hamstring muscles (knee flexors) are supplied by L5, S1 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1462. The myotome for the gastrocnemius and soleus is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. S1, S2"
+    ],
+    correctAnswer: "D. S1, S2",
+    explanation: "The gastrocnemius and soleus are primarily supplied by S1, S2 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1463. The myotome for ankle dorsiflexors is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. L5, S1"
+    ],
+    correctAnswer: "C. L4, L5",
+    explanation: "Ankle dorsiflexors are supplied by L4, L5 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1464. The myotome for ankle plantarflexors is primarily which segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L4, L5",
+      "D. S1, S2"
+    ],
+    correctAnswer: "D. S1, S2",
+    explanation: "Ankle plantarflexors are supplied by S1, S2 segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1465. Lumbar sympathectomy for occlusive arterial disease involves removal of which ganglia?",
+    options: [
+      "A. L1 and L2",
+      "B. L2, L3, and L4",
+      "C. L3, L4, and L5",
+      "D. L1, L2, and L3"
+    ],
+    correctAnswer: "B. L2, L3, and L4",
+    explanation: "Sympathectomy involves removal of L2, L3, and L4 ganglia. L1 is preserved."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1466. Why is the L1 ganglion preserved during lumbar sympathectomy?",
+    options: [
+      "A. It controls blood pressure",
+      "B. It controls the proximal urethral sphincter mechanism",
+      "C. It controls leg movement",
+      "D. It controls sweating"
+    ],
+    correctAnswer: "B. It controls the proximal urethral sphincter mechanism",
+    explanation: "The L1 ganglion is preserved because it controls the proximal urethral sphincter mechanism. Its removal is followed by dry coitus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1467. The sympathetic innervation of the lower limb is derived from which segments?",
+    options: [
+      "A. T1-T5",
+      "B. T6-T9",
+      "C. T10-L2",
+      "D. L3-L5"
+    ],
+    correctAnswer: "C. T10-L2",
+    explanation: "Sympathetic innervation of the lower limb is derived from T10 to L2 segments of the spinal cord."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1468. The anterior tibial artery corresponds to which artery in the upper limb?",
+    options: [
+      "A. Radial artery",
+      "B. Ulnar artery",
+      "C. Brachial artery",
+      "D. Interosseous artery"
+    ],
+    correctAnswer: "A. Radial artery",
+    explanation: "The anterior tibial artery corresponds to the radial artery in the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1469. The posterior tibial artery corresponds to which artery in the upper limb?",
+    options: [
+      "A. Radial artery",
+      "B. Ulnar artery",
+      "C. Brachial artery",
+      "D. Interosseous artery"
+    ],
+    correctAnswer: "B. Ulnar artery",
+    explanation: "The posterior tibial artery corresponds to the ulnar artery in the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1470. The great saphenous vein corresponds to which vein in the upper limb?",
+    options: [
+      "A. Basilic vein",
+      "B. Cephalic vein",
+      "C. Median cubital vein",
+      "D. Axillary vein"
+    ],
+    correctAnswer: "B. Cephalic vein",
+    explanation: "The great saphenous vein lies along the preaxial border, corresponding to the cephalic vein in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1471. The small saphenous vein corresponds to which vein in the upper limb?",
+    options: [
+      "A. Basilic vein",
+      "B. Cephalic vein",
+      "C. Median cubital vein",
+      "D. Axillary vein"
+    ],
+    correctAnswer: "A. Basilic vein",
+    explanation: "The small saphenous vein lies along the postaxial border, corresponding to the basilic vein in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1472. The tibia corresponds to which bone in the upper limb?",
+    options: [
+      "A. Radius",
+      "B. Ulna",
+      "C. Humerus",
+      "D. Carpal bone"
+    ],
+    correctAnswer: "A. Radius",
+    explanation: "The tibia is the preaxial bone of the lower limb, corresponding to the radius in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1473. The fibula corresponds to which bone in the upper limb?",
+    options: [
+      "A. Radius",
+      "B. Ulna",
+      "C. Humerus",
+      "D. Carpal bone"
+    ],
+    correctAnswer: "B. Ulna",
+    explanation: "The fibula is the postaxial bone of the lower limb, corresponding to the ulna in the upper limb."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1474. The medial plantar nerve corresponds to which nerve in the hand?",
+    options: [
+      "A. Median nerve",
+      "B. Ulnar nerve",
+      "C. Radial nerve",
+      "D. Musculocutaneous nerve"
+    ],
+    correctAnswer: "A. Median nerve",
+    explanation: "The medial plantar nerve corresponds to the median nerve of the hand in its distribution."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1475. The lateral plantar nerve corresponds to which nerve in the hand?",
+    options: [
+      "A. Median nerve",
+      "B. Ulnar nerve",
+      "C. Radial nerve",
+      "D. Musculocutaneous nerve"
+    ],
+    correctAnswer: "B. Ulnar nerve",
+    explanation: "The lateral plantar nerve corresponds to the ulnar nerve of the hand in its distribution."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1476. The soleus muscle corresponds to which muscle in the forearm?",
+    options: [
+      "A. Flexor digitorum superficialis",
+      "B. Flexor digitorum profundus",
+      "C. Flexor pollicis longus",
+      "D. Pronator teres"
+    ],
+    correctAnswer: "A. Flexor digitorum superficialis",
+    explanation: "The soleus is homologous with the flexor digitorum superficialis of the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1477. The flexor digitorum longus corresponds to which muscle in the forearm?",
+    options: [
+      "A. Flexor digitorum superficialis",
+      "B. Flexor digitorum profundus",
+      "C. Flexor pollicis longus",
+      "D. Pronator teres"
+    ],
+    correctAnswer: "B. Flexor digitorum profundus",
+    explanation: "The flexor digitorum longus corresponds to the flexor digitorum profundus in the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1478. The flexor hallucis longus corresponds to which muscle in the forearm?",
+    options: [
+      "A. Flexor digitorum superficialis",
+      "B. Flexor digitorum profundus",
+      "C. Flexor pollicis longus",
+      "D. Pronator teres"
+    ],
+    correctAnswer: "C. Flexor pollicis longus",
+    explanation: "The flexor hallucis longus corresponds to the flexor pollicis longus in the forearm."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1479. The axis of adduction and abduction in the foot passes through which digit?",
+    options: [
+      "A. First toe",
+      "B. Second toe",
+      "C. Third toe",
+      "D. Fourth toe"
+    ],
+    correctAnswer: "B. Second toe",
+    explanation: "The axis of movement of adduction and abduction in the foot passes through the second digit."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1480. The axis of adduction and abduction in the hand passes through which digit?",
+    options: [
+      "A. Index finger",
+      "B. Middle finger",
+      "C. Ring finger",
+      "D. Thumb"
+    ],
+    correctAnswer: "B. Middle finger",
+    explanation: "The axis of movement of adduction and abduction in the hand passes through the third digit (middle finger)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1481. How many dorsal interossei muscles are there in the foot?",
+    options: [
+      "A. Two",
+      "B. Three",
+      "C. Four",
+      "D. Five"
+    ],
+    correctAnswer: "C. Four",
+    explanation: "There are four dorsal interossei muscles in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1482. How many plantar interossei muscles are there in the foot?",
+    options: [
+      "A. Two",
+      "B. Three",
+      "C. Four",
+      "D. Five"
+    ],
+    correctAnswer: "B. Three",
+    explanation: "There are three plantar interossei muscles in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1483. How many lumbrical muscles are there in the foot?",
+    options: [
+      "A. Two",
+      "B. Three",
+      "C. Four",
+      "D. Five"
+    ],
+    correctAnswer: "C. Four",
+    explanation: "There are four lumbrical muscles in the foot."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Anatomical Comparisons and Axes",
+    type: "multiplechoice",
+    question: "Question 1484. How many layers of muscles are there in the sole of the foot?",
+    options: [
+      "A. Two",
+      "B. Three",
+      "C. Four",
+      "D. Five"
+    ],
+    correctAnswer: "C. Four",
+    explanation: "The muscles of the sole are arranged in four layers."
+  },
+
+  // SECTION 10: Muscle Compartments and Borders
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1485. Which muscle is the most superficial of the adductor compartment?",
+    options: [
+      "A. Adductor longus",
+      "B. Adductor brevis",
+      "C. Adductor magnus",
+      "D. Gracilis"
+    ],
+    correctAnswer: "D. Gracilis",
+    explanation: "The gracilis is the most superficial muscle of the adductor compartment."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1486. The femoral triangle is bounded laterally by which muscle?",
+    options: [
+      "A. Adductor longus",
+      "B. Sartorius",
+      "C. Pectineus",
+      "D. Gracilis"
+    ],
+    correctAnswer: "B. Sartorius",
+    explanation: "The femoral triangle is bounded laterally by the medial border of the sartorius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1487. The femoral triangle is bounded medially by which muscle?",
+    options: [
+      "A. Sartorius",
+      "B. Adductor longus",
+      "C. Pectineus",
+      "D. Gracilis"
+    ],
+    correctAnswer: "B. Adductor longus",
+    explanation: "The femoral triangle is bounded medially by the medial border of the adductor longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1488. The floor of the femoral triangle is formed by which muscles?",
+    options: [
+      "A. Sartorius and gracilis",
+      "B. Adductor longus and pectineus",
+      "C. Iliopsoas and pectineus",
+      "D. Quadriceps and hamstrings"
+    ],
+    correctAnswer: "C. Iliopsoas and pectineus",
+    explanation: "The floor of the femoral triangle is formed medially by the adductor longus and pectineus, and laterally by the psoas major and iliacus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1489. The femoral sheath contains which structures?",
+    options: [
+      "A. Femoral nerve, artery, and vein",
+      "B. Femoral artery, vein, and femoral canal",
+      "C. Femoral nerve, artery, and femoral canal",
+      "D. Femoral artery, vein, and lymph nodes only"
+    ],
+    correctAnswer: "B. Femoral artery, vein, and femoral canal",
+    explanation: "The femoral sheath encloses the femoral artery, femoral vein, and the femoral canal. The femoral nerve lies outside the sheath."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1490. The femoral ring is bounded medially by which structure?",
+    options: [
+      "A. Inguinal ligament",
+      "B. Lacunar ligament",
+      "C. Femoral vein",
+      "D. Pectineus"
+    ],
+    correctAnswer: "B. Lacunar ligament",
+    explanation: "The femoral ring is bounded medially by the lacunar ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1491. The femoral ring is bounded anteriorly by which structure?",
+    options: [
+      "A. Inguinal ligament",
+      "B. Lacunar ligament",
+      "C. Femoral vein",
+      "D. Pectineus"
+    ],
+    correctAnswer: "A. Inguinal ligament",
+    explanation: "The femoral ring is bounded anteriorly by the inguinal ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Compartments and Borders",
+    type: "multiplechoice",
+    question: "Question 1492. The femoral ring is bounded posteriorly by which structure?",
+    options: [
+      "A. Inguinal ligament",
+      "B. Lacunar ligament",
+      "C. Femoral vein",
+      "D. Pectineus"
+    ],
+    correctAnswer: "D. Pectineus",
+    explanation: "The femoral ring is bounded posteriorly by the pectineus and its covering fascia."
+  },
+
+  // SECTION 11: Popliteal Fossa and Genicular Structures
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1493. The adductor canal is also known as:",
+    options: [
+      "A. Hunter's canal",
+      "B. Femoral canal",
+      "C. Subsartorial canal",
+      "D. Both A and C"
+    ],
+    correctAnswer: "D. Both A and C",
+    explanation: "The adductor canal is also called the subsartorial canal or Hunter's canal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1494. The popliteal fossa is a diamond-shaped depression best felt when the knee is:",
+    options: [
+      "A. Fully extended",
+      "B. Semi-flexed",
+      "C. Fully flexed",
+      "D. Hyperextended"
+    ],
+    correctAnswer: "B. Semi-flexed",
+    explanation: "The popliteal fossa is felt best at the back of the knee joint when the joint is semi-flexed."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1495. The superolateral boundary of the popliteal fossa is formed by which muscle?",
+    options: [
+      "A. Semitendinosus",
+      "B. Semimembranosus",
+      "C. Biceps femoris",
+      "D. Gastrocnemius"
+    ],
+    correctAnswer: "C. Biceps femoris",
+    explanation: "The superolateral boundary of the popliteal fossa is formed by the biceps femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1496. The inferomedial boundary of the popliteal fossa is formed by which muscle?",
+    options: [
+      "A. Biceps femoris",
+      "B. Semitendinosus",
+      "C. Medial head of gastrocnemius",
+      "D. Lateral head of gastrocnemius"
+    ],
+    correctAnswer: "C. Medial head of gastrocnemius",
+    explanation: "The inferomedial boundary of the popliteal fossa is formed by the medial head of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1497. The floor of the popliteal fossa is formed by all of the following EXCEPT:",
+    options: [
+      "A. Popliteal surface of the femur",
+      "B. Capsule of the knee joint",
+      "C. Biceps femoris",
+      "D. Popliteus muscle"
+    ],
+    correctAnswer: "C. Biceps femoris",
+    explanation: "The floor is formed by the popliteal surface of the femur, the capsule of the knee joint, and the popliteus muscle. The biceps femoris forms a boundary."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1498. In the upper part of the popliteal fossa, from medial to lateral side, the arrangement is:",
+    options: [
+      "A. Nerve, vein, artery",
+      "B. Artery, vein, nerve",
+      "C. Vein, artery, nerve",
+      "D. Nerve, artery, vein"
+    ],
+    correctAnswer: "B. Artery, vein, nerve",
+    explanation: "In the upper part of the popliteal fossa, from medial to lateral side, the arrangement is artery, vein, and nerve (A, V, N)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1499. In the middle part of the popliteal fossa, from behind forwards, the arrangement is:",
+    options: [
+      "A. Nerve, vein, artery",
+      "B. Artery, vein, nerve",
+      "C. Vein, artery, nerve",
+      "D. Nerve, artery, vein"
+    ],
+    correctAnswer: "A. Nerve, vein, artery",
+    explanation: "In the middle part of the popliteal fossa, from behind forwards, the arrangement is nerve, vein, and artery (N, V, A)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Popliteal Fossa and Genicular Structures",
+    type: "multiplechoice",
+    question: "Question 1500. The middle genicular artery supplies which structures?",
+    options: [
+      "A. Quadriceps and patella",
+      "B. Cruciate ligaments and synovial membrane",
+      "C. Collateral ligaments",
+      "D. Menisci only"
+    ],
+    correctAnswer: "B. Cruciate ligaments and synovial membrane",
+    explanation: "The middle genicular artery supplies the cruciate ligaments and the synovial membrane of the knee joint."
+  },
+
+  // SECTION 12: Nerve Injuries and Reflexes
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Reflexes",
+    type: "multiplechoice",
+    question: "Question 1501. The common peroneal nerve is most vulnerable to injury at which location?",
+    options: [
+      "A. Head of the fibula",
+      "B. Neck of the fibula",
+      "C. Lateral malleolus",
+      "D. Medial malleolus"
+    ],
+    correctAnswer: "B. Neck of the fibula",
+    explanation: "The common peroneal nerve winds around the posterolateral aspect of the neck of the fibula and is most commonly injured at this location."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Reflexes",
+    type: "multiplechoice",
+    question: "Question 1502. The sural nerve is formed by the union of which nerves?",
+    options: [
+      "A. Tibial and common peroneal",
+      "B. Medial sural cutaneous and sural communicating",
+      "C. Superficial and deep peroneal",
+      "D. Femoral and obturator"
+    ],
+    correctAnswer: "B. Medial sural cutaneous and sural communicating",
+    explanation: "The sural nerve is formed by the union of the medial sural cutaneous nerve from the tibial nerve and the peroneal communicating nerve from the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Reflexes",
+    type: "multiplechoice",
+    question: "Question 1503. The knee jerk reflex tests which spinal segments?",
+    options: [
+      "A. L2, L3",
+      "B. L3, L4",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "B. L3, L4",
+    explanation: "The patellar tendon reflex (knee jerk) tests the integrity of the femoral nerve and the L3, L4 spinal segments."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Injuries and Reflexes",
+    type: "multiplechoice",
+    question: "Question 1504. The calcaneal tendon reflex tests which spinal segments?",
+    options: [
+      "A. L3, L4",
+      "B. L4, L5",
+      "C. L5, S1",
+      "D. S1, S2"
+    ],
+    correctAnswer: "D. S1, S2",
+    explanation: "The calcaneal tendon reflex (ankle jerk) tests the S1 and S2 nerve roots."
+  },
+
+  // SECTION 13: Joints and Arches
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1505. The ankle joint is most stable in which position?",
+    options: [
+      "A. Plantar flexion",
+      "B. Dorsiflexion",
+      "C. Inversion",
+      "D. Eversion"
+    ],
+    correctAnswer: "B. Dorsiflexion",
+    explanation: "The ankle joint is most stable during dorsiflexion because the wider anterior part of the talus fits tightly in the mortise."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1506. Which ligament of the ankle is most commonly injured?",
+    options: [
+      "A. Deltoid ligament",
+      "B. Anterior talofibular ligament",
+      "C. Calcaneofibular ligament",
+      "D. Posterior talofibular ligament"
+    ],
+    correctAnswer: "B. Anterior talofibular ligament",
+    explanation: "The anterior talofibular ligament is the most commonly torn ligament during ankle sprains."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1507. The spring ligament is also known as the:",
+    options: [
+      "A. Long plantar ligament",
+      "B. Short plantar ligament",
+      "C. Plantar calcaneonavicular ligament",
+      "D. Plantar calcaneocuboid ligament"
+    ],
+    correctAnswer: "C. Plantar calcaneonavicular ligament",
+    explanation: "The spring ligament is also called the plantar calcaneonavicular ligament."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1508. The key stone of the medial longitudinal arch is the:",
+    options: [
+      "A. Calcaneus",
+      "B. Talus",
+      "C. Navicular",
+      "D. Cuboid"
+    ],
+    correctAnswer: "B. Talus",
+    explanation: "The key stone of the medial longitudinal arch is the talus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1509. The key stone of the lateral longitudinal arch is the:",
+    options: [
+      "A. Calcaneus",
+      "B. Talus",
+      "C. Navicular",
+      "D. Cuboid"
+    ],
+    correctAnswer: "D. Cuboid",
+    explanation: "The key stone of the lateral longitudinal arch is the cuboid."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joints and Arches",
+    type: "multiplechoice",
+    question: "Question 1510. The commonest type of clubfoot is:",
+    options: [
+      "A. Talipes calcaneus",
+      "B. Talipes equinus",
+      "C. Talipes equinovarus",
+      "D. Talipes valgus"
+    ],
+    correctAnswer: "C. Talipes equinovarus",
+    explanation: "The commonest deformity of the foot is talipes equinovarus (clubfoot)."
+  },
+
+  // SECTION 14: Pulses and Clinical Tests
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1511. The femoral pulse can be palpated at which point?",
+    options: [
+      "A. Midpoint between ASIS and pubic symphysis",
+      "B. Midpoint of the inguinal ligament",
+      "C. Pubic tubercle",
+      "D. Anterior superior iliac spine"
+    ],
+    correctAnswer: "A. Midpoint between ASIS and pubic symphysis",
+    explanation: "The femoral pulse can be palpated at the midinguinal point, midway between the ASIS and the pubic symphysis."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1512. The posterior tibial pulse can be palpated:",
+    options: [
+      "A. On the dorsum of the foot",
+      "B. Between the medial malleolus and calcaneal tendon",
+      "C. In the popliteal fossa",
+      "D. At the midinguinal point"
+    ],
+    correctAnswer: "B. Between the medial malleolus and calcaneal tendon",
+    explanation: "The posterior tibial pulse can be palpated between the medial malleolus and the calcaneal tendon."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1513. The dorsalis pedis pulse can be palpated:",
+    options: [
+      "A. Between medial malleolus and calcaneal tendon",
+      "B. On the dorsum of the foot, lateral to extensor hallucis longus",
+      "C. In the popliteal fossa",
+      "D. At the midinguinal point"
+    ],
+    correctAnswer: "B. On the dorsum of the foot, lateral to extensor hallucis longus",
+    explanation: "The dorsalis pedis pulse is palpated on the dorsum of the foot, lateral to the tendon of extensor hallucis longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1514. Blood pressure in the lower limb is recorded by auscultation of which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Posterior tibial artery",
+      "D. Dorsalis pedis artery"
+    ],
+    correctAnswer: "B. Popliteal artery",
+    explanation: "Blood pressure in the lower limb is recorded by auscultating the deeply placed popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1515. Venesection (cut open) is performed on which vein?",
+    options: [
+      "A. Small saphenous vein",
+      "B. Great saphenous vein",
+      "C. Popliteal vein",
+      "D. Femoral vein"
+    ],
+    correctAnswer: "B. Great saphenous vein",
+    explanation: "The great saphenous vein is used for venesection as it lies anterior to the medial malleolus and its position is constant."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1516. The saphenous nerve should be avoided during venesection because it lies:",
+    options: [
+      "A. Posterior to the great saphenous vein",
+      "B. Anterior to the great saphenous vein",
+      "C. Medial to the great saphenous vein",
+      "D. Lateral to the great saphenous vein"
+    ],
+    correctAnswer: "B. Anterior to the great saphenous vein",
+    explanation: "The saphenous nerve lies in front of the great saphenous vein and should not be injured during venesection."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1517. Trendelenburg's test is used to test:",
+    options: [
+      "A. Deep veins",
+      "B. Superficial and perforating veins",
+      "C. Arteries",
+      "D. Lymphatics"
+    ],
+    correctAnswer: "B. Superficial and perforating veins",
+    explanation: "Trendelenburg's test is used to test the superficial veins and the perforating veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1518. Perthes' test is used to test:",
+    options: [
+      "A. Superficial veins",
+      "B. Deep veins and perforating veins",
+      "C. Arteries",
+      "D. Lymphatics"
+    ],
+    correctAnswer: "B. Deep veins and perforating veins",
+    explanation: "Perthes' test is employed to test the deep veins and perforating veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1519. Varicose veins are caused by incompetence of valves in which veins?",
+    options: [
+      "A. Deep veins only",
+      "B. Superficial and/or perforating veins",
+      "C. Arteries only",
+      "D. Lymphatics only"
+    ],
+    correctAnswer: "B. Superficial and/or perforating veins",
+    explanation: "Varicose veins are caused by incompetence of valves in the superficial veins and/or the perforating veins."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Pulses and Clinical Tests",
+    type: "multiplechoice",
+    question: "Question 1520. Which of the following is NOT a factor helping venous return from the lower limb?",
+    options: [
+      "A. Negative intrathoracic pressure",
+      "B. Muscular contraction",
+      "C. Presence of valves",
+      "D. High intra-abdominal pressure"
+    ],
+    correctAnswer: "D. High intra-abdominal pressure",
+    explanation: "High intra-abdominal pressure would impede venous return. Negative intrathoracic pressure, muscular contraction, and valves all help."
+  },
+
+  // SECTION 15: Sole of Foot
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1521. The plantar arch lies between which layers of the sole?",
+    options: [
+      "A. 1st and 2nd",
+      "B. 2nd and 3rd",
+      "C. 3rd and 4th",
+      "D. Superficial and deep"
+    ],
+    correctAnswer: "C. 3rd and 4th",
+    explanation: "The plantar arch lies between the third and fourth layers of the sole."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1522. Morton's neuroma occurs on which nerve?",
+    options: [
+      "A. Lateral plantar nerve",
+      "B. Medial plantar nerve",
+      "C. Deep peroneal nerve",
+      "D. Sural nerve"
+    ],
+    correctAnswer: "B. Medial plantar nerve",
+    explanation: "Morton's neuroma occurs on the branch of the medial plantar nerve between the 3rd and 4th metatarsal bones."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1523. The plantar aponeurosis represents the divorced distal part of which muscle?",
+    options: [
+      "A. Gastrocnemius",
+      "B. Soleus",
+      "C. Plantaris",
+      "D. Tibialis posterior"
+    ],
+    correctAnswer: "C. Plantaris",
+    explanation: "The plantar aponeurosis represents the distal part of the plantaris which has become separated during evolution."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1524. The long plantar ligament represents the divorced tendon of which muscle?",
+    options: [
+      "A. Gastrocnemius",
+      "B. Soleus",
+      "C. Plantaris",
+      "D. Tibialis posterior"
+    ],
+    correctAnswer: "A. Gastrocnemius",
+    explanation: "Morphologically, the long plantar ligament represents the divorced tendon of the gastrocnemius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1525. The flexor digitorum brevis represents the divorced distal part of which muscle?",
+    options: [
+      "A. Gastrocnemius",
+      "B. Soleus",
+      "C. Plantaris",
+      "D. Tibialis posterior"
+    ],
+    correctAnswer: "B. Soleus",
+    explanation: "The flexor digitorum brevis is the divorced distal part of the soleus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1526. Which of the following is NOT a muscle of the first layer of the sole?",
+    options: [
+      "A. Abductor hallucis",
+      "B. Flexor digitorum brevis",
+      "C. Abductor digiti minimi",
+      "D. Flexor digiti minimi brevis"
+    ],
+    correctAnswer: "D. Flexor digiti minimi brevis",
+    explanation: "Flexor digiti minimi brevis is in the third layer of the sole, not the first layer."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1527. Which of the following is NOT a muscle of the third layer of the sole?",
+    options: [
+      "A. Flexor hallucis brevis",
+      "B. Adductor hallucis",
+      "C. Flexor digiti minimi brevis",
+      "D. Flexor digitorum brevis"
+    ],
+    correctAnswer: "D. Flexor digitorum brevis",
+    explanation: "Flexor digitorum brevis is in the first layer, not the third layer."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Sole of Foot",
+    type: "multiplechoice",
+    question: "Question 1528. Which of the following is NOT a muscle of the fourth layer of the sole?",
+    options: [
+      "A. Plantar interossei",
+      "B. Dorsal interossei",
+      "C. Tibialis posterior tendon",
+      "D. Lumbricals"
+    ],
+    correctAnswer: "D. Lumbricals",
+    explanation: "Lumbricals are in the second layer of the sole, not the fourth layer."
+  },
+
+  // SECTION 16: Arterial Branches and Anastomoses
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1529. The anterior tibial artery is a branch of which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Profunda femoris artery",
+      "D. Posterior tibial artery"
+    ],
+    correctAnswer: "B. Popliteal artery",
+    explanation: "The anterior tibial artery is the smaller terminal branch of the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1530. The posterior tibial artery is a branch of which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Profunda femoris artery",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "B. Popliteal artery",
+    explanation: "The posterior tibial artery is the larger terminal branch of the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1531. The peroneal artery is a branch of which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Popliteal artery",
+      "C. Posterior tibial artery",
+      "D. Anterior tibial artery"
+    ],
+    correctAnswer: "C. Posterior tibial artery",
+    explanation: "The peroneal artery is the largest branch of the posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1532. The obturator artery is a branch of which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. External iliac artery",
+      "C. Internal iliac artery",
+      "D. Profunda femoris artery"
+    ],
+    correctAnswer: "C. Internal iliac artery",
+    explanation: "The obturator artery is a branch of the internal iliac artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1533. The trochanteric anastomosis is formed by which arteries?",
+    options: [
+      "A. Medial and lateral circumflex femoral, superior and inferior gluteal",
+      "B. Femoral, profunda femoris, and popliteal",
+      "C. Obturator, medial circumflex femoral, and femoral",
+      "D. Superior and inferior gluteal only"
+    ],
+    correctAnswer: "A. Medial and lateral circumflex femoral, superior and inferior gluteal",
+    explanation: "The trochanteric anastomosis is formed by the medial circumflex femoral, lateral circumflex femoral, superior gluteal, and inferior gluteal arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1534. The cruciate anastomosis is formed by which arteries?",
+    options: [
+      "A. Medial circumflex femoral, lateral circumflex femoral, inferior gluteal, and first perforating",
+      "B. Superior gluteal, inferior gluteal, medial circumflex femoral, and lateral circumflex femoral",
+      "C. Femoral, profunda femoris, and popliteal",
+      "D. Obturator, medial circumflex femoral, and superior gluteal"
+    ],
+    correctAnswer: "A. Medial circumflex femoral, lateral circumflex femoral, inferior gluteal, and first perforating",
+    explanation: "The cruciate anastomosis is formed by the transverse branches of the medial and lateral circumflex femoral arteries, the inferior gluteal, and the first perforating arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1535. Which of the following is NOT a branch of the femoral artery?",
+    options: [
+      "A. Superficial external pudendal",
+      "B. Superficial epigastric",
+      "C. Superficial circumflex iliac",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "D. Peroneal artery",
+    explanation: "The peroneal artery is a branch of the posterior tibial artery, not the femoral artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1536. Which of the following is NOT a branch of the profunda femoris artery?",
+    options: [
+      "A. Medial circumflex femoral",
+      "B. Lateral circumflex femoral",
+      "C. Perforating arteries",
+      "D. Superficial epigastric"
+    ],
+    correctAnswer: "D. Superficial epigastric",
+    explanation: "The superficial epigastric artery is a branch of the femoral artery, not the profunda femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1537. The first perforating artery of the profunda femoris arises at which level?",
+    options: [
+      "A. Above the upper border of pectineus",
+      "B. At the lower border of pectineus",
+      "C. On the adductor longus",
+      "D. At the termination of the profunda femoris"
+    ],
+    correctAnswer: "A. Above the upper border of pectineus",
+    explanation: "The first perforating artery arises just above the upper border of the pectineus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1538. The second perforating artery gives off which nutrient artery?",
+    options: [
+      "A. Nutrient artery to the tibia",
+      "B. Nutrient artery to the fibula",
+      "C. Nutrient artery to the femur",
+      "D. Nutrient artery to the patella"
+    ],
+    correctAnswer: "C. Nutrient artery to the femur",
+    explanation: "The second perforating artery gives off the nutrient artery to the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1539. The nutrient artery to the tibia arises from which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Profunda femoris artery",
+      "C. Anterior or posterior tibial artery",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "C. Anterior or posterior tibial artery",
+    explanation: "The nutrient artery of the tibia arises from the origin of the anterior or posterior tibial artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1540. The nutrient artery to the fibula arises from which artery?",
+    options: [
+      "A. Femoral artery",
+      "B. Profunda femoris artery",
+      "C. Anterior tibial artery",
+      "D. Peroneal artery"
+    ],
+    correctAnswer: "D. Peroneal artery",
+    explanation: "The peroneal artery gives off the nutrient artery to the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1541. The descending genicular artery is the last branch of which artery?",
+    options: [
+      "A. Profunda femoris artery",
+      "B. Femoral artery",
+      "C. Popliteal artery",
+      "D. Anterior tibial artery"
+    ],
+    correctAnswer: "B. Femoral artery",
+    explanation: "The descending genicular artery is the last branch of the femoral artery arising just above the hiatus magnus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1542. The anterior tibial recurrent artery participates in which anastomosis?",
+    options: [
+      "A. Trochanteric anastomosis",
+      "B. Cruciate anastomosis",
+      "C. Genicular anastomosis around the knee",
+      "D. Plantar arch"
+    ],
+    correctAnswer: "C. Genicular anastomosis around the knee",
+    explanation: "The anterior tibial recurrent artery participates in the genicular anastomosis around the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1543. The circumflex fibular artery participates in which anastomosis?",
+    options: [
+      "A. Trochanteric anastomosis",
+      "B. Cruciate anastomosis",
+      "C. Genicular anastomosis around the knee",
+      "D. Plantar arch"
+    ],
+    correctAnswer: "C. Genicular anastomosis around the knee",
+    explanation: "The circumflex fibular artery participates in the genicular anastomosis around the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1544. The lateral malleolar network around the ankle is formed by branches from which arteries?",
+    options: [
+      "A. Femoral and popliteal",
+      "B. Anterior tibial and peroneal",
+      "C. Posterior tibial and profunda femoris",
+      "D. Obturator and femoral"
+    ],
+    correctAnswer: "B. Anterior tibial and peroneal",
+    explanation: "The lateral malleolar network is formed by branches from the anterior tibial and peroneal arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1545. The medial malleolar network around the ankle is formed by branches from which arteries?",
+    options: [
+      "A. Femoral and popliteal",
+      "B. Anterior tibial and posterior tibial",
+      "C. Peroneal and profunda femoris",
+      "D. Obturator and femoral"
+    ],
+    correctAnswer: "B. Anterior tibial and posterior tibial",
+    explanation: "The medial malleolar network is formed by branches from the anterior tibial and posterior tibial arteries."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1546. Which of the following is NOT a branch of the popliteal artery?",
+    options: [
+      "A. Superior genicular arteries",
+      "B. Inferior genicular arteries",
+      "C. Middle genicular artery",
+      "D. Perforating arteries"
+    ],
+    correctAnswer: "D. Perforating arteries",
+    explanation: "The perforating arteries are branches of the profunda femoris artery, not the popliteal artery."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1547. The popliteal artery gives which genicular branches?",
+    options: [
+      "A. Two superior, two inferior, and one middle",
+      "B. One superior, two inferior, and two middle",
+      "C. Two superior, one inferior, and two middle",
+      "D. Three superior and two inferior"
+    ],
+    correctAnswer: "A. Two superior, two inferior, and one middle",
+    explanation: "The popliteal artery gives two superior, two inferior, and one middle genicular branch."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1548. The middle genicular artery pierces which structure?",
+    options: [
+      "A. Medial collateral ligament",
+      "B. Lateral collateral ligament",
+      "C. Oblique popliteal ligament",
+      "D. Arcuate popliteal ligament"
+    ],
+    correctAnswer: "C. Oblique popliteal ligament",
+    explanation: "The middle genicular artery pierces the oblique popliteal ligament of the knee."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1549. The superior medial genicular artery winds around which side of the femur?",
+    options: [
+      "A. Lateral side above the lateral condyle",
+      "B. Medial side above the medial condyle",
+      "C. Posterior side",
+      "D. Anterior side"
+    ],
+    correctAnswer: "B. Medial side above the medial condyle",
+    explanation: "The superior medial genicular artery winds around the medial side of the femur immediately above the medial condyle."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Arterial Branches and Anastomoses",
+    type: "multiplechoice",
+    question: "Question 1550. The inferior medial genicular artery winds around which side of the tibia?",
+    options: [
+      "A. Lateral side below the lateral condyle",
+      "B. Medial side below the medial condyle",
+      "C. Posterior side",
+      "D. Anterior side"
+    ],
+    correctAnswer: "B. Medial side below the medial condyle",
+    explanation: "The inferior medial genicular artery winds around the medial tibial condyle."
+  },
+
+  // SECTION 17: Nerve Branches
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1551. The saphenous nerve is a branch of which nerve?",
+    options: [
+      "A. Femoral nerve, anterior division",
+      "B. Femoral nerve, posterior division",
+      "C. Obturator nerve",
+      "D. Sciatic nerve"
+    ],
+    correctAnswer: "B. Femoral nerve, posterior division",
+    explanation: "The saphenous nerve is a branch of the posterior division of the femoral nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1552. The medial sural cutaneous nerve is a branch of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Tibial nerve",
+    explanation: "The medial sural cutaneous nerve arises from the tibial nerve in the popliteal fossa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1553. The lateral sural cutaneous nerve is a branch of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "C. Common peroneal nerve",
+    explanation: "The lateral sural cutaneous nerve arises from the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1554. The sural communicating nerve is a branch of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "C. Common peroneal nerve",
+    explanation: "The sural communicating nerve is a branch of the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1555. The recurrent genicular nerve arises from which nerve?",
+    options: [
+      "A. Tibial nerve",
+      "B. Common peroneal nerve",
+      "C. Femoral nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Common peroneal nerve",
+    explanation: "The recurrent genicular nerve arises where the common peroneal nerve divides into the superficial and deep peroneal nerves."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1556. The nerve to the popliteus is a branch of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Obturator nerve"
+    ],
+    correctAnswer: "B. Tibial nerve",
+    explanation: "The nerve to the popliteus is a branch of the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1557. The medial calcanean branches are branches of which nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Sural nerve"
+    ],
+    correctAnswer: "B. Tibial nerve",
+    explanation: "The medial calcanean branches are branches of the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Nerve Branches",
+    type: "multiplechoice",
+    question: "Question 1558. The genicular branch of the obturator nerve supplies which joint?",
+    options: [
+      "A. Hip joint",
+      "B. Knee joint",
+      "C. Ankle joint",
+      "D. Subtalar joint"
+    ],
+    correctAnswer: "B. Knee joint",
+    explanation: "The genicular branch of the obturator nerve supplies the capsule and cruciate ligaments of the knee joint."
+  },
+
+  // SECTION 18: Joint Innervation
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1559. Which nerve supplies the hip joint through the nerve to the rectus femoris?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Sciatic nerve",
+      "D. Superior gluteal nerve"
+    ],
+    correctAnswer: "A. Femoral nerve",
+    explanation: "The hip joint is supplied by the femoral nerve through the nerve to the rectus femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1560. Which nerve supplies the hip joint through the anterior division of the obturator nerve?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Sciatic nerve",
+      "D. Superior gluteal nerve"
+    ],
+    correctAnswer: "B. Obturator nerve",
+    explanation: "The hip joint is supplied by the anterior division of the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1561. Which nerve supplies the hip joint through the nerve to the quadratus femoris?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Sciatic nerve",
+      "D. Superior gluteal nerve"
+    ],
+    correctAnswer: "A. Femoral nerve",
+    explanation: "The hip joint is supplied by the nerve to the quadratus femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1562. Which nerve supplies the superior aspect of the hip joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Superior gluteal nerve",
+      "D. Inferior gluteal nerve"
+    ],
+    correctAnswer: "C. Superior gluteal nerve",
+    explanation: "The superior aspect of the hip joint is innervated by the superior gluteal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1563. Which nerve supplies the anterior aspect of the hip joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Superior gluteal nerve",
+      "D. Inferior gluteal nerve"
+    ],
+    correctAnswer: "A. Femoral nerve",
+    explanation: "The anterior aspect of the hip joint is innervated by the femoral nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1564. Which nerve supplies the posterior aspect of the hip joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Superior gluteal nerve",
+      "D. Nerve to the quadratus femoris"
+    ],
+    correctAnswer: "D. Nerve to the quadratus femoris",
+    explanation: "The posterior aspect of the hip joint is innervated by branches from the nerve to the quadratus femoris."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1565. Which nerve supplies the inferior aspect of the hip joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Obturator nerve",
+      "C. Superior gluteal nerve",
+      "D. Inferior gluteal nerve"
+    ],
+    correctAnswer: "B. Obturator nerve",
+    explanation: "The inferior aspect of the hip joint is innervated by the obturator nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1566. Which nerve supplies the anterior aspect of the knee joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Saphenous nerve"
+    ],
+    correctAnswer: "A. Femoral nerve",
+    explanation: "The anterior aspect of the knee joint is innervated by the femoral nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1567. Which nerve supplies the posterior aspect of the knee joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Saphenous nerve"
+    ],
+    correctAnswer: "B. Tibial nerve",
+    explanation: "The posterior aspect of the knee joint is innervated by the tibial nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1568. Which nerve supplies the lateral aspect of the knee joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Saphenous nerve"
+    ],
+    correctAnswer: "C. Common peroneal nerve",
+    explanation: "The lateral aspect of the knee joint is innervated by the common peroneal nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1569. Which nerve supplies the medial aspect of the knee joint?",
+    options: [
+      "A. Femoral nerve",
+      "B. Tibial nerve",
+      "C. Common peroneal nerve",
+      "D. Saphenous nerve"
+    ],
+    correctAnswer: "D. Saphenous nerve",
+    explanation: "The medial aspect of the knee joint is innervated by the saphenous nerve."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Joint Innervation",
+    type: "multiplechoice",
+    question: "Question 1570. Which nerve supplies the ankle joint?",
+    options: [
+      "A. Femoral and obturator",
+      "B. Tibial and deep peroneal",
+      "C. Superficial and deep peroneal",
+      "D. Sural and saphenous"
+    ],
+    correctAnswer: "B. Tibial and deep peroneal",
+    explanation: "The ankle joint is supplied by the deep peroneal and tibial nerves."
+  },
+
+  // SECTION 19: Compartments and Retinacula
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1571. The anterior compartment of the leg is bounded by which structures?",
+    options: [
+      "A. Tibia, fibula, interosseous membrane, and anterior intermuscular septum",
+      "B. Tibia, fibula, interosseous membrane, and posterior intermuscular septum",
+      "C. Tibia, fibula, and deep fascia only",
+      "D. Tibia, fibula, and interosseous membrane only"
+    ],
+    correctAnswer: "A. Tibia, fibula, interosseous membrane, and anterior intermuscular septum",
+    explanation: "The anterior compartment is bounded by the tibia, fibula, interosseous membrane, and anterior intermuscular septum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1572. The lateral compartment of the leg is bounded by which structures?",
+    options: [
+      "A. Tibia, fibula, and interosseous membrane",
+      "B. Fibula, anterior and posterior intermuscular septa, and deep fascia",
+      "C. Tibia, fibula, and anterior intermuscular septum",
+      "D. Tibia, fibula, and posterior intermuscular septum"
+    ],
+    correctAnswer: "B. Fibula, anterior and posterior intermuscular septa, and deep fascia",
+    explanation: "The lateral compartment is bounded by the fibula, anterior and posterior intermuscular septa, and deep fascia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1573. The posterior compartment of the leg is subdivided by which structures?",
+    options: [
+      "A. Anterior and posterior intermuscular septa",
+      "B. Superficial and deep transverse fascial septa",
+      "C. Interosseous membrane only",
+      "D. Deep fascia only"
+    ],
+    correctAnswer: "B. Superficial and deep transverse fascial septa",
+    explanation: "The posterior compartment is subdivided into superficial, middle, and deep parts by the superficial and deep transverse fascial septa."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1574. The flexor retinaculum is attached to which structures?",
+    options: [
+      "A. Medial malleolus and medial side of the heel",
+      "B. Lateral malleolus and lateral side of the heel",
+      "C. Tibia and fibula",
+      "D. Medial malleolus and lateral malleolus"
+    ],
+    correctAnswer: "A. Medial malleolus and medial side of the heel",
+    explanation: "The flexor retinaculum extends from the medial malleolus to the medial side of the heel."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1575. The structures passing deep to the flexor retinaculum from medial to lateral are:",
+    options: [
+      "A. Tibialis posterior, flexor digitorum longus, posterior tibial artery, tibial nerve, flexor hallucis longus",
+      "B. Flexor hallucis longus, tibial nerve, posterior tibial artery, flexor digitorum longus, tibialis posterior",
+      "C. Tibialis posterior, flexor hallucis longus, posterior tibial artery, tibial nerve, flexor digitorum longus",
+      "D. Flexor digitorum longus, tibialis posterior, posterior tibial artery, tibial nerve, flexor hallucis longus"
+    ],
+    correctAnswer: "A. Tibialis posterior, flexor digitorum longus, posterior tibial artery, tibial nerve, flexor hallucis longus",
+    explanation: "The structures from medial to lateral are: tibialis posterior, flexor digitorum longus, posterior tibial artery, tibial nerve, and flexor hallucis longus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1576. The superior extensor retinaculum is attached to which structures?",
+    options: [
+      "A. Medial malleolus and lateral malleolus",
+      "B. Lower part of the anterior border of the tibia and fibula",
+      "C. Calcaneum and navicular",
+      "D. Tibia and talus"
+    ],
+    correctAnswer: "B. Lower part of the anterior border of the tibia and fibula",
+    explanation: "The superior extensor retinaculum is attached medially to the lower part of the anterior border of the tibia and laterally to the lower part of the anterior border of the fibula."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1577. The inferior extensor retinaculum is attached to which structure?",
+    options: [
+      "A. Medial malleolus",
+      "B. Lateral malleolus",
+      "C. Anterior part of the superior surface of the calcaneum",
+      "D. Tuberosity of the navicular"
+    ],
+    correctAnswer: "C. Anterior part of the superior surface of the calcaneum",
+    explanation: "The stem of the inferior extensor retinaculum is attached to the anterior part of the superior surface of the calcaneum."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1578. The structures passing under the extensor retinacula from medial to lateral are:",
+    options: [
+      "A. Tibialis anterior, extensor hallucis longus, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, peroneus tertius",
+      "B. Peroneus tertius, extensor digitorum longus, deep peroneal nerve, anterior tibial artery, extensor hallucis longus, tibialis anterior",
+      "C. Tibialis anterior, extensor digitorum longus, anterior tibial artery, deep peroneal nerve, extensor hallucis longus, peroneus tertius",
+      "D. Extensor hallucis longus, tibialis anterior, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, peroneus tertius"
+    ],
+    correctAnswer: "A. Tibialis anterior, extensor hallucis longus, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, peroneus tertius",
+    explanation: "The structures from medial to lateral are: tibialis anterior, extensor hallucis longus, anterior tibial artery, deep peroneal nerve, extensor digitorum longus, and peroneus tertius."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1579. The superior peroneal retinaculum holds which tendons?",
+    options: [
+      "A. Tibialis anterior and extensor hallucis longus",
+      "B. Peroneus longus and brevis",
+      "C. Flexor hallucis longus and flexor digitorum longus",
+      "D. Tibialis posterior and flexor digitorum longus"
+    ],
+    correctAnswer: "B. Peroneus longus and brevis",
+    explanation: "The superior peroneal retinaculum holds the peroneus longus and brevis tendons in place against the back of the lateral malleolus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Compartments and Retinacula",
+    type: "multiplechoice",
+    question: "Question 1580. Under the superior peroneal retinaculum, the peroneal tendons are:",
+    options: [
+      "A. In separate compartments with separate sheaths",
+      "B. In a single compartment with a common synovial sheath",
+      "C. In separate compartments with a common sheath",
+      "D. In a single compartment without a sheath"
+    ],
+    correctAnswer: "B. In a single compartment with a common synovial sheath",
+    explanation: "Under the superior peroneal retinaculum, the two tendons are lodged in a single compartment and are surrounded by a common synovial sheath."
+  },
+
+  // SECTION 20: Muscle Insertions
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1581. The tibialis anterior is inserted into which bones?",
+    options: [
+      "A. Tuberosity of navicular and base of 5th metatarsal",
+      "B. Medial cuneiform and base of 1st metatarsal",
+      "C. Cuboid and base of 4th metatarsal",
+      "D. Lateral cuneiform and base of 2nd metatarsal"
+    ],
+    correctAnswer: "B. Medial cuneiform and base of 1st metatarsal",
+    explanation: "The tibialis anterior is inserted into the medial cuneiform and the adjoining part of the base of the first metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1582. The peroneus longus is inserted into which bones?",
+    options: [
+      "A. Tuberosity of navicular and base of 5th metatarsal",
+      "B. Medial cuneiform and base of 1st metatarsal",
+      "C. Cuboid and base of 4th metatarsal",
+      "D. Lateral cuneiform and base of 2nd metatarsal"
+    ],
+    correctAnswer: "B. Medial cuneiform and base of 1st metatarsal",
+    explanation: "The peroneus longus is inserted into the base of the 1st metatarsal and the medial cuneiform."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1583. The tibialis posterior is inserted primarily into which bone?",
+    options: [
+      "A. Tuberosity of the navicular",
+      "B. Base of the 5th metatarsal",
+      "C. Medial cuneiform",
+      "D. Cuboid"
+    ],
+    correctAnswer: "A. Tuberosity of the navicular",
+    explanation: "The tibialis posterior is inserted primarily into the tuberosity of the navicular bone."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1584. The peroneus brevis is inserted into which bone?",
+    options: [
+      "A. Base of 1st metatarsal",
+      "B. Base of 5th metatarsal",
+      "C. Tuberosity of navicular",
+      "D. Medial cuneiform"
+    ],
+    correctAnswer: "B. Base of 5th metatarsal",
+    explanation: "The peroneus brevis is inserted into the base of the 5th metatarsal."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1585. The extensor hallucis longus is inserted into which bone?",
+    options: [
+      "A. Base of the proximal phalanx of the big toe",
+      "B. Base of the distal phalanx of the big toe",
+      "C. Base of the middle phalanx of the big toe",
+      "D. Metatarsal of the big toe"
+    ],
+    correctAnswer: "B. Base of the distal phalanx of the big toe",
+    explanation: "The extensor hallucis longus is inserted into the dorsal surface of the base of the distal phalanx of the big toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1586. The flexor hallucis longus is inserted into which bone?",
+    options: [
+      "A. Base of the proximal phalanx of the big toe",
+      "B. Base of the distal phalanx of the big toe",
+      "C. Base of the middle phalanx of the big toe",
+      "D. Metatarsal of the big toe"
+    ],
+    correctAnswer: "B. Base of the distal phalanx of the big toe",
+    explanation: "The flexor hallucis longus is inserted into the plantar surface of the base of the distal phalanx of the great toe."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1587. The flexor digitorum longus is inserted into which bones?",
+    options: [
+      "A. Base of distal phalanges of second to fifth toes",
+      "B. Base of proximal phalanges of second to fifth toes",
+      "C. Base of middle phalanges of second to fifth toes",
+      "D. Metatarsals of second to fifth toes"
+    ],
+    correctAnswer: "A. Base of distal phalanges of second to fifth toes",
+    explanation: "The flexor digitorum longus is inserted into the plantar surface of the distal phalanx of second to fifth toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1588. The extensor digitorum longus is inserted into which bones?",
+    options: [
+      "A. Base of distal phalanges of lateral four toes",
+      "B. Base of proximal and middle phalanges of lateral four toes",
+      "C. Base of metatarsals of lateral four toes",
+      "D. Base of distal phalanges of all five toes"
+    ],
+    correctAnswer: "B. Base of proximal and middle phalanges of lateral four toes",
+    explanation: "The extensor digitorum longus is inserted into the bases of the middle and distal phalanges of the lateral four toes."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1589. The sartorius, gracilis, and semitendinosus are inserted into which area?",
+    options: [
+      "A. Anterior surface of the tibial tuberosity",
+      "B. Upper part of the medial surface of the tibia",
+      "C. Upper part of the lateral surface of the tibia",
+      "D. Posterior surface of the tibia"
+    ],
+    correctAnswer: "B. Upper part of the medial surface of the tibia",
+    explanation: "These three muscles are inserted into the upper part of the medial surface of the tibia, forming the pes anserinus."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1590. The semimembranosus is inserted into which structure?",
+    options: [
+      "A. Head of the fibula",
+      "B. Groove on the posterior surface of the medial condyle of the tibia",
+      "C. Tuberosity of the navicular",
+      "D. Base of the 5th metatarsal"
+    ],
+    correctAnswer: "B. Groove on the posterior surface of the medial condyle of the tibia",
+    explanation: "The semimembranosus is inserted into the groove on the posterior surface of the medial condyle of the tibia."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1591. The biceps femoris is inserted into which structure?",
+    options: [
+      "A. Head of the fibula",
+      "B. Medial condyle of the tibia",
+      "C. Tuberosity of the navicular",
+      "D. Base of the 5th metatarsal"
+    ],
+    correctAnswer: "A. Head of the fibula",
+    explanation: "The biceps femoris is inserted into the head of the fibula in front of its apex."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1592. The gluteus maximus is inserted into which structures?",
+    options: [
+      "A. Iliotibial tract and gluteal tuberosity",
+      "B. Greater trochanter only",
+      "C. Ischial tuberosity only",
+      "D. Linea aspera only"
+    ],
+    correctAnswer: "A. Iliotibial tract and gluteal tuberosity",
+    explanation: "The gluteus maximus is inserted into the iliotibial tract (three-fourths) and the gluteal tuberosity (one-fourth)."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1593. The gluteus medius is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Greater trochanter, anterior surface",
+      "C. Greater trochanter, medial surface",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "A. Greater trochanter, lateral surface",
+    explanation: "The gluteus medius is inserted into the greater trochanter on an oblique ridge on the lateral surface."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1594. The gluteus minimus is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Greater trochanter, anterior surface",
+      "C. Greater trochanter, medial surface",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "B. Greater trochanter, anterior surface",
+    explanation: "The gluteus minimus is inserted into the greater trochanter on a ridge on its anterior surface."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1595. The piriformis is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Greater trochanter, apex",
+      "C. Greater trochanter, medial surface",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "B. Greater trochanter, apex",
+    explanation: "The piriformis is inserted into the apex of the greater trochanter of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1596. The obturator internus is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Greater trochanter, apex",
+      "C. Trochanteric fossa",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "C. Trochanteric fossa",
+    explanation: "The obturator internus is inserted into the medial surface of the greater trochanter (trochanteric fossa) of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1597. The quadratus femoris is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Quadrate tubercle on the intertrochanteric crest",
+      "C. Trochanteric fossa",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "B. Quadrate tubercle on the intertrochanteric crest",
+    explanation: "The quadratus femoris is inserted into the quadrate tubercle on the intertrochanteric crest of the femur and the area inferior to it."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1598. The obturator externus is inserted into which structure?",
+    options: [
+      "A. Greater trochanter, lateral surface",
+      "B. Quadrate tubercle",
+      "C. Trochanteric fossa",
+      "D. Lesser trochanter"
+    ],
+    correctAnswer: "C. Trochanteric fossa",
+    explanation: "The obturator externus is inserted into the trochanteric fossa of the femur."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1599. The tensor fasciae latae is inserted into which structure?",
+    options: [
+      "A. Greater trochanter",
+      "B. Iliotibial tract",
+      "C. Tibial tuberosity",
+      "D. Head of the fibula"
+    ],
+    correctAnswer: "B. Iliotibial tract",
+    explanation: "The tensor fasciae latae is inserted into the iliotibial tract."
+  },
+  {
+    course: "Gross Anatomy",
+    topic: "Lower Limb Anatomy",
+    subTopic: "Muscle Insertions",
+    type: "multiplechoice",
+    question: "Question 1600. The adductor magnus is inserted into which structures?",
+    options: [
+      "A. Gluteal tuberosity, linea aspera, medial supracondylar line, and adductor tubercle",
+      "B. Linea aspera only",
+      "C. Gluteal tuberosity only",
+      "D. Adductor tubercle only"
+    ],
+    correctAnswer: "A. Gluteal tuberosity, linea aspera, medial supracondylar line, and adductor tubercle",
+    explanation: "The adductor magnus is inserted into the gluteal tuberosity, linea aspera, medial supracondylar line, and adductor tubercle."
   }
 ];
