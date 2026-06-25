@@ -4,7 +4,7 @@
  * Exam & History Engines, Flashcards, and Online Multiplayer via Supabase Realtime.
  *
  * Networking layer: multiplayer.js + supabase.js
- * All PeerJS / STUN / TURN / ICE code has been removed.
+ * Architecture: Authoritative Central Brain (Host dictates game flow).
  */
 
 const App = {
@@ -15,9 +15,8 @@ const App = {
   exam:     { questions: [], currentIndex: 0, answers: [], total: 0, score: 0, started: false, finished: false, timer: 0, timerInterval: null, results: [] },
 
   // ── Multiplayer state ──────────────────────────────────────────────────
-  // Populated / mutated by multiplayer.js functions. 
   mp: {
-    channel: null,          // Supabase RealtimeChannel
+    channel: null,          
     isHost: false,
     inRoom: false,
     roomCode: '',
@@ -26,13 +25,15 @@ const App = {
     players: [],
     questions: [],
     currentIndex: 0,
-    state: 'SETUP',         // see MP_PHASES in multiplayer.js
+    state: 'SETUP',         
     timer: 0,
     timerInterval: null,
     questionDuration: 20,
+    originalQuestionDuration: 20,
     questionStartTime: 0,
     answerLog: [],
     myLastAnswer: null,
+    isWaitingForDatabase: false // Locks UI while Host processes answer
   },
 
   bookmarks: new Set(),
@@ -732,13 +733,8 @@ const App = {
     await mp_hostStartGame();
   },
 
-  async handleHostNextQuestion() {
-    // Left empty/removed because the Host manual skip has been removed.
-    // Kept here just to catch any lingering button clicks safely.
-  },
-
   async handleMpAnswer(answer) {
-    // We now just fire the universal submit answer function!
+    // Triggers the universal Central Brain submission function
     await mp_submitAnswer(answer);
   },
 
@@ -804,26 +800,32 @@ const App = {
         break;
 
       case 'QUESTION': {
-        const q             = m.questions[m.currentIndex];
-        const me            = m.players.find(p => p.id === m.myId);
+        const q = m.questions[m.currentIndex];
+        const me = m.players.find(p => p.id === m.myId);
         if (!q) break;
         const totalQuestions = m.questions.length;
+        const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
         
         let buttonsHtml = '';
         const options = q.type === 'truefalse' ? ['True', 'False'] : q.options;
-        const correctVal = q.type === 'truefalse' ? (q.answer ? 'True' : 'False') : q.correctAnswer;
         
-        // If the player answered, highlight correct vs selected. Otherwise standard render.
         options.forEach((opt, index) => {
           let stateClass = '';
+          
           if (me?.currentAnswer) {
+             // Database formally processed it: turn Green/Red
              if (opt === correctVal) stateClass = 'correct';
              else if (opt === me.currentAnswer) stateClass = 'incorrect';
+          } else if (m.isWaitingForDatabase && opt === m.myLastAnswer) {
+             // We tapped it, but waiting for DB to confirm
+             stateClass = 'selected waiting';
           }
-          buttonsHtml += `<button class="btn-option btn-mp-answer ${stateClass}" data-value="${opt}" ${me?.currentAnswer ? 'disabled' : ''}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
+
+          const isDisabled = (me?.currentAnswer || m.isWaitingForDatabase) ? 'disabled' : '';
+          buttonsHtml += `<button class="btn-option btn-mp-answer ${stateClass}" data-value="${opt}" ${isDisabled}>${opt} <span class="hotkey-hint">[${index + 1}]</span></button>`;
         });
 
-        // The instant local feedback panel (Only appears once you tap an answer)
+        // The instant local feedback panel (Appears only after official DB confirm)
         let explanationHtml = '';
         if (me?.currentAnswer) {
            const isCorrect = me.currentAnswer === correctVal;
@@ -834,9 +836,16 @@ const App = {
              <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;">
                <strong style="color:#0b2b4a; display:block; margin-bottom:0.5rem; font-size:1.1rem;">Explanation:</strong>
                <p>${q.explanation}</p>
-               <p class="text-muted mt-1" style="font-size:0.85rem; font-style: italic;">Waiting for the timer to reach 0 to advance...</p>
              </div>
            `;
+        }
+
+        // Pacing Indicator
+        let statusText = `Answers in: ${m.players.filter(p => p.currentAnswer).length} / ${m.players.length}`;
+        if (m.questionDuration <= 3) {
+            statusText = `<span style="color: #16a34a; font-weight: 700;">Everyone answered! Next question in ${m.timer}...</span>`;
+        } else if (m.isWaitingForDatabase) {
+            statusText = `<span style="color: #fbbf24; font-weight: 700;">Waiting for Host...</span>`;
         }
 
         area.innerHTML = `
@@ -850,7 +859,7 @@ const App = {
               <p class="question-text">${q.question}</p>
               <div class="mt-1">${buttonsHtml}</div>
               ${explanationHtml}
-              <p class="answer-progress-text mt-1" id="mp-answer-count">Answers in: ${m.players.filter(p => p.currentAnswer).length} / ${m.players.length}</p>
+              <p class="answer-progress-text mt-1" id="mp-answer-count">${statusText}</p>
             </div>
             <div class="card mp-sidebar">
               <h3 class="card-title text-center">Live Standings</h3>
@@ -868,7 +877,6 @@ const App = {
     }
   },
 
-  // Renders/updates the circular pulsing timer ring without a full re-render
   updateMpTimerDisplay() {
     const wrapper = document.getElementById('mp-timer-wrapper');
     const path    = document.getElementById('mp-timer-path');
@@ -876,7 +884,10 @@ const App = {
     if (!wrapper || !path || !text) return;
     const circumference = 2 * Math.PI * 38;
     const remaining     = Math.max(0, this.mp.timer);
-    const pct           = remaining / this.mp.questionDuration;
+    
+    // Scale the stroke dynamically based on the current duration 
+    // (handles the snap from 20s down to 3s seamlessly)
+    const pct = remaining / this.mp.questionDuration;
     path.style.strokeDashoffset = `${circumference * (1 - pct)}`;
     text.textContent = remaining;
     wrapper.classList.toggle('timer-urgent', remaining <= 5);
