@@ -5,55 +5,110 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <title>MedMaster – Medical CBT</title>
   <link rel="stylesheet" href="style.css">
-
-  <!--
-    Supabase JS client (v2).
-    Exposes the global `supabase` object used in supabase.js.
-    No API key is embedded here — credentials live in supabase.js.
-  -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#0b2b4a">
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 </head>
 <body>
-  <header class="app-header">
-    <div class="container flex" style="justify-content: space-between; align-items: center;">
-      <div>
-        <h1 class="app-title">MedMaster</h1>
-        <span class="app-subtitle">Preclinical CBT</span>
+
+  <!-- ── AUTH MODAL ───────────────────────────────────────────────── -->
+  <div id="auth-overlay" class="auth-overlay">
+    <div class="auth-modal">
+      <h1 class="app-title" style="color:#0b2b4a; margin-bottom:0.25rem;">MedMaster</h1>
+      <p style="color:#64748b; font-size:0.9rem; margin-bottom:1.5rem; text-transform:uppercase; letter-spacing:0.5px;">Preclinical CBT Platform</p>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tab-login">Sign In</button>
+        <button class="auth-tab" id="tab-register">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <div id="auth-login-form">
+        <input type="email"    id="auth-email"    class="input-text mt-1" placeholder="Email address">
+        <input type="password" id="auth-password" class="input-text mt-1" placeholder="Password">
+        <button class="btn btn-primary mt-1" style="width:100%;" id="auth-login-btn">Sign In</button>
+        <p style="text-align:center; margin-top:0.75rem;">
+          <a href="#" id="forgot-password-link" style="font-size:0.85rem; color:#64748b;">Forgot Password?</a>
+        </p>
+      </div>
+
+      <!-- Register Form -->
+      <div id="auth-register-form" style="display:none;">
+        <input type="text"     id="auth-display-name" class="input-text mt-1" placeholder="Display Name (shown on leaderboards)">
+        <input type="email"    id="auth-reg-email"     class="input-text mt-1" placeholder="Email address">
+        <input type="password" id="auth-reg-password"  class="input-text mt-1" placeholder="Password (min. 6 characters)">
+        <button class="btn btn-primary mt-1" style="width:100%;" id="auth-register-btn">Create Account</button>
+      </div>
+
+      <div id="auth-message" class="auth-message" style="display:none;"></div>
+
+      <div style="border-top:1px solid #e2e8f0; margin-top:1.5rem; padding-top:1.25rem; text-align:center;">
+        <button class="btn btn-secondary" style="width:100%; font-size:0.9rem;" id="auth-continue-guest-btn">
+          Continue as Guest
+        </button>
+        <p style="font-size:0.78rem; color:#94a3b8; margin-top:0.5rem;">Progress won't sync across devices</p>
       </div>
     </div>
-  </header>
+  </div>
 
-  <nav class="main-nav" aria-label="Main Navigation">
-    <div class="container nav-container">
-      <button class="nav-btn active" data-view="dashboard">Dashboard</button>
-      <button class="nav-btn" data-view="practice">Practice</button>
-      <button class="nav-btn" data-view="exam">Exam</button>
-      <button class="nav-btn" data-view="multiplayer">Multiplayer</button>
-      <button class="nav-btn" data-view="history">History</button>
-      <button class="nav-btn" data-view="bookmarks">Bookmarks</button>
-    </div>
-  </nav>
+  <!-- ── MAIN APP ──────────────────────────────────────────────────── -->
+  <div id="app-shell" style="display:none;">
+    <header class="app-header">
+      <div class="container flex" style="justify-content: space-between; align-items: center;">
+        <div>
+          <h1 class="app-title">MedMaster</h1>
+          <span class="app-subtitle">Preclinical CBT</span>
+        </div>
+        <div style="display:flex; align-items:center;">
+          <button class="font-size-toggle" id="font-size-toggle" title="Toggle larger text" aria-pressed="false">A+</button>
+          <div id="auth-user-badge" class="auth-user-badge"></div>
+        </div>
+      </div>
+    </header>
 
-  <main class="main-content" id="app">
-    <div id="view-container"></div>
-  </main>
+    <nav class="main-nav" aria-label="Main Navigation">
+      <div class="container nav-container">
+        <button class="nav-btn active"  data-view="dashboard">Dashboard</button>
+        <button class="nav-btn"         data-view="practice">Practice</button>
+        <button class="nav-btn"         data-view="exam">Exam</button>
+        <button class="nav-btn"         data-view="daily">⚡ Daily</button>
+        <button class="nav-btn"         data-view="slide">Slide Review</button>
+        <button class="nav-btn"         data-view="multiplayer">Multiplayer</button>
+        <button class="nav-btn"         data-view="history">History</button>
+        <button class="nav-btn"         data-view="bookmarks">Bookmarks</button>
+      </div>
+    </nav>
 
-  <footer class="app-footer">
-    <div class="container">
-      <small>© 2026 MedMaster</small>
-    </div>
-  </footer>
+    <main class="main-content" id="app">
+      <div id="view-container"></div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <small>© 2026 MedMaster</small>
+      </div>
+    </footer>
+  </div>
 
   <!--
-    Load order matters:
-      1. supabase.js   — initialises the DB client and exports db helpers
-      2. multiplayer.js — game-flow functions (depends on db helpers)
+    Load order:
+      1. supabase.js   — DB client, auth helpers, db helpers
+      2. multiplayer.js — game-flow (depends on db helpers)
       3. questions.js  — question bank
-      4. script.js     — App object and UI (depends on everything above)
+      4. script.js     — App object and UI
   -->
   <script src="supabase.js"></script>
   <script src="multiplayer.js"></script>
   <script src="questions.js"></script>
   <script src="script.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(err => {
+          console.warn('[PWA] Service worker registration failed:', err);
+        });
+      });
+    }
+  </script>
 </body>
 </html>
