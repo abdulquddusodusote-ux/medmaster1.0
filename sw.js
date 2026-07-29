@@ -7,7 +7,7 @@
  * function offline — only the locally-cached static assets are served.
  */
 
-const CACHE_NAME = 'medmaster-cache-v1';
+const CACHE_NAME = 'medmaster-cache-v2';
 const CACHE_URLS = [
   './',
   'index.html',
