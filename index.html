@@ -4,8 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
   <title>MedMaster – Medical CBT</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
+  <link rel="stylesheet" href="style.css?v=2" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js?v=2"></script>
 </head>
 <body>
 
@@ -83,15 +83,16 @@
   </div>
 
   <!--
-    Load order:
-      1. supabase.js   — DB client, auth helpers, db helpers
-      2. multiplayer.js — game-flow (depends on db helpers)
-      3. questions.js  — question bank
-      4. script.js     — App object and UI
+    Load order with cache‑busting (v=2)
   -->
-  <script src="supabase.js"></script>
-  <script src="multiplayer.js"></script>
-  <script src="questions.js"></script>
-  <script src="script.js"></script>
+  <script src="supabase.js?v=2"></script>
+  <script src="multiplayer.js?v=2"></script>
+  <script src="questions.js?v=2"></script>
+  <script src="script.js?v=2"></script>
+
+  <!-- A tiny console log to confirm HTML loaded -->
+  <script>
+    console.log('✅ index.html loaded with cache‑busting v=2');
+  </script>
 </body>
 </html>
