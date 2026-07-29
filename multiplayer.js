@@ -1,15 +1,14 @@
 /**
  * multiplayer.js — Supabase Realtime multiplayer engine for MedMaster.
  *
- * NEW ARCHITECTURE: "Authoritative Central Brain + Ready-Up Auto-Advance"
+ * ARCHITECTURE: "Authoritative Central Brain + Ready-Up Auto-Advance"
  * ──────────────────────────────────────────────────────────────────
  * 1. Guests are "dumb". They cannot evaluate scores or write to the database.
  * 2. When a Guest answers, they send a tiny, raw whisper to the Host.
- * 3. The Host is the "Smart Server". It receives whispers, calculates scores, 
+ * 3. The Host is the "Smart Server". It receives whispers, calculates scores,
  * updates the master game state, and pushes it to Supabase.
- * 4. Supabase syncs that master state down to everyone simultaneously. 
- * This makes "Split-Brain" desyncs mathematically impossible.
- * 5. Pacing: When all players answer, the Host snaps the global timer to 
+ * 4. Supabase syncs that master state down to everyone simultaneously.
+ * 5. Pacing: When all players answer, the Host snaps the global timer to
  * 3 seconds (Review Phase). When the timer hits 0, the Host automatically
  * pulls the next question.
  */
@@ -20,7 +19,7 @@ const MP_PHASES = Object.freeze({
   CONNECTING: 'CONNECTING',
   LOBBY:      'LOBBY',
   QUESTION:   'QUESTION',
-  REVIEW:     'REVIEW', 
+  REVIEW:     'REVIEW',
 });
 
 // ─── Helpers ───────────────────────────────────────────────────────────────
@@ -77,11 +76,9 @@ function mp_applyState(roomState) {
 
   // ─── GUEST LOGGING FIX ─────────────────────────────────────────────────
   // Guests detect Phase/Index changes from the INCOMING database state.
-  // The Host handles its own logging inside mp_hostTimerHitZero.
   if (!m.isHost) {
     if ((roomState.phase === MP_PHASES.QUESTION && roomState.currentIndex !== m.currentIndex) ||
         (roomState.phase === MP_PHASES.REVIEW && m.state !== MP_PHASES.REVIEW)) {
-      
       const prevQ = m.questions[m.currentIndex];
       if (prevQ) {
         const correctVal = prevQ.type === 'truefalse' ? (prevQ.answer ? 'True' : 'False') : prevQ.correctAnswer;
@@ -110,14 +107,14 @@ function mp_applyState(roomState) {
   const me = m.players.find(p => p.id === m.myId);
   if (me && me.currentAnswer) {
     m.isWaitingForDatabase = false;
-    if (!m.myLastAnswer) m.myLastAnswer = me.currentAnswer; 
+    if (!m.myLastAnswer) m.myLastAnswer = me.currentAnswer;
   }
 
   // ─── GUEST TIMER FIX ───────────────────────────────────────────────────
-  // Restart the local UI timer safely if a new question starts, 
+  // Restart the local UI timer safely if a new question starts,
   // OR if the Host just snapped the timer to 3 seconds for Review,
   // OR if the phase just officially switched from LOBBY to QUESTION.
-  if (m.state === MP_PHASES.QUESTION && 
+  if (m.state === MP_PHASES.QUESTION &&
      (m.currentIndex !== prevIndex || m.questionDuration !== prevDuration || prevPhase === MP_PHASES.LOBBY)) {
     mp_startLocalTimer();
   }
@@ -139,11 +136,11 @@ function mp_applyState(roomState) {
 async function mp_submitAnswer(answer) {
   const m = App.mp;
   const me = m.players.find(p => p.id === m.myId);
-  
+
   if (!me || me.currentAnswer || m.isWaitingForDatabase) return;
 
   m.isWaitingForDatabase = true; // Lock the button immediately
-  m.myLastAnswer = answer; 
+  m.myLastAnswer = answer;
   App.renderMpState(); // Show loading state on button
 
   if (m.isHost) {
@@ -177,11 +174,11 @@ function mp_startLocalTimer() {
     m.timer = Math.max(0, m.questionDuration - elapsed);
 
     App.updateMpTimerDisplay();
-    
+
     if (m.timer <= 0) {
       clearInterval(m.timerInterval);
       m.timerInterval = null;
-      
+
       // Guests do nothing. The Host strictly controls the game flow.
       if (m.isHost && m.state === MP_PHASES.QUESTION) {
         mp_hostTimerHitZero();
@@ -199,7 +196,7 @@ async function mp_createRoom(playerName, questions, questionDuration) {
 
   const initialState = {
     phase:                    MP_PHASES.LOBBY,
-    players:                  [{ id: myId, name: playerName, score: 0, currentAnswer: null, 
+    players:                  [{ id: myId, name: playerName, score: 0, currentAnswer: null,
                                  correctCount: 0, wrongCount: 0, skippedCount: 0, accuracy: 0 }],
     questions,
     currentIndex:             0,
@@ -214,13 +211,13 @@ async function mp_createRoom(playerName, questions, questionDuration) {
   App.mp = {
     ...App.mp, isHost: true, inRoom: true, roomCode, playerName, myId,
     state: MP_PHASES.LOBBY, players: initialState.players, questions, currentIndex: 0,
-    questionDuration, originalQuestionDuration: questionDuration, questionStartTime: 0, 
-    answerLog: [], timer: questionDuration, timerInterval: null, channel: null, 
+    questionDuration, originalQuestionDuration: questionDuration, questionStartTime: 0,
+    answerLog: [], timer: questionDuration, timerInterval: null, channel: null,
     myLastAnswer: null, isWaitingForDatabase: false
   };
 
-  App.mp.channel = dbSubscribeRoom(roomCode, 
-    (roomState) => mp_applyState(roomState), 
+  App.mp.channel = dbSubscribeRoom(roomCode,
+    (roomState) => mp_applyState(roomState),
     (payload) => {
       // The Central Brain listens for incoming guest answers!
       if (App.mp.isHost) {
@@ -252,16 +249,16 @@ async function mp_joinRoom(playerName, roomCode) {
   App.mp = {
     ...App.mp, isHost: false, inRoom: true, roomCode, playerName, myId,
     state: state.phase, players: state.players, questions: state.questions ?? [],
-    currentIndex: state.currentIndex ?? 0, 
+    currentIndex: state.currentIndex ?? 0,
     questionDuration: state.questionDuration ?? 20,
     originalQuestionDuration: state.originalQuestionDuration ?? 20,
-    questionStartTime: state.questionStartTime ?? 0, 
+    questionStartTime: state.questionStartTime ?? 0,
     answerLog: [], myLastAnswer: null,
     timer: state.questionDuration ?? 20, timerInterval: null, channel: null,
     isWaitingForDatabase: false
   };
 
-  App.mp.channel = dbSubscribeRoom(roomCode, 
+  App.mp.channel = dbSubscribeRoom(roomCode,
     (roomState) => mp_applyState(roomState),
     null // Guests do not listen to whispers, only the Host does
   );
@@ -350,12 +347,12 @@ async function mp_hostProcessAnswer(playerId, answer) {
     mp_startLocalTimer(); // Restart Host UI safely
   }
 
-  // Push official state to Database. 
-  // (This is the moment the UI will unlock and turn green/red for the Guest!)
+  // Push official state to Database.
   await mp_pushState();
 }
 
-/** * HOST ONLY: Automatically triggered when the Host's timer strictly hits 0. 
+/**
+ * HOST ONLY: Automatically triggered when the Host's timer strictly hits 0.
  * Punishes unanswered players, logs the host's review, and pulls the next question.
  */
 async function mp_hostTimerHitZero() {
@@ -387,7 +384,7 @@ async function mp_hostTimerHitZero() {
   // ───────────────────────────────────────────────────────────────────────
 
   m.currentIndex++;
-  
+
   if (m.currentIndex >= m.questions.length) {
     m.state = MP_PHASES.REVIEW;
   } else {
@@ -399,7 +396,7 @@ async function mp_hostTimerHitZero() {
   }
 
   await mp_pushState();
-  
+
   if (m.state === MP_PHASES.QUESTION) {
     mp_startLocalTimer();
   }
