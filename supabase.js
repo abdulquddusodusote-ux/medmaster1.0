@@ -40,12 +40,6 @@ async function authSignOut() {
   await db.auth.signOut();
 }
 
-/** Send a password reset email to the given address. Returns { data, error }. */
-async function authResetPassword(email) {
-  const { data, error } = await db.auth.resetPasswordForEmail(email);
-  return { data, error };
-}
-
 /** Get the currently logged-in user, or null if guest. */
 async function authGetCurrentUser() {
   const { data } = await db.auth.getUser();
