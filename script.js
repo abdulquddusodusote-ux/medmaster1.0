@@ -1,21 +1,6 @@
 /**
  * MedMaster — Main Application Engine (v2)
- *
- * NEW FEATURES IN THIS VERSION:
- *  • User Authentication + Cross-Device Sync (Supabase Auth)
- *  • Post-Session Review Screen (Practice, Exam, Multiplayer, Daily, Slide)
- *  • Timed Rapid Fire Daily Challenge + Leaderboard
- *  • Concept Linkage Tags (relatedConcepts field on question objects)
- *  • Passive Slide-Through Review Mode
- *  • Bookmark Tab organized by Course (collapsible accordion)
- *  • Expanded Practice Review (matching Exam review depth)
- *  • Mistake Notebook (auto-populated from wrong answers)
- *  • Confidence-Based Answering
- *  • Knowledge Heat Map on Dashboard
- *  • Progress bar in Practice mode
- *  • Urgency styling on Exam timer
- *  • Guest name persistence
- *  • Empty-state onboarding on Dashboard
+ * WITH LIGHT/DARK MODE TOGGLE + DAILY FIX
  */
 
 const App = {
@@ -23,13 +8,13 @@ const App = {
   viewContainer: null,
 
   // ── Auth state ────────────────────────────────────────────────────────
-  currentUser: null, // null = guest
+  currentUser: null,
 
   // ── Practice ──────────────────────────────────────────────────────────
   practice: {
     questions: [], currentIndex: 0, score: 0, answered: false,
     total: 0, results: [], started: false, startTime: 0,
-    confidences: [], // parallel array — 'guess' | 'somewhat' | 'sure'
+    confidences: [],
   },
 
   // ── Exam ──────────────────────────────────────────────────────────────
@@ -50,10 +35,9 @@ const App = {
   // ── Slide-Through ─────────────────────────────────────────────────────
   slide: {
     questions: [], currentIndex: 0, total: 0,
-    speed: 8, // seconds per question
-    phase: 'question', // 'question' | 'answer'
+    speed: 8, phase: 'question',
     intervalId: null, phaseTimer: 0, phaseIntervalId: null,
-    started: false, startTime: 0, topicsCovered: new Set(),
+    started: false, startTime: 0, topicsCovered: new Set(), paused: false,
   },
 
   // ── Multiplayer ───────────────────────────────────────────────────────
@@ -69,36 +53,42 @@ const App = {
 
   // ── Data ──────────────────────────────────────────────────────────────
   bookmarks: new Set(),
-  mistakes: [],   // [{ id, question, correct, explanation, course, topic, subTopic, date, mastered }]
+  mistakes: [],
   history: [],
   flashcard: { questions: [], currentIndex: 0, revealed: false, total: 0 },
+
+  // ── Theme ─────────────────────────────────────────────────────────────
+  darkMode: false,
 
   // ══════════════════════════════════════════════════════════════════════
   // INIT
   // ══════════════════════════════════════════════════════════════════════
 
   async init() {
+    console.log('[App] Initialising…');
     this.viewContainer = document.getElementById('view-container');
     this.setupKeyboardShortcuts();
 
+    // Load theme preference
+    this.loadTheme();
+
     // Listen for Supabase auth changes
     authOnStateChange(async (user) => {
+      console.log('[Auth] State change:', user ? 'User logged in' : 'User logged out');
       this.currentUser = user;
       this.updateAuthBadge();
-      if (user) {
-        await this.syncFromCloud();
-      }
+      if (user) await this.syncFromCloud();
     });
 
-    // Check for an existing session
     const user = await authGetCurrentUser();
     if (user) {
+      console.log('[App] Found existing session for user:', user.email);
       this.currentUser = user;
       this.updateAuthBadge();
       await this.syncFromCloud();
       this.showAppShell();
     } else {
-      // Show auth screen — user may log in or continue as guest
+      console.log('[App] No session, showing auth overlay');
       document.getElementById('auth-overlay').style.display = 'flex';
     }
   },
@@ -111,12 +101,33 @@ const App = {
     this.showView('dashboard');
   },
 
+  // ── Theme Helpers ──────────────────────────────────────────────────────
+
+  loadTheme() {
+    const saved = localStorage.getItem('mm_dark_mode');
+    this.darkMode = saved === 'true';
+    this.applyTheme();
+  },
+
+  applyTheme() {
+    document.body.classList.toggle('dark-mode', this.darkMode);
+    const toggle = document.getElementById('theme-toggle');
+    if (toggle) toggle.textContent = this.darkMode ? '☀️ Light' : '🌙 Dark';
+  },
+
+  toggleTheme() {
+    this.darkMode = !this.darkMode;
+    localStorage.setItem('mm_dark_mode', String(this.darkMode));
+    this.applyTheme();
+  },
+
   // ══════════════════════════════════════════════════════════════════════
   // AUTH
   // ══════════════════════════════════════════════════════════════════════
 
   auth: {
     switchTab(tab) {
+      console.log('[Auth] switchTab:', tab);
       document.getElementById('auth-login-form').style.display    = tab === 'login'    ? 'block' : 'none';
       document.getElementById('auth-register-form').style.display = tab === 'register' ? 'block' : 'none';
       document.getElementById('tab-login').classList.toggle('active',    tab === 'login');
@@ -125,6 +136,7 @@ const App = {
     },
 
     showMessage(msg, isError = false) {
+      console.log('[Auth] showMessage:', msg, isError);
       const el = document.getElementById('auth-message');
       el.style.display      = 'block';
       el.textContent        = msg;
@@ -137,31 +149,59 @@ const App = {
     },
 
     async handleLogin() {
+      console.log('[Auth] handleLogin triggered');
       const email    = document.getElementById('auth-email').value.trim();
       const password = document.getElementById('auth-password').value;
-      if (!email || !password) return App.auth.showMessage('Please enter your email and password.', true);
+      if (!email || !password) {
+        App.auth.showMessage('Please enter your email and password.', true);
+        return;
+      }
       App.auth.showMessage('Signing in…');
-      const { user, error } = await authSignIn(email, password);
-      if (error) return App.auth.showMessage(error.message, true);
-      App.currentUser = user;
-      App.updateAuthBadge();
-      await App.syncFromCloud();
-      App.showAppShell();
+      try {
+        if (typeof authSignIn !== 'function') {
+          throw new Error('authSignIn is not defined – check Supabase initialisation.');
+        }
+        const { user, error } = await authSignIn(email, password);
+        if (error) return App.auth.showMessage(error.message, true);
+        App.currentUser = user;
+        App.updateAuthBadge();
+        await App.syncFromCloud();
+        App.showAppShell();
+      } catch (err) {
+        console.error('[Auth] Login error:', err);
+        App.auth.showMessage('Login failed: ' + err.message, true);
+      }
     },
 
     async handleRegister() {
+      console.log('[Auth] handleRegister triggered');
       const name     = document.getElementById('auth-display-name').value.trim();
       const email    = document.getElementById('auth-reg-email').value.trim();
       const password = document.getElementById('auth-reg-password').value;
-      if (!name || !email || !password) return App.auth.showMessage('Please fill in all fields.', true);
-      if (password.length < 6) return App.auth.showMessage('Password must be at least 6 characters.', true);
+      if (!name || !email || !password) {
+        App.auth.showMessage('Please fill in all fields.', true);
+        return;
+      }
+      if (password.length < 6) {
+        App.auth.showMessage('Password must be at least 6 characters.', true);
+        return;
+      }
       App.auth.showMessage('Creating account…');
-      const { user, error } = await authSignUp(email, password, name);
-      if (error) return App.auth.showMessage(error.message, true);
-      App.auth.showMessage('Account created! Check your email to confirm, then sign in.');
+      try {
+        if (typeof authSignUp !== 'function') {
+          throw new Error('authSignUp is not defined – check Supabase initialisation.');
+        }
+        const { user, error } = await authSignUp(email, password, name);
+        if (error) return App.auth.showMessage(error.message, true);
+        App.auth.showMessage('Account created! Check your email to confirm, then sign in.');
+      } catch (err) {
+        console.error('[Auth] Registration error:', err);
+        App.auth.showMessage('Registration failed: ' + err.message, true);
+      }
     },
 
     continueAsGuest() {
+      console.log('[Auth] continueAsGuest triggered');
       App.currentUser = null;
       App.loadLocalData();
       App.showAppShell();
@@ -171,14 +211,19 @@ const App = {
   updateAuthBadge() {
     const badge = document.getElementById('auth-user-badge');
     if (!badge) return;
+    // Add theme toggle button
     if (this.currentUser) {
       const name = this.currentUser.user_metadata?.display_name || this.currentUser.email;
       badge.innerHTML = `
         <span class="user-name-badge">👤 ${name}</span>
         <button class="btn-signout" onclick="App.handleSignOut()">Sign Out</button>
+        <button id="theme-toggle" class="btn-signout" onclick="App.toggleTheme()">${this.darkMode ? '☀️ Light' : '🌙 Dark'}</button>
       `;
     } else {
-      badge.innerHTML = `<span style="color:#94a3b8; font-size:0.85rem;">Guest Mode</span>`;
+      badge.innerHTML = `
+        <span style="color:#94a3b8; font-size:0.85rem;">Guest Mode</span>
+        <button id="theme-toggle" class="btn-signout" onclick="App.toggleTheme()">${this.darkMode ? '☀️ Light' : '🌙 Dark'}</button>
+      `;
     }
   },
 
@@ -212,12 +257,10 @@ const App = {
     if (!this.currentUser) return;
     const progress = await dbLoadUserProgress(this.currentUser.id);
     if (!progress) return;
-
-    // Merge cloud data with any existing local data, cloud wins
     this.history   = progress.history   || [];
     this.bookmarks = new Set(progress.bookmarks || []);
     this.mistakes  = progress.mistakes  || [];
-    this.saveLocalData(); // Keep local in sync too
+    this.saveLocalData();
   },
 
   async saveData() {
@@ -250,7 +293,8 @@ const App = {
     });
   },
 
-  showView(viewName) {
+  // ─── FIXED: async showView with await for daily ──────────────────────
+  async showView(viewName) {
     this.currentView = viewName;
     if (this.exam.timerInterval) clearInterval(this.exam.timerInterval);
     if (this.slide.intervalId)    clearInterval(this.slide.intervalId);
@@ -262,7 +306,7 @@ const App = {
       case 'dashboard':   html = this.renderDashboard();        break;
       case 'practice':    html = this.renderPractice();         break;
       case 'exam':        html = this.renderExamSetup();        break;
-      case 'daily':       html = this.renderDailySetup();       break;
+      case 'daily':       html = await this.renderDailySetup(); break; // ✅ AWAIT
       case 'slide':       html = this.renderSlideSetup();       break;
       case 'multiplayer': html = this.renderMultiplayerSetup(); break;
       case 'history':     html = this.renderHistory();          break;
@@ -273,7 +317,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // KEYBOARD SHORTCUTS
+  // KEYBOARD SHORTCUTS (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   setupKeyboardShortcuts() {
@@ -281,14 +325,12 @@ const App = {
       if (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA') return;
       const key = e.key.toLowerCase();
 
-      // Flashcard navigation
       if (this.currentView === 'bookmarks' && document.getElementById('flashcard-area')?.innerHTML.trim()) {
         if (key === ' ' || key === 'spacebar') { e.preventDefault(); this.flashcard.revealed = !this.flashcard.revealed; this.renderFlashcard(); }
         if (key === 'arrowright' && this.flashcard.currentIndex < this.flashcard.total - 1) { this.flashcard.currentIndex++; this.flashcard.revealed = false; this.renderFlashcard(); }
         if (key === 'arrowleft'  && this.flashcard.currentIndex > 0)                        { this.flashcard.currentIndex--; this.flashcard.revealed = false; this.renderFlashcard(); }
       }
 
-      // Number keys for answer options
       const numberMap = { '1': 0, '2': 1, '3': 2, '4': 3, '5': 4 };
       if (numberMap[key] !== undefined) {
         const index = numberMap[key];
@@ -300,13 +342,11 @@ const App = {
         if (buttons.length > index && !buttons[index].disabled) buttons[index].click();
       }
 
-      // Space/Enter to advance in practice
       if ((key === ' ' || key === 'enter') && this.currentView === 'practice' && this.practice.answered) {
         e.preventDefault();
         document.querySelector('.btn-next')?.click();
       }
 
-      // Slide-through pause
       if (key === ' ' && this.currentView === 'slide' && this.slide.started) {
         e.preventDefault();
         this.toggleSlidePause();
@@ -315,7 +355,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // FILTER ENGINE (unchanged from original)
+  // FILTER ENGINE (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   getUniqueCourses() { return [...new Set(questions.map(q => q.course))].sort(); },
@@ -459,7 +499,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // BIND VIEW EVENTS
+  // BIND VIEW EVENTS (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   bindViewEvents(viewName) {
@@ -542,7 +582,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // HELPERS
+  // HELPERS (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   shuffleArray(arr) {
@@ -568,7 +608,6 @@ const App = {
   },
 
   addMistake(q, selected) {
-    // Don't duplicate — update existing entry
     const existing = this.mistakes.find(m => m.question === q.question);
     if (existing) { existing.date = new Date().toISOString(); existing.mastered = false; return; }
     this.mistakes.push({
@@ -584,7 +623,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // SEEDED DAILY QUESTION SELECTION
+  // SEEDED DAILY (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   getDailySeed() {
@@ -609,7 +648,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // DASHBOARD
+  // DASHBOARD (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderDashboard() {
@@ -645,7 +684,6 @@ const App = {
       }
     }
 
-    // ── Heat Map ──────────────────────────────────────────────────────
     const heatMapHtml = this.getUniqueCourses().map(course => {
       const cs = courseStats[course];
       const pct = cs && cs.total >= 3 ? Math.round((cs.correct / cs.total) * 100) : null;
@@ -658,7 +696,6 @@ const App = {
       return `<div class="heat-cell" style="background:${color};"><span class="heat-label" style="color:${textColor};">${course}</span><span class="heat-pct" style="color:${textColor};">${label}</span></div>`;
     }).join('');
 
-    // ── Recent Activity ───────────────────────────────────────────────
     const recentHtml = completed.slice(0, 5).map(h => `
       <div class="recent-item">
         <span class="recent-mode">${h.mode}</span>
@@ -720,7 +757,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // PRACTICE MODE
+  // PRACTICE MODE (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderPractice() {
@@ -769,7 +806,6 @@ const App = {
       buttonsHtml += `<button class="btn-option btn-answer ${stateClass}" data-value="${opt}" ${p.answered ? 'disabled' : ''}>${opt}${icon} <span class="hotkey-hint">[${index + 1}]</span></button>`;
     });
 
-    // Confidence selector shown AFTER answer
     let confidenceHtml = '';
     if (p.answered) {
       const conf = p.confidences[p.currentIndex] || '';
@@ -785,7 +821,6 @@ const App = {
       `;
     }
 
-    // Concept tags
     let conceptHtml = '';
     if (p.answered && q.relatedConcepts && q.relatedConcepts.length) {
       conceptHtml = `
@@ -824,7 +859,6 @@ const App = {
 
   setConfidence(index, value) {
     this.practice.confidences[index] = value;
-    // Re-render just the confidence buttons without full re-render
     document.querySelectorAll('.conf-btn').forEach(b => {
       b.classList.toggle('active', b.dataset.conf === value);
     });
@@ -883,13 +917,12 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // SHARED SESSION REVIEW RENDERER
+  // SHARED SESSION REVIEW (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderSessionReview({ title, score, total, elapsed, results, subPerf, confidences, restartFn, mode }) {
     const pct = total ? Math.round((score / total) * 100) : 0;
 
-    // Sub-topic breakdown
     const subRows = Object.entries(subPerf || {}).map(([sub, s]) => {
       const sp = Math.round((s.correct / s.total) * 100);
       const hist = this.history.filter(h => h.subPerf && h.subPerf[sub] && h.mode !== 'current');
@@ -904,7 +937,6 @@ const App = {
       return `<tr><td>${sub}</td><td>${s.correct}/${s.total}</td><td style="font-weight:700; color:${sp>=50?'#16a34a':'#dc2626'};">${sp}%</td><td>${delta}</td></tr>`;
     }).join('');
 
-    // Wrong answers
     const wrong = (results || []).filter(r => r.selected !== r.correct);
     const wrongHtml = wrong.map((r, i) => {
       const conf = confidences && confidences[results.indexOf(r)];
@@ -953,7 +985,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // RE-DRILL (wrong answers mini-session)
+  // RE-DRILL (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   startReDrill(questionTexts) {
@@ -977,7 +1009,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // CONCEPT DRILL (mini modal for concept tags)
+  // CONCEPT DRILL (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   openConceptDrill(concept) {
@@ -1043,7 +1075,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // EXAM MODE
+  // EXAM MODE (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderExamSetup() {
@@ -1208,7 +1240,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // DAILY CHALLENGE
+  // DAILY CHALLENGE (unchanged logic, only render async)
   // ══════════════════════════════════════════════════════════════════════
 
   async renderDailySetup() {
@@ -1258,7 +1290,6 @@ const App = {
       timer: 600, timerInterval: null, results: [], startTime: Date.now(), submitted: false,
     };
     document.getElementById('daily-area').innerHTML = '';
-    // Hide the start button
     const startBtn = document.getElementById('start-daily');
     if (startBtn) startBtn.style.display = 'none';
     this.renderDailyQuestion();
@@ -1332,7 +1363,6 @@ const App = {
     const accuracy = Math.round((this.daily.score / this.daily.total) * 100);
     const displayName = this.currentUser?.user_metadata?.display_name || this.currentUser?.email || 'Guest';
 
-    // Submit to leaderboard
     const submitted = await dbSubmitDailyResult({
       userId:      this.currentUser?.id || null,
       displayName,
@@ -1362,7 +1392,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // PASSIVE SLIDE-THROUGH REVIEW
+  // SLIDE REVIEW (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderSlideSetup() {
@@ -1413,12 +1443,10 @@ const App = {
 
       if (this.slide.phaseTimer <= 0) {
         if (this.slide.phase === 'question') {
-          // Reveal answer
           this.slide.phase = 'answer';
           this.slide.phaseTimer = this.slide.speed - Math.floor(this.slide.speed / 2);
           this.renderSlideQuestion();
         } else {
-          // Advance to next
           this.slide.currentIndex++;
           if (this.slide.currentIndex >= this.slide.total) {
             clearInterval(this.slide.phaseIntervalId);
@@ -1458,7 +1486,6 @@ const App = {
         </div>
         <div class="progress-bar-track mb-1"><div class="progress-bar-fill" style="width:${pct}%;"></div></div>
 
-        <!-- Phase timer bar -->
         <div style="height:4px; background:#e2e8f0; border-radius:4px; overflow:hidden; margin-bottom:1rem;">
           <div id="slide-phase-bar" style="height:100%; border-radius:4px; transition:width 0.9s linear;"></div>
         </div>
@@ -1530,7 +1557,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // HISTORY & MISTAKE NOTEBOOK
+  // HISTORY & MISTAKE NOTEBOOK (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderHistory() {
@@ -1585,13 +1612,12 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // BOOKMARKS (organized by course)
+  // BOOKMARKS (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderBookmarks() {
     const bQs = questions.filter(q => this.bookmarks.has(q.question));
 
-    // Group by course
     const byCourse = {};
     bQs.forEach(q => {
       if (!byCourse[q.course]) byCourse[q.course] = [];
@@ -1690,7 +1716,7 @@ const App = {
   },
 
   // ══════════════════════════════════════════════════════════════════════
-  // MULTIPLAYER UI (unchanged logic, extended review)
+  // MULTIPLAYER UI (unchanged)
   // ══════════════════════════════════════════════════════════════════════
 
   renderMultiplayerSetup() {
@@ -1769,8 +1795,6 @@ const App = {
     if (document.getElementById('mp-lobby-ui')) document.getElementById('mp-lobby-ui').style.display = 'none';
     if (area) area.innerHTML = `<div class="card text-center" style="border-top:4px solid #dc2626;"><h2 style="color:#dc2626;">${title}</h2><p class="text-muted mt-1">${message}</p><button class="btn btn-primary mt-1" onclick="App.showView('multiplayer')">Back to Lobby</button></div>`;
   },
-
-  // ── Multiplayer Render (unchanged core, extended REVIEW state) ────────
 
   renderMpState() {
     const area = document.getElementById('mp-area');
@@ -1891,7 +1915,6 @@ const App = {
         </div>`;
     }).join('');
 
-    // Personal session review using shared renderer
     const myResults = m.answerLog.map(e => ({
       question: e.question, selected: e.myAnswer, correct: e.correctAnswer,
       explanation: e.explanation, subTopic: '', course: '', isCorrect: e.myAnswer === e.correctAnswer,
