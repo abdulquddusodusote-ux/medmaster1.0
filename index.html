@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
   <title>MedMaster – Medical CBT</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js"></script>
 </head>
 <body>
@@ -22,16 +22,16 @@
 
       <!-- Login Form -->
       <div id="auth-login-form">
-        <input type="email"    id="auth-email"    class="input-text mt-1" placeholder="Email address">
-        <input type="password" id="auth-password" class="input-text mt-1" placeholder="Password">
+        <input type="email"    id="auth-email"    class="input-text mt-1" placeholder="Email address" />
+        <input type="password" id="auth-password" class="input-text mt-1" placeholder="Password" />
         <button class="btn btn-primary mt-1" style="width:100%;" onclick="App.auth.handleLogin()">Sign In</button>
       </div>
 
       <!-- Register Form -->
       <div id="auth-register-form" style="display:none;">
-        <input type="text"     id="auth-display-name" class="input-text mt-1" placeholder="Display Name (shown on leaderboards)">
-        <input type="email"    id="auth-reg-email"     class="input-text mt-1" placeholder="Email address">
-        <input type="password" id="auth-reg-password"  class="input-text mt-1" placeholder="Password (min. 6 characters)">
+        <input type="text"     id="auth-display-name" class="input-text mt-1" placeholder="Display Name (shown on leaderboards)" />
+        <input type="email"    id="auth-reg-email"     class="input-text mt-1" placeholder="Email address" />
+        <input type="password" id="auth-reg-password"  class="input-text mt-1" placeholder="Password (min. 6 characters)" />
         <button class="btn btn-primary mt-1" style="width:100%;" onclick="App.auth.handleRegister()">Create Account</button>
       </div>
 
