@@ -106,20 +106,6 @@ body {
 }
 .btn-signout:hover { background: rgba(255,255,255,0.22); }
 
-.font-size-toggle {
-  background: rgba(255,255,255,0.12);
-  color: #ffffff;
-  border: 1px solid rgba(255,255,255,0.35);
-  padding: 0.35rem 0.7rem;
-  border-radius: 6px;
-  font-size: 0.85rem;
-  font-weight: 700;
-  cursor: pointer;
-  transition: background 0.2s;
-  margin-right: 0.5rem;
-}
-.font-size-toggle:hover { background: rgba(255,255,255,0.22); }
-
 /* ==========================================================================
    Header & Navigation
    ========================================================================== */
@@ -286,7 +272,6 @@ body {
 .progress-text { font-weight: 700; color: #475569; background: #f1f5f9; padding: 0.3rem 0.8rem; border-radius: 6px; font-size: 0.9rem; }
 
 .question-text { font-size: 1.35rem; font-weight: 500; margin: 1.5rem 0; line-height: 1.6; color: #0f172a; }
-.large-font .question-text { font-size: 1.6rem; }
 .hotkey-hint   { float: right; font-size: 0.8rem; color: #94a3b8; background: #ffffff; border: 1px solid #e2e8f0; padding: 2px 6px; border-radius: 4px; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
 
 /* Progress bar (Practice, Exam) */
@@ -645,91 +630,4 @@ body {
   .podium-place.gold   { transform: translateY(-6px); }
   .question-text       { font-size: 1.15rem; }
   .auth-modal          { padding: 1.75rem; }
-}
-
-/* ==========================================================================
-   SYSTEM DARK MODE
-   ========================================================================== */
-@media (prefers-color-scheme: dark) {
-  body { background-color: #0f172a; color: #f8fafc; }
-
-  .card,
-  .accordion-item,
-  .bookmark-course-group,
-  .review-item,
-  .btn-option {
-    background: #1e293b;
-    border-color: #334155;
-  }
-
-  .card-title { color: #f8fafc; border-bottom-color: #334155; }
-
-  .app-title, .question-text, .progress-text, .badge, .accordion-header,
-  .bookmark-course-header, .custom-checkbox, .input-select, .input-text,
-  .stats-table th, .stats-table td, .player-tag, h1, h2, h3 {
-    color: #f8fafc;
-  }
-
-  .text-muted { color: #94a3b8; }
-
-  .main-nav { background: #1e293b; border-bottom-color: #334155; }
-  .nav-btn  { color: #94a3b8; }
-  .nav-btn:hover  { background: #334155; color: #f8fafc; }
-  .nav-btn.active { background: #f8fafc; color: #0f172a; }
-
-  .filter-section, .accordion-header, .bookmark-course-header,
-  .history-item, .accordion-item, .progress-bar-track {
-    background: #334155;
-    border-color: #475569;
-  }
-  .accordion-header:hover, .bookmark-course-header:hover { background: #475569; }
-  .accordion-content, .bookmark-course-content { border-top-color: #475569; }
-
-  .filter-pill { background: #334155; color: #cbd5e1; }
-  .filter-pill:hover { background: #475569; }
-  .filter-pill.active { background: #f8fafc; color: #0f172a; }
-
-  .input-select, .input-text {
-    background: #1e293b;
-    border-color: #475569;
-    color: #f8fafc;
-  }
-  .input-select:focus, .input-text:focus {
-    border-color: #94a3b8;
-    box-shadow: 0 0 0 3px rgba(148,163,184,0.2);
-  }
-
-  .custom-checkbox input[type="checkbox"] { background: #1e293b; border-color: #64748b; }
-  .custom-checkbox input[type="checkbox"]:checked { background-color: #f8fafc; border-color: #f8fafc; }
-  .custom-checkbox input[type="checkbox"]:checked::after { color: #0f172a; }
-
-  .btn-secondary { background: #334155; color: #f8fafc; }
-  .btn-secondary:hover { background: #475569; }
-  .btn-outline   { border-color: #f8fafc; color: #f8fafc; }
-  .btn-outline:hover { background: #f8fafc; color: #0f172a; }
-
-  .btn-option { color: #f8fafc; border-color: #475569; }
-  .btn-option:hover:not(:disabled) { background: #334155; border-color: #94a3b8; }
-  .btn-option.selected.waiting { background: #334155; color: #cbd5e1; border-color: #64748b; }
-  .btn-option.selected  { background: #082f49; color: #38bdf8; border-color: #0284c7; }
-  .btn-option.correct   { background: #052e16; color: #4ade80; border-color: #16a34a; }
-  .btn-option.incorrect { background: #450a0a; color: #f87171; border-color: #dc2626; }
-
-  .feedback-correct   { background: #052e16; border-left-color: #16a34a; color: #86efac; }
-  .feedback-incorrect { background: #450a0a; border-left-color: #dc2626; color: #fca5a5; }
-
-  .badge { background: #334155; color: #cbd5e1; }
-  .topic-badge { background: #1e3a5f; color: #93c5fd; }
-  .progress-text { background: #334155; color: #cbd5e1; }
-  .group-accuracy-badge { background: #334155; color: #cbd5e1; }
-
-  .hotkey-hint { background: #1e293b; border-color: #475569; color: #94a3b8; }
-
-  .auth-modal { background: #1e293b; }
-  .auth-message--error   { background: #450a0a; color: #fca5a5; border-color: #7f1d1d; }
-  .auth-message--success { background: #052e16; color: #86efac; border-color: #15803d; }
-
-  .accordion-scroll-area::-webkit-scrollbar-track { background: #1e293b; }
-  .accordion-scroll-area::-webkit-scrollbar-thumb { background: #475569; }
-  .accordion-scroll-area::-webkit-scrollbar-thumb:hover { background: #64748b; }
 }
