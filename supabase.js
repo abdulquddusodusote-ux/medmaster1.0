@@ -1,26 +1,30 @@
 /**
  * supabase.js — Supabase client, Auth, and all database helpers.
- *
- * TABLES REQUIRED (run the SQL in SUPABASE_SETUP.md):
- *   public.rooms          — multiplayer room state (existing)
- *   public.user_progress  — per-user history, bookmarks, mistakes (NEW)
- *   public.daily_challenge — daily leaderboard entries (NEW)
+ * With robust error handling to prevent silent failures.
  */
 
-// ─── ① Replace with your project credentials ──────────────────────────────
+// ─── ① REPLACE WITH YOUR PROJECT CREDENTIALS ──────────────────────────
 const SUPABASE_URL      = 'https://tgrmnotrqyzzwhryzlfc.supabase.co';
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRncm1ub3RycXl6endocnl6bGZjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODIzMjY0OTUsImV4cCI6MjA5NzkwMjQ5NX0.FPLZf2mVIjIs6UWlVHViGNa4NcBOdt6fP1xUG6v1poU';
-// ──────────────────────────────────────────────────────────────────────────
+// ──────────────────────────────────────────────────────────────────────
 
-const { createClient } = supabase;
-const db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+let db;
+
+try {
+  const { createClient } = supabase;
+  db = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+  console.log('[Supabase] Client initialised successfully.');
+} catch (err) {
+  console.error('[Supabase] Initialisation failed:', err);
+  alert('⚠️ Could not connect to the server. Please check your internet and refresh the page.');
+}
 
 // ═══════════════════════════════════════════════════════════════════════════
 // AUTH HELPERS
 // ═══════════════════════════════════════════════════════════════════════════
 
-/** Sign up with email and password. Returns { user, error }. */
 async function authSignUp(email, password, displayName) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const { data, error } = await db.auth.signUp({
     email,
     password,
@@ -29,25 +33,25 @@ async function authSignUp(email, password, displayName) {
   return { user: data?.user, error };
 }
 
-/** Sign in with email and password. Returns { user, error }. */
 async function authSignIn(email, password) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const { data, error } = await db.auth.signInWithPassword({ email, password });
   return { user: data?.user, session: data?.session, error };
 }
 
-/** Sign out the current user. */
 async function authSignOut() {
+  if (!db) return;
   await db.auth.signOut();
 }
 
-/** Get the currently logged-in user, or null if guest. */
 async function authGetCurrentUser() {
+  if (!db) return null;
   const { data } = await db.auth.getUser();
   return data?.user || null;
 }
 
-/** Listen for auth state changes (login / logout). */
 function authOnStateChange(callback) {
+  if (!db) return () => {};
   return db.auth.onAuthStateChange((_event, session) => {
     callback(session?.user || null);
   });
@@ -57,11 +61,8 @@ function authOnStateChange(callback) {
 // USER PROGRESS HELPERS
 // ═══════════════════════════════════════════════════════════════════════════
 
-/**
- * Load a user's progress from Supabase.
- * Returns { history: [], bookmarks: [], mistakes: [] } or null on error.
- */
 async function dbLoadUserProgress(userId) {
+  if (!db) return null;
   const { data, error } = await db
     .from('user_progress')
     .select('*')
@@ -76,11 +77,8 @@ async function dbLoadUserProgress(userId) {
   };
 }
 
-/**
- * Save a user's full progress to Supabase (upsert).
- * Call this whenever history, bookmarks, or mistakes change.
- */
 async function dbSaveUserProgress(userId, { history, bookmarks, mistakes }) {
+  if (!db) return;
   const { error } = await db
     .from('user_progress')
     .upsert({
@@ -97,16 +95,12 @@ async function dbSaveUserProgress(userId, { history, bookmarks, mistakes }) {
 // DAILY CHALLENGE HELPERS
 // ═══════════════════════════════════════════════════════════════════════════
 
-/** Get today's date string in YYYY-MM-DD format (used as the daily key). */
 function getDailyKey() {
   return new Date().toISOString().slice(0, 10);
 }
 
-/**
- * Fetch today's leaderboard entries, ordered by score desc, then time_taken asc.
- * Returns an array of { display_name, score, accuracy, time_taken }.
- */
 async function dbGetDailyLeaderboard() {
+  if (!db) return [];
   const today = getDailyKey();
   const { data, error } = await db
     .from('daily_challenge')
@@ -119,15 +113,10 @@ async function dbGetDailyLeaderboard() {
   return data || [];
 }
 
-/**
- * Submit a daily challenge result.
- * Guests submit with a provided display_name; logged-in users use their account name.
- * Returns true on success, false if the user already submitted today.
- */
 async function dbSubmitDailyResult({ userId, displayName, score, accuracy, timeTaken }) {
+  if (!db) return false;
   const today = getDailyKey();
 
-  // Check for duplicate submission by this user today
   if (userId) {
     const { data: existing } = await db
       .from('daily_challenge')
@@ -135,7 +124,7 @@ async function dbSubmitDailyResult({ userId, displayName, score, accuracy, timeT
       .eq('user_id', userId)
       .eq('challenge_date', today)
       .maybeSingle();
-    if (existing) return false; // Already submitted today
+    if (existing) return false;
   }
 
   const { error } = await db.from('daily_challenge').insert({
@@ -150,16 +139,12 @@ async function dbSubmitDailyResult({ userId, displayName, score, accuracy, timeT
   return true;
 }
 
-/**
- * Check if the current user/guest already submitted today.
- * For guests, we use localStorage. For users, we check Supabase.
- */
 async function dbCheckDailySubmitted(userId) {
   const today = getDailyKey();
   if (!userId) {
-    // Guest: check localStorage
     return localStorage.getItem('mm_daily_submitted') === today;
   }
+  if (!db) return false;
   const { data } = await db
     .from('daily_challenge')
     .select('id')
@@ -170,10 +155,11 @@ async function dbCheckDailySubmitted(userId) {
 }
 
 // ═══════════════════════════════════════════════════════════════════════════
-// ROOM HELPERS (unchanged from original)
+// ROOM HELPERS (for Multiplayer – unchanged from original)
 // ═══════════════════════════════════════════════════════════════════════════
 
 async function dbGetRoom(roomCode) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const { data, error } = await db
     .from('rooms')
     .select('*')
@@ -185,6 +171,7 @@ async function dbGetRoom(roomCode) {
 }
 
 async function dbCreateRoom(roomCode, initialState) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const { error } = await db.from('rooms').insert({
     room_code:  roomCode,
     room_state: initialState,
@@ -195,6 +182,7 @@ async function dbCreateRoom(roomCode, initialState) {
 }
 
 async function dbUpdateRoomState(roomCode, newState) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const { error } = await db
     .from('rooms')
     .update({ room_state: newState, updated_at: new Date().toISOString() })
@@ -203,6 +191,7 @@ async function dbUpdateRoomState(roomCode, newState) {
 }
 
 async function dbCloseRoom(roomCode) {
+  if (!db) return;
   await db
     .from('rooms')
     .update({ status: 'closed', updated_at: new Date().toISOString() })
@@ -210,6 +199,7 @@ async function dbCloseRoom(roomCode) {
 }
 
 function dbSubscribeRoom(roomCode, onStateChange, onWhisper) {
+  if (!db) throw new Error('Supabase client not initialised.');
   const channel = db.channel(`room:${roomCode}`, {
     config: { broadcast: { ack: false } }
   });
