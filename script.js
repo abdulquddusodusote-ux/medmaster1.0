@@ -22,24 +22,24 @@ const App = {
   currentView: 'dashboard',
   viewContainer: null,
 
-  //  Auth state 
+  // ── Auth state ────────────────────────────────────────────────────────
   currentUser: null, // null = guest
 
-  //  Practice 
+  // ── Practice ──────────────────────────────────────────────────────────
   practice: {
     questions: [], currentIndex: 0, score: 0, answered: false,
     total: 0, results: [], started: false, startTime: 0,
     confidences: [], // parallel array — 'guess' | 'somewhat' | 'sure'
   },
 
-  //  Exam 
+  // ── Exam ──────────────────────────────────────────────────────────────
   exam: {
     questions: [], currentIndex: 0, answers: [], total: 0,
     score: 0, started: false, finished: false, timer: 0,
     timerInterval: null, results: [], startTime: 0, duration: 0,
   },
 
-  //  Daily Challenge 
+  // ── Daily Challenge ───────────────────────────────────────────────────
   daily: {
     questions: [], currentIndex: 0, answers: [], total: 20,
     score: 0, started: false, finished: false,
@@ -47,7 +47,7 @@ const App = {
     submitted: false,
   },
 
-  //  Slide-Through 
+  // ── Slide-Through ─────────────────────────────────────────────────────
   slide: {
     questions: [], currentIndex: 0, total: 0,
     speed: 8, // seconds per question
@@ -56,7 +56,7 @@ const App = {
     started: false, startTime: 0, topicsCovered: new Set(),
   },
 
-  //  Multiplayer 
+  // ── Multiplayer ───────────────────────────────────────────────────────
   mp: {
     channel: null, isHost: false, inRoom: false,
     roomCode: '', playerName: '', myId: '',
@@ -65,24 +65,21 @@ const App = {
     questionDuration: 20, originalQuestionDuration: 20,
     questionStartTime: 0, answerLog: [], myLastAnswer: null,
     isWaitingForDatabase: false,
-    heartbeatInterval: null, hostMonitorInterval: null,
-    lastHeartbeat: 0, hostId: '', questionPool: [],
   },
 
-  //  Data 
+  // ── Data ──────────────────────────────────────────────────────────────
   bookmarks: new Set(),
   mistakes: [],   // [{ id, question, correct, explanation, course, topic, subTopic, date, mastered }]
   history: [],
   flashcard: { questions: [], currentIndex: 0, revealed: false, total: 0 },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // INIT
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   async init() {
     this.viewContainer = document.getElementById('view-container');
     this.setupKeyboardShortcuts();
-    this.bindAuthUIEvents();
 
     // Listen for Supabase auth changes
     authOnStateChange(async (user) => {
@@ -106,63 +103,17 @@ const App = {
     }
   },
 
-  // Bind the auth-screen controls with real event listeners rather than
-  // inline onclick="" attributes — some embedded/sandboxed preview tools
-  // enforce a Content-Security-Policy that silently blocks inline handlers,
-  // which otherwise makes the sign-in screen look completely unresponsive.
-  bindAuthUIEvents() {
-    document.getElementById('tab-login')?.addEventListener('click', () => this.auth.switchTab('login'));
-    document.getElementById('tab-register')?.addEventListener('click', () => this.auth.switchTab('register'));
-    document.getElementById('auth-login-btn')?.addEventListener('click', () => this.auth.handleLogin());
-    document.getElementById('auth-register-btn')?.addEventListener('click', () => this.auth.handleRegister());
-    document.getElementById('auth-continue-guest-btn')?.addEventListener('click', () => this.auth.continueAsGuest());
-    document.getElementById('forgot-password-link')?.addEventListener('click', (e) => {
-      e.preventDefault();
-      this.auth.handleForgotPassword();
-    });
-    // Allow submitting the login/register forms with the Enter key
-    document.getElementById('auth-password')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') this.auth.handleLogin(); });
-    document.getElementById('auth-reg-password')?.addEventListener('keydown', (e) => { if (e.key === 'Enter') this.auth.handleRegister(); });
-  },
-
   showAppShell() {
     document.getElementById('auth-overlay').style.display = 'none';
     document.getElementById('app-shell').style.display   = 'block';
     this.loadLocalData();
     this.setupNavigation();
-    this.setupFontSizeToggle();
-    this.tryRejoinMultiplayer();
     this.showView('dashboard');
   },
 
-  // 
-  // FONT SIZE TOGGLE (A / A+)
-  // 
-
-  setupFontSizeToggle() {
-    const btn = document.getElementById('font-size-toggle');
-    if (!btn) return;
-    const applyState = () => {
-      const large = localStorage.getItem('mm_large_font') === '1';
-      document.body.classList.toggle('large-font', large);
-      btn.textContent = large ? 'A' : 'A+';
-      btn.setAttribute('aria-pressed', large ? 'true' : 'false');
-    };
-    if (!btn.dataset.bound) {
-      btn.addEventListener('click', () => {
-        const large = document.body.classList.toggle('large-font');
-        localStorage.setItem('mm_large_font', large ? '1' : '0');
-        btn.textContent = large ? 'A' : 'A+';
-        btn.setAttribute('aria-pressed', large ? 'true' : 'false');
-      });
-      btn.dataset.bound = '1';
-    }
-    applyState();
-  },
-
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // AUTH
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   auth: {
     switchTab(tab) {
@@ -215,17 +166,6 @@ const App = {
       App.loadLocalData();
       App.showAppShell();
     },
-
-    async handleForgotPassword() {
-      const email = prompt('Enter your account email address to receive a password reset link:');
-      if (!email) return;
-      const trimmed = email.trim();
-      if (!trimmed) return;
-      App.auth.showMessage('Sending password reset email…');
-      const { error } = await authResetPassword(trimmed);
-      if (error) return App.auth.showMessage(error.message, true);
-      App.auth.showMessage('Password reset email sent! Check your inbox for a link to reset your password.');
-    },
   },
 
   updateAuthBadge() {
@@ -234,10 +174,9 @@ const App = {
     if (this.currentUser) {
       const name = this.currentUser.user_metadata?.display_name || this.currentUser.email;
       badge.innerHTML = `
-        <span class="user-name-badge"> ${name}</span>
-        <button class="btn-signout" id="btn-sign-out">Sign Out</button>
+        <span class="user-name-badge">👤 ${name}</span>
+        <button class="btn-signout" onclick="App.handleSignOut()">Sign Out</button>
       `;
-      document.getElementById('btn-sign-out')?.addEventListener('click', () => this.handleSignOut());
     } else {
       badge.innerHTML = `<span style="color:#94a3b8; font-size:0.85rem;">Guest Mode</span>`;
     }
@@ -253,9 +192,9 @@ const App = {
     document.getElementById('auth-overlay').style.display = 'flex';
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // DATA SYNC
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   loadLocalData() {
     try { this.history   = JSON.parse(localStorage.getItem('mm_history'))   || []; } catch(e) { this.history = []; }
@@ -292,9 +231,9 @@ const App = {
     }
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // NAVIGATION
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   setupNavigation() {
     const navBtns = document.querySelectorAll('.nav-btn');
@@ -333,9 +272,9 @@ const App = {
     this.bindViewEvents(viewName);
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // KEYBOARD SHORTCUTS
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   setupKeyboardShortcuts() {
     window.addEventListener('keydown', (e) => {
@@ -375,9 +314,9 @@ const App = {
     });
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // FILTER ENGINE (unchanged from original)
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   getUniqueCourses() { return [...new Set(questions.map(q => q.course))].sort(); },
 
@@ -430,7 +369,7 @@ const App = {
     let html = '';
     for (const course of Object.keys(topicsByCourse).sort()) {
       const topics = Array.from(topicsByCourse[course]).sort();
-      html += `<div class="accordion-item"><div class="accordion-header"><span>${course}</span><span class="accordion-arrow"></span></div><div class="accordion-content"><div class="accordion-scroll-area"><div class="checkbox-grid">${topics.map(t => `<label class="custom-checkbox"><input type="checkbox" class="topic-checkbox" value="${t.replace(/"/g,'&quot;')}" ${!uncheckedTopics.has(t) ? 'checked' : ''}><span>${t}</span></label>`).join('')}</div></div></div></div>`;
+      html += `<div class="accordion-item"><div class="accordion-header"><span>${course}</span><span class="accordion-arrow">▼</span></div><div class="accordion-content"><div class="accordion-scroll-area"><div class="checkbox-grid">${topics.map(t => `<label class="custom-checkbox"><input type="checkbox" class="topic-checkbox" value="${t.replace(/"/g,'&quot;')}" ${!uncheckedTopics.has(t) ? 'checked' : ''}><span>${t}</span></label>`).join('')}</div></div></div></div>`;
     }
     container.innerHTML = html;
     this.renderSubTopicSelection(prefix);
@@ -453,7 +392,7 @@ const App = {
     let html = '';
     for (const topic of Object.keys(subTopicsByTopic).sort()) {
       const subs = Array.from(subTopicsByTopic[topic]).sort();
-      html += `<div class="accordion-item"><div class="accordion-header"><span>${topic}</span><span class="accordion-arrow"></span></div><div class="accordion-content"><div class="accordion-scroll-area"><div class="checkbox-grid">${subs.map(st => `<label class="custom-checkbox"><input type="checkbox" class="subtopic-checkbox" value="${st.replace(/"/g,'&quot;')}" ${!uncheckedSubs.has(st) ? 'checked' : ''}><span>${st}</span></label>`).join('')}</div></div></div></div>`;
+      html += `<div class="accordion-item"><div class="accordion-header"><span>${topic}</span><span class="accordion-arrow">▼</span></div><div class="accordion-content"><div class="accordion-scroll-area"><div class="checkbox-grid">${subs.map(st => `<label class="custom-checkbox"><input type="checkbox" class="subtopic-checkbox" value="${st.replace(/"/g,'&quot;')}" ${!uncheckedSubs.has(st) ? 'checked' : ''}><span>${st}</span></label>`).join('')}</div></div></div></div>`;
     }
     container.innerHTML = html;
     this.updateQuestionCountDropdown(prefix);
@@ -519,9 +458,9 @@ const App = {
     this.renderTopicSelection(prefix);
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // BIND VIEW EVENTS
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   bindViewEvents(viewName) {
     if (viewName === 'practice') {
@@ -530,7 +469,7 @@ const App = {
       document.getElementById('practice-area')?.addEventListener('click', (e) => {
         if (e.target.closest('.btn-answer'))   this.handlePracticeAnswer(e.target.closest('.btn-answer').dataset.value);
         if (e.target.matches('.btn-next'))     { this.practice.currentIndex++; this.practice.answered = false; this.renderPracticeQuestion(); }
-        if (e.target.matches('.btn-finish'))   { if (confirm('Are you sure you want to end this session early?')) { this.practice.currentIndex = this.practice.total; this.showPracticeReview(); } }
+        if (e.target.matches('.btn-finish'))   { this.practice.currentIndex = this.practice.total; this.showPracticeReview(); }
         if (e.target.matches('.btn-bookmark')) this.toggleBookmark(e.target.dataset.question);
         if (e.target.matches('.concept-tag'))  this.openConceptDrill(e.target.dataset.concept);
         if (e.target.matches('.btn-redrill'))  this.startReDrill(JSON.parse(decodeURIComponent(e.target.dataset.questions)));
@@ -569,7 +508,6 @@ const App = {
       document.getElementById('mp-area')?.addEventListener('click', (e) => {
         if (e.target.matches('.btn-mp-start-game'))   this.handleHostStartGame();
         if (e.target.closest('.btn-mp-answer'))       this.handleMpAnswer(e.target.closest('.btn-mp-answer').dataset.value);
-        if (e.target.matches('.btn-mp-rematch'))      this.handleRematch();
         if (e.target.closest('.btn-mp-bookmark'))     this.toggleBookmark(e.target.closest('.btn-mp-bookmark').dataset.question, true);
       });
 
@@ -603,9 +541,9 @@ const App = {
     }
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // HELPERS
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   shuffleArray(arr) {
     const a = [...arr];
@@ -630,10 +568,9 @@ const App = {
   },
 
   addMistake(q, selected) {
-    const nextReviewDate = new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString();
     // Don't duplicate — update existing entry
     const existing = this.mistakes.find(m => m.question === q.question);
-    if (existing) { existing.date = new Date().toISOString(); existing.mastered = false; existing.nextReviewDate = nextReviewDate; return; }
+    if (existing) { existing.date = new Date().toISOString(); existing.mastered = false; return; }
     this.mistakes.push({
       question:    q.question,
       correct:     this.getCorrectVal(q),
@@ -643,13 +580,12 @@ const App = {
       subTopic:    q.subTopic,
       date:        new Date().toISOString(),
       mastered:    false,
-      nextReviewDate,
     });
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // SEEDED DAILY QUESTION SELECTION
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   getDailySeed() {
     const today = new Date().toISOString().slice(0, 10).replace(/-/g, '');
@@ -672,9 +608,9 @@ const App = {
     return this.seededShuffle(questions, seed).slice(0, 20);
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // DASHBOARD
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderDashboard() {
     const completed = this.history.filter(h => h.total > 0 && typeof h.score === 'number');
@@ -709,7 +645,7 @@ const App = {
       }
     }
 
-    //  Heat Map 
+    // ── Heat Map ──────────────────────────────────────────────────────
     const heatMapHtml = this.getUniqueCourses().map(course => {
       const cs = courseStats[course];
       const pct = cs && cs.total >= 3 ? Math.round((cs.correct / cs.total) * 100) : null;
@@ -722,7 +658,7 @@ const App = {
       return `<div class="heat-cell" style="background:${color};"><span class="heat-label" style="color:${textColor};">${course}</span><span class="heat-pct" style="color:${textColor};">${label}</span></div>`;
     }).join('');
 
-    //  Recent Activity 
+    // ── Recent Activity ───────────────────────────────────────────────
     const recentHtml = completed.slice(0, 5).map(h => `
       <div class="recent-item">
         <span class="recent-mode">${h.mode}</span>
@@ -733,11 +669,11 @@ const App = {
 
     const welcomeCard = completed.length === 0 ? `
       <div class="card" style="background:linear-gradient(135deg,#0b1c2c,#173653); color:#fff; text-align:center;">
-        <h2 style="color:#fff; border-color:#ffffff22;">Welcome to MedMaster </h2>
+        <h2 style="color:#fff; border-color:#ffffff22;">Welcome to MedMaster 👋</h2>
         <p style="opacity:0.85; margin-bottom:1.5rem;">Your intelligent preclinical study platform. Start with Practice or jump into the Daily Challenge.</p>
         <div class="flex" style="justify-content:center;">
           <button class="btn" style="background:#fff; color:#0b2b4a;" onclick="App.showView('practice'); document.querySelectorAll('.nav-btn').forEach(b=>{b.classList.toggle('active',b.dataset.view==='practice')});">Start Practicing</button>
-          <button class="btn" style="background:#fbbf24; color:#0b2b4a;" onclick="App.showView('daily'); document.querySelectorAll('.nav-btn').forEach(b=>{b.classList.toggle('active',b.dataset.view==='daily')});"> Daily Challenge</button>
+          <button class="btn" style="background:#fbbf24; color:#0b2b4a;" onclick="App.showView('daily'); document.querySelectorAll('.nav-btn').forEach(b=>{b.classList.toggle('active',b.dataset.view==='daily')});">⚡ Daily Challenge</button>
         </div>
       </div>
     ` : '';
@@ -768,7 +704,7 @@ const App = {
         <div class="card">
           <h2 class="card-title">Knowledge Heat Map</h2>
           <div class="heat-legend">
-            <span style="background:#dcfce7; color:#15803d;">75% Strong</span>
+            <span style="background:#dcfce7; color:#15803d;">≥75% Strong</span>
             <span style="background:#fef9c3; color:#a16207;">50–74% Average</span>
             <span style="background:#fee2e2; color:#b91c1c;">&lt;50% Weak</span>
           </div>
@@ -783,9 +719,9 @@ const App = {
     `;
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // PRACTICE MODE
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderPractice() {
     return `
@@ -827,8 +763,8 @@ const App = {
       let stateClass = '', icon = '';
       if (p.answered) {
         const res = p.results[p.currentIndex];
-        if (opt === res.correct)                            { stateClass = 'correct';   icon = ' '; }
-        else if (opt === res.selected && opt !== res.correct) { stateClass = 'incorrect'; icon = ' '; }
+        if (opt === res.correct)                            { stateClass = 'correct';   icon = ' ✓'; }
+        else if (opt === res.selected && opt !== res.correct) { stateClass = 'incorrect'; icon = ' ✗'; }
       }
       buttonsHtml += `<button class="btn-option btn-answer ${stateClass}" data-value="${opt}" ${p.answered ? 'disabled' : ''}>${opt}${icon} <span class="hotkey-hint">[${index + 1}]</span></button>`;
     });
@@ -841,9 +777,9 @@ const App = {
         <div class="confidence-row">
           <span class="confidence-label">How confident were you?</span>
           <div class="confidence-btns">
-            <button class="conf-btn ${conf==='guess'?'active':''}"    data-conf="guess"    onclick="App.setConfidence(${p.currentIndex},'guess')"> Guess</button>
-            <button class="conf-btn ${conf==='somewhat'?'active':''}" data-conf="somewhat" onclick="App.setConfidence(${p.currentIndex},'somewhat')"> Somewhat Sure</button>
-            <button class="conf-btn ${conf==='sure'?'active':''}"     data-conf="sure"     onclick="App.setConfidence(${p.currentIndex},'sure')"> Very Sure</button>
+            <button class="conf-btn ${conf==='guess'?'active':''}"    data-conf="guess"    onclick="App.setConfidence(${p.currentIndex},'guess')">🎲 Guess</button>
+            <button class="conf-btn ${conf==='somewhat'?'active':''}" data-conf="somewhat" onclick="App.setConfidence(${p.currentIndex},'somewhat')">🤔 Somewhat Sure</button>
+            <button class="conf-btn ${conf==='sure'?'active':''}"     data-conf="sure"     onclick="App.setConfidence(${p.currentIndex},'sure')">✅ Very Sure</button>
           </div>
         </div>
       `;
@@ -872,14 +808,14 @@ const App = {
         <div class="mt-1">${buttonsHtml}</div>
         ${p.answered ? `
           <div class="feedback ${res.selected === res.correct ? 'feedback-correct' : 'feedback-incorrect'} mt-1">
-            <strong>${res.selected === res.correct ? ' Correct!' : ' Incorrect'}</strong>
+            <strong>${res.selected === res.correct ? '✓ Correct!' : '✗ Incorrect'}</strong>
             <p class="mt-1">${q.explanation}</p>
           </div>
           ${conceptHtml}
           ${confidenceHtml}
         ` : ''}
         <div class="mt-1 flex" style="justify-content:space-between; border-top:1px solid #e2e8f0; padding-top:1rem;">
-          <button class="btn btn-outline btn-bookmark" data-question="${q.question}">${this.bookmarks.has(q.question) ? ' Bookmarked' : ' Bookmark'}</button>
+          <button class="btn btn-outline btn-bookmark" data-question="${q.question}">${this.bookmarks.has(q.question) ? '★ Bookmarked' : '☆ Bookmark'}</button>
           ${p.answered ? `<button class="btn btn-primary btn-next">Next [Space]</button>` : `<button class="btn btn-danger btn-finish">End Early</button>`}
         </div>
       </div>
@@ -925,8 +861,13 @@ const App = {
       if (r.isCorrect) coursePerf[r.course].correct++;
     });
 
-    // Render the review FIRST (so the historical average delta is calculated
-    // against prior sessions only), THEN append this session to history.
+    this.history.unshift({
+      mode: 'Practice', score: p.score, total: p.total,
+      percentage: p.total ? Math.round((p.score / p.total) * 100) : 0,
+      date: new Date().toISOString(), subPerf, coursePerf,
+    });
+    this.saveData();
+
     document.getElementById('practice-area').innerHTML =
       this.renderSessionReview({
         title:      'Practice Complete',
@@ -939,18 +880,11 @@ const App = {
         restartFn:  `App.showView('practice')`,
         mode:       'practice',
       });
-
-    this.history.unshift({
-      mode: 'Practice', score: p.score, total: p.total,
-      percentage: p.total ? Math.round((p.score / p.total) * 100) : 0,
-      date: new Date().toISOString(), subPerf, coursePerf,
-    });
-    this.saveData();
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // SHARED SESSION REVIEW RENDERER
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderSessionReview({ title, score, total, elapsed, results, subPerf, confidences, restartFn, mode }) {
     const pct = total ? Math.round((score / total) * 100) : 0;
@@ -964,8 +898,8 @@ const App = {
         const avgHist = hist.reduce((acc, h) => acc + (h.subPerf[sub].correct / h.subPerf[sub].total) * 100, 0) / hist.length;
         const diff = Math.round(sp - avgHist);
         delta = diff >= 0
-          ? `<span style="color:#16a34a; font-size:0.8rem;"> +${diff}% vs avg</span>`
-          : `<span style="color:#dc2626; font-size:0.8rem;"> ${diff}% vs avg</span>`;
+          ? `<span style="color:#16a34a; font-size:0.8rem;">▲ +${diff}% vs avg</span>`
+          : `<span style="color:#dc2626; font-size:0.8rem;">▼ ${diff}% vs avg</span>`;
       }
       return `<tr><td>${sub}</td><td>${s.correct}/${s.total}</td><td style="font-weight:700; color:${sp>=50?'#16a34a':'#dc2626'};">${sp}%</td><td>${delta}</td></tr>`;
     }).join('');
@@ -975,7 +909,7 @@ const App = {
     const wrongHtml = wrong.map((r, i) => {
       const conf = confidences && confidences[results.indexOf(r)];
       const dangerTag = (conf === 'sure' && r.selected !== r.correct)
-        ? `<span class="danger-tag"> Wrong + Very Confident — Priority Review</span>` : '';
+        ? `<span class="danger-tag">⚠️ Wrong + Very Confident — Priority Review</span>` : '';
       return `
         <div class="review-item">
           <p class="question-text" style="font-size:1.05rem; margin-top:0;"><strong>${i+1}.</strong> ${r.question}</p>
@@ -985,7 +919,7 @@ const App = {
           <p class="mt-1" style="font-size:0.9rem;">${r.explanation}</p>
         </div>
       `;
-    }).join('') || '<p style="color:#16a34a; font-weight:600;"> No incorrect answers!</p>';
+    }).join('') || '<p style="color:#16a34a; font-weight:600;">🎉 No incorrect answers!</p>';
 
     const wrongQs = encodeURIComponent(JSON.stringify(wrong.map(r => r.question)));
 
@@ -993,7 +927,7 @@ const App = {
       <div class="card text-center" style="border-top:4px solid ${pct>=50?'#16a34a':'#dc2626'};">
         <h2>${title}</h2>
         <div style="font-size:3.5rem; font-weight:800; color:${pct>=50?'#16a34a':'#dc2626'}; margin:1rem 0;">${pct}%</div>
-        <p style="font-size:1.1rem;">${score} / ${total} correct &nbsp;·&nbsp;  ${this.formatTime(elapsed)}</p>
+        <p style="font-size:1.1rem;">${score} / ${total} correct &nbsp;·&nbsp; ⏱ ${this.formatTime(elapsed)}</p>
         <div class="flex" style="justify-content:center; margin-top:1rem;">
           <button class="btn btn-primary" onclick="${restartFn}">Try Again</button>
           ${wrong.length ? `<button class="btn btn-danger btn-redrill" data-questions="${wrongQs}">Re-drill ${wrong.length} Wrong</button>` : ''}
@@ -1018,9 +952,9 @@ const App = {
     `;
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // RE-DRILL (wrong answers mini-session)
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   startReDrill(questionTexts) {
     const pool = questions.filter(q => questionTexts.includes(q.question));
@@ -1042,9 +976,9 @@ const App = {
     });
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // CONCEPT DRILL (mini modal for concept tags)
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   openConceptDrill(concept) {
     const pool = questions.filter(q => q.relatedConcepts && q.relatedConcepts.includes(concept));
@@ -1058,7 +992,7 @@ const App = {
       <div class="concept-modal-box">
         <div class="flex" style="justify-content:space-between; align-items:center; margin-bottom:1rem;">
           <h3 style="margin:0;">Concept Drill: <em>${concept}</em></h3>
-          <button class="btn btn-secondary" onclick="document.getElementById('concept-modal').remove()"> Close</button>
+          <button class="btn btn-secondary" onclick="document.getElementById('concept-modal').remove()">✕ Close</button>
         </div>
         <p class="text-muted" style="font-size:0.85rem; margin-bottom:1rem;">${sample.length} questions about this concept</p>
         <div id="concept-drill-area"></div>
@@ -1099,7 +1033,7 @@ const App = {
             else if (b.dataset.value === btn.dataset.value) b.classList.add('incorrect');
           });
           document.getElementById('cd-feedback').style.display = 'block';
-          document.getElementById('cd-feedback').innerHTML = `<div class="feedback ${btn.dataset.value===correct?'feedback-correct':'feedback-incorrect'} mt-1"><strong>${btn.dataset.value===correct?' Correct!':' Incorrect'}</strong><p class="mt-1">${q.explanation}</p></div>`;
+          document.getElementById('cd-feedback').innerHTML = `<div class="feedback ${btn.dataset.value===correct?'feedback-correct':'feedback-incorrect'} mt-1"><strong>${btn.dataset.value===correct?'✓ Correct!':'✗ Incorrect'}</strong><p class="mt-1">${q.explanation}</p></div>`;
           document.getElementById('cd-next-row').style.display = 'flex';
           document.getElementById('cd-next').onclick = () => { idx++; render(); };
         });
@@ -1108,9 +1042,9 @@ const App = {
     render();
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // EXAM MODE
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderExamSetup() {
     let qOptions = '';
@@ -1181,7 +1115,7 @@ const App = {
         <div class="flex" style="justify-content:space-between; align-items:center;">
           <span class="badge topic-badge">${q.course}</span>
           <div id="exam-timer-wrapper" style="font-size:1.4rem; font-weight:700; color:#b91c1c;">
-             <span id="exam-timer-display">${this.formatTime(e.timer)}</span>
+            ⏱ <span id="exam-timer-display">${this.formatTime(e.timer)}</span>
           </div>
         </div>
         <div class="progress-bar-track mt-1">
@@ -1239,16 +1173,13 @@ const App = {
     }
     this.exam.results = results;
 
-    // Render the review FIRST (so the historical average delta is calculated
-    // against prior sessions only), THEN append this session to history.
-    this.showExamReview();
-
     this.history.unshift({
       mode: 'Exam', score: this.exam.score, total: this.exam.total,
       percentage: Math.round((this.exam.score / this.exam.total) * 100),
       date: new Date().toISOString(), subPerf, coursePerf,
     });
     this.saveData();
+    this.showExamReview();
   },
 
   showExamReview() {
@@ -1276,9 +1207,9 @@ const App = {
     return sp;
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // DAILY CHALLENGE
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   async renderDailySetup() {
     const already = await dbCheckDailySubmitted(this.currentUser?.id || null);
@@ -1297,16 +1228,16 @@ const App = {
     return `
       <div class="container">
         <div class="card" style="border-top:4px solid #fbbf24;">
-          <h2 class="card-title"> Daily Challenge</h2>
+          <h2 class="card-title">⚡ Daily Challenge</h2>
           <p class="text-muted mb-1">20 questions · Same for everyone today · 10-minute timer · One attempt per day</p>
           ${already
-            ? `<div class="feedback feedback-correct"><strong> You've already completed today's challenge!</strong><p class="mt-1">Come back tomorrow for a new set.</p></div>`
+            ? `<div class="feedback feedback-correct"><strong>✓ You've already completed today's challenge!</strong><p class="mt-1">Come back tomorrow for a new set.</p></div>`
             : `<button class="btn btn-primary mt-1" id="start-daily" style="width:100%; font-size:1.1rem; background:#d97706;">Start Today's Challenge</button>`
           }
         </div>
         <div id="daily-area"></div>
         <div class="card">
-          <h3 class="card-title"> Today's Leaderboard</h3>
+          <h3 class="card-title">🏆 Today's Leaderboard</h3>
           <div class="stats-table-wrapper">
             <table class="stats-table">
               <thead><tr><th>#</th><th>Name</th><th>Score</th><th>Accuracy</th><th>Time</th></tr></thead>
@@ -1352,8 +1283,8 @@ const App = {
     document.getElementById('daily-area').innerHTML = `
       <div class="card" style="border-top:5px solid #d97706;">
         <div class="flex" style="justify-content:space-between; align-items:center;">
-          <span class="badge" style="background:#fef3c7; color:#92400e;"> Daily Challenge</span>
-          <div style="font-size:1.4rem; font-weight:700; color:#d97706;"> <span id="daily-timer-display">${this.formatTime(d.timer)}</span></div>
+          <span class="badge" style="background:#fef3c7; color:#92400e;">⚡ Daily Challenge</span>
+          <div style="font-size:1.4rem; font-weight:700; color:#d97706;">⏱ <span id="daily-timer-display">${this.formatTime(d.timer)}</span></div>
         </div>
         <div class="progress-bar-track mt-1"><div class="progress-bar-fill" style="width:${pct}%; background:#d97706;"></div></div>
         <p class="question-text">${q.question}</p>
@@ -1419,7 +1350,7 @@ const App = {
     this.saveData();
 
     document.getElementById('daily-area').innerHTML = this.renderSessionReview({
-      title:     ' Daily Challenge Complete',
+      title:     '⚡ Daily Challenge Complete',
       score:     this.daily.score,
       total:     this.daily.total,
       elapsed,
@@ -1430,15 +1361,15 @@ const App = {
     });
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // PASSIVE SLIDE-THROUGH REVIEW
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderSlideSetup() {
     return `
       <div class="container">
         <div class="card" id="slide-setup">
-          <h2 class="card-title"> Slide-Through Review</h2>
+          <h2 class="card-title">📖 Slide-Through Review</h2>
           <p class="text-muted mb-1">Questions and answers auto-advance. Purely passive — no grading, just exposure.</p>
           ${this.renderFilterUI('slide')}
           <div class="filter-section mt-1">
@@ -1456,52 +1387,14 @@ const App = {
     `;
   },
 
-  getSlidePoolKey(unshuffledPool) {
-    // Stable key derived from pool composition (order-independent), so a
-    // reshuffled session with the same filters still resolves to the same key.
-    const ids = unshuffledPool.map(q => q.question).slice().sort().join('|');
-    let hash = 0;
-    for (let i = 0; i < ids.length; i++) { hash = ((hash << 5) - hash + ids.charCodeAt(i)) | 0; }
-    return `${unshuffledPool.length}_${hash}`;
-  },
-
-  saveSlideProgress() {
-    const s = this.slide;
-    if (!s || !s.poolKey) return;
-    sessionStorage.setItem(`mm_slide_progress_${s.poolKey}`, String(s.currentIndex));
-  },
-
-  clearSlideProgress() {
-    const s = this.slide;
-    if (!s || !s.poolKey) return;
-    sessionStorage.removeItem(`mm_slide_progress_${s.poolKey}`);
-  },
-
   startSlide() {
-    const unshuffledPool = this.getFullyFilteredPool('slide');
-    if (!unshuffledPool.length) return alert('No questions match these filters.');
-    const pool    = this.shuffleArray(unshuffledPool);
-    const poolKey = this.getSlidePoolKey(unshuffledPool);
-
-    let startIndex = 0;
-    const saved = sessionStorage.getItem(`mm_slide_progress_${poolKey}`);
-    if (saved !== null) {
-      const savedIndex = parseInt(saved, 10);
-      if (!isNaN(savedIndex) && savedIndex > 0 && savedIndex < pool.length) {
-        if (confirm(`You have a saved Slide Review in progress (question ${savedIndex + 1} of ${pool.length}). Resume where you left off?`)) {
-          startIndex = savedIndex;
-        } else {
-          sessionStorage.removeItem(`mm_slide_progress_${poolKey}`);
-        }
-      }
-    }
-
+    const pool = this.shuffleArray(this.getFullyFilteredPool('slide'));
+    if (!pool.length) return alert('No questions match these filters.');
     this.slide = {
-      questions: pool, currentIndex: startIndex, total: pool.length,
+      questions: pool, currentIndex: 0, total: pool.length,
       speed: this.slide.speed || 8, phase: 'question',
       intervalId: null, phaseTimer: 0, phaseIntervalId: null,
       started: true, startTime: Date.now(), topicsCovered: new Set(), paused: false,
-      poolKey,
     };
     document.getElementById('slide-setup').style.display = 'none';
     this.renderSlideQuestion();
@@ -1527,7 +1420,6 @@ const App = {
         } else {
           // Advance to next
           this.slide.currentIndex++;
-          this.saveSlideProgress();
           if (this.slide.currentIndex >= this.slide.total) {
             clearInterval(this.slide.phaseIntervalId);
             this.showSlideReview();
@@ -1585,9 +1477,9 @@ const App = {
         `}
 
         <div class="flex mt-1" style="justify-content:space-between; border-top:1px solid #e2e8f0; padding-top:1rem;">
-          <button class="btn btn-secondary btn-slide-prev" ${s.currentIndex===0?'disabled':''}> Prev</button>
-          <button class="btn ${s.paused?'btn-success':'btn-outline'} btn-slide-pause">${s.paused?' Resume':' Pause [Space]'}</button>
-          <button class="btn btn-secondary btn-slide-next" ${s.currentIndex>=s.total-1?'disabled':''}>Next </button>
+          <button class="btn btn-secondary btn-slide-prev" ${s.currentIndex===0?'disabled':''}>← Prev</button>
+          <button class="btn ${s.paused?'btn-success':'btn-outline'} btn-slide-pause">${s.paused?'▶ Resume':'⏸ Pause [Space]'}</button>
+          <button class="btn btn-secondary btn-slide-next" ${s.currentIndex>=s.total-1?'disabled':''}>Next →</button>
         </div>
         <span class="badge" style="background:#f1f5f9; margin-top:0.75rem; display:inline-block;">${q.topic} › ${q.subTopic}</span>
       </div>
@@ -1598,7 +1490,7 @@ const App = {
   toggleSlidePause() {
     this.slide.paused = !this.slide.paused;
     const btn = document.querySelector('.btn-slide-pause');
-    if (btn) { btn.textContent = this.slide.paused ? ' Resume' : ' Pause [Space]'; btn.className = `btn ${this.slide.paused?'btn-success':'btn-outline'} btn-slide-pause`; }
+    if (btn) { btn.textContent = this.slide.paused ? '▶ Resume' : '⏸ Pause [Space]'; btn.className = `btn ${this.slide.paused?'btn-success':'btn-outline'} btn-slide-pause`; }
   },
 
   slideManualStep(dir) {
@@ -1607,7 +1499,6 @@ const App = {
     this.slide.currentIndex  = Math.max(0, Math.min(this.slide.total - 1, this.slide.currentIndex));
     this.slide.phase         = 'question';
     this.slide.phaseTimer    = Math.floor(this.slide.speed / 2);
-    this.saveSlideProgress();
     this.renderSlideQuestion();
     if (!this.slide.paused) this.startSlideTimer();
   },
@@ -1618,7 +1509,6 @@ const App = {
   },
 
   showSlideReview() {
-    this.clearSlideProgress();
     const elapsed = Math.round((Date.now() - this.slide.startTime) / 1000);
     const covered = [...this.slide.topicsCovered];
     this.history.unshift({
@@ -1628,8 +1518,8 @@ const App = {
     this.saveData();
     document.getElementById('slide-area').innerHTML = `
       <div class="card text-center" style="border-top:4px solid #0b2b4a;">
-        <h2> Slide Review Complete</h2>
-        <p style="font-size:1.2rem; margin:1rem 0;">${this.slide.total} questions reviewed &nbsp;·&nbsp;  ${this.formatTime(elapsed)}</p>
+        <h2>📖 Slide Review Complete</h2>
+        <p style="font-size:1.2rem; margin:1rem 0;">${this.slide.total} questions reviewed &nbsp;·&nbsp; ⏱ ${this.formatTime(elapsed)}</p>
         <div class="card" style="text-align:left; margin-top:1rem;">
           <strong>Sub-topics covered (${covered.length}):</strong>
           <div class="pill-group mt-1">${covered.map(t=>`<span class="filter-pill active" style="cursor:default;">${t}</span>`).join('')}</div>
@@ -1639,9 +1529,9 @@ const App = {
     `;
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // HISTORY & MISTAKE NOTEBOOK
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderHistory() {
     const activeTab = this._historyTab || 'sessions';
@@ -1656,29 +1546,21 @@ const App = {
           </div>`).join('')
       : '<p class="text-muted">No sessions recorded yet.</p>';
 
-    const now = Date.now();
-    const isDue = m => m.nextReviewDate && new Date(m.nextReviewDate).getTime() <= now;
-    // Sort so items whose spaced-repetition review is due appear at the top.
-    const unmastered = this.mistakes
-      .map((m, originalIdx) => ({ m, originalIdx }))
-      .filter(({ m }) => !m.mastered)
-      .sort((a, b) => (isDue(b.m) ? 1 : 0) - (isDue(a.m) ? 1 : 0));
-
+    const unmastered = this.mistakes.filter(m => !m.mastered);
     const mistakeHtml = unmastered.length
-      ? unmastered.map(({ m, originalIdx }) => `
+      ? unmastered.map((m, i) => `
           <div class="review-item">
             <div class="flex" style="justify-content:space-between; align-items:flex-start;">
               <div>
                 <span class="badge topic-badge">${m.course}</span>
                 <span class="badge" style="background:#f1f5f9; margin-left:0.3rem;">${m.subTopic}</span>
-                ${isDue(m) ? `<span class="badge" style="background:#fee2e2; color:#b91c1c; margin-left:0.3rem;"> Action Required</span>` : ''}
               </div>
               <span class="text-muted" style="font-size:0.8rem;">${new Date(m.date).toLocaleDateString()}</span>
             </div>
             <p class="question-text" style="font-size:1rem; margin:0.75rem 0;">${m.question}</p>
-            <p style="color:#16a34a; font-weight:600; font-size:0.9rem;"> Correct: ${m.correct}</p>
+            <p style="color:#16a34a; font-weight:600; font-size:0.9rem;">✓ Correct: ${m.correct}</p>
             <p style="font-size:0.88rem; color:#475569; margin-top:0.5rem;">${m.explanation}</p>
-            <button class="btn btn-success btn-master-mistake mt-1" data-idx="${originalIdx}" style="font-size:0.85rem; padding:0.4rem 0.9rem;"> Mark as Mastered</button>
+            <button class="btn btn-success btn-master-mistake mt-1" data-idx="${i}" style="font-size:0.85rem; padding:0.4rem 0.9rem;">✓ Mark as Mastered</button>
           </div>`).join('')
       : '<p class="text-muted">No active mistakes. Keep it up!</p>';
 
@@ -1694,7 +1576,7 @@ const App = {
           </div>
           <div class="auth-tabs" style="margin-bottom:1.5rem;">
             <button class="auth-tab ${activeTab==='sessions'?'active':''}" onclick="App._historyTab='sessions'; App.showView('history')">Session History</button>
-            <button class="auth-tab ${activeTab==='mistakes'?'active':''}" onclick="App._historyTab='mistakes'; App.showView('history')"> Mistake Notebook (${unmastered.length})</button>
+            <button class="auth-tab ${activeTab==='mistakes'?'active':''}" onclick="App._historyTab='mistakes'; App.showView('history')">📕 Mistake Notebook (${unmastered.length})</button>
           </div>
           <div>${activeTab === 'sessions' ? sessionHtml : mistakeHtml}</div>
         </div>
@@ -1702,9 +1584,9 @@ const App = {
     `;
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // BOOKMARKS (organized by course)
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderBookmarks() {
     const bQs = questions.filter(q => this.bookmarks.has(q.question));
@@ -1716,7 +1598,7 @@ const App = {
       byCourse[q.course].push(q);
     });
 
-    const courseGroupsHtml = Object.keys(byCourse).sort().map((course, index) => {
+    const courseGroupsHtml = Object.keys(byCourse).sort().map(course => {
       const qs = byCourse[course];
       const questionsHtml = qs.map(q => `
         <div style="background:#fff; padding:1rem; border-radius:8px; border-left:4px solid #fbbf24; margin-bottom:0.75rem; border:1px solid #e2e8f0; border-left-width:4px;">
@@ -1730,10 +1612,10 @@ const App = {
       `).join('');
 
       return `
-        <div class="bookmark-course-group ${index === 0 ? 'open' : ''}">
+        <div class="bookmark-course-group">
           <div class="bookmark-course-header accordion-header">
-            <span> ${course} <span class="group-accuracy-badge">${qs.length} saved</span></span>
-            <span class="accordion-arrow"></span>
+            <span>📚 ${course} <span class="group-accuracy-badge">${qs.length} saved</span></span>
+            <span class="accordion-arrow">▼</span>
           </div>
           <div class="bookmark-course-content accordion-content">
             ${questionsHtml}
@@ -1787,8 +1669,8 @@ const App = {
         }
       </div>
       <div class="flex mt-1" style="justify-content:space-between;">
-        <button class="btn btn-secondary btn-flash-prev" ${f.currentIndex===0?'disabled':''}> Prev</button>
-        <button class="btn btn-secondary btn-flash-next" ${f.currentIndex>=f.total-1?'disabled':''}>Next </button>
+        <button class="btn btn-secondary btn-flash-prev" ${f.currentIndex===0?'disabled':''}>← Prev</button>
+        <button class="btn btn-secondary btn-flash-next" ${f.currentIndex>=f.total-1?'disabled':''}>Next →</button>
       </div>
     `;
   },
@@ -1807,9 +1689,9 @@ const App = {
     link.click();
   },
 
-  // 
+  // ══════════════════════════════════════════════════════════════════════
   // MULTIPLAYER UI (unchanged logic, extended review)
-  // 
+  // ══════════════════════════════════════════════════════════════════════
 
   renderMultiplayerSetup() {
     let qCountOptions = '';
@@ -1859,8 +1741,7 @@ const App = {
     const final   = pool.slice(0, Math.min(qCount, pool.length));
     document.getElementById('mp-lobby-ui').style.display = 'none';
     document.getElementById('mp-area').innerHTML = this._mpConnectingHtml();
-    this.mp.questionPool = pool; // retained (host-only) for "Play Again" rematches
-    try { await mp_createRoom(name, final, qTime); this.mp.questionPool = pool; this.renderMpState(); }
+    try { await mp_createRoom(name, final, qTime); this.renderMpState(); }
     catch (err) { this.showMpFatalError('Could not create room', err.message); }
   },
 
@@ -1871,33 +1752,12 @@ const App = {
     localStorage.setItem('mm_player_name', name);
     document.getElementById('mp-lobby-ui').style.display = 'none';
     document.getElementById('mp-area').innerHTML = this._mpConnectingHtml();
-    try {
-      await mp_joinRoom(name, code);
-      if (this.mp.state === 'QUESTION' && this.mp.players.find(p => p.id === this.mp.myId)?.role === 'spectator') {
-        // Let them know they've joined mid-game as a spectator
-        setTimeout(() => alert("The game is already in progress — you've joined as a spectator and can watch along until the next game."), 50);
-      }
-      this.renderMpState();
-    }
+    try { await mp_joinRoom(name, code); this.renderMpState(); }
     catch (err) { this.showMpFatalError('Could not join room', err.message); }
   },
 
   async handleHostStartGame() { if (this.mp.isHost) await mp_hostStartGame(); },
   async handleMpAnswer(answer) { await mp_submitAnswer(answer); },
-  async handleRematch() { if (this.mp.isHost) await mp_hostRematch(); },
-
-  //  Persistent Player Identity: silent rejoin on app load 
-  async tryRejoinMultiplayer() {
-    const identity = (typeof mp_loadIdentity === 'function') ? mp_loadIdentity() : null;
-    if (!identity || !identity.roomCode || !identity.myId) return;
-    try {
-      await mp_rejoinRoom(identity.playerName, identity.roomCode, identity.myId);
-      if (this.currentView === 'multiplayer') this.renderMpState();
-    } catch (err) {
-      // Room is gone or we're no longer in it — clear stale identity silently.
-      if (typeof mp_clearIdentity === 'function') mp_clearIdentity();
-    }
-  },
 
   _mpConnectingHtml() {
     return `<div class="card text-center" style="padding:4rem 1rem;"><h2 style="color:#0b2b4a;">Connecting…</h2><p class="text-muted mt-1">Reaching the server.</p></div>`;
@@ -1910,7 +1770,7 @@ const App = {
     if (area) area.innerHTML = `<div class="card text-center" style="border-top:4px solid #dc2626;"><h2 style="color:#dc2626;">${title}</h2><p class="text-muted mt-1">${message}</p><button class="btn btn-primary mt-1" onclick="App.showView('multiplayer')">Back to Lobby</button></div>`;
   },
 
-  //  Multiplayer Render (unchanged core, extended REVIEW state) 
+  // ── Multiplayer Render (unchanged core, extended REVIEW state) ────────
 
   renderMpState() {
     const area = document.getElementById('mp-area');
@@ -1922,24 +1782,15 @@ const App = {
     switch (m.state) {
       case 'CONNECTING': area.innerHTML = this._mpConnectingHtml(); break;
 
-      case 'LOBBY': {
-        const activeCount = m.players.filter(p => p.role !== 'spectator').length;
-        const estMins = m.questions.length && m.questionDuration
-          ? Math.max(1, Math.round((m.questions.length * (m.questionDuration + 2)) / 60))
-          : 0;
-        const preview = m.isHost
-          ? `<p class="text-muted mt-1">Ready to start. ${m.questions.length} questions selected. Estimated time: ~${estMins} min${estMins === 1 ? '' : 's'}.</p>`
-          : '';
+      case 'LOBBY':
         area.innerHTML = `
           <div class="card text-center">
             <h2>Waiting in Lobby</h2>
             ${m.isHost ? `<div class="room-code-display">${m.roomCode}</div><p>Tell friends to join with this code!</p>` : `<p>Connected! Waiting for host to start…</p>`}
             <ul class="player-list">${m.players.map(p => `<li class="player-tag ${p.id===m.myId?'is-me':''}">${p.name}</li>`).join('')}</ul>
-            ${preview}
-            ${m.isHost ? `<button class="btn btn-success mt-1 btn-mp-start-game" ${activeCount<1?'disabled':''}>Start Game</button>` : ''}
+            ${m.isHost ? `<button class="btn btn-success mt-1 btn-mp-start-game" ${m.players.length<1?'disabled':''}>Start Game</button>` : ''}
           </div>`;
         break;
-      }
 
       case 'QUESTION': {
         const q = m.questions[m.currentIndex];
@@ -1947,30 +1798,26 @@ const App = {
         if (!q) break;
         const correctVal = this.getCorrectVal(q);
         const options    = q.type === 'truefalse' ? ['True','False'] : q.options;
-        const isSpectator = me?.role === 'spectator';
 
         let buttonsHtml = '';
         options.forEach((opt, idx) => {
           let sc = '', icon = '';
           if (me?.currentAnswer) {
-            if (opt === correctVal)                             { sc = 'correct';   icon = ' '; }
-            else if (opt === me.currentAnswer)                 { sc = 'incorrect'; icon = ' '; }
+            if (opt === correctVal)                             { sc = 'correct';   icon = ' ✓'; }
+            else if (opt === me.currentAnswer)                 { sc = 'incorrect'; icon = ' ✗'; }
           } else if (m.isWaitingForDatabase && opt === m.myLastAnswer) { sc = 'selected waiting'; }
-          buttonsHtml += `<button class="btn-option btn-mp-answer ${sc}" data-value="${opt}" ${(isSpectator||me?.currentAnswer||m.isWaitingForDatabase)?'disabled':''}>${opt}${icon} <span class="hotkey-hint">[${idx+1}]</span></button>`;
+          buttonsHtml += `<button class="btn-option btn-mp-answer ${sc}" data-value="${opt}" ${(me?.currentAnswer||m.isWaitingForDatabase)?'disabled':''}>${opt}${icon} <span class="hotkey-hint">[${idx+1}]</span></button>`;
         });
 
         let explHtml = '';
         if (me?.currentAnswer) {
           const ok = me.currentAnswer === correctVal;
           explHtml = `
-            <div class="feedback ${ok?'feedback-correct':'feedback-incorrect'} mt-1 text-center"><h3 style="margin:0;">${ok?' Correct! (+1)':' Incorrect'}</h3></div>
+            <div class="feedback ${ok?'feedback-correct':'feedback-incorrect'} mt-1 text-center"><h3 style="margin:0;">${ok?'✓ Correct! (+1)':'✗ Incorrect'}</h3></div>
             <div style="background:#f1f5f9; padding:1.5rem; border-radius:12px; margin-top:1rem; border-left:4px solid #0b2b4a;"><strong>Explanation:</strong><p>${q.explanation}</p></div>`;
-        } else if (isSpectator) {
-          explHtml = `<div class="feedback mt-1 text-center" style="background:#f1f5f9; color:#475569;"><h3 style="margin:0;"> Spectating</h3><p class="mt-1" style="font-size:0.9rem;">You joined mid-game, so you're watching this round. You can join in on the next one.</p></div>`;
         }
 
-        const activePlayers = m.players.filter(p => p.role !== 'spectator');
-        let statusText = `Answered: ${activePlayers.filter(p=>p.currentAnswer).length}/${activePlayers.length}`;
+        let statusText = `Answered: ${m.players.filter(p=>p.currentAnswer).length}/${m.players.length}`;
         if (m.questionDuration <= 3) statusText = `<span style="color:#16a34a; font-weight:700;">Everyone answered! Next in ${m.timer}…</span>`;
         else if (m.isWaitingForDatabase) statusText = `<span style="color:#fbbf24; font-weight:700;">Processing…</span>`;
 
@@ -2022,7 +1869,7 @@ const App = {
 
     const podiumHtml = podium.map((p,i) => {
       const cls   = i===0?'gold':i===1?'silver':'bronze';
-      const medal = i===0?'':i===1?'':'';
+      const medal = i===0?'🥇':i===1?'🥈':'🥉';
       return `<div class="podium-place ${cls}"><div class="podium-rank">${medal}</div><div class="podium-name">${p.name}${p.id===m.myId?' (You)':''}</div><div class="podium-score">${p.score} pts</div></div>`;
     }).join('');
 
@@ -2032,7 +1879,7 @@ const App = {
     const reviewHtml = m.answerLog.map((entry, i) => {
       const passed = entry.myAnswer === entry.correctAnswer;
       const tag    = entry.myAnswer
-        ? (passed ? `<span class="personal-feedback-tag passed"> Correct</span>` : `<span class="personal-feedback-tag failed"> Your Answer: ${entry.myAnswer}</span>`)
+        ? (passed ? `<span class="personal-feedback-tag passed">✓ Correct</span>` : `<span class="personal-feedback-tag failed">✗ Your Answer: ${entry.myAnswer}</span>`)
         : `<span class="personal-feedback-tag failed">No Answer</span>`;
       return `
         <div class="review-item">
@@ -2040,5 +1887,41 @@ const App = {
           <p class="review-correct-answer">Correct: ${entry.correctAnswer}</p>
           ${tag}
           <p class="mt-1" style="font-size:0.9rem;">${entry.explanation}</p>
-          <button class="btn btn-outline btn-mp-bookmark mt-1" data-question="${entry.question}" style="padding:0.4rem 0.9rem; font-size:0.85rem;">${this.bookmarks.has(entry.question)?' Bookmarked':' Bookmark'}</button>
-        <
+          <button class="btn btn-outline btn-mp-bookmark mt-1" data-question="${entry.question}" style="padding:0.4rem 0.9rem; font-size:0.85rem;">${this.bookmarks.has(entry.question)?'★ Bookmarked':'☆ Bookmark'}</button>
+        </div>`;
+    }).join('');
+
+    // Personal session review using shared renderer
+    const myResults = m.answerLog.map(e => ({
+      question: e.question, selected: e.myAnswer, correct: e.correctAnswer,
+      explanation: e.explanation, subTopic: '', course: '', isCorrect: e.myAnswer === e.correctAnswer,
+    }));
+    const personalReview = this.renderSessionReview({
+      title:     'Your Personal Session Review',
+      score:     myResults.filter(r=>r.isCorrect).length,
+      total:     myResults.length,
+      elapsed:   0,
+      results:   myResults,
+      subPerf:   {},
+      restartFn: `App.showView('multiplayer')`,
+      mode:      'multiplayer',
+    });
+
+    return `
+      <div class="card text-center" style="border-top:4px solid #fbbf24;">
+        <h2 style="font-size:2.2rem; color:#0b2b4a;">🏆 Tournament Over!</h2>
+        <div class="podium-wrapper">${podiumHtml}</div>
+        ${restHtml}
+      </div>
+      <div class="card">
+        <h3 class="card-title">Player Statistics</h3>
+        <div class="stats-table-wrapper"><table class="stats-table"><thead><tr><th>Name</th><th>Score</th><th>Accuracy</th><th>Correct</th><th>Wrong</th><th>Skipped</th></tr></thead><tbody>${statsRows}</tbody></table></div>
+      </div>
+      <div class="card"><h3 class="card-title">Personal Question Review</h3>${reviewHtml}</div>
+      ${personalReview}
+      <div class="card text-center"><button class="btn btn-primary" onclick="App.showView('multiplayer')">Exit Lobby</button></div>
+    `;
+  },
+};
+
+document.addEventListener('DOMContentLoaded', () => App.init());
