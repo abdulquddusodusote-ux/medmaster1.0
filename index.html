@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
+  <title>MedMaster – Medical CBT</title>
+  <link rel="stylesheet" href="style.css?v=2" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.js?v=2"></script>
+</head>
+<body>
+
+  <!-- ── AUTH MODAL ───────────────────────────────────────────────── -->
+  <div id="auth-overlay" class="auth-overlay">
+    <div class="auth-modal">
+      <h1 class="app-title" style="color:#0b2b4a; margin-bottom:0.25rem;">MedMaster</h1>
+      <p style="color:#64748b; font-size:0.9rem; margin-bottom:1.5rem; text-transform:uppercase; letter-spacing:0.5px;">Preclinical CBT Platform</p>
+
+      <div class="auth-tabs">
+        <button class="auth-tab active" id="tab-login" onclick="App.auth.switchTab('login')">Sign In</button>
+        <button class="auth-tab" id="tab-register" onclick="App.auth.switchTab('register')">Register</button>
+      </div>
+
+      <!-- Login Form -->
+      <div id="auth-login-form">
+        <input type="email"    id="auth-email"    class="input-text mt-1" placeholder="Email address" />
+        <input type="password" id="auth-password" class="input-text mt-1" placeholder="Password" />
+        <button class="btn btn-primary mt-1" style="width:100%;" onclick="App.auth.handleLogin()">Sign In</button>
+      </div>
+
+      <!-- Register Form -->
+      <div id="auth-register-form" style="display:none;">
+        <input type="text"     id="auth-display-name" class="input-text mt-1" placeholder="Display Name (shown on leaderboards)" />
+        <input type="email"    id="auth-reg-email"     class="input-text mt-1" placeholder="Email address" />
+        <input type="password" id="auth-reg-password"  class="input-text mt-1" placeholder="Password (min. 6 characters)" />
+        <button class="btn btn-primary mt-1" style="width:100%;" onclick="App.auth.handleRegister()">Create Account</button>
+      </div>
+
+      <div id="auth-message" class="auth-message" style="display:none;"></div>
+
+      <div style="border-top:1px solid #e2e8f0; margin-top:1.5rem; padding-top:1.25rem; text-align:center;">
+        <button class="btn btn-secondary" style="width:100%; font-size:0.9rem;" onclick="App.auth.continueAsGuest()">
+          Continue as Guest
+        </button>
+        <p style="font-size:0.78rem; color:#94a3b8; margin-top:0.5rem;">Progress won't sync across devices</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── MAIN APP ──────────────────────────────────────────────────── -->
+  <div id="app-shell" style="display:none;">
+    <!-- ── NAV BACKDROP & DRAWER ──────────────────────────────────────── -->
+    <div id="nav-backdrop" class="nav-backdrop" onclick="App.closeDrawer()"></div>
+
+    <aside id="nav-drawer" class="nav-drawer" aria-label="Navigation Drawer">
+      <div class="drawer-header">
+        <div class="drawer-brand">
+          <span class="drawer-logo">🩺</span>
+          <div>
+            <h2 class="drawer-title">MedMaster</h2>
+            <span class="drawer-subtitle">Preclinical CBT</span>
+          </div>
+        </div>
+        <button class="btn-close-drawer" onclick="App.closeDrawer()" aria-label="Close Menu">✕</button>
+      </div>
+
+      <div class="drawer-body">
+        <div class="drawer-section-label">STUDY MODES</div>
+        <button class="drawer-nav-btn active" data-view="dashboard">
+          <span class="nav-icon">📊</span>
+          <span class="nav-text">Dashboard</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="practice">
+          <span class="nav-icon">🎯</span>
+          <span class="nav-text">Practice Mode</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="exam">
+          <span class="nav-icon">⏱️</span>
+          <span class="nav-text">Exam Simulator</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="daily">
+          <span class="nav-icon">⚡</span>
+          <span class="nav-text">Daily Challenge</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="slide">
+          <span class="nav-icon">📖</span>
+          <span class="nav-text">Slide Review</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="multiplayer">
+          <span class="nav-icon">⚔️</span>
+          <span class="nav-text">Multiplayer Arena</span>
+        </button>
+
+        <div class="drawer-section-label" style="margin-top: 1.25rem;">REVIEW & NOTEBOOK</div>
+        <button class="drawer-nav-btn" data-view="history">
+          <span class="nav-icon">📈</span>
+          <span class="nav-text">History & Notebook</span>
+        </button>
+        <button class="drawer-nav-btn" data-view="bookmarks">
+          <span class="nav-icon">⭐</span>
+          <span class="nav-text">Bookmarks & Deck</span>
+        </button>
+      </div>
+
+      <div class="drawer-footer">
+        <small>MedMaster v1.1 · 7,369 Questions</small>
+      </div>
+    </aside>
+
+    <header class="app-header">
+      <div class="container flex header-container" style="justify-content: space-between; align-items: center;">
+        <div class="flex" style="align-items: center; gap: 0.85rem;">
+          <button id="nav-drawer-toggle" class="btn-hamburger" aria-label="Open Navigation Menu" onclick="App.toggleDrawer()">
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+            <span class="hamburger-bar"></span>
+          </button>
+          <div class="brand-group">
+            <h1 class="app-title">MedMaster</h1>
+            <span class="app-subtitle">Preclinical CBT</span>
+          </div>
+        </div>
+        <div id="auth-user-badge" class="auth-user-badge"></div>
+      </div>
+    </header>
+
+    <main class="main-content" id="app">
+      <div id="view-container"></div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <small>© 2026 MedMaster</small>
+      </div>
+    </footer>
+  </div>
+
+  <!--
+    Load order with cache‑busting (v=2)
+  -->
+  <script src="supabase.js?v=2"></script>
+  <script src="multiplayer.js?v=2"></script>
+  <script src="questions.js?v=2"></script>
+  <script src="script.js?v=2"></script>
+
+  <!-- A tiny console log to confirm HTML loaded -->
+  <script>
+    console.log('✅ index.html loaded with cache‑busting v=2');
+  </script>
+</body>
+</html>
