@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0b2b4a" />
+  <title>MedMaster – Preclinical CBT</title>
+  <!-- When you upload new files, raise this number (here and in the links below)
+       so every student's phone picks up the new version. -->
+  <script>window.MM_VERSION = '3';</script>
+  <link rel="stylesheet" href="style.css?v=3" />
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0/dist/umd/supabase.js"></script>
+</head>
+<body>
+
+  <!-- Shown for a moment while the app checks whether you are already signed in -->
+  <div id="splash" class="splash">
+    <div class="splash-mark" aria-hidden="true"></div>
+    <p class="splash-name" data-brand="name">MedMaster</p>
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Sign-in screen -->
+  <div id="auth" class="auth" hidden>
+    <div class="auth-card">
+      <div class="auth-mark" aria-hidden="true"></div>
+      <h1 class="auth-title" data-brand="name">MedMaster</h1>
+      <p class="auth-kicker" data-brand="tagline">Preclinical CBT</p>
+      <p class="auth-intro" data-brand="intro">Build reliable recall, practise clinical reasoning, and keep your progress in one place.</p>
+
+      <div class="seg seg-wide auth-tabs">
+        <button type="button" class="seg-btn is-on" data-act="auth.tab" data-tab="login">Sign in</button>
+        <button type="button" class="seg-btn" data-act="auth.tab" data-tab="register">Create account</button>
+      </div>
+
+      <div id="auth-message" class="notice" role="status" hidden></div>
+
+      <form data-pane="login" data-submit="auth.login" novalidate>
+        <label class="field-label" for="login-email">Email</label>
+        <input class="input" id="login-email" name="email" type="email" autocomplete="email" inputmode="email" />
+        <label class="field-label" for="login-password">Password</label>
+        <input class="input" id="login-password" name="password" type="password" autocomplete="current-password" />
+        <button class="btn btn-primary btn-block" type="submit">Sign in</button>
+        <button type="button" class="link" data-act="auth.tab" data-tab="forgot">Forgot your password?</button>
+      </form>
+
+      <form data-pane="register" data-submit="auth.register" novalidate hidden>
+        <label class="field-label" for="reg-name">Display name <span class="muted">(shown on leaderboards)</span></label>
+        <input class="input" id="reg-name" name="displayName" type="text" autocomplete="name" maxlength="40" />
+        <label class="field-label" for="reg-email">Email</label>
+        <input class="input" id="reg-email" name="email" type="email" autocomplete="email" inputmode="email" />
+        <label class="field-label" for="reg-password">Password <span class="muted">(at least 6 characters)</span></label>
+        <input class="input" id="reg-password" name="password" type="password" autocomplete="new-password" />
+        <button class="btn btn-primary btn-block" type="submit">Create account</button>
+      </form>
+
+      <form data-pane="forgot" data-submit="auth.forgot" novalidate hidden>
+        <p class="muted">Enter the email you registered with and we will send a link to choose a new password.</p>
+        <label class="field-label" for="forgot-email">Email</label>
+        <input class="input" id="forgot-email" name="email" type="email" autocomplete="email" inputmode="email" />
+        <button class="btn btn-primary btn-block" type="submit">Send reset link</button>
+        <button type="button" class="link" data-act="auth.tab" data-tab="login">Back to sign in</button>
+      </form>
+
+      <form data-pane="newpass" data-submit="auth.newpass" novalidate hidden>
+        <p class="muted">Choose a new password for your account.</p>
+        <label class="field-label" for="new-password">New password</label>
+        <input class="input" id="new-password" name="password" type="password" autocomplete="new-password" />
+        <button class="btn btn-primary btn-block" type="submit">Save new password</button>
+      </form>
+
+      <div class="auth-guest">
+        <button type="button" class="btn btn-ghost btn-block" data-act="auth.guest">Continue as guest</button>
+        <p class="muted">Guest progress stays on this device. It moves into your account when you sign in.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- The app -->
+  <div id="shell" class="shell" hidden>
+    <div class="nav-backdrop" data-act="nav.close"></div>
+    <aside class="drawer" aria-label="Menu">
+      <div class="drawer-brand">
+        <div class="brand-mark" aria-hidden="true"></div>
+        <div><strong data-brand="name">MedMaster</strong><span data-brand="tagline">Preclinical CBT</span></div>
+        <button class="icon-btn drawer-close" data-act="nav.close" aria-label="Close menu">✕</button>
+      </div>
+      <nav id="nav-list" class="nav-list"></nav>
+      <div class="drawer-foot" id="nav-foot"></div>
+    </aside>
+
+    <div class="main-col">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" data-act="nav.toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+        <strong class="topbar-name" data-brand="name">MedMaster</strong>
+        <div id="header-right" class="topbar-right"></div>
+      </header>
+      <main id="view" class="view"></main>
+      <footer class="foot"><small data-brand="footer">© 2026 MedMaster</small></footer>
+    </div>
+  </div>
+
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="modal-root"></div>
+
+  <script src="supabase.js?v=3"></script>
+  <script src="script.js?v=3"></script>
+  <script src="multiplayer.js?v=3"></script>
+  <script src="admin.js?v=3"></script>
+</body>
+</html>
